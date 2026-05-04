@@ -3,8 +3,8 @@ title: AI Consulting
 category: concept
 summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge
 tags: [ai-consulting, consulting, gtm, solo-operator, 3ps]
-sources: 2
-updated: 2026-05-03
+sources: 3
+updated: 2026-05-04
 ---
 
 # AI Consulting
@@ -73,8 +73,17 @@ Each pillar gets copy-paste templates. Saraev claims agencies have scaled to **$
 | [[nick-saraev]] | Frameworks | 26K views/video | Maker School (skool) |
 | [[nate-herk]] | Operator | 56K views/consulting video | AI Automation School (skool) |
 | Nick Tan | Local biz | 8K views | Consulting Profits (skool) |
+| [[brock-mesarich]] | "Non-techies" / skill-bundle | 134.9K views (single curation video) | Skool (50+ skills) |
 
-All four use Skool. Pattern: YouTube long-form → Skool community → done-for-you / coaching.
+All five use Skool. Pattern: YouTube long-form → Skool community → done-for-you / coaching. **Brock's $80K/month no-employees claim** ([[youtube-digest-apify-2026-05-04]] #2) is a fresh credibility anchor in the same revenue tier as [[nate-herk]]'s $231K-in-30-days framing — and his "for non techies" audience framing is the broadest of the five, suggesting the consulting-buyer audience extends beyond the developer-leaning operator persona.
+
+## Institutional counter-weight ([[y-combinator]])
+
+[[youtube-digest-apify-2026-05-04]] #1 (YC Office Hours) adds a non-creator, non-operator institutional voice to the AI-consulting topic. Two chapters bear directly:
+
+- **"Building an AI company in a legacy industry"** (0:36) — YC partners' opening question is exactly the wedge [[mark-kashef]] recommends ("pick a vertical"). Institutional confirmation that vertical-specialized AI is live.
+- **"The power of technically challenging problems"** (26:07) — moat thesis; argues the [[ai-consulting]] worry that "AI commoditizes everything" is wrong for technically-deep problems. Useful counter to the [[mark-kashef]] anxiety that legacy moats have collapsed — *some* moats remain, just not the ones legacy consulting depended on.
+- **"When to start hiring"** (30:42) — solo-to-team transition framing relevant to AI-consulting operators scaling past $25K-$80K MRR.
 
 ## Contrasts with
 
@@ -101,6 +110,8 @@ This is the user's primary positioning category. Implications:
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — 4 videos, all four frame
 - [[youtube-digest-2026-05-03-r3]] — Saraev's 5-pillar blueprint (#3)
-- [[mark-kashef]], [[nick-saraev]], [[nate-herk]] — entity pages
+- [[youtube-digest-apify-2026-05-04]] — Brock's $80K/month + YC Office Hours institutional take
+- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]] — operator entity pages
+- [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - (Future) [[3ps-consulting]] — eventual entity page for the user's offering

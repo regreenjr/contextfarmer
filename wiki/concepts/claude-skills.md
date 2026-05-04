@@ -3,8 +3,8 @@ title: Claude Skills
 category: concept
 summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; "best of N skills" curation videos now mainstream
 tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace]
-sources: 3
-updated: 2026-05-03
+sources: 4
+updated: 2026-05-04
 ---
 
 # Claude Skills
@@ -47,11 +47,14 @@ The category has crossed from "early adopter only" to "explain-to-creators" main
 
 ## Curation problem and emerging solutions
 
-- **"Best of N skills" videos** ([[nate-herk]] #25) are an emerging format — implies skill abundance has outpaced user evaluation capacity
+- **"Best of N skills" videos** ([[nate-herk]] #25, [[brock-mesarich]] in [[youtube-digest-apify-2026-05-04]]) are an emerging format — implies skill abundance has outpaced user evaluation capacity. Two distinct curation philosophies are visible:
+  - **Best-of-N from large sample** — [[nate-herk]] #25 ("6 of 100+ tested"), 47K views
+  - **Curated essentials bundle** — [[brock-mesarich]] ("15 I can't live without"), **134.9K views** — higher-view despite smaller channel; non-technical audience preference for "tell me what to install" over "here's how I evaluated"
 - **Skill marketplaces** are emerging:
   - `claude-plugins-official` (Anthropic-distributed)
   - Community marketplaces (e.g., `mksglu/context-mode`, `thedotmack/claude-mem`)
   - [[brad-bonanno]] is building a verified-skills marketplace (waitlist mentioned in #19, #23)
+- **Single-plugin bundle distribution** ([[brock-mesarich]]) — packaging multiple skills as one plugin install; lowers friction for non-technical users vs per-skill installs. Different distribution philosophy from `claude-plugins-official`'s per-skill model.
 - **Curation videos as discovery layer** — until marketplace ratings exist, creator curation is the de facto signal
 
 ## Top-rated skills surfaced (per [[nate-herk]] #25)
@@ -100,5 +103,5 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]]
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]]

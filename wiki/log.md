@@ -26,3 +26,7 @@ yt-search query='Claude Code AI automation skill', 7 videos found, saved digest 
 ## [2026-05-03] ingest | YouTube Digest (Apify, batch 3) — AI creators + Claude topics — 2026-05-03
 
 5-video batch 3 digest. Created: sources/youtube-digest-2026-05-03-r3, entities/{tommy-chryst, jeanne-dewitt-grosser, lenny-rachitsky}, concepts/gtm-2026. Updated: entities/{grace-leung, nick-saraev, brad-bonanno}; concepts/{claude-code, ai-consulting, claude-design, claude-skills, karpathy-llm-wiki}; index regenerated to 30 pages.
+
+## [2026-05-04] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-04
+
+2-video batch (30 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-04, entities/{brock-mesarich, y-combinator}. Updated: concepts/{claude-skills, claude-code, gtm-2026, ai-consulting}; index regenerated to 33 pages.

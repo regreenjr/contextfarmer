@@ -3,8 +3,8 @@ title: Claude Code
 category: concept
 summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026
 tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory]
-sources: 3
-updated: 2026-05-03
+sources: 4
+updated: 2026-05-04
 ---
 
 # Claude Code
@@ -44,6 +44,7 @@ updated: 2026-05-03
 - [[grace-leung]] — vertical-specific (marketing) practitioner content
 - [[brad-bonanno]] — context-farming, second-brain, usage-limit optimization
 - [[code-with-beto]] — skill authoring best practices
+- [[brock-mesarich]] — non-technical-audience skill curation; single-plugin bundle distribution (134.9K views on his 15-skill bundle, [[youtube-digest-apify-2026-05-04]])
 - Confluent Developer (Tim Berglund) — Skills vs MCP architectural framings
 - [[nate-b-jones]] — analyst/strategy framings
 
@@ -91,5 +92,5 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]] — primary source digests
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]] — primary source digests
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]]
