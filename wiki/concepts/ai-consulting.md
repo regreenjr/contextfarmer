@@ -1,0 +1,92 @@
+---
+title: AI Consulting
+category: concept
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps]
+sources: 1
+updated: 2026-05-03
+---
+
+# AI Consulting
+
+## Definition
+A consulting practice where AI tooling (Claude Code, Skills, MCP, agents) is the primary delivery substrate. Distinguishing claim: a solo or boutique operator using AI can match or outpace legacy consulting firms (BCG, McKinsey, etc.) on speed, depth, and price — because the "tacit knowledge moat" that justified those firms' pricing has collapsed.
+
+The category is **the central wedge** of the user's 3Ps positioning, and **a hot YouTube category** as of 2026: 4 of 28 videos in [[youtube-digest-apify-2026-05-03]] are explicit AI-consulting pitches.
+
+## Origin
+Not a new term, but the 2025-2026 reframe is. Multiple voices compounding:
+- **Macro thesis**: [[mark-kashef]] — "2026 is the golden age" (#21)
+- **Framework-first**: [[nick-saraev]] — driver trees + FAST + business acumen + communication (#7)
+- **Tactical operator**: [[nate-herk]] — "$231K in 30 days" + 2-path framework (#15)
+- **Local market wedge**: Nick Tan — "easiest $9K/month selling AI to local biz" (#5)
+
+## Key claims (from [[youtube-digest-apify-2026-05-03]])
+
+### The "why now" (per [[mark-kashef]] #21)
+- Consulting knowledge moat collapsed — what required 5 years of accumulated tacit experience is now retrievable + applicable in days
+- AI democratizes tacit knowledge — solo can research as fast as a McKinsey team
+- Asset delivery shrinks from months to days
+- Reusable industry-specific systems compound — implies "vertical SaaS-flavored consulting" is the dominant form
+
+### The "how" (per [[nick-saraev]] #7)
+- AI consulting is **consulting first, AI second**
+- Apply structured frameworks: driver trees, FAST, business acumen, problem-first communication
+- Tech is a multiplier, not a differentiator
+
+### Two business model paths (per [[nate-herk]] #15)
+- **Strategy / training** — you sell knowledge, framework, content, community
+- **Done-for-you implementation** — you sell shipped systems
+- Both scale; choice is positioning, not feasibility
+
+### Local-market wedge (per Nick Tan #5)
+- Local businesses (dentists, contractors, service providers) are easier-to-close, less-saturated than enterprise
+- "$9K/month" framing is the entry-level easy-money pitch
+- Competes with [[nate-herk]]'s framing on "where to start" — both valid
+
+### Common opportunity matrix
+- AI strategy
+- Digital transformation
+- SOP generation
+- Workflow automation
+- Prompt engineering
+- RAG / knowledge systems
+- **Niche specialization** — emphasized by [[mark-kashef]] as the way to win
+
+## Voices currently working this wedge
+
+| Creator | Angle | Audience | Community |
+|---|---|---|---|
+| [[mark-kashef]] | Macro thesis | 11K views/video | Early AIdopters (skool) |
+| [[nick-saraev]] | Frameworks | 26K views/video | Maker School (skool) |
+| [[nate-herk]] | Operator | 56K views/consulting video | AI Automation School (skool) |
+| Nick Tan | Local biz | 8K views | Consulting Profits (skool) |
+
+All four use Skool. Pattern: YouTube long-form → Skool community → done-for-you / coaching.
+
+## Contrasts with
+
+- **Legacy consulting** ([[mark-kashef]] frame) — slow, expensive, knowledge-moat-dependent; under existential pressure
+- **Pure SaaS** — selling product vs selling outcome; AI consulting deliberately stays in the outcome layer
+- **AI agency / dev shop** — closer cousin, but agency framing emphasizes execution; consulting framing emphasizes strategy + execution
+
+## Open questions / disagreements
+
+- ⚠️ **Local biz vs enterprise** wedge — Nick Tan #5 says local biz is "easiest"; [[nate-b-jones]]'s enterprise content (#16) implies the real money is in enterprise procurement battles. Both can be true (different operators, different stages) but the entry recommendations diverge.
+- ⚠️ **Strategy vs done-for-you** — [[nate-herk]] #15 says both work; [[mark-kashef]] #21 implies done-for-you with reusable systems is the long-term winner. Open empirically.
+- **Skool dominance** — is this stage-of-cycle (current creator default) or structural (right tool for the consulting community model)?
+- **Anthropic's enterprise moves** ([[anthropic]]) may compress this category — if Claude becomes the default infrastructure inside SAP / Atlassian / Microsoft, the "I'll automate your workflow" pitch loses urgency
+
+## Why it matters for 3Ps
+
+This is the user's primary positioning category. Implications:
+- **Competitive map**: 4 visible voices, all using Skool, all framing 2026 as the wedge → market is real, market is contested
+- **Differentiation hooks**:
+  - The user's **wiki + farmer architecture** is more sophisticated than any of these creators publish; that's a unique IP anchor
+  - Vertical specialization (per [[mark-kashef]]) is the recommended moat — pick a vertical
+- **Content gaps**: deep operational content on context-farming, multi-skill orchestration, and wiki-as-deliverable is underrepresented vs. macro-thesis and intro-tutorial content
+
+## Used in
+- [[youtube-digest-apify-2026-05-03]] — 4 videos, all four frame
+- [[mark-kashef]], [[nick-saraev]], [[nate-herk]] — entity pages
+- (Future) [[3ps-consulting]] — eventual entity page for the user's offering
