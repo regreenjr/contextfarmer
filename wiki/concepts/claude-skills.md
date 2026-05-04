@@ -3,7 +3,7 @@ title: Claude Skills
 category: concept
 summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; "best of N skills" curation videos now mainstream
 tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace]
-sources: 2
+sources: 3
 updated: 2026-05-03
 ---
 
@@ -71,6 +71,7 @@ npx get-shit-done-cc --claude --global
 ## Vertical applications
 
 - **Marketing** ([[grace-leung]] #1) — 5-agent marketing team + 12 skills covering research/write/design/analyze, Notion task board integration, remote control via phone
+- **Marketing skill-stack architecture** ([[grace-leung]] #2 in [[youtube-digest-2026-05-03-r3]]) — Brand Voice → Brand Design System → Campaign Planning → Carousel Design → Animated Motion → Campaign Manager Agent. Publishable as a reusable architectural template, not just a tutorial.
 - **Knowledge management** ([[brad-bonanno]] #23, this vault) — context farmers + wiki ingest skills
 - **Design** ([[claude-design]] integration via skills)
 - **Development** ([[code-with-beto]]'s AI Tattoo App, $100 MRR demo)
@@ -99,5 +100,5 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]]
 - Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]]

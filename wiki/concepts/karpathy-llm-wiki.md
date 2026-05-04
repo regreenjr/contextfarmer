@@ -3,7 +3,7 @@ title: Karpathy LLM Wiki
 category: concept
 summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time
 tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge]
-sources: 1
+sources: 2
 updated: 2026-05-03
 ---
 
@@ -37,6 +37,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 | Teacher's Tech #20 | Beginner generic | Obsidian Web Clipper for ingest, lint step explicit |
 | **This vault** | 3Ps consulting + GTM playbook | Claude Code skills (`farmer`, `wiki-ingest`, `wiki-query`, `wiki-lint`), per-source farmer configs |
 | [[brad-bonanno]] #23 | Company brain | Slack + Fireflies MCP feed via [[context-farming]] |
+| [[tommy-chryst]] #1 (r3) | "PhD-level research" generic vault | Tier-3 small-channel walkthrough; positioned as ChatGPT deep-research alternative; signals pattern past tip-of-funnel |
 
 ## Contrasts with
 - **[[openbrain]]** (OpenAI's memory product) — see [[karpathy-wiki-vs-openbrain]] for the full comparison; OpenBrain synthesizes at query time, LLM Wiki compiles at write time
@@ -58,9 +59,25 @@ The user's entire knowledge architecture *is* this pattern. Implications:
 3. **Productization opportunity**: a "3Ps Wiki Starter Kit" (this repo, generalized) could be a lead magnet or paid product
 4. **Content angle**: the user can credibly publish wiki implementation content (vault structure, farmer configs, lint scripts) to creators currently watching [[nate-herk]] / [[teachers-tech]]
 
+## Adoption-tier signal
+
+Implementations now span all creator tiers:
+
+| Tier | Subs/views range | Example | Date |
+|---|---|---|---|
+| Tier 1 (mainstream) | 100K+ subs | [[nate-herk]] (708K subs, 459K views) | April 2026 |
+| Tier 2 (educator) | 200K-1M | Teacher's Tech (259K views) | April 2026 |
+| Tier 3 (small) | sub-15K views | [[tommy-chryst]] (14.6K views) | April 2026 |
+| Vertical | n/a | [[tonbi-onchain-ai-garage]] (trading) | April 2026 |
+| Operator | n/a | [[brad-bonanno]] (company brain) | April 2026 |
+
+Conclusion: the pattern is past the early-adopter trough; "I built an LLM Wiki" is no longer differentiating. Differentiation now lives in **what's in the wiki and how well the farmers feed it**, not in having one at all.
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — primary citation
+- [[youtube-digest-2026-05-03-r3]] — Tommy Chryst's tier-3 walkthrough
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
 - [[andrej-karpathy]] — author
 - [[context-farming]] — the upstream feeder pattern
+- [[tommy-chryst]] — small-channel implementer
 - This vault's `CLAUDE.md` — the schema definition

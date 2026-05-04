@@ -22,3 +22,7 @@ yt-search query='Claude Code AI automation skill', 7 videos found, saved digest 
 ## [2026-05-03] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-03
 
 28-video Apify digest. New: sources/youtube-digest-apify-2026-05-03; entities/{andrej-karpathy,nate-b-jones,anthropic,brad-bonanno,nick-saraev,mark-kashef,code-with-beto,tonbi-onchain-ai-garage}; concepts/{karpathy-llm-wiki,ai-consulting,context-farming,mcp,agent-substrate,agentic-commerce,claude-design,vibe-coding}; comparisons/karpathy-wiki-vs-openbrain. Updated: concepts/{claude-code,claude-skills}; entities/{nate-herk,grace-leung}.
+
+## [2026-05-03] ingest | YouTube Digest (Apify, batch 3) — AI creators + Claude topics — 2026-05-03
+
+5-video batch 3 digest. Created: sources/youtube-digest-2026-05-03-r3, entities/{tommy-chryst, jeanne-dewitt-grosser, lenny-rachitsky}, concepts/gtm-2026. Updated: entities/{grace-leung, nick-saraev, brad-bonanno}; concepts/{claude-code, ai-consulting, claude-design, claude-skills, karpathy-llm-wiki}; index regenerated to 30 pages.

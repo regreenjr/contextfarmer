@@ -1,9 +1,9 @@
 ---
 title: Claude Design
 category: concept
-summary: Anthropic's design tool (April 2026); generates design systems, decks, landing pages, mobile prototypes, launch videos; chains into Claude Code for deploy
+summary: Anthropic's design tool (April 2026); generates design systems, decks, landing pages, mobile prototypes, launch videos; chains into Claude Code for deploy; "design system → skill library" handoff is the canonical marketing-stack pattern
 tags: [claude-design, anthropic, design-tool, claude-code]
-sources: 1
+sources: 2
 updated: 2026-05-03
 ---
 
@@ -52,8 +52,16 @@ Anthropic's design tool (released ~April 2026). Generates design systems, pitch 
 - **End-to-end demos**: 2-hour brand build is a credible demo asset for sales conversations
 - **Vendor lock-in vs portability**: deliverables need to be portable; understanding what Claude Design exports (Figma? Code? PDF?) determines whether it's the deliverable substrate or a generation step
 
+## Design → Skills handoff pattern ([[grace-leung]] in [[youtube-digest-2026-05-03-r3]] #2)
+
+Grace's *Claude Design + Claude Skills* video codifies the canonical handoff: Claude Design generates the design system; that system is then **extracted into a Brand Design System skill** (timestamp 02:36 *Extracting Your Design System with Claude Design*, 04:21 *Brand Design System skill*) that downstream Skills (Carousel, Animated Motion, etc.) consume.
+
+This is the architectural pattern that turns Claude Design from "one-off generator" into "source of truth for every downstream marketing asset". Cleanest worked example in the wiki of the [[claude-design]] → [[claude-skills]] dependency.
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — [[nate-herk]] #18
+- [[youtube-digest-2026-05-03-r3]] — [[grace-leung]] #2 (Design → Skills handoff)
 - [[anthropic]] — product
 - [[claude-code]] — deployment chain dependency
-- [[nate-herk]] — primary observed user/educator
+- [[claude-skills]] — downstream consumer pattern
+- [[nate-herk]], [[grace-leung]] — primary observed users/educators

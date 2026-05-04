@@ -1,9 +1,9 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks; canonical AI-creator topic of 2026
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines]
-sources: 2
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory]
+sources: 3
 updated: 2026-05-03
 ---
 
@@ -22,6 +22,9 @@ updated: 2026-05-03
 - **Sub-agents** — dispatched specialized agents (e.g. [[wiki-ingestor]])
 - **Hooks** — event-driven shell commands configured via settings.json
 - **Routines** — scheduled cloud-running agents (April 2026); the scheduling primitive for [[context-farming]]
+- **Channels** (Telegram, etc.) — first-party messaging surfaces; per [[brad-bonanno]] in [[youtube-digest-2026-05-03-r3]] #4, Channels obsoletes the OpenClaude open-source Telegram-Claude bridge
+- **Scheduled Tasks** (`/loop` command) — cron-style scheduling without VPS or Docker; the substrate behind this vault's farmer scheduling
+- **Auto Memory** — persistent file-based memory at `~/.claude/projects/.../memory/`; types: user, feedback, project, reference (per the user's global CLAUDE.md auto-memory section)
 - **Slash commands** — user-invocable skill bindings (e.g. `/wiki-ingest`)
 - **Plugins / marketplaces** — `claude-plugins-official` and community marketplaces; install path for skills like `skill-creator`, `superpowers`, `frontend-design`, etc. ([[nate-herk]] #25 in [[youtube-digest-apify-2026-05-03]])
 
@@ -59,6 +62,13 @@ updated: 2026-05-03
 - **Playwright integration** ([[nate-herk]] #12) — browser automation as a skill
 - **Tricks/hacks compilation videos** ([[nate-herk]] #17 *32 Tricks*) — the topic is mature enough for "shortcut" content
 
+## Patterns added in [[youtube-digest-2026-05-03-r3]]
+
+- **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
+- **Mobile-first Claude.md** ([[brad-bonanno]] #4) — short responses, progress updates, auto-memory checks, permission guardrails. Codifies a "phone audience" prompt-engineering style different from desktop Claude Code.
+- **Skill-stack architectural templates** ([[grace-leung]] #2 in r3) — vertical skill libraries (Brand Voice → Brand Design System → Campaign Planning → Carousel Design → Animated Motion → Campaign Manager Agent) are publishable as architectural templates, not just demos
+- **PhD-research framing** ([[tommy-chryst]] #1 in r3) — Claude Code-hosted [[karpathy-llm-wiki]] is now positioned as a "ChatGPT deep research alternative" by sub-15K-view creators
+
 ## Why it matters for 3Ps
 
 Claude Code is the substrate for the entire 3Ps consulting offering. The wiki itself runs on Claude Code (Skills, sub-agents, slash commands, Routines). Tracking ecosystem shifts here = direct input to:
@@ -81,5 +91,5 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]] — primary source digests
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]] — primary source digests
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]]

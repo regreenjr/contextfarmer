@@ -3,7 +3,7 @@ title: Grace Leung
 category: entity
 summary: Marketing-focused AI YouTuber (136K subs); explicit "marketing automation via Claude Skills" angle — closest creator analog to 3Ps positioning; 222K-view AI Marketing Team build is the canonical vertical-app demo
 tags: [creator, youtube, claude-skills, marketing, ai-marketing, hubspot]
-sources: 2
+sources: 3
 updated: 2026-05-03
 ---
 
@@ -21,7 +21,21 @@ YouTube channel: **Grace Leung** — 136.0K subs.
 ## Recent activity
 
 - 2026-03-28: *Claude Code: Build Your Full AI Marketing Team (Agents + Claude Skills)* — **222K views**, [[youtube-digest-apify-2026-05-03]] #1. HubSpot sponsored. **Top non-Karpathy/non-Anthropic video in the digest.**
-- 2026-04-25: *Claude Design + Claude Skills: Automate Your Marketing (Claude Code)* — 29K views, [[youtube-digest-2026-05-03]] (yt-search variant)
+- 2026-04-25: *Claude Design + Claude Skills: Automate Your Marketing (Claude Code)* — 29K views, [[youtube-digest-2026-05-03]] (yt-search variant), re-surfaced in [[youtube-digest-2026-05-03-r3]] #2
+
+## Skill stack from #2 *Claude Design + Skills* (timestamp-decoded)
+
+The video's structure is itself a reusable architectural template — five explicit skills, one orchestrating agent:
+
+1. **Brand Voice Skill** (01:46) — codifies tone/voice; loaded as base context for all marketing assets
+2. **Brand Design System Skill** (04:21) — derived from [[claude-design]] export (timestamp 02:36 *Extracting Your Design System with Claude Design*)
+3. **Campaign Planning Skill** (04:51) — top-of-funnel planning artifact
+4. **Carousel Design Skill** (06:26) — produces the recurring social-asset format
+5. **Animated Motion Skill** (09:40) — motion graphics / video-asset generation
+6. **Campaign Manager Agent** (11:34) — orchestrating sub-agent that calls the above skills (12:17 *Orchestration between skills*)
+7. **Skills Library** (14:17) — bundling for re-use / distribution
+
+This is **the canonical [[claude-design]] → [[claude-skills]] handoff pattern** in the wiki: Design generates the system, Skills replay it across asset types.
 
 ## Key claims (from #1 *AI Marketing Team*, [[youtube-digest-apify-2026-05-03]])
 
@@ -63,7 +77,7 @@ This means:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]]
 - [[claude-skills]] — primary topic
 - [[claude-code]] — substrate
 - [[claude-design]] — sibling product she covers

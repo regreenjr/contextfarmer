@@ -3,7 +3,7 @@ title: AI Consulting
 category: concept
 summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge
 tags: [ai-consulting, consulting, gtm, solo-operator, 3ps]
-sources: 1
+sources: 2
 updated: 2026-05-03
 ---
 
@@ -38,6 +38,18 @@ Not a new term, but the 2025-2026 reframe is. Multiple voices compounding:
 - **Strategy / training** — you sell knowledge, framework, content, community
 - **Done-for-you implementation** — you sell shipped systems
 - Both scale; choice is positioning, not feasibility
+
+### Five-pillar operator blueprint (per [[nick-saraev]] #3 in [[youtube-digest-2026-05-03-r3]])
+
+The customer-journey decomposition that maps to the actual agency build:
+
+1. **Marketing** — Upwork profiles, cold email formulas, content templates, ICP definition
+2. **Sales** — call scripts, discovery decks, proposal templates
+3. **Onboarding** — client intake SOPs, kickoff checklists
+4. **Fulfillment** — automation templates, full workflow library, delivery cadences
+5. **Retention** — macros, replies, ongoing-engagement templates, expansion plays
+
+Each pillar gets copy-paste templates. Saraev claims agencies have scaled to **$25K/month and beyond** using the pattern. This is the **operator-level "how to set up the agency"** counterpart to his earlier framework-level video. Maps directly to a 3Ps services menu and is a forcing function for [[gtm-2026]]'s GTM-engineer role description.
 
 ### Local-market wedge (per Nick Tan #5)
 - Local businesses (dentists, contractors, service providers) are easier-to-close, less-saturated than enterprise
@@ -88,5 +100,7 @@ This is the user's primary positioning category. Implications:
 
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — 4 videos, all four frame
+- [[youtube-digest-2026-05-03-r3]] — Saraev's 5-pillar blueprint (#3)
 - [[mark-kashef]], [[nick-saraev]], [[nate-herk]] — entity pages
+- [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - (Future) [[3ps-consulting]] — eventual entity page for the user's offering
