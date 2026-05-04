@@ -18,10 +18,12 @@ fetcher_args:
   label: "AI creators + Claude topics"
 raw_path: "raw/youtube/digest-{date}.md"
 json_sidecar_path: "raw/youtube/digest-{date}.json"
+state_path: "farmers/state/ai-creators-youtube.json"   # video-ID dedup; tracked in git so cloud routines have it
 ingest: auto
-dedup_by: file-exists
+ingest_skip_if_zero_new: true                          # skip /wiki-ingest if digest reports 0 new videos
+dedup_by: state-file                                   # per-video dedup via state_path; replaces file-exists
 last_run: 2026-05-03
-schedule_cron: "0 6 * * *"
+schedule_cron: "30 5 * * *"                            # 5:30 AM Pacific (set via /schedule --timezone)
 auto_commit: true
 requires_env: [APIFY_TOKEN]
 ---
@@ -89,7 +91,21 @@ python ~/.claude/skills/farmer/scripts/apify_youtube.py \
   --max-per-source 5 \
   --output "$HOME/Obsidian/Wiki/raw/youtube/digest-$(date +%Y-%m-%d).md" \
   --json "$HOME/Obsidian/Wiki/raw/youtube/digest-$(date +%Y-%m-%d).json" \
+  --state "$HOME/Obsidian/Wiki/farmers/state/ai-creators-youtube.json" \
   --label "AI creators + Claude topics"
 ```
 
-After write, the farmer skill calls `/wiki-ingest` on the digest file.
+After write, the farmer skill checks the digest's `video_count` frontmatter:
+- `> 0` → call `/wiki-ingest` on the digest
+- `== 0` → log "no new videos" and skip (saves tokens; no point ingesting an empty digest)
+
+## Dedup state
+
+The `state_path` JSON tracks the most recent 1000 video IDs seen across runs.
+On each run, Apify returns N videos per source; videos whose IDs are in state
+are filtered out. Only NEW videos appear in the digest.
+
+The state file is **tracked in git** so cloud routines have access to it
+(otherwise every cloud run would start with empty state and re-ingest everything).
+
+Inspect: `cat ~/Obsidian/Wiki/farmers/state/ai-creators-youtube.json | jq`
