@@ -1,4 +1,4 @@
-# 3Ps-Wiki — LLM Wiki
+# Wiki — LLM Wiki
 
 > **Topic:** 3Ps AI consulting + GTM playbook + AI creator landscape + competitive intel
 > **Initialized:** 2026-05-03

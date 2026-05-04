@@ -87,8 +87,8 @@ python ~/.claude/skills/farmer/scripts/apify_youtube.py \
   --channels "@bradbonanno" "@nateherk" "@natebjones" "@grace-leung" "@jackroberts" \
   --keywords "Claude Code skill marketplace" "Karpathy LLM wiki" "AI consulting GTM" \
   --max-per-source 5 \
-  --output "$HOME/Obsidian/3Ps-Wiki/raw/youtube/digest-$(date +%Y-%m-%d).md" \
-  --json "$HOME/Obsidian/3Ps-Wiki/raw/youtube/digest-$(date +%Y-%m-%d).json" \
+  --output "$HOME/Obsidian/Wiki/raw/youtube/digest-$(date +%Y-%m-%d).md" \
+  --json "$HOME/Obsidian/Wiki/raw/youtube/digest-$(date +%Y-%m-%d).json" \
   --label "AI creators + Claude topics"
 ```
 

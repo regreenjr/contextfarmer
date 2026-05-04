@@ -1,4 +1,4 @@
-# Index — 3Ps-Wiki
+# Index — Wiki
 
 _Auto-generated 2026-05-03 • 7 pages_
 

@@ -1,4 +1,4 @@
-# Log — 3Ps-Wiki
+# Log — Wiki
 
 > Append-only timeline. Every LLM operation leaves an entry here.
 >

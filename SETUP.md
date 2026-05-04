@@ -1,4 +1,4 @@
-# 3Ps-Wiki — Setup & Operating Guide
+# Wiki — Setup & Operating Guide
 
 Self-updating Karpathy-style LLM wiki for 3Ps consulting + GTM playbook + competitive intel.
 
@@ -32,7 +32,7 @@ Sources (real world)
 └──────────────┬──────────────────────────┘
                │
                ▼
-       ~/Obsidian/3Ps-Wiki/wiki/
+       ~/Obsidian/Wiki/wiki/
        (entities · concepts · sources ·
         comparisons · synthesis)
                │
@@ -48,8 +48,8 @@ Sources (real world)
 | Sub-agents | `~/.claude/agents/wiki-ingestor.md` (+ librarian, linter) | same |
 | Slash commands | `~/.claude/commands/wiki-init.md` (+ ingest, query, lint, log) | same |
 | Farmer skill | `~/.claude/skills/farmer/` | custom — orchestrates your existing source skills |
-| Vault | `~/Obsidian/3Ps-Wiki/` | initialized |
-| Farm configs | `~/Obsidian/3Ps-Wiki/farmers/*.md` | 3 starter configs |
+| Vault | `~/Obsidian/Wiki/` | initialized |
+| Farm configs | `~/Obsidian/Wiki/farmers/*.md` | 3 starter configs |
 
 ## Daily commands
 
@@ -77,7 +77,7 @@ Run any farmer manually first to verify wiring before scheduling:
 
 ## Adding a new farm (5-line addition)
 
-1. `cp ~/Obsidian/3Ps-Wiki/farmers/x-trends.md ~/Obsidian/3Ps-Wiki/farmers/<new>.md`
+1. `cp ~/Obsidian/Wiki/farmers/x-trends.md ~/Obsidian/Wiki/farmers/<new>.md`
 2. Edit frontmatter: `name`, `fetcher_skill`, `fetcher_args`, `raw_path`, `dedup_by`
 3. Edit body: why these sources, what to expect
 4. Test: `/farmer <new>`
@@ -87,7 +87,7 @@ Run any farmer manually first to verify wiring before scheduling:
 
 If a farm needs data the existing skills can't fetch (e.g., Slack DMs, Notion pages, custom scraper):
 1. Either: build an MCP for it (see `/skill-creator` or `/mcp-builder`)
-2. Or: write a one-off Python helper in `~/Obsidian/3Ps-Wiki/farmers/scripts/`
+2. Or: write a one-off Python helper in `~/Obsidian/Wiki/farmers/scripts/`
 3. Reference it in the farm's `fetcher_skill: <new-skill-name>` field
 
 ## Iron rules
@@ -103,25 +103,25 @@ If a farm needs data the existing skills can't fetch (e.g., Slack DMs, Notion pa
 For Brad-style "wake up to a wiki that updated overnight":
 
 ```bash
-cd ~/Obsidian/3Ps-Wiki
+cd ~/Obsidian/Wiki
 git init
 git add -A
 git commit -m "init: 3Ps wiki + farmers"
-gh repo create 3Ps-Wiki --private --source . --push
+gh repo create Wiki --private --source . --push
 ```
 
 Then enable Obsidian Git plugin so the vault auto-pulls changes when farmers commit from the cloud (if you ever migrate farmers to Claude Code Routines that run on Anthropic infra).
 
 ## Obsidian setup
 
-1. Open `~/Obsidian/3Ps-Wiki` as a vault in Obsidian
+1. Open `~/Obsidian/Wiki` as a vault in Obsidian
 2. Recommended plugins: Graph view (built-in), Backlinks, Dataview, Marp, Templates, Git
 3. Settings → Files and links → Attachment folder = `raw/assets/`
 4. Bind Ctrl+Shift+D to "Download attachments for current file" (for clipped articles)
 
 ## Troubleshooting
 
-**Farm runs but no new pages appear:** check `~/Obsidian/3Ps-Wiki/raw/` — files should be there. If not, the fetcher skill failed silently.
+**Farm runs but no new pages appear:** check `~/Obsidian/Wiki/raw/` — files should be there. If not, the fetcher skill failed silently.
 
 **Wiki has duplicates:** `dedup_by` is mis-specified. Check the farm's frontmatter.
 
