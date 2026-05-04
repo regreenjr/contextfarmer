@@ -1,0 +1,252 @@
+[
+  {
+    "title": "My Claude Code Can INSTANTLY Watch Any Video (Here's How)",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "QZMljuD10sU",
+    "url": "https://www.youtube.com/watch?v=QZMljuD10sU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/QZMljuD10sU/maxresdefault.jpg",
+    "viewCount": 53711,
+    "date": "2026-04-29T07:15:03.000Z",
+    "likes": 2700,
+    "location": null,
+    "channelName": "Brad | AI & Automation",
+    "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+    "channelUsername": "bradbonanno",
+    "collaborators": null,
+    "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+    "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+    "channelJoinedDate": "Oct 6, 2025",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Strategy\u00a0Call",
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 15,
+    "channelTotalViews": 204594,
+    "numberOfSubscribers": 6730,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+      "channelJoinedDate": "Oct 6, 2025",
+      "channelDescriptionLinks": [
+        {
+          "text": "AI Strategy\u00a0Call",
+          "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "bradbonanno",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 15,
+      "channelTotalViews": 204594,
+      "numberOfSubscribers": 6730,
+      "isChannelVerified": false,
+      "channelName": "Brad | AI & Automation",
+      "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+      "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+      "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:08:36",
+    "commentsCount": 299,
+    "text": "Watch Skill on GitHub (FREE): https://github.com/bradautomates/clau...\n\nAI Strategy Call: https://cal.com/bradley-bonanno/ai-st...\nConnect with Me: \u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0\nSkills Marketplace Waitlist: https://brad-b.kit.com/f9a7349a1c\n\nClaude Code can't watch video. Anthropic still has not shipped a video model, so by default Claude is blind to anything that lives inside an mp4, a YouTube link, an Instagram reel, or a Loom. Every other transcript tool I tried before this one only ever read the words and missed half of what was actually on screen, which is where most of the interesting stuff in a video lives. This Claude skill fixes that by handing Claude both the frames and the timestamped transcript at once, so it can actually watch any video, not just read its captions.\n\nIn this Claude Code tutorial I walk you through the exact pipeline behind the skill. yt-dlp pulls the file from any of over a thousand sites it supports. ffmpeg slices the video into frames and a clean audio track. Free YouTube captions come in straight from the source when they exist, and Groq Whisper fills the gap when they don't. I run a 45 minute lecture through it in under two minutes, walk through the cost math (about a dollar per run, transcription almost always free on Groq's tier), and finish on the use case that actually changed how I consume content: feeding every video I would have watched manually straight into my Obsidian second brain.\n\nWhether you make YouTube content, run a research-heavy job, manage a flooded inbox, or build software, this skill replaces the manual scrubbing, pausing and re-watching with a paste. It's a Claude agent skill anyone can install in under five minutes, not just developers.\n\nTimestamps\n0:00 \u2014 Intro \n0:52 \u2014 Watch Videos in Minutes\n2:43 \u2014 Setup\n3:43 \u2014 Under the Hood\n5:18 \u2014 The Cost Math\n6:30 \u2014 Analyze Video Hooks\n7:03 \u2014 Review QA Videos\n7:42 \u2014 Content Intelligence",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://github.com/bradautomates/claude-video",
+        "text": "https://github.com/bradautomates/clau..."
+      },
+      {
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call",
+        "text": "https://cal.com/bradley-bonanno/ai-st..."
+      },
+      {
+        "url": "https://www.linkedin.com/in/bradbonanno/",
+        "text": "\u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0"
+      },
+      {
+        "url": "https://brad-b.kit.com/f9a7349a1c",
+        "text": "https://brad-b.kit.com/f9a7349a1c"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=52s",
+        "text": "0:52"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=163s",
+        "text": "2:43"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=223s",
+        "text": "3:43"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=318s",
+        "text": "5:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=390s",
+        "text": "6:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=423s",
+        "text": "7:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=QZMljuD10sU&t=462s",
+        "text": "7:42"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@bradbonanno/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "I FINALLY Stopped Babysitting Claude (Automate Anything)",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "1RdkW1zqv-U",
+    "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U",
+    "thumbnailUrl": "https://i.ytimg.com/vi/1RdkW1zqv-U/maxresdefault.jpg",
+    "viewCount": 7641,
+    "date": "2026-04-22T07:11:10.000Z",
+    "likes": 209,
+    "location": null,
+    "channelName": "Brad | AI & Automation",
+    "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+    "channelUsername": "bradbonanno",
+    "collaborators": null,
+    "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+    "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+    "channelJoinedDate": "Oct 6, 2025",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Strategy\u00a0Call",
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 15,
+    "channelTotalViews": 204594,
+    "numberOfSubscribers": 6730,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+      "channelJoinedDate": "Oct 6, 2025",
+      "channelDescriptionLinks": [
+        {
+          "text": "AI Strategy\u00a0Call",
+          "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "bradbonanno",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 15,
+      "channelTotalViews": 204594,
+      "numberOfSubscribers": 6730,
+      "isChannelVerified": false,
+      "channelName": "Brad | AI & Automation",
+      "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+      "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+      "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:20:27",
+    "commentsCount": 20,
+    "text": "AI Strategy Call: https://cal.com/bradley-bonanno/ai-st...\nThe Complete Setup Guide (FREE): https://brad-b.kit.com/7f35d608cf\n\nAnthropic shipped four different automation surfaces for Claude: Skills, Cowork, Routines, and Managed Agents. The result is that nobody actually knows which one to use for what. Most people pick whichever one they heard about first and hope it fits.\n\nIn this video I walk you through all five levels of Claude automation in order. At each level I build a real workflow end to end so you can see exactly what that level is for and where it breaks. By the end you'll know which level to reach for the next time you want to take work off your plate, plus the gotcha that means n8n and Make are not actually dead.\n\nLinks\nConnect with Me: \u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0\nSkills Marketplace Waitlist: https://brad-b.kit.com/f9a7349a1c\nFirecrawl: https://firecrawl.link/bradley-bonanno\nApify: https://www.apify.com?fpr=ih20xe\n\nIn this video I cover:\nWhy there is no one-size-fits-all way to automate with Claude\nLevel 1: turning a prompt you run every week into a reusable skill\nLevel 2: scheduling that skill to run on your own machine with Cowork\nLevel 3: moving scheduled work to the cloud so it runs with your laptop closed\nLevel 4: firing cloud routines from webhooks (Fireflies, Calendly, Stripe, HubSpot)\nLevel 5: when Managed Agents are the right tool, and when they are the wrong one\nThe exact webhook shape Claude routines require, and why Make still sits in the middle\nWhich workflows should stay in n8n or Make, and which to migrate to Claude\nThe hybrid setup that most real businesses actually end up with\n\nTimestamps\n0:00 \u2014 Intro\n0:56 \u2014 Level 1: Skills \n3:46 \u2014 Level 2: Desktop Routines\n6:42 \u2014 Level 3: Scheduled Cloud Routine\n12:19 \u2014 Level 4: API Cloud Routine\n16:58 \u2014 Level 5: Managed Agents (when they actually make sense)\n18:55 \u2014 Is n8n dead?\n19:59 \u2014 Final Thoughts",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call",
+        "text": "https://cal.com/bradley-bonanno/ai-st..."
+      },
+      {
+        "url": "https://brad-b.kit.com/7f35d608cf",
+        "text": "https://brad-b.kit.com/7f35d608cf"
+      },
+      {
+        "url": "https://www.linkedin.com/in/bradbonanno/",
+        "text": "\u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0"
+      },
+      {
+        "url": "https://brad-b.kit.com/f9a7349a1c",
+        "text": "https://brad-b.kit.com/f9a7349a1c"
+      },
+      {
+        "url": "https://firecrawl.link/bradley-bonanno",
+        "text": "https://firecrawl.link/bradley-bonanno"
+      },
+      {
+        "url": "https://www.apify.com/?fpr=ih20xe",
+        "text": "https://www.apify.com?fpr=ih20xe"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=56s",
+        "text": "0:56"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=226s",
+        "text": "3:46"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=402s",
+        "text": "6:42"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=739s",
+        "text": "12:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=1018s",
+        "text": "16:58"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=1135s",
+        "text": "18:55"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=1RdkW1zqv-U&t=1199s",
+        "text": "19:59"
+      }
+    ],
+    "subtitles": null,
+    "order": 1,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@bradbonanno/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  }
+]
