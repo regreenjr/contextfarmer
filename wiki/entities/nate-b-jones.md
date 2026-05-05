@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai]
-sources: 1
-updated: 2026-05-03
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; in 2026-05 added the T/C/L/D knowledge-work framework — first human-side AI-displacement diagnostic in this vault
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board]
+sources: 2
+updated: 2026-05-05
 ---
 
 # Nate B Jones
@@ -24,15 +24,40 @@ He's the **analyst voice** in this digest — five videos in [[youtube-digest-ap
 - **Karpathy's wiki vs OpenBrain is a write-time vs query-time fork** (#24) — the deepest design fork in personal-AI architecture; deserves the [[karpathy-wiki-vs-openbrain]] comparison page
 - **Microsoft testing Claude vs Copilot reveals the procurement gap** (#16) — companies expecting frontier results from default tools; the conversation needs to move from preference to evidence
 
+## New in [[youtube-digest-apify-2026-05-05]]
+
+### T/C/L/D — the knowledge-work hollowing framework (#1, *AI's "Thin Ice" Moment*)
+
+His first explicit **human-side** (vs systems-side) framework. Audit every item from the last two weeks and tag as one of:
+
+- **T — Theater** — visible activity that signals work but produces little
+- **C — Commodity** — work AI can do near-free
+- **L — Leverage** — multiplier work
+- **D — Durable** — question-holding, judgment, identity-bearing
+
+Core claims:
+
+- **The first sign your job is on thin ice is that nothing looks wrong** — calendar full, manager happy
+- **Jobs aren't replaced; they're hollowed out** — AI picks away pieces until the next shock
+- **Travel agents are the historical parallel** — not gone overnight; substitutes became good enough
+- **Durable work is "question-holding," not "question-answering"**
+- **Identity is the true obstacle** — leaders pour recovered AI time back into commodity work because their self-image is calibrated to throughput. They become 2x more productive at the part of their job whose value is collapsing.
+- Performance systems cannot see this rot; they reward visible throughput
+
+Companion product: **TalentBoard** (linked from his Substack) — likely a productized version of the framework.
+
+This is **directly portable into 3Ps client diagnostics** as a tag-your-week leadership-team exercise.
+
 ## Recent activity tracked
 
-5 videos in [[youtube-digest-apify-2026-05-03]] alone (April 22 - May 3, 2026):
+6 videos across digests (April 22 - May 4, 2026):
 - #2 *Salesforce Killed The Browser. Every Agent Runs Your CRM Now.* (43K, 2026-04-29)
 - #8 *Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense.* (42K, 2026-05-02)
 - #14 *RTX 5090, Mac Studio, or DGX Spark? I tried all three.* (74K, 2026-05-01)
 - #16 *Microsoft Is Testing Claude Against Its Own Copilot. Here's Why.* (35K, 2026-04-30)
 - #24 *Karpathy's Wiki vs. Open Brain. One Fails When You Need It Most.* (98K, 2026-04-22)
 - #28 *Stripe, Visa, Mastercard, Microsoft, Meta. All Building The Same Thing.* (20K, 2026-05-03)
+- [[youtube-digest-apify-2026-05-05]] #1 *AI's "Thin Ice" Moment: Is Your Job Already Gone?* (24.6K, 2026-05-04) — T/C/L/D framework + TalentBoard
 
 ## Why track him for 3Ps
 
@@ -49,6 +74,7 @@ He's the **analyst voice** in this digest — five videos in [[youtube-digest-ap
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — 5 videos, framework-driven analysis
+- [[youtube-digest-apify-2026-05-05]] — T/C/L/D thin-ice framework
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

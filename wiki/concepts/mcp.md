@@ -1,10 +1,10 @@
 ---
 title: MCP (Model Context Protocol)
 category: concept
-summary: Open standard from Anthropic for connecting LLMs to external data and tools; in 2026, increasingly the right choice for agentic microservices, while local Claude Code work tilts toward Skills
+summary: Open standard from Anthropic for connecting LLMs to external data and tools; in 2026, increasingly the right choice for agentic microservices, while local Claude Code work tilts toward Skills; cross-curator favorites surfacing (Context7, Task Master, Playwright, Tavily, Codebase Memory)
 tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration]
-sources: 1
-updated: 2026-05-03
+sources: 2
+updated: 2026-05-05
 ---
 
 # MCP (Model Context Protocol)
@@ -58,9 +58,25 @@ updated: 2026-05-03
 - **Cost framing**: clients optimizing Claude Code spend will need the MCP-vs-CLI conversation; high-leverage 3Ps content angle
 - **MCP server inventory**: which MCP servers a client uses = direct map of their integration surface; useful diagnostic in any AI consulting engagement
 
+## Curated MCP servers (2026-05 cross-curator surface)
+
+[[dubibubii]]'s 33-tool curation in [[youtube-digest-apify-2026-05-05]] #5 surfaces a heavy MCP slate alongside Skills:
+
+- **Context7** (`upstash/context7`) — library/docs MCP; this vault uses it
+- **Task Master AI MCP** (`eyaltoledano/...`) — task orchestration
+- **Playwright MCP** (`executeautomation/...`) — browser automation, also covered as a Skill in [[nate-herk]] #12
+- **Tavily** (`tavily-ai/tavily-mcp`) — web search
+- **Codebase Memory MCP** (`DeusData/codebase-...`) — code-context persistence
+
+Cross-curator pattern: MCP picks are leaning toward **read-side servers** (docs, web search, codebase context) — exactly the surface where MCP's capability discovery + auth model justifies the schema-load cost vs CLI alternatives. The [[brad-bonanno]] CLI-replacement argument applies more to *write-side* MCP servers (Slack post, GitHub create-PR) where the action set is small and well-known.
+
+Also notable: [[nate-herk]] #3's Higgsfield integration uses **MCP or CLI** (explicit either/or per the description), confirming the [[brad-bonanno]] either/or framing is now standard practice.
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — Tim Berglund #9, [[anthropic]] #4, [[brad-bonanno]] #19
+- [[youtube-digest-apify-2026-05-05]] — [[dubibubii]] #5 (5 MCP servers in curated list); [[nate-herk]] #3 (Higgsfield MCP-or-CLI)
 - [[claude-code]], [[claude-skills]] — concept relationships
+- [[voice-agents]] — cal.com integration likely via MCP
 - [[context-farming]] — MCP is the connector layer
 - [[anthropic]] — author
 - (Planned) [[agent-skills-vs-mcp]] — direct comparison page

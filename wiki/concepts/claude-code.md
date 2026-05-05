@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory]
-sources: 4
-updated: 2026-05-04
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity]
+sources: 5
+updated: 2026-05-05
 ---
 
 # Claude Code
@@ -33,6 +33,7 @@ updated: 2026-05-04
 ### Tier 1 (1M+ subs / mainstream)
 - Tech With Tim — *The Ultimate Claude Code Guide* (umbrella tutorials)
 - Sequoia Capital — hosted [[andrej-karpathy]] *Vibe Coding to Agentic Engineering* (550K views, biggest video in [[youtube-digest-apify-2026-05-03]])
+- [[nick-saraev]] — *Claude Code Full Course (4 HOURS)* — **1.56M views**, the highest-view educational Claude Code video tracked here ([[youtube-digest-apify-2026-05-05]] #4)
 
 ### Tier 2 (200K-1M)
 - [[nate-herk]] — opinionated stacks ("Claude Code Operating Systems", 2hr course); skill curation; Karpathy wiki implementation
@@ -63,6 +64,15 @@ updated: 2026-05-04
 - **Playwright integration** ([[nate-herk]] #12) — browser automation as a skill
 - **Tricks/hacks compilation videos** ([[nate-herk]] #17 *32 Tricks*) — the topic is mature enough for "shortcut" content
 
+## Patterns added in [[youtube-digest-apify-2026-05-05]]
+
+- **Voice agents as Claude Code build target** ([[nate-herk]] #6) — see [[voice-agents]]. ElevenLabs Agents API + cal.com + Claude Code Plan Mode. The "build by description" pattern now extends to voice/phone surfaces; voice was the holdout vertical that still required dashboards.
+- **Creative agency on Claude** ([[nate-herk]] #3) — Higgsfield via MCP/CLI + Marketing Studio + hyper-motion + image-to-ad + Google Sheet tracker + Routines. Companion to [[grace-leung]]'s marketing-team build; extends [[claude-design]] into video/ads.
+- **Antigravity as recommended host IDE** ([[nick-saraev]] #4) — Saraev's 1.56M-view course recommends Gemini's IDE as the host for Claude Code work. Cross-vendor stack signal — host-IDE choice is no longer Cursor-default.
+- **Skill-authoring as a 229K-view discipline** ([[ben-ai]] #7) — "3 Types of Skills" + "Skill Building Prompt Framework"; the highest-view authoring (vs curation) voice is now non-Anthropic, competing with the official Skill Creator meta-skill.
+- **`karpathy/autoresearch` surfaces** ([[dubibubii]] #5) — separate Karpathy project from the LLM Wiki gist; possibly the production form of the [[karpathy-llm-wiki]] pattern. Open question.
+- **Cross-curator consensus skills emerging** — Frontend Design + Superpowers + Context7 surface in three+ curation videos ([[nate-herk]] #25, [[brock-mesarich]], [[dubibubii]] #5). A small "must-install" core is forming.
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -88,9 +98,10 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 
 - [[claude-skills]] — primary primitive
 - [[mcp]] — connector layer
+- [[voice-agents]] — newest build target on the substrate
 - [[karpathy-llm-wiki]] — knowledge architecture pattern
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]] — primary source digests
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]] — primary source digests
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]]

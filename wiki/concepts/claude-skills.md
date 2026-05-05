@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; "best of N skills" curation videos now mainstream
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace]
-sources: 4
-updated: 2026-05-04
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring discipline now has a 229K-view voice (Ben AI); a "must-install" cross-curator core is forming
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring]
+sources: 5
+updated: 2026-05-05
 ---
 
 # Claude Skills
@@ -45,11 +45,25 @@ The category has crossed from "early adopter only" to "explain-to-creators" main
 5. **References folder** — supplemental material loaded only when needed (this vault uses `references/` and `.templates/`)
 6. **Distribute via marketplace** — `claude-plugins-official`, community marketplaces, or per-team repo
 
+## Skill-authoring discipline goes mainstream ([[ben-ai]] #7)
+
+[[ben-ai]]'s *How to build Claude Skills Better than 99% of People* in [[youtube-digest-apify-2026-05-05]] is **229.7K views** — ~14x [[code-with-beto]]'s 16K and ~5x [[nate-herk]] #25's 47K. The highest-view authoring voice is now non-Anthropic, with his own framework competing with Anthropic's official Skill Creator:
+
+- **3 Types of Skills** (chapter at 08:00) — *new framework*; types not yet enumerated
+- **Skills vs Plugins** distinction (chapter at 06:20)
+- **Planning & Context Engineering** as authoring discipline
+- **Skill Building Prompt Framework** — meta-prompt for skill authoring
+
+This puts authoring (not just curation) in mainstream-creator territory. The *Skill Creator vs Ben AI's Prompt Framework* fork is now real; transcript ingest needed to resolve specifics.
+
 ## Curation problem and emerging solutions
 
-- **"Best of N skills" videos** ([[nate-herk]] #25, [[brock-mesarich]] in [[youtube-digest-apify-2026-05-04]]) are an emerging format — implies skill abundance has outpaced user evaluation capacity. Two distinct curation philosophies are visible:
+- **"Best of N skills" videos** are now an established format — implies skill abundance has outpaced user evaluation capacity. Three distinct curation philosophies are visible:
   - **Best-of-N from large sample** — [[nate-herk]] #25 ("6 of 100+ tested"), 47K views
-  - **Curated essentials bundle** — [[brock-mesarich]] ("15 I can't live without"), **134.9K views** — higher-view despite smaller channel; non-technical audience preference for "tell me what to install" over "here's how I evaluated"
+  - **Curated essentials bundle** — [[brock-mesarich]] ("15 I can't live without"), 134.9K views — non-technical audience preference for "tell me what to install" over "here's how I evaluated"
+  - **Mixed Skills + MCPs + repos** — [[dubibubii]] ("33 you actually need"), 78.9K views ([[youtube-digest-apify-2026-05-05]] #5) — broader stack-curation, not pure Skills
+- **Market-size claim** ([[dubibubii]] #5): *"500,000 skills on the market right now, and 95% are completely useless."* First explicit number for the Skills ecosystem; if accurate, the curation-video format will only get more important.
+- **Cross-curator consensus is forming** — Frontend Design + Superpowers + Context7 surface in three+ curation videos ([[nate-herk]] #25, [[brock-mesarich]], [[dubibubii]] #5). A small "must-install" core is emerging that 3Ps and others can use as a baseline client recommendation.
 - **Skill marketplaces** are emerging:
   - `claude-plugins-official` (Anthropic-distributed)
   - Community marketplaces (e.g., `mksglu/context-mode`, `thedotmack/claude-mem`)
@@ -100,8 +114,9 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 
 - [[claude-code]] — substrate
 - [[mcp]] — sibling primitive; see [[agent-skills-vs-mcp]] (planned comparison)
+- [[voice-agents]] — newest application surface; voice-agent skill bundles likely next
 - [[anthropic]] — vendor
-- [[karpathy-llm-wiki]] — this vault's skills implement this pattern
+- [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]]
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]]

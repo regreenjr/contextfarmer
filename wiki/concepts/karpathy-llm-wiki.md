@@ -1,10 +1,10 @@
 ---
 title: Karpathy LLM Wiki
 category: concept
-summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time
-tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge]
-sources: 2
-updated: 2026-05-03
+summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 a sibling Karpathy project (autoresearch) surfaces in mainstream curation
+tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch]
+sources: 3
+updated: 2026-05-05
 ---
 
 # Karpathy LLM Wiki
@@ -18,6 +18,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **April 2026**: [[andrej-karpathy]] publishes the gist
 - **41,000 bookmarks in a week** ([[nate-b-jones]] in [[youtube-digest-apify-2026-05-03]] #24)
 - **5+ derivative YouTube videos** within the following month, each implementing the pattern slightly differently
+- **2026-05** (this digest): `karpathy/autoresearch` surfaces in [[dubibubii]]'s 33-tool curation ([[youtube-digest-apify-2026-05-05]] #5) — a separately-published Karpathy skill, **distinct from the LLM Wiki gist**. Open question whether autoresearch is the production form of this pattern or a sibling research-agent skill with different mechanics.
 
 ## Key claims (from [[youtube-digest-apify-2026-05-03]])
 
@@ -50,6 +51,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **Graph DB hybrid** ([[nate-b-jones]] #24) — is the future a graph DB *over* structured wiki pages? Mentioned but not yet built canonically.
 - **Scale ceiling** — how many sources before the wiki becomes too dense for an LLM to navigate efficiently? No data yet.
 - ⚠️ Contradiction: [[nate-herk]] #10 frames LLM Wiki as superior to RAG with no caveats; [[nate-b-jones]] #24 explicitly argues both have failure modes and a hybrid is likely correct. The wiki community is split on whether write-time fully replaces query-time or merely complements it.
+- **`karpathy/autoresearch` vs the LLM Wiki gist** ([[dubibubii]] #5 in [[youtube-digest-apify-2026-05-05]]) — is autoresearch the canonical production-grade implementation of this pattern, a sibling research-agent skill, or a successor with a different memory model? **High-priority follow-up** before any next vault-architecture iteration; could moot or extend the entire current architecture.
 
 ## Why it matters for 3Ps
 
@@ -76,8 +78,10 @@ Conclusion: the pattern is past the early-adopter trough; "I built an LLM Wiki" 
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — primary citation
 - [[youtube-digest-2026-05-03-r3]] — Tommy Chryst's tier-3 walkthrough
+- [[youtube-digest-apify-2026-05-05]] — `karpathy/autoresearch` surfacing via [[dubibubii]] #5
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
 - [[andrej-karpathy]] — author
 - [[context-farming]] — the upstream feeder pattern
 - [[tommy-chryst]] — small-channel implementer
+- [[claude-skills]] — `autoresearch` is published as a Claude Skill
 - This vault's `CLAUDE.md` — the schema definition

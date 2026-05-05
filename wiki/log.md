@@ -30,3 +30,7 @@ yt-search query='Claude Code AI automation skill', 7 videos found, saved digest 
 ## [2026-05-04] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-04
 
 2-video batch (30 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-04, entities/{brock-mesarich, y-combinator}. Updated: concepts/{claude-skills, claude-code, gtm-2026, ai-consulting}; index regenerated to 33 pages.
+
+## [2026-05-05] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-05
+
+8-video farm batch (24 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-05; entities/{dan-martell, dubibubii, ben-ai}; concepts/voice-agents. Updated: entities/{nate-herk, nate-b-jones, andrej-karpathy, nick-saraev}; concepts/{claude-code, claude-skills, mcp, ai-consulting, karpathy-llm-wiki}; index regenerated to 38 pages. New patterns: voice-agents-as-Claude-Code-build (Nate Herk #6), creative-agency-on-Claude (Nate Herk #3 Higgsfield), T/C/L/D knowledge-work hollowing framework (Nate B Jones #1), karpathy/autoresearch surfacing (Dubibubii #5).

@@ -1,10 +1,10 @@
 ---
 title: Nick Saraev
 category: entity
-summary: AI consulting / agentic-workflow educator; "Maker School" community; long-form course content (4-6hr YouTube), strong consulting-frameworks framing; ships both "how to think" frameworks and "how to execute" 5-pillar blueprint
-tags: [creator, youtube, ai-consulting, n8n, claude-code, agentic-workflows, maker-school]
-sources: 2
-updated: 2026-05-03
+summary: AI consulting / agentic-workflow educator; "Maker School" community; long-form course content (4-6hr YouTube); 1.56M-view Claude Code 4hr course is the highest-view educational Claude Code video tracked in this vault; strong consulting-frameworks framing
+tags: [creator, youtube, ai-consulting, n8n, claude-code, agentic-workflows, maker-school, antigravity]
+sources: 3
+updated: 2026-05-05
 ---
 
 # Nick Saraev
@@ -30,6 +30,23 @@ This is the cleanest "professionalize AI consulting" pitch in the digest. Contra
 ## Recent activity
 - 2025-09-11: *The Four Key AI Consulting Basics (Full Framework)* — 26K views, [[youtube-digest-apify-2026-05-03]] #7
 - 2025-10-01: *How I Would Start AI Consulting in 2026 (If I could start over)* — 49.4K views, 29:43, [[youtube-digest-2026-05-03-r3]] #3 — full operator blueprint (5 pillars)
+- **2026-02-12**: *CLAUDE CODE FULL COURSE 4 HOURS: Build & Sell (2026)* — **1.56M views**, 4:10:43, [[youtube-digest-apify-2026-05-05]] #4 — flagship Claude Code educational entry point
+
+## Flagship: 4hr Claude Code course (1.56M views)
+
+**The highest-view Claude Code educational video** tracked in this vault. Beats [[andrej-karpathy]]'s Sequoia talk (549K) and the [[anthropic]] official Skills explainer (201K) by 3-7x. Course curriculum:
+
+- Setup + install
+- IDE configuration — uses **Antigravity** (Gemini 3.1's IDE) as the recommended host. **This is a cross-vendor stack signal worth tracking** — the host-IDE choice for Claude Code is no longer Cursor-default.
+- **CLAUDE.md as project brain** (canonical framing this vault uses)
+- First project in <15 min
+- Advanced: hooks, slash commands, sub-agents
+- **Multiple Claude Code instances** running in parallel
+- **Sub-agent parallelization**
+- **Git worktrees** for "many hours of work in a few minutes" (same pattern this vault's worktree isolation uses)
+- Token conservation + context management
+
+Adjacent course slate referenced: **Vibe Coding w/ Antigravity (6hr)**, **Agentic Workflows (6hr)**, **N8N (6hr, 900K+ views)** — Saraev runs a multi-million-view educational catalog.
 
 ## Two-video bracket: framework + blueprint
 
@@ -74,8 +91,10 @@ Instantly, Anymailfinder, Apify, n8n, Rize. Tells you what's in his actual opera
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — video #7 (Four Key AI Consulting Basics)
 - [[youtube-digest-2026-05-03-r3]] — video #3 (How I Would Start AI Consulting in 2026)
+- [[youtube-digest-apify-2026-05-05]] — video #4 (1.56M-view Claude Code 4hr course)
 - [[ai-consulting]] — primary citation as framework-first + blueprint voice
 - [[gtm-2026]] — referenced for the 5-pillar customer-journey decomposition
+- [[claude-code]] — his 4hr course is the flagship educational reference
 
 ## Why track him for 3Ps
 - **Closest framework-first analog** to a "professionalized AI consulting" 3Ps positioning

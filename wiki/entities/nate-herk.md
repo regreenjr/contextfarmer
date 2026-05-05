@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting]
-sources: 2
-updated: 2026-05-03
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build and Higgsfield+Claude creative-agency build
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield]
+sources: 3
+updated: 2026-05-05
 ---
 
 # Nate Herk
@@ -17,6 +17,8 @@ YouTube channel: **Nate Herk | AI Automation** — 708.0K subs.
 - **[[claude-skills]]** — curation ("100+ skills tested, 6 best") + skill-builder content
 - **[[claude-design]]** — full course (#18 in [[youtube-digest-apify-2026-05-03]])
 - **[[karpathy-llm-wiki]]** — implementation tutorial (#10) + integration into AIOS (#3)
+- **Creative agency on Claude** — Higgsfield + Claude via MCP/CLI, Marketing Studio, hyper-motion, image-to-ad, hundreds of variations/week ([[youtube-digest-apify-2026-05-05]] #3)
+- **[[voice-agents]]** — first-published end-to-end build: ElevenLabs Agents + cal.com + Claude Code Plan Mode ([[youtube-digest-apify-2026-05-05]] #6)
 - **N8N automation** — his historical niche
 - **[[ai-consulting]]** — $231K/30-days framing, 2-path framework
 - **Playwright + browser automation** (#12)
@@ -37,6 +39,15 @@ YouTube channel: **Nate Herk | AI Automation** — 708.0K subs.
 | 25 | I Tried 100+ Claude Code Skills. These 6 Are The Best | 47K | 2026-05-03 |
 
 Plus prior-digest entries from [[youtube-digest-2026-05-03]] (Operating Systems course, "best skills"). **He is the dominant creator voice** for everything this vault tracks.
+
+**Plus 2 new videos in [[youtube-digest-apify-2026-05-05]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 3 | Higgsfield Just Turned Claude Into a Creative Agency | 8.6K | 2026-05-05 |
+| 6 | Building Realistic Voice Agents Has Never Been Easier | 15.3K | 2026-05-04 |
+
+These extend his coverage into two **net-new build categories** for this vault: creative-agency-on-Claude (image/video/ads orchestration via Higgsfield) and voice agents (ElevenLabs + cal.com). His cadence remains the highest of any creator tracked.
 
 ## Frameworks he's introduced
 
@@ -77,8 +88,9 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]]
 - [[claude-code]], [[claude-skills]], [[claude-design]]
+- [[voice-agents]] — first-published end-to-end build
 - [[karpathy-llm-wiki]]
 - [[ai-consulting]]
 - [[context-farming]]
