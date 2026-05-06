@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise]
-sources: 1
-updated: 2026-05-03
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition; 2026-05-06 FB ads batch shows Anthropic running 5 catalog-driven dynamic-creative carousels with zero static narrative copy — same pattern as OpenAI
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads]
+sources: 2
+updated: 2026-05-06
 ---
 
 # Anthropic
@@ -35,6 +35,14 @@ The framing per [[nate-b-jones]]: Anthropic's strategy is *layering* (be the mod
 - **[[claude-design]]** — Anthropic's design tool (covered in [[nate-herk]] #18)
 - Skill marketplace — Anthropic-distributed via `claude-plugins-official`
 
+## 2026-05-06 FB ads pattern
+
+From [[ads-digest-2026-05-06]] — 5 active Anthropic ads, all carousel format with `{{product.name}}` headlines and `{{product.brand}}` body text. **Zero static narrative copy.** Started Mar 16 - Apr 8, 2026.
+
+Same pattern as [[openai]] in the same batch (21 ads, all dynamic-creative-only). Both AI labs in 2026-05-06 ship **only catalog/product-feed-driven dynamic creative** — opposite of DTC competitors like [[hims]] who pair catalog ads with static narrative wedges. Hypothesis: AI labs treat narrative work as PR/launches, and reserve paid social for catalog re-targeting against existing intent.
+
+Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Code? Claude for Enterprise?)
+
 ## Official channel activity
 
 - 2025-11-26: *Claude Agent Skills Explained* (201K views) — canonical 3-minute explainer for Skills vs CLAUDE.md vs MCP vs sub-agents
@@ -48,6 +56,7 @@ The framing per [[nate-b-jones]]: Anthropic's strategy is *layering* (be the mod
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
+- [[ads-digest-2026-05-06]] — 5 catalog-driven carousel ads (no static narrative)
 - [[claude-code]], [[claude-skills]] — concept pages
 
 ## Open questions

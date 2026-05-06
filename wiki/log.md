@@ -38,3 +38,7 @@ yt-search query='Claude Code AI automation skill', 7 videos found, saved digest 
 ## [2026-05-06] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-06
 
 3-video farm batch (29 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-06; entities/simon-scrapes; concepts/{anticipation-gap, codex, skill-systems}. Updated: entities/{nate-b-jones, nate-herk}; concepts/{claude-skills, claude-code, ai-consulting}; index regenerated to 43 pages. New patterns: anticipation-gap + permission-ladder (Nate B Jones #1), Codex as parallel substrate with Skills/Plan-Mode/automations (Nate Herk #2 — first major OpenAI Codex educational entry), Skill Systems composition discipline (Simon Scrapes #3 — the missing rung between authoring and curation).
+
+## [2026-05-06] ingest | FB Ads Digest — Competitor brands — 2026-05-06
+
+183-ad first competitor-ads farm batch (4 dedup-skipped). Created: sources/ads-digest-2026-05-06; entities/{hims, ro, henry-meds, openai, hampton-founders}; concepts/{compounded-drug-disclaimer, dtc-telehealth-ad-template, competitor-ads-farm}. Updated: entities/anthropic. Index regenerated to 52 pages. Key findings: Hims 45 ads across 3 wedges (GLP-1/hair/Sex Rx) with canonical compounded-drug-disclaimer template; OpenAI (21) + Anthropic (5) ship dynamic-creative-only carousels, no static narrative; Hampton Founders runs 'M+ founder peer group' community pitch; ~65% of digest is brand-name-substring noise — flagged farm tuning action item.
