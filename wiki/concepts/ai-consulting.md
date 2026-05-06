@@ -1,10 +1,10 @@
 ---
 title: AI Consulting
 category: concept
-summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views)
-tags: [ai-consulting, consulting, gtm, solo-operator, 3ps]
-sources: 4
-updated: 2026-05-05
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill)
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap]
+sources: 5
+updated: 2026-05-06
 ---
 
 # AI Consulting
@@ -108,6 +108,28 @@ This is the user's primary positioning category. Implications:
   - Vertical specialization (per [[mark-kashef]]) is the recommended moat — pick a vertical
 - **Content gaps**: deep operational content on context-farming, multi-skill orchestration, and wiki-as-deliverable is underrepresented vs. macro-thesis and intro-tutorial content
 
+## Skill Systems as the deliverable architecture ([[simon-scrapes]] #3 in [[youtube-digest-apify-2026-05-06]])
+
+[[simon-scrapes]] names the **composition discipline** that consulting deliverables should follow: modular focused skills chained into end-to-end automations, not mega-skills.
+
+Direct 3Ps implications:
+
+- **Each consulting deliverable** (lead-research, content-cascade, invoice-organization, onboarding flow) becomes a small chained Skill System — explicitly *not* a mega-skill
+- **Reusability becomes the moat** — components that plug into 5+ business processes are higher-leverage IP than bespoke per-client skills
+- **Defensive against copy** — a competitor who copies one skill gets one component; the value is in the system + orchestration. Composition is harder to clone than authoring.
+- **Reference example**: this vault's farmer + wiki-ingest + wiki-query + wiki-lint + update_index/append_log scripts is itself a textbook Skill System
+
+Pairs with [[ben-ai]]'s authoring-framework discipline: 3Ps content can teach the **composition layer** that the existing AI-consulting creator landscape underserves (most teach one-skill-at-a-time or one-mega-skill-demo). → See [[skill-systems]].
+
+## Anticipation gap + permission ladder as client-onboarding artifacts ([[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-06]])
+
+[[nate-b-jones]]'s agent-side diagnostic gives 3Ps two **direct intake artifacts**:
+
+1. **The anticipation gap framing** explains to clients why "AI agents will run your business" hasn't happened yet — and frames the path through it (predictable workflows + permission ladder) as **consulting work**, not lab-research work. The gap *is the consultant's wedge*.
+2. **The permission ladder** (Read → Suggest → Draft → Act-with-confirmation → Autonomous) is a clean per-workflow intake question. "Where on the ladder do you want this agent?" Combined with T/C/L/D: tag work, pick a permission rung per category (e.g., Autonomous for Commodity, Draft-only for Leverage, no-agent for Durable).
+
+Stacked, the worker-side T/C/L/D + agent-side permission ladder give 3Ps a **paired diagnostic kit** — first engagement deliverable for any leadership team. → See [[anticipation-gap]].
+
 ## Knowledge-work hollowing as a 3Ps diagnostic ([[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-05]])
 
 The **T/C/L/D framework** (Theater / Commodity / Leverage / Durable) gives 3Ps a concrete first-engagement deliverable: a "tag your week" leadership audit. Workflow: client tags every calendar item from the last two weeks; consultant analyzes the T/C ratio and helps redirect AI-recovered time from "more commodity work" (the failure mode Nate flags) toward Leverage and Durable buckets. Frame: "we'll find your durable work and protect it; we'll commoditize the commodity work."
@@ -119,8 +141,12 @@ Pairs cleanly with the [[ai-consulting]] macro thesis — legacy moats collapsed
 - [[youtube-digest-2026-05-03-r3]] — Saraev's 5-pillar blueprint (#3)
 - [[youtube-digest-apify-2026-05-04]] — Brock's $80K/month + YC Office Hours institutional take
 - [[youtube-digest-apify-2026-05-05]] — Saraev 1.56M-view course (#4); [[nate-b-jones]] T/C/L/D (#1); [[ben-ai]] skill-authoring (#7); [[dan-martell]] sales-stack (#2, non-Claude operator counterpoint)
-- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]] — operator entity pages
+- [[youtube-digest-apify-2026-05-06]] — Skill Systems composition discipline ([[simon-scrapes]] #3); anticipation gap + permission ladder ([[nate-b-jones]] #1); cross-vendor coding-agent coverage via Codex ([[nate-herk]] #2)
+- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]] — operator entity pages
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - [[voice-agents]] — net-new service line
+- [[skill-systems]] — composition discipline for productizing deliverables
+- [[anticipation-gap]] — client-intake artifact for permission-rung scoping
+- [[codex]] — vendor-agnostic positioning enables OpenAI-shop clients
 - (Future) [[3ps-consulting]] — eventual entity page for the user's offering

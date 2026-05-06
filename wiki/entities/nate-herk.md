@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build and Higgsfield+Claude creative-agency build
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield]
-sources: 3
-updated: 2026-05-05
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, and (2026-05-06) the first major Codex full-course in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, cross-vendor]
+sources: 4
+updated: 2026-05-06
 ---
 
 # Nate Herk
@@ -49,6 +49,16 @@ Plus prior-digest entries from [[youtube-digest-2026-05-03]] (Operating Systems 
 
 These extend his coverage into two **net-new build categories** for this vault: creative-agency-on-Claude (image/video/ads orchestration via Higgsfield) and voice agents (ElevenLabs + cal.com). His cadence remains the highest of any creator tracked.
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-06]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | Master 97% of Codex in 1 Hour (full course) | 9.5K | 2026-05-06 |
+
+Net-new substrate coverage: this is the first major **OpenAI Codex CLI** educational entry in this vault. 1hr full-course covering Plan Mode, API setup, building reusable Skills, dashboard generation, GitHub+Vercel deploy, weekly automations, and Browser Use QA. Demo project: a YouTube comment intelligence system end-to-end.
+
+Strategic significance: Nate Herk is the first top-tier Claude-ecosystem creator to publish substantive Codex content. The cross-vendor architectural symmetry (Skills, Plan Mode, automations, browser-use both exist) is now confirmed via educational content from a 708K-sub creator. Tracks with his role as the **mainstream barometer** — when a primitive crosses from one vendor to two, it's settled enough to teach. → See [[codex]].
+
 ## Frameworks he's introduced
 
 - **Three Ms** (covered in #3 AIOS course at 3:30) — for thinking about AI; specifics behind the framework gated to the course
@@ -88,8 +98,9 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]]
 - [[claude-code]], [[claude-skills]], [[claude-design]]
+- [[codex]] — first major Codex educational entry in vault is his
 - [[voice-agents]] — first-published end-to-end build
 - [[karpathy-llm-wiki]]
 - [[ai-consulting]]

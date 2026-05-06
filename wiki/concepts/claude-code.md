@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity]
-sources: 5
-updated: 2026-05-05
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) confirmed as parallel substrate with overlapping primitives
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, cross-vendor]
+sources: 6
+updated: 2026-05-06
 ---
 
 # Claude Code
@@ -73,6 +73,12 @@ updated: 2026-05-05
 - **`karpathy/autoresearch` surfaces** ([[dubibubii]] #5) — separate Karpathy project from the LLM Wiki gist; possibly the production form of the [[karpathy-llm-wiki]] pattern. Open question.
 - **Cross-curator consensus skills emerging** — Frontend Design + Superpowers + Context7 surface in three+ curation videos ([[nate-herk]] #25, [[brock-mesarich]], [[dubibubii]] #5). A small "must-install" core is forming.
 
+## Patterns added in [[youtube-digest-apify-2026-05-06]]
+
+- **Codex confirmed as parallel substrate** ([[nate-herk]] #2, *Master 97% of Codex in 1 Hour*) — the first major Codex educational entry from a top-tier Claude-ecosystem creator. Codex CLI ships **Plan Mode**, **Skills**, **weekly automations**, **browser-use** — the same primitive set as Claude Code. Architectural concepts in this page **port** to OpenAI's coding-agent CLI; the vault's IP is vendor-agnostic at the spec level. Open: format compatibility of Skills across substrates; MCP support in Codex. → See [[codex]].
+- **Skill Systems composition layer named** ([[simon-scrapes]] #3) — the missing rung between *authoring* (one skill) and *curation* (which to install) is now explicitly named: modular skills chained into end-to-end automations vs the "mega-skill" anti-pattern. Direct architectural artifact for productizing consulting deliverables. → See [[skill-systems]].
+- **Anticipation gap + permission ladder** ([[nate-b-jones]] #1) — agent-side diagnostic that names *why* coding agents (Claude Code, Codex) crossed the agent-usefulness threshold while consumer agents haven't: clean verification (tests, compilers) closes the anticipation gap. The **read → suggest → draft → act-with-confirmation → autonomous** ladder applies to Claude Code skill/sub-agent/routine permission design. → See [[anticipation-gap]].
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -97,11 +103,14 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 ## Related pages
 
 - [[claude-skills]] — primary primitive
+- [[skill-systems]] — composition discipline above Claude Skills
 - [[mcp]] — connector layer
+- [[codex]] — sibling cross-vendor substrate (OpenAI)
+- [[anticipation-gap]] — why coding agents crossed the agent-usefulness threshold
 - [[voice-agents]] — newest build target on the substrate
 - [[karpathy-llm-wiki]] — knowledge architecture pattern
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]] — primary source digests
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]] — primary source digests
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]]

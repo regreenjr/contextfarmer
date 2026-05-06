@@ -34,3 +34,7 @@ yt-search query='Claude Code AI automation skill', 7 videos found, saved digest 
 ## [2026-05-05] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-05
 
 8-video farm batch (24 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-05; entities/{dan-martell, dubibubii, ben-ai}; concepts/voice-agents. Updated: entities/{nate-herk, nate-b-jones, andrej-karpathy, nick-saraev}; concepts/{claude-code, claude-skills, mcp, ai-consulting, karpathy-llm-wiki}; index regenerated to 38 pages. New patterns: voice-agents-as-Claude-Code-build (Nate Herk #6), creative-agency-on-Claude (Nate Herk #3 Higgsfield), T/C/L/D knowledge-work hollowing framework (Nate B Jones #1), karpathy/autoresearch surfacing (Dubibubii #5).
+
+## [2026-05-06] ingest | YouTube Digest (Apify) — AI creators + Claude topics — 2026-05-06
+
+3-video farm batch (29 dedup-skipped). Created: sources/youtube-digest-apify-2026-05-06; entities/simon-scrapes; concepts/{anticipation-gap, codex, skill-systems}. Updated: entities/{nate-b-jones, nate-herk}; concepts/{claude-skills, claude-code, ai-consulting}; index regenerated to 43 pages. New patterns: anticipation-gap + permission-ladder (Nate B Jones #1), Codex as parallel substrate with Skills/Plan-Mode/automations (Nate Herk #2 — first major OpenAI Codex educational entry), Skill Systems composition discipline (Simon Scrapes #3 — the missing rung between authoring and curation).

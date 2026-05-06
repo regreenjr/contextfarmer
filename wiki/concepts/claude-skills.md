@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring discipline now has a 229K-view voice (Ben AI); a "must-install" cross-curator core is forming
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring]
-sources: 5
-updated: 2026-05-05
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") now named by Simon Scrapes; Skills also exist on OpenAI Codex — cross-vendor primitive
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex]
+sources: 6
+updated: 2026-05-06
 ---
 
 # Claude Skills
@@ -44,6 +44,37 @@ The category has crossed from "early adopter only" to "explain-to-creators" main
 4. **Test different models** — skill behavior varies by model
 5. **References folder** — supplemental material loaded only when needed (this vault uses `references/` and `.templates/`)
 6. **Distribute via marketplace** — `claude-plugins-official`, community marketplaces, or per-team repo
+
+## Composition discipline named — "Skill Systems" ([[simon-scrapes]] #3 in [[youtube-digest-apify-2026-05-06]])
+
+[[simon-scrapes]] introduces the **composition layer** as a named discipline:
+
+- **Mega-skill anti-pattern** — the natural failure mode of "one skill per business process"; skills become bloated, brittle, and resist reuse
+- **Skill Systems = modular skills chained** — narrow scope per skill, well-defined I/O, orchestration at a higher layer (slash commands, sub-agents, Routines); skills compose like Unix tools
+- **Reuse is the test** — a properly modular skill ("send invoice", "draft email") plugs into 5+ end-to-end automations
+
+This fills the **missing rung** in the Skills discourse:
+
+| Layer | Question | Voices |
+|---|---|---|
+| Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] Skill Creator |
+| Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types) |
+| **Composition** | **How do skills chain into automations?** | **[[simon-scrapes]] (Skill Systems)** |
+| Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
+
+Plausible explanation for [[dubibubii]]'s "500K skills, 95% useless" claim: most marketplace skills are mega-skills built without composition discipline. Skill Systems framing predicts a market shift toward components-not-solutions. → See [[skill-systems]].
+
+## Skills as a cross-vendor primitive ([[nate-herk]] #2 in [[youtube-digest-apify-2026-05-06]])
+
+[[nate-herk]]'s 1hr Codex full-course confirms **Skills exist on [[codex]]** (OpenAI's coding-agent CLI) too — the same procedural-knowledge primitive this vault has tracked as Anthropic-canon is now cross-vendor. The 26:44 chapter is "Building Reusable Skills."
+
+Implications:
+- The architectural concepts in this page **port** to non-Anthropic substrates
+- "Skills" as a name is settling; once two competing CLIs ship the same primitive name, the abstraction is mature
+- **Open**: are Codex Skills file-format-compatible with Claude Skills, or just conceptually parallel? Marketplace dynamics depend on the answer.
+- **Open**: how does the [[brad-bonanno]] context-bloat optimization translate to Codex's metered API model vs Claude's flat-fee?
+
+This page stays Anthropic-canon-focused; cross-link to [[codex]] for parallel-primitive details.
 
 ## Skill-authoring discipline goes mainstream ([[ben-ai]] #7)
 
@@ -113,10 +144,12 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 ## Related pages
 
 - [[claude-code]] — substrate
+- [[codex]] — sibling substrate; Skills now cross-vendor
+- [[skill-systems]] — composition layer; the missing rung between authoring and curation
 - [[mcp]] — sibling primitive; see [[agent-skills-vs-mcp]] (planned comparison)
 - [[voice-agents]] — newest application surface; voice-agent skill bundles likely next
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]]
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]]

@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; in 2026-05 added the T/C/L/D knowledge-work framework — first human-side AI-displacement diagnostic in this vault
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board]
-sources: 2
-updated: 2026-05-05
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; in 2026-05 added the T/C/L/D worker-side framework + the anticipation-gap / permission-ladder agent-side framework — paired worker/agent diagnostics for AI displacement
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai]
+sources: 3
+updated: 2026-05-06
 ---
 
 # Nate B Jones
@@ -48,9 +48,24 @@ Companion product: **TalentBoard** (linked from his Substack) — likely a produ
 
 This is **directly portable into 3Ps client diagnostics** as a tag-your-week leadership-team exercise.
 
+## New in [[youtube-digest-apify-2026-05-06]]
+
+### The anticipation gap + permission ladder (#1, *Consumer AI Has a Problem Nobody's Naming*)
+
+His **agent-side** counterpart to T/C/L/D. Diagnoses *why* consumer agents feel like more work, not less:
+
+- **The pitch is "agents can do anything"; the reality is most consumer agents are reactive** — the burden of figuring out what to ask, remembering the agent exists, and supervising results gets transferred to the user
+- **The anticipation gap is the real frontier** — not model capability, not agent architecture. Until the agent knows *when* to act unprompted, it adds work
+- **Coding agents crossed the threshold first** because verification is clean (compilers, tests). Consumer life has no compiler for taste; no oracle for "did the agent do the right thing"
+- **The labs aren't going to fix this for you** — proactive consumer agents are a product paradigm, not a model release. Users have to make their own workflows predictable enough for agents to anticipate.
+- **The permission ladder** as the agent-autonomy maturity model: **Read → Suggest → Draft → Act-with-confirmation → Autonomous**, with each rung trading off helpfulness vs supervision burden
+- **Where Poke / Clicky / Clueless / Cowork bet** — each picks a rung and reveals that rung's failure mode (specifics gated to transcript)
+
+→ See [[anticipation-gap]] for the full framework. Pairs with the T/C/L/D worker-side audit; together they form a complete worker/agent diagnostic stack.
+
 ## Recent activity tracked
 
-6 videos across digests (April 22 - May 4, 2026):
+7 videos across digests (April 22 - May 5, 2026):
 - #2 *Salesforce Killed The Browser. Every Agent Runs Your CRM Now.* (43K, 2026-04-29)
 - #8 *Anthropic Might Buy Atlassian For $40B. Here's Why It Makes Sense.* (42K, 2026-05-02)
 - #14 *RTX 5090, Mac Studio, or DGX Spark? I tried all three.* (74K, 2026-05-01)
@@ -58,6 +73,7 @@ This is **directly portable into 3Ps client diagnostics** as a tag-your-week lea
 - #24 *Karpathy's Wiki vs. Open Brain. One Fails When You Need It Most.* (98K, 2026-04-22)
 - #28 *Stripe, Visa, Mastercard, Microsoft, Meta. All Building The Same Thing.* (20K, 2026-05-03)
 - [[youtube-digest-apify-2026-05-05]] #1 *AI's "Thin Ice" Moment: Is Your Job Already Gone?* (24.6K, 2026-05-04) — T/C/L/D framework + TalentBoard
+- [[youtube-digest-apify-2026-05-06]] #1 *Consumer AI Has a Problem Nobody's Naming.* (42.9K, 2026-05-05) — anticipation-gap + permission ladder
 
 ## Why track him for 3Ps
 
@@ -68,13 +84,14 @@ This is **directly portable into 3Ps client diagnostics** as a tag-your-week lea
 
 ## Related
 - [[anthropic]] — frequent subject
-- [[agent-substrate]], [[agentic-commerce]] — concepts he originated/popularized in this digest
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]] — concepts he originated/popularized in these digests
 - [[karpathy-llm-wiki]] — covered analytically in #24
-- [[claude-code]] — substrate frame applies broadly
+- [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification)
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — 5 videos, framework-driven analysis
 - [[youtube-digest-apify-2026-05-05]] — T/C/L/D thin-ice framework
+- [[youtube-digest-apify-2026-05-06]] — anticipation-gap + permission ladder
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions
