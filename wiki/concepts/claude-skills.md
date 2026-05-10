@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") now named by Simon Scrapes; Skills also exist on OpenAI Codex — cross-vendor primitive
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex]
-sources: 6
-updated: 2026-05-06
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent]
+sources: 7
+updated: 2026-05-10
 ---
 
 # Claude Skills
@@ -75,6 +75,41 @@ Implications:
 - **Open**: how does the [[brad-bonanno]] context-bloat optimization translate to Codex's metered API model vs Claude's flat-fee?
 
 This page stays Anthropic-canon-focused; cross-link to [[codex]] for parallel-primitive details.
+
+## Skills positioned in 6-layer agentic-scaffolding taxonomy ([[nate-b-jones]] #11 in [[youtube-digest-apify-2026-05-10]])
+
+[[nate-b-jones]] names a 6-layer map of agentic scaffolding — see [[plugins]] for the full taxonomy. Skills sit at **layer 2**, between prompts (one-offs) and plugins (team-installable workflow bundles).
+
+| Layer | Role | When to use |
+|---|---|---|
+| 1. Prompts | One-offs, exploration | Repeated workflows? — promote to skill |
+| **2. Skills** | **House-style encoded across any LLM** | **Team-shared bundle? — promote to plugin** |
+| 3. Plugins | Whole workflows your team can install | Smaller scope? — demote to skill |
+| 4. MCPs / connectors | Live access to where work lives | Token-sensitive? — see [[printing-press]] |
+| 5. Hooks | Deterministic events the model shouldn't handle | — |
+| 6. Scripts | Deterministic logic the model shouldn't handle | — |
+
+This is the **categorical map** above the existing authoring/composition/curation stack. Together:
+
+| Layer | Question | Voices |
+|---|---|---|
+| **Taxonomy** | **What types of scaffolding exist?** | **[[nate-b-jones]] ([[plugins]])** |
+| Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] Skill Creator |
+| Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types) |
+| Composition | How do skills chain into automations? | [[simon-scrapes]] ([[skill-systems]]) |
+| Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
+
+40% of operators' AI time is wasted putting work in the wrong layer (per [[nate-b-jones]] #11 title) — typically using a skill for what should be a plugin (over-stuffed) or a prompt for what should be a skill (re-tokens every use).
+
+## Skills as "the unlock" ([[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
+
+[[brad-bonanno]]'s 13-product Anthropic tour names Skills as **"the one feature that makes everything else dramatically better the moment you teach Claude how you actually want things done."**
+
+Two voices, two frames, same conclusion:
+- **[[ben-ai]]** (229K-view authoring frame): Skills are how you write one thing well
+- **[[brad-bonanno]]** (operator frame): Skills are what unlocks the other 11 Anthropic products
+
+For 3Ps client conversations: **Skills are the highest-leverage primitive** in the Claude product surface. If a client uses Claude without Skills, they're at ~2% of the platform's value (per Brad's framing).
 
 ## Skill-authoring discipline goes mainstream ([[ben-ai]] #7)
 
@@ -151,5 +186,7 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]]
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]]
+- [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
+- [[hermes-agent]] — sibling substrate that ships its own Skills primitive
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]]

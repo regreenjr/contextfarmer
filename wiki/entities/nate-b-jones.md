@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; in 2026-05 added the T/C/L/D worker-side framework + the anticipation-gap / permission-ladder agent-side framework — paired worker/agent diagnostics for AI displacement
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai]
-sources: 3
-updated: 2026-05-06
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — six named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), and OpenClaw runtime reframe
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw]
+sources: 4
+updated: 2026-05-10
 ---
 
 # Nate B Jones
@@ -63,6 +63,68 @@ His **agent-side** counterpart to T/C/L/D. Diagnoses *why* consumer agents feel 
 
 → See [[anticipation-gap]] for the full framework. Pairs with the T/C/L/D worker-side audit; together they form a complete worker/agent diagnostic stack.
 
+## New in [[youtube-digest-apify-2026-05-10]]
+
+**Four videos in one batch** — highest single-batch output of any creator tracked here for [[nate-b-jones]]. Three new named frameworks plus a major OpenClaw reframe.
+
+### #7 Work Primitive (access / meaning / authority)
+
+The **substrate-side** framework — three layers under any agent-platform interaction. → New concept: [[work-primitive]].
+
+- **Access** — can the agent reach the surface?
+- **Meaning** — does the agent know what the action *means*?
+- **Authority** — can the agent commit it?
+
+Strategic test cases: Salesforce going headless (exposing meaning) vs SAP blocking agents (protecting authority moat). Coding agents arrived first because software has unusually rich work semantics (compilers, types, tests). Computer use is the universal adapter for the messy middle, not the strategic primitive.
+
+The cleanest enterprise-buyer framework yet — three answerable questions replacing vague "AI readiness."
+
+### #8 OpenClaw as runtime abstraction
+
+Major reframe of [[openclaw]]. Earlier vault coverage ([[brad-bonanno]] #4 in [[youtube-digest-2026-05-03-r3]]) called OpenClaw dead — first-party Anthropic features obsoleted the wrapper. [[nate-b-jones]] argues OpenClaw is **becoming runtime infrastructure** below the model layer:
+
+- "OpenClaw grew up in April" — crossed from chatbot wrapper to serious work-mode runtime
+- Once you can swap model brains through a durable work layer, **memory becomes the strategic layer**
+- Anthropic's subscription policies vs OpenAI's Codex API access create opposite architecture assumptions
+- Gemma 4 + local model branch — local-model competence keeps improving; OpenClaw routes between hosted + local
+- OpenBrain for OpenClaw — memory layer can't live inside any one brain (compare [[karpathy-wiki-vs-openbrain]])
+- **"Leaders treating model choice as a permanent architectural decision are missing the point"** — the practical unlock is workflows that outlive a provider policy
+
+Both views (Brad's "dead" + Nate's "runtime infrastructure") may be correct depending on use case. → Likely needs an [[openclaw]] entity page in a near-future digest.
+
+### #11 Plugins as mech-suit (6-layer agentic-scaffolding taxonomy)
+
+The **builder-side** framework — explicit map of where prompts vs skills vs plugins vs MCPs vs hooks vs scripts each fit. Plugins are bigger than MCPs and undersold by the app-store analogy. → New concept: [[plugins]].
+
+The "40% wasted" stat in the title comes from operators putting work in the wrong layer — one-shot prompt for what should be a skill, mega-skill for what should be a plugin, MCP for what should be a CLI ([[printing-press]]).
+
+This is the **taxonomy layer above** [[skill-systems]] composition and [[claude-skills]] units — the missing categorical scaffolding.
+
+### #12 Code comprehensibility as security property
+
+The **codebase-side** framework — Mozilla pointed Anthropic's Mythos at Firefox and shipped fixes for **271 vulnerabilities** in one cycle. → New concept: [[code-comprehensibility]]. New entity stub: [[mozilla]].
+
+- "A good human engineer wrote this" is becoming a much weaker security claim
+- Security failures live in the meaning/behavior gap; AI reviewers find them at scale
+- Comprehensibility is becoming a measurable security property
+- ~4-5 month "golden refactor window" before AI code review becomes table stakes
+- Engineers shift from writing implementation to ensuring meaning is preserved end-to-end
+
+## The complete framework stack
+
+[[nate-b-jones]] is now the source of **six complementary diagnostics**:
+
+| Framework | Side | Diagnostic question |
+|---|---|---|
+| T/C/L/D | Worker | Which tasks survive AI? |
+| Anticipation gap + permission ladder | User | When should the agent act? |
+| **Work Primitive** | **Substrate** | **Is the platform agent-ready?** |
+| **Plugins as mech-suit** | **Builder** | **Where does each capability belong?** |
+| **Code comprehensibility** | **Codebase** | **Is my code legible enough for AI to review?** |
+| OpenClaw runtime reframe | Stack | What survives model/vendor churn? |
+
+Together: a **complete agent-era audit** for any organization — covering every angle from worker to codebase. This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault.
+
 ## Recent activity tracked
 
 7 videos across digests (April 22 - May 5, 2026):
@@ -74,6 +136,10 @@ His **agent-side** counterpart to T/C/L/D. Diagnoses *why* consumer agents feel 
 - #28 *Stripe, Visa, Mastercard, Microsoft, Meta. All Building The Same Thing.* (20K, 2026-05-03)
 - [[youtube-digest-apify-2026-05-05]] #1 *AI's "Thin Ice" Moment: Is Your Job Already Gone?* (24.6K, 2026-05-04) — T/C/L/D framework + TalentBoard
 - [[youtube-digest-apify-2026-05-06]] #1 *Consumer AI Has a Problem Nobody's Naming.* (42.9K, 2026-05-05) — anticipation-gap + permission ladder
+- [[youtube-digest-apify-2026-05-10]] #7 *The Work Primitive* (27.6K, 2026-05-06) — access/meaning/authority
+- [[youtube-digest-apify-2026-05-10]] #8 *OpenClaw Just Killed Model Lock-in* (53.3K, 2026-05-07) — runtime abstraction reframe
+- [[youtube-digest-apify-2026-05-10]] #11 *You're Wasting 40% Of Your AI Time On Something Fixable* (31.1K, 2026-05-09) — plugins-as-mech-suit
+- [[youtube-digest-apify-2026-05-10]] #12 *271 Vulnerabilities: What Mozilla's AI Found Changes Everything* (29.8K, 2026-05-08) — code comprehensibility
 
 ## Why track him for 3Ps
 
@@ -83,15 +149,18 @@ His **agent-side** counterpart to T/C/L/D. Diagnoses *why* consumer agents feel 
 - **His Substack** (`natesnewsletter.substack.com`) likely deserves its own farmer config
 
 ## Related
-- [[anthropic]] — frequent subject
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]] — concepts he originated/popularized in these digests
-- [[karpathy-llm-wiki]] — covered analytically in #24
-- [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification)
+- [[anthropic]] — frequent subject; Mythos product surfaced via #12
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]] — concepts he originated/popularized
+- [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
+- [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification) and Work Primitive's "rich semantics" claim
+- [[mozilla]] — reference customer / data point for #12
+- [[openclaw]] — runtime reframe in #8 (likely needs its own page in a future digest)
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — 5 videos, framework-driven analysis
 - [[youtube-digest-apify-2026-05-05]] — T/C/L/D thin-ice framework
 - [[youtube-digest-apify-2026-05-06]] — anticipation-gap + permission ladder
+- [[youtube-digest-apify-2026-05-10]] — 4 videos: work primitive, OpenClaw runtime, plugins map, code comprehensibility
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

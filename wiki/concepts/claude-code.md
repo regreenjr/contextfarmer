@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) confirmed as parallel substrate with overlapping primitives
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, cross-vendor]
-sources: 6
-updated: 2026-05-06
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor]
+sources: 7
+updated: 2026-05-10
 ---
 
 # Claude Code
@@ -79,6 +79,18 @@ updated: 2026-05-06
 - **Skill Systems composition layer named** ([[simon-scrapes]] #3) — the missing rung between *authoring* (one skill) and *curation* (which to install) is now explicitly named: modular skills chained into end-to-end automations vs the "mega-skill" anti-pattern. Direct architectural artifact for productizing consulting deliverables. → See [[skill-systems]].
 - **Anticipation gap + permission ladder** ([[nate-b-jones]] #1) — agent-side diagnostic that names *why* coding agents (Claude Code, Codex) crossed the agent-usefulness threshold while consumer agents haven't: clean verification (tests, compilers) closes the anticipation gap. The **read → suggest → draft → act-with-confirmation → autonomous** ladder applies to Claude Code skill/sub-agent/routine permission design. → See [[anticipation-gap]].
 
+## Patterns added in [[youtube-digest-apify-2026-05-10]]
+
+- **Session limits doubled (Anthropic-SpaceX compute deal)** ([[nate-herk]] #9, 87.7K views — highest-views entry in the batch) — Anthropic doubled Claude Code's 5-hour rate limits, killed peak-hours throttle, raised API limits across the board. The [[brad-bonanno]] context-bloat optimization argument loses some urgency; raw allowance roughly doubled overnight. → See [[anthropic]] update.
+- **CLI as packaged-product alternative to MCP** ([[nate-herk]] #1, 52.2K views) — [[printing-press]] is a catalog of CLIs + a builder that converts "almost anything" into a CLI. The packaged evolution of [[brad-bonanno]]'s "replace MCP with CLI" optimization. *"MCPs eat your tokens for breakfast"* is the framing. CLI is the right substrate for: token-sensitive setups, sites without APIs, deterministic actions where MCP schema-load is overhead. → See [[printing-press]].
+- **Hermes Agent as parallel substrate** ([[nate-herk]] #5, 21.4K views; [[corey-ganim]] #3, 3.3K views) — [[hermes-agent]] is the **third tracked substrate** after Claude Code and [[codex]]. VPS-deployed always-on agent with Five Pillars (skills, cron, Telegram, GitHub backup, multi-agent scaling). Codex backend, Hostinger VPS, Telegram-first surface. Substantively different deployment topology from Claude Code (local session-based). The two may be complementary use cases, not strict competitors. → See [[hermes-agent]].
+- **Plugins-as-mech-suit taxonomy** ([[nate-b-jones]] #11, 31.1K views) — explicit 6-layer agentic-scaffolding map: prompts, skills, **plugins**, MCPs, hooks, scripts. Plugins are bigger than MCPs; the app-store analogy undersells them. The taxonomy layer **above** [[skill-systems]] (composition) and [[claude-skills]] (units). Operators waste 40% of their time by putting work in the wrong layer. → See [[plugins]].
+- **Work Primitive (access/meaning/authority)** ([[nate-b-jones]] #7, 27.6K views) — the substrate-side framework. *Why* coding agents arrived first: software has unusually rich work semantics (compilers, ASTs, types, tests). Computer use is the universal adapter for the messy middle, not the strategic primitive. → See [[work-primitive]].
+- **OpenClaw reframed as runtime abstraction** ([[nate-b-jones]] #8, 53.3K views) — major reframe; OpenClaw is **becoming infrastructure** below the model layer that lets work survive model/vendor churn. Open question whether [[brad-bonanno]]'s "OpenClaw is dead" view (wrapper killed by first-party features) and Nate B Jones' "OpenClaw is runtime" view are both correct (different use cases) or one wins. → Likely needs an [[openclaw]] entity page.
+- **Brad's 13-product Anthropic surface tour** ([[brad-bonanno]] #2, 3.5K views) — canonical Anthropic product-surface inventory: Chat, Connectors, Projects, Cowork, Skills, Dispatch, Word/PowerPoint/Excel add-ins, Chrome, Design, Code, Routines. Thesis: paying users use ~2% of what Claude exposes. → See [[anthropic]] update.
+- **Code comprehensibility as security property** ([[nate-b-jones]] #12, 29.8K views) — first AI-as-security-tool entry in this vault. Anthropic's Mythos pointed at Mozilla Firefox shipped 271 vulnerability fixes in one cycle. → See [[code-comprehensibility]].
+- **Knowledge layer commercially shipped** ([[the-ai-automators]] #4, 18.6K views) — Pinecone Nexus, Microsoft Fabric IQ, Google Knowledge Catalog all ship the [[karpathy-llm-wiki]] architecture in roughly four weeks. Validation that the patterns this vault tracks are **enterprise-software-shipped**, not hobbyist-only. → See [[knowledge-layer]].
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -112,5 +124,11 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]] — primary source digests
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]] — primary source digests
+- [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
+- [[printing-press]] — CLI alternative tooling for token-cost optimization
+- [[plugins]] — taxonomy layer above Skills
+- [[work-primitive]] — substrate-side agent-readiness framework
+- [[code-comprehensibility]] — codebase-side framework (Anthropic Mythos)
+- [[knowledge-layer]] — commercial shipping of [[karpathy-llm-wiki]] architecture
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]]

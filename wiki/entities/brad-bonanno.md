@@ -1,10 +1,10 @@
 ---
 title: Brad Bonanno
 category: entity
-summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice on Telegram + Scheduled Tasks + Auto Memory
-tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory]
-sources: 2
-updated: 2026-05-03
+summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice on Telegram + Scheduled Tasks + Auto Memory; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour — the most comprehensive Anthropic product-surface inventory tracked here
+tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour]
+sources: 3
+updated: 2026-05-10
 ---
 
 # Brad Bonanno
@@ -19,6 +19,27 @@ Person + YouTube channel **Brad | AI & Automation**. Builder of the "AI Second B
 
 - #19 *I Stopped Hitting Claude Code Usage Limits (Here's How)* — 106K views, 2026-04-10. Releases free **Context Audit skill** that scans Claude Code setup, scores token bloat, recommends cuts. Canonical fix: replace MCP servers with CLIs, optimize CLAUDE.md, cut skill bloat, tune settings.json.
 - #23 *I Turned My Second Brain Into a Company Brain (Now it reads Slack for me)* — 2.4K views (early), 2026-04-01. Shows full context-farming setup: Slack MCP + Fireflies + Obsidian + scheduled Claude Code routines. Includes a `/create-farmer` skill that builds and schedules new farmers automatically. **Free GitHub repo at `bradautomates/second...`** (truncated in source).
+
+## Key video in [[youtube-digest-apify-2026-05-10]]
+
+- #2 *How I'd Learn Claude From Scratch in 2026* — 3.5K views (early), 2026-05-07, 11:29. **Canonical 13-product tour** of Anthropic's surface area — the most comprehensive product inventory in this vault. Walks every product end-to-end:
+  1. Claude Chat + artifacts
+  2. Connectors + MCP (Gmail, Drive, Notion, Calendar, Slack)
+  3. Projects (work organization)
+  4. Claude Desktop + Cowork + Live Artifacts (local file read/edit)
+  5. **Skills** ("the one feature that makes everything else dramatically better")
+  6. Dispatch (mobile-to-desktop handoff)
+  7. Word add-in
+  8. PowerPoint add-in
+  9. Excel add-in
+  10. Chrome (browser automation)
+  11. Design ([[claude-design]])
+  12. Code ([[claude-code]] — "the most powerful version of all of it")
+  13. Routines (scheduled recurring work)
+- **Thesis**: paying users use ~2% of what Claude exposes. Most never touch Skills, Connectors, Cowork, Routines.
+- **Skills as the unlock** — same framing [[ben-ai]] uses; Brad confirms it from the operator side, [[ben-ai]] from the authoring side
+- **Skills Marketplace waitlist** at `brad-b.kit.com/f9a7349a1c` — same waitlist Brad has been driving since the earlier #19/#23 videos; he's been at it for months
+- Useful as the **canonical Anthropic product surface inventory** for this vault — supplements the [[anthropic]] entity page
 
 ## Key video in [[youtube-digest-2026-05-03-r3]]
 
@@ -60,8 +81,10 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — 2 high-signal videos (#19, #23)
 - [[youtube-digest-2026-05-03-r3]] — video #4 (OpenClaw-killer features)
+- [[youtube-digest-apify-2026-05-10]] — video #2 (Learn Claude From Scratch 13-product tour)
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
+- [[anthropic]] — most comprehensive product-surface tour
 
 ## Why track him for 3Ps
 - **Direct architectural influence** on this vault — anything he ships likely belongs here

@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition; 2026-05-06 FB ads batch shows Anthropic running 5 catalog-driven dynamic-creative carousels with zero static narrative copy — same pattern as OpenAI
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads]
-sources: 2
-updated: 2026-05-06
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility]
+sources: 3
+updated: 2026-05-10
 ---
 
 # Anthropic
@@ -35,6 +35,52 @@ The framing per [[nate-b-jones]]: Anthropic's strategy is *layering* (be the mod
 - **[[claude-design]]** — Anthropic's design tool (covered in [[nate-herk]] #18)
 - Skill marketplace — Anthropic-distributed via `claude-plugins-official`
 
+## 2026-05-10 product surface expansions
+
+### SpaceX compute partnership (per [[nate-herk]] #9 in [[youtube-digest-apify-2026-05-10]])
+
+87.7K-view coverage in days — the highest-views entry in the 2026-05-10 batch:
+
+- **Doubled Claude Code's 5-hour rate limits**
+- **Killed the peak-hours throttle**
+- **Raised API rate limits across the board**
+- **SpaceX compute partnership** — non-Big-Three compute supplier; strategic diversification
+
+Implications:
+- The [[brad-bonanno]] context-bloat / token-rationing optimization argument loses some urgency; raw allowance has gone up
+- [[claude-code]] operational headroom roughly doubled overnight
+- For 3Ps: clients on Claude Code Plus/Pro got cheaper-to-run stacks without action — useful talking point
+
+### Anthropic Mythos (per [[nate-b-jones]] #12 in [[youtube-digest-apify-2026-05-10]])
+
+First appearance of **Mythos** — Anthropic's AI code-review tool — in this vault. [[mozilla]] pointed Mythos at Firefox and shipped fixes for **271 vulnerabilities in a single release cycle**.
+
+Strategic significance:
+- If Mythos becomes the canonical AI code reviewer, Anthropic captures another **infrastructure layer** (above the model, below the application) — same shape as their [[mcp]] play
+- "A good human engineer wrote this" is becoming a much weaker security claim ([[code-comprehensibility]])
+- Open: is Mythos public-facing, internal Anthropic, or something else? Worth verification
+- Adds AI security tooling to Anthropic's surface area beyond pure model + Code
+
+### Canonical product-surface inventory (per [[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
+
+[[brad-bonanno]]'s 13-product tour is the most comprehensive Anthropic-surface walk in this vault:
+
+1. Claude Chat + artifacts
+2. Connectors + MCP
+3. Projects
+4. Claude Desktop + Cowork + Live Artifacts
+5. Skills
+6. Dispatch (mobile-to-desktop handoff)
+7. Word add-in
+8. PowerPoint add-in
+9. Excel add-in
+10. Chrome (browser automation)
+11. Design
+12. Code
+13. Routines
+
+Brad's thesis: paying users use ~2% of what Claude exposes. Useful baseline for any 3Ps client onboarding — most clients will be touching 2-3 of these and unaware of the other 10.
+
 ## 2026-05-06 FB ads pattern
 
 From [[ads-digest-2026-05-06]] — 5 active Anthropic ads, all carousel format with `{{product.name}}` headlines and `{{product.brand}}` body text. **Zero static narrative copy.** Started Mar 16 - Apr 8, 2026.
@@ -57,10 +103,14 @@ Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Co
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
 - [[ads-digest-2026-05-06]] — 5 catalog-driven carousel ads (no static narrative)
-- [[claude-code]], [[claude-skills]] — concept pages
+- [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour
+- [[claude-code]], [[claude-skills]], [[code-comprehensibility]] — concept pages
 
 ## Open questions
 - Is the Atlassian rumor priced into Anthropic strategy, or speculative? (Watch for confirmation/denial)
 - What does the next official Anthropic YouTube post cover? (Cadence is low but each post is high-signal)
 - Are Skills going to ship in non-Code surfaces (Claude.ai, mobile)? (Currently Code-only)
 - Is there an official Skills marketplace coming, or will GitHub-distributed remain canonical?
+- **Mythos status** — public-facing product? internal tool? pricing? rollout scope?
+- **SpaceX compute deal scope** — capacity terms, exclusivity, duration? Does this signal Anthropic preparing for major capacity demands (Claude Code 3? Enterprise Mythos rollout?)
+- **13-product surface coherence** — which of Brad's 13 products are Anthropic actively investing in vs maintaining?

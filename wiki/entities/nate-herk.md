@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, and (2026-05-06) the first major Codex full-course in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, cross-vendor]
-sources: 4
-updated: 2026-05-06
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor]
+sources: 5
+updated: 2026-05-10
 ---
 
 # Nate Herk
@@ -59,6 +59,24 @@ Net-new substrate coverage: this is the first major **OpenAI Codex CLI** educati
 
 Strategic significance: Nate Herk is the first top-tier Claude-ecosystem creator to publish substantive Codex content. The cross-vendor architectural symmetry (Skills, Plan Mode, automations, browser-use both exist) is now confirmed via educational content from a 708K-sub creator. Tracks with his role as the **mainstream barometer** — when a primitive crosses from one vendor to two, it's settled enough to teach. → See [[codex]].
 
+**Plus 4 new videos in [[youtube-digest-apify-2026-05-10]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 1 | This is The Most Powerful Tool to Give to Claude Code (Printing Press) | 52.2K | 2026-05-09 |
+| 5 | Hermes Agent: Zero to Personal AI Assistant (1 Hour Course) | 21.4K | 2026-05-10 |
+| 9 | Claude Just Solved Session Limits | 87.7K | 2026-05-07 |
+| 10 | Overwhelmed By AI? Just Copy My Tech Stack (tier list) | 31.5K | 2026-05-08 |
+
+Strategic significance of this 4-video burst:
+
+1. **#1 Printing Press** — first packaged-product evolution of the [[brad-bonanno]] CLI-replaces-MCP optimization argument. 52K views in two days; "MCPs eat your tokens for breakfast" is the framing, CLI catalog + builder is the answer. → New concept: [[printing-press]].
+2. **#5 Hermes Agent 1hr full course** — first major [[hermes-agent]] educational entry from a top-tier creator. **Same shape as his Codex course in [[youtube-digest-apify-2026-05-06]]** — 1hr full-course format mirroring the Claude Code OS course. Five Pillars architecture (skills, cron, Telegram, GitHub backup, multi-agent). Hostinger affiliate (NATEHERK). Confirms his role as **the cross-substrate teacher** — first to ship full-course content for new substrates as they reach mainstream awareness.
+3. **#9 Session limits doubled (SpaceX deal)** — 87.7K views in days; the highest-views entry in [[youtube-digest-apify-2026-05-10]]. Strategic news coverage of the Anthropic-SpaceX compute partnership. Confirms his role as the **mainstream-news interpreter** for the Claude ecosystem.
+4. **#10 Tier list / decision framework** — content format pivot; tier-list "what's in my stack" walkthrough with explicit decision framework for "what to add." Reusable format for 3Ps content.
+
+The cross-substrate cadence (Claude Code → Codex → Hermes Agent in three weeks, with a 1hr full course for each) confirms Nate Herk as the **fastest-cycling cross-substrate creator** in this vault. He shipped 4 videos in this batch alone — highest single-batch output of any tracked creator.
+
 ## Frameworks he's introduced
 
 - **Three Ms** (covered in #3 AIOS course at 3:30) — for thinking about AI; specifics behind the framework gated to the course
@@ -98,9 +116,11 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]]
 - [[claude-code]], [[claude-skills]], [[claude-design]]
 - [[codex]] — first major Codex educational entry in vault is his
+- [[hermes-agent]] — first major Hermes 1hr full-course in vault is his
+- [[printing-press]] — first major Printing Press educational entry in vault
 - [[voice-agents]] — first-published end-to-end build
 - [[karpathy-llm-wiki]]
 - [[ai-consulting]]

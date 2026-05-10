@@ -1,10 +1,10 @@
 ---
 title: MCP (Model Context Protocol)
 category: concept
-summary: Open standard from Anthropic for connecting LLMs to external data and tools; in 2026, increasingly the right choice for agentic microservices, while local Claude Code work tilts toward Skills; cross-curator favorites surfacing (Context7, Task Master, Playwright, Tavily, Codebase Memory)
-tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration]
-sources: 2
-updated: 2026-05-05
+summary: Open standard from Anthropic for connecting LLMs to external data and tools; in 2026, increasingly the right choice for agentic microservices, while local Claude Code work tilts toward Skills (or [[printing-press]] CLI alternatives); positioned in [[nate-b-jones]]' 6-layer agentic-scaffolding taxonomy ([[plugins]]) at layer 4; cross-curator favorites surfacing (Context7, Task Master, Playwright, Tavily, Codebase Memory)
+tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration, printing-press, plugins]
+sources: 3
+updated: 2026-05-10
 ---
 
 # MCP (Model Context Protocol)
@@ -72,10 +72,30 @@ Cross-curator pattern: MCP picks are leaning toward **read-side servers** (docs,
 
 Also notable: [[nate-herk]] #3's Higgsfield integration uses **MCP or CLI** (explicit either/or per the description), confirming the [[brad-bonanno]] either/or framing is now standard practice.
 
+## CLI replacement shipped as packaged product ([[printing-press]] in [[youtube-digest-apify-2026-05-10]])
+
+In [[youtube-digest-apify-2026-05-10]] #1, [[nate-herk]] (52.2K views) covers **Printing Press** — a catalog of CLIs + a builder that converts "almost anything" into a CLI an agent can use. The framing: *"if you've ever watched MCPs eat your tokens for breakfast, this is the better path."*
+
+This is the **packaged-product evolution** of [[brad-bonanno]] #19's "replace MCP with CLI" optimization argument. Where Brad gave a methodology, Printing Press gives a tool that mechanizes the conversion.
+
+Implication for this page: the **MCP-vs-CLI tension** has now shipped on both sides:
+- **MCP-canonical side**: Anthropic's open spec + Tim Berglund's lightboard explainer
+- **CLI-alternative side**: Brad's Context Audit + [[printing-press]]
+
+Resolution per current best-practice: use MCP for **read-side, capability-discovery-heavy** servers (docs, search, codebase context); use CLIs (especially Printing Press CLIs) for **write-side, deterministic-action** tools (Slack post, GitHub create-PR, file ops). → See [[printing-press]].
+
+## MCP positioned in 6-layer agentic-scaffolding taxonomy ([[nate-b-jones]] #11 in [[youtube-digest-apify-2026-05-10]])
+
+[[nate-b-jones]] places MCP at **layer 4** of his 6-layer agentic-scaffolding map — between plugins (whole-workflow bundles) and hooks (deterministic events). Per his framing: MCPs and app connectors give "live access to where work lives." The "wrong-layer" failure mode here is **MCP for what should be a CLI / script** — a token-cost mistake that Printing Press is built to fix. → See [[plugins]].
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — Tim Berglund #9, [[anthropic]] #4, [[brad-bonanno]] #19
 - [[youtube-digest-apify-2026-05-05]] — [[dubibubii]] #5 (5 MCP servers in curated list); [[nate-herk]] #3 (Higgsfield MCP-or-CLI)
+- [[youtube-digest-apify-2026-05-10]] — [[nate-herk]] #1 (Printing Press as packaged CLI alternative); [[nate-b-jones]] #11 (MCP in 6-layer taxonomy)
 - [[claude-code]], [[claude-skills]] — concept relationships
+- [[printing-press]] — CLI-alternative packaged product
+- [[plugins]] — taxonomy layer where MCP sits
+- [[knowledge-layer]] — likely connector layer between Pinecone Nexus / Microsoft Fabric IQ and Claude Code
 - [[voice-agents]] — cal.com integration likely via MCP
 - [[context-farming]] — MCP is the connector layer
 - [[anthropic]] — author

@@ -1,10 +1,10 @@
 ---
 title: Karpathy LLM Wiki
 category: concept
-summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 a sibling Karpathy project (autoresearch) surfaces in mainstream curation
-tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch]
-sources: 3
-updated: 2026-05-05
+summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within ~four weeks (the [[knowledge-layer]] convergence); a sibling Karpathy project (autoresearch) surfaces in mainstream curation
+tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent]
+sources: 4
+updated: 2026-05-10
 ---
 
 # Karpathy LLM Wiki
@@ -18,7 +18,9 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **April 2026**: [[andrej-karpathy]] publishes the gist
 - **41,000 bookmarks in a week** ([[nate-b-jones]] in [[youtube-digest-apify-2026-05-03]] #24)
 - **5+ derivative YouTube videos** within the following month, each implementing the pattern slightly differently
-- **2026-05** (this digest): `karpathy/autoresearch` surfaces in [[dubibubii]]'s 33-tool curation ([[youtube-digest-apify-2026-05-05]] #5) — a separately-published Karpathy skill, **distinct from the LLM Wiki gist**. Open question whether autoresearch is the production form of this pattern or a sibling research-agent skill with different mechanics.
+- **2026-05**: `karpathy/autoresearch` surfaces in [[dubibubii]]'s 33-tool curation ([[youtube-digest-apify-2026-05-05]] #5) — a separately-published Karpathy skill, **distinct from the LLM Wiki gist**. Open question whether autoresearch is the production form of this pattern or a sibling research-agent skill with different mechanics.
+- **2026-05-10**: pattern is **commercially shipped** — [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog all ship the same architecture in ~4 weeks (per [[the-ai-automators]] #4 in [[youtube-digest-apify-2026-05-10]]). Pinecone's framing post: *"~85% of an agent's effort goes to retrieval rather than reasoning"* — admission that agentic RAG has fundamental architectural problems. Pinecone Nexus's three components (Context Compiler, Composable Retriever, KnowQL) explicitly map onto Karpathy wiki primitives. → [[knowledge-layer]] is the category page for the convergence.
+- **2026-05-10**: tier-4 awareness saturation — [[ai-academy]]'s 687-view explainer in [[youtube-digest-apify-2026-05-10]] #6 marks the bottom of the creator funnel; the pattern is now mainstream-explainer-saturated.
 
 ## Key claims (from [[youtube-digest-apify-2026-05-03]])
 
@@ -39,6 +41,11 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 | **This vault** | 3Ps consulting + GTM playbook | Claude Code skills (`farmer`, `wiki-ingest`, `wiki-query`, `wiki-lint`), per-source farmer configs |
 | [[brad-bonanno]] #23 | Company brain | Slack + Fireflies MCP feed via [[context-farming]] |
 | [[tommy-chryst]] #1 (r3) | "PhD-level research" generic vault | Tier-3 small-channel walkthrough; positioned as ChatGPT deep-research alternative; signals pattern past tip-of-funnel |
+| [[corey-ganim]] #3 | Hermes-on-Hostinger second brain | VPS + Telegram + OpenAI Codex backend; explicit fork from Claude Code + Obsidian — pattern runs on [[hermes-agent]] substrate too |
+| [[ai-academy]] #6 | Tier-4 generic explainer | Bottom of the creator funnel; pattern at full mainstream-awareness saturation |
+| **[[pinecone]] Nexus** | **Commercial enterprise software** | **Three-component architecture (Context Compiler / Composable Retriever / KnowQL) mapping onto wiki primitives** |
+| **Microsoft Fabric IQ** | **Compiled Ontology layer** | **Inside Fabric data platform** |
+| **Google Knowledge Catalog** | **Google Cloud platform layer** | **Cloud Next launch** |
 
 ## Contrasts with
 - **[[openbrain]]** (OpenAI's memory product) — see [[karpathy-wiki-vs-openbrain]] for the full comparison; OpenBrain synthesizes at query time, LLM Wiki compiles at write time
@@ -63,25 +70,34 @@ The user's entire knowledge architecture *is* this pattern. Implications:
 
 ## Adoption-tier signal
 
-Implementations now span all creator tiers:
+Implementations now span all creator tiers + commercial software:
 
 | Tier | Subs/views range | Example | Date |
 |---|---|---|---|
+| **Commercial vendor** | n/a | **[[pinecone]] Nexus, Microsoft Fabric IQ, Google Knowledge Catalog** | **2026-05** |
 | Tier 1 (mainstream) | 100K+ subs | [[nate-herk]] (708K subs, 459K views) | April 2026 |
 | Tier 2 (educator) | 200K-1M | Teacher's Tech (259K views) | April 2026 |
-| Tier 3 (small) | sub-15K views | [[tommy-chryst]] (14.6K views) | April 2026 |
+| Tier 3 (small) | sub-15K views | [[tommy-chryst]] (14.6K views), [[corey-ganim]] (3.3K) | April-May 2026 |
+| **Tier 4 (tiny)** | sub-1K views | **[[ai-academy]] (687 views)** | 2026-04-29 |
 | Vertical | n/a | [[tonbi-onchain-ai-garage]] (trading) | April 2026 |
 | Operator | n/a | [[brad-bonanno]] (company brain) | April 2026 |
+| **Substrate fork** | n/a | **[[corey-ganim]] on [[hermes-agent]]** | 2026-05-08 |
 
-Conclusion: the pattern is past the early-adopter trough; "I built an LLM Wiki" is no longer differentiating. Differentiation now lives in **what's in the wiki and how well the farmers feed it**, not in having one at all.
+Conclusion: the pattern is **past the early-adopter trough AND has been validated by enterprise software**. "I built an LLM Wiki" is no longer differentiating; even tier-4 channels ship explainer videos for it. Differentiation now lives in **what's in the wiki and how well the farmers feed it**, not in having one at all.
+
+The 2026-05 commercial-shipping shift changes the strategic frame: the user's vault is now an **early-mover artifact for an emerging enterprise category**, which is more sellable than "I built a hobbyist tool."
 
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — primary citation
 - [[youtube-digest-2026-05-03-r3]] — Tommy Chryst's tier-3 walkthrough
 - [[youtube-digest-apify-2026-05-05]] — `karpathy/autoresearch` surfacing via [[dubibubii]] #5
+- [[youtube-digest-apify-2026-05-10]] — commercial-shipping convergence ([[the-ai-automators]] #4) + tier-4 saturation ([[ai-academy]] #6) + [[hermes-agent]] fork ([[corey-ganim]] #3)
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
+- [[knowledge-layer]] — commercial-category page for the convergence
+- [[pinecone]] — commercial-vendor-of-record
 - [[andrej-karpathy]] — author
 - [[context-farming]] — the upstream feeder pattern
-- [[tommy-chryst]] — small-channel implementer
+- [[tommy-chryst]], [[corey-ganim]], [[ai-academy]], [[the-ai-automators]] — implementer/explainer creators
 - [[claude-skills]] — `autoresearch` is published as a Claude Skill
+- [[hermes-agent]] — alternative substrate for running the pattern (per [[corey-ganim]])
 - This vault's `CLAUDE.md` — the schema definition
