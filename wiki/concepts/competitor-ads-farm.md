@@ -1,10 +1,10 @@
 ---
 title: Competitor Ads Farm
 category: concept
-summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; first batch 2026-05-06 returned 183 new ads but ~65% noise from substring brand-name matches
+summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; two batches in (2026-05-06, 2026-05-10) the dedup pipeline works (190 fetched → 22 new in batch 2) but the brand-name substring filter still hasn't been tuned — noise rate worsened from 65% to 82% as dedup removed real creative but kept noise pages
 tags: [farm, competitor-ads, fb-ads, apify, dtc, telehealth, hims, glp-1, ai-consulting]
-sources: 1
-updated: 2026-05-06
+sources: 2
+updated: 2026-05-10
 ---
 
 # Competitor Ads Farm
@@ -51,7 +51,9 @@ Mirrors the YouTube farm:
 
 Most days: NOTE or PASS dominate. STUDY is reserved for genuinely novel creative.
 
-## First batch findings (2026-05-06)
+## Batch findings
+
+### Batch 1 — 2026-05-06
 
 From [[ads-digest-2026-05-06]]:
 
@@ -60,6 +62,18 @@ From [[ads-digest-2026-05-06]]:
 - **AI labs ship dynamic-creative-only** — OpenAI (21 ads) and Anthropic (5) both run pure catalog/product-feed carousels with `{{product.name}}` headlines and `{{product.brand}}` bodies, zero static narrative
 - **[[hampton-founders]] is the only "Hampton" with relevant creative** — vetted founder peer-group community for $3M+ revenue founders
 - **Ro / Henry Meds / DealMachine produced ~zero relevant creative** — Ro had 1 placeholder; Henry Meds and DealMachine missing entirely
+- **~65% noise rate** from substring brand-name matches
+
+### Batch 2 — 2026-05-10
+
+From [[ads-digest-2026-05-10]]:
+
+- **190 fetched / 22 new / 168 dedup-skipped** — dedup pipeline working as designed; dropped 168 already-seen ads
+- **[[hims]] adds Hard Mints product** — 4th Sex Rx SKU (chewable compounded ED for non-responders to traditional pills); first four-bullet variant of the [[concepts/dtc-telehealth-ad-template]]
+- **[[openai]] catalog-ads-only confirmed** — 3 more carousels in the same Apr 2-21 launch cluster; pattern is now stable across two batches (24 total ads, 0 narrative)
+- **[[ro]] placeholder pattern persists** — 2 more `{{product.brand}}` placeholders; 3 total Ro ads tracked, 0 with teardown-able copy
+- **Anthropic, Henry Meds, DealMachine, Hampton Founders — 0 new ads** — dedup-cached or absent
+- **~82% noise rate** — proportionally worse than batch 1 because dedup removed real creative but the noise pages keep firing fresh creative substring-matches
 
 ## Known issue: brand-name filter is too permissive
 
@@ -71,13 +85,16 @@ The 2026-05-06 digest shows the filter **kept** ads from third-party pages whose
 - "Hampton" matched dozens of regional businesses (Hampton Inn, Hampton Roads Honda, Hampton Roads Transit, Hampton Sun, Classic Toyota Hampton, etc.) — none are Hampton Founders
 - "Ro" matched Roads & Kingdoms, Roseionly, Rockfest, ProTyres Oradea, Modlet.ro, dozens more — none are Roman Health
 
-**Estimated noise rate: ~65% of digest entries.**
+**Noise rate by batch: ~65% (2026-05-06) → ~82% (2026-05-10).** The proportion got worse, not better, between batches because dedup correctly suppresses re-firing of real Hims/OpenAI/Anthropic creative but the substring noise pages produce *new* fresh ad IDs daily. Without filter tuning, the steady-state noise rate will trend toward 100%.
+
+New noise brands surfaced in 2026-05-10: **KaRoL G** ("Ro" inside "KaRoL"), **Uproot Clean** ("Ro" inside "Uproot"), **BaBylissPRO** ("Ro" inside "Pro"), **Hampton by Hilton**, **Visit Hampton VA**, **NAPA BDG South Hampton Roads**, **Hampton RV Trailer Sales**, **Hampton University Proton Cancer Institute**, **Hill Chiropractic** (root cause unclear).
 
 ### Action items
 
-- → tune the [[competitor-ads]] farm to use **exact page-name match** or **page-ID allow-listing** rather than substring match
+- → tune the [[competitor-ads-farm]] to use **exact page-name match** or **page-ID allow-listing** rather than substring match. **Outstanding from 2026-05-06; not addressed by 2026-05-10.**
 - → for short brand names ("Ro", "Eden", "Hampton"), maintain an explicit allow-list of the actual FB Page IDs
 - → consider adding `Roman Health`, `Ro Body`, `Hampton Founders`, `Eden Body` to the search-brand list to catch the variant page names
+- → investigate the "Hill Chiropractic" match in 2026-05-10 — neither "Hill" nor "Chiropractic" is a tracked brand keyword, so the actor may be returning unsolicited adjacent results
 
 ## Why this farm exists
 
@@ -96,7 +113,8 @@ Two specific products feed from it:
 
 ## Appears in
 
-- [[sources/ads-digest-2026-05-06]] — first batch
+- [[sources/ads-digest-2026-05-06]] — first batch (183 new ads, 65% noise)
+- [[sources/ads-digest-2026-05-10]] — second batch (22 new ads, 82% noise — Hims Hard Mints + OpenAI catalog confirmation)
 
 ## Open questions
 

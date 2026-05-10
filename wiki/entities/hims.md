@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) with 45 active FB ads in this vault's first competitor-ads batch; pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template
-tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, competitor, hims]
-sources: 1
-updated: 2026-05-06
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs
+tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims]
+sources: 2
+updated: 2026-05-10
 ---
 
 # Hims
@@ -39,15 +39,18 @@ From [[ads-digest-2026-05-06]] — 45 active ads, three product wedges:
 - **Disclaimer:** *"Hair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs."* + *"Individual results may vary. Based on separate individual studies of oral and topical minoxidil and finasteride."*
 - **Ad volume in 2026-05-06 batch:** ≥10 active variations — the highest-volume wedge
 
-### Wedge 3 — Sex Rx (compounded ED + climax + testosterone)
+### Wedge 3 — Sex Rx (compounded ED + climax + testosterone + chewable)
 
-Three SKU variants, all compounded:
+**Four SKU variants** as of 2026-05-10, all compounded:
 
 1. **3-in-1 Pill** — sildenafil + tadalafil + B12. *"Same active ingredients as Viagra® and Cialis®"* (with non-affiliation disclaimer for both trademarks)
 2. **Sex Rx + Climax Control** — tadalafil + PE treatment. *"The 2-in-1 pill to get harder, and go longer."*
 3. **Sex Rx + Testosterone Support** — tadalafil + zinc + L-arginine + B12 + B6. *"🔥New Sex Rx + Testosterone Support 🔥"*
+4. **Hard Mints** (added 2026-05-10) — chewable compounded product (likely sublingual avanafil or tadalafil/avanafil combo — needs landing-page confirmation). Hook: *"If traditional ED pills don't work for you, Hard Mints by Hims might be an option—if prescribed."* — failure-mode-targeted positioning aimed at non-responders to standard ED meds. First Hims ad to use a **four-bullet** structure (adds *"💻 No office visit required"* to the standard three) — fourth bullet pre-empts the ED-specific "would I have to see a doctor?" objection.
 
-All three include the standard compounded-drug FDA disclaimer.
+All four include the standard compounded-drug FDA disclaimer. Hard Mints uses tighter wording: *"Hard Mints is a chewable compounded product and has not been approved by the FDA."*
+
+**Wedge laddering pattern:** each new Sex Rx SKU expands the ICP by addressing a different failure mode — baseline (3-in-1), PE (Climax Control), low-T (Testosterone Support), non-responders (Hard Mints). Direct relevance for [[medvi-positioning]]: mirror the laddering or compete by collapsing it ("one product for all four states").
 
 ## Creative-format observation
 
@@ -85,6 +88,7 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 
 - **Compounded GLP-1 / Sex Rx products:** *"[Product] is a compounded drug product. The FDA does not approve or verify compounded drugs for safety, effectiveness, or quality. This prescription product requires an online consultation with a healthcare provider who will determine if a prescription is appropriate. Restrictions apply. See website for full details and important safety information."*
 - **Hair Hybrids:** *"Hair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs."*
+- **Hard Mints (chewable, added 2026-05-10):** *"Hard Mints is a chewable compounded product and has not been approved by the FDA. The FDA does not verify the safety or effectiveness of compounded drugs."* — note the slight rewording (*"has not been approved"* vs *"FDA does not approve or verify"*) — same legal substance, suggests Hims A/B-tests disclaimer language.
 
 ## Related
 
@@ -97,7 +101,8 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 
 ## Appears in
 
-- [[sources/ads-digest-2026-05-06]] — 45 ads across three wedges
+- [[sources/ads-digest-2026-05-06]] — 45 ads across three wedges (initial Hims creative inventory)
+- [[sources/ads-digest-2026-05-10]] — 2 new ads: Hair Hybrids continuation + Hard Mints product launch (4th Sex Rx SKU)
 
 ## Open questions
 

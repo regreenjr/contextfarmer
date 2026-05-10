@@ -1,10 +1,10 @@
 ---
 title: DTC Telehealth Ad Template
 category: concept
-summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; canonical 2026 reference structure for compounded-prescription DTC creative
+summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection
 tags: [dtc, telehealth, ads, copy-template, hims, glp-1, creative-pattern]
-sources: 1
-updated: 2026-05-06
+sources: 2
+updated: 2026-05-10
 ---
 
 # DTC Telehealth Ad Template
@@ -63,14 +63,40 @@ Bullet pattern: outcome timeframe → provider trust → shipping.
 
 Bullet pattern: equivalence-to-branded → personalization → discreet shipping.
 
+### Sex Rx — Hard Mints (four-bullet variant, added 2026-05-10)
+
+From [[ads-digest-2026-05-10]]:
+
+> If traditional ED pills don't work for you, Hard Mints by Hims might be an option—if prescribed.
+>
+> Why treat ED with Hims?
+> 🥼 Wide range of personalized ED treatments
+> ❇️ Pills and discreet chewable options
+> 🩺 Doctor-trusted active ingredients
+> 💻 No office visit required
+
+Bullet pattern: variety → form-factor + discretion → provider trust → **access channel (no office visit)**.
+
+**Breaks the three-bullet ceiling.** First Hims ad in this vault to use four bullets. The fourth bullet — *"💻 No office visit required"* — addresses an ED-specific sticky objection ("would I have to see a doctor for this?") that the three-bullet structure doesn't pre-empt.
+
+Hook is also structurally different: failure-mode-targeted (*"If traditional ED pills don't work for you"*) rather than outcome-focused. Qualifies the buyer on a different axis than the 3-in-1 Pill ("better sex life") — this ad is for non-responders to standard ED meds, not for the general ED ICP.
+
 ## Cross-wedge invariants
 
-1. **Hook line is always 1-2 sentences** — outcome-focused or product-reveal-focused, never feature-focused
+1. **Hook line is always 1-2 sentences** — outcome-focused, product-reveal-focused, **or failure-mode-targeted** (Hard Mints variant), never feature-focused
 2. **"Why [Brand]?" header transitions to bullet block** — the same three-letter word "Why" anchors the structure across all wedges
-3. **Three bullets, always emoji-prefixed** — visual-density compromise: emojis make the bullets scannable on mobile, three is the max before banner blindness
-4. **Bullet 3 is shipping/access** — the universal third bullet across wedges, varying only between "Free shipping" and "Free shipping + discreet delivery" depending on stigma category
+3. **Three bullets default, four bullets for high-objection categories** — emojis make the bullets scannable on mobile; three is the standard ceiling but the Hard Mints variant breaks it for ED-specific "no office visit" reassurance
+4. **The shipping/access bullet is universal** — *Free shipping* / *Free shipping + discreet delivery* (stigma) / *No office visit required* (high-objection category)
 5. **Closing line is short** — "Your goals. Your plan. Your pace." / "See if you qualify today." / "Get started today—100% online with a free consultation."
 6. **Disclaimer block follows** — the [[compounded-drug-disclaimer]] template
+
+### When to use the four-bullet variant
+
+Add a fourth bullet when the category has a sticky objection that the standard three (equivalence/outcome → provider → shipping) don't pre-empt. Observed instances:
+
+- **ED chewables (Hard Mints):** *"would I have to see a doctor?"* → fourth bullet *"💻 No office visit required"*
+
+Predict (untested): GLP-1 ads aimed at insurance-skeptical buyers might add *"💳 No insurance required"* as a fourth bullet. Worth watching future batches.
 
 ## Why the template works
 
@@ -104,7 +130,8 @@ Direct instantiation candidate for first round of Medvi Meta ads.
 
 ## Appears in
 
-- [[sources/ads-digest-2026-05-06]] — 19 Hims static-narrative ads using this template
+- [[sources/ads-digest-2026-05-06]] — 19 Hims static-narrative ads using the three-bullet template
+- [[sources/ads-digest-2026-05-10]] — 1 Hims static-narrative ad introducing the four-bullet variant (Hard Mints)
 
 ## Open questions
 

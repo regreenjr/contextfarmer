@@ -1,10 +1,10 @@
 ---
 title: Compounded Drug Disclaimer
 category: concept
-summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims and structurally required by FTC + state-pharmacy-board scrutiny of compounded-drug advertising
+summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims and structurally required by FTC + state-pharmacy-board scrutiny of compounded-drug advertising; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints") suggesting Hims A/B-tests disclaimer wording
 tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1]
-sources: 1
-updated: 2026-05-06
+sources: 2
+updated: 2026-05-10
 ---
 
 # Compounded Drug Disclaimer
@@ -32,6 +32,19 @@ From [[hims]]'s active 2026-05-06 ads ([[ads-digest-2026-05-06]]):
 > *Individual results may vary. Based on separate individual studies of oral and topical minoxidil and finasteride.
 >
 > Prescription products require an online consultation with a healthcare provider who will determine if a prescription is appropriate. Restrictions apply. See website for full details and important safety information.
+
+### Compounded chewable variant ("Hard Mints", added 2026-05-10)
+
+From [[ads-digest-2026-05-10]]:
+
+> Hard Mints is a chewable compounded product and has not been approved by the FDA. The FDA does not verify the safety or effectiveness of compounded drugs. Prescription products require an online consultation with a healthcare provider who will determine if a prescription is appropriate. Restrictions apply. See website for full details and important safety information.
+
+Notable rewording vs the canonical pill variant:
+- *"is a chewable compounded product"* (specifies form factor) vs *"is a compounded drug product"*
+- *"has not been approved by the FDA"* (passive completed action) vs *"FDA does not approve or verify"* (active ongoing stance)
+- *"FDA does not verify the safety or effectiveness"* drops "or quality" from the standard triad
+
+Same legal substance, different phrasing. Suggests Hims runs **A/B variants of the disclaimer language itself** — likely behind a creative-test framework with legal sign-off on each phrasing variant. Worth considering when drafting [[medvi-positioning]] disclaimers: pick one phrasing and stick to it, or test variants within the legal-approved set.
 
 ## Required structural elements
 
@@ -91,7 +104,8 @@ Medvi creative should default to the Hims template and only deviate with explici
 
 ## Appears in
 
-- [[sources/ads-digest-2026-05-06]] — 30+ Hims ads using the template
+- [[sources/ads-digest-2026-05-06]] — 30+ Hims ads using the template (canonical variants)
+- [[sources/ads-digest-2026-05-10]] — Hard Mints variant adds a fifth disclaimer phrasing for chewable compounded products
 
 ## Open questions
 

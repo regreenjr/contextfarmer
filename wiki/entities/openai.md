@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 category: entity
-summary: AI lab behind ChatGPT and Codex; 2026-05-06 FB ads batch shows OpenAI running 21 catalog-driven dynamic-creative carousels with zero static narrative copy — appears to be product-feed-driven catalog ads against API/plan SKUs, opposite approach from Hims' wedge-narrative strategy
+summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy now confirmed across two batches (2026-05-06 + 2026-05-10) — 24 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; same Apr 2-21 campaign cluster persists into May, suggesting a stable product-feed re-targeting motion against API/plan SKUs
 tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads]
-sources: 2
-updated: 2026-05-06
+sources: 3
+updated: 2026-05-10
 ---
 
 # OpenAI
@@ -20,17 +20,23 @@ Two angles:
 1. **Substrate competitor to Anthropic** — [[codex]] is the parallel coding-agent CLI to Claude Code, and [[nate-herk]]'s 1hr Codex full-course (covered in [[youtube-digest-apify-2026-05-06]]) confirmed Codex ships the same Skills / Plan Mode / weekly automations primitives. OpenAI's product moves directly affect the substrate the [[ai-consulting]] practice builds on.
 2. **FB ads pattern signal** — OpenAI's 2026-05-06 batch creative is structurally distinct from DTC competitors (Hims). Worth tracking because what AI labs choose to advertise reveals what surface they're monetizing.
 
-## 2026-05-06 FB ads pattern
+## FB ads pattern — catalog-only, confirmed across two batches
 
-From [[ads-digest-2026-05-06]]:
+### 2026-05-06 batch (21 ads)
 
-- **21 active ads** — every single one is a carousel with `{{product.name}}` headline and `{{product.brand}}` body. **Zero static narrative copy.**
-- **Started dates:** Apr 2 - Apr 21, 2026 — appears to be a single campaign launch wave
-- **Format:** all carousel, all dynamic-creative-only
+From [[ads-digest-2026-05-06]]: 21 carousel ads, all `{{product.name}}` / `{{product.brand}}` placeholders. Started dates Apr 2 - Apr 21, 2026 — single campaign launch wave.
 
-This is **catalog ads** — product-feed-driven dynamic creative, likely against API products / ChatGPT plan SKUs / ChatGPT-for-X verticals. The opposite approach from Hims' static-narrative wedges.
+### 2026-05-10 batch (3 ads)
 
-> ⚠️ Pattern: OpenAI runs only catalog-driven dynamic creative (21 carousels), 0 narrative ads. Anthropic does the same (5 ads). Both AI labs in this batch test catalog/product-feed ads, not brand creative. Hypothesis: AI labs lean on PR/launches for narrative work, and reserve paid social for catalog re-targeting against existing intent.
+From [[ads-digest-2026-05-10]]: 3 more carousel ads, all placeholders. All started 2026-04-07 — same campaign launch cluster as the prior batch (the prior batch's dedup just hadn't caught these yet).
+
+### Confirmed pattern
+
+**24 total OpenAI ads tracked across two batches, 0 with teardown-able copy.**
+
+This is **catalog ads** — product-feed-driven dynamic creative against the OpenAI product surface (API products / ChatGPT plan SKUs / ChatGPT-for-X verticals). Two-batch consistency rules out single-campaign coincidence.
+
+> ⚠️ Pattern confirmed: OpenAI runs only catalog-driven dynamic creative on FB (24 carousels). Anthropic appears to do the same (5 ads in 2026-05-06, 0 new in 2026-05-10). Both AI labs ship zero static brand/narrative creative on FB in 2026-05. Hypothesis: AI labs lean on PR/launches for narrative work and reserve paid social for catalog re-targeting against existing intent (search visits, ChatGPT signups, API console traffic).
 
 ## Substrate role (Codex)
 
@@ -52,6 +58,7 @@ Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
 ## Appears in
 
 - [[sources/ads-digest-2026-05-06]] — 21 catalog ads, all dynamic-creative-only
+- [[sources/ads-digest-2026-05-10]] — 3 more catalog ads, same pattern (24 total tracked)
 - [[sources/youtube-digest-apify-2026-05-06]] — Nate Herk Codex full-course
 
 ## Open questions
