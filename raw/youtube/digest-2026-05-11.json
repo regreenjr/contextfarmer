@@ -1,0 +1,235 @@
+[
+  {
+    "title": "Anthropic And OpenAI Just Admitted The Model Isn't Enough.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "EpJ0CjTJSag",
+    "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag",
+    "thumbnailUrl": "https://i.ytimg.com/vi/EpJ0CjTJSag/maxresdefault.jpg",
+    "viewCount": 53572,
+    "date": "2026-05-10T18:00:09.000Z",
+    "likes": 1200,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": null,
+    "channelTotalVideos": 951,
+    "channelTotalViews": 19846870,
+    "numberOfSubscribers": 285000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": null,
+      "channelTotalVideos": 951,
+      "channelTotalViews": 19846870,
+      "numberOfSubscribers": 285000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:20:48",
+    "commentsCount": 160,
+    "text": "Full article w/ Prompts & Playbook: https://natesnewsletter.substack.com/...\n___________________\nWhat's really happening with AI agent security \u2014 and what does it mean for your AI roadmap? The common story is that McKinsey's Lilly platform had a security lapse \u2014 but the reality is a procurement and organizational design failure that most companies are quietly repeating right now.\n\nIn this video, I share the inside scoop on why AI agent exploits are a strategy problem, not a tech hygiene problem:\n\n \u2022 Why 22 unauthenticated endpoints signal culture, not carelessness\n \u2022 How traditional SaaS procurement breaks down with AI agents\n \u2022 What every vendor announced this week and why it matters\n \u2022 Where to start if your AI stack can't distinguish humans from agents\n\nIf your team is buying or building AI software this quarter, the cheapest move is bringing your developers to the table before you sign \u2014 not after.\n\n0:00 The $20 exploit that broke McKinsey's AI platform\n1:18 Why SQL injection in 2026 is a deeper story\n2:24 Three things this video covers\n3:05 What the postmortem missed\n4:22 22 of 200 endpoints \u2014 pattern, not mistake\n6:10 Why agents break the old procurement sequence\n8:45 What a single agent run actually touches\n10:30 Implementation is the strategy, not downstream of it\n12:15 Anthropic, OpenAI, SAP, Pinecone, Salesforce, ServiceNow respond\n14:00 The real question before you sign\n15:20 Does your platform know humans from agents\n17:10 What happens when your team is under pressure\n19:15 The 6-question checklist and repair playbook\n20:20 Why this is a people challenge, not a tech one\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/\n\nListen to this video as a podcast.\nSpotify: https://open.spotify.com/show/0gkFdjd...\nApple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/enterprise-ai-buying-build-room?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=78s",
+        "text": "1:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=144s",
+        "text": "2:24"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=185s",
+        "text": "3:05"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=262s",
+        "text": "4:22"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=370s",
+        "text": "6:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=525s",
+        "text": "8:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=630s",
+        "text": "10:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=735s",
+        "text": "12:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=840s",
+        "text": "14:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=920s",
+        "text": "15:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=1030s",
+        "text": "17:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=1155s",
+        "text": "19:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EpJ0CjTJSag&t=1220s",
+        "text": "20:20"
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "Claude Code Skills Just Got a MASSIVE Upgrade",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "UxfeF4bSBYI",
+    "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UxfeF4bSBYI/maxresdefault.jpg",
+    "viewCount": 107317,
+    "date": "2026-03-04T20:12:43.000Z",
+    "likes": 2200,
+    "location": null,
+    "channelName": "Chase AI",
+    "channelUrl": "https://www.youtube.com/@Chase-H-AI",
+    "channelUsername": "Chase-H-AI",
+    "collaborators": null,
+    "channelId": "UCoy6cTJ7Tg0dqS-DI-_REsA",
+    "numberOfSubscribers": 122000,
+    "duration": "00:12:19",
+    "commentsCount": 42,
+    "text": "\u26a1Master Claude Code, Build Your Agency, Land Your First Client\u26a1\nhttps://www.skool.com/chase-ai\n\n\ud83d\udd25FREE community with tons of AI resources\ud83d\udd25 \nhttps://www.skool.com/chase-ai-community\n\n\ud83d\udcbb Need custom work? Book a consult \ud83d\udcbb\nhttps://chaseai.io\n\nAnthropic just released the Skill Creator\u2014a brand new tool that lets you test, benchmark, and optimize your Claude Code skills using plain language.\n\nIn this video, I break down everything you need to know about the tool:\n\nSkill Types Explained: A clear breakdown of the two main types of skills: capability uplift vs. encoded preference, and how we eval each one.\n\nWhat the Skill Creator buys us: A look at how the tool fixes these problems using evals, blind A/B testing, and description optimization.\n\nWorkflow Demo: A step-by-step walkthrough where I build a skill from scratch and run an eval.\n\n\n\u23f0TIMESTAMPS:\n0:00 - Why This is Huge\n2:47 - Skill Types & Evals\n7:27 - The Tests\n8:59 - Using Skill-Creator in Claude Code\n11:15 - More Resources\n\nRESOURCES FROM THIS VIDEO:\n\u27a1\ufe0f Master Claude Code: https://www.skool.com/chase-ai\n\u27a1\ufe0f My Website: https://www.chaseai.io\n\u27a1\ufe0f Anthropic Blog: https://claude.com/blog/improving-ski...\n\n#claudecode #claudeskills",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://www.skool.com/chase-ai",
+        "text": "https://www.skool.com/chase-ai"
+      },
+      {
+        "url": "https://www.skool.com/chase-ai-community",
+        "text": "https://www.skool.com/chase-ai-community"
+      },
+      {
+        "url": "https://chaseai.io/",
+        "text": "https://chaseai.io"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI&t=167s",
+        "text": "2:47"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI&t=447s",
+        "text": "7:27"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI&t=539s",
+        "text": "8:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=UxfeF4bSBYI&t=675s",
+        "text": "11:15"
+      },
+      {
+        "url": "https://www.skool.com/chase-ai",
+        "text": "https://www.skool.com/chase-ai"
+      },
+      {
+        "url": "https://www.chaseai.io/",
+        "text": "https://www.chaseai.io"
+      },
+      {
+        "url": "https://claude.com/blog/improving-skill-creator-test-measure-and-refine-agent-skills",
+        "text": "https://claude.com/blog/improving-ski..."
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claudecode",
+        "text": "#claudecode"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claudeskills",
+        "text": "#claudeskills"
+      }
+    ],
+    "subtitles": null,
+    "order": 24,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Claude+Code+skill+marketplace",
+    "isMonetized": null,
+    "hashtags": [
+      "#claudeskills",
+      "#claudecode"
+    ],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Claude%20Code%20skill%20marketplace",
+    "isPaidContent": false
+  }
+]
