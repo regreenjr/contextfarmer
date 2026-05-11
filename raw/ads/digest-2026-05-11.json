@@ -1,0 +1,103 @@
+[
+  {
+    "id": "4381452035415992",
+    "brand": "Eden Munoz",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-01-13",
+    "end_date": "2026-05-10",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=4381452035415992",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1337964444896096",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-05-11",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1337964444896096",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1481884507069298",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-05-11",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1481884507069298",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1278814367082098",
+    "brand": "Adobe Acrobat",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-04-25",
+    "end_date": "2026-05-11",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1278814367082098",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1282228883420726",
+    "brand": "Hampton Roads Maritime Training System - HRMTS",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-04-27",
+    "end_date": "2026-05-10",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1282228883420726",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1638491670630932",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-04-30",
+    "end_date": "2026-05-11",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1638491670630932",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  }
+]
