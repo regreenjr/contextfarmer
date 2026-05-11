@@ -103,6 +103,7 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 
 - [[sources/ads-digest-2026-05-06]] — 45 ads across three wedges (initial Hims creative inventory)
 - [[sources/ads-digest-2026-05-10]] — 2 new ads: Hair Hybrids continuation + Hard Mints product launch (4th Sex Rx SKU)
+- [[sources/ads-digest-2026-05-11]] — 0 new ads (fully dedup-cached); the 4-SKU Sex Rx inventory + Hair Hybrids template haven't refreshed creative since 2026-05-10
 
 ## Open questions
 

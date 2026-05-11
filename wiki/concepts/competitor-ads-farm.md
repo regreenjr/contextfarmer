@@ -1,10 +1,10 @@
 ---
 title: Competitor Ads Farm
 category: concept
-summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; two batches in (2026-05-06, 2026-05-10) the dedup pipeline works (190 fetched → 22 new in batch 2) but the brand-name substring filter still hasn't been tuned — noise rate worsened from 65% to 82% as dedup removed real creative but kept noise pages
+summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; three batches in (2026-05-06, 2026-05-10, 2026-05-11) the dedup pipeline has reached steady state (196 fetched → 6 new in batch 3, 97% dedup-skipped); brand-name substring filter still untuned across all three batches and a new noise root cause (Adobe Acrobat — no substring match) suggests Apify actor surfaces unsolicited adjacent brands as well
 tags: [farm, competitor-ads, fb-ads, apify, dtc, telehealth, hims, glp-1, ai-consulting]
-sources: 2
-updated: 2026-05-10
+sources: 3
+updated: 2026-05-11
 ---
 
 # Competitor Ads Farm
@@ -75,6 +75,26 @@ From [[ads-digest-2026-05-10]]:
 - **Anthropic, Henry Meds, DealMachine, Hampton Founders — 0 new ads** — dedup-cached or absent
 - **~82% noise rate** — proportionally worse than batch 1 because dedup removed real creative but the noise pages keep firing fresh creative substring-matches
 
+### Batch 3 — 2026-05-11
+
+From [[ads-digest-2026-05-11]]:
+
+- **196 fetched / 6 new / 190 dedup-skipped** — thinnest batch yet; **97% dedup-skipped** marks convergence to steady state
+- **[[openai]] catalog-ads-only TRIPLE-confirmed** — 3 more carousels from a **new Apr 30 + May 8 campaign cluster** (not the Apr 2-21 cluster from batches 1+2). Fresh launch → same template → confirms catalog-ads-only is the standing strategy, not a stale-campaign artifact. **27 total OpenAI ads tracked, 0 narrative.**
+- **Hims, Ro, Anthropic, Henry Meds, Hampton Founders, DealMachine — 0 new ads** — every other tracked brand fully dedup-cached
+- **Signal-to-noise: 50/50** — 3 of 6 ads are tracked (OpenAI), 3 are noise (Eden Munoz, Adobe Acrobat, Hampton Roads Maritime Training)
+- **New noise root cause: Adobe Acrobat** — no tracked brand keyword is a substring of "Adobe Acrobat." Suggests the Apify actor returns unsolicited adjacent / suggested-brand ads, not just substring matches. **The noise floor is structurally worse than substring matching** — exact-page-name allow-listing is now the only safe filter.
+
+### Three-batch convergence table
+
+| Batch | Fetched | New | Dedup-skipped | New % | OpenAI ads | Real-signal % |
+|---|---|---|---|---|---|---|
+| 2026-05-06 | 187 | 183 | 4 | 98% (cold start) | 21 | ~35% |
+| 2026-05-10 | 190 | 22 | 168 | 12% | 3 | ~18% |
+| 2026-05-11 | 196 | 6 | 190 | 3% | 3 | 50% |
+
+The farm has converged. Future batches should average ≤10 new ads/day unless a tracked brand launches new creative. Per-batch teardown cadence is now feasible (small set per day) but the *interesting* new creative will be concentrated in launch-cycle batches.
+
 ## Known issue: brand-name filter is too permissive
 
 The farmer config promises a post-fetch filter that *"drops third-party ads that mention a brand keyword (e.g. random pages running ads about 'Hims hair loss'). Only ads where the page name contains the search brand are kept."*
@@ -85,16 +105,18 @@ The 2026-05-06 digest shows the filter **kept** ads from third-party pages whose
 - "Hampton" matched dozens of regional businesses (Hampton Inn, Hampton Roads Honda, Hampton Roads Transit, Hampton Sun, Classic Toyota Hampton, etc.) — none are Hampton Founders
 - "Ro" matched Roads & Kingdoms, Roseionly, Rockfest, ProTyres Oradea, Modlet.ro, dozens more — none are Roman Health
 
-**Noise rate by batch: ~65% (2026-05-06) → ~82% (2026-05-10).** The proportion got worse, not better, between batches because dedup correctly suppresses re-firing of real Hims/OpenAI/Anthropic creative but the substring noise pages produce *new* fresh ad IDs daily. Without filter tuning, the steady-state noise rate will trend toward 100%.
+**Noise rate by batch: ~65% (2026-05-06) → ~82% (2026-05-10) → 50% (2026-05-11).** The proportion drops in batch 3 only because total ad volume collapsed (6 ads); absolute noise (3 noise ads) is in line with prior batches. Without filter tuning, the steady-state noise mix stays meaningfully present in every batch.
 
 New noise brands surfaced in 2026-05-10: **KaRoL G** ("Ro" inside "KaRoL"), **Uproot Clean** ("Ro" inside "Uproot"), **BaBylissPRO** ("Ro" inside "Pro"), **Hampton by Hilton**, **Visit Hampton VA**, **NAPA BDG South Hampton Roads**, **Hampton RV Trailer Sales**, **Hampton University Proton Cancer Institute**, **Hill Chiropractic** (root cause unclear).
 
+New noise brands surfaced in 2026-05-11: **Eden Munoz** (Mexican banda singer, "Eden" substring), **Hampton Roads Maritime Training System / HRMTS** (Virginia maritime school, "Hampton" substring), **Adobe Acrobat** (**no tracked-brand substring at all** — confirms the Apify actor returns unsolicited adjacent / suggested-brand results, not just substring matches).
+
 ### Action items
 
-- → tune the [[competitor-ads-farm]] to use **exact page-name match** or **page-ID allow-listing** rather than substring match. **Outstanding from 2026-05-06; not addressed by 2026-05-10.**
+- → tune the [[competitor-ads-farm]] to use **exact page-name match** or **page-ID allow-listing** rather than substring match. **Outstanding from 2026-05-06; not addressed by 2026-05-10 or 2026-05-11.**
 - → for short brand names ("Ro", "Eden", "Hampton"), maintain an explicit allow-list of the actual FB Page IDs
 - → consider adding `Roman Health`, `Ro Body`, `Hampton Founders`, `Eden Body` to the search-brand list to catch the variant page names
-- → investigate the "Hill Chiropractic" match in 2026-05-10 — neither "Hill" nor "Chiropractic" is a tracked brand keyword, so the actor may be returning unsolicited adjacent results
+- → investigate the "Hill Chiropractic" match in 2026-05-10 and **"Adobe Acrobat" in 2026-05-11** — neither has a tracked brand keyword as substring; the Apify actor is almost certainly returning unsolicited adjacent results. Implication: substring filter alone won't fix the noise floor; allow-listing is required.
 
 ## Why this farm exists
 
@@ -115,6 +137,7 @@ Two specific products feed from it:
 
 - [[sources/ads-digest-2026-05-06]] — first batch (183 new ads, 65% noise)
 - [[sources/ads-digest-2026-05-10]] — second batch (22 new ads, 82% noise — Hims Hard Mints + OpenAI catalog confirmation)
+- [[sources/ads-digest-2026-05-11]] — third batch (6 new ads, 50% noise, 97% dedup-skipped — OpenAI catalog triple-confirmed via new campaign cluster; Adobe Acrobat noise reveals non-substring failure mode)
 
 ## Open questions
 

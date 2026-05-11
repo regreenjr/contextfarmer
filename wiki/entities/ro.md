@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern persists across two batches (2026-05-06 + 2026-05-10) — 3 total ads, all `{{product.brand}}` body text, no static narrative captured; farm filter likely missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batch 3 (2026-05-11) — bare-"Ro" search running dry as a signal source, almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
 tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 2
-updated: 2026-05-10
+sources: 3
+updated: 2026-05-11
 ---
 
 # Ro
@@ -17,7 +17,7 @@ Ro Health (formerly Roman Health Ventures) — DTC telehealth platform. Founded 
 
 Ro is the **second-named direct competitor for [[medvi-positioning]]** after Hims. Tracked by the [[competitor-ads]] farm specifically for compounded-GLP-1 creative and pricing. The 2026-05-06 batch returned only a single placeholder-only ad — either Ro is running far less FB creative than Hims, or the brand-keyword search missed their primary FB Page.
 
-## Ad-batch presence — placeholder-only across two batches
+## Ad-batch presence — placeholder-only across two batches, absent in batch 3
 
 ### 2026-05-06 batch (1 ad)
 
@@ -30,6 +30,10 @@ Ro is the **second-named direct competitor for [[medvi-positioning]]** after Him
 - 2 active ads — both body text `{{product.brand}}`
 - Started 2026-05-04 (`1293670862912194`) and 2026-04-28 (`1509432877229735`)
 - Format: unknown
+
+### 2026-05-11 batch (0 ads)
+
+No new Ro ads — dedup-cached or absent. Combined with two batches of pure-placeholder creative, the bare-"Ro" search now appears to be running dry as a signal source. Reinforces the hypothesis that Ro's primary advertising FB Page name doesn't match "Ro" as a substring.
 
 **3 total Ro ads tracked, 0 with teardown-able copy.** The pattern is now confirmed: either Ro runs only catalog-driven dynamic creative on its main page, or — more likely — the bare-"Ro" search misses Ro's primary advertising FB Page (which probably lives under "Roman Health," "Ro Body," "Ro Health," or similar).
 
@@ -45,6 +49,7 @@ Ro is the **second-named direct competitor for [[medvi-positioning]]** after Him
 - [[concepts/compounded-drug-disclaimer]] — pattern Ro almost certainly mirrors
 - [[ads-digest-2026-05-06]] — first appearance (1 placeholder ad)
 - [[ads-digest-2026-05-10]] — placeholder pattern continues (2 placeholder ads)
+- [[ads-digest-2026-05-11]] — 0 new ads (dedup-cached or absent); bare-"Ro" search running dry
 
 ## Open questions
 
