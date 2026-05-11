@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent]
-sources: 7
-updated: 2026-05-10
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference]
+sources: 8
+updated: 2026-05-11
 ---
 
 # Claude Skills
@@ -101,6 +101,40 @@ This is the **categorical map** above the existing authoring/composition/curatio
 
 40% of operators' AI time is wasted putting work in the wrong layer (per [[nate-b-jones]] #11 title) — typically using a skill for what should be a plugin (over-stuffed) or a prompt for what should be a skill (re-tokens every use).
 
+## Skill Creator first-hand walkthrough + two-types eval split ([[chase-ai]] #2 in [[youtube-digest-apify-2026-05-11]])
+
+107K-view canonical first-hand demo of [[skill-creator]] — Anthropic's meta-skill that tests, benchmarks, and optimizes skills using:
+
+- **Plain-language evals** (no test harness scaffolding required)
+- **Blind A/B testing** (skilled vs unskilled baseline on same input)
+- **Description-field optimization** (iterates invocation-trigger description)
+
+This resolves the **authoring-evaluation gap** the Skills discourse has had structurally since launch — prior to Skill Creator, "is my skill any good?" was vibes-based. Now skills are **testable software**.
+
+### The two-types skill split
+
+[[chase-ai]]'s framework names the eval-target categorization:
+
+| Type | Definition | Eval metric | Example |
+|---|---|---|---|
+| **Capability uplift** | Adds an ability the model couldn't do well | Task pass rate (skilled vs unskilled) | New domain reasoning template, tool-orchestration pattern |
+| **Encoded preference** | Bends the model toward a style/convention it could already approximate | Output distribution match (skilled output looks more like target) | Brand voice, format spec, house style |
+
+This is **the missing eval rung** in the existing stack:
+
+| Layer | Question | Voices |
+|---|---|---|
+| Taxonomy | What types of scaffolding exist? | [[nate-b-jones]] ([[plugins]]) |
+| Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] authoring guide |
+| Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types), [[chase-ai]] (capability vs preference) |
+| **Evaluation** | **Does my skill actually work?** | **[[skill-creator]] + [[chase-ai]] two-types split** |
+| Composition | How do skills chain into automations? | [[simon-scrapes]] ([[skill-systems]]) |
+| Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
+
+For 3Ps client deliverables: every shipped skill should be **labeled with its type at authoring time** — the eval target and acceptance criteria flow from the label. Skill Creator runs become the **acceptance test** for "is the deliverable done?".
+
+→ See [[skill-creator]] for full coverage. Updates: [[anthropic]] (Skill Creator surface), [[claude-code]] (Skill Creator workflow integration).
+
 ## Skills as "the unlock" ([[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
 
 [[brad-bonanno]]'s 13-product Anthropic tour names Skills as **"the one feature that makes everything else dramatically better the moment you teach Claude how you actually want things done."**
@@ -186,7 +220,8 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]]
 - [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
 - [[hermes-agent]] — sibling substrate that ships its own Skills primitive
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]]
+- [[skill-creator]] — evaluation tool / meta-skill
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]]

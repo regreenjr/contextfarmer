@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor]
-sources: 7
-updated: 2026-05-10
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security]
+sources: 8
+updated: 2026-05-11
 ---
 
 # Claude Code
@@ -91,6 +91,11 @@ updated: 2026-05-10
 - **Code comprehensibility as security property** ([[nate-b-jones]] #12, 29.8K views) — first AI-as-security-tool entry in this vault. Anthropic's Mythos pointed at Mozilla Firefox shipped 271 vulnerability fixes in one cycle. → See [[code-comprehensibility]].
 - **Knowledge layer commercially shipped** ([[the-ai-automators]] #4, 18.6K views) — Pinecone Nexus, Microsoft Fabric IQ, Google Knowledge Catalog all ship the [[karpathy-llm-wiki]] architecture in roughly four weeks. Validation that the patterns this vault tracks are **enterprise-software-shipped**, not hobbyist-only. → See [[knowledge-layer]].
 
+## Patterns added in [[youtube-digest-apify-2026-05-11]]
+
+- **Skill Creator first-hand walkthrough** ([[chase-ai]] #2, 107.3K views) — Anthropic's [[skill-creator]] meta-skill, previously referenced in this vault without first-hand coverage, finally gets an end-to-end demo: plain-language evals + blind A/B testing + description-field optimization. Skills become **testable software** rather than prose snippets. The two-types skill split (capability uplift vs encoded preference) gives each skill type a clean eval target. → See [[skill-creator]].
+- **Agent-security responder position** ([[nate-b-jones]] #1, 53.6K views) — following the McKinsey "Lilly" exploit ($20 SQL injection through 22 of 200 unauthenticated endpoints), Claude Code is positioned in the six-vendor agent-security responder set ([[anthropic]] / [[openai]] / SAP / [[pinecone]] / Salesforce / ServiceNow). The buyer-side question — "does your platform know humans from agents?" — applies to any agent-touching surface, including Claude Code's MCP / Skill / sub-agent dispatch surfaces. Anthropic's response shape is presumably distinct agent identity primitives in Claude Code / MCP. → See [[agent-security]].
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -124,11 +129,13 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]] — primary source digests
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]] — primary source digests
 - [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
 - [[printing-press]] — CLI alternative tooling for token-cost optimization
 - [[plugins]] — taxonomy layer above Skills
 - [[work-primitive]] — substrate-side agent-readiness framework
 - [[code-comprehensibility]] — codebase-side framework (Anthropic Mythos)
 - [[knowledge-layer]] — commercial shipping of [[karpathy-llm-wiki]] architecture
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]]
+- [[skill-creator]] — Anthropic meta-skill that benchmarks skills
+- [[agent-security]] — procurement-side diagnostic; Claude Code is in the six-vendor responder set
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]]

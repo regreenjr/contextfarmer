@@ -1,10 +1,10 @@
 ---
 title: Work Primitive (Access / Meaning / Authority)
 category: concept
-summary: [[nate-b-jones]]'s three-layer framework for diagnosing agent-readiness in any product or platform — access (can the agent reach it), meaning (does the agent understand what the action means), authority (can the agent commit it); explains why coding agents arrived first (rich work semantics), why Salesforce-headless works and SAP-blocking doesn't, and reframes "computer use" as the messy-middle adapter rather than the strategic primitive
-tags: [work-primitive, semantic-work, agent-readiness, access, meaning, authority, salesforce, sap, perplexity, computer-use, nate-b-jones, framework]
-sources: 1
-updated: 2026-05-10
+summary: [[nate-b-jones]]'s three-layer framework for diagnosing agent-readiness in any product or platform — access (can the agent reach it), meaning (does the agent understand what the action means), authority (can the agent commit it); explains why coding agents arrived first (rich work semantics), why Salesforce-headless works and SAP-blocking doesn't, and reframes "computer use" as the messy-middle adapter rather than the strategic primitive; in 2026-05-11 the authority layer gains a humans-vs-agents sub-diagnostic via the sibling [[agent-security]] framework
+tags: [work-primitive, semantic-work, agent-readiness, access, meaning, authority, salesforce, sap, perplexity, computer-use, nate-b-jones, framework, agent-security]
+sources: 2
+updated: 2026-05-11
 ---
 
 # Work Primitive
@@ -89,19 +89,39 @@ In order of decreasing meaning richness:
 | In the user's head | Permission ladder ([[anticipation-gap]]); agent prompts user for meaning per-action |
 | Not codified anywhere | Avoid agent automation; do the meaning work first |
 
+## Authority-layer extension — humans-vs-agents sub-diagnostic (added 2026-05-11)
+
+[[nate-b-jones]]' sibling [[agent-security]] framework (named in [[youtube-digest-apify-2026-05-11]] #1) adds a sharpening sub-diagnostic to the **authority layer**:
+
+> **"Does your platform know humans from agents?"**
+
+Most current platforms treat agent traffic as human traffic — same auth tokens, same session model, same audit trail, same rate limits. That's an **authority-layer leak**: the platform technically can commit the action, but can't distinguish *who is asking it to commit* (agent vs human). The McKinsey Lilly exploit ($20 SQL injection through 22 of 200 unauthenticated endpoints) is the canonical failure case.
+
+Updated authority-layer diagnostic table:
+
+| Authority question | Maturity level |
+|---|---|
+| Can the platform commit the action at all? | Authority-1: bare authority |
+| Can the platform delegate the authority to an agent? | Authority-2: delegated authority |
+| Can the platform tell *who* delegated — and apply different policies to agent vs human callers? | **Authority-3: agent-aware authority** ([[agent-security]]) |
+
+This makes [[work-primitive]] **substrate-side post-buy** while [[agent-security]] is **substrate-side pre-buy** (procurement). The two questions chain: Work Primitive at evaluation, Agent Security at procurement.
+
 ## Where this framework integrates with this vault's frameworks
 
-[[nate-b-jones]] is now the source of **multiple complementary diagnostics**:
+[[nate-b-jones]] is now the source of **seven complementary diagnostics**:
 
 | Framework | Side | Question |
 |---|---|---|
-| **T/C/L/D** | Worker-side | Which of my tasks is durable? |
-| **Anticipation gap + permission ladder** | User-side | When should the agent act, and how much autonomy? |
-| **Work Primitive (access/meaning/authority)** | **Substrate-side** | **Is the platform agent-ready?** |
-| **Plugins as mech-suit** | Builder-side | Where in my stack does each capability belong? |
-| **Code comprehensibility** | Codebase-side | Is my code legible enough for AI review? |
+| T/C/L/D | Worker-side | Which of my tasks is durable? |
+| Anticipation gap + permission ladder | User-side | When should the agent act, and how much autonomy? |
+| **Work Primitive (access/meaning/authority)** | **Substrate-side (post-buy)** | **Is the platform agent-ready?** |
+| Plugins as mech-suit | Builder-side | Where in my stack does each capability belong? |
+| Code comprehensibility | Codebase-side | Is my code legible enough for AI review? |
+| OpenClaw runtime reframe | Stack-side | What survives model/vendor churn? |
+| **Agent Security** | **Procurement-side (pre-buy)** | **Does the platform know humans from agents?** |
 
-Together: **a complete agent-readiness audit** for any organization — covering worker, user, substrate, builder, and codebase.
+Together: **a complete agent-readiness audit** for any organization — covering procurement, substrate, worker, user, builder, codebase, and stack.
 
 ## Why it matters for 3Ps
 
@@ -126,6 +146,7 @@ Together: **a complete agent-readiness audit** for any organization — covering
 - [[anticipation-gap]] — sibling [[nate-b-jones]] framework (user-side)
 - [[plugins]] — sibling [[nate-b-jones]] framework (builder-side)
 - [[code-comprehensibility]] — sibling [[nate-b-jones]] framework (codebase-side)
+- [[agent-security]] — sibling [[nate-b-jones]] framework (procurement-side); sharpens the authority layer with humans-vs-agents sub-diagnostic
 - [[agent-substrate]] — boring-tools-win thesis; Work Primitive explains *why*
 - [[nate-b-jones]] — author
 - [[mcp]] — meaning-layer mechanism
@@ -133,3 +154,4 @@ Together: **a complete agent-readiness audit** for any organization — covering
 - [[ai-consulting]] — direct sales-conversation framework
 - [[gtm-2026]] — AI-era buyer framework
 - [[youtube-digest-apify-2026-05-10]] — primary citation
+- [[youtube-digest-apify-2026-05-11]] — authority-layer extension via [[agent-security]]

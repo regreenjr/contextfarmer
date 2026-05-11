@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 category: entity
-summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy now confirmed across two batches (2026-05-06 + 2026-05-10) — 24 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; same Apr 2-21 campaign cluster persists into May, suggesting a stable product-feed re-targeting motion against API/plan SKUs
-tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads]
-sources: 3
-updated: 2026-05-10
+summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy now confirmed across two batches (2026-05-06 + 2026-05-10) — 24 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; same Apr 2-21 campaign cluster persists into May; in 2026-05-11 named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit
+tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security]
+sources: 4
+updated: 2026-05-11
 ---
 
 # OpenAI
@@ -38,6 +38,16 @@ This is **catalog ads** — product-feed-driven dynamic creative against the Ope
 
 > ⚠️ Pattern confirmed: OpenAI runs only catalog-driven dynamic creative on FB (24 carousels). Anthropic appears to do the same (5 ads in 2026-05-06, 0 new in 2026-05-10). Both AI labs ship zero static brand/narrative creative on FB in 2026-05. Hypothesis: AI labs lean on PR/launches for narrative work and reserve paid social for catalog re-targeting against existing intent (search visits, ChatGPT signups, API console traffic).
 
+## Agent-security responder (per [[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-11]])
+
+In the McKinsey "Lilly" agent-exploit aftermath ($20 SQL injection through 22 of 200 unauthenticated endpoints), OpenAI shipped a response in the same week as five other vendors — [[anthropic]], SAP, [[pinecone]], Salesforce, ServiceNow.
+
+Likely response shape: agent-auth surface improvements on the Codex / API side. The buyer-side question all six are pitching to: **"does your platform know humans from agents?"** OpenAI's API key model (per-key scope + audit) is the closest existing surface to per-agent identity, but lacks the human-vs-agent distinction Nate B Jones names as the actual procurement-relevant differentiator. → See [[agent-security]].
+
+Six-vendor convergence in one week confirms sub-month cadence is now normal for major architectural shifts (same shape as the [[knowledge-layer]] convergence — [[pinecone]] / Microsoft / Google in 4 weeks per [[youtube-digest-apify-2026-05-10]]).
+
+> Open: specific OpenAI product / API change announced. Transcript pull on [[youtube-digest-apify-2026-05-11]] #1 would clarify.
+
 ## Substrate role (Codex)
 
 Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
@@ -60,6 +70,7 @@ Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
 - [[sources/ads-digest-2026-05-06]] — 21 catalog ads, all dynamic-creative-only
 - [[sources/ads-digest-2026-05-10]] — 3 more catalog ads, same pattern (24 total tracked)
 - [[sources/youtube-digest-apify-2026-05-06]] — Nate Herk Codex full-course
+- [[sources/youtube-digest-apify-2026-05-11]] — agent-security responder (six-vendor convergence)
 
 ## Open questions
 

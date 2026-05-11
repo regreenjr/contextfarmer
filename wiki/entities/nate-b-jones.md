@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — six named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), and OpenClaw runtime reframe
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw]
-sources: 4
-updated: 2026-05-10
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — seven named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), and procurement (agent-security)
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement]
+sources: 5
+updated: 2026-05-11
 ---
 
 # Nate B Jones
@@ -110,20 +110,35 @@ The **codebase-side** framework — Mozilla pointed Anthropic's Mythos at Firefo
 - ~4-5 month "golden refactor window" before AI code review becomes table stakes
 - Engineers shift from writing implementation to ensuring meaning is preserved end-to-end
 
+## New in [[youtube-digest-apify-2026-05-11]]
+
+### #1 Agent Security (procurement-side framework)
+
+His **first procurement-focused** framework — covered in *Anthropic And OpenAI Just Admitted The Model Isn't Enough* (53.6K views, 2026-05-10). All prior frameworks targeted *post-buy* diagnostics; Agent Security targets the *buy itself*.
+
+The unlock event: **McKinsey's "Lilly" AI platform was exploited via $20 SQL injection through 22 of 200 unauthenticated endpoints** — the deeper failure was traditional SaaS procurement (legal → security → IT → implementation) being applied to agent software. Reframe: **"implementation IS the strategy" in the agent era**; the cheapest move is putting developers at the procurement table *before* signing.
+
+The buyer-side diagnostic: **"does your platform know humans from agents?"** Most current platforms treat agent traffic as human traffic (same tokens, sessions, audit trails) — that's the authority-layer flaw most agent-security responses are attacking.
+
+Vendor responses cited (all in one week): [[anthropic]], [[openai]], SAP, [[pinecone]], Salesforce, ServiceNow. Six-vendor convergence cadence is now sub-month for major architectural shifts (same shape as [[knowledge-layer]] convergence).
+
+→ New concept: [[agent-security]]. Updates: [[work-primitive]] (humans-vs-agents sub-diagnostic on the authority layer).
+
 ## The complete framework stack
 
-[[nate-b-jones]] is now the source of **six complementary diagnostics**:
+[[nate-b-jones]] is now the source of **seven complementary diagnostics**:
 
 | Framework | Side | Diagnostic question |
 |---|---|---|
 | T/C/L/D | Worker | Which tasks survive AI? |
 | Anticipation gap + permission ladder | User | When should the agent act? |
-| **Work Primitive** | **Substrate** | **Is the platform agent-ready?** |
-| **Plugins as mech-suit** | **Builder** | **Where does each capability belong?** |
-| **Code comprehensibility** | **Codebase** | **Is my code legible enough for AI to review?** |
+| Work Primitive | Substrate | Is the platform agent-ready? |
+| Plugins as mech-suit | Builder | Where does each capability belong? |
+| Code comprehensibility | Codebase | Is my code legible enough for AI to review? |
 | OpenClaw runtime reframe | Stack | What survives model/vendor churn? |
+| **Agent Security** | **Procurement** | **Does the platform know humans from agents — and can we tell before we sign?** |
 
-Together: a **complete agent-era audit** for any organization — covering every angle from worker to codebase. This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault.
+Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack. This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault. Framework cadence: roughly one named diagnostic per video.
 
 ## Recent activity tracked
 
@@ -140,6 +155,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-10]] #8 *OpenClaw Just Killed Model Lock-in* (53.3K, 2026-05-07) — runtime abstraction reframe
 - [[youtube-digest-apify-2026-05-10]] #11 *You're Wasting 40% Of Your AI Time On Something Fixable* (31.1K, 2026-05-09) — plugins-as-mech-suit
 - [[youtube-digest-apify-2026-05-10]] #12 *271 Vulnerabilities: What Mozilla's AI Found Changes Everything* (29.8K, 2026-05-08) — code comprehensibility
+- [[youtube-digest-apify-2026-05-11]] #1 *Anthropic And OpenAI Just Admitted The Model Isn't Enough* (53.6K, 2026-05-10) — agent security (procurement-side framework, McKinsey Lilly unlock event, six-vendor convergence)
 
 ## Why track him for 3Ps
 
@@ -149,8 +165,8 @@ Together: a **complete agent-era audit** for any organization — covering every
 - **His Substack** (`natesnewsletter.substack.com`) likely deserves its own farmer config
 
 ## Related
-- [[anthropic]] — frequent subject; Mythos product surfaced via #12
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]] — concepts he originated/popularized
+- [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
 - [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification) and Work Primitive's "rich semantics" claim
 - [[mozilla]] — reference customer / data point for #12
@@ -161,6 +177,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-05]] — T/C/L/D thin-ice framework
 - [[youtube-digest-apify-2026-05-06]] — anticipation-gap + permission ladder
 - [[youtube-digest-apify-2026-05-10]] — 4 videos: work primitive, OpenClaw runtime, plugins map, code comprehensibility
+- [[youtube-digest-apify-2026-05-11]] — agent security (procurement-side framework)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

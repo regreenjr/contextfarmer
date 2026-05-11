@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility]
-sources: 3
-updated: 2026-05-10
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security]
+sources: 4
+updated: 2026-05-11
 ---
 
 # Anthropic
@@ -61,6 +61,36 @@ Strategic significance:
 - Open: is Mythos public-facing, internal Anthropic, or something else? Worth verification
 - Adds AI security tooling to Anthropic's surface area beyond pure model + Code
 
+### Skill Creator first-hand walkthrough (per [[chase-ai]] #2 in [[youtube-digest-apify-2026-05-11]])
+
+107K-view canonical first-hand demo of [[skill-creator]] — Anthropic's meta-skill that tests, benchmarks, and optimizes other skills using:
+
+- **Plain-language evals** (no test harness scaffolding required)
+- **Blind A/B testing** (skilled vs unskilled baseline on same input)
+- **Description-field optimization** (iterates the skill's invocation-trigger description)
+
+Strategic significance:
+- Continues the **infrastructure-for-AI-builders** pattern (Skill Creator + Mythos + Anthropic SDK + claude-plugins-official) — Anthropic is increasingly shipping tools *for the people building on its substrate*, not just for end-users
+- Cements [[claude-skills]] as **testable software** — skills get an acceptance test, like unit-tested code; the [[dubibubii]] "500K skills, 95% useless" claim becomes empirically falsifiable
+- [[chase-ai]] also names the **two-types skill split** (capability uplift vs encoded preference) — the eval-target categorization Anthropic's own authoring guide didn't ship
+
+### Agent-security responder (per [[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-11]])
+
+In the McKinsey "Lilly" agent-exploit aftermath, Anthropic shipped a response in the same week as five other vendors:
+
+| Vendor | Likely response shape |
+|---|---|
+| [[anthropic]] | Agent-aware identity primitives in [[claude-code]] / [[mcp]] |
+| [[openai]] | Codex / API agent-auth surface |
+| SAP | Authority-moat reinforcement |
+| [[pinecone]] | Knowledge-layer access control (Nexus authorization) |
+| Salesforce | Agentforce identity model |
+| ServiceNow | Agent-aware ITSM approval gates |
+
+The six-vendor convergence-in-one-week is the same shape as the [[knowledge-layer]] convergence ([[pinecone]] / Microsoft / Google in 4 weeks). Sub-month convergence cadence is now the new normal for major architectural shifts.
+
+The buyer-side question this addresses: **"does your platform know humans from agents?"** Anthropic's response shape is presumably distinct agent identity primitives in Claude Code / MCP — transcript pull on #1 needed for specifics. → See [[agent-security]].
+
 ### Canonical product-surface inventory (per [[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
 
 [[brad-bonanno]]'s 13-product tour is the most comprehensive Anthropic-surface walk in this vault:
@@ -104,7 +134,8 @@ Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Co
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
 - [[ads-digest-2026-05-06]] — 5 catalog-driven carousel ads (no static narrative)
 - [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour
-- [[claude-code]], [[claude-skills]], [[code-comprehensibility]] — concept pages
+- [[youtube-digest-apify-2026-05-11]] — Skill Creator first-hand walkthrough ([[chase-ai]]); agent-security responder ([[nate-b-jones]])
+- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]] — concept pages
 
 ## Open questions
 - Is the Atlassian rumor priced into Anthropic strategy, or speculative? (Watch for confirmation/denial)

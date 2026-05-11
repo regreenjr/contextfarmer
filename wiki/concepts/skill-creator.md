@@ -1,0 +1,128 @@
+---
+title: Skill Creator
+category: concept
+summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target
+tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization]
+sources: 1
+updated: 2026-05-11
+---
+
+# Skill Creator
+
+## What it is
+
+[[anthropic]]-published **meta-skill** that lives inside [[claude-code]]. Distributed via `claude-plugins-official` (install: `/plugin install skill-creator@claude-plugins-official`).
+
+Its job: take an existing skill (or scaffold a new one) and **test, benchmark, and optimize it** — using plain-language eval specs, blind A/B testing against unskilled baselines, and automated description-field iteration to improve invocation accuracy.
+
+Surfaced canonically in this vault via [[chase-ai]]'s [[youtube-digest-apify-2026-05-11]] #2 — the first end-to-end first-hand walkthrough.
+
+## Why it matters
+
+Pre-Skill-Creator, [[claude-skills]] had a structural problem: **skills were prose, not software**. Authors wrote skill markdown, eyeballed outputs, and shipped. There was no standard way to ask "is my skill actually better than no skill?" The discourse around skill quality was vibes-based.
+
+Skill Creator changes the shape:
+- **Skills become testable software** — same shift unit tests created for source code
+- **The description field is now an optimizable surface** — small wording changes affect invocation rate; Skill Creator automates the optimization
+- **Cross-author quality comparisons become possible** — same eval framework applied to two competing skills produces a comparable signal
+- **Authoring loops shorten** — write → eval → iterate replaces write → ship → hope
+
+## How it works (per [[chase-ai]] #2 in [[youtube-digest-apify-2026-05-11]])
+
+Three primary capabilities:
+
+### 1. Plain-language evals
+
+The user describes the eval criteria in plain English ("the output should follow our brand voice", "the skill should successfully convert markdown tables to CSV"). Skill Creator generates the test scaffolding from the description — no test harness boilerplate required.
+
+This is a **lowered floor** — authors who couldn't (or wouldn't) write a Python test suite for their skill can still run benchmarked evaluations.
+
+### 2. Blind A/B testing
+
+Same input fed to:
+- **Skilled run** — Claude with the skill loaded
+- **Unskilled baseline** — Claude without the skill
+
+Outputs are compared without revealing which is which. The comparison answers: **does the skill actually change behavior in the desired direction?**
+
+This is the **falsifiable test** for skill value. A skill that produces identical or worse output vs unskilled baseline fails the eval — regardless of how clever the markdown reads.
+
+### 3. Description-field optimization
+
+The skill's `description` field is what Claude uses at runtime to decide *whether to invoke* the skill. Skill Creator iterates the description wording, runs invocation tests, and converges on a description that improves invocation accuracy on relevant prompts (and reduces false-positive invocations).
+
+This is **the highest-leverage optimization** for skill authors — a perfectly-built skill that Claude rarely invokes is functionally useless, and description tuning is non-obvious by hand.
+
+## The two-types skill split (from [[chase-ai]] #2)
+
+The eval framework branches by skill type:
+
+| Type | Definition | Eval metric | Example |
+|---|---|---|---|
+| **Capability uplift** | Adds an ability the model couldn't do well | Task pass rate (skilled vs unskilled) | New domain reasoning template, tool-orchestration pattern |
+| **Encoded preference** | Bends the model toward a style/convention the model could already approximate | Output distribution match (skilled output looks more like target) | Brand voice, format spec, house style |
+
+This is the **missing eval rung** in the [[claude-skills]] discourse. Authoring frameworks (Ben AI's "3 Types") named *categories*; composition frameworks (Simon Scrapes' Skill Systems) named *chaining*; this split names **how you decide whether a skill works**.
+
+For 3Ps deliverables: every shipped skill should be **labeled with its type at authoring time** — the eval target and acceptance criteria flow from the label.
+
+## Where it fits in the [[claude-skills]] stack
+
+Updated stack with Skill Creator's place:
+
+| Layer | Question | Voices / tools |
+|---|---|---|
+| Taxonomy | What types of scaffolding exist? | [[nate-b-jones]] ([[plugins]]) |
+| Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] authoring guide |
+| Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types), [[chase-ai]] (capability vs preference) |
+| **Evaluation** | **Does my skill actually work?** | **[[skill-creator]] (this)** |
+| Composition | How do skills chain into automations? | [[simon-scrapes]] ([[skill-systems]]) |
+| Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
+
+Skill Creator sits between authoring and composition — it's the **acceptance test** before a skill is fit to compose with other skills.
+
+## Strategic implications
+
+### For [[anthropic]]
+- Continues the **infrastructure-for-AI-builders** pattern — Skill Creator, [[anthropic]]'s Mythos (code review), and [[anthropic]]'s Skill Creator are all tools built for people building on the platform
+- Locks in [[claude-skills]] as the canonical skill format — a meta-skill that benchmarks competing skill formats would be weird; Anthropic shipping the eval tool implicitly endorses its own format
+- Creates a **quality floor** for the [[claude-skills]] marketplace — if Skill Creator becomes the standard acceptance test, low-quality marketplace skills face an explicit shame metric
+
+### For [[claude-skills]] marketplace
+- The [[dubibubii]] "500K skills, 95% useless" claim becomes testable — run Skill Creator against the marketplace, see what passes
+- Creates a **distribution advantage** for authors who publish eval results alongside their skills — "Skill X passes Skill Creator eval Y at 0.83 vs unskilled 0.12" becomes a marketing claim
+
+### For 3Ps
+- **Acceptance criteria become standard** — every client-deliverable skill ships with a Skill Creator eval pass
+- **The description field is a billable artifact** — description optimization is non-obvious; clients can't replicate it without the tool, which makes it a deliverable in its own right
+- **The two-types split is a scoping framework** — when scoping a client engagement, label proposed skills as capability-uplift or encoded-preference up front (this sets the eval target, acceptance criteria, and demo plan)
+
+## Open questions
+
+- **External-tool dependencies** — Skill Creator's eval architecture is presumably designed for self-contained skills. How does it handle skills that depend on MCP tools, sub-agents, or [[printing-press]] CLIs? Test fixtures or stubs?
+- **Multi-turn skills** — most evals demonstrated are single-turn. Skills used in long conversations may need a different eval shape.
+- **Eval cost** — running blind A/B across many test cases uses Claude tokens. Is there budgeting / sampling guidance?
+- **Cross-model eval** — [[code-with-beto]] #6's authoring guidance is "test different models." Does Skill Creator support cross-model eval, or is it Claude-only?
+- **Description optimization convergence** — how does Skill Creator avoid local optima in description-field tuning?
+- **Anthropic's own quality bar** — Anthropic ships `superpowers`, `frontend-design`, `skill-creator` itself, etc. Are Anthropic's official skills publicly benchmarked via Skill Creator? Could become a sales motion: "look at our pass rates."
+- **Codex parity** — does [[codex]] ship a Skill Creator equivalent? If [[claude-skills]] is cross-vendor at the format level, evaluation may not yet be.
+
+## Why this matters for 3Ps
+
+1. **Acceptance test for client deliverables** — every shipped skill gets a Skill Creator eval. Resolves "is the deliverable done?" deterministically.
+2. **Eval-pass-rate as a marketing claim** — quoting pass rates in 3Ps content is a credibility lever the rest of the consulting market doesn't yet use.
+3. **Two-types scoping framework** — capability vs preference labeling at scoping time saves design iterations downstream.
+4. **Description optimization is sellable** — clients can't easily do this themselves; it's a concrete, narrow, billable deliverable.
+5. **First-mover lever** — most of the AI-creator economy doesn't yet ship eval-backed skills; 3Ps doing so by default is a differentiation play with a ~6-month window before becoming table stakes.
+
+## Related pages
+
+- [[claude-skills]] — primary parent concept
+- [[claude-code]] — substrate
+- [[anthropic]] — vendor / publisher
+- [[chase-ai]] — first-hand walkthrough source
+- [[skill-systems]] — composition layer that consumes Skill-Creator-passed skills
+- [[plugins]] — taxonomy parent
+- [[ai-consulting]] — practice that ships eval-backed skills as deliverables
+- [[youtube-digest-apify-2026-05-11]] — primary citation
+- [[code-with-beto]], [[ben-ai]] — fellow authoring-discipline voices
