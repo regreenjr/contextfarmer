@@ -1,10 +1,10 @@
 ---
 title: DTC Telehealth Ad Template
 category: concept
-summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection
+summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection; 2026-05-12 sees the canonical GLP-1 instantiation re-launched verbatim in a fresh Hims ad, confirming the template is the standing GLP-1 creative and inside-structure A/B testing dominates over template variation
 tags: [dtc, telehealth, ads, copy-template, hims, glp-1, creative-pattern]
-sources: 2
-updated: 2026-05-10
+sources: 3
+updated: 2026-05-12
 ---
 
 # DTC Telehealth Ad Template
@@ -104,9 +104,16 @@ Predict (untested): GLP-1 ads aimed at insurance-skeptical buyers might add *"�
 - **Equivalence + provider + shipping** — covers the three legitimacy concerns of compounded/prescription DTC: *does it work?* (equivalence), *can I trust who's prescribing?* (provider), *will it actually arrive?* (shipping)
 - **Hook → bullets → close → disclaimer** — separates persuasion (top) from compliance (bottom) so compliance language doesn't cannibalize hook attention
 
+## Template stability — verbatim re-launch confirmed across 6 days
+
+The GLP-1 instantiation re-ran **verbatim** in [[ads-digest-2026-05-12]] (Hims ad started 2026-05-07, ID `3567971296700086`) — same hook line, same three bullets, same close, same disclaimer block as the 2026-05-06 batch. After 6 days and 4 farm batches, Hims has only structurally innovated **once** (the Hard Mints four-bullet variant in 2026-05-10). Everything else is verbatim template reuse.
+
+**Implication: inside-structure A/B testing dominates over template variation.** Hims tests visual assets, headline overlays, audience splits, and disclaimer wording (per [[compounded-drug-disclaimer]]) *inside* the skeleton — they don't re-template. For [[medvi-positioning]], this means the skeleton is the safe baseline; the test surface lives inside the bullet block, not in restructuring the skeleton.
+
 ## Adjacent patterns
 
 - **Hampton Founders' "narrative + proof" structure** ([[entities/hampton-founders]]) — premium B2B variant, no bullet block, narrative paragraphs with embedded proof points; works for high-ticket emotional-decision purchases
+- **Lauren Brooks' long-form confession pattern** (seen in [[ads-digest-2026-05-12]] as out-of-set noise) — long-form direct-response pet-allergy copy: pattern interrupt ("Please STOP buying allergy meds") + insider authority + emotional setup + concrete loss anchor ($3400) + treatment-failure cascade. Structurally opposite to Hims' three-bullet compression; pairs naturally with **high-skepticism, high-frustration, post-failure audiences** (which is a real Medvi GLP-1 audience segment — people who've tried Hims, Ro, Henry and stopped working).
 - **OpenAI / Anthropic catalog-only carousels** — opposite end of the spectrum; product-feed-driven dynamic creative with zero static template
 
 ## Why this matters for [[medvi-positioning]]
@@ -132,6 +139,7 @@ Direct instantiation candidate for first round of Medvi Meta ads.
 
 - [[sources/ads-digest-2026-05-06]] — 19 Hims static-narrative ads using the three-bullet template
 - [[sources/ads-digest-2026-05-10]] — 1 Hims static-narrative ad introducing the four-bullet variant (Hard Mints)
+- [[sources/ads-digest-2026-05-12]] — 1 Hims static-narrative ad re-launching the canonical GLP-1 instantiation **verbatim** (4-batch evidence that inside-structure A/B dominates over template variation); also surfaces the Lauren Brooks long-form confession contrast pattern in the noise inventory
 
 ## Open questions
 

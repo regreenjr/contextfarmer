@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim, confirming inside-structure A/B as the standing pattern (no template variation across four batches except the Hard Mints four-bullet variant)
 tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims]
-sources: 2
-updated: 2026-05-10
+sources: 3
+updated: 2026-05-12
 ---
 
 # Hims
@@ -104,6 +104,18 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 - [[sources/ads-digest-2026-05-06]] — 45 ads across three wedges (initial Hims creative inventory)
 - [[sources/ads-digest-2026-05-10]] — 2 new ads: Hair Hybrids continuation + Hard Mints product launch (4th Sex Rx SKU)
 - [[sources/ads-digest-2026-05-11]] — 0 new ads (fully dedup-cached); the 4-SKU Sex Rx inventory + Hair Hybrids template haven't refreshed creative since 2026-05-10
+- [[sources/ads-digest-2026-05-12]] — 1 new ad: Wegovy GLP-1 template re-launched **verbatim** (ID `3567971296700086`, started 2026-05-07) — first evidence that the GLP-1 wedge template is the standing creative (not a stale-2026-04 artifact); inside-structure A/B testing confirmed as the standing pattern over template variation
+
+## Four-batch template stability summary
+
+| Batch | Date | New Hims ads | Structural changes |
+|---|---|---|---|
+| 1 | 2026-05-06 | 45 | Initial 3-wedge inventory (GLP-1 / Hair Hybrids / 3-SKU Sex Rx) |
+| 2 | 2026-05-10 | 2 | Hard Mints (4th Sex Rx SKU + first 4-bullet variant) + Hair Hybrids reuse |
+| 3 | 2026-05-11 | 0 | (fully dedup-cached) |
+| 4 | 2026-05-12 | 1 | GLP-1 template re-launched verbatim — **no structural change** |
+
+In 6 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse. **Inside-structure A/B testing dominates over template variation.** Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
 
 ## Open questions
 

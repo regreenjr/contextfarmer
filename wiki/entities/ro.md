@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batch 3 (2026-05-11) — bare-"Ro" search running dry as a signal source, almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4 (2026-05-11 + 2026-05-12) — bare-"Ro" search running dry as a signal source while continuing to surface "ro"-substring noise (Lauren Brooks, Builders Protein Bars in batch 4); almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
 tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 3
-updated: 2026-05-11
+sources: 4
+updated: 2026-05-12
 ---
 
 # Ro
@@ -35,7 +35,14 @@ Ro is the **second-named direct competitor for [[medvi-positioning]]** after Him
 
 No new Ro ads — dedup-cached or absent. Combined with two batches of pure-placeholder creative, the bare-"Ro" search now appears to be running dry as a signal source. Reinforces the hypothesis that Ro's primary advertising FB Page name doesn't match "Ro" as a substring.
 
-**3 total Ro ads tracked, 0 with teardown-able copy.** The pattern is now confirmed: either Ro runs only catalog-driven dynamic creative on its main page, or — more likely — the bare-"Ro" search misses Ro's primary advertising FB Page (which probably lives under "Roman Health," "Ro Body," "Ro Health," or similar).
+### 2026-05-12 batch (0 ads)
+
+No new Ro ads. Fourth straight batch with no signal-bearing creative. Meanwhile the bare-"Ro" search continues to *cost* by surfacing fresh noise pages that match the "ro" substring:
+
+- **Lauren Brooks** (4 ads) — "Brooks" contains "ro" — pet allergy long-form direct-response copy
+- **Builders Protein Bars** (1 ad) — "Pro" contains "ro" — NEW noise page
+
+**3 total Ro ads tracked across four batches, 0 with teardown-able copy.** The pattern is now confirmed: either Ro runs only catalog-driven dynamic creative on its main page, or — more likely — the bare-"Ro" search misses Ro's primary advertising FB Page (which probably lives under "Roman Health," "Ro Body," "Ro Health," or similar). **The bare-"Ro" filter is now net-negative — it costs noise without surfacing new signal.**
 
 ## Action items
 
@@ -50,6 +57,7 @@ No new Ro ads — dedup-cached or absent. Combined with two batches of pure-plac
 - [[ads-digest-2026-05-06]] — first appearance (1 placeholder ad)
 - [[ads-digest-2026-05-10]] — placeholder pattern continues (2 placeholder ads)
 - [[ads-digest-2026-05-11]] — 0 new ads (dedup-cached or absent); bare-"Ro" search running dry
+- [[ads-digest-2026-05-12]] — 0 new ads (4th batch with no signal); bare-"Ro" filter now net-negative as it continues to cost noise (Lauren Brooks 4 ads, Builders Protein Bars 1 ad) without surfacing signal
 
 ## Open questions
 
