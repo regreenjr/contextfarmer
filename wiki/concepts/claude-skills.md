@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference]
-sources: 8
-updated: 2026-05-11
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference; in 2026-05-12 [[zinho-automates]] introduces the daily-driver curation sub-format (smaller-N, frequency-of-use selection)
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation]
+sources: 9
+updated: 2026-05-12
 ---
 
 # Claude Skills
@@ -158,10 +158,11 @@ This puts authoring (not just curation) in mainstream-creator territory. The *Sk
 
 ## Curation problem and emerging solutions
 
-- **"Best of N skills" videos** are now an established format — implies skill abundance has outpaced user evaluation capacity. Three distinct curation philosophies are visible:
+- **"Best of N skills" videos** are now an established format — implies skill abundance has outpaced user evaluation capacity. Four distinct curation philosophies are visible:
   - **Best-of-N from large sample** — [[nate-herk]] #25 ("6 of 100+ tested"), 47K views
   - **Curated essentials bundle** — [[brock-mesarich]] ("15 I can't live without"), 134.9K views — non-technical audience preference for "tell me what to install" over "here's how I evaluated"
   - **Mixed Skills + MCPs + repos** — [[dubibubii]] ("33 you actually need"), 78.9K views ([[youtube-digest-apify-2026-05-05]] #5) — broader stack-curation, not pure Skills
+  - **Daily-driver / frequency-of-use** — [[zinho-automates]] ("9 I use every single day"), 13.6K views ([[youtube-digest-apify-2026-05-12]] #4) — smallest-N, frequency-based selection, "steal them" lower-friction onboarding framing for new users
 - **Market-size claim** ([[dubibubii]] #5): *"500,000 skills on the market right now, and 95% are completely useless."* First explicit number for the Skills ecosystem; if accurate, the curation-video format will only get more important.
 - **Cross-curator consensus is forming** — Frontend Design + Superpowers + Context7 surface in three+ curation videos ([[nate-herk]] #25, [[brock-mesarich]], [[dubibubii]] #5). A small "must-install" core is emerging that 3Ps and others can use as a baseline client recommendation.
 - **Skill marketplaces** are emerging:
@@ -220,8 +221,8 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]]
 - [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
 - [[hermes-agent]] — sibling substrate that ships its own Skills primitive
 - [[skill-creator]] — evaluation tool / meta-skill
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]]

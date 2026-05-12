@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor]
-sources: 5
-updated: 2026-05-10
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault; in 2026-05-12 ships the first-day walkthrough of Claude Code's new Agent View + /goal command (multi-agent orchestration primitive)
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command]
+sources: 6
+updated: 2026-05-12
 ---
 
 # Nate Herk
@@ -77,6 +77,21 @@ Strategic significance of this 4-video burst:
 
 The cross-substrate cadence (Claude Code → Codex → Hermes Agent in three weeks, with a 1hr full course for each) confirms Nate Herk as the **fastest-cycling cross-substrate creator** in this vault. He shipped 4 videos in this batch alone — highest single-batch output of any tracked creator.
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-12]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | Multi-Agent Building In Claude Code Somehow Got Easier | 21.4K | 2026-05-12 |
+
+**Same-day walkthrough of Agent View + /goal command** — newest first-party [[claude-code]] primitive: multiple sessions managed from a single terminal tab, with the new `/goal` command for long-running agents. Published 2026-05-12 against a presumably 2026-05-11 or same-day product release — confirms his role as the **mainstream-news interpreter** for the Claude ecosystem.
+
+Strategic significance:
+
+1. **First Agent View walkthrough** — closes the multi-agent orchestration gap in Claude Code; prior multi-agent setups required external tooling (tmux, terminal-multiplexers) or [[hermes-agent]]'s VPS topology
+2. **The /goal command** is the long-running-agent primitive — pairs with `/loop` (scheduled) and Routines (cloud-scheduled) as the third time-cadence primitive
+3. **Partial overlap with [[hermes-agent]]'s multi-agent pillar** — open question whether Agent View weakens his own Hermes content's value proposition for users with simpler multi-agent needs
+4. **Same-day cadence** confirms his single-day turnaround time on Claude Code product news
+
 ## Frameworks he's introduced
 
 - **Three Ms** (covered in #3 AIOS course at 3:30) — for thinking about AI; specifics behind the framework gated to the course
@@ -116,7 +131,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]]
 - [[claude-code]], [[claude-skills]], [[claude-design]]
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his

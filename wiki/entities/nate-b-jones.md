@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — seven named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), and procurement (agent-security)
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement]
-sources: 5
-updated: 2026-05-11
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — seven named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), and procurement (agent-security); 2026-05-12 extends agent-security with the architectural pattern dimension — separate LLM-as-judge at the action boundary + four action-risk classes + Lindy as the public case study
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy]
+sources: 6
+updated: 2026-05-12
 ---
 
 # Nate B Jones
@@ -124,6 +124,51 @@ Vendor responses cited (all in one week): [[anthropic]], [[openai]], SAP, [[pine
 
 → New concept: [[agent-security]]. Updates: [[work-primitive]] (humans-vs-agents sub-diagnostic on the authority layer).
 
+## New in [[youtube-digest-apify-2026-05-12]]
+
+### #1 Agent Security — architectural pattern extension (LLM-as-judge at the action boundary)
+
+His **second consecutive video on agent-security** (25.7K views, 2026-05-11, 19:16). Where [[youtube-digest-apify-2026-05-11]] #1 gave the *procurement-side diagnostic*, this video gives the **architectural build pattern** — the implementation answer to the procurement question.
+
+**The core architectural claim** (chapter 6:30, *The architectural move: a separate judge*):
+
+- **Prompts can't enforce action policy** — frontier models follow plausible-sounding instructions even when they violate user intent. Better prompts don't fix the failure mode.
+- **Human approval breaks at scale** — confirming every action is a non-starter; confirming sample actions misses unsafe ones; confirmation theater is worse than nothing.
+- **The working pattern is a separate LLM-as-judge** at the action boundary — not a system prompt, not a guardrail, but a **distinct model invocation** whose only job is "given the user's intent and this proposed action, should this proceed?"
+- The judge is **a frontier model** (cheaper models miss correlated failures); the actor model can be cheaper.
+
+**The Lindy public case study** (chapter 3:30):
+
+- [[Lindy]] (consumer agent platform) — agents began **sending unauthorized emails**
+- They redesigned the system to put a judge between the actor and the outbound mail provider
+- The judge has access to: original user intent (compiled from session context), the proposed action, the action's blast radius
+- Decision: proceed / refuse / escalate to human
+
+**The four action-risk classes** (chapter 5:00, *Why better prompts and manual approval fail*):
+
+| Class | Examples | Decision scope |
+|---|---|---|
+| **Read** | Fetch document, query DB, search the web | Judge can skip; cost of false-allow is low |
+| **Write (internal)** | Edit a draft, update a row in a private DB | Judge runs; user-confirmation optional |
+| **High-stakes** | Send email, post to social, charge a card, file a PR | Judge runs; user-confirmation required for first-instance |
+| **External / irreversible** | Wire money, delete production data, sign a contract | Judge + human approval mandatory; sandbox |
+
+The four-way decision scope **replaces the prompt-engineering layer** as the canonical authority-boundary tool.
+
+**Why frontier models for the judge** (chapter 7:30):
+
+- Cheap judges fail **correlated cases** — same failure mode the cheap actor model has
+- Frontier-tier judges have different failure correlation (different training data, different inductive biases)
+- The cost premium is small relative to the cost of an unsafe action
+
+**Strategic significance**:
+
+- This is **the missing build-side dimension** of [[agent-security]] — procurement diagnostic + architectural pattern now form a complete vertical
+- The judge layer is **portable** — every agentic system this vault tracks ([[claude-code]] multi-agent, [[hermes-agent]], [[codex]], Lindy) has the same vulnerability if it lacks a judge
+- The four-class action taxonomy pairs cleanly with [[anticipation-gap]]'s permission ladder: **permission ladder = how much autonomy the agent has; action-risk class = how dangerous the action is**. The judge layer runs the actual runtime policy.
+
+→ Major update: [[agent-security]] gets the architectural pattern section. New entity stub: [[lindy]].
+
 ## The complete framework stack
 
 [[nate-b-jones]] is now the source of **seven complementary diagnostics**:
@@ -156,6 +201,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-10]] #11 *You're Wasting 40% Of Your AI Time On Something Fixable* (31.1K, 2026-05-09) — plugins-as-mech-suit
 - [[youtube-digest-apify-2026-05-10]] #12 *271 Vulnerabilities: What Mozilla's AI Found Changes Everything* (29.8K, 2026-05-08) — code comprehensibility
 - [[youtube-digest-apify-2026-05-11]] #1 *Anthropic And OpenAI Just Admitted The Model Isn't Enough* (53.6K, 2026-05-10) — agent security (procurement-side framework, McKinsey Lilly unlock event, six-vendor convergence)
+- [[youtube-digest-apify-2026-05-12]] #1 *LLM Agents: The Security Breach Pattern Nobody's Talking About* (25.7K, 2026-05-11) — agent-security architectural pattern (LLM-as-judge at action boundary, four action-risk classes, Lindy case study)
 
 ## Why track him for 3Ps
 
@@ -171,6 +217,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification) and Work Primitive's "rich semantics" claim
 - [[mozilla]] — reference customer / data point for #12
 - [[openclaw]] — runtime reframe in #8 (likely needs its own page in a future digest)
+- [[lindy]] — public case study for the judge-architecture pattern in 2026-05-12 #1
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — 5 videos, framework-driven analysis
@@ -178,6 +225,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-06]] — anticipation-gap + permission ladder
 - [[youtube-digest-apify-2026-05-10]] — 4 videos: work primitive, OpenClaw runtime, plugins map, code comprehensibility
 - [[youtube-digest-apify-2026-05-11]] — agent security (procurement-side framework)
+- [[youtube-digest-apify-2026-05-12]] — agent-security architectural pattern (LLM-as-judge + four action-risk classes + Lindy case)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

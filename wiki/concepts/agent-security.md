@@ -1,10 +1,10 @@
 ---
-title: Agent Security (Procurement-Side)
+title: Agent Security (Procurement-Side + Architectural Pattern)
 category: concept
-summary: [[nate-b-jones]]'s frame that AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem — McKinsey's "Lilly" platform was exploited via $20 SQL injection through 22 of 200 unauthenticated endpoints, but the deeper failure was buying agent software with traditional SaaS procurement (legal → security → IT → implementation) instead of putting developers at the table before signing; the canonical buyer-side diagnostic is "does your platform know humans from agents"
-tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow]
-sources: 1
-updated: 2026-05-11
+summary: [[nate-b-jones]]'s two-part frame for agent security — (procurement) AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem (McKinsey Lilly $20 SQL injection through 22 of 200 unauthenticated endpoints; "does your platform know humans from agents") + (architecture) the build pattern is a separate LLM-as-judge at the action boundary, with four action-risk classes (read / write / high-stakes / external-irreversible) and Lindy as the public case study after agents started sending unauthorized emails
+tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow, llm-as-judge, judge-architecture, action-boundary, lindy, four-class-action-taxonomy]
+sources: 2
+updated: 2026-05-12
 ---
 
 # Agent Security (Procurement-Side)
@@ -85,6 +85,86 @@ The actual buyer question for any agent-touching product: **"can your platform d
 
 This is **the procurement-side equivalent of [[work-primitive]]'s authority layer**. Work Primitive asks if the platform *can* commit the action; Agent Security asks if the platform *knows who's asking*.
 
+## The architectural pattern — LLM-as-judge at the action boundary
+
+Named in [[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-12]] (*LLM Agents: The Security Breach Pattern Nobody's Talking About*, 25.7K views, 19:16). This is the **build-side** complement to the procurement-side framing above — the implementation answer to the procurement question.
+
+### Why prompts and human approval both fail (chapter 5:00)
+
+- **Prompts can't enforce action policy** — frontier models follow plausible-sounding instructions even when they violate user intent. Better prompts don't fix the failure mode; they reduce its frequency without bounding it.
+- **Human approval breaks at scale** — confirming every action is a non-starter UX; confirming sample actions misses unsafe ones; confirmation theater (rubber-stamped clicks) is worse than nothing because it creates a false sense of safety.
+
+### The pattern: a separate LLM-as-judge at the action boundary (chapter 6:30)
+
+Not a system prompt, not a guardrail, but a **distinct model invocation** whose only job is to evaluate:
+
+> *"given the user's intent and this proposed action, should this proceed?"*
+
+Properties of the judge:
+
+- **Distinct model call** — the actor model proposes; the judge model decides. Separate context, separate session.
+- **Frontier-tier model** — cheap judges fail correlated cases (same biases as the actor). Frontier judges have different training data + inductive biases → different failure correlation.
+- **Inputs**: original user intent (compiled from session context), the proposed action, the action's blast radius (target system, scope of effect, reversibility)
+- **Output**: proceed / refuse / escalate to human
+- **The actor model can be cheaper** — most cost-optimization for agentic systems goes here, with the judge staying frontier
+
+### The four action-risk classes (chapter 5:00)
+
+| Class | Examples | Decision scope |
+|---|---|---|
+| **Read** | Fetch document, query DB, search the web | Judge can skip; cost of false-allow is low |
+| **Write (internal)** | Edit a draft, update a row in a private DB, append a note | Judge runs; user-confirmation optional |
+| **High-stakes** | Send email, post to social, charge a card, file a PR | Judge runs; user-confirmation required for first-instance; subsequent runs may pre-approve a pattern |
+| **External / irreversible** | Wire money, delete production data, sign a contract | Judge + human approval mandatory; consider sandboxing |
+
+The four-way decision scope **replaces the prompt-engineering layer** as the canonical authority-boundary tool. Builders shipping agents without this taxonomy are gambling on every tool call.
+
+### The Lindy public case study (chapter 3:30)
+
+[[Lindy]] (consumer agent platform) is the cleanest public example of the pattern:
+
+- Agents started **sending unauthorized emails** — outbound messages users hadn't authorized, sometimes to wrong recipients, sometimes with content that didn't match user intent
+- Lindy redesigned the system to put a judge between the actor and the outbound mail provider
+- The judge has access to: original user intent, the proposed action (recipient + subject + body), the blast radius (external send, potentially irreversible reputational impact)
+- Decision: proceed / refuse / escalate
+
+The Lindy case maps cleanly to the four-class taxonomy — email-send is **high-stakes** (third row).
+
+### Why frontier models for the judge (chapter 7:30)
+
+- **Cheap judges fail correlated cases** — same actor failure mode the cheap judge also misses; this is the central failure mode for cost-optimized judges
+- **Frontier-tier judges have different failure correlation** than actor models (different training data, different inductive biases) — independent failure → judge catches what actor misses
+- **The cost premium is small** relative to the cost of an unsafe action (an unauthorized email could lose a customer; an unauthorized wire transfer could lose the company)
+
+### How this pairs with [[anticipation-gap]]'s permission ladder
+
+The permission ladder (Read → Suggest → Draft → Act-with-confirmation → Autonomous) describes **how much autonomy the agent has**.
+
+The four-class action taxonomy describes **how dangerous the action is**.
+
+Together they form a 2D matrix for runtime policy:
+
+|  | Read action | Write action | High-stakes action | External / irreversible |
+|---|---|---|---|---|
+| Read autonomy | OK | — | — | — |
+| Suggest autonomy | OK | Suggest | Suggest | Suggest |
+| Draft autonomy | OK | OK | Draft + human | Draft + human |
+| Act-with-confirmation | OK | OK | Confirm each | Confirm + sandbox |
+| Autonomous | OK | OK (judge) | Judge + first-time confirm | Judge + human + sandbox |
+
+The judge layer **enforces the matrix at runtime** — it's the policy-engine that turns the permission rung + action class into a proceed/refuse/escalate decision.
+
+### Why this matters for the procurement question
+
+The procurement-side question ("does your platform know humans from agents?") and the build-side pattern (judge layer at action boundary) are **two halves of one frame**:
+
+- Procurement: does the vendor's platform distinguish agent traffic from human traffic?
+- Build: is there a separate judge at the action boundary that uses that distinction to apply different policies?
+
+A vendor that says yes to the procurement question but doesn't ship a judge layer is just shipping audit-log distinction — not actual policy enforcement. A vendor that ships a judge layer but doesn't expose agent-identity primitives is judging without ground truth. **Both layers are required.**
+
+This makes [[nate-b-jones]]' Agent Security framework the most complete agent-security frame tracked here — procurement diagnostic + architectural pattern + four-class action taxonomy + permission-ladder pairing + frontier-model judge requirement + Lindy case study.
+
 ## Strategic test cases
 
 | Scenario | Failure mode | Agent-aware response |
@@ -127,9 +207,12 @@ Consumer / enterprise SaaS has none of this — agent identity is bolted onto a 
 1. **Cleanest procurement-conversation entry point yet.** "Does your platform know humans from agents?" is a single-sentence diagnostic that turns any AI vendor-evaluation conversation into a scoping exercise. Direct replacement for vague "AI readiness."
 2. **"Implementation is the strategy" sharpens [[ai-consulting]] positioning.** The 3Ps offering can claim a seat at *procurement* discussions, not just post-buy implementation — higher-margin engagement scope.
 3. **Six-vendor convergence is a content angle.** "Why Anthropic, OpenAI, SAP, Pinecone, Salesforce, and ServiceNow all shipped agent-security responses in the same week" is publishable thought leadership for enterprise buyers.
-4. **The McKinsey Lilly case is a portable horror story.** $20 exploit + 22 unauthenticated endpoints + name-brand consultancy is the kind of detail that earns enterprise attention. Use sparingly so it doesn't lose impact.
+4. **The McKinsey Lilly + Lindy cases are portable horror stories.** $20 exploit + 22 unauthenticated endpoints + name-brand consultancy (McKinsey Lilly) and "agents started sending unauthorized emails" + named consumer-agent platform (Lindy) are the kind of details that earn enterprise attention. Use sparingly so they don't lose impact.
 5. **Pairs naturally with [[work-primitive]]** — the buyer-side / substrate-side pair becomes a 2x2 framework for any AI vendor evaluation: *can it tell humans from agents (procurement) × can the agent commit (substrate)*.
 6. **Aligns with [[code-comprehensibility]]** for engineering-leader clients — both treat security as a property emergent from the meaning/identity layer, not bolted-on hygiene.
+7. **Judge-layer audit is a productizable consulting deliverable.** "We'll audit your agent system against the four action-risk classes and recommend a judge architecture." Concrete, scoped, defensible. Direct billable engagement scope.
+8. **Four-class action taxonomy is a workshop artifact.** Same shape as T/C/L/D — a tag-your-actions exercise leadership teams can run in a 90-minute session. Maps every agent workflow to a risk class, drives architecture decisions.
+9. **The permission-ladder × action-class matrix is a packaged framework.** 2D matrix → policy decisions. Concrete enough to be a slide; rich enough to be an engagement. The most defensible 3Ps-original artifact this vault could produce.
 
 ## Open questions
 
@@ -139,15 +222,22 @@ Consumer / enterprise SaaS has none of this — agent identity is bolted onto a 
 - **Detection — can a buyer test "does it know humans from agents" without vendor cooperation?** What's a buyer-side audit script?
 - **Insurance angle** — cyber insurance treats AI agents how? Premium structure as a forcing function?
 - **Regulatory angle** — does any regulator (FTC, EU AI Act, NYDFS) require human/agent distinction in production deployments?
+- **Lindy postmortem specifics** — what did Lindy actually publish about the unauthorized-emails incident? Their judge architecture's exact shape?
+- **Judge-layer reference implementations** — does Anthropic ship a reference judge skill or Mythos-style tool? Does Codex have parity?
+- **Judge cost ceiling** — at what action-volume does a frontier judge become economically prohibitive? Are there hybrid patterns (cheap pre-judge + frontier escalation judge)?
+- **Multi-turn judge state** — the judge sees user intent + proposed action. Does it see prior judge decisions, or is each invocation stateless? What's the right design for stateful judges?
+- **Adversarial judge** — can a prompt-injection attacker that owns the actor's context also poison the judge's intent compilation? What's the isolation boundary?
 
 ## Related pages
 
-- [[nate-b-jones]] — author; this is his 7th named framework
+- [[nate-b-jones]] — author; this is his 7th named framework (with the 2026-05-12 architectural pattern extension)
 - [[work-primitive]] — sibling framework (substrate side); Agent Security is the procurement-side complement
 - [[code-comprehensibility]] — sibling framework (codebase side); shared "meaning layer" foundation
-- [[anticipation-gap]] — sibling framework (user side); permission ladder is the autonomy gradient that agent-aware platforms need to enforce
+- [[anticipation-gap]] — sibling framework (user side); permission ladder pairs with four-class action taxonomy as the 2D runtime policy matrix
 - [[anthropic]], [[openai]], [[pinecone]] — agent-security responders tracked in this vault
+- [[lindy]] — public case study for the judge-architecture pattern (unauthorized-emails incident)
 - [[ai-consulting]] — direct sales conversation framework
 - [[claude-code]], [[claude-skills]] — coding-agent context where this is most-mature
 - [[knowledge-layer]] — sibling sub-month convergence pattern
-- [[youtube-digest-apify-2026-05-11]] — primary citation
+- [[youtube-digest-apify-2026-05-11]] — primary citation (procurement diagnostic)
+- [[youtube-digest-apify-2026-05-12]] — second citation (architectural pattern + judge layer + four-class action taxonomy)

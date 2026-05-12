@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security]
-sources: 8
-updated: 2026-05-11
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set; in 2026-05-12 Agent View + /goal command ships as the first first-party multi-agent orchestration primitive
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent]
+sources: 9
+updated: 2026-05-12
 ---
 
 # Claude Code
@@ -27,6 +27,8 @@ updated: 2026-05-11
 - **Auto Memory** — persistent file-based memory at `~/.claude/projects/.../memory/`; types: user, feedback, project, reference (per the user's global CLAUDE.md auto-memory section)
 - **Slash commands** — user-invocable skill bindings (e.g. `/wiki-ingest`)
 - **Plugins / marketplaces** — `claude-plugins-official` and community marketplaces; install path for skills like `skill-creator`, `superpowers`, `frontend-design`, etc. ([[nate-herk]] #25 in [[youtube-digest-apify-2026-05-03]])
+- **Agent View** (2026-05-12) — multi-session orchestration from a single terminal tab; replaces external terminal-multiplexers for multi-agent setups; covered by [[nate-herk]] #2 in [[youtube-digest-apify-2026-05-12]]
+- **/goal command** (2026-05-12) — long-running agent primitive that pairs with Agent View; persistent goal across multiple work cycles; third time-cadence primitive alongside `/loop` (scheduled) and Routines (cloud-scheduled)
 
 ## Surface area in the YouTube creator space
 
@@ -96,6 +98,11 @@ updated: 2026-05-11
 - **Skill Creator first-hand walkthrough** ([[chase-ai]] #2, 107.3K views) — Anthropic's [[skill-creator]] meta-skill, previously referenced in this vault without first-hand coverage, finally gets an end-to-end demo: plain-language evals + blind A/B testing + description-field optimization. Skills become **testable software** rather than prose snippets. The two-types skill split (capability uplift vs encoded preference) gives each skill type a clean eval target. → See [[skill-creator]].
 - **Agent-security responder position** ([[nate-b-jones]] #1, 53.6K views) — following the McKinsey "Lilly" exploit ($20 SQL injection through 22 of 200 unauthenticated endpoints), Claude Code is positioned in the six-vendor agent-security responder set ([[anthropic]] / [[openai]] / SAP / [[pinecone]] / Salesforce / ServiceNow). The buyer-side question — "does your platform know humans from agents?" — applies to any agent-touching surface, including Claude Code's MCP / Skill / sub-agent dispatch surfaces. Anthropic's response shape is presumably distinct agent identity primitives in Claude Code / MCP. → See [[agent-security]].
 
+## Patterns added in [[youtube-digest-apify-2026-05-12]]
+
+- **Agent View + /goal command first-party multi-agent orchestration** ([[nate-herk]] #2, 21.4K views) — same-day walkthrough of Claude Code's newest first-party primitive: multiple sessions managed from a single terminal tab, plus the new `/goal` command for long-running agents. Closes the multi-agent orchestration gap previously filled by external tooling (tmux, terminal-multiplexers) or [[hermes-agent]]'s VPS topology. Open: how Agent View's `/goal` interacts with the existing `/loop` (scheduled) and Routines (cloud-scheduled) primitives — likely complementary as the three time-cadence primitives. Partial overlap with [[hermes-agent]]'s "multi-agent scaling" pillar; may weaken Hermes' value proposition for simpler local-multi-agent setups. → New primitive in Core primitives table.
+- **Agent-security architectural pattern (LLM-as-judge at the action boundary)** ([[nate-b-jones]] #1, 25.7K views) — second consecutive video on agent-security, this time the build-side pattern. Architectural answer to the previous batch's procurement-side question. **A separate frontier-model judge** decides proceed/refuse/escalate at each action, based on user intent + proposed action + blast radius. **Four action-risk classes** (read / write / high-stakes / external-irreversible) get different decision scopes. **Lindy** is the public case study (unauthorized-emails incident). For Claude Code: the canonical judge architecture for multi-agent setups (now natively supported via Agent View) and high-stakes Skills/MCP/sub-agent dispatches. → See [[agent-security]] (architectural pattern section).
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -129,7 +136,7 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]] — primary source digests
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]] — primary source digests
 - [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
 - [[printing-press]] — CLI alternative tooling for token-cost optimization
 - [[plugins]] — taxonomy layer above Skills
@@ -138,4 +145,4 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[knowledge-layer]] — commercial shipping of [[karpathy-llm-wiki]] architecture
 - [[skill-creator]] — Anthropic meta-skill that benchmarks skills
 - [[agent-security]] — procurement-side diagnostic; Claude Code is in the six-vendor responder set
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]]
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]], [[zinho-automates]]
