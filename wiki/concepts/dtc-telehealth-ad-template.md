@@ -1,10 +1,10 @@
 ---
 title: DTC Telehealth Ad Template
 category: concept
-summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection; 2026-05-12 sees the canonical GLP-1 instantiation re-launched verbatim in a fresh Hims ad, confirming the template is the standing GLP-1 creative and inside-structure A/B testing dominates over template variation
+summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection; 2026-05-12 sees the canonical GLP-1 instantiation re-launched verbatim; 2026-05-14 ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window) and multi-instance verbatim re-use within the same batch is the strongest single-batch confirmation of template stability
 tags: [dtc, telehealth, ads, copy-template, hims, glp-1, creative-pattern]
-sources: 3
-updated: 2026-05-12
+sources: 4
+updated: 2026-05-14
 ---
 
 # DTC Telehealth Ad Template
@@ -104,11 +104,26 @@ Predict (untested): GLP-1 ads aimed at insurance-skeptical buyers might add *"�
 - **Equivalence + provider + shipping** — covers the three legitimacy concerns of compounded/prescription DTC: *does it work?* (equivalence), *can I trust who's prescribing?* (provider), *will it actually arrive?* (shipping)
 - **Hook → bullets → close → disclaimer** — separates persuasion (top) from compliance (bottom) so compliance language doesn't cannibalize hook attention
 
-## Template stability — verbatim re-launch confirmed across 6 days
+## Template stability — multi-instance verbatim re-use within a single batch (8-day window)
 
-The GLP-1 instantiation re-ran **verbatim** in [[ads-digest-2026-05-12]] (Hims ad started 2026-05-07, ID `3567971296700086`) — same hook line, same three bullets, same close, same disclaimer block as the 2026-05-06 batch. After 6 days and 4 farm batches, Hims has only structurally innovated **once** (the Hard Mints four-bullet variant in 2026-05-10). Everything else is verbatim template reuse.
+The GLP-1 instantiation has now run **verbatim** across three farm batches:
 
-**Implication: inside-structure A/B testing dominates over template variation.** Hims tests visual assets, headline overlays, audience splits, and disclaimer wording (per [[compounded-drug-disclaimer]]) *inside* the skeleton — they don't re-template. For [[medvi-positioning]], this means the skeleton is the safe baseline; the test surface lives inside the bullet block, not in restructuring the skeleton.
+| Batch | Date | Ad ID | Started |
+|---|---|---|---|
+| 1 | 2026-05-06 | (initial wave) | early Apr 2026 |
+| 4 | 2026-05-12 | `3567971296700086` | 2026-05-07 |
+| 5 | 2026-05-14 | `956466943766183` | 2026-05-04 |
+
+**8-day verbatim-stability window for the Wegovy GLP-1 template.** Same hook line, same three bullets ("✅ FDA-approved..." / "✅ Medication as low as $149/mo..." / "✅ 100% online"), same close ("Your goals. Your plan. Your pace. / See if you qualify today."), same disclaimer block.
+
+**Batch 5 (2026-05-14) ships the strongest single-batch confirmation to date** — TWO verbatim template re-launches in the *same* batch, across two different wedges:
+
+1. **Sex Rx + Climax Control** (started 2026-04-21, ID `3275837862576962`) — verbatim re-run of the 2026-05-06 Wedge 3 SKU #2 template
+2. **Wegovy GLP-1** (started 2026-05-04, ID `956466943766183`) — third verbatim re-run of Wedge 1 template
+
+After 8 days and 5 farm batches, Hims has only structurally innovated **once** (the Hard Mints four-bullet variant in 2026-05-10). Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch.
+
+**Implication: inside-structure A/B testing dominates over template variation.** Hims tests visual assets, headline overlays, audience splits, and disclaimer wording (per [[compounded-drug-disclaimer]]) *inside* the skeleton — they don't re-template. The two-wedge simultaneous re-launch in batch 5 confirms this is **systematic, not coincidental**: Hims maintains a stable creative skeleton inventory and ships fresh ad-library entries with the same body copy across multiple wedges in the same week. For [[medvi-positioning]], this means the skeleton is the safe baseline; the test surface lives inside the bullet block, not in restructuring the skeleton.
 
 ## Adjacent patterns
 
@@ -140,6 +155,7 @@ Direct instantiation candidate for first round of Medvi Meta ads.
 - [[sources/ads-digest-2026-05-06]] — 19 Hims static-narrative ads using the three-bullet template
 - [[sources/ads-digest-2026-05-10]] — 1 Hims static-narrative ad introducing the four-bullet variant (Hard Mints)
 - [[sources/ads-digest-2026-05-12]] — 1 Hims static-narrative ad re-launching the canonical GLP-1 instantiation **verbatim** (4-batch evidence that inside-structure A/B dominates over template variation); also surfaces the Lauren Brooks long-form confession contrast pattern in the noise inventory
+- [[sources/ads-digest-2026-05-14]] — 2 Hims static-narrative ads, **both verbatim template re-launches in a single batch** — Sex Rx + Climax Control (2026-04-21) + Wegovy GLP-1 (2026-05-04). Wegovy template now verbatim across 3 batches (8-day stability window). Multi-instance verbatim re-use within the same batch is the strongest single-batch template-stability confirmation to date. Uproot Clean (3-batch repeat noise page) extends the long-form direct-response contrast pattern documented from Lauren Brooks in batch 4.
 
 ## Open questions
 

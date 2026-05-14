@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4 (2026-05-11 + 2026-05-12) — bare-"Ro" search running dry as a signal source while continuing to surface "ro"-substring noise (Lauren Brooks, Builders Protein Bars in batch 4); almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4+5 (2026-05-11 → 2026-05-14) — bare-"Ro" search running dry as a signal source for the FIFTH consecutive batch while continuing to surface "ro"-substring noise (Uproot Clean repeats in batch 5 as 3rd-batch noise); almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
 tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 4
-updated: 2026-05-12
+sources: 5
+updated: 2026-05-14
 ---
 
 # Ro
@@ -42,7 +42,13 @@ No new Ro ads. Fourth straight batch with no signal-bearing creative. Meanwhile 
 - **Lauren Brooks** (4 ads) — "Brooks" contains "ro" — pet allergy long-form direct-response copy
 - **Builders Protein Bars** (1 ad) — "Pro" contains "ro" — NEW noise page
 
-**3 total Ro ads tracked across four batches, 0 with teardown-able copy.** The pattern is now confirmed: either Ro runs only catalog-driven dynamic creative on its main page, or — more likely — the bare-"Ro" search misses Ro's primary advertising FB Page (which probably lives under "Roman Health," "Ro Body," "Ro Health," or similar). **The bare-"Ro" filter is now net-negative — it costs noise without surfacing new signal.**
+### 2026-05-14 batch (0 ads)
+
+No new Ro ads. **Fifth straight batch with no signal-bearing creative.** The bare-"Ro" search continues to *cost*:
+
+- **Uproot Clean** (1 ad, repeat) — "ro" inside "Uproot" — third batch this noise page has appeared (also batches 2+4)
+
+**3 total Ro ads tracked across five batches, 0 with teardown-able copy.** The pattern is now confirmed: either Ro runs only catalog-driven dynamic creative on its main page, or — more likely — the bare-"Ro" search misses Ro's primary advertising FB Page (which probably lives under "Roman Health," "Ro Body," "Ro Health," or similar). **The bare-"Ro" filter is now decisively net-negative — 5 batches, 0 new signal, recurring noise pages (Uproot Clean × 3 batches).**
 
 ## Action items
 
@@ -58,6 +64,7 @@ No new Ro ads. Fourth straight batch with no signal-bearing creative. Meanwhile 
 - [[ads-digest-2026-05-10]] — placeholder pattern continues (2 placeholder ads)
 - [[ads-digest-2026-05-11]] — 0 new ads (dedup-cached or absent); bare-"Ro" search running dry
 - [[ads-digest-2026-05-12]] — 0 new ads (4th batch with no signal); bare-"Ro" filter now net-negative as it continues to cost noise (Lauren Brooks 4 ads, Builders Protein Bars 1 ad) without surfacing signal
+- [[ads-digest-2026-05-14]] — 0 new ads (5th batch with no signal); Uproot Clean ("ro" in "Uproot") returns as 3rd-batch repeat noise page; bare-"Ro" filter now decisively net-negative across 5 batches
 
 ## Open questions
 

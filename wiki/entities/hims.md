@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim, confirming inside-structure A/B as the standing pattern (no template variation across four batches except the Hard Mints four-bullet variant)
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant)
 tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims]
-sources: 3
-updated: 2026-05-12
+sources: 4
+updated: 2026-05-14
 ---
 
 # Hims
@@ -105,8 +105,9 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 - [[sources/ads-digest-2026-05-10]] — 2 new ads: Hair Hybrids continuation + Hard Mints product launch (4th Sex Rx SKU)
 - [[sources/ads-digest-2026-05-11]] — 0 new ads (fully dedup-cached); the 4-SKU Sex Rx inventory + Hair Hybrids template haven't refreshed creative since 2026-05-10
 - [[sources/ads-digest-2026-05-12]] — 1 new ad: Wegovy GLP-1 template re-launched **verbatim** (ID `3567971296700086`, started 2026-05-07) — first evidence that the GLP-1 wedge template is the standing creative (not a stale-2026-04 artifact); inside-structure A/B testing confirmed as the standing pattern over template variation
+- [[sources/ads-digest-2026-05-14]] — 2 new ads, **both verbatim template re-launches in a single batch**: Sex Rx + Climax Control (ID `3275837862576962`, started 2026-04-21) + Wegovy GLP-1 (ID `956466943766183`, started 2026-05-04). Wegovy template now verbatim across **3 batches** (8-day stability window: 2026-05-06 → 2026-05-12 → 2026-05-14). Multi-instance verbatim re-use within the *same* batch is the strongest single-batch confirmation of template-stability to date — two distinct wedges shipping the same skeletons as their 2026-05-06 originals simultaneously.
 
-## Four-batch template stability summary
+## Five-batch template stability summary
 
 | Batch | Date | New Hims ads | Structural changes |
 |---|---|---|---|
@@ -114,8 +115,17 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 | 2 | 2026-05-10 | 2 | Hard Mints (4th Sex Rx SKU + first 4-bullet variant) + Hair Hybrids reuse |
 | 3 | 2026-05-11 | 0 | (fully dedup-cached) |
 | 4 | 2026-05-12 | 1 | GLP-1 template re-launched verbatim — **no structural change** |
+| 5 | 2026-05-14 | 2 | **GLP-1 verbatim re-launch #2 + Sex Rx Climax Control verbatim re-launch** — multi-instance verbatim within a single batch |
 
-In 6 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse. **Inside-structure A/B testing dominates over template variation.** Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
+### Wegovy GLP-1 verbatim instances (3-batch stability window)
+
+| Batch | Date | Ad ID | Started |
+|---|---|---|---|
+| 1 | 2026-05-06 | (initial wave) | early Apr 2026 |
+| 4 | 2026-05-12 | `3567971296700086` | 2026-05-07 |
+| 5 | 2026-05-14 | `956466943766183` | 2026-05-04 |
+
+In 8 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch. **Inside-structure A/B testing dominates over template variation.** Batch 5's two-wedge simultaneous re-launch is the strongest single-batch confirmation of this pattern. Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
 
 ## Open questions
 

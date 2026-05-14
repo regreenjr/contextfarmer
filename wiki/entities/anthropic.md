@@ -1,9 +1,9 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline)
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline); 2026-05-14 ads batch surfaces **first new Anthropic ad since 2026-05-06** — placeholder carousel (started 2026-05-11) confirms catalog-ads-only AI-lab pattern across 2 distinct launch windows
 tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase]
-sources: 5
+sources: 6
 updated: 2026-05-14
 ---
 
@@ -132,13 +132,23 @@ Strategic significance:
 
 Brad's thesis: paying users use ~2% of what Claude exposes. Useful baseline for any 3Ps client onboarding — most clients will be touching 2-3 of these and unaware of the other 10.
 
-## 2026-05-06 FB ads pattern
+## FB ads pattern — catalog-ads-only confirmed across 2 launch windows
+
+### 2026-05-06 batch (5 ads — initial wave)
 
 From [[ads-digest-2026-05-06]] — 5 active Anthropic ads, all carousel format with `{{product.name}}` headlines and `{{product.brand}}` body text. **Zero static narrative copy.** Started Mar 16 - Apr 8, 2026.
 
 Same pattern as [[openai]] in the same batch (21 ads, all dynamic-creative-only). Both AI labs in 2026-05-06 ship **only catalog/product-feed-driven dynamic creative** — opposite of DTC competitors like [[hims]] who pair catalog ads with static narrative wedges. Hypothesis: AI labs treat narrative work as PR/launches, and reserve paid social for catalog re-targeting against existing intent.
 
-Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Code? Claude for Enterprise?)
+### 2026-05-14 batch (1 new ad — second launch window)
+
+From [[ads-digest-2026-05-14]] — 1 new ad after **5 batches of silence** (no new Anthropic ads since 2026-05-06). Carousel format, `{{product.name}}` headline, `{{product.brand}}` body, started **2026-05-11** (3 days before fetch — fresh launch, not backlog catch-up). ID `1521217572752360`.
+
+**Cumulative: 6 Anthropic ads across 2 distinct launch windows (Mar 16 – Apr 8 + 2026-05-11), 0 with teardown-able copy.** The catalog-ads-only AI-lab pattern is now confirmed across **two windows** for Anthropic — matching OpenAI's 2-cluster pattern. A fresh launch in a new window with the same template rules out "the original 5 were a one-time test."
+
+> ⚠️ Both AI labs (Anthropic + OpenAI) ship only catalog-driven dynamic creative on FB across multiple launch windows. The pattern is now **multi-window confirmed for both vendors** — not just OpenAI's four-batch single-vendor evidence. Both pair catalog ads with PR/launches for narrative work and reserve paid social for catalog re-targeting against existing intent.
+
+Open: which surface is the 2026-05-11 ad pointing to? Same destination as the original 5 (claude.ai / Code / API / Enterprise), or has the catalog been repointed at a new product surface (Skills marketplace? Mythos? Claude Design? post-business-adoption-flip enterprise push)?
 
 ## Official channel activity
 
@@ -159,6 +169,7 @@ Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Co
 - [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour
 - [[youtube-digest-apify-2026-05-11]] — Skill Creator first-hand walkthrough ([[chase-ai]]); agent-security responder ([[nate-b-jones]])
 - [[youtube-digest-apify-2026-05-14]] — business-adoption flip vs OpenAI; +50% Claude Code rate-limit retention boost ([[nate-herk]] #5); [[brad-bonanno]] execution-layer Phase 3 (#1)
+- [[ads-digest-2026-05-14]] — first new Anthropic ad since 2026-05-06 (placeholder carousel, started 2026-05-11) — catalog-ads-only confirmed across 2 distinct launch windows
 - [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]] — concept pages
 
 ## Open questions
