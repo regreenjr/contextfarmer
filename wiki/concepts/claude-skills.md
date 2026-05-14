@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference; in 2026-05-12 [[zinho-automates]] introduces the daily-driver curation sub-format (smaller-N, frequency-of-use selection)
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation]
-sources: 9
-updated: 2026-05-12
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference; in 2026-05-12 [[zinho-automates]] introduces the daily-driver curation sub-format (smaller-N, frequency-of-use selection); in 2026-05-14 [[brad-bonanno]] names the **deployment / team-scaling layer above Skills** ([[execution-layer]]) — Skills wired by reference (not hard-code), private team marketplace, sub-plugins, PR-back loop
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment]
+sources: 10
+updated: 2026-05-14
 ---
 
 # Claude Skills
@@ -44,6 +44,31 @@ The category has crossed from "early adopter only" to "explain-to-creators" main
 4. **Test different models** — skill behavior varies by model
 5. **References folder** — supplemental material loaded only when needed (this vault uses `references/` and `.templates/`)
 6. **Distribute via marketplace** — `claude-plugins-official`, community marketplaces, or per-team repo
+
+## Deployment / team-scaling layer named — "Execution Layer" ([[brad-bonanno]] #1 in [[youtube-digest-apify-2026-05-14]])
+
+[[brad-bonanno]]'s third-phase video names the **layer above Skills** that handles team deployment:
+
+| Skills layer | Question | Canonical voice |
+|---|---|---|
+| Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] Skill Creator |
+| Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types) |
+| Composition | How do skills chain into automations? | [[simon-scrapes]] (Skill Systems) |
+| Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
+| **Deployment / team-scaling** | **How does a team use Skills together?** | **[[brad-bonanno]] (Execution Layer)** |
+
+Key concrete primitives at the deployment layer:
+
+- **Skills wired by reference, not hard-code** — when the brain updates, skills inherit (same shape as the wiki's `[[wikilink]]` over inline citation)
+- **Private team marketplace** from Brad's free GitHub template (`github.com/bradautomates/comp...`)
+- **Sub-plugins for vertical functions** — sales, ops, customer success — composable bundles of skills per org function
+- **PR-back loop** — every correction at the leaf becomes a permanent upgrade across the company: *"the new hire who joined yesterday is running on the back of every lesson your team has ever taught the skill, and the quality lottery is gone"*
+
+The PR-back loop is the **same shape as the wiki's update flow** — corrections propagate upstream. Comparable to `/wiki-ingest` → entity update → index regen.
+
+**Cross-vendor framing** (chapter 4:01): the execution-layer pattern works on [[codex]] and [[hermes-agent]] too — the marketplace + sub-plugin + PR-back primitives are vendor-agnostic at the deployment layer.
+
+→ See [[execution-layer]] for the full framework.
 
 ## Composition discipline named — "Skill Systems" ([[simon-scrapes]] #3 in [[youtube-digest-apify-2026-05-06]])
 
@@ -221,8 +246,9 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]]
 - [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
 - [[hermes-agent]] — sibling substrate that ships its own Skills primitive
 - [[skill-creator]] — evaluation tool / meta-skill
+- [[execution-layer]] — deployment / team-scaling layer above Skills ([[brad-bonanno]] 2026-05-14)
 - Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]]

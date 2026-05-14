@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 category: entity
-summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit
-tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security]
-sources: 6
-updated: 2026-05-12
+summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit; **in 2026-05-13 LOSES the business-adoption lead to Anthropic for the first time** (per Ramp/EconLab) — and within hours ships **[[codex]] free for 2 months** as a retention play; this is the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; in [[agentic-commerce]] ships ACP (with Stripe) as the merchant-side checkout protocol per [[nate-b-jones]] 2026-05-12 taxonomy
+tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security, business-adoption, ramp-data, retention-promo, free-sample-phase, acp, agentic-commerce]
+sources: 7
+updated: 2026-05-14
 ---
 
 # OpenAI
@@ -67,6 +67,34 @@ Six-vendor convergence in one week confirms sub-month cadence is now normal for 
 
 > Open: specific OpenAI product / API change announced. Transcript pull on [[youtube-digest-apify-2026-05-11]] #1 would clarify.
 
+## Business-adoption flip + Codex 2-months-free retention promo (per [[nate-herk]] #5 in [[youtube-digest-apify-2026-05-14]])
+
+Major dethroning event:
+
+- **2026-05-13: [[anthropic]] passes OpenAI in business adoption for the first time** — per Ramp / EconLab article cited in [[nate-herk]] #5 (`econlab.substack.com/p/anthro...`)
+- **Within hours: [[codex]] free for 2 months** — retention offer, gated via Codex Enterprise application form (`openai.com/form/codex-enterpr...`)
+- **Symmetric move from [[anthropic]]**: Claude Code rate limits +50%
+
+Strategic significance:
+
+1. **First retention promo tracked for OpenAI in this vault** — prior to this, OpenAI's monetization stance was strict (paid tiers, metered API, no major free promos). The 2-months-free move is a meaningful behavioral break.
+2. **Codex Enterprise gating** suggests the promo targets *business buyers* specifically — same persona as the lost adoption lead. Not a broad consumer move.
+3. **The dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing** — when adoption flips, the trailing vendor's first move is a free-tier promo to capture switching costs before they consolidate
+4. **Codex economics suddenly matter** — earlier [[codex]] coverage framed it as the "underserved alternative substrate." With 2 months free, the cost differential for cross-vendor experimentation drops to near-zero. Expect more cross-vendor creator content in the 2026-07 timeframe.
+5. **Open question**: does OpenAI follow up with a Codex feature push or model-quality push? Retention promos are *holding actions*; the durable response is product-side improvement.
+
+## ACP (merchant-side checkout protocol) in agentic commerce (per [[nate-b-jones]] #3 in [[youtube-digest-apify-2026-05-14]])
+
+Per [[nate-b-jones]]' six-layer [[agentic-commerce]] taxonomy:
+
+- **Layer 1: Merchant checkout protocol — ACP** — OpenAI + Stripe partnership; "instant checkout" inside ChatGPT (chapter 4:00)
+- **Question ACP answers**: how does a merchant accept agent purchases when the user is shopping inside ChatGPT?
+- **Counterpart**: UCP (Shopify + Google) — answers the *different* question of how the merchant *retains funnel control* in agent commerce
+
+OpenAI is positioned as the **agent-side aggregator** in the agentic-commerce stack — they own the agent surface (ChatGPT), they integrate the merchant protocol (ACP with Stripe), and they collect the user intent before merchants do. Same shape as the broader OpenAI strategy: own the agent surface, layer protocols below.
+
+This is the **first explicit agentic-commerce role** for OpenAI in this vault. → See [[agentic-commerce]] layer breakdown.
+
 ## Substrate role (Codex)
 
 Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
@@ -93,6 +121,7 @@ Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
 - [[sources/ads-digest-2026-05-12]] — 4 more carousel ads from the May 8 cluster (expanded 2 → 6) — pattern QUADRUPLE-confirmed (31 total); cluster is still rolling out
 - [[sources/youtube-digest-apify-2026-05-06]] — Nate Herk Codex full-course
 - [[sources/youtube-digest-apify-2026-05-11]] — agent-security responder (six-vendor convergence)
+- [[sources/youtube-digest-apify-2026-05-14]] — business-adoption flip (Ramp data) + Codex 2-months-free retention promo ([[nate-herk]] #5); ACP merchant-side checkout protocol in agentic commerce ([[nate-b-jones]] #3)
 
 ## Open questions
 

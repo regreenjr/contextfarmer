@@ -1,10 +1,10 @@
 ---
 title: Pinecone
 category: entity
-summary: Vector-database company that defined the RAG era; in 2026-05 admits agentic RAG has fundamental architectural problems and ships Nexus — a "compiled knowledge engine" above the vector DB that explicitly maps onto Karpathy's LLM wiki primitives; the company-of-record for the [[knowledge-layer]] convergence; in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / OpenAI / SAP / Salesforce / ServiceNow following the McKinsey Lilly exploit
-tags: [organization, vector-database, pinecone, rag, knowledge-layer, pinecone-nexus, knowql, karpathy-llm-wiki, agent-security]
-sources: 2
-updated: 2026-05-11
+summary: Vector-database company that defined the RAG era; in 2026-05 admits agentic RAG has fundamental architectural problems and ships Nexus — a "compiled knowledge engine" above the vector DB that explicitly maps onto Karpathy's LLM wiki primitives; the company-of-record for the [[knowledge-layer]] convergence; in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / OpenAI / SAP / Salesforce / ServiceNow following the McKinsey Lilly exploit; in 2026-05-13 [[nate-b-jones]] deepens Nexus coverage with the **NoQL retrieval-contract** framing — a builder-facing primitive that has agents *declare what they need before picking a database*; positions Nexus inside a four-shape attack on agent retrieval (Nexus = compiled-knowledge / PageIndex = don't-chunk / SAP+Dremio = tabular / Microsoft GraphRAG = relational)
+tags: [organization, vector-database, pinecone, rag, knowledge-layer, pinecone-nexus, knowql, noql, retrieval-contract, karpathy-llm-wiki, agent-security, pageindex, graphrag, tabular-memory]
+sources: 3
+updated: 2026-05-14
 ---
 
 # Pinecone
@@ -57,6 +57,47 @@ Three-component architecture, each component mapping onto [[karpathy-llm-wiki]] 
 
 Three vendors + one influencer = a category, not a product launch. Pinecone is the **company-of-record for [[knowledge-layer]]** in this vault.
 
+## NoQL retrieval-contract deepening (per [[nate-b-jones]] #2 in [[youtube-digest-apify-2026-05-14]])
+
+Second [[nate-b-jones]] video specifically on Pinecone — 38.5K views, 2026-05-13, 20:08. Where prior [[the-ai-automators]] coverage was *vendor-shipping-coverage* (Nexus exists), this video is the **builder-side decision framework** for *when to use Nexus vs alternatives*.
+
+The chapter 7:00 segment — *Pinecone Nexus and the NoQL retrieval contract* — is the canonical naming of the framework.
+
+### NoQL = the retrieval-contract query primitive
+
+Where [[the-ai-automators]] coverage named Nexus' three components (Context Compiler / Composable Retriever / KnowQL — or "NoQL" in [[nate-b-jones]]' framing; possibly the same primitive), this video adds the **conceptual framing**:
+
+- **The contract** = what an agent declares it needs (entity types, relationships, freshness, access controls) *before* picking a database
+- **NoQL** = the language an agent uses to express that contract against Nexus
+- **The bet**: declarative retrieval contracts replace imperative "find similar vectors" as the primary agent-retrieval primitive
+
+→ See [[retrieval-contract]] for the full framework.
+
+> Open: KnowQL vs NoQL — same primitive, different naming across coverage? Or two distinct components within Nexus? Worth clarifying via transcript pull or Pinecone docs.
+
+### Nexus positioned inside a four-shape attack
+
+[[nate-b-jones]] maps Nexus to one of four shapes of agent retrieval — not the universal answer, but the *general-purpose* answer:
+
+| Shape | Vendor | Best for |
+|---|---|---|
+| **Compiled knowledge + NoQL contract** | **[[pinecone]] Nexus** | **General agent retrieval over docs** |
+| Don't-chunk | PageIndex | Long-form structured docs (legal, papers) |
+| Tabular memory | SAP / Dremio / Prior Labs | Structured business data |
+| Relational | Microsoft GraphRAG | Cross-document entity graph reasoning |
+
+This is the **first public benchmarking** of where Pinecone Nexus fits vs adjacent vendors. Strategic for [[pinecone]]:
+
+- They get to be the **default general-purpose** answer — the widest applicability band
+- They're not positioned as competing with the niche shapes (PageIndex, GraphRAG) — those are complementary
+- Their differentiation is the **contract layer (NoQL)**, not the storage layer — defensible vs vector-DB commoditization
+
+### The rediscovery-problem framing
+
+[[nate-b-jones]] reframes Pinecone's "85% retrieval / 15% reasoning" stat with a sharper diagnosis: **rediscovery cost**. Agents re-derive the same connections on every query because classic RAG was built for chatbots, not agents. The retrieval contract solves rediscovery by compiling structure once.
+
+For 3Ps client conversations: the rediscovery-cost framing is more action-oriented than the static "85%" stat. Easier to point at concretely in an existing client's agent loops.
+
 ## Agent-security responder (per [[nate-b-jones]] #1 in [[youtube-digest-apify-2026-05-11]])
 
 In the McKinsey "Lilly" agent-exploit aftermath ($20 SQL injection through 22 of 200 unauthenticated endpoints), Pinecone shipped a response in the same week as five other vendors — [[anthropic]], [[openai]], SAP, Salesforce, ServiceNow.
@@ -89,11 +130,14 @@ Strategic significance:
 ## Related pages
 
 - [[knowledge-layer]] — primary concept (Pinecone is the company-of-record)
+- [[retrieval-contract]] — Pinecone's NoQL is the canonical implementation; this is the builder-side spec layer above Nexus
 - [[karpathy-llm-wiki]] — the conceptual antecedent
 - [[andrej-karpathy]] — gist author whose pattern Pinecone shipped
 - [[mcp]] — likely connector for Nexus into Claude Code
 - [[the-ai-automators]] — primary creator-channel covering this
+- [[nate-b-jones]] — author of the NoQL retrieval-contract framing and the four-shape attack taxonomy
 - [[youtube-digest-apify-2026-05-10]] — primary citation (knowledge-layer convergence)
 - [[youtube-digest-apify-2026-05-11]] — agent-security responder (six-vendor convergence)
+- [[youtube-digest-apify-2026-05-14]] — NoQL retrieval-contract deepening + four-shape attack positioning
 - [[agent-security]] — second convergence Pinecone participates in
 - [[karpathy-wiki-vs-openbrain]] — Pinecone Nexus is the canonical "wiki-side wins" data point in this comparison

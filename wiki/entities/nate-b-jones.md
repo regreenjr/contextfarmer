@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — seven named frameworks across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), and procurement (agent-security); 2026-05-12 extends agent-security with the architectural pattern dimension — separate LLM-as-judge at the action boundary + four action-risk classes + Lindy as the public case study
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy]
-sources: 6
-updated: 2026-05-12
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — **nine named frameworks** across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), procurement+architecture (agent-security), **knowledge (retrieval contract / NoQL), and commerce (six-layer agentic-commerce taxonomy: ACP / UCP / AP2 / x402 / Bedrock Agent Core)**; 2026-05-14 ships TWO frameworks in one batch — the [[retrieval-contract]] builder-side primitive above [[knowledge-layer]] AND the six-layer [[agentic-commerce]] protocol taxonomy
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core]
+sources: 7
+updated: 2026-05-14
 ---
 
 # Nate B Jones
@@ -169,9 +169,60 @@ The four-way decision scope **replaces the prompt-engineering layer** as the can
 
 → Major update: [[agent-security]] gets the architectural pattern section. New entity stub: [[lindy]].
 
+## New in [[youtube-digest-apify-2026-05-14]]
+
+**Two new frameworks in one batch** — extends his cadence to roughly one framework per video.
+
+### #2 Retrieval contract (knowledge-side framework)
+
+His **builder-side framework for the [[knowledge-layer]] convergence**. *Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.* (38.5K views, 2026-05-13, 20:08).
+
+Prior [[knowledge-layer]] coverage was vendor-side (Pinecone/Microsoft/Google shipping). This video adds the **decision framework that sits above the products**:
+
+- **The retrieval contract** (chapter 7:00 — *Pinecone Nexus and the NoQL retrieval contract*) — what an agent declares *before* picking a database: entity types, relationships, freshness, access controls
+- *"Builders who write down what their agent needs before picking a database will ship reliable systems — the ones who shop vendor-first will keep paying for rediscovery on every run."*
+
+**Four-shape attack on the agent-retrieval problem** (chapters 7:00-14:30):
+
+| Shape | Vendor | Best for |
+|---|---|---|
+| Compiled knowledge + NoQL contract | [[pinecone]] Nexus | General agent retrieval |
+| Don't-chunk | PageIndex | Long-form docs (legal, papers) |
+| Tabular memory | SAP / Dremio / Prior Labs | Structured business data |
+| Relational | Microsoft GraphRAG | Cross-document reasoning |
+
+**The rediscovery problem** (chapter 1:15) names the failure mode: agents re-derive the same connections every query because classic RAG was built for one-shot chatbots, not iterative agents.
+
+**Why bigger context windows don't fix this** (chapter 15:45): cost scales linearly, recall degrades in the middle, no compilation. The retrieval contract still applies inside a million-token context.
+
+→ New concept: [[retrieval-contract]]. PageIndex / GraphRAG / tabular-memory remain entity stubs for now (transcript pull needed for vendor specifics).
+
+### #3 Six-layer agentic-commerce taxonomy (commerce-side framework)
+
+His **second framework on [[agentic-commerce]]** — extends his prior #28 (2026-05-03, *Stripe Visa Mastercard...*) which was funnel-side. This video gives the **protocol taxonomy**.
+
+*ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.* (27.0K views, 2026-05-12, 18:41).
+
+**The six layers of an agentic purchase** (chapter 0:42 — the master framework):
+
+| Layer | Camp | Question |
+|---|---|---|
+| 1. Merchant checkout protocol — ACP | OpenAI + Stripe | How does merchant accept agent purchases? |
+| 2. Merchant checkout protocol — UCP | Shopify + Google | How does merchant retain funnel control? |
+| 3. Authorization | Google AP2 + Stripe | What's the agent allowed to spend on whose behalf? |
+| 4. Trusted credentials | Visa, MasterCard, PayPal | Who issues the agent's payment instrument? |
+| 5. Machine-to-machine rails | Stablecoins + x402 | How do agents pay other agents? |
+| 6. Governance runtime | AWS Bedrock Agent Core | Where does responsibility live? |
+
+**Authorization is not the same as payment** (chapter 8:00) — clean separation prior commerce protocols collapsed. **AP2 as mandate / permission slip** (10:15) is the agent's signed authorization. **x402** (12:45) is HTTP-native micropayments for machine-to-machine flows.
+
+**AWS Bedrock Agent Core** (15:00, *AWS Bedrock Agent Core and the governance runtime*) is positioned as the *auditable execution environment* — the layer where responsibility lives. This is the first AWS-side agent infrastructure entry in this vault.
+
+→ Major update: [[agentic-commerce]] gains the layered protocol model. New candidate entity stubs: AWS Bedrock Agent Core, Google AP2, x402, ACP, UCP.
+
 ## The complete framework stack
 
-[[nate-b-jones]] is now the source of **seven complementary diagnostics**:
+[[nate-b-jones]] is now the source of **nine complementary diagnostics**:
 
 | Framework | Side | Diagnostic question |
 |---|---|---|
@@ -181,9 +232,11 @@ The four-way decision scope **replaces the prompt-engineering layer** as the can
 | Plugins as mech-suit | Builder | Where does each capability belong? |
 | Code comprehensibility | Codebase | Is my code legible enough for AI to review? |
 | OpenClaw runtime reframe | Stack | What survives model/vendor churn? |
-| **Agent Security** | **Procurement** | **Does the platform know humans from agents — and can we tell before we sign?** |
+| Agent Security | Procurement + Architecture | Does the platform know humans from agents — and what's the action-boundary judge pattern? |
+| **Retrieval contract** | **Knowledge** | **What does my agent need to retrieve, *before* picking a database?** |
+| **Six-layer agentic commerce** | **Commerce** | **Which protocol layer carries responsibility when an agent spends money?** |
 
-Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack. This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault. Framework cadence: roughly one named diagnostic per video.
+Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack → knowledge → commerce. This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault. Framework cadence: **one named diagnostic per video** across 13+ videos, with two videos shipping two frameworks each.
 
 ## Recent activity tracked
 
@@ -202,6 +255,8 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-10]] #12 *271 Vulnerabilities: What Mozilla's AI Found Changes Everything* (29.8K, 2026-05-08) — code comprehensibility
 - [[youtube-digest-apify-2026-05-11]] #1 *Anthropic And OpenAI Just Admitted The Model Isn't Enough* (53.6K, 2026-05-10) — agent security (procurement-side framework, McKinsey Lilly unlock event, six-vendor convergence)
 - [[youtube-digest-apify-2026-05-12]] #1 *LLM Agents: The Security Breach Pattern Nobody's Talking About* (25.7K, 2026-05-11) — agent-security architectural pattern (LLM-as-judge at action boundary, four action-risk classes, Lindy case study)
+- [[youtube-digest-apify-2026-05-14]] #2 *Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.* (38.5K, 2026-05-13) — [[retrieval-contract]] / NoQL framework + four-shape attack (compiled / PageIndex / tabular / GraphRAG)
+- [[youtube-digest-apify-2026-05-14]] #3 *ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.* (27.0K, 2026-05-12) — six-layer [[agentic-commerce]] protocol taxonomy (ACP / UCP / AP2 / x402 / Bedrock Agent Core)
 
 ## Why track him for 3Ps
 
@@ -212,8 +267,10 @@ Together: a **complete agent-era audit** for any organization — covering every
 
 ## Related
 - [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]] — concepts he originated/popularized
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
+- [[knowledge-layer]] — extended via retrieval contract (2026-05-13)
+- [[pinecone]] — Nexus / NoQL is the canonical retrieval-contract implementation
 - [[claude-code]], [[codex]] — coding agents are the existing-proof case for closing the anticipation gap (clean verification) and Work Primitive's "rich semantics" claim
 - [[mozilla]] — reference customer / data point for #12
 - [[openclaw]] — runtime reframe in #8 (likely needs its own page in a future digest)
@@ -226,6 +283,7 @@ Together: a **complete agent-era audit** for any organization — covering every
 - [[youtube-digest-apify-2026-05-10]] — 4 videos: work primitive, OpenClaw runtime, plugins map, code comprehensibility
 - [[youtube-digest-apify-2026-05-11]] — agent security (procurement-side framework)
 - [[youtube-digest-apify-2026-05-12]] — agent-security architectural pattern (LLM-as-judge + four action-risk classes + Lindy case)
+- [[youtube-digest-apify-2026-05-14]] — 2 videos: retrieval contract / NoQL (#2) + six-layer agentic-commerce taxonomy (#3)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

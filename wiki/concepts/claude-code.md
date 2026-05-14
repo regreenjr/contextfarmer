@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set; in 2026-05-12 Agent View + /goal command ships as the first first-party multi-agent orchestration primitive
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent]
-sources: 9
-updated: 2026-05-12
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05-07) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set; in 2026-05-12 Agent View + /goal command ships as the first first-party multi-agent orchestration primitive; in 2026-05-13 a **second rate-limit increase of +50%** ships within hours of the Ramp/EconLab Anthropic-passes-OpenAI business-adoption flip — total rate-limit increase across two weeks is ~3x baseline (SpaceX 2x + retention boost +50%); in 2026-05-14 [[nate-herk]] ships the first explicit five-level **mastery framework** ([[claude-code-levels]], 73K views) and [[brad-bonanno]] ships the **execution-layer** Phase 3 deployment pattern
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent, claude-code-levels, execution-layer, free-sample-phase, business-adoption, rate-limits]
+sources: 10
+updated: 2026-05-14
 ---
 
 # Claude Code
@@ -29,6 +29,8 @@ updated: 2026-05-12
 - **Plugins / marketplaces** — `claude-plugins-official` and community marketplaces; install path for skills like `skill-creator`, `superpowers`, `frontend-design`, etc. ([[nate-herk]] #25 in [[youtube-digest-apify-2026-05-03]])
 - **Agent View** (2026-05-12) — multi-session orchestration from a single terminal tab; replaces external terminal-multiplexers for multi-agent setups; covered by [[nate-herk]] #2 in [[youtube-digest-apify-2026-05-12]]
 - **/goal command** (2026-05-12) — long-running agent primitive that pairs with Agent View; persistent goal across multiple work cycles; third time-cadence primitive alongside `/loop` (scheduled) and Routines (cloud-scheduled)
+- **/rewind** (surfaced 2026-05-12 via [[nate-herk]] #6 *Every Level of Claude*) — session-state rollback primitive; companion to Auto Memory's forward-persistence; Level 4 in [[claude-code-levels]]
+- **Shift Tab Twice** (surfaced 2026-05-12 via [[nate-herk]] #6) — likely a Plan Mode toggle or alternate UI mode; Level 4 primitive; specifics gated to transcript
 
 ## Surface area in the YouTube creator space
 
@@ -103,6 +105,29 @@ updated: 2026-05-12
 - **Agent View + /goal command first-party multi-agent orchestration** ([[nate-herk]] #2, 21.4K views) — same-day walkthrough of Claude Code's newest first-party primitive: multiple sessions managed from a single terminal tab, plus the new `/goal` command for long-running agents. Closes the multi-agent orchestration gap previously filled by external tooling (tmux, terminal-multiplexers) or [[hermes-agent]]'s VPS topology. Open: how Agent View's `/goal` interacts with the existing `/loop` (scheduled) and Routines (cloud-scheduled) primitives — likely complementary as the three time-cadence primitives. Partial overlap with [[hermes-agent]]'s "multi-agent scaling" pillar; may weaken Hermes' value proposition for simpler local-multi-agent setups. → New primitive in Core primitives table.
 - **Agent-security architectural pattern (LLM-as-judge at the action boundary)** ([[nate-b-jones]] #1, 25.7K views) — second consecutive video on agent-security, this time the build-side pattern. Architectural answer to the previous batch's procurement-side question. **A separate frontier-model judge** decides proceed/refuse/escalate at each action, based on user intent + proposed action + blast radius. **Four action-risk classes** (read / write / high-stakes / external-irreversible) get different decision scopes. **Lindy** is the public case study (unauthorized-emails incident). For Claude Code: the canonical judge architecture for multi-agent setups (now natively supported via Agent View) and high-stakes Skills/MCP/sub-agent dispatches. → See [[agent-security]] (architectural pattern section).
 
+## Patterns added in [[youtube-digest-apify-2026-05-14]]
+
+- **+50% rate-limit retention boost** ([[nate-herk]] #5, 48.4K views) — same-week after [[anthropic]] passes [[openai]] in business adoption per Ramp/EconLab. Total Claude Code rate-limit increase across two weeks is **~3x baseline** (SpaceX deal 2x on 2026-05-07 + retention boost +50% on 2026-05-13). Substantively changes the [[brad-bonanno]] context-bloat optimization urgency and the cost basis for 3Ps client engagements. → See [[anthropic]] update + [[free-sample-phase]] framing for the strategic context.
+- **Five-level mastery framework** ([[nate-herk]] #6, 73.4K views — his highest-viewed video in this batch) — *Every Level of Claude Explained in 21 Minutes*. First explicit progression framework for Claude Code in this vault:
+  - **Level 1** — entry-level CLI use
+  - **Level 2** — hidden artifacts + Office takeover (Word/PowerPoint/Excel add-ins)
+  - **Level 3** — "Figma killer?" ([[claude-design]])
+  - **Level 4** — Shift Tab Twice + `/rewind` (advanced session control; `/rewind` is a previously-untracked primitive)
+  - **Level 5** — "five parallel sessions while they sleep" (Agent View + `/goal` + Routines + Channels)
+  - Credibility anchor: "400 hours inside Claude"
+  - The **depth-tour** companion to [[brad-bonanno]]'s 13-product **breadth-tour**
+  - → See [[claude-code-levels]].
+- **Execution layer (Phase 3 deployment)** ([[brad-bonanno]] #1, 56 views — just-published) — *Build an Execution Layer for Your Second Brain*. Phase 3 of Brad's trajectory: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3). Names the deployment / team-scaling layer above [[skill-systems]] composition:
+  - Skills wired by reference, not hard-code
+  - Private team marketplace from free GitHub template
+  - Sub-plugins for sales / ops / customer success
+  - PR-back loop (every correction = permanent company-wide upgrade)
+  - **Cross-vendor framing** at chapter 4:01 — works on [[codex]] / [[hermes-agent]] too
+  - → See [[execution-layer]].
+- **`/rewind` is a new primitive** — Level 4 in [[claude-code-levels]] names `/rewind` as a session-state-rollback primitive (chapter 13:54). Not previously tracked. Possibly ships alongside Auto Memory; verifying via [[nate-herk]] transcript when available.
+- **Shift Tab Twice** ([[nate-herk]] #6 chapter 10:40) — likely a Plan Mode toggle or alternate session UI; specifics gated to transcript.
+- **[[free-sample-phase]] substrate-economics** ([[nate-herk]] #5) — names the moment when both Anthropic and OpenAI ship retention promos within hours of an adoption flip. The recommended operator play: build flexibly enough to swap substrates when pricing resets. Same insurance thesis as [[skill-systems]] / [[printing-press]] but at the *economics* layer rather than the architecture layer. → See [[free-sample-phase]].
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -136,7 +161,7 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]] — primary source digests
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]] — primary source digests
 - [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
 - [[printing-press]] — CLI alternative tooling for token-cost optimization
 - [[plugins]] — taxonomy layer above Skills
@@ -145,4 +170,7 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[knowledge-layer]] — commercial shipping of [[karpathy-llm-wiki]] architecture
 - [[skill-creator]] — Anthropic meta-skill that benchmarks skills
 - [[agent-security]] — procurement-side diagnostic; Claude Code is in the six-vendor responder set
+- [[claude-code-levels]] — five-level mastery framework ([[nate-herk]] 2026-05-12)
+- [[execution-layer]] — Phase 3 deployment / team-scaling pattern ([[brad-bonanno]] 2026-05-14)
+- [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war
 - Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]], [[zinho-automates]]

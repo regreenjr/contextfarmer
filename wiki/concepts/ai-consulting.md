@@ -1,10 +1,10 @@
 ---
 title: AI Consulting
 category: concept
-summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension — positioning-language framework for AI consulting offers
-tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai]
-sources: 6
-updated: 2026-05-12
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension — positioning-language framework for AI consulting offers; in 2026-05-14 [[nicole-mccain]] (new entity) brings the wedge to the **lowest-floor audience tier** — pre-revenue beginners with no business and no tech skills, using ChatGPT + no-code tools rather than Claude Code; eighth voice now visible across the wedge
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract]
+sources: 7
+updated: 2026-05-14
 ---
 
 # AI Consulting
@@ -76,8 +76,34 @@ Each pillar gets copy-paste templates. Saraev claims agencies have scaled to **$
 | [[brock-mesarich]] | "Non-techies" / skill-bundle | 134.9K views (single curation video) | Skool (50+ skills) |
 | [[ben-ai]] | Skill authoring + AI Accelerator | 229K views (single auth video) | AI Accelerator (own) |
 | [[mert-yerlikaya]] | **Offer-language / positioning framework** | 2.2K views/video | Monk AI consultancy |
+| [[nicole-mccain]] | **Pre-revenue beginners (non-technical, ChatGPT-stack)** | 647 views/video | Digital Roadmap AI Academy |
 
-Seven voices now visible. Skool dominates but not exclusively — [[ben-ai]] runs his own Accelerator + Agency + Recruiting stack. **Brock's $80K/month no-employees claim** ([[youtube-digest-apify-2026-05-04]] #2) is a fresh credibility anchor in the same revenue tier as [[nate-herk]]'s $231K-in-30-days framing — and his "for non techies" audience framing is the broadest, suggesting the consulting-buyer audience extends beyond the developer-leaning operator persona. **[[nick-saraev]]'s 4hr Claude Code course** (1.56M views, [[youtube-digest-apify-2026-05-05]] #4) is by an order of magnitude the dominant educational on-ramp into the category — anyone learning Claude Code on YouTube is most likely starting there.
+Eight voices now visible. Skool dominates but not exclusively — [[ben-ai]] runs his own Accelerator + Agency + Recruiting stack. **Brock's $80K/month no-employees claim** ([[youtube-digest-apify-2026-05-04]] #2) is a fresh credibility anchor in the same revenue tier as [[nate-herk]]'s $231K-in-30-days framing — and his "for non techies" audience framing is the broadest, suggesting the consulting-buyer audience extends beyond the developer-leaning operator persona. **[[nick-saraev]]'s 4hr Claude Code course** (1.56M views, [[youtube-digest-apify-2026-05-05]] #4) is by an order of magnitude the dominant educational on-ramp into the category — anyone learning Claude Code on YouTube is most likely starting there.
+
+## Audience-tier expansion to pre-revenue beginners ([[nicole-mccain]] #4 in [[youtube-digest-apify-2026-05-14]])
+
+[[nicole-mccain]] (new entity) is the **first non-developer, pre-revenue-beginner-positioned** voice in this vault. Her video *This AI Consulting Strategy Will Make You $100k Fast* (647 views, 2025-10-23) explicitly targets:
+
+- **"Beginner to paid consultant"** — pre-revenue audience
+- **"Even if you're not technical"** — non-developer framing
+- **"Start AI consulting with just ChatGPT and other no code tools"** — non-Anthropic stack
+
+This extends the audience-tier coverage:
+
+| Tier | Audience | Voices |
+|---|---|---|
+| **A** | Existing developers / operators | [[nick-saraev]], [[nate-herk]], [[ben-ai]] |
+| **B** | Existing consultants without AI | [[mark-kashef]], Nick Tan, [[mert-yerlikaya]], [[brock-mesarich]] (crossover) |
+| **C** | **Pre-revenue beginners, non-technical** | **[[nicole-mccain]]** |
+
+Strategic significance for 3Ps:
+
+1. **The AI consulting wedge has reached the make-money-online creator economy** — fully mainstream. Confirms [[mark-kashef]]'s "2026 is the golden age" thesis at the broadest audience tier.
+2. **ChatGPT-stack (not Claude-stack) at the bottom** — second voice (after [[dan-martell]]) in this vault using non-Anthropic primary tooling. The market is bigger than the Claude Code creator economy this vault tracks.
+3. **Useful for ICP exclusion** — 3Ps' target (Tier-A/B operators and GTM teams) is *not* Nicole's audience (Tier-C beginners). Clarifies positioning by contrast.
+4. **Disclaimer signal** (heavy legal disclaimer + affiliate disclosure) marks her audience as consumer-tier, not professional-tier — different buyer than the existing seven voices.
+
+→ See [[nicole-mccain]] for the full entity coverage.
 
 ## Offer-language layer ([[mert-yerlikaya]] #3 in [[youtube-digest-apify-2026-05-12]])
 
@@ -93,6 +119,7 @@ This fills a gap in the existing operator-voice coverage:
 | Tactics (local biz, vertical) | Nick Tan, [[brock-mesarich]] |
 | Authoring discipline | [[ben-ai]], [[simon-scrapes]] |
 | **Offer language / positioning** | **[[mert-yerlikaya]] (Monk AI)** |
+| **Beginner entry / non-technical on-ramp** | **[[nicole-mccain]] (Digital Roadmap)** |
 
 Specifics are gated to the video — **transcript ingest needed** for actual framework. For 3Ps positioning, this is the **highest-value under-replicated content area** in the broader [[ai-consulting]] creator landscape.
 
@@ -156,6 +183,25 @@ The **T/C/L/D framework** (Theater / Commodity / Leverage / Durable) gives 3Ps a
 
 Pairs cleanly with the [[ai-consulting]] macro thesis — legacy moats collapsed because the work that justified them was Commodity in T/C/L/D terms. The framework gives clients a way to *see* this in their own week, not just hear it as a thesis.
 
+## The four-phase 3Ps engagement arc (post-2026-05-14)
+
+With the [[retrieval-contract]] and [[execution-layer]] concepts both arriving 2026-05-14, the 3Ps consulting deliverable now has a clean four-phase structure:
+
+| Phase | Artifact | Concept | Voice |
+|---|---|---|---|
+| **Phase 0** | Retrieval contract spec | [[retrieval-contract]] | [[nate-b-jones]] |
+| **Phase 1** | Context layer (second brain) | [[karpathy-llm-wiki]] / [[context-farming]] | [[andrej-karpathy]] / [[brad-bonanno]] |
+| **Phase 2** | Skill systems (composition) | [[skill-systems]] | [[simon-scrapes]] |
+| **Phase 3** | Execution layer (team deployment) | [[execution-layer]] | [[brad-bonanno]] |
+
+Each phase has:
+
+- A vault-implemented analog (the vault implements Phase 1 thoroughly; Phase 0 implicitly via frontmatter; Phase 2 partially; Phase 3 not yet)
+- A canonical voice that can be cited as the framework's named author
+- A 3Ps-billable artifact
+
+This is the **first clean multi-phase consulting offer** the [[ai-consulting]] wedge has produced in this vault. Worth converting into a 3Ps marketing asset / service-menu doc.
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — 4 videos, all four frame
 - [[youtube-digest-2026-05-03-r3]] — Saraev's 5-pillar blueprint (#3)
@@ -163,11 +209,15 @@ Pairs cleanly with the [[ai-consulting]] macro thesis — legacy moats collapsed
 - [[youtube-digest-apify-2026-05-05]] — Saraev 1.56M-view course (#4); [[nate-b-jones]] T/C/L/D (#1); [[ben-ai]] skill-authoring (#7); [[dan-martell]] sales-stack (#2, non-Claude operator counterpoint)
 - [[youtube-digest-apify-2026-05-06]] — Skill Systems composition discipline ([[simon-scrapes]] #3); anticipation gap + permission ladder ([[nate-b-jones]] #1); cross-vendor coding-agent coverage via Codex ([[nate-herk]] #2)
 - [[youtube-digest-apify-2026-05-12]] — offer-language framework ([[mert-yerlikaya]] #3, Monk AI consultancy)
-- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]] — operator entity pages
+- [[youtube-digest-apify-2026-05-14]] — beginner / Tier-C audience expansion ([[nicole-mccain]] #4); four-phase engagement arc forms via [[retrieval-contract]] + [[execution-layer]]
+- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]] — operator entity pages
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - [[voice-agents]] — net-new service line
 - [[skill-systems]] — composition discipline for productizing deliverables
+- [[execution-layer]] — Phase 3 deployment artifact
+- [[retrieval-contract]] — Phase 0 spec artifact
 - [[anticipation-gap]] — client-intake artifact for permission-rung scoping
 - [[codex]] — vendor-agnostic positioning enables OpenAI-shop clients
+- [[free-sample-phase]] — substrate-economics rationale for vendor-neutral deliverables
 - (Future) [[3ps-consulting]] — eventual entity page for the user's offering

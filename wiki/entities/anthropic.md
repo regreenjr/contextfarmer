@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security]
-sources: 4
-updated: 2026-05-11
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline)
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase]
+sources: 5
+updated: 2026-05-14
 ---
 
 # Anthropic
@@ -91,6 +91,27 @@ The six-vendor convergence-in-one-week is the same shape as the [[knowledge-laye
 
 The buyer-side question this addresses: **"does your platform know humans from agents?"** Anthropic's response shape is presumably distinct agent identity primitives in Claude Code / MCP — transcript pull on #1 needed for specifics. → See [[agent-security]].
 
+### Business-adoption flip + Claude Code +50% retention boost (per [[nate-herk]] #5 in [[youtube-digest-apify-2026-05-14]])
+
+The biggest single-event Anthropic update in this vault:
+
+- **2026-05-13: [[anthropic]] passes [[openai]] in business adoption for the first time** — per a Ramp / EconLab article (`econlab.substack.com/p/anthro...`)
+- **Within hours: Claude Code rate limits bumped +50%** as a retention offer
+- **Simultaneously: [[openai]] ships [[codex]] free for 2 months** — the symmetric retention move from the dethroned leader
+
+Strategic significance:
+
+1. **First adoption-rankings flip in the LLM era** — Anthropic was behind OpenAI on every meaningful adoption metric prior to this. Closest historical analog: AWS overtaking other clouds 2015-2020.
+2. **The +50% boost is the *third* Claude Code rate-limit increase in two weeks**:
+   - 2026-05-07: SpaceX deal **doubled** 5-hour rate limits ([[nate-herk]] #9 in [[youtube-digest-apify-2026-05-10]])
+   - 2026-05-13: Additional **+50% retention boost** (this update)
+   - **Total: ~3x baseline** in two weeks
+3. **The [[brad-bonanno]] context-bloat optimization argument** is now substantially less urgent at 3x baseline. [[printing-press]] / CLI-replaces-MCP token-cost arguments still apply at scale but with reduced floor-level urgency.
+4. **3Ps client implication**: cost projections for Claude Code Plus/Pro engagements just got better. Useful talking point for any current/active client conversations.
+5. **[[free-sample-phase]] frame**: per [[nate-herk]] #5, the retention war is *the substrate-economics phase before the inevitable pricing reset*. Both labs are using free-tier expansion to capture training data + lock-in switching cost. → See [[free-sample-phase]].
+
+**Open**: how durable is the adoption flip? Need 2-3 months of additional Ramp data to confirm consolidation vs flip-flop.
+
 ### Canonical product-surface inventory (per [[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
 
 [[brad-bonanno]]'s 13-product tour is the most comprehensive Anthropic-surface walk in this vault:
@@ -129,13 +150,16 @@ Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Co
 - [[andrej-karpathy]] — not at Anthropic but his frameworks (LLM Wiki, agentic engineering) shape the ecosystem Anthropic ships into
 - [[agent-substrate]] — the strategic frame that explains the Atlassian rumor
 - [[agentic-commerce]] — Anthropic likely a player here too
+- [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war
+- [[openai]] — direct competitor; lost business-adoption lead on 2026-05-13
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
 - [[ads-digest-2026-05-06]] — 5 catalog-driven carousel ads (no static narrative)
 - [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour
 - [[youtube-digest-apify-2026-05-11]] — Skill Creator first-hand walkthrough ([[chase-ai]]); agent-security responder ([[nate-b-jones]])
-- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]] — concept pages
+- [[youtube-digest-apify-2026-05-14]] — business-adoption flip vs OpenAI; +50% Claude Code rate-limit retention boost ([[nate-herk]] #5); [[brad-bonanno]] execution-layer Phase 3 (#1)
+- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]] — concept pages
 
 ## Open questions
 - Is the Atlassian rumor priced into Anthropic strategy, or speculative? (Watch for confirmation/denial)
@@ -145,3 +169,6 @@ Open: which surface are the 5 ads pointing to? (claude.ai? Claude API? Claude Co
 - **Mythos status** — public-facing product? internal tool? pricing? rollout scope?
 - **SpaceX compute deal scope** — capacity terms, exclusivity, duration? Does this signal Anthropic preparing for major capacity demands (Claude Code 3? Enterprise Mythos rollout?)
 - **13-product surface coherence** — which of Brad's 13 products are Anthropic actively investing in vs maintaining?
+- **Adoption flip durability** — does the 2026-05-13 Ramp data point hold across 2-3 months? Single-data-point reversal vs structural shift unknown
+- **What's the next retention move after +50% limits?** — likely a Claude Code Pro/Max price reduction, an expanded free tier, or new productivity primitive (Auto Skills?)
+- **Codex 2-months-free competitive impact** — does Anthropic respond with a similar promo, or rely on the rate-limit lead as the standing offer?

@@ -1,10 +1,10 @@
 ---
 title: Codex (OpenAI Codex CLI)
 category: concept
-summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); Nate Herk's 1hr full course is the first major educational entry tracked here — confirms Skills, Plan Mode, and weekly automations are cross-vendor patterns, not Anthropic-only
-tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor]
-sources: 1
-updated: 2026-05-06
+summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); Nate Herk's 1hr full course is the first major educational entry tracked here — confirms Skills, Plan Mode, and weekly automations are cross-vendor patterns, not Anthropic-only; in 2026-05-13 OpenAI ships **Codex free for 2 months** (Codex Enterprise application form) as a retention play within hours of [[anthropic]] passing them in business adoption per Ramp/EconLab — the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; cost differential for cross-vendor experimentation drops to near-zero for the 2-month window
+tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise]
+sources: 2
+updated: 2026-05-14
 ---
 
 # Codex (OpenAI Codex CLI)
@@ -49,6 +49,35 @@ The architectural concepts this vault tracks port between substrates:
 
 **Open**: how much of the symmetry is real vs naming-borrowing. Some primitives (Skills) may be a re-implementation; others may be functionally different despite shared naming. Transcript ingest of the Nate Herk course would resolve.
 
+## 2026-05-13 retention promo: Codex free for 2 months (per [[nate-herk]] #5 in [[youtube-digest-apify-2026-05-14]])
+
+Major behavioral break for OpenAI's Codex monetization stance:
+
+- **Trigger event**: per a Ramp / EconLab article, [[anthropic]] passed [[openai]] in business adoption for the first time on 2026-05-13
+- **Within hours**: OpenAI ships **Codex free for 2 months**, gated via the Codex Enterprise application form (`openai.com/form/codex-enterpr...`)
+- **Symmetric move from Anthropic**: [[claude-code]] rate limits +50%
+
+### Why this matters for Codex specifically
+
+1. **First OpenAI retention promo tracked here** — prior to 2026-05-13, OpenAI's Codex stance was strict (paid tiers, metered API, no major free promos). The 2-months-free move is a meaningful behavioral break.
+2. **Cost differential for cross-vendor experimentation drops to near-zero** during the 2-month window. Operators who would otherwise default to [[claude-code]] now have a free path to test Codex's Skills / Plan Mode / weekly automations / browser-use stack.
+3. **Codex Enterprise gating** suggests the promo targets *business buyers* — same persona as the lost adoption lead. Not a broad consumer move.
+4. **Educational on-ramp arbitrage** — [[nate-herk]]'s prior 1hr Codex course (9.5K views in [[youtube-digest-apify-2026-05-06]]) lands at a moment when free-tier Codex is suddenly cheap to follow along with. Expect Codex tutorial views to spike in the 2026-06 / 2026-07 timeframe.
+5. **The dethroned-leader play** in [[nate-herk]]'s [[free-sample-phase]] framing — when adoption flips, the trailing vendor's first move is a free-tier promo to capture switching costs before they consolidate
+
+### Strategic implications
+
+- **Cross-vendor Skills experimentation just got cheaper** — operators can verify the Anthropic-Codex Skills format compatibility / API differences with 2 months of free Codex usage
+- **Anthropic-ecosystem creators may add Codex coverage opportunistically** — if [[brock-mesarich]] / [[grace-leung]] / [[nick-saraev]] follow [[nate-herk]] in covering Codex during the free window, Codex graduates from "alternative substrate" to "tracked second substrate" for the whole vault
+- **Pricing model differences become testable** — operators can compare Codex's metered API model vs Claude Code's flat-fee Pro/Max economically for 2 months, generating reusable benchmark data
+- **Open question**: does the 2-months-free conversion sticky? Empirical resolution by 2026-08
+
+### For 3Ps
+
+This is a **2-month consulting opportunity** — 3Ps clients who want to evaluate Codex vs Claude Code can do so during the free window with no incremental cost. A "cross-vendor substrate evaluation" engagement is more attractive now than at any prior point. The same architectural patterns (Skills, Plan Mode, [[skill-systems]], [[execution-layer]], [[retrieval-contract]]) port across both substrates per the vendor-agnostic positioning thesis.
+
+→ See [[free-sample-phase]] for the broader substrate-economics framing.
+
 ## Contrasts with
 
 - **[[claude-code]]** — the closer-cousin substrate; this vault's primary focus. Codex is currently the alternative for OpenAI-leaning operators.
@@ -79,8 +108,12 @@ The architectural concepts this vault tracks port between substrates:
 ## Used in
 
 - [[youtube-digest-apify-2026-05-06]] — primary source ([[nate-herk]] #2 *Master 97% of Codex in 1 Hour*)
+- [[youtube-digest-apify-2026-05-14]] — secondary source: 2-months-free retention promo following the Anthropic adoption flip ([[nate-herk]] #5)
 - [[nate-herk]] — primary educator in this vault for Codex
+- [[openai]] — Codex vendor; retention-promo signal
 - [[claude-code]] — sibling substrate; the cross-vendor primitive symmetry is the main connection
 - [[claude-skills]] — Skills as cross-vendor primitive
+- [[free-sample-phase]] — substrate-economics framing for the 2-months-free promo
 - [[anticipation-gap]] — coding agents (both Codex and Claude Code) are the canonical proof that anticipation-gap-closing requires clean verification, which both have
 - [[ai-consulting]] — vendor-agnostic positioning enables OpenAI-shop clients
+- [[execution-layer]], [[retrieval-contract]], [[skill-systems]] — vendor-agnostic architectural patterns that port to Codex
