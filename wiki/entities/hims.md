@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant)
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant); **2026-05-15 batch returns 0 new ads — second Hims silence batch in 6** (first since batch 3 2026-05-11) — reads as standard inventory-cycle timing trough following the batch-5 two-wedge re-launch surge, not a structural shift; cumulative 50 ads across 5 batches
 tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims]
-sources: 4
-updated: 2026-05-14
+sources: 5
+updated: 2026-05-15
 ---
 
 # Hims
@@ -106,6 +106,7 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 - [[sources/ads-digest-2026-05-11]] — 0 new ads (fully dedup-cached); the 4-SKU Sex Rx inventory + Hair Hybrids template haven't refreshed creative since 2026-05-10
 - [[sources/ads-digest-2026-05-12]] — 1 new ad: Wegovy GLP-1 template re-launched **verbatim** (ID `3567971296700086`, started 2026-05-07) — first evidence that the GLP-1 wedge template is the standing creative (not a stale-2026-04 artifact); inside-structure A/B testing confirmed as the standing pattern over template variation
 - [[sources/ads-digest-2026-05-14]] — 2 new ads, **both verbatim template re-launches in a single batch**: Sex Rx + Climax Control (ID `3275837862576962`, started 2026-04-21) + Wegovy GLP-1 (ID `956466943766183`, started 2026-05-04). Wegovy template now verbatim across **3 batches** (8-day stability window: 2026-05-06 → 2026-05-12 → 2026-05-14). Multi-instance verbatim re-use within the *same* batch is the strongest single-batch confirmation of template-stability to date — two distinct wedges shipping the same skeletons as their 2026-05-06 originals simultaneously.
+- [[sources/ads-digest-2026-05-15]] — 0 new ads (2nd Hims silence batch in 6, first since 2026-05-11/batch 3). Universal-silence batch across all 8 tracked anchors. Reads as **inventory-cycle timing trough** following batch 5's two-wedge multi-instance surge — the standing creative inventory cycles in waves; once a wave ships (batch 5), the next 24-48hrs naturally produce thin new-ad volume until the next wave begins. No structural shift implied. Cumulative inventory unchanged at 50 ads, 3 wedges, 4 Sex Rx SKUs.
 
 ## Five-batch template stability summary
 
@@ -116,6 +117,7 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 | 3 | 2026-05-11 | 0 | (fully dedup-cached) |
 | 4 | 2026-05-12 | 1 | GLP-1 template re-launched verbatim — **no structural change** |
 | 5 | 2026-05-14 | 2 | **GLP-1 verbatim re-launch #2 + Sex Rx Climax Control verbatim re-launch** — multi-instance verbatim within a single batch |
+| 6 | 2026-05-15 | 0 | (silence — 2nd Hims silence batch in 6, post-surge inventory-cycle trough) |
 
 ### Wegovy GLP-1 verbatim instances (3-batch stability window)
 

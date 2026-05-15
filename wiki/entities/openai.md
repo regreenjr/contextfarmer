@@ -1,9 +1,9 @@
 ---
 title: OpenAI
 category: entity
-summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; **2026-05-14 batch returns 0 new ads — first OpenAI silence in 5 batches** (May 8 cluster appears fully dedup-cached); in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit; **in 2026-05-13 LOSES the business-adoption lead to Anthropic for the first time** (per Ramp/EconLab) — and within hours ships **[[codex]] free for 2 months** as a retention play; this is the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; in [[agentic-commerce]] ships ACP (with Stripe) as the merchant-side checkout protocol per [[nate-b-jones]] 2026-05-12 taxonomy; **in 2026-05-15 ([[nate-b-jones]] [[agentic-implementation-layer]] framework) named alongside [[anthropic]] as axis-1 player in the four-axis squeeze — both labs explicitly standing up deployment companies rather than relying on partners**, capturing implementation revenue rather than just inference; this is the upstream cause of the [[free-sample-phase]] retention war — labs converting model-tier users into deployment-tier customers
+summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; **2026-05-14 batch returns 0 new ads — first OpenAI silence in 5 batches** (May 8 cluster appears fully dedup-cached); **2026-05-15 batch returns 0 new ads — silence now confirmed across 2 consecutive batches**, promoting the May 8 cluster diagnosis from "transient batch-timing artifact" to "fully dedup-cached at 6 ads" — open whether OpenAI is between launches (new cluster expected in batches 7-8) or strategy is on hold; in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit; **in 2026-05-13 LOSES the business-adoption lead to Anthropic for the first time** (per Ramp/EconLab) — and within hours ships **[[codex]] free for 2 months** as a retention play; this is the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; in [[agentic-commerce]] ships ACP (with Stripe) as the merchant-side checkout protocol per [[nate-b-jones]] 2026-05-12 taxonomy; **in 2026-05-15 ([[nate-b-jones]] [[agentic-implementation-layer]] framework) named alongside [[anthropic]] as axis-1 player in the four-axis squeeze — both labs explicitly standing up deployment companies rather than relying on partners**, capturing implementation revenue rather than just inference; this is the upstream cause of the [[free-sample-phase]] retention war — labs converting model-tier users into deployment-tier customers
 tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security, business-adoption, ramp-data, retention-promo, free-sample-phase, acp, agentic-commerce, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze]
-sources: 9
+sources: 10
 updated: 2026-05-15
 ---
 
@@ -51,7 +51,16 @@ Either:
 - A new cluster will appear in batches 6-7
 - OpenAI has paused FB catalog spend (unlikely — would be a structural shift)
 
-Worth watching whether batch 6+ extends the silence or surfaces a new cluster.
+### 2026-05-15 batch (0 new ads — silence confirmed across 2 consecutive batches)
+
+From [[ads-digest-2026-05-15]]: **0 new OpenAI ads — second consecutive silence batch.** This **promotes the May 8 cluster diagnosis from "transient batch-timing artifact" to "fully dedup-cached at 6 ads."** Two consecutive silent batches with no new May 8 IDs eliminates the single-batch-timing hypothesis.
+
+Cumulative still **31 ads, 0 with copy**. Remaining open question is which of two structural states applies next:
+
+- **Between launches** — new cluster (May 15+ started dates) appears in batches 7-8, strategy is actively scaling
+- **Strategy on hold** — continued silence, potentially correlated with the 2026-05-13 [[free-sample-phase]] retention promo redirecting attention/budget to Codex Enterprise
+
+Either outcome reframes the catalog-ads-only behavioral baseline. Worth a manual ad-library check in 1-2 weeks to confirm no parallel launches.
 
 ### Confirmed pattern (quintuple-batch)
 
@@ -63,7 +72,8 @@ Worth watching whether batch 6+ extends the silence or surfaces a new cluster.
 | 2 | 2026-05-10 | 3 | 24 | Apr 7 (subset of cluster 1) |
 | 3 | 2026-05-11 | 3 | 27 | Apr 30 + May 8 (new cluster — 2 May 8 ads) |
 | 4 | 2026-05-12 | 4 | 31 | May 8 (cluster 2 expanded — 4 more May 8 ads) |
-| 5 | 2026-05-14 | **0** | **31** | (silence — May 8 cluster fully dedup-cached) |
+| 5 | 2026-05-14 | **0** | **31** | (silence #1 — May 8 cluster appears dedup-cached) |
+| 6 | 2026-05-15 | **0** | **31** | (silence #2 — May 8 cluster diagnosis confirmed; universal-silence batch across all anchors) |
 
 This is **catalog ads** — product-feed-driven dynamic creative against the OpenAI product surface (API products / ChatGPT plan SKUs / ChatGPT-for-X verticals). Quadruple-batch consistency rules out single-campaign coincidence *and* stale-campaign drift; the new-cluster expansion across batches 3+4 proves the strategy is standing AND actively scaling.
 
@@ -148,6 +158,7 @@ In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 2
 - [[sources/ads-digest-2026-05-11]] — 3 more carousel ads from a new Apr 30 + May 8 campaign cluster — pattern triple-confirmed (27 total)
 - [[sources/ads-digest-2026-05-12]] — 4 more carousel ads from the May 8 cluster (expanded 2 → 6) — pattern QUADRUPLE-confirmed (31 total); cluster is still rolling out
 - [[sources/ads-digest-2026-05-14]] — 0 new ads (first OpenAI silence in 5 batches); May 8 cluster appears fully dedup-cached at 6 ads; cumulative remains 31
+- [[sources/ads-digest-2026-05-15]] — 0 new ads (second consecutive OpenAI silence batch) — promotes the May 8 cluster diagnosis from "transient" to "confirmed fully dedup-cached"; universal-silence batch across all 8 tracked anchors; cumulative remains 31, 0 with copy
 - [[sources/youtube-digest-apify-2026-05-06]] — Nate Herk Codex full-course
 - [[sources/youtube-digest-apify-2026-05-11]] — agent-security responder (six-vendor convergence)
 - [[sources/youtube-digest-apify-2026-05-14]] — business-adoption flip (Ramp data) + Codex 2-months-free retention promo ([[nate-herk]] #5); ACP merchant-side checkout protocol in agentic commerce ([[nate-b-jones]] #3)
