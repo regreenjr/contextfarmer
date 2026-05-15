@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline); 2026-05-14 ads batch surfaces **first new Anthropic ad since 2026-05-06** — placeholder carousel (started 2026-05-11) confirms catalog-ads-only AI-lab pattern across 2 distinct launch windows
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase]
-sources: 6
-updated: 2026-05-14
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline); 2026-05-14 ads batch surfaces **first new Anthropic ad since 2026-05-06** — placeholder carousel (started 2026-05-11) confirms catalog-ads-only AI-lab pattern across 2 distinct launch windows; **in 2026-05-15 ([[nate-b-jones]] [[agentic-implementation-layer]] framework) named alongside [[openai]] as axis-1 player in the four-axis squeeze — both labs explicitly standing up deployment companies rather than relying on partners**, capturing implementation revenue rather than just inference; this is the upstream cause of the [[free-sample-phase]] retention war (labs converting model-tier users into deployment-tier customers)
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze]
+sources: 7
+updated: 2026-05-15
 ---
 
 # Anthropic
@@ -112,6 +112,21 @@ Strategic significance:
 
 **Open**: how durable is the adoption flip? Need 2-3 months of additional Ramp data to confirm consolidation vs flip-flop.
 
+### Deployment-company axis (per [[nate-b-jones]] #2 in [[youtube-digest-apify-2026-05-15]])
+
+In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 25:52), Anthropic is named alongside [[openai]] as **axis-1** of the four-axis squeeze on generic enterprise AI:
+
+> **Anthropic and OpenAI stand up deployment companies** (chapter 4:55) — both labs explicitly building / acquiring deployment-tier organizations rather than relying on partners.
+
+**Strategic significance**:
+
+1. **The +50% Claude Code retention boost (above) is now causally legible** — labs are converting model-tier users into deployment-tier customers. The [[free-sample-phase]] retention war is the *downstream* visible effect of the *upstream* deployment-company strategy.
+2. **Partner-channel margin compression** — Anthropic going direct on deployment compresses the resell margin for partners (consultancies, integrators, white-label deployers). This is the structural reason axis-2 ("consultancies moving up the stack" — confirmed by [[ramin-imani]] from inside MBB) is happening *now*.
+3. **3Ps positioning implication** — implementation-layer specialists need to either (a) plug into the lab-direct deployment channel or (b) stay above it on the 5 durable primitives ([[skill-systems]] / [[retrieval-contract]] / authority / evals / audit trails). Generic Claude Code consultancy gets compressed.
+4. **Open**: which specific deployment company is Anthropic standing up? Branded "Claude Solutions" / "Anthropic Enterprise" / unnamed acquisition? Transcript pull on the video would help. Could also be the [[anthropic]]-rumored Atlassian acquisition viewed through a new lens — Atlassian *is* a deployment substrate for the Jira/Confluence install base.
+
+→ See [[agentic-implementation-layer]] for the full four-axis framework.
+
 ### Canonical product-surface inventory (per [[brad-bonanno]] #2 in [[youtube-digest-apify-2026-05-10]])
 
 [[brad-bonanno]]'s 13-product tour is the most comprehensive Anthropic-surface walk in this vault:
@@ -160,8 +175,9 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - [[andrej-karpathy]] — not at Anthropic but his frameworks (LLM Wiki, agentic engineering) shape the ecosystem Anthropic ships into
 - [[agent-substrate]] — the strategic frame that explains the Atlassian rumor
 - [[agentic-commerce]] — Anthropic likely a player here too
-- [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war
-- [[openai]] — direct competitor; lost business-adoption lead on 2026-05-13
+- [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war (downstream visible effect)
+- [[agentic-implementation-layer]] — axis-1 deployment-company strategy (upstream cause of the retention war)
+- [[openai]] — direct competitor; lost business-adoption lead on 2026-05-13; same axis-1 deployment-company move
 
 ## Appears in
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
@@ -169,8 +185,9 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour
 - [[youtube-digest-apify-2026-05-11]] — Skill Creator first-hand walkthrough ([[chase-ai]]); agent-security responder ([[nate-b-jones]])
 - [[youtube-digest-apify-2026-05-14]] — business-adoption flip vs OpenAI; +50% Claude Code rate-limit retention boost ([[nate-herk]] #5); [[brad-bonanno]] execution-layer Phase 3 (#1)
+- [[youtube-digest-apify-2026-05-15]] — axis-1 deployment-company in [[agentic-implementation-layer]] framework ([[nate-b-jones]] #2)
 - [[ads-digest-2026-05-14]] — first new Anthropic ad since 2026-05-06 (placeholder carousel, started 2026-05-11) — catalog-ads-only confirmed across 2 distinct launch windows
-- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]] — concept pages
+- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]], [[agentic-implementation-layer]] — concept pages
 
 ## Open questions
 - Is the Atlassian rumor priced into Anthropic strategy, or speculative? (Watch for confirmation/denial)

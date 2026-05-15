@@ -1,10 +1,10 @@
 ---
 title: OpenAI
 category: entity
-summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; **2026-05-14 batch returns 0 new ads — first OpenAI silence in 5 batches** (May 8 cluster appears fully dedup-cached); in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit; **in 2026-05-13 LOSES the business-adoption lead to Anthropic for the first time** (per Ramp/EconLab) — and within hours ships **[[codex]] free for 2 months** as a retention play; this is the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; in [[agentic-commerce]] ships ACP (with Stripe) as the merchant-side checkout protocol per [[nate-b-jones]] 2026-05-12 taxonomy
-tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security, business-adoption, ramp-data, retention-promo, free-sample-phase, acp, agentic-commerce]
-sources: 8
-updated: 2026-05-14
+summary: AI lab behind ChatGPT and Codex; catalog-ads-only FB strategy QUADRUPLE-confirmed across four batches (2026-05-06 + 2026-05-10 + 2026-05-11 + 2026-05-12) — 31 total carousel ads, all `{{product.name}}` / `{{product.brand}}` dynamic-creative placeholders, zero static narrative copy; the May 8 launch cluster expanded from 2 → 6 ads across batches 3+4, evidencing the campaign is still rolling out rather than winding down; **2026-05-14 batch returns 0 new ads — first OpenAI silence in 5 batches** (May 8 cluster appears fully dedup-cached); in 2026-05-11 also named as a six-vendor agent-security responder alongside Anthropic / SAP / Pinecone / Salesforce / ServiceNow following the McKinsey Lilly exploit; **in 2026-05-13 LOSES the business-adoption lead to Anthropic for the first time** (per Ramp/EconLab) — and within hours ships **[[codex]] free for 2 months** as a retention play; this is the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; in [[agentic-commerce]] ships ACP (with Stripe) as the merchant-side checkout protocol per [[nate-b-jones]] 2026-05-12 taxonomy; **in 2026-05-15 ([[nate-b-jones]] [[agentic-implementation-layer]] framework) named alongside [[anthropic]] as axis-1 player in the four-axis squeeze — both labs explicitly standing up deployment companies rather than relying on partners**, capturing implementation revenue rather than just inference; this is the upstream cause of the [[free-sample-phase]] retention war — labs converting model-tier users into deployment-tier customers
+tags: [organization, ai-lab, openai, codex, chatgpt, competitor, ads, agent-security, business-adoption, ramp-data, retention-promo, free-sample-phase, acp, agentic-commerce, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze]
+sources: 9
+updated: 2026-05-15
 ---
 
 # OpenAI
@@ -115,6 +115,22 @@ Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
 - Nate Herk's 1hr Codex full course (the first major OpenAI Codex educational entry in this vault) confirms cross-vendor Skills as a real pattern
 - OpenAI's substrate strategy mirrors Anthropic's: be the model + tool layer the next generation of AI-native apps build against
 
+## Deployment-company axis (per [[nate-b-jones]] #2 in [[youtube-digest-apify-2026-05-15]])
+
+In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 25:52), OpenAI is named alongside [[anthropic]] as **axis-1** of the four-axis squeeze on generic enterprise AI:
+
+> **Anthropic and OpenAI stand up deployment companies** (chapter 4:55) — both labs explicitly building / acquiring deployment-tier organizations rather than relying on partners.
+
+**Strategic significance**:
+
+1. **Codex 2-months-free is causally legible** — the retention promo (above) is the *downstream* visible effect of an *upstream* deployment-company strategy. OpenAI is converting model-tier users into deployment-tier customers. The retention war is structural, not tactical.
+2. **Partner-channel margin compression** — OpenAI going direct on deployment compresses the resell margin for ChatGPT-API integrators and OpenAI-shop consultancies. Same pattern as [[anthropic]] axis-1 — both labs squeeze the same channel.
+3. **The "Codex Enterprise" application form** referenced in [[nate-herk]] #5's coverage (the URL `openai.com/form/codex-enterpr...`) may *literally be* the deployment-company entry point — where existing Codex users get routed into Enterprise deployment engagements.
+4. **OpenAI is now playing a four-corner game**: foundation model + agent surface (ChatGPT) + commerce protocol (ACP) + deployment company. Each layer reinforces the others. This is the most surface-area-aggressive AI-lab strategy tracked in this vault.
+5. **Open**: which specific deployment company is OpenAI standing up? Branded "OpenAI Enterprise Solutions" / a recent acquisition / unnamed? The application-form URL implies it's already operational, just not heavily branded.
+
+→ See [[agentic-implementation-layer]] for the full four-axis framework.
+
 ## Related
 
 - [[anthropic]] — direct competitor; both run dynamic-creative-only FB ads in 2026-05-06 batch
@@ -135,6 +151,7 @@ Per [[concepts/codex]] and [[youtube-digest-apify-2026-05-06]]:
 - [[sources/youtube-digest-apify-2026-05-06]] — Nate Herk Codex full-course
 - [[sources/youtube-digest-apify-2026-05-11]] — agent-security responder (six-vendor convergence)
 - [[sources/youtube-digest-apify-2026-05-14]] — business-adoption flip (Ramp data) + Codex 2-months-free retention promo ([[nate-herk]] #5); ACP merchant-side checkout protocol in agentic commerce ([[nate-b-jones]] #3)
+- [[sources/youtube-digest-apify-2026-05-15]] — axis-1 deployment-company in [[agentic-implementation-layer]] framework ([[nate-b-jones]] #2)
 
 ## Open questions
 
