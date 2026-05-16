@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4+5+6 (2026-05-11 → 2026-05-15) — bare-"Ro" search running dry as a signal source for the SIXTH consecutive batch while continuing to surface "ro"-substring noise (batch 6 adds Heirloom Roses, the first plural-noun "Roses" → "Ro" substring expansion in the farm); almost certainly missing the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4+5+6 (2026-05-11 → 2026-05-15) — bare-"Ro" search ran dry as a signal source for the SIXTH consecutive batch while continuing to surface "ro"-substring noise; **2026-05-16 batch breaks the 5-batch silence with 1 new placeholder ad** (ID `1542915227491027`, started 2026-05-04) — fourth cumulative Ro ad, all still `{{product.brand}}` placeholders across the longest window in the farm (zero static narrative across 7 batches), confirming the bare-"Ro" filter captures only Ro's catalog-driven dynamic-creative half and almost certainly misses the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
 tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 6
-updated: 2026-05-15
+sources: 7
+updated: 2026-05-16
 ---
 
 # Ro
@@ -58,6 +58,26 @@ No new Ro ads. **Sixth straight batch with no signal-bearing creative.** Batch 6
 
 **3 total Ro ads tracked across six batches, 0 with teardown-able copy.** Cumulative bare-"Ro" noise corpus now includes Roads & Kingdoms, Roseionly, KaRoL G, Uproot Clean (× 3 batches), BaBylissPRO, Lauren Brooks, Builders Protein Bars, Heirloom Roses + many more — 20+ noise ads vs 3 placeholder signal ads. Decisively net-negative for the sixth consecutive batch.
 
+### 2026-05-16 batch (1 ad — breaks 5-batch silence)
+
+**First Ro signal in 5 batches.** 1 new placeholder ad — ID `1542915227491027`, started 2026-05-04, format unknown, body `{{product.brand}}`.
+
+**Cumulative Ro tracking (4 ads across 7 batches):**
+
+| Batch | Date | New Ro ads | Cumulative |
+|---|---|---|---|
+| 1 | 2026-05-06 | 1 | 1 (started 2026-04-14) |
+| 2 | 2026-05-10 | 2 | 3 (started 2026-05-04, 2026-04-28) |
+| 3 | 2026-05-11 | 0 | 3 |
+| 4 | 2026-05-12 | 0 | 3 |
+| 5 | 2026-05-14 | 0 | 3 |
+| 6 | 2026-05-15 | 0 | 3 |
+| **7** | **2026-05-16** | **1** | **4 (started 2026-05-04)** |
+
+**Pattern confirmed across the longest window in the farm**: Ro's bare-"Ro" page (whichever it is) runs **sparse catalog-driven dynamic creative only**. All 4 placeholder ads ship `{{product.brand}}` body text; zero static narrative across 7 batches. The substantive Ro creative — which almost certainly exists on Roman Health / Ro Body / Ro Health pages or similar — remains absent from this farm. Batch 7's signal-return is **structurally identical to prior Ro signals**, no new teardown-able copy.
+
+New batch 7 noise additions to the bare-"Ro" corpus: **Sean Gracet Roset** (AI photo app, video format, "Roset" = "Ro" substring — first AI/tech consumer-app noise via "Ro").
+
 ## Action items
 
 - → tune the [[competitor-ads-farm]] to search for "Roman" + "Ro Health" + "Ro Body" in addition to bare "Ro" (current bare-substring match returns dozens of noise pages: Roads and Kingdoms, Roseionly, KaRoL G, Uproot Clean, BaBylissPRO, etc.). **Still untuned as of 2026-05-10 batch.**
@@ -74,6 +94,7 @@ No new Ro ads. **Sixth straight batch with no signal-bearing creative.** Batch 6
 - [[ads-digest-2026-05-12]] — 0 new ads (4th batch with no signal); bare-"Ro" filter now net-negative as it continues to cost noise (Lauren Brooks 4 ads, Builders Protein Bars 1 ad) without surfacing signal
 - [[ads-digest-2026-05-14]] — 0 new ads (5th batch with no signal); Uproot Clean ("ro" in "Uproot") returns as 3rd-batch repeat noise page; bare-"Ro" filter now decisively net-negative across 5 batches
 - [[ads-digest-2026-05-15]] — 0 new ads (6th batch with no signal); Heirloom Roses ("Ro" prefix in "Roses") adds first plural-noun substring root cause to the cumulative "Ro" noise corpus; bare-"Ro" filter remains decisively net-negative across 6 batches
+- [[ads-digest-2026-05-16]] — **1 new placeholder ad — breaks 5-batch Ro silence** (ID `1542915227491027`, started 2026-05-04, body `{{product.brand}}`); 4 cumulative Ro ads across 7 batches, ALL placeholder-only; Sean Gracet Roset (AI photo app, "Roset" = "Ro" substring) adds new sub-pattern to noise corpus (first AI/tech consumer-app via "Ro")
 
 ## Open questions
 

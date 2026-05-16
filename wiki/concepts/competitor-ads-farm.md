@@ -1,10 +1,10 @@
 ---
 title: Competitor Ads Farm
 category: concept
-summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; six batches in (2026-05-06 → 2026-05-15) the dedup pipeline is at steady state (92-98.5% dedup-skipped, 3-22 new ads/day); brand-name substring filter still untuned across all six batches; two batches have surfaced non-substring noise (Adobe Acrobat 2026-05-11, Romance miniseries 2026-05-12) confirming the Apify actor returns unsolicited adjacent brands at non-zero rate — page-ID allow-listing is the only structurally-safe filter; 2026-05-14 batch surfaces a concentrated "Eden" substring noise cluster (9 ads / 5 unrelated brands); 2026-05-15 batch marks **two firsts** — first 100%-noise batch (0 of 3 ads tracked-brand) and first universal-silence batch (all 8 tracked anchors return 0 new ads), with two new substring-root expansions (Eden Plastic Surgery Miami as 9th cumulative "Eden" brand and Heirloom Roses as first plural-noun "Roses" → "Ro" substring), and OpenAI silence promotes from transient (batch 5) to confirmed fully dedup-cached (batch 6)
-tags: [farm, competitor-ads, fb-ads, apify, dtc, telehealth, hims, glp-1, ai-consulting]
-sources: 6
-updated: 2026-05-15
+summary: Daily Apify FB Ad Library scraper farm tracking 8 brands across two competitive sets — AI consulting/3Ps positioning (Anthropic, OpenAI, Hampton, DealMachine) and GLP-1 telehealth/Medvi (Hims, Ro, Eden, Henry Meds); 6:00 AM Pacific cron; seven batches in (2026-05-06 → 2026-05-16) the dedup pipeline is at steady state (92-98.5% dedup-skipped, 3-22 new ads/day); brand-name substring filter still untuned across all seven batches; two batches have surfaced non-substring noise (Adobe Acrobat 2026-05-11, Romance miniseries 2026-05-12) confirming the Apify actor returns unsolicited adjacent brands at non-zero rate — page-ID allow-listing is the only structurally-safe filter; 2026-05-14 batch surfaces a concentrated "Eden" substring noise cluster (9 ads / 5 unrelated brands); 2026-05-15 batch marks two firsts — first 100%-noise batch (0 of 3 ads tracked-brand) and first universal-silence batch (all 8 tracked anchors return 0 new ads); **2026-05-16 batch reverses batch 6 decisively** — 67% real-signal rate (highest since cold start), Hims surges back with TWO verbatim re-launches mirroring batch 5 (Wegovy GLP-1 verbatim across 4 batches / 10-day stability window + Sex Rx + Climax Control verbatim 2 batches), **OpenAI's May 8 cluster expands 6 → 8 disproving batch 6's "fully dedup-cached" diagnosis** (updated diagnostic methodology: ≥3 silent batches needed for cache-completion claims), Ro signal returns after 5-batch silence (4th placeholder-only ad)
+tags: [farm, competitor-ads, fb-ads, apify, dtc, telehealth, hims, glp-1, ai-consulting, surge-trough-cadence, cluster-pacing]
+sources: 7
+updated: 2026-05-16
 ---
 
 # Competitor Ads Farm
@@ -126,18 +126,33 @@ From [[ads-digest-2026-05-15]]:
 - **Heirloom Roses (1 carousel ad) — first plural-noun substring root cause.** "Ro" prefix in "Roses" confirms the bare-"Ro" filter's noise floor is structurally unbounded — virtually any English text containing "ro" as letter sequence can match, including common pluralizations
 - **No new non-substring noise events** — every batch-6 ad traces to a tracked-brand substring. Non-substring noise events remain at 2 of 6 batches (33%)
 
-### Six-batch convergence table
+### Batch 7 — 2026-05-16
 
-| Batch | Fetched | New | Dedup-skipped | New % | OpenAI | Hims | Anthropic | Real-signal % |
-|---|---|---|---|---|---|---|---|---|
-| 2026-05-06 | 187 | 183 | 4 | 98% (cold start) | 21 | 45 | 5 | ~35% |
-| 2026-05-10 | 190 | 22 | 168 | 12% | 3 | 2 | 0 | ~18% |
-| 2026-05-11 | 196 | 6 | 190 | 3% | 3 | 0 | 0 | 50% |
-| 2026-05-12 | 207 | 16 | 191 | 8% | 4 | 1 | 0 | 31% |
-| 2026-05-14 | 202 | 13 | 189 | 6% | 0 | 2 | 1 | 23% |
-| 2026-05-15 | 203 | 3 | 200 | 1.5% | 0 | 0 | 0 | **0%** |
+From [[ads-digest-2026-05-16]]:
 
-The farm is at steady state. Future batches should average **3-22 new ads/day with 92-98.5% dedup**. Real-signal proportion in the **0-50% band** (new mean ~26%), mean noise rate ~74%. Per-batch teardown cadence remains the right discipline; *interesting* new creative will continue to concentrate in launch-cycle batches. Universal-silence batches like batch 6 should be expected as a recurring artifact of inventory-cycle timing following surge batches.
+- **208 fetched / 9 new / 199 dedup-skipped (95.7%)** — seventh batch, dedup at steady-state band
+- **Highest real-signal rate of any post-cold-start batch — 67%** (6 of 9 ads tracked-brand). Reverses batch 6's 100%-noise decisively.
+- **[[hims]] surges back with 3 new ads — TWO verbatim template re-launches mirroring batch 5.** Wegovy GLP-1 template verbatim #4 (ID `1693764951776930`, started 2026-05-13) — now spans **4 batches / 10-day stability window**. Sex Rx + Climax Control verbatim #2 (ID `1683250979537135`, started 2026-04-30) — now spans 2 batches. Plus 1 placeholder ad. The 5→6→7 sequence (surge → trough → surge) is the **cleanest evidence yet for an alternating surge-trough wave cadence** with multi-wedge simultaneous re-launches in surge batches.
+- **[[openai]] May 8 cluster expands 6 → 8** — 2 new May 8 carousels (IDs `1554270183093992` + `1999764597582322`) **decisively disprove batch 6's "fully dedup-cached at 6 ads" diagnosis.** Cluster is still rolling out at variable pacing (4-ad burst → 0 → 0 → 2-ad trickle). Updated diagnostic methodology: **≥3 silent batches needed for high-confidence cache-completion claims, not 2**. Cumulative 33 OpenAI ads.
+- **[[ro]] signal returns after 5-batch silence** — 1 new placeholder ad (ID `1542915227491027`, started 2026-05-04). 4 cumulative Ro ads across 7 batches, ALL `{{product.brand}}` placeholders. Pattern confirmed across the longest window in the farm: bare-"Ro" page runs sparse catalog-driven dynamic creative only.
+- **[[anthropic]] 0 new ads — 2nd consecutive silence batch post-2026-05-11.** "Standalone launch" hypothesis strengthens over "slow cluster" for the 2026-05-11 ad.
+- **Signal-to-noise: 67%** (6 of 9 tracked) — noise-rate trend: 65% → 82% → 50% → 69% → 77% → 100% → **33%** (new mean ~68%)
+- **3 noise ads**: Sean Gracet Roset (AI photo app — NEW "Ro" substring root in "Roset" surname); Nissan of Hampton (13th distinct Hampton regional-business noise page); Eden Munoz repeat (banda singer, also batch 3 — **3rd "Eden" noise page to multi-fire** across non-consecutive batches after Eden Brothers + Aelfric Eden)
+- **No new non-substring noise events** — every batch-7 noise ad traces to a tracked-brand substring. Non-substring noise events stay at 2 of 7 batches (29%).
+
+### Seven-batch convergence table
+
+| Batch | Fetched | New | Dedup-skipped | New % | OpenAI | Hims | Anthropic | Ro | Real-signal % |
+|---|---|---|---|---|---|---|---|---|---|
+| 2026-05-06 | 187 | 183 | 4 | 98% (cold start) | 21 | 45 | 5 | 1 | ~35% |
+| 2026-05-10 | 190 | 22 | 168 | 12% | 3 | 2 | 0 | 2 | ~18% |
+| 2026-05-11 | 196 | 6 | 190 | 3% | 3 | 0 | 0 | 0 | 50% |
+| 2026-05-12 | 207 | 16 | 191 | 8% | 4 | 1 | 0 | 0 | 31% |
+| 2026-05-14 | 202 | 13 | 189 | 6% | 0 | 2 | 1 | 0 | 23% |
+| 2026-05-15 | 203 | 3 | 200 | 1.5% | 0 | 0 | 0 | 0 | 0% |
+| **2026-05-16** | **208** | **9** | **199** | **4%** | **2** | **3** | **0** | **1** | **67%** |
+
+The farm is at steady state. Future batches should average **3-22 new ads/day with 92-98.5% dedup**. Real-signal proportion in the **0-67% band** (new mean ~32%), mean noise rate ~68%. Per-batch teardown cadence remains the right discipline; *interesting* new creative will continue to concentrate in launch-cycle batches. Batch 7's 67% signal rate is now the new high-water mark — driven by simultaneous Hims surge + OpenAI cluster expansion + Ro signal return hitting the same fetch window. Hims' surge-trough alternating cadence (batches 5→6→7) suggests interesting creative will concentrate in every-other-batch surge windows.
 
 ## Known issue: brand-name filter is too permissive
 
@@ -149,7 +164,7 @@ The 2026-05-06 digest shows the filter **kept** ads from third-party pages whose
 - "Hampton" matched dozens of regional businesses (Hampton Inn, Hampton Roads Honda, Hampton Roads Transit, Hampton Sun, Classic Toyota Hampton, etc.) — none are Hampton Founders
 - "Ro" matched Roads & Kingdoms, Roseionly, Rockfest, ProTyres Oradea, Modlet.ro, dozens more — none are Roman Health
 
-**Noise rate by batch: ~65% (2026-05-06) → ~82% (2026-05-10) → 50% (2026-05-11) → 69% (2026-05-12) → 77% (2026-05-14) → 100% (2026-05-15).** Mean ~74%. Without filter tuning, the steady-state noise mix stays meaningfully present in every batch — and batch 6's 100%-noise outcome is now the established worst-case data point.
+**Noise rate by batch: ~65% (2026-05-06) → ~82% (2026-05-10) → 50% (2026-05-11) → 69% (2026-05-12) → 77% (2026-05-14) → 100% (2026-05-15) → 33% (2026-05-16).** Mean ~68%. Without filter tuning, the steady-state noise mix stays meaningfully present in every batch — batch 6's 100%-noise outcome is the established worst-case and batch 7's 33% is the post-cold-start best-case data point.
 
 New noise brands surfaced in 2026-05-10: **KaRoL G** ("Ro" inside "KaRoL"), **Uproot Clean** ("Ro" inside "Uproot"), **BaBylissPRO** ("Ro" inside "Pro"), **Hampton by Hilton**, **Visit Hampton VA**, **NAPA BDG South Hampton Roads**, **Hampton RV Trailer Sales**, **Hampton University Proton Cancer Institute**, **Hill Chiropractic** (root cause unclear).
 
@@ -160,6 +175,8 @@ New noise brands surfaced in 2026-05-12: **Romance miniseries** (3 ads, **no tra
 New noise brands surfaced in 2026-05-14: **Evereden** ("Eden" inside "Evereden" — kid skincare, Harvard/Stanford doctor moms positioning), **Herb'N Eden** (2 ads, exact "Eden" substring — natural handmade soaps, $6 free-sample-pack lead-magnet copy), **Edens Garden Essential Oils** (exact "Eden" substring — essential oils). Also: **Eden Brothers** (4 ads — REPEAT noise page from batch 1; first noise page to multi-fire across non-consecutive batches), **Aelfric Eden** (REPEAT from batch 1 — fashion / hoodies $49 spring sale), **Uproot Clean** (REPEAT from batches 2+4 — pet-odor washing-machine biofilm long-form copy). The "Eden" substring noise cluster (9 ads / 5 unrelated brands) is the single most concentrated noise pattern across all 5 batches.
 
 New noise brands surfaced in 2026-05-15: **Eden Plastic Surgery Miami** (2 video ads, exact "Eden" substring — Miami cosmetic surgery clinic, EVELift® facelift testimonial copy, **9th distinct "Eden" brand** surfaced via this farm), **Heirloom Roses** (1 carousel ad — "Ro" prefix in **"Roses"** — first time a plural-noun pluralization of "Ro" surfaces as substring root cause, confirming the bare-"Ro" filter's noise floor is structurally unbounded). Batch 6 has zero non-substring noise events.
+
+New noise brands surfaced in 2026-05-16: **Sean Gracet Roset** (1 video ad — "Ro" inside "Roset" surname — first AI/tech consumer-app noise page matched via "Ro"; "FREE APP" headline + "Try the new AI photo trend now"); **Nissan of Hampton** (1 carousel ad — exact "Hampton" substring — 13th distinct Hampton regional-business noise page; Virginia used-vehicle dealer with `{{vehicle.description}}` dynamic-feed placeholder); **Eden Munoz REPEAT** (1 placeholder ad — 2nd appearance after batch 3; 3rd "Eden" noise page to multi-fire across non-consecutive batches after Eden Brothers + Aelfric Eden). Batch 7 has zero non-substring noise events.
 
 ### Non-substring noise is now confirmed recurring, not one-off
 
@@ -172,7 +189,7 @@ This rules out the "Adobe Acrobat was a fluke" hypothesis. The Apify `facebook-a
 
 ### Action items
 
-- → tune the [[competitor-ads-farm]] to use **exact page-name match** or **page-ID allow-listing** rather than substring match. **Outstanding since 2026-05-06; not addressed by 2026-05-10, 2026-05-11, 2026-05-12, 2026-05-14, or 2026-05-15 (6 consecutive batches).**
+- → tune the [[competitor-ads-farm]] to use **exact page-name match** or **page-ID allow-listing** rather than substring match. **Outstanding since 2026-05-06; not addressed by 2026-05-10, 2026-05-11, 2026-05-12, 2026-05-14, 2026-05-15, or 2026-05-16 (7 consecutive batches).**
 - → for short brand names ("Ro", "Eden", "Hampton"), maintain an explicit allow-list of the actual FB Page IDs. **The bare-"Ro" filter is decisively net-negative across 5 batches** (3 placeholder Ro ads total, dozens of "ro"-substring noise ads). **The bare-"Eden" filter is now also decisively net-negative** — batch 5 alone surfaced 9 noise ads from 5 unrelated brands (Evereden / Herb'N Eden / Eden Brothers / Aelfric Eden / Edens Garden Essential Oils) with 0 telehealth-Eden signal across all 5 batches.
 - → consider adding `Roman Health`, `Ro Body`, `Hampton Founders`, `Eden Body` to the search-brand list to catch the variant page names
 - → investigate the "Hill Chiropractic" match (2026-05-10), **"Adobe Acrobat" (2026-05-11), and "Romance miniseries" (2026-05-12)** — none has a tracked brand keyword as substring; with two events in two consecutive batches, the Apify actor is **confirmed** to return unsolicited adjacent results. **Substring filter alone cannot close the noise floor; allow-listing is required.**
@@ -201,6 +218,7 @@ Two specific products feed from it:
 - [[sources/ads-digest-2026-05-12]] — fourth batch (16 new ads, 69% noise, 92% dedup-skipped — OpenAI catalog QUADRUPLE-confirmed via cluster 2 expansion; Hims Wegovy template re-launched verbatim (inside-structure A/B confirmed); Romance miniseries 3-ad multiplier as second non-substring noise event)
 - [[sources/ads-digest-2026-05-14]] — fifth batch (13 new ads, 77% noise, 94% dedup-skipped — Hims runs TWO verbatim template re-launches in one batch (Sex Rx + Climax Control + Wegovy GLP-1, multi-instance template re-use within the same batch); Anthropic ships first new ad since 2026-05-06 (placeholder, started 2026-05-11) confirming catalog-ads-only across 2 launch windows; OpenAI 0 new ads (first silence in 5 batches); "Eden" substring noise cluster (9 ads / 5 unrelated brands — Evereden / Herb'N Eden / Eden Brothers / Aelfric Eden / Edens Garden); Eden Brothers as first noise page to multi-fire across non-consecutive batches)
 - [[sources/ads-digest-2026-05-15]] — sixth batch (3 new ads, **100% noise**, 98.5% dedup-skipped — first all-noise batch and first universal-silence batch across all 8 tracked anchors; OpenAI silence promotes from transient (batch 5) to confirmed fully dedup-cached (batch 6); Hims second silence batch in 6 (post-surge inventory-cycle trough); Anthropic returns to silence after single 2026-05-11 carousel; Eden Plastic Surgery Miami adds 9th distinct "Eden" brand to cumulative noise corpus; Heirloom Roses adds first plural-noun "Roses" → "Ro" substring root cause)
+- [[sources/ads-digest-2026-05-16]] — seventh batch (9 new ads, **67% signal — new high-water mark**, 95.7% dedup-skipped — Hims surges with 3 ads (Wegovy GLP-1 verbatim #4 spanning 4-batch / 10-day stability window + Sex Rx + Climax Control verbatim #2 + 1 placeholder), mirroring batch 5's two-wedge surge pattern; OpenAI's May 8 cluster expands 6 → 8 with 2 new ads, **decisively disproving batch 6's "fully dedup-cached" diagnosis** (updated diagnostic methodology: ≥3 silent batches needed for cache-completion); Ro signal returns after 5-batch silence (4th placeholder-only ad); Anthropic 2nd consecutive silence batch post-2026-05-11; 3 noise ads — Sean Gracet Roset (NEW "Roset" surname "Ro" substring root) + Nissan of Hampton (13th distinct Hampton regional-business noise) + Eden Munoz repeat (3rd "Eden" multi-fire page); the 5→6→7 surge→trough→surge sequence confirms Hims' alternating wave cadence as standing creative-ops pattern)
 
 ## Open questions
 

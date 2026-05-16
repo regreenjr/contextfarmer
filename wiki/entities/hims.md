@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant); **2026-05-15 batch returns 0 new ads — second Hims silence batch in 6** (first since batch 3 2026-05-11) — reads as standard inventory-cycle timing trough following the batch-5 two-wedge re-launch surge, not a structural shift; cumulative 50 ads across 5 batches
-tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims]
-sources: 5
-updated: 2026-05-15
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant); 2026-05-15 batch returns 0 new ads — second Hims silence batch in 6 (first since batch 3 2026-05-11); **2026-05-16 batch surges back with THREE new ads — TWO verbatim re-launches in one batch mirroring batch 5 (Wegovy GLP-1 verbatim #4 — 10-day stability window + Sex Rx + Climax Control verbatim #2) plus 1 placeholder** — the 5→6→7 sequence (surge → trough → surge) is the cleanest evidence yet for an alternating surge-trough wave cadence with multi-wedge simultaneous verbatim re-launches in surge batches; cumulative 53 ads across 7 batches
+tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims, surge-trough-cadence]
+sources: 6
+updated: 2026-05-16
 ---
 
 # Hims
@@ -107,8 +107,9 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 - [[sources/ads-digest-2026-05-12]] — 1 new ad: Wegovy GLP-1 template re-launched **verbatim** (ID `3567971296700086`, started 2026-05-07) — first evidence that the GLP-1 wedge template is the standing creative (not a stale-2026-04 artifact); inside-structure A/B testing confirmed as the standing pattern over template variation
 - [[sources/ads-digest-2026-05-14]] — 2 new ads, **both verbatim template re-launches in a single batch**: Sex Rx + Climax Control (ID `3275837862576962`, started 2026-04-21) + Wegovy GLP-1 (ID `956466943766183`, started 2026-05-04). Wegovy template now verbatim across **3 batches** (8-day stability window: 2026-05-06 → 2026-05-12 → 2026-05-14). Multi-instance verbatim re-use within the *same* batch is the strongest single-batch confirmation of template-stability to date — two distinct wedges shipping the same skeletons as their 2026-05-06 originals simultaneously.
 - [[sources/ads-digest-2026-05-15]] — 0 new ads (2nd Hims silence batch in 6, first since 2026-05-11/batch 3). Universal-silence batch across all 8 tracked anchors. Reads as **inventory-cycle timing trough** following batch 5's two-wedge multi-instance surge — the standing creative inventory cycles in waves; once a wave ships (batch 5), the next 24-48hrs naturally produce thin new-ad volume until the next wave begins. No structural shift implied. Cumulative inventory unchanged at 50 ads, 3 wedges, 4 Sex Rx SKUs.
+- [[sources/ads-digest-2026-05-16]] — **3 new ads — second multi-wedge verbatim re-launch surge in 3 batches** (mirrors batch 5). Wegovy GLP-1 template verbatim #4 (ID `1693764951776930`, started 2026-05-13) — now spans **4 batches / 10-day stability window** (2026-05-06 → 2026-05-12 → 2026-05-14 → 2026-05-16); Sex Rx + Climax Control template verbatim #2 (ID `1683250979537135`, started 2026-04-30) — now spans 2 batches (2026-05-14 → 2026-05-16); plus 1 placeholder ad (ID `1316424053726023`, started 2026-04-08). The 5→6→7 sequence (surge → trough → surge) with multi-wedge re-launches in both surge batches is the cleanest evidence yet for an **alternating surge-trough wave cadence** as the standing creative-ops pattern. No structural innovation across 7 batches (last innovation was 2026-05-10 Hard Mints four-bullet variant); inside-structure A/B continues to dominate. Cumulative 53 ads.
 
-## Five-batch template stability summary
+## Seven-batch template stability summary
 
 | Batch | Date | New Hims ads | Structural changes |
 |---|---|---|---|
@@ -118,16 +119,25 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 | 4 | 2026-05-12 | 1 | GLP-1 template re-launched verbatim — **no structural change** |
 | 5 | 2026-05-14 | 2 | **GLP-1 verbatim re-launch #2 + Sex Rx Climax Control verbatim re-launch** — multi-instance verbatim within a single batch |
 | 6 | 2026-05-15 | 0 | (silence — 2nd Hims silence batch in 6, post-surge inventory-cycle trough) |
+| 7 | 2026-05-16 | 3 | **GLP-1 verbatim re-launch #3 + Sex Rx Climax Control verbatim re-launch #2 + 1 placeholder** — second multi-wedge surge in 3 batches; mirrors batch 5 |
 
-### Wegovy GLP-1 verbatim instances (3-batch stability window)
+### Wegovy GLP-1 verbatim instances (4-batch / 10-day stability window)
 
 | Batch | Date | Ad ID | Started |
 |---|---|---|---|
 | 1 | 2026-05-06 | (initial wave) | early Apr 2026 |
 | 4 | 2026-05-12 | `3567971296700086` | 2026-05-07 |
 | 5 | 2026-05-14 | `956466943766183` | 2026-05-04 |
+| **7** | **2026-05-16** | **`1693764951776930`** | **2026-05-13** |
 
-In 8 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch. **Inside-structure A/B testing dominates over template variation.** Batch 5's two-wedge simultaneous re-launch is the strongest single-batch confirmation of this pattern. Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
+### Sex Rx + Climax Control verbatim instances (2-batch stability window)
+
+| Batch | Date | Ad ID | Started |
+|---|---|---|---|
+| 5 | 2026-05-14 | `3275837862576962` | 2026-04-21 |
+| **7** | **2026-05-16** | **`1683250979537135`** | **2026-04-30** |
+
+In 10 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch. **Inside-structure A/B testing dominates over template variation.** Batches 5 and 7 both ship two-wedge simultaneous re-launches — the **alternating surge-trough wave cadence** is now confirmed across the 5→6→7 sequence as the standing creative-ops pattern. Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
 
 ## Open questions
 

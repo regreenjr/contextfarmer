@@ -1,10 +1,10 @@
 ---
 title: Compounded Drug Disclaimer
 category: concept
-summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims and structurally required by FTC + state-pharmacy-board scrutiny of compounded-drug advertising; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints") suggesting Hims A/B-tests disclaimer wording
+summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims and structurally required by FTC + state-pharmacy-board scrutiny of compounded-drug advertising; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints") suggesting Hims A/B-tests disclaimer wording; 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches (matching the multi-batch stability now observed in the parent template at [[dtc-telehealth-ad-template]]) — confirms disclaimer language stability tracks template stability on the alternating surge-trough wave cadence
 tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1]
-sources: 2
-updated: 2026-05-10
+sources: 3
+updated: 2026-05-16
 ---
 
 # Compounded Drug Disclaimer
@@ -106,6 +106,7 @@ Medvi creative should default to the Hims template and only deviate with explici
 
 - [[sources/ads-digest-2026-05-06]] — 30+ Hims ads using the template (canonical variants)
 - [[sources/ads-digest-2026-05-10]] — Hard Mints variant adds a fifth disclaimer phrasing for chewable compounded products
+- [[sources/ads-digest-2026-05-16]] — Sex Rx + Climax Control disclaimer ships verbatim for the 2nd time (after batch 5) + Wegovy/FDA-approved disclaimer block ships verbatim for the 4th time (10-day stability window) — disclaimer language stability tracks parent template stability across the alternating surge-trough wave cadence
 
 ## Open questions
 
