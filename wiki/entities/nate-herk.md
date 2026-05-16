@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault; in 2026-05-12 ships the first-day walkthrough of Claude Code's new Agent View + /goal command (multi-agent orchestration primitive); in 2026-05-14 ships TWO frameworks in one batch — the [[free-sample-phase]] substrate-economics framing (after Anthropic dethrones OpenAI in business adoption, both labs ship lock-in offers within hours: Codex 2 months free, Claude Code +50% limits) AND the [[claude-code-levels]] five-level mastery framework (73K views, "every level of Claude Code in 21 minutes")
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics]
-sources: 7
-updated: 2026-05-14
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault; in 2026-05-12 ships the first-day walkthrough of Claude Code's new Agent View + /goal command (multi-agent orchestration primitive); in 2026-05-14 ships TWO frameworks in one batch — the [[free-sample-phase]] substrate-economics framing AND the [[claude-code-levels]] five-level mastery framework (73K views); in 2026-05-15 ships his **third operational framework** in eight days — the [[deployment-framework]] three-method classifier (/loop → Routines → Modal/Trigger.dev) plus first-vault-surfacing of the **Claude Agent SDK** and **Managed Agents & Hooks** primitives; framework production now a Nate Herk content pillar
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev]
+sources: 8
+updated: 2026-05-16
 ---
 
 # Nate Herk
@@ -99,6 +99,22 @@ Strategic significance:
 | 5 | Anthropic Just Dethroned OpenAI. Here's What Happens Next. | 48.4K | 2026-05-13 |
 | 6 | Every Level of Claude Explained in 21 Minutes | 73.4K | 2026-05-12 |
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-16]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 1 | I Tested 3 Ways to Deploy Claude Agents (Here's When to Use Each) | 16.6K | 2026-05-15 |
+
+**The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
+
+- **Method 1** `/loop` (in-session)
+- **Method 2** Routines / Scheduled Tasks (Anthropic-hosted cloud cron)
+- **Method 3** Modal / Trigger.dev (external serverless runtime)
+- **Claude Agent SDK** (chapter 15:52) — **first surfacing in this vault** of Anthropic's SDK for packaged-product agents outside the CLI
+- **Managed Agents & Hooks** (chapter 19:18) — Anthropic-hosted always-on agents with event triggers
+
+Strategic significance: framework production is now a **Nate Herk content pillar** — three frameworks in eight days ([[free-sample-phase]] + [[claude-code-levels]] + [[deployment-framework]]). Same cadence as [[nate-b-jones]]' framework-per-video, but Nate Herk produces **operational** frameworks while Nate B Jones produces **strategic** frameworks. The two creators now form a **strategy + operations** content-pair across the vault. → See [[deployment-framework]] and [[claude-code]] update.
+
 **Two distinct frameworks in one batch** — his highest single-batch framework production:
 
 1. **#5 [[free-sample-phase]]** (48.4K views, 7:43) — substrate-economics framing of the Anthropic-passes-OpenAI flip. Per Ramp/EconLab article, [[anthropic]] passed [[openai]] in business adoption for the first time; within hours both labs shipped lock-in offers: **[[codex]] gave 2 months free, [[claude-code]] bumped limits 50%**. Core thesis: *"the real product isn't the subscription — it's you."* Recommended play: maximize free-tier usage while building projects flexible enough to swap. Same shape as the cloud / mobile / streaming free-sample phases. → New concept: [[free-sample-phase]].
@@ -122,6 +138,7 @@ Strategic significance:
 - **Two-path AI consulting** (#15) — strategy/training vs done-for-you implementation
 - **[[free-sample-phase]]** — substrate-economics framing (2026-05-13)
 - **[[claude-code-levels]]** — five-level mastery progression (2026-05-12)
+- **[[deployment-framework]]** — three-method runtime classifier + Agent SDK + Managed Agents & Hooks (2026-05-15)
 
 ## Distribution channels
 
@@ -155,7 +172,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]]
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his
@@ -166,4 +183,5 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 - [[context-farming]]
 - [[free-sample-phase]] — substrate-economics framework (2026-05-13)
 - [[claude-code-levels]] — five-level mastery framework (2026-05-12)
+- [[deployment-framework]] — three-method deployment classifier + Agent SDK + Managed Agents (2026-05-15)
 - [[anthropic]], [[openai]] — both substantively affected by the 2026-05-14 batch news cycle

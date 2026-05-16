@@ -1,10 +1,10 @@
 ---
 title: Plugins (as Mech-Suit)
 category: concept
-summary: [[nate-b-jones]]'s 6-layer agentic-scaffolding taxonomy — prompts, skills, plugins, MCPs, hooks, scripts — explicitly positioning plugins as bigger than MCPs and undersold by the app-store analogy; the missing taxonomy layer above [[skill-systems]] composition and [[claude-skills]] units; "the leverage in 2026 lives in knowing which part of your workflow belongs in a prompt, a skill, a plugin, or an MCP"
-tags: [plugins, agentic-scaffolding, prompts, claude-skills, mcp, hooks, scripts, skill-systems, nate-b-jones, taxonomy, mech-suit]
-sources: 1
-updated: 2026-05-10
+summary: [[nate-b-jones]]'s 6-layer agentic-scaffolding taxonomy — prompts, skills, plugins, MCPs, hooks, scripts — explicitly positioning plugins as bigger than MCPs and undersold by the app-store analogy; the missing taxonomy layer above [[skill-systems]] composition and [[claude-skills]] units; "the leverage in 2026 lives in knowing which part of your workflow belongs in a prompt, a skill, a plugin, or an MCP"; in 2026-05-16 [[alex-mcfarland]]'s [[plugin-marketplace]] surfaces as the **distribution-layer artifact** for the plugin layer — a GitHub-hosted manifest + folder structure that lets a team install plugins via one command across machines (the build-walkthrough counterpart to [[brad-bonanno]]'s [[execution-layer]] deployment-pattern)
+tags: [plugins, agentic-scaffolding, prompts, claude-skills, mcp, hooks, scripts, skill-systems, nate-b-jones, taxonomy, mech-suit, plugin-marketplace, distribution-layer]
+sources: 2
+updated: 2026-05-16
 ---
 
 # Plugins (as Mech-Suit)
@@ -51,6 +51,17 @@ Per [[nate-b-jones]] #11 (chapter at 17:22 + 25:27):
 - **The app-store analogy undersells them** — apps are user-facing UI; plugins are agent-side composable workflows
 - **The right mental model** is closer to a Unity asset pack or a Docker compose file — bundles of scaffolding ready to install
 - **Reuse mechanic** — "your team can actually reuse them" (vs prompts/skills which often need re-authoring per use case)
+
+## The plugin distribution layer ([[alex-mcfarland]] 2026-05-16)
+
+The plugin layer needs **a distribution-layer primitive** to ship plugins between machines or to a team. [[alex-mcfarland]]'s [[plugin-marketplace]] (2026-03-16, resurfaced 2026-05-16) is the **first build walkthrough** for this primitive in the vault:
+
+- `marketplace.json` manifest declaring the marketplace's plugins
+- `plugins/` directory grouping skills into plugins
+- GitHub-hosted repo (public OR private) — one-command install across machines
+- A "Plugin Marketplace Builder Skill" (a [[skill-creator]]-shape meta-skill) that builds the marketplace from your existing skill folder
+
+This is the **build-walkthrough counterpart** to [[brad-bonanno]]'s [[execution-layer]] deployment-pattern (2026-05-14) — Brad's framework gives the *architecture*, Alex's gives the *build steps*. The same artifact powers both the open-source authorship use case (public repo) and the consulting-deliverable use case (private repo).
 
 ## When to use each layer
 
@@ -109,5 +120,10 @@ The "40% wasted" stat in the title comes from: **operators putting the work in t
 - [[codex]] — sibling substrate; taxonomy ports across
 - [[hermes-agent]] — sibling substrate
 - [[nate-b-jones]] — author
+- [[alex-mcfarland]] — author of the [[plugin-marketplace]] distribution-layer counterpart
+- [[brad-bonanno]] — author of the [[execution-layer]] deployment-pattern counterpart
+- [[plugin-marketplace]] — distribution-layer artifact for plugins
+- [[execution-layer]] — team-operational deployment pattern
+- [[deployment-framework]] — runtime-selection framework for where plugins execute
 - [[ai-consulting]] — direct deliverable framework
-- [[youtube-digest-apify-2026-05-10]] — primary citation
+- [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-16]] — primary citations

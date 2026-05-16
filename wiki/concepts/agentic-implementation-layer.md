@@ -1,10 +1,10 @@
 ---
 title: Agentic Implementation Layer (Four-Axis Squeeze)
 category: concept
-summary: [[nate-b-jones]]' 2026-05-14 framework — the implementation layer (workflow + harness, above model + data) is where trillions of dollars in agent value actually live, and four player classes are converging on it from four directions: (1) frontier labs moving down the stack into deployment ([[anthropic]] + [[openai]] standing up deployment companies), (2) consultancies moving up the stack from advice into agent operations, (3) systems of record exposing agent interfaces (Salesforce / ServiceNow / SAP / Workday), (4) private equity as a distribution channel (buy-and-roll-up portcos getting AI-installed); five durable primitives survive the squeeze — workflow design, data access, authority, evals, audit trails; "generic AI wrappers will not survive"
-tags: [agentic-implementation-layer, agentic-workflow, enterprise-ai, deployment, frontier-labs, consultancies, systems-of-record, private-equity, workflow-design, data-access, authority, evals, audit-trails, anthropic, openai, mckinsey, bcg, bain, deloitte, salesforce, servicenow, sap, workday, four-axis-squeeze, trillion-dollar, harness, generic-wrapper-thesis]
-sources: 1
-updated: 2026-05-15
+summary: [[nate-b-jones]]' 2026-05-14 framework — the implementation layer (workflow + harness, above model + data) is where trillions of dollars in agent value actually live, and four player classes are converging on it from four directions: (1) frontier labs moving down the stack into deployment ([[anthropic]] + [[openai]] standing up deployment companies), (2) consultancies moving up the stack from advice into agent operations, (3) systems of record exposing agent interfaces (Salesforce / ServiceNow / SAP / Workday), (4) private equity as a distribution channel (buy-and-roll-up portcos getting AI-installed); five durable primitives survive the squeeze — workflow design, data access, authority, evals, audit trails; "generic AI wrappers will not survive"; in 2026-05-15 [[nate-b-jones]] ships the **pricing-side complement** ([[agent-metering]] — the second meter on your SaaS bill) — together the 10th + 11th frameworks form a **value-capture + pricing-mechanism pair** around the same five-vendor cast
+tags: [agentic-implementation-layer, agentic-workflow, enterprise-ai, deployment, frontier-labs, consultancies, systems-of-record, private-equity, workflow-design, data-access, authority, evals, audit-trails, anthropic, openai, mckinsey, bcg, bain, deloitte, salesforce, servicenow, sap, workday, four-axis-squeeze, trillion-dollar, harness, generic-wrapper-thesis, agent-metering, pricing-side, commercial-unit]
+sources: 2
+updated: 2026-05-16
 ---
 
 # Agentic Implementation Layer (Four-Axis Squeeze)
@@ -151,6 +151,21 @@ This is the **synthesis page** of 3Ps' positioning — the user's wedge IS the a
 4. **Don't try to be MBB** — Ramin's audience is not 3Ps' audience; the human-skill stack inside MBB is a different game
 5. **Watch the PE channel** — axis-4 private-equity-as-distribution may be the highest-leverage GTM channel for implementation-layer specialists
 
+## The pricing-side complement: [[agent-metering]] (2026-05-15)
+
+The day after this framework, [[nate-b-jones]] shipped its **pricing-side complement** — [[agent-metering]] (the second meter on your SaaS bill). Where this framework explains *where the value lives*, [[agent-metering]] explains *how the meter ticks*. Together they form a **value-capture + pricing-mechanism pair** around the **same five-vendor cast**:
+
+| Vendor | This framework's role | [[agent-metering]] role |
+|---|---|---|
+| [[anthropic]] | Axis 1: deployment company | Substrate token pricing |
+| [[openai]] | Axis 1: deployment company | Substrate token pricing |
+| Salesforce | Axis 3: SoR exposing agent interface | Flex Credits (work units) |
+| ServiceNow | Axis 3: SoR exposing agent interface | Action Fabric (operational metering) |
+| SAP | Axis 3: SoR gating agents | 2026 API policy (authority-as-price) |
+| Microsoft | (Implicit hyperscaler-adjacent) | Copilot credits (hybrid pricing) |
+
+**Six-vendor tight coupling now confirmed across two consecutive [[nate-b-jones]] frameworks**. The 10th + 11th frameworks are not just adjacent — they describe the same five-vendor system from value-capture and pricing-mechanism angles. The [[agent-metering]] "fair license vs rent-seeking" diagnostic is the buyer-side mirror of this framework's "generic AI wrappers will not survive" supplier-side thesis.
+
 ## Contrasts with
 
 - **Generic AI wrapper** — what gets squeezed (no implementation primitives)
@@ -170,6 +185,8 @@ This is the **synthesis page** of 3Ps' positioning — the user's wedge IS the a
 - [[execution-layer]] — Brad Bonanno's team-deployment counterpart (2026-05-14)
 - [[free-sample-phase]] — substrate-economics counterpart at the model layer (the retention war is downstream of axis 1)
 - [[work-primitive]] — authority layer is what SoRs control (axis 3)
+- [[agent-metering]] — pricing-side complement (11th framework; 2026-05-15)
+- [[youtube-digest-apify-2026-05-16]] — citation of the pricing-side complement
 
 ## Open questions
 

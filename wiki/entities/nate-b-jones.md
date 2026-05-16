@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — **ten named frameworks** across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (six-layer agentic-commerce taxonomy), **and enterprise/TAM (the [[agentic-implementation-layer]] four-axis squeeze — frontier labs down + consultancies up + systems of record sideways + private equity as distribution)**; 2026-05-15 ships the **synthesis-side framework** — the implementation layer is the trillion-dollar opportunity and his prior 9 frameworks all map to its 5 durable primitives
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar]
-sources: 8
-updated: 2026-05-15
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — **eleven named frameworks** across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (six-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] four-axis squeeze), **and pricing/commercial-unit ([[agent-metering]] — second meter on your SaaS bill + fair-license vs rent-seeking diagnostic + four pre-renewal questions)**; 2026-05-15 ships the **pricing-side complement** to the 10th framework — together they form a value-capture + pricing-mechanism pair around the same five-vendor cast (Anthropic / OpenAI / Salesforce / ServiceNow / SAP / Microsoft)
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit]
+sources: 9
+updated: 2026-05-16
 ---
 
 # Nate B Jones
@@ -270,9 +270,57 @@ The implementation layer = workflow + harness combined.
 
 → New concept: [[agentic-implementation-layer]]. Updates: [[anthropic]], [[openai]] (axis-1 deployment companies), [[ai-consulting]] (axis-2 reframe).
 
+## New in [[youtube-digest-apify-2026-05-16]]
+
+### #2 Agent metering — the second meter on your SaaS bill (pricing-side framework)
+
+His **11th named framework** and the **pricing-side complement** to the 10th ([[agentic-implementation-layer]], the value-capture-side framework). *Your SaaS Bill Just Got a Second Meter. You're About to Pay It.* (13.9K views, 2026-05-15, 16:23). → New concept: [[agent-metering]].
+
+**The framing claim**: *"The common story is that agents will just replace seats. The reality is more complicated — every major SaaS vendor is bolting on a second meter that ticks on agent activity, not user logins."*
+
+Where [[agentic-implementation-layer]] explains *where the trillion dollars lives*, this video explains *how the meter ticks*. Together they form a **value + price** pair around the **same five-vendor cast**.
+
+**The five vendor metering shapes** (the canonical taxonomy):
+
+| Vendor | Metering primitive | Unit | Implication |
+|---|---|---|---|
+| **Salesforce** | Flex Credits | Work units (agent-completed tasks) | Agentforce $800M run rate; per-task pricing |
+| **Microsoft** | Copilot credits | Hybrid (seat + per-action) | Defends seats while adding agent-action upside |
+| **ServiceNow** | Action Fabric | Operational metering (per-workflow-step) | Charges for every node in an automation |
+| **SAP** | 2026 API policy | Access gating (agents can be locked out) | Authority moat; SAP can deny agent traffic |
+| **[[anthropic]] / [[openai]]** | Tokens | Inference units ("8 billion token developer story") | Substrate-pricing floor under all five |
+
+**The four pre-renewal questions** (chapter 0:55, the buyer-side diagnostic):
+
+1. **What's the agent unit of work?** (tokens / actions / tasks / outcomes)
+2. **What's the cap?** (per-user / per-org / unlimited)
+3. **What's the overage rate?** (and is it knowable in advance)
+4. **What's the access path?** (can the vendor deny your agents entirely — SAP-style)
+
+**Fair license vs rent-seeking** (chapter 8:40) — the normative core distinction:
+
+- Fair license: meter ties to **value delivered**, predictable caps, documented access
+- Rent-seeking: meter ties to **opportunity cost of denial**, cliff pricing at heavy use, vendor reserves right to deny agent traffic
+
+**"Pricing follows platform control"** (chapter 7:45) — the core thesis. **Read the price backwards to find the authority moat.** SAP can charge rent-seeking prices because they own a procurement-locked authority moat; Salesforce has more competition but more leverage than ServiceNow; Anthropic/OpenAI token pricing is closest to a pure commodity meter.
+
+**The commercial unit of software is changing** (chapter 13:00) — the closing TAM-shift claim:
+
+- For 25 years: **per-seat license** has been the canonical commercial unit
+- 2026 onward: **per-work-unit** (or per-token, per-action, per-task) is the new canonical unit
+- Buyers who don't negotiate before usage embeds will pay the spread forever
+
+**Strategic significance**:
+
+1. **The pricing-side complement to [[agentic-implementation-layer]]** — together, the 10th + 11th frameworks describe the same five-vendor system from value-capture and pricing-mechanism angles
+2. **Same five-vendor cast** ([[anthropic]] / [[openai]] / Salesforce / ServiceNow / SAP / Microsoft) — six-vendor tight coupling now confirmed across two consecutive frameworks
+3. **First explicit ServiceNow Action Fabric + SAP 2026 API policy coverage** in this vault
+4. **The four-question diagnostic is consulting-ready** — same shape as the prior [[plugins]] taxonomy audit + T/C/L/D worker audit + action-class action-risk audit; one-day delivery, written report, clear renegotiation playbook
+5. **"Negotiate before usage embeds"** is the **canonical 3Ps deliverable** — pre-renewal contract reviews of agent-pricing terms
+
 ## The complete framework stack
 
-[[nate-b-jones]] is now the source of **ten complementary diagnostics** — nine analytical-side + one synthesis-side:
+[[nate-b-jones]] is now the source of **eleven complementary diagnostics** — nine analytical-side + one value-capture-synthesis-side + one pricing-mechanism-side:
 
 | Framework | Side | Diagnostic question |
 |---|---|---|
@@ -285,9 +333,10 @@ The implementation layer = workflow + harness combined.
 | Agent Security | Procurement + Architecture | Does the platform know humans from agents — and what's the action-boundary judge pattern? |
 | Retrieval contract | Knowledge | What does my agent need to retrieve, *before* picking a database? |
 | Six-layer agentic commerce | Commerce | Which protocol layer carries responsibility when an agent spends money? |
-| **Agentic implementation layer (four-axis squeeze)** | **Enterprise / TAM (synthesis)** | **Where do the trillion dollars actually live, and which axes squeeze generic AI wrappers out?** |
+| Agentic implementation layer (four-axis squeeze) | Enterprise / TAM (value-capture-synthesis) | Where do the trillion dollars actually live, and which axes squeeze generic AI wrappers out? |
+| **Agent metering (second meter / fair-vs-rent-seeking)** | **Pricing / commercial unit** | **How does the meter actually tick, and how do you negotiate before usage embeds?** |
 
-Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack → knowledge → commerce → **enterprise deployment**. The 10th framework is the **synthesis-layer**: it names the layer where the prior 9 frameworks all deploy together as durable primitives (workflow design ↔ skill-systems / data access ↔ retrieval-contract / authority ↔ work-primitive + agent-security / evals ↔ skill-creator / audit trails ↔ agent-security judge logging).
+Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack → knowledge → commerce → **enterprise deployment → pricing/commercial unit**. The 10th + 11th frameworks form a **value-capture + pricing-mechanism pair** around the same five-vendor cast (Anthropic / OpenAI / Salesforce / ServiceNow / SAP / Microsoft) — the strongest framework-pair coupling in his cadence.
 
 This makes [[nate-b-jones]] the **single most-cited framework producer** in this vault. Framework cadence: **one named diagnostic per video** across 14+ videos, with two videos shipping two frameworks each.
 
@@ -311,6 +360,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-14]] #2 *Pinecone Just Demoted Vector Search. Here's the Knowledge Layer.* (38.5K, 2026-05-13) — [[retrieval-contract]] / NoQL framework + four-shape attack (compiled / PageIndex / tabular / GraphRAG)
 - [[youtube-digest-apify-2026-05-14]] #3 *ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.* (27.0K, 2026-05-12) — six-layer [[agentic-commerce]] protocol taxonomy (ACP / UCP / AP2 / x402 / Bedrock Agent Core)
 - [[youtube-digest-apify-2026-05-15]] #2 *The Trillion Dollar Agentic Workflow Opportunity Is Here* (32.2K, 2026-05-14) — [[agentic-implementation-layer]] four-axis squeeze (frontier labs down + consultancies up + SoRs sideways + PE distribution) + 5 durable primitives + "generic AI wrappers will not survive" thesis
+- [[youtube-digest-apify-2026-05-16]] #2 *Your SaaS Bill Just Got a Second Meter. You're About to Pay It.* (13.9K, 2026-05-15) — [[agent-metering]] 11th framework (Salesforce Flex Credits / Microsoft Copilot credits / ServiceNow Action Fabric / SAP 2026 API policy / fair-license-vs-rent-seeking diagnostic + four pre-renewal questions + "commercial unit of software is changing" closing thesis)
 
 ## Why track him for 3Ps
 
@@ -321,7 +371,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 
 ## Related
 - [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder; deployment-company axis-1 in [[agentic-implementation-layer]]
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]] — concepts he originated/popularized
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
 - [[knowledge-layer]] — extended via retrieval contract (2026-05-13)
 - [[pinecone]] — Nexus / NoQL is the canonical retrieval-contract implementation
@@ -339,6 +389,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-12]] — agent-security architectural pattern (LLM-as-judge + four action-risk classes + Lindy case)
 - [[youtube-digest-apify-2026-05-14]] — 2 videos: retrieval contract / NoQL (#2) + six-layer agentic-commerce taxonomy (#3)
 - [[youtube-digest-apify-2026-05-15]] — agentic implementation layer / four-axis squeeze (#2, the synthesis-side framework)
+- [[youtube-digest-apify-2026-05-16]] — agent metering / second-meter framework (#2, the pricing-side complement to the 10th framework)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

@@ -1,10 +1,10 @@
 ---
 title: Execution Layer
 category: concept
-summary: [[brad-bonanno]]'s 2026-05-14 framework — the second layer above a "second brain" that takes business context and runs real playbooks/SOPs to return *finished work*; sits above [[karpathy-llm-wiki]] / [[knowledge-layer]] / [[context-farming]] (all knowledge/context layers) and below the orchestration layer; concrete primitives are skills wired to the brain via reference (not hard-code), private team marketplace from a free GitHub template, sub-plugins for sales/ops/CS as the team grows, and a PR-back loop where every correction becomes a permanent upgrade across the company; "the new hire who joined yesterday is running on the back of every lesson your team has ever taught the skill"
-tags: [execution-layer, second-brain, company-brain, skills-marketplace, sub-plugins, pr-back-loop, brad-bonanno, claude-skills, context-farming, team-scaling, cross-vendor]
-sources: 1
-updated: 2026-05-14
+summary: [[brad-bonanno]]'s 2026-05-14 framework — the second layer above a "second brain" that takes business context and runs real playbooks/SOPs to return *finished work*; sits above [[karpathy-llm-wiki]] / [[knowledge-layer]] / [[context-farming]] (all knowledge/context layers) and below the orchestration layer; concrete primitives are skills wired to the brain via reference (not hard-code), private team marketplace from a free GitHub template, sub-plugins for sales/ops/CS as the team grows, and a PR-back loop where every correction becomes a permanent upgrade across the company; "the new hire who joined yesterday is running on the back of every lesson your team has ever taught the skill"; in 2026-05-16 [[alex-mcfarland]]'s [[plugin-marketplace]] surfaces as the **build-walkthrough counterpart** to this deployment-pattern framework — Alex's video predates Brad's by 2 months (2026-03-16 vs 2026-05-14), suggesting Brad's [[execution-layer]] codified what Alex was already shipping
+tags: [execution-layer, second-brain, company-brain, skills-marketplace, sub-plugins, pr-back-loop, brad-bonanno, claude-skills, context-farming, team-scaling, cross-vendor, plugin-marketplace, alex-mcfarland]
+sources: 2
+updated: 2026-05-16
 ---
 
 # Execution Layer
@@ -103,6 +103,19 @@ Three videos in five weeks, each adding the next layer. Brad's been incrementall
 
 [[brad-bonanno]] explicitly says (chapter 4:01): *"Why This Works Across Every AI Tool."* The execution layer is vendor-agnostic — works on [[claude-code]], [[codex]], and likely [[hermes-agent]]. Same architectural symmetry as [[skill-systems]] / [[claude-skills]] / [[plugins]]. The IP is portable.
 
+### The build-walkthrough counterpart ([[alex-mcfarland]] 2026-05-16)
+
+[[alex-mcfarland]]'s [[plugin-marketplace]] (2026-03-16, resurfaced in [[youtube-digest-apify-2026-05-16]]) is the **build-walkthrough counterpart** to this concept's deployment-pattern framework:
+
+| Angle | Author | What it gives | Date |
+|---|---|---|---|
+| **Deployment pattern** | [[brad-bonanno]] (this concept) | Architectural role + sub-plugins + PR-back loop + cross-vendor framing | 2026-05-14 |
+| **Build walkthrough** | [[alex-mcfarland]] [[plugin-marketplace]] | Concrete `marketplace.json` + plugin folder structure + GitHub setup steps + builder-skill | 2026-03-16 |
+
+Alex's video **predates Brad's by 2 months** — suggesting Alex was implementing what Brad later formalized. The two creators describe the same primitive from two angles: Brad gives the *architecture*, Alex gives the *build steps*. Together they form a complete plugin-marketplace stack.
+
+[[brad-bonanno]]'s `github.com/bradautomates/comp...` template and [[alex-mcfarland]]'s "Plugin Marketplace Builder Skill" are presumably independent implementations of the same underlying primitive — worth diffing to see if there's a canonical schema emerging.
+
 ## Open questions
 
 - **What's the actual artifact** of the free GitHub template? (Need to inspect repo to verify it implements what the description claims)
@@ -138,19 +151,24 @@ It does **not** implement the execution layer (Brad's Phase 3). The vault's skil
 ## Related pages
 
 - [[brad-bonanno]] — primary author; this is his Phase 3
+- [[alex-mcfarland]] — build-walkthrough counterpart ([[plugin-marketplace]])
 - [[context-farming]] — his Phase 1 framework (input/context side)
 - [[claude-skills]] — building blocks the execution layer composes
 - [[skill-systems]] — composition discipline at the workflow layer
 - [[plugins]] — taxonomy layer
+- [[plugin-marketplace]] — distribution-layer artifact this concept deploys
+- [[deployment-framework]] — runtime-selection sibling framework
 - [[karpathy-llm-wiki]] — context layer architecture this builds on
 - [[claude-code]] — primary substrate
 - [[codex]], [[hermes-agent]] — cross-vendor compatibility per chapter 4:01
 - [[ai-consulting]] — productization target for the [[brad-bonanno]] pattern
-- [[youtube-digest-apify-2026-05-14]] — primary citation
+- [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]] — primary citations
 
 ## Used in
 
 - [[youtube-digest-apify-2026-05-14]] — primary citation ([[brad-bonanno]] #1)
-- [[brad-bonanno]] — primary author
+- [[youtube-digest-apify-2026-05-16]] — [[alex-mcfarland]] build-walkthrough counterpart
+- [[brad-bonanno]], [[alex-mcfarland]] — primary authors
 - [[ai-consulting]] — productization target
 - [[claude-skills]] — deployment layer above authoring/composition/curation
+- [[plugin-marketplace]] — sibling distribution-layer framework

@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 category: concept
-summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05-07) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set; in 2026-05-12 Agent View + /goal command ships as the first first-party multi-agent orchestration primitive; in 2026-05-13 a **second rate-limit increase of +50%** ships within hours of the Ramp/EconLab Anthropic-passes-OpenAI business-adoption flip — total rate-limit increase across two weeks is ~3x baseline (SpaceX 2x + retention boost +50%); in 2026-05-14 [[nate-herk]] ships the first explicit five-level **mastery framework** ([[claude-code-levels]], 73K views) and [[brad-bonanno]] ships the **execution-layer** Phase 3 deployment pattern
-tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent, claude-code-levels, execution-layer, free-sample-phase, business-adoption, rate-limits]
-sources: 10
-updated: 2026-05-14
+summary: Anthropic's CLI/agent tool; April 2026 "Claude Code 2.0" landed; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels (Telegram), Scheduled Tasks, Auto Memory; canonical AI-creator topic of 2026; Saraev's 4hr course (1.56M views) is the flagship educational reference; in 2026-05 Codex (OpenAI) and Hermes Agent (VPS-deployed) confirmed as parallel substrates; SpaceX compute deal (2026-05-07) doubled session limits and killed peak-hours throttle; in 2026-05-11 Skill Creator gets first-hand walkthrough ([[chase-ai]]) and the McKinsey Lilly exploit positions Claude Code in the six-vendor agent-security responder set; in 2026-05-12 Agent View + /goal command ships as the first first-party multi-agent orchestration primitive; in 2026-05-13 a **second rate-limit increase of +50%** ships within hours of the Ramp/EconLab Anthropic-passes-OpenAI business-adoption flip — total rate-limit increase across two weeks is ~3x baseline (SpaceX 2x + retention boost +50%); in 2026-05-14 [[nate-herk]] ships the first explicit five-level **mastery framework** ([[claude-code-levels]], 73K views) and [[brad-bonanno]] ships the **execution-layer** Phase 3 deployment pattern; in 2026-05-15 [[nate-herk]] ships the [[deployment-framework]] (three-method runtime classifier) and first surfaces the **Claude Agent SDK** + **Managed Agents & Hooks** primitives — Anthropic's deployment-tier API for packaged products and always-on hosted agents
+tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent, claude-code-levels, execution-layer, free-sample-phase, business-adoption, rate-limits, deployment-framework, claude-agent-sdk, managed-agents, hooks, modal, trigger-dev]
+sources: 11
+updated: 2026-05-16
 ---
 
 # Claude Code
@@ -31,6 +31,8 @@ updated: 2026-05-14
 - **/goal command** (2026-05-12) — long-running agent primitive that pairs with Agent View; persistent goal across multiple work cycles; third time-cadence primitive alongside `/loop` (scheduled) and Routines (cloud-scheduled)
 - **/rewind** (surfaced 2026-05-12 via [[nate-herk]] #6 *Every Level of Claude*) — session-state rollback primitive; companion to Auto Memory's forward-persistence; Level 4 in [[claude-code-levels]]
 - **Shift Tab Twice** (surfaced 2026-05-12 via [[nate-herk]] #6) — likely a Plan Mode toggle or alternate UI mode; Level 4 primitive; specifics gated to transcript
+- **Claude Agent SDK** (surfaced 2026-05-15 via [[nate-herk]] [[deployment-framework]] chapter 15:52) — the SDK that lets you build Claude agents **outside the Claude Code CLI**; the unlock for packaged-product Claude agents (Claude as library, not CLI); pairs with [[codex]]' SDK as cross-vendor SDK-tier convergence; first surfacing in this vault
+- **Managed Agents & Hooks** (surfaced 2026-05-15 via [[nate-herk]] [[deployment-framework]] chapter 19:18) — Anthropic-hosted always-on agents with event-triggered hooks; deployment-tier equivalent of `claude-plugins-official` for running agents (not just installing skills); closes the gap between Routines (scheduled) and external runtime (event-driven)
 
 ## Surface area in the YouTube creator space
 
@@ -128,6 +130,13 @@ updated: 2026-05-14
 - **Shift Tab Twice** ([[nate-herk]] #6 chapter 10:40) — likely a Plan Mode toggle or alternate session UI; specifics gated to transcript.
 - **[[free-sample-phase]] substrate-economics** ([[nate-herk]] #5) — names the moment when both Anthropic and OpenAI ship retention promos within hours of an adoption flip. The recommended operator play: build flexibly enough to swap substrates when pricing resets. Same insurance thesis as [[skill-systems]] / [[printing-press]] but at the *economics* layer rather than the architecture layer. → See [[free-sample-phase]].
 
+## Patterns added in [[youtube-digest-apify-2026-05-16]]
+
+- **[[deployment-framework]] — three-method runtime classifier** ([[nate-herk]] #1, 16.6K views) — first explicit framework for where Claude Code automations should run: Method 1 `/loop` (in-session), Method 2 Routines / Scheduled Tasks (Anthropic-hosted cloud cron), Method 3 Modal / Trigger.dev (external serverless runtime). Decision axis is "where it runs" + "how agentic it needs to be." The three methods form a buy-up funnel — Anthropic captures users at Method 1 (free), retains via Method 2 (subscription-included), and is happy to lose Method 3 to specialized runtimes (still pays for inference). → See [[deployment-framework]].
+- **Claude Agent SDK** ([[nate-herk]] #1 chapter 15:52) — **first vault surfacing**. The SDK that lets you build Claude agents **outside the Claude Code CLI** — packaged-product agents (Claude as library, not CLI tool). Strategic implication: this is Anthropic's developer-facing primitive for axis-1 ([[agentic-implementation-layer]]) deployment-tier strategy. Pairs with [[codex]]' SDK pricing (referenced in [[nate-herk]]'s description via "Theo's video on SDK pricing") as cross-vendor SDK-tier convergence.
+- **Managed Agents & Hooks** ([[nate-herk]] #1 chapter 19:18) — **first vault surfacing**. Anthropic-hosted always-on agents with event-triggered hooks; deployment-tier equivalent of `claude-plugins-official` for running agents (not just installing skills). Closes the gap between Routines (scheduled) and external runtime (event-driven). Likely positioning: this is Anthropic's answer to "what if I want a Cloud-hosted always-on Claude agent with event triggers" — closing the gap that Modal / Trigger.dev currently fills.
+- **Modal + Trigger.dev as external-runtime vendors** ([[nate-herk]] #1 chapter 13:00) — first explicit naming of external serverless runtimes for Claude work. Both surface for the first time in this vault. Tracking candidates for any 3Ps client engagement that needs long-running or GPU-bound Claude work.
+
 ## Patterns added in [[youtube-digest-2026-05-03-r3]]
 
 - **First-party obsoleting wrapper-OSS** ([[brad-bonanno]] #4) — Channels + Scheduled Tasks + Auto Memory replace the OpenClaude open-source Telegram bridge. Pattern: Anthropic ships first-party features ~6 months after a hot OSS wrapper appears, and the OSS goes dormant. Implications for skill builders — anything you build on top of unstable OSS gets obsoleted; build on Anthropic primitives or accept rewrite cost.
@@ -161,7 +170,7 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]] — primary source digests
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]] — primary source digests
 - [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
 - [[printing-press]] — CLI alternative tooling for token-cost optimization
 - [[plugins]] — taxonomy layer above Skills
@@ -173,4 +182,6 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[claude-code-levels]] — five-level mastery framework ([[nate-herk]] 2026-05-12)
 - [[execution-layer]] — Phase 3 deployment / team-scaling pattern ([[brad-bonanno]] 2026-05-14)
 - [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war
-- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]], [[zinho-automates]]
+- [[deployment-framework]] — three-method runtime classifier + Claude Agent SDK + Managed Agents & Hooks ([[nate-herk]] 2026-05-15)
+- [[plugin-marketplace]] — GitHub-hosted distribution-layer pattern ([[alex-mcfarland]] 2026-03-16, resurfaced 2026-05-16)
+- Creators: [[nate-herk]], [[brad-bonanno]], [[code-with-beto]], [[grace-leung]], [[jack-roberts]], [[greg-isenberg]], [[nate-b-jones]], [[andrej-karpathy]], [[tommy-chryst]], [[brock-mesarich]], [[nick-saraev]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[corey-ganim]], [[the-ai-automators]], [[ai-academy]], [[chase-ai]], [[zinho-automates]], [[alex-mcfarland]]
