@@ -1,10 +1,10 @@
 ---
 title: DTC Telehealth Ad Template
 category: concept
-summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints / ED non-responders) — the fourth bullet pre-empts a category-specific objection; 2026-05-12 sees the canonical GLP-1 instantiation re-launched verbatim; 2026-05-14 ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1); **2026-05-16 ships ANOTHER two-wedge verbatim surge mirroring batch 5 — Wegovy GLP-1 template now verbatim across 4 batches / 10-day stability window + Sex Rx + Climax Control template verbatim across 2 batches**; the 5→6→7 (surge → trough → surge) sequence confirms an **alternating surge-trough wave cadence** with multi-wedge simultaneous re-launches in surge batches as the standing creative-ops pattern
-tags: [dtc, telehealth, ads, copy-template, hims, glp-1, creative-pattern, surge-trough-cadence]
-sources: 5
-updated: 2026-05-16
+summary: The recurring three-bullet structural pattern Hims uses across all three creative wedges (GLP-1, hair, sex Rx) on FB/IG ads — hook line + "Why [Brand]?" three-bullet block + compounded-drug disclaimer; pairs with the [[compounded-drug-disclaimer]] template; 2026-05-10 surfaces a four-bullet variant for high-objection categories (Hard Mints); through batch 7 (2026-05-16) two wedges verbatim-stable (Wegovy GLP-1 across 4 batches / 10 days + Sex Rx Climax Control across 2 batches); **2026-05-20 ships a THREE-WEDGE verbatim surge — Wegovy GLP-1 verbatim #5+#6 (5-batch / 14-day stability window — longest single-template-stability window in the vault) + Hair Hybrids verbatim re-launches #1+#2 (first Hair Hybrids verbatim re-launches since cold start — adds a second wedge to verbatim-stability evidence beyond Wegovy/Sex Rx)** — three wedges now confirmed verbatim-stable (GLP-1 + hair + sex Rx); the 5→6→7→8 sequence (surge → trough → surge → surge) extends the alternating cadence with a second consecutive surge at higher magnitude
+tags: [dtc, telehealth, ads, copy-template, hims, glp-1, hair-loss, sex-rx, creative-pattern, surge-trough-cadence, three-wedge-surge]
+sources: 6
+updated: 2026-05-20
 ---
 
 # DTC Telehealth Ad Template
@@ -104,37 +104,50 @@ Predict (untested): GLP-1 ads aimed at insurance-skeptical buyers might add *"�
 - **Equivalence + provider + shipping** — covers the three legitimacy concerns of compounded/prescription DTC: *does it work?* (equivalence), *can I trust who's prescribing?* (provider), *will it actually arrive?* (shipping)
 - **Hook → bullets → close → disclaimer** — separates persuasion (top) from compliance (bottom) so compliance language doesn't cannibalize hook attention
 
-## Template stability — surge-trough cadence with multi-instance verbatim re-use (10-day window)
+## Template stability — surge-trough cadence with multi-instance verbatim re-use (14-day window)
 
-The GLP-1 instantiation has now run **verbatim** across four farm batches:
+The Wegovy GLP-1 instantiation has now run **verbatim** across five farm batches — the **longest single-template-stability window tracked in this vault**:
 
-| Batch | Date | Ad ID | Started |
+| Batch | Date | Ad ID(s) | Started |
 |---|---|---|---|
 | 1 | 2026-05-06 | (initial wave) | early Apr 2026 |
 | 4 | 2026-05-12 | `3567971296700086` | 2026-05-07 |
 | 5 | 2026-05-14 | `956466943766183` | 2026-05-04 |
-| **7** | **2026-05-16** | **`1693764951776930`** | **2026-05-13** |
+| 7 | 2026-05-16 | `1693764951776930` | 2026-05-13 |
+| **8** | **2026-05-20** | **`1046013881316991` + `1002990665415931`** | **2026-05-04, 2026-05-11** |
 
-**10-day verbatim-stability window for the Wegovy GLP-1 template.** Same hook line, same three bullets ("✅ FDA-approved..." / "✅ Medication as low as $149/mo..." / "✅ 100% online"), same close ("Your goals. Your plan. Your pace. / See if you qualify today."), same disclaimer block.
+**14-day verbatim-stability window for the Wegovy GLP-1 template — longest in the vault.** Same hook line, same three bullets ("✅ FDA-approved..." / "✅ Medication as low as $149/mo..." / "✅ 100% online"), same close ("Your goals. Your plan. Your pace. / See if you qualify today."), same disclaimer block. Six distinct ad-library entries.
 
-The Sex Rx + Climax Control instantiation has now run **verbatim** across two farm batches:
+The Sex Rx + Climax Control instantiation has run **verbatim** across two farm batches:
 
 | Batch | Date | Ad ID | Started |
 |---|---|---|---|
 | 5 | 2026-05-14 | `3275837862576962` | 2026-04-21 |
-| **7** | **2026-05-16** | **`1683250979537135`** | **2026-04-30** |
+| 7 | 2026-05-16 | `1683250979537135` | 2026-04-30 |
 
-**Batch 5 (2026-05-14) shipped the first two-wedge simultaneous re-launch**, and **batch 7 (2026-05-16) mirrored the pattern after a one-batch trough (batch 6)** — confirming the **alternating surge-trough wave cadence** as the standing creative-ops pattern, not a single-batch coincidence:
+The Hair Hybrids instantiation has shipped **verbatim post-cold-start re-launches** for the first time in batch 8:
 
-| Batch | Date | Hims new ads | Wave state |
+| Batch | Date | Ad ID(s) | Started |
 |---|---|---|---|
-| 5 | 2026-05-14 | 2 | Surge — Wegovy verbatim #2 + Sex Rx Climax Control verbatim #1 |
-| 6 | 2026-05-15 | 0 | Trough |
-| 7 | 2026-05-16 | 3 | Surge — Wegovy verbatim #3 + Sex Rx Climax Control verbatim #2 + 1 placeholder |
+| 1 | 2026-05-06 | (initial 10+ wave) | early Apr 2026 |
+| **8** | **2026-05-20** | **`2064207334519052` + `728317760309201`** | **2026-05-09, 2026-04-22** |
 
-After 10 days and 7 farm batches, Hims has only structurally innovated **once** (the Hard Mints four-bullet variant in 2026-05-10). Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch, on a regular surge-trough cadence.
+**Hair Hybrids verbatim re-launch is the first since cold start.** Adds a **second wedge** to verbatim-stability evidence beyond Wegovy/Sex Rx. **Three wedges now confirmed verbatim-stable** (GLP-1 + hair + sex Rx).
 
-**Implication: inside-structure A/B testing dominates over template variation, on a wave cadence.** Hims tests visual assets, headline overlays, audience splits, and disclaimer wording (per [[compounded-drug-disclaimer]]) *inside* the skeleton — they don't re-template. The 5→6→7 surge→trough→surge sequence with multi-wedge re-launches in both surge batches confirms this is **systematic, not coincidental**: Hims maintains a stable creative skeleton inventory and ships fresh ad-library entries with the same body copy across multiple wedges in alternating-week surge windows. For [[medvi-positioning]], this means the skeleton is the safe baseline; the test surface lives inside the bullet block, not in restructuring the skeleton.
+**The 5→6→7→8 sequence** extends the alternating cadence with a second consecutive surge at higher magnitude:
+
+| Batch | Date | Hims new ads | Wedges in surge | Wave state |
+|---|---|---|---|---|
+| 5 | 2026-05-14 | 2 | 2 (Wegovy + Sex Rx) | Surge — two-wedge |
+| 6 | 2026-05-15 | 0 | 0 | Trough |
+| 7 | 2026-05-16 | 3 | 2 (Wegovy + Sex Rx) | Surge — two-wedge |
+| **8** | **2026-05-20** | **8** | **3 (Wegovy + Hair Hybrids + placeholder cluster)** | **Surge — three-wedge** |
+
+After 14 days and 8 farm batches, Hims has only structurally innovated **once** (the Hard Mints four-bullet variant in 2026-05-10). Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch, on a regular surge-trough cadence with escalating surge magnitudes.
+
+**Open question**: is batch 8's three-wedge surge a 4-day fetch-gap compression artifact (batches 8+9+10+11 collapsed) or a genuine surge intensification? A 1-day-cadence batch 9 (2026-05-21) with thin Hims signal would confirm compression; thick Hims signal would confirm intensification.
+
+**Implication: inside-structure A/B testing dominates over template variation, on a wave cadence with escalating surge magnitudes.** Hims tests visual assets, headline overlays, audience splits, and disclaimer wording (per [[compounded-drug-disclaimer]]) *inside* the skeleton — they don't re-template. The 5→6→7→8 sequence with multi-wedge re-launches in three consecutive surge batches confirms this is **systematic, not coincidental**. For [[medvi-positioning]], this means the skeleton is the safe baseline; the test surface lives inside the bullet block, not in restructuring the skeleton.
 
 ## Adjacent patterns
 
@@ -168,6 +181,7 @@ Direct instantiation candidate for first round of Medvi Meta ads.
 - [[sources/ads-digest-2026-05-12]] — 1 Hims static-narrative ad re-launching the canonical GLP-1 instantiation **verbatim** (4-batch evidence that inside-structure A/B dominates over template variation); also surfaces the Lauren Brooks long-form confession contrast pattern in the noise inventory
 - [[sources/ads-digest-2026-05-14]] — 2 Hims static-narrative ads, **both verbatim template re-launches in a single batch** — Sex Rx + Climax Control (2026-04-21) + Wegovy GLP-1 (2026-05-04). Wegovy template now verbatim across 3 batches (8-day stability window). Multi-instance verbatim re-use within the same batch is the strongest single-batch template-stability confirmation to date. Uproot Clean (3-batch repeat noise page) extends the long-form direct-response contrast pattern documented from Lauren Brooks in batch 4.
 - [[sources/ads-digest-2026-05-16]] — 2 Hims static-narrative ads, **mirror of batch 5's two-wedge surge** after a one-batch trough (batch 6) — Wegovy GLP-1 verbatim #3 (2026-05-13) + Sex Rx + Climax Control verbatim #2 (2026-04-30). Wegovy template now verbatim across **4 batches / 10-day stability window**; Sex Rx + Climax Control verbatim across 2 batches. The 5→6→7 (surge → trough → surge) sequence confirms an **alternating surge-trough wave cadence** as the standing creative-ops pattern. No structural innovation since Hard Mints (2026-05-10).
+- [[sources/ads-digest-2026-05-20]] — 4 Hims static-narrative ads in a **THREE-WEDGE verbatim surge** (largest single-batch Hims volume since cold start, 4-day fetch gap from batch 7): Wegovy GLP-1 verbatim #4+#5 (started 2026-05-04, 2026-05-11) + **Hair Hybrids verbatim re-launches #1+#2 post-cold-start** (started 2026-05-09, 2026-04-22) + 4 placeholders. Wegovy template now verbatim across **5 batches / 14-day stability window — longest single-template-stability window in the vault**. First Hair Hybrids verbatim re-launches since cold start — adds a second wedge to verbatim-stability evidence beyond Wegovy/Sex Rx. **Three wedges now confirmed verbatim-stable.** Open: 4-day-gap compression artifact or genuine surge intensification — distinguishing requires a 1-day-cadence batch 9.
 
 ## Open questions
 

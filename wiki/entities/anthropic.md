@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership (2026-05) doubling Claude Code rate limits; 2026-05-06 FB ads batch shows zero static narrative copy; in 2026-05-10 Mythos AI code reviewer enters this vault via Mozilla's 271-vulnerability cycle; in 2026-05-11 named as a six-vendor agent-security responder alongside OpenAI/SAP/Pinecone/Salesforce/ServiceNow and Skill Creator gets first-hand walkthrough via Chase AI; **in 2026-05-13 passes [[openai]] in business adoption for the first time** (per Ramp/EconLab) — and within hours bumps Claude Code rate limits another **+50%** as a retention play; this is the **third Claude Code rate-limit increase in two weeks** (SpaceX deal doubled limits 2026-05-07 + 50% retention boost 2026-05-13 = roughly 3x baseline); 2026-05-14 ads batch surfaces **first new Anthropic ad since 2026-05-06** — placeholder carousel (started 2026-05-11) confirms catalog-ads-only AI-lab pattern across 2 distinct launch windows; **2026-05-15 + 2026-05-16 batches both return 0 new ads — 2 consecutive silence batches post-2026-05-11** suggesting the 2026-05-11 ad was a standalone launch, not the opening of a slow cluster (one more silent batch would lock the diagnosis); **in 2026-05-15 ([[nate-b-jones]] [[agentic-implementation-layer]] framework) named alongside [[openai]] as axis-1 player in the four-axis squeeze — both labs explicitly standing up deployment companies rather than relying on partners**, capturing implementation revenue rather than just inference; this is the upstream cause of the [[free-sample-phase]] retention war (labs converting model-tier users into deployment-tier customers)
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze]
-sources: 9
-updated: 2026-05-16
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership doubling Claude Code rate limits + business-adoption flip vs OpenAI (2026-05-13 per Ramp/EconLab) + +50% retention rate-limit boost (3rd increase in 2 weeks, ~3x baseline); 2026-05-11 named as a six-vendor agent-security responder; **in 2026-05-15 named alongside [[openai]] as axis-1 player in the four-axis squeeze ([[agentic-implementation-layer]])** — both labs standing up deployment companies; FB ads pattern: 2026-05-14 surfaced first new ad since 2026-05-06 (placeholder, started 2026-05-11); **2026-05-15 + 2026-05-16 + 2026-05-20 batches all return 0 new ads — 3 consecutive silence batches post-2026-05-11 LOCK the "standalone launch" diagnosis** per the batch-7 ≥3-silent-batch methodology; cumulative **6 ads across 2 distinct launch windows** (5 in Mar 16 – Apr 8 + 1 standalone on 2026-05-11); despite the business-adoption flip Anthropic's *paid-social cadence* is markedly sparser than OpenAI's (6 vs 40 cumulative FB ads across the same 8-batch window — ~15% of OpenAI's volume)
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze, standalone-launch-locked]
+sources: 10
+updated: 2026-05-20
 ---
 
 # Anthropic
@@ -159,9 +159,26 @@ Same pattern as [[openai]] in the same batch (21 ads, all dynamic-creative-only)
 
 From [[ads-digest-2026-05-14]] — 1 new ad after **5 batches of silence** (no new Anthropic ads since 2026-05-06). Carousel format, `{{product.name}}` headline, `{{product.brand}}` body, started **2026-05-11** (3 days before fetch — fresh launch, not backlog catch-up). ID `1521217572752360`.
 
-**Cumulative: 6 Anthropic ads across 2 distinct launch windows (Mar 16 – Apr 8 + 2026-05-11), 0 with teardown-able copy.** The catalog-ads-only AI-lab pattern is now confirmed across **two windows** for Anthropic — matching OpenAI's 2-cluster pattern. A fresh launch in a new window with the same template rules out "the original 5 were a one-time test."
+**Cumulative: 6 Anthropic ads across 2 distinct launch windows (Mar 16 – Apr 8 + 2026-05-11), 0 with teardown-able copy.** The catalog-ads-only AI-lab pattern is now confirmed across **two windows** for Anthropic — matching OpenAI's 2-cluster pattern.
 
-> ⚠️ Both AI labs (Anthropic + OpenAI) ship only catalog-driven dynamic creative on FB across multiple launch windows. The pattern is now **multi-window confirmed for both vendors** — not just OpenAI's four-batch single-vendor evidence. Both pair catalog ads with PR/launches for narrative work and reserve paid social for catalog re-targeting against existing intent.
+### 2026-05-15 + 2026-05-16 + 2026-05-20 batches (3 consecutive silence batches — "standalone launch" diagnosis LOCKED)
+
+From [[ads-digest-2026-05-15]], [[ads-digest-2026-05-16]], [[ads-digest-2026-05-20]] — **3 consecutive silent batches with 0 new Anthropic ads** post-2026-05-11.
+
+**Per the batch-7 ≥3-silent-batch methodology, the 2026-05-11 ad is now confirmed as a standalone launch, not the opening of a slow cluster.** Batch 8's 4-day fetch gap would have captured any new Anthropic ads from 2026-05-17 → 2026-05-20 — none surfaced. Three consecutive silent batches with a 4-day gap on the third is decisive.
+
+**Anthropic pattern**: 5 ads (Mar 16 – Apr 8 wave) + 1 ad (standalone 2026-05-11) = sparse, well-spaced standalone launches across 8 batches.
+
+| Batch | Date | New Anthropic ads | Cumulative |
+|---|---|---|---|
+| 1 | 2026-05-06 | 5 | 5 |
+| 2-4 | (silence trough) | 0 | 5 |
+| 5 | 2026-05-14 | 1 | 6 |
+| 6 | 2026-05-15 | 0 | 6 |
+| 7 | 2026-05-16 | 0 | 6 |
+| **8** | **2026-05-20** | **0** | **6 (LOCKED — standalone diagnosis confirmed)** |
+
+**Cadence comparison vs [[openai]] across same 8-batch window**: Anthropic 6 ads / OpenAI 40 ads — Anthropic's paid-social cadence is **~15% of OpenAI's**. Despite Anthropic *passing* OpenAI in business adoption on 2026-05-13, OpenAI's *paid-social cadence* remains an order of magnitude more aggressive. Reads as: Anthropic relies on rate-limit boosts + PR + business-adoption momentum for growth, while OpenAI runs continuous paid-social catalog cadence (probably re-targeting against ChatGPT signup intent + API console traffic).
 
 Open: which surface is the 2026-05-11 ad pointing to? Same destination as the original 5 (claude.ai / Code / API / Enterprise), or has the catalog been repointed at a new product surface (Skills marketplace? Mythos? Claude Design? post-business-adoption-flip enterprise push)?
 
@@ -189,6 +206,7 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - [[ads-digest-2026-05-14]] — first new Anthropic ad since 2026-05-06 (placeholder carousel, started 2026-05-11) — catalog-ads-only confirmed across 2 distinct launch windows
 - [[ads-digest-2026-05-15]] — 0 new Anthropic ads — returns to silence after the single 2026-05-11 carousel (universal-silence batch across all 8 tracked anchors); cumulative remains 6 ads across 2 launch windows; open whether batch 7+ continues the slow-cluster (additional ads from the 2026-05-11+ window expand catalog feed) or confirms the 2026-05-11 ad as a standalone launch
 - [[ads-digest-2026-05-16]] — **0 new Anthropic ads — 2nd consecutive silence batch post-2026-05-11.** "Standalone launch" hypothesis strengthens over "slow cluster"; one more silent batch (batch 8) would lock the diagnosis. Cumulative remains 6 ads across 2 launch windows (5 in Mar 16 – Apr 8 + 1 on 2026-05-11). Contrast with [[openai]]'s same-batch behavior — 2 new May 8 ads expand cluster 2 from 6 → 8, decisively disproving batch 6's "fully dedup-cached" diagnosis. Anthropic remains markedly sparser than OpenAI in FB-ad cadence (6 vs 33 cumulative ads across the same window)
+- [[ads-digest-2026-05-20]] — **0 new Anthropic ads — 3rd consecutive silence batch post-2026-05-11 LOCKS the "standalone launch" diagnosis** per the batch-7 ≥3-silent-batch methodology. Batch 8's 4-day fetch gap would have captured any new ads in 2026-05-17 → 2026-05-20 — none surfaced. Cumulative remains 6 ads across 2 launch windows. Cadence vs [[openai]] in same 8-batch window: Anthropic 6 / OpenAI 40 — Anthropic's paid-social cadence is ~15% of OpenAI's despite the 2026-05-13 business-adoption flip. Anthropic's pattern is sparse standalone launches; OpenAI's is continuous cluster expansion.
 - [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]], [[agentic-implementation-layer]] — concept pages
 
 ## Open questions

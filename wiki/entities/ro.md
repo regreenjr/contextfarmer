@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across batches 1+2 (3 total ads, all `{{product.brand}}` body text); 0 new ads in batches 3+4+5+6 (2026-05-11 → 2026-05-15) — bare-"Ro" search ran dry as a signal source for the SIXTH consecutive batch while continuing to surface "ro"-substring noise; **2026-05-16 batch breaks the 5-batch silence with 1 new placeholder ad** (ID `1542915227491027`, started 2026-05-04) — fourth cumulative Ro ad, all still `{{product.brand}}` placeholders across the longest window in the farm (zero static narrative across 7 batches), confirming the bare-"Ro" filter captures only Ro's catalog-driven dynamic-creative half and almost certainly misses the actual primary FB Page name (Roman Health / Ro Body / Ro Health)
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 8 batches; 6 cumulative ads, all `{{product.brand}}` body text; **2026-05-20 batch ships 2 ads in one batch — first non-cold-start multi-ad Ro batch** (IDs `2277114206027622` started 2026-05-14 + `2238568280301485` started 2026-05-08), breaking the 4-batches-of-≤1-ad pattern (still placeholder-only); open whether this is a 4-day fetch-gap compression artifact or a genuine pickup in Ro's catalog cadence; the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 8 batches
 tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 7
-updated: 2026-05-16
+sources: 8
+updated: 2026-05-20
 ---
 
 # Ro
@@ -62,21 +62,28 @@ No new Ro ads. **Sixth straight batch with no signal-bearing creative.** Batch 6
 
 **First Ro signal in 5 batches.** 1 new placeholder ad — ID `1542915227491027`, started 2026-05-04, format unknown, body `{{product.brand}}`.
 
-**Cumulative Ro tracking (4 ads across 7 batches):**
+### 2026-05-20 batch (2 ads — first non-cold-start multi-ad Ro batch)
+
+**First multi-ad Ro batch since cold start.** 2 new placeholder ads after a 4-day fetch gap from batch 7:
+
+- ID `2277114206027622`, started 2026-05-14, format unknown, body `{{product.brand}}`
+- ID `2238568280301485`, started 2026-05-08, format unknown, body `{{product.brand}}`
+
+**Cumulative Ro tracking (6 ads across 8 batches):**
 
 | Batch | Date | New Ro ads | Cumulative |
 |---|---|---|---|
 | 1 | 2026-05-06 | 1 | 1 (started 2026-04-14) |
 | 2 | 2026-05-10 | 2 | 3 (started 2026-05-04, 2026-04-28) |
-| 3 | 2026-05-11 | 0 | 3 |
-| 4 | 2026-05-12 | 0 | 3 |
-| 5 | 2026-05-14 | 0 | 3 |
-| 6 | 2026-05-15 | 0 | 3 |
-| **7** | **2026-05-16** | **1** | **4 (started 2026-05-04)** |
+| 3-6 | 2026-05-11 to 2026-05-15 | 0 | 3 (4-batch silence) |
+| 7 | 2026-05-16 | 1 | 4 (started 2026-05-04) |
+| **8** | **2026-05-20** | **2** | **6 (started 2026-05-14, 2026-05-08)** |
 
-**Pattern confirmed across the longest window in the farm**: Ro's bare-"Ro" page (whichever it is) runs **sparse catalog-driven dynamic creative only**. All 4 placeholder ads ship `{{product.brand}}` body text; zero static narrative across 7 batches. The substantive Ro creative — which almost certainly exists on Roman Health / Ro Body / Ro Health pages or similar — remains absent from this farm. Batch 7's signal-return is **structurally identical to prior Ro signals**, no new teardown-able copy.
+**Pattern persists across the longest window in the farm**: Ro's bare-"Ro" page (whichever it is) runs **catalog-driven dynamic creative only**. All 6 placeholder ads ship `{{product.brand}}` body text; **zero static narrative across 8 batches**. Batch 8's 2-ad volume is the first signal that Ro may be picking up catalog cadence — but it's confounded by the 4-day fetch gap (1-day cadence might have spread these across 2 batches).
 
-New batch 7 noise additions to the bare-"Ro" corpus: **Sean Gracet Roset** (AI photo app, video format, "Roset" = "Ro" substring — first AI/tech consumer-app noise via "Ro").
+The substantive Ro creative — which almost certainly exists on Roman Health / Ro Body / Ro Health pages or similar — remains absent from this farm. Batch 8's multi-ad signal is **structurally identical to prior Ro signals**, no new teardown-able copy.
+
+New batch 8 noise additions to the bare-"Ro" corpus: **Hero FinCorp** (Indian financial services, "Hero" prefix), **Carolina Freightways Inc.** ("Ca-Ro-lina" — trucking owner-operator jobs), **Rough Country** ("Rough" — truck lift kits), **Cholesterol Support Group** ("Cholesterol" — long-form ICU-nurse statins-skepticism narrative), **SecretRomance-cloudn57 + cloudn65** (4 ads across 2 cloud-variant sub-pages — first multi-cloud-variant noise operator in the farm).
 
 ## Action items
 
@@ -95,6 +102,7 @@ New batch 7 noise additions to the bare-"Ro" corpus: **Sean Gracet Roset** (AI p
 - [[ads-digest-2026-05-14]] — 0 new ads (5th batch with no signal); Uproot Clean ("ro" in "Uproot") returns as 3rd-batch repeat noise page; bare-"Ro" filter now decisively net-negative across 5 batches
 - [[ads-digest-2026-05-15]] — 0 new ads (6th batch with no signal); Heirloom Roses ("Ro" prefix in "Roses") adds first plural-noun substring root cause to the cumulative "Ro" noise corpus; bare-"Ro" filter remains decisively net-negative across 6 batches
 - [[ads-digest-2026-05-16]] — **1 new placeholder ad — breaks 5-batch Ro silence** (ID `1542915227491027`, started 2026-05-04, body `{{product.brand}}`); 4 cumulative Ro ads across 7 batches, ALL placeholder-only; Sean Gracet Roset (AI photo app, "Roset" = "Ro" substring) adds new sub-pattern to noise corpus (first AI/tech consumer-app via "Ro")
+- [[ads-digest-2026-05-20]] — **2 new placeholder ads — first non-cold-start multi-ad Ro batch** (IDs `2277114206027622` started 2026-05-14 + `2238568280301485` started 2026-05-08, both body `{{product.brand}}`); 6 cumulative Ro ads across 8 batches, ALL placeholder-only; open whether batch 8's 2-ad signal is a 4-day fetch-gap compression artifact or a genuine pickup in Ro's catalog cadence; new "Ro" substring noise additions: Hero FinCorp + Carolina Freightways + Rough Country + Cholesterol Support Group + SecretRomance multi-cloud-variant (first per-page-ID-allow-listing bypass pattern via sub-page proliferation)
 
 ## Open questions
 

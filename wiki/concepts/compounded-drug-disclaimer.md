@@ -1,10 +1,10 @@
 ---
 title: Compounded Drug Disclaimer
 category: concept
-summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims and structurally required by FTC + state-pharmacy-board scrutiny of compounded-drug advertising; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints") suggesting Hims A/B-tests disclaimer wording; 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches (matching the multi-batch stability now observed in the parent template at [[dtc-telehealth-ad-template]]) — confirms disclaimer language stability tracks template stability on the alternating surge-trough wave cadence
-tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1]
-sources: 3
-updated: 2026-05-16
+summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints"); 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches; **2026-05-20 batch ships the Wegovy/FDA-approved disclaimer block verbatim for the 5th time (14-day stability window — longest in the vault) AND the Hair Hybrids disclaimer block verbatim re-launches for the first time post-cold-start** — disclaimer language stability now confirmed across three wedges (Wegovy/GLP-1, Hair Hybrids, Sex Rx Climax Control), tracking parent-template stability on the surge-trough wave cadence
+tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1, hair-hybrids]
+sources: 4
+updated: 2026-05-20
 ---
 
 # Compounded Drug Disclaimer
@@ -107,6 +107,7 @@ Medvi creative should default to the Hims template and only deviate with explici
 - [[sources/ads-digest-2026-05-06]] — 30+ Hims ads using the template (canonical variants)
 - [[sources/ads-digest-2026-05-10]] — Hard Mints variant adds a fifth disclaimer phrasing for chewable compounded products
 - [[sources/ads-digest-2026-05-16]] — Sex Rx + Climax Control disclaimer ships verbatim for the 2nd time (after batch 5) + Wegovy/FDA-approved disclaimer block ships verbatim for the 4th time (10-day stability window) — disclaimer language stability tracks parent template stability across the alternating surge-trough wave cadence
+- [[sources/ads-digest-2026-05-20]] — Wegovy/FDA-approved disclaimer block ships **verbatim for the 5th time (14-day stability window — longest in the vault)** across 2 ad-library entries in the same batch + **Hair Hybrids disclaimer block ships verbatim re-launches for the first time post-cold-start** (2 ad-library entries) — disclaimer language stability now confirmed across **three wedges** (Wegovy/GLP-1 + Hair Hybrids + Sex Rx Climax Control); first time the Hair Hybrids "Hair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs" block surfaces in a non-cold-start batch
 
 ## Open questions
 

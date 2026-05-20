@@ -1,10 +1,10 @@
 ---
 title: Hims
 category: entity
-summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" — a chewable ED compound positioned for non-responders to traditional ED pills, expanding the Sex Rx wedge to 4 SKUs; 2026-05-12 batch re-launches the Wegovy GLP-1 template verbatim; 2026-05-14 batch ships TWO verbatim re-launches in a single batch (Sex Rx + Climax Control + Wegovy GLP-1) — Wegovy template now verbatim across 3 batches (8-day stability window), confirming inside-structure A/B as the standing pattern (no structural change across five batches except the Hard Mints four-bullet variant); 2026-05-15 batch returns 0 new ads — second Hims silence batch in 6 (first since batch 3 2026-05-11); **2026-05-16 batch surges back with THREE new ads — TWO verbatim re-launches in one batch mirroring batch 5 (Wegovy GLP-1 verbatim #4 — 10-day stability window + Sex Rx + Climax Control verbatim #2) plus 1 placeholder** — the 5→6→7 sequence (surge → trough → surge) is the cleanest evidence yet for an alternating surge-trough wave cadence with multi-wedge simultaneous verbatim re-launches in surge batches; cumulative 53 ads across 7 batches
-tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims, surge-trough-cadence]
-sources: 6
-updated: 2026-05-16
+summary: Hims & Hers Health — public DTC telehealth (NYSE:HIMS); 2026 creative engine spans three wedges (GLP-1 / hair-loss / Sex Rx) and pioneers the compounded-drug-disclaimer + "$149/mo + $39 membership" pricing template; 2026-05-10 batch adds "Hard Mints" (4th Sex Rx SKU); 2026-05-12 + 2026-05-14 + 2026-05-16 batches establish inside-structure A/B as standing pattern (no structural change except Hard Mints four-bullet variant); the 5→6→7 sequence confirmed an alternating surge-trough cadence with multi-wedge re-launches in surge batches; **2026-05-20 batch ships a THREE-WEDGE verbatim surge — 8 new ads with Wegovy GLP-1 verbatim #5+#6 (5-batch / 14-day stability window — longest single-template-stability window in the vault) + Hair Hybrids verbatim re-launches #1+#2 (first Hair Hybrids verbatim re-launches since cold start — adds a second wedge to verbatim-stability evidence beyond Wegovy/Sex Rx; three wedges now confirmed verbatim-stable) + 4 placeholders**; cumulative **61 ads across 8 batches**; open whether the three-wedge surge is a 4-day fetch-gap compression artifact (batches 8+9+10+11 collapsed into one) or genuine surge intensification — next 1-day-gap batch will distinguish
+tags: [organization, dtc, telehealth, glp-1, compounded-drugs, hair-loss, sex-rx, hard-mints, competitor, hims, surge-trough-cadence, three-wedge-surge]
+sources: 7
+updated: 2026-05-20
 ---
 
 # Hims
@@ -108,6 +108,7 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 - [[sources/ads-digest-2026-05-14]] — 2 new ads, **both verbatim template re-launches in a single batch**: Sex Rx + Climax Control (ID `3275837862576962`, started 2026-04-21) + Wegovy GLP-1 (ID `956466943766183`, started 2026-05-04). Wegovy template now verbatim across **3 batches** (8-day stability window: 2026-05-06 → 2026-05-12 → 2026-05-14). Multi-instance verbatim re-use within the *same* batch is the strongest single-batch confirmation of template-stability to date — two distinct wedges shipping the same skeletons as their 2026-05-06 originals simultaneously.
 - [[sources/ads-digest-2026-05-15]] — 0 new ads (2nd Hims silence batch in 6, first since 2026-05-11/batch 3). Universal-silence batch across all 8 tracked anchors. Reads as **inventory-cycle timing trough** following batch 5's two-wedge multi-instance surge — the standing creative inventory cycles in waves; once a wave ships (batch 5), the next 24-48hrs naturally produce thin new-ad volume until the next wave begins. No structural shift implied. Cumulative inventory unchanged at 50 ads, 3 wedges, 4 Sex Rx SKUs.
 - [[sources/ads-digest-2026-05-16]] — **3 new ads — second multi-wedge verbatim re-launch surge in 3 batches** (mirrors batch 5). Wegovy GLP-1 template verbatim #4 (ID `1693764951776930`, started 2026-05-13) — now spans **4 batches / 10-day stability window** (2026-05-06 → 2026-05-12 → 2026-05-14 → 2026-05-16); Sex Rx + Climax Control template verbatim #2 (ID `1683250979537135`, started 2026-04-30) — now spans 2 batches (2026-05-14 → 2026-05-16); plus 1 placeholder ad (ID `1316424053726023`, started 2026-04-08). The 5→6→7 sequence (surge → trough → surge) with multi-wedge re-launches in both surge batches is the cleanest evidence yet for an **alternating surge-trough wave cadence** as the standing creative-ops pattern. No structural innovation across 7 batches (last innovation was 2026-05-10 Hard Mints four-bullet variant); inside-structure A/B continues to dominate. Cumulative 53 ads.
+- [[sources/ads-digest-2026-05-20]] — **8 new ads — THREE-WEDGE verbatim surge in one batch** (largest single-batch Hims volume since cold start, after a 4-day fetch gap from batch 7). **Wegovy GLP-1 template verbatim #5+#6** in same batch (IDs `1046013881316991` started 2026-05-04 + `1002990665415931` started 2026-05-11) — now spans **5 batches / 14-day stability window** (2026-05-06 → 2026-05-12 → 2026-05-14 → 2026-05-16 → 2026-05-20), longest single-template-stability window in the vault. **Hair Hybrids template verbatim re-launches #1+#2** post-cold-start (IDs `2064207334519052` started 2026-05-09 + `728317760309201` started 2026-04-22) — **first Hair Hybrids verbatim re-launches since the 2026-05-06 cold-start wave**, adding a second wedge to verbatim-stability evidence beyond Wegovy/Sex Rx. Plus **4 placeholders** (IDs `864218772620911`, `1286410240326521`, `1742743447107513`, `848302227664919` — start dates 2026-05-04 to 2026-05-11). Three wedges now confirmed verbatim-stable (GLP-1 + hair + sex Rx). Cumulative **61 ads**. Open: is batch 8's three-wedge surge a 4-day-gap compression artifact or a genuine surge intensification? — distinguishing requires a 1-day-cadence batch 9 (thin Hims volume = compression; thick batch 9 = intensification).
 
 ## Seven-batch template stability summary
 
@@ -120,22 +121,33 @@ Hims uses the canonical 2026 compounded-drug disclaimer template documented at [
 | 5 | 2026-05-14 | 2 | **GLP-1 verbatim re-launch #2 + Sex Rx Climax Control verbatim re-launch** — multi-instance verbatim within a single batch |
 | 6 | 2026-05-15 | 0 | (silence — 2nd Hims silence batch in 6, post-surge inventory-cycle trough) |
 | 7 | 2026-05-16 | 3 | **GLP-1 verbatim re-launch #3 + Sex Rx Climax Control verbatim re-launch #2 + 1 placeholder** — second multi-wedge surge in 3 batches; mirrors batch 5 |
+| **8** | **2026-05-20** | **8** | **THREE-WEDGE surge — Wegovy GLP-1 verbatim #4+#5 + Hair Hybrids verbatim re-launches #1+#2 + 4 placeholders** — largest single-batch Hims volume since cold start; first Hair Hybrids verbatim re-launches post-cold-start; 4-day fetch gap from batch 7 |
 
-### Wegovy GLP-1 verbatim instances (4-batch / 10-day stability window)
+### Wegovy GLP-1 verbatim instances (5-batch / 14-day stability window)
 
 | Batch | Date | Ad ID | Started |
 |---|---|---|---|
 | 1 | 2026-05-06 | (initial wave) | early Apr 2026 |
 | 4 | 2026-05-12 | `3567971296700086` | 2026-05-07 |
 | 5 | 2026-05-14 | `956466943766183` | 2026-05-04 |
-| **7** | **2026-05-16** | **`1693764951776930`** | **2026-05-13** |
+| 7 | 2026-05-16 | `1693764951776930` | 2026-05-13 |
+| **8** | **2026-05-20** | **`1046013881316991` + `1002990665415931`** | **2026-05-04, 2026-05-11** |
 
 ### Sex Rx + Climax Control verbatim instances (2-batch stability window)
 
 | Batch | Date | Ad ID | Started |
 |---|---|---|---|
 | 5 | 2026-05-14 | `3275837862576962` | 2026-04-21 |
-| **7** | **2026-05-16** | **`1683250979537135`** | **2026-04-30** |
+| 7 | 2026-05-16 | `1683250979537135` | 2026-04-30 |
+
+### Hair Hybrids verbatim instances (post-cold-start re-launches)
+
+| Batch | Date | Ad ID | Started |
+|---|---|---|---|
+| 1 | 2026-05-06 | (initial 10+ wave) | early Apr 2026 |
+| **8** | **2026-05-20** | **`2064207334519052` + `728317760309201`** | **2026-05-09, 2026-04-22** |
+
+First Hair Hybrids verbatim re-launches in this farm — adds a **second wedge** to verbatim-stability evidence beyond Wegovy/Sex Rx. Three wedges (GLP-1, hair, sex Rx) now confirmed verbatim-stable.
 
 In 10 days the only structural innovation has been Hard Mints' four-bullet variant for the high-objection ED non-responder category. Everything else is verbatim template reuse — across multiple wedges, often within the *same* batch. **Inside-structure A/B testing dominates over template variation.** Batches 5 and 7 both ship two-wedge simultaneous re-launches — the **alternating surge-trough wave cadence** is now confirmed across the 5→6→7 sequence as the standing creative-ops pattern. Direct implication for [[medvi-positioning]]: mirroring the Hims template is the safe baseline; differentiating on Pricing/UX inside the bullet block (not the structure) is where the test surface lives.
 
