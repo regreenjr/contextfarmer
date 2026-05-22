@@ -1,10 +1,10 @@
 ---
 title: Compounded Drug Disclaimer
 category: concept
-summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints"); 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches; **2026-05-20 batch ships the Wegovy/FDA-approved disclaimer block verbatim for the 5th time (14-day stability window — longest in the vault) AND the Hair Hybrids disclaimer block verbatim re-launches for the first time post-cold-start** — disclaimer language stability now confirmed across three wedges (Wegovy/GLP-1, Hair Hybrids, Sex Rx Climax Control), tracking parent-template stability on the surge-trough wave cadence
-tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1, hair-hybrids]
-sources: 4
-updated: 2026-05-20
+summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints"); 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches; 2026-05-20 batch ships the Wegovy/FDA-approved disclaimer block verbatim for the 5th time (14-day stability window — longest in the vault) and the Hair Hybrids disclaimer block verbatim re-launches for the first time post-cold-start; **2026-05-22 batch 9 ships Hair Hybrids disclaimer verbatim 3 more times (5 cumulative post-cold-start re-launches across batches 8+9 / 16-day stability window) while the Wegovy disclaimer goes silent** — disclaimer language stability tracks parent-template surge-composition rotation between wedges, not all-three-every-time
+tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1, hair-hybrids, surge-composition-rotation]
+sources: 5
+updated: 2026-05-22
 ---
 
 # Compounded Drug Disclaimer
@@ -108,6 +108,7 @@ Medvi creative should default to the Hims template and only deviate with explici
 - [[sources/ads-digest-2026-05-10]] — Hard Mints variant adds a fifth disclaimer phrasing for chewable compounded products
 - [[sources/ads-digest-2026-05-16]] — Sex Rx + Climax Control disclaimer ships verbatim for the 2nd time (after batch 5) + Wegovy/FDA-approved disclaimer block ships verbatim for the 4th time (10-day stability window) — disclaimer language stability tracks parent template stability across the alternating surge-trough wave cadence
 - [[sources/ads-digest-2026-05-20]] — Wegovy/FDA-approved disclaimer block ships **verbatim for the 5th time (14-day stability window — longest in the vault)** across 2 ad-library entries in the same batch + **Hair Hybrids disclaimer block ships verbatim re-launches for the first time post-cold-start** (2 ad-library entries) — disclaimer language stability now confirmed across **three wedges** (Wegovy/GLP-1 + Hair Hybrids + Sex Rx Climax Control); first time the Hair Hybrids "Hair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs" block surfaces in a non-cold-start batch
+- [[sources/ads-digest-2026-05-22]] — **Hair Hybrids disclaimer ships verbatim 3 more times in one batch** (IDs `3372941842875795` started 2026-02-26 — oldest Hair Hybrids verbatim re-launch surfaced post-cold-start; `868992329557540` started 2026-05-06; `2498995467227011` started 2026-05-19). **5 cumulative post-cold-start Hair Hybrids disclaimer re-launches across batches 8+9 / 16-day stability window** spanning ~12 weeks of start dates. **Wegovy/FDA-approved disclaimer is SILENT in this batch** for the first time since the 4→5→7→8 verbatim rotation pattern was established — disclaimer language stability tracks **surge-composition rotation** between wedges (Hair-Hybrids-only in batch 9, Wegovy+Hair-Hybrids in batch 8, Wegovy-only in batches 4/5/7), not all-three-every-time
 
 ## Open questions
 

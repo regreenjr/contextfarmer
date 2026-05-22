@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 8 batches; 6 cumulative ads, all `{{product.brand}}` body text; **2026-05-20 batch ships 2 ads in one batch — first non-cold-start multi-ad Ro batch** (IDs `2277114206027622` started 2026-05-14 + `2238568280301485` started 2026-05-08), breaking the 4-batches-of-≤1-ad pattern (still placeholder-only); open whether this is a 4-day fetch-gap compression artifact or a genuine pickup in Ro's catalog cadence; the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 8 batches
-tags: [organization, dtc, telehealth, glp-1, competitor, ro]
-sources: 8
-updated: 2026-05-20
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 9 batches; 7 cumulative ads, all `{{product.brand}}` body text; batch 8 (2026-05-20) shipped 2 ads after 4-day fetch gap raising compression-vs-intensification question; **batch 9 (2026-05-22, 2-day gap) drops back to 1 ad — CONFIRMS the fetch-gap compression hypothesis** (per-day rates match: 0.5 Ro ads/day in both batches 8 and 9); the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 9 batches
+tags: [organization, dtc, telehealth, glp-1, competitor, ro, fetch-gap-compression-confirmed]
+sources: 9
+updated: 2026-05-22
 ---
 
 # Ro
@@ -62,6 +62,21 @@ No new Ro ads. **Sixth straight batch with no signal-bearing creative.** Batch 6
 
 **First Ro signal in 5 batches.** 1 new placeholder ad — ID `1542915227491027`, started 2026-05-04, format unknown, body `{{product.brand}}`.
 
+### 2026-05-22 batch (1 ad — returns to baseline, CONFIRMS fetch-gap compression)
+
+**First confirmation that batch 8's 2-ad volume was a 4-day-gap compression artifact.** 1 new placeholder ad after 2-day gap from batch 8:
+
+- ID `946235747996438`, started 2026-04-28, format unknown, body `{{product.brand}}`
+
+**Per-day rate comparison (decisive test of compression-vs-intensification)**:
+
+| Batch | Gap (days) | Ro ads | Ro ads/day |
+|---|---|---|---|
+| 8 | 4 | 2 | 0.50 |
+| 9 | 2 | 1 | 0.50 |
+
+Identical per-day rates. **Fetch-gap compression hypothesis confirmed** — batch 8's 2-ad volume was 4 days of typical ad-shipping cadence collapsed into one fetch, not a genuine pickup in Ro's catalog cadence. Cumulative **7 Ro ads across 9 batches, ALL placeholder-only**.
+
 ### 2026-05-20 batch (2 ads — first non-cold-start multi-ad Ro batch)
 
 **First multi-ad Ro batch since cold start.** 2 new placeholder ads after a 4-day fetch gap from batch 7:
@@ -77,7 +92,8 @@ No new Ro ads. **Sixth straight batch with no signal-bearing creative.** Batch 6
 | 2 | 2026-05-10 | 2 | 3 (started 2026-05-04, 2026-04-28) |
 | 3-6 | 2026-05-11 to 2026-05-15 | 0 | 3 (4-batch silence) |
 | 7 | 2026-05-16 | 1 | 4 (started 2026-05-04) |
-| **8** | **2026-05-20** | **2** | **6 (started 2026-05-14, 2026-05-08)** |
+| 8 | 2026-05-20 | 2 | 6 (started 2026-05-14, 2026-05-08) |
+| **9** | **2026-05-22** | **1** | **7 (started 2026-04-28)** |
 
 **Pattern persists across the longest window in the farm**: Ro's bare-"Ro" page (whichever it is) runs **catalog-driven dynamic creative only**. All 6 placeholder ads ship `{{product.brand}}` body text; **zero static narrative across 8 batches**. Batch 8's 2-ad volume is the first signal that Ro may be picking up catalog cadence — but it's confounded by the 4-day fetch gap (1-day cadence might have spread these across 2 batches).
 
@@ -103,6 +119,7 @@ New batch 8 noise additions to the bare-"Ro" corpus: **Hero FinCorp** (Indian fi
 - [[ads-digest-2026-05-15]] — 0 new ads (6th batch with no signal); Heirloom Roses ("Ro" prefix in "Roses") adds first plural-noun substring root cause to the cumulative "Ro" noise corpus; bare-"Ro" filter remains decisively net-negative across 6 batches
 - [[ads-digest-2026-05-16]] — **1 new placeholder ad — breaks 5-batch Ro silence** (ID `1542915227491027`, started 2026-05-04, body `{{product.brand}}`); 4 cumulative Ro ads across 7 batches, ALL placeholder-only; Sean Gracet Roset (AI photo app, "Roset" = "Ro" substring) adds new sub-pattern to noise corpus (first AI/tech consumer-app via "Ro")
 - [[ads-digest-2026-05-20]] — **2 new placeholder ads — first non-cold-start multi-ad Ro batch** (IDs `2277114206027622` started 2026-05-14 + `2238568280301485` started 2026-05-08, both body `{{product.brand}}`); 6 cumulative Ro ads across 8 batches, ALL placeholder-only; open whether batch 8's 2-ad signal is a 4-day fetch-gap compression artifact or a genuine pickup in Ro's catalog cadence; new "Ro" substring noise additions: Hero FinCorp + Carolina Freightways + Rough Country + Cholesterol Support Group + SecretRomance multi-cloud-variant (first per-page-ID-allow-listing bypass pattern via sub-page proliferation)
+- [[ads-digest-2026-05-22]] — **1 new placeholder ad — returns to baseline ≤1-ad pattern after 2-day gap from batch 8** (ID `946235747996438`, started 2026-04-28, body `{{product.brand}}`); **decisively confirms fetch-gap compression hypothesis** — per-day rates identical across batches 8 and 9 (0.50 Ro ads/day in both); 7 cumulative Ro ads across 9 batches, ALL placeholder-only; new noise additions: Hampton Water Rosé (wine brand, 15th distinct Hampton-substring noise — NOT Hampton Founders) + Gardens of Eden (garden/landscaping, 11th distinct "Eden" noise brand)
 
 ## Open questions
 
