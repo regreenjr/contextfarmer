@@ -1,10 +1,10 @@
 ---
 title: Brad Bonanno
 category: entity
-summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice on Telegram + Scheduled Tasks + Auto Memory; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour — the most comprehensive Anthropic product-surface inventory tracked here; in 2026-05-14 ships **Phase 3 of his product trajectory** — the [[execution-layer]] (skill marketplace + sub-plugins for sales/ops/CS + PR-back loop that turns every correction into a permanent company-wide upgrade); his three videos now sequence as context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3); Skills Marketplace waitlist promoted across all three videos suggests near-term launch
-tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor]
-sources: 4
-updated: 2026-05-14
+summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour; in 2026-05-14 ships [[execution-layer]] (Phase 3); **in 2026-05-21 ships Phase 4** — first-creator-walkthrough coverage of [[anthropic]]'s newly-launched [[claude-for-small-business]] vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); his four-video trajectory sequence: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3) → **Anthropic-shipped vertical plugin coverage (Phase 4)**; CFSB likely preempts his own skills-marketplace roadmap but he covers it favorably — Brad continues to be the canonical creator-side commentator on Anthropic product launches
+tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors]
+sources: 5
+updated: 2026-05-22
 ---
 
 # Brad Bonanno
@@ -69,15 +69,39 @@ Person + YouTube channel **Brad | AI & Automation**. Builder of the "AI Second B
 
 **Skills Marketplace waitlist** (`brad-b.kit.com/f9a7349a1c`) now promoted in **three videos in five weeks** — same waitlist, three positioning angles. Suggests near-term launch.
 
-## The three-phase product trajectory
+## Key video in [[youtube-digest-apify-2026-05-22]]
+
+- #7 *Why You Need Claude for Small Business* — 831 views (just-published), 2026-05-21, 6:52. **Phase 4** of his product trajectory: first-creator-walkthrough coverage of [[anthropic]]'s newly-shipped vertical plugin → New concept: [[claude-for-small-business]].
+
+**The Anthropic launch**: [[claude-for-small-business]] is the **first Anthropic-shipped vertical plugin** — installed directly into the Claude desktop app, pre-wired with:
+
+- **Connectors** ([[mcp]] servers) for QuickBooks / Xero / Stripe / PayPal / Square / HubSpot / Gmail
+- **~30 pre-built skills** (Monday brief / call list / plan payroll / close month / handle complaint / run campaign / Friday brief / quarterly review / CRM maintenance / invoice chase + 20 more)
+- **`/smb-onboard` meta-skill** — customizes every skill to the user's business / industry / headcount / tools (skill-creator-shape)
+
+**Brad's framing**: install in under 3 minutes; `/smb-onboard` rewrites skills; connector flexibility (swap Xero for QuickBooks etc); live demos of Monday brief synthesizing financials+deals+calendar + call list ranking top 5 leads + CRM maintenance logging meetings to HubSpot + invoice chase skipping paid customers.
+
+**Distribution funnel**:
+- **Small Business Skills Guide** lead magnet (`brad-b.kit.com/bb4f80fd45`)
+- **AI Strategy Call** (`cal.com/bradley-bonanno/ai-st...`)
+
+**Strategic significance**:
+
+1. **Competitive coexistence positioning** — CFSB likely **preempts Brad's own skills-marketplace waitlist** (which he's been promoting across Phases 1-3), but Brad covers it favorably and retains his role as the **execution-layer educator**. The marketplace waitlist's strategic value compresses; the educational/training value extends
+2. **Phase 4 = creator covering Anthropic-shipped products** — Brad's role evolves from "build your own skills marketplace" (Phase 3) to "use Anthropic's pre-built skills marketplace" (Phase 4). The creator-side response to verticalization is **packaging the Anthropic product** + selling tuning/customization services
+3. **`/smb-onboard` as meta-skill** validates the [[execution-layer]] PR-back-loop thesis at Anthropic scale — Anthropic builds the customization-by-onboarding meta-skill; community-side ([[brad-bonanno]] / [[alex-mcfarland]]) ships the corrections-back-as-permanent-upgrades pattern around it
+4. **Cumulative four-phase trajectory** confirms Brad as the **highest-priority creator-watch** for vault architecture evolution
+
+## The four-phase product trajectory
 
 | Phase | Video | Concept | Vault implementation |
 |---|---|---|---|
 | **1** | [[youtube-digest-apify-2026-05-03]] #23 (*Company Brain*) | [[context-farming]] | `farmers/`, `/wiki-ingest`, raw/ → wiki/ |
 | **2** | [[youtube-digest-apify-2026-05-10]] #2 (*Learn Claude From Scratch*) | 13-product surface tour (Anthropic inventory) | (Reference inventory in [[anthropic]] page) |
 | **3** | [[youtube-digest-apify-2026-05-14]] #1 (*Execution Layer*) | [[execution-layer]] | **Not yet implemented** — productization layer above the vault |
+| **4** | [[youtube-digest-apify-2026-05-22]] #7 (*Why You Need Claude for Small Business*) | [[claude-for-small-business]] | **Anthropic-shipped vertical plugin** — Brad covers Anthropic's product launch from the execution-layer educator role |
 
-Brad has been incrementally describing the same product across these three videos. The marketplace launch is the natural endpoint of Phase 3.
+Brad has been incrementally describing the same product across these four videos. Phase 4 represents the **creator-side response to Anthropic verticalization** — package the Anthropic product + sell tuning/customization services on top.
 
 ## Pattern artifacts to harvest
 
@@ -117,6 +141,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[youtube-digest-2026-05-03-r3]] — video #4 (OpenClaw-killer features)
 - [[youtube-digest-apify-2026-05-10]] — video #2 (Learn Claude From Scratch 13-product tour)
 - [[youtube-digest-apify-2026-05-14]] — video #1 (Execution Layer — Phase 3)
+- [[youtube-digest-apify-2026-05-22]] — video #7 (*Why You Need Claude for Small Business* — Phase 4)
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
 - [[anthropic]] — most comprehensive product-surface tour

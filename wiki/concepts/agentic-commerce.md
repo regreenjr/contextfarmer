@@ -1,10 +1,10 @@
 ---
 title: Agentic Commerce
 category: concept
-summary: The buyer-side flip in commerce: payment authority travels with the task instead of waiting at checkout; the seller's funnel crumbles as intent moves into agent context; in 2026-05-12 [[nate-b-jones]] ships the six-layer protocol taxonomy — Layer 1 merchant checkout ACP (OpenAI+Stripe) and UCP (Shopify+Google) / Layer 3 authorization AP2 (Google) / Layer 4 trusted credentials (Visa/MC/PayPal) / Layer 5 machine-to-machine rails (stablecoins / x402) / Layer 6 governance runtime (AWS Bedrock Agent Core); six camps fighting over who carries responsibility when an agent spends your money
-tags: [agentic-commerce, commerce, stripe, visa, mastercard, agents, gtm, funnel-collapse, acp, ucp, ap2, x402, stablecoins, bedrock-agent-core, governance-runtime, openai, shopify, google, aws]
-sources: 2
-updated: 2026-05-14
+summary: The buyer-side flip in commerce: payment authority travels with the task instead of waiting at checkout; in 2026-05-12 [[nate-b-jones]] ships the six-layer protocol taxonomy (ACP/UCP/AP2/x402/Bedrock Agent Core); **in 2026-05-22 batch the AP2 + x402 layers re-surface inside the broader [[agent-protocol-stack]]** ([[nate-b-jones]] #6) — AP2 (Google) is the mandate-mechanic authorization layer; x402 (Stripe) is the HTTP-native machine-to-machine rails; both placed in the 6-protocol agent stack as **contested layers** (vs settled MCP/A2A/AG-UI); **also: payments control point in [[infrastructure-control-layer]]** (Nate B Jones #12) places Stripe + card networks as one of 5 substrate-vendor control points; **the [[prove-it-economy]] framework** (Nate B Jones #10 same batch) names the marketing-side consequence — AI agents now sit between buyers and brands, the seller's funnel has fully crumbled
+tags: [agentic-commerce, commerce, stripe, visa, mastercard, agents, gtm, funnel-collapse, acp, ucp, ap2, x402, stablecoins, bedrock-agent-core, governance-runtime, openai, shopify, google, aws, agent-protocol-stack, infrastructure-control-layer, prove-it-economy, two-internet, payments-control-point]
+sources: 3
+updated: 2026-05-22
 ---
 
 # Agentic Commerce

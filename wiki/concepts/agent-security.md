@@ -1,10 +1,10 @@
 ---
 title: Agent Security (Procurement-Side + Architectural Pattern)
 category: concept
-summary: [[nate-b-jones]]'s two-part frame for agent security — (procurement) AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem (McKinsey Lilly $20 SQL injection through 22 of 200 unauthenticated endpoints; "does your platform know humans from agents") + (architecture) the build pattern is a separate LLM-as-judge at the action boundary, with four action-risk classes (read / write / high-stakes / external-irreversible) and Lindy as the public case study after agents started sending unauthorized emails
-tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow, llm-as-judge, judge-architecture, action-boundary, lindy, four-class-action-taxonomy]
-sources: 2
-updated: 2026-05-12
+summary: [[nate-b-jones]]'s two-part frame for agent security — (procurement) AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem (McKinsey Lilly $20 SQL injection); "does your platform know humans from agents" + (architecture) separate LLM-as-judge at the action boundary, four action-risk classes (read / write / high-stakes / external-irreversible), Lindy public case study; in 2026-05-22 batch extends to a **third dimension** — the **kill switch as multi-layer product feature** per [[infrastructure-control-layer]] (Nate B Jones #12) operating across runtime + identity + data + payments + observability simultaneously; **MCP as security boundary** ([[agent-protocol-stack]] chapter 4:50) extends the judge-architecture pattern at the protocol layer — judges are deployed at MCP-server perimeters; the build-time complement to runtime judge is **Security Scan** (Anthropic internal skill surfaced by [[ai-labs]]) which catches the same vulnerability classes at CI/PR time
+tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow, llm-as-judge, judge-architecture, action-boundary, lindy, four-class-action-taxonomy, kill-switch, multi-layer, infrastructure-control-layer, mcp-security-boundary, security-scan, ai-labs, identity, workos, okta, auth0, entra]
+sources: 3
+updated: 2026-05-22
 ---
 
 # Agent Security (Procurement-Side)

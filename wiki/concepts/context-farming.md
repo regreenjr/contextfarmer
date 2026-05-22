@@ -1,10 +1,10 @@
 ---
 title: Context Farming
 category: concept
-summary: Pattern of running scheduled agents that pull fresh context from external systems (Slack, meetings, YouTube, X) into a local knowledge base on autopilot
-tags: [context-farming, second-brain, claude-code, mcp, automation, brad-bonanno]
-sources: 1
-updated: 2026-05-03
+summary: Pattern of running scheduled agents that pull fresh context from external systems (Slack, meetings, YouTube, X) into a local knowledge base on autopilot; in 2026-05-22 batch **[[eric-tech]] ships a `/wiki` skill that automates the exact pattern** — same primitive triple as this vault (skill + farmer subagents + cron scheduling) — first creator-shipped parallel of this vault's architecture; convergent-evolution proof + competitive datapoint that the pattern is no longer differentiating in itself
+tags: [context-farming, second-brain, claude-code, mcp, automation, brad-bonanno, eric-tech, wiki-skill, farmer-subagents, cron, convergent-evolution]
+sources: 2
+updated: 2026-05-22
 ---
 
 # Context Farming

@@ -1,16 +1,48 @@
 ---
 title: Andrej Karpathy
 category: entity
-summary: Co-founder of OpenAI, ex-Tesla AI head, founder of Eureka Labs; author of the LLM Wiki gist (now commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within four weeks), "autoresearch" skill, and "vibe coding" / "Software 3.0" / "agentic engineering" framings; his 3.5hr "Deep Dive into LLMs" (6.27M views) is the canonical mainstream LLM explainer
-tags: [person, ai-researcher, openai, eureka-labs, karpathy, llm-wiki, autoresearch, vibe-coding, knowledge-layer, pinecone]
-sources: 3
-updated: 2026-05-10
+summary: **Joins [[anthropic]] in 2026-05** (per [[nate-herk]] 105K-view 2026-05-19 coverage) — the LLM Wiki author crosses to the lab whose product line he's been parallel-tracking; previously co-founder of [[openai]], ex-Tesla AI head, founder of Eureka Labs; author of the **LLM Wiki gist** (now commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within four weeks), **`autoresearch`** skill, and **"vibe coding" / "Software 3.0" / "agentic engineering"** framings; his 3.5hr "Deep Dive into LLMs" (6.27M views) is the canonical mainstream LLM explainer; the Anthropic hire converts his external-creator gist artifacts into **about-to-be-first-party Anthropic architecture** — closes several previously-open vault threads
+tags: [person, ai-researcher, openai, anthropic, anthropic-employee, karpathy-joins-anthropic, eureka-labs, karpathy, llm-wiki, autoresearch, vibe-coding, knowledge-layer, pinecone, claude-code, data-moat, context-marketplace, education-layer, goal-loops]
+sources: 4
+updated: 2026-05-22
 ---
 
 # Andrej Karpathy
 
 ## What it is
-Person. Co-founder of OpenAI, former head of AI at Tesla, founder of [Eureka Labs](https://eurekalabs.ai). One of the most-followed AI educators and an originator of multiple framings ("vibe coding," "Software 3.0," "agentic engineering," "LLM Wiki") that the AI-creator ecosystem reuses heavily.
+Person. **Joined [[anthropic]] in 2026-05** — co-founder of [[openai]], former head of AI at Tesla, founder of [Eureka Labs](https://eurekalabs.ai). One of the most-followed AI educators and an originator of multiple framings ("vibe coding," "Software 3.0," "agentic engineering," "LLM Wiki") that the AI-creator ecosystem reuses heavily.
+
+## 2026-05-19 — Karpathy joins Anthropic
+
+The **major news event** in [[youtube-digest-apify-2026-05-22]]. Per [[nate-herk]] *What Karpathy Joining Anthropic Actually Means For Claude* (105K views, the highest-views entry in the batch and the highest-views news video in this vault):
+
+**The why-it-makes-sense thesis** (chapters 3:57-8:52 of Nate Herk #3):
+
+Karpathy's recent work — **context engineering, the LLM Wiki, `/goal`-style autonomous loops** — **lines up almost perfectly with Claude Code's existing product surface**. He's been parallel-shipping the architecture Anthropic was already on. Joining unifies the two trajectories.
+
+**Nate Herk's three predictions** (chapter 12:01):
+
+1. **An "app store for context"** — Anthropic ships a marketplace for context bundles (skills + wiki + farmers + memory). Pairs with [[plugin-marketplace]] ([[alex-mcfarland]] 2026-03-16) and [[brad-bonanno]]'s skills-marketplace waitlist. **The Claude Code context-bundle marketplace is now a multi-creator prediction.**
+2. **An education layer for packaging your own workflows** — Eureka Labs provides the pedagogical pattern; Anthropic productizes it. Extension of [[skill-creator]] toward formal teaching artifacts.
+3. **Claude Code becomes the canonical "context substrate"** — wiki + farmers + skills + agents + goal-loops as the unified primitive, with Karpathy as the named architect.
+
+**"LLM Wiki and Your Data Moat" (chapter 6:25)** — Nate Herk's framing claim: in a world of commoditized models, **the wiki is the moat**. Your structured-context vault is the only thing competitors can't replicate by switching providers.
+
+**Threads the hire closes**:
+
+| Prior thread | How Karpathy hire closes it |
+|---|---|
+| `karpathy/autoresearch` vs LLM Wiki gist | Both become Anthropic-internal — productized as Claude Code primitives |
+| Whether autoresearch is the production form of LLM Wiki | Will be answered by Anthropic's product roadmap, not external creator coverage |
+| LLM Wiki future-direction | Now an Anthropic-roadmap question, not a Karpathy-gist question |
+| [[free-sample-phase]] follow-up predictions | Nate Herk's 3 predictions (chapter 12:01) supersede prior speculation |
+
+**Strategic significance**:
+
+- **The vault is no longer "implementing a Karpathy gist"** — it's implementing **what's about to become first-party Anthropic architecture**
+- **"The wrapper is the product"** (chapter 3:57) inverts the usual "thin wrapper" criticism — the wrapper (Claude Code + skills + wiki) is *exactly the product*; the model is the substrate
+- **`/goal` and AutoResearch as the same primitive** (chapter 8:52) — Karpathy's `autoresearch` skill is reframed as a `/goal`-loop ancestor; Anthropic ships the production form
+- Predictions 1 + 2 align with [[brad-bonanno]] Phase-3 [[execution-layer]] + [[alex-mcfarland]] [[plugin-marketplace]] — **three creators converging on the same near-term Anthropic roadmap** (consensus 2026-Q3 forecast)
 
 ## Why it matters for this wiki
 This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/karpathy/442a37bf3a7be1f29bda3def33b2a3eb). His framings shape how the AI-creator ecosystem talks about agents, knowledge, and engineering practice. Tracking what he posts = tracking the next mainstream wave 6-12 weeks out.
@@ -44,6 +76,7 @@ This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/ka
 - [[youtube-digest-apify-2026-05-03]] — Sequoia talk + 4 derivative wiki videos
 - [[youtube-digest-apify-2026-05-05]] — *Deep Dive into LLMs* (#8, evergreen) + `karpathy/autoresearch` surfacing (#5)
 - [[youtube-digest-apify-2026-05-10]] — LLM Wiki commercially shipped via [[the-ai-automators]] #4 + [[ai-academy]] #6 tier-4 explainer
+- [[youtube-digest-apify-2026-05-22]] — **joins [[anthropic]]** (Nate Herk #3, 105K views, the highest-views news video in vault)
 - (Future) [[youtube-digest-2026-05-03]] — covered by [[nate-herk]] in earlier yt-search digest
 
 ## Related (additions from this digest)
@@ -52,8 +85,9 @@ This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/ka
 - [[the-ai-automators]] — primary creator-channel covering the convergence
 
 ## Open questions
-- What does Eureka Labs actually ship? Education-focused, but specifics?
-- Is the LLM Wiki gist his stable position, or has `karpathy/autoresearch` superseded it as the production form? (High-priority follow-up)
+- What does Eureka Labs actually ship? Education-focused, but specifics? **What happens to Eureka Labs post-Anthropic hire?** (Acquired? Spun down? Becomes Anthropic's education layer per prediction #2?)
+- **What's Karpathy's actual title/scope at Anthropic?** (Research / Product / Distinguished Engineer — affects which Claude Code primitives he influences)
+- **Will autoresearch + LLM Wiki gist become first-party Claude Code primitives**, and on what timeline?
 - His follow-up posts on agentic engineering — is there a canonical write-up beyond the talk?
-- Does `autoresearch` use the same write-time-compile architecture as the LLM Wiki gist, or a different memory model?
 - Has Karpathy commented publicly on Pinecone Nexus / Microsoft Fabric IQ / Google Knowledge Catalog shipping his gist's architecture? (Worth searching X)
+- **Does the Anthropic hire affect OpenAI's product roadmap?** (Co-founder departing for direct competitor — first major lab-to-lab senior crossing tracked in vault)

@@ -1,10 +1,10 @@
 ---
 title: Anthropic
 category: entity
-summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; 2026 strategy is layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership doubling Claude Code rate limits + business-adoption flip vs OpenAI (2026-05-13 per Ramp/EconLab) + +50% retention rate-limit boost (3rd increase in 2 weeks, ~3x baseline); 2026-05-11 named as a six-vendor agent-security responder; **in 2026-05-15 named alongside [[openai]] as axis-1 player in the four-axis squeeze ([[agentic-implementation-layer]])** — both labs standing up deployment companies; FB ads pattern: 2026-05-14 surfaced first new ad since 2026-05-06 (placeholder, started 2026-05-11); **2026-05-15 + 2026-05-16 + 2026-05-20 batches all return 0 new ads — 3 consecutive silence batches post-2026-05-11 LOCK the "standalone launch" diagnosis** per the batch-7 ≥3-silent-batch methodology; cumulative **6 ads across 2 distinct launch windows** (5 in Mar 16 – Apr 8 + 1 standalone on 2026-05-11); despite the business-adoption flip Anthropic's *paid-social cadence* is markedly sparser than OpenAI's (6 vs 40 cumulative FB ads across the same 8-batch window — ~15% of OpenAI's volume)
-tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze, standalone-launch-locked]
-sources: 10
-updated: 2026-05-20
+summary: AI lab behind Claude / Claude Code / Claude Skills / MCP / Mythos / Skill Creator; **2026-05-19 hires [[andrej-karpathy]]** — the LLM Wiki author crosses from [[openai]] (his co-founded lab) to Anthropic per [[nate-herk]]'s 105K-view coverage; **2026-05-21 ships [[claude-for-small-business]]** — first Anthropic vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); 2026 strategy now: layering Claude into other vendors' apps + rumored Atlassian acquisition + SpaceX compute partnership + business-adoption flip vs OpenAI (2026-05-13) + +50% retention rate-limit boost + Karpathy hire + first vertical plugin launch; 2026-05-11 named as a six-vendor agent-security responder; **in 2026-05-15 named alongside [[openai]] as axis-1 player in the four-axis squeeze ([[agentic-implementation-layer]])** — both labs standing up deployment companies; FB ads pattern: 6 cumulative ads across 2 distinct launch windows (5 in Mar 16 – Apr 8 + 1 standalone on 2026-05-11); 3 consecutive silence batches post-2026-05-11 LOCK the "standalone launch" diagnosis; paid-social cadence ~15% of OpenAI's despite the adoption flip
+tags: [organization, ai-lab, anthropic, claude, claude-code, enterprise, ads, mythos, spacex, code-comprehensibility, skill-creator, agent-security, business-adoption, ramp-data, rate-limits, free-sample-phase, agentic-implementation-layer, deployment-company, axis-1, four-axis-squeeze, standalone-launch-locked, karpathy-hire, claude-for-small-business, vertical-plugin, smb-onboard, prompt-caching, opus-4.7]
+sources: 11
+updated: 2026-05-22
 ---
 
 # Anthropic
@@ -112,6 +112,42 @@ Strategic significance:
 
 **Open**: how durable is the adoption flip? Need 2-3 months of additional Ramp data to confirm consolidation vs flip-flop.
 
+### 2026-05-19 — [[andrej-karpathy]] joins Anthropic (per [[nate-herk]] #3 in [[youtube-digest-apify-2026-05-22]])
+
+**The major personnel event in this vault.** Karpathy — co-founder of [[openai]], author of the [[karpathy-llm-wiki]] gist, originator of "vibe coding" / "Software 3.0" / "agentic engineering" — joins Anthropic. Nate Herk's coverage is 105K views (highest-views news video in this vault) and frames the hire as **the convergence of two parallel architectures**: Karpathy's context-engineering + LLM Wiki + `/goal`-style autonomous loops were already where Claude Code was heading.
+
+**Nate Herk's three predictions** (chapter 12:01 of Nate Herk #3):
+
+1. **"App store for context"** — Anthropic ships a marketplace for context bundles (skills + wiki + farmers + memory). Aligns with [[plugin-marketplace]] ([[alex-mcfarland]]) and [[brad-bonanno]]'s skills-marketplace waitlist — **three-creator convergent prediction** for 2026-Q3.
+2. **Education layer** — Eureka Labs pattern productized as Anthropic's pedagogical primitive. Extends [[skill-creator]] toward formal teaching artifacts.
+3. **Claude Code becomes the canonical "context substrate"** — wiki + farmers + skills + agents + goal-loops unified, with Karpathy as named architect.
+
+**Strategic significance for Anthropic**:
+
+- **First major OpenAI → Anthropic senior crossing** tracked in this vault — first lab-to-lab co-founder-tier move
+- Converts [[karpathy-llm-wiki]] and `karpathy/autoresearch` from external creator artifacts into **about-to-be-first-party Anthropic architecture**
+- **"The wrapper is the product"** thesis (Nate Herk chapter 3:57) inverts the thin-wrapper critique — Claude Code + skills + wiki + memory is *the product*, the model is *the substrate*
+- Validates the [[free-sample-phase]] retention war (axis-1 deployment-company strategy) — Karpathy's hire is the **product-leadership move** that complements the **business-adoption flip**
+- Open: what's Karpathy's actual title/scope at Anthropic? Affects which Claude Code primitives he influences directly
+
+### 2026-05-21 — Claude for Small Business launch (per [[brad-bonanno]] #7 in [[youtube-digest-apify-2026-05-22]])
+
+**Anthropic ships its first vertical plugin** — [[claude-for-small-business]] — a desktop-app-installed plugin bundling:
+
+- **Connectors** (MCP servers) pre-wired for: QuickBooks, Xero, Stripe, PayPal, Square, HubSpot, Gmail
+- **~30 pre-built skills** mapped to SMB jobs-to-be-done (Monday brief / call list / plan payroll / close month / handle complaint / run campaign / Friday brief / quarterly review / CRM maintenance / invoice chase + ~20 more)
+- **`/smb-onboard` meta-skill** — customizes every skill in the pack to the user's business / industry / headcount / tools (skill-creator-shape meta-skill)
+- **Connector flexibility** — swap Xero for QuickBooks etc. post-install
+
+**Strategic significance**:
+
+1. **First Anthropic-shipped vertical plugin** — Anthropic's product surface (Brad's 13-product tour) was previously horizontal. CFSB is the **first vertical-targeted, opinionated, pre-composed** product
+2. **30 pre-built skills = canonical "skills as product" instantiation** — [[claude-skills]] / [[plugin-marketplace]] / [[execution-layer]] roadmap is shipping as **Anthropic-owned vertical plugins**, not just community marketplaces
+3. **Competes with [[brad-bonanno]]'s own skills-marketplace roadmap** — Anthropic preempts Brad's similar vertical launch
+4. **Pairs with [[chief-ai-officer]]** ([[nate-herk]] #4 same batch) — CFSB for SMBs (sub-200 employees), CAIO for mid-market. Same demand curve, two product wedges at different company sizes
+5. **`/smb-onboard` confirms meta-skills as Anthropic-shipped product category** — not just a community pattern ([[skill-creator]] is meta-skill #1 from Anthropic; `/smb-onboard` is meta-skill #2)
+6. **Open**: pricing model, sibling vertical-plugin roadmap (Claude for Retail / Healthcare / Legal), 30-skill open-source status
+
 ### Deployment-company axis (per [[nate-b-jones]] #2 in [[youtube-digest-apify-2026-05-15]])
 
 In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 25:52), Anthropic is named alongside [[openai]] as **axis-1** of the four-axis squeeze on generic enterprise AI:
@@ -189,7 +225,8 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 
 ## Related
 - [[claude-code]], [[claude-skills]], [[mcp]], [[claude-design]] — products
-- [[andrej-karpathy]] — not at Anthropic but his frameworks (LLM Wiki, agentic engineering) shape the ecosystem Anthropic ships into
+- [[andrej-karpathy]] — **joined Anthropic in 2026-05-19** (per [[nate-herk]] 105K-view coverage); his frameworks (LLM Wiki, agentic engineering, autoresearch, `/goal` loops) now becoming first-party Anthropic primitives
+- [[claude-for-small-business]] — first vertical plugin (launched 2026-05-21)
 - [[agent-substrate]] — the strategic frame that explains the Atlassian rumor
 - [[agentic-commerce]] — Anthropic likely a player here too
 - [[free-sample-phase]] — substrate-economics framing for the 2026-05-13 retention war (downstream visible effect)
@@ -207,7 +244,8 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - [[ads-digest-2026-05-15]] — 0 new Anthropic ads — returns to silence after the single 2026-05-11 carousel (universal-silence batch across all 8 tracked anchors); cumulative remains 6 ads across 2 launch windows; open whether batch 7+ continues the slow-cluster (additional ads from the 2026-05-11+ window expand catalog feed) or confirms the 2026-05-11 ad as a standalone launch
 - [[ads-digest-2026-05-16]] — **0 new Anthropic ads — 2nd consecutive silence batch post-2026-05-11.** "Standalone launch" hypothesis strengthens over "slow cluster"; one more silent batch (batch 8) would lock the diagnosis. Cumulative remains 6 ads across 2 launch windows (5 in Mar 16 – Apr 8 + 1 on 2026-05-11). Contrast with [[openai]]'s same-batch behavior — 2 new May 8 ads expand cluster 2 from 6 → 8, decisively disproving batch 6's "fully dedup-cached" diagnosis. Anthropic remains markedly sparser than OpenAI in FB-ad cadence (6 vs 33 cumulative ads across the same window)
 - [[ads-digest-2026-05-20]] — **0 new Anthropic ads — 3rd consecutive silence batch post-2026-05-11 LOCKS the "standalone launch" diagnosis** per the batch-7 ≥3-silent-batch methodology. Batch 8's 4-day fetch gap would have captured any new ads in 2026-05-17 → 2026-05-20 — none surfaced. Cumulative remains 6 ads across 2 launch windows. Cadence vs [[openai]] in same 8-batch window: Anthropic 6 / OpenAI 40 — Anthropic's paid-social cadence is ~15% of OpenAI's despite the 2026-05-13 business-adoption flip. Anthropic's pattern is sparse standalone launches; OpenAI's is continuous cluster expansion.
-- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]], [[agentic-implementation-layer]] — concept pages
+- [[youtube-digest-apify-2026-05-22]] — **[[andrej-karpathy]] joins Anthropic** ([[nate-herk]] #3, 105K views) + **[[claude-for-small-business]] launch** ([[brad-bonanno]] #7) — first vertical plugin
+- [[claude-code]], [[claude-skills]], [[code-comprehensibility]], [[skill-creator]], [[agent-security]], [[free-sample-phase]], [[agentic-implementation-layer]], [[claude-for-small-business]] — concept pages
 
 ## Open questions
 - Is the Atlassian rumor priced into Anthropic strategy, or speculative? (Watch for confirmation/denial)

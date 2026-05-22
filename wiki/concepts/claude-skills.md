@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; curation videos hit ~80-135K views; skill-authoring has a 229K-view voice (Ben AI); composition discipline ("Skill Systems") named by Simon Scrapes; Skills also exist on OpenAI Codex (cross-vendor primitive); in 2026-05-10 [[nate-b-jones]] places Skills inside a 6-layer agentic-scaffolding taxonomy ([[plugins]]) and [[brad-bonanno]] names Skills as "the unlock" in his 13-product Anthropic tour; in 2026-05-11 [[chase-ai]] ships the first first-hand [[skill-creator]] walkthrough (107K views) and names the canonical two-types eval split — capability uplift vs encoded preference; in 2026-05-12 [[zinho-automates]] introduces the daily-driver curation sub-format (smaller-N, frequency-of-use selection); in 2026-05-14 [[brad-bonanno]] names the **deployment / team-scaling layer above Skills** ([[execution-layer]]) — Skills wired by reference (not hard-code), private team marketplace, sub-plugins, PR-back loop
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment]
-sources: 10
-updated: 2026-05-14
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category: (1) **[[ai-labs]] reverse-engineers the internal Anthropic skill stack** — Anthropic-released public plugins (Frontend Designer / Code Simplifier / Commit Commands) + internal team skills behind CLI flags (Verify / Skillify / Tech Debt / Batch / Security Scan); and (2) **[[anthropic]] ships [[claude-for-small-business]]** — first vertical-plugin product with ~30 pre-built skills + connectors + `/smb-onboard` meta-skill; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]])
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs]
+sources: 11
+updated: 2026-05-22
 ---
 
 # Claude Skills
@@ -196,6 +196,40 @@ This puts authoring (not just curation) in mainstream-creator territory. The *Sk
   - [[brad-bonanno]] is building a verified-skills marketplace (waitlist mentioned in #19, #23)
 - **Single-plugin bundle distribution** ([[brock-mesarich]]) — packaging multiple skills as one plugin install; lowers friction for non-technical users vs per-skill installs. Different distribution philosophy from `claude-plugins-official`'s per-skill model.
 - **Curation videos as discovery layer** — until marketplace ratings exist, creator curation is the de facto signal
+
+## Anthropic-internal skill inventory ([[ai-labs]] in [[youtube-digest-apify-2026-05-22]])
+
+[[ai-labs]]'s 36K-view *Claude Code's Creator Uses These Claude Skills Every Single Day* (2026-04-03) is the **first canonical "what Anthropic uses internally" coverage** in this vault. Two categories surfaced:
+
+### Anthropic-released open-source plugins (`claude-plugins-official`)
+
+| Plugin | Purpose |
+|---|---|
+| **Frontend Designer** | Avoids generic aesthetics in UI generation |
+| **Code Simplifier** | Refactoring + dead-code elimination |
+| **Commit Commands** | Automated commit-message generation |
+
+### Reverse-engineered internal-team skills (behind CLI flags)
+
+| Skill | Purpose | Meta-skill? |
+|---|---|---|
+| **Verify** | Automated testing harness | Yes |
+| **Skillify** | Converts a working session into a reusable skill | Yes |
+| **Tech Debt** | End-of-session cleanup of incomplete work | Sort-of |
+| **Batch** | Parallelizes migrations across isolated git worktrees | No |
+| **Security Scan** | Input-validation / auth / injection-risk checks | No |
+
+The **meta-skill cluster** (Verify + Skillify + Tech Debt) extends the [[skill-creator]] category — meta-skills are now an explicit tracked category in this vault (Skill Creator + Skillify + `/smb-onboard` + [[alex-mcfarland]]'s Plugin Marketplace Builder + [[brad-bonanno]]'s `/create-farmer` are all meta-skill-shape).
+
+The **Security Scan** skill is the build-time complement to [[agent-security]] runtime judge architecture. The **Batch** skill maps onto [[deployment-framework]] Method 1 with worktree isolation as the parallelism primitive.
+
+**Pattern**: AI LABS surfaced "Skillify" before Anthropic released Skill Creator publicly (2026-04-03 vs 2026-05-11) — **community surfaces internal Anthropic skills ~6 weeks before official release**. Useful early-warning signal for upcoming primitives.
+
+## Vertical-plugin product instantiation ([[claude-for-small-business]] in [[youtube-digest-apify-2026-05-22]])
+
+[[anthropic]] ships **the first vertical plugin** on 2026-05-21 — [[claude-for-small-business]] bundles ~30 pre-built skills + connectors + the `/smb-onboard` meta-skill. This is the **canonical "skills as packaged product" instantiation** — confirms the [[execution-layer]] / [[plugin-marketplace]] roadmap is shipping as **Anthropic-owned vertical plugins**, not just community marketplaces.
+
+Predictable sibling launches: Claude for Retail, Claude for Healthcare, Claude for Legal.
 
 ## Top-rated skills surfaced (per [[nate-herk]] #25)
 

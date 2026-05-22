@@ -1,10 +1,10 @@
 ---
 title: Execution Layer
 category: concept
-summary: [[brad-bonanno]]'s 2026-05-14 framework — the second layer above a "second brain" that takes business context and runs real playbooks/SOPs to return *finished work*; sits above [[karpathy-llm-wiki]] / [[knowledge-layer]] / [[context-farming]] (all knowledge/context layers) and below the orchestration layer; concrete primitives are skills wired to the brain via reference (not hard-code), private team marketplace from a free GitHub template, sub-plugins for sales/ops/CS as the team grows, and a PR-back loop where every correction becomes a permanent upgrade across the company; "the new hire who joined yesterday is running on the back of every lesson your team has ever taught the skill"; in 2026-05-16 [[alex-mcfarland]]'s [[plugin-marketplace]] surfaces as the **build-walkthrough counterpart** to this deployment-pattern framework — Alex's video predates Brad's by 2 months (2026-03-16 vs 2026-05-14), suggesting Brad's [[execution-layer]] codified what Alex was already shipping
-tags: [execution-layer, second-brain, company-brain, skills-marketplace, sub-plugins, pr-back-loop, brad-bonanno, claude-skills, context-farming, team-scaling, cross-vendor, plugin-marketplace, alex-mcfarland]
-sources: 2
-updated: 2026-05-16
+summary: [[brad-bonanno]]'s 2026-05-14 framework — the layer above a "second brain" that takes business context and runs real playbooks/SOPs to return *finished work*; concrete primitives are skills wired by reference (not hard-code), private team marketplace, sub-plugins for sales/ops/CS, PR-back loop; 2026-05-16 [[alex-mcfarland]]'s [[plugin-marketplace]] surfaces as the build-walkthrough counterpart; **in 2026-05-22 [[anthropic]] ships [[claude-for-small-business]] — the canonical "execution layer for SMBs" packaged product** (30 pre-built skills + `/smb-onboard` meta-skill + MCP connectors); CFSB **competes with Brad's own skills-marketplace roadmap** by shipping the SMB-targeted vertical plugin ahead of Brad's similar launch; Brad's own coverage (Phase 4) pivots toward "package + tune the Anthropic product" instead of "build your own from scratch"
+tags: [execution-layer, second-brain, company-brain, skills-marketplace, sub-plugins, pr-back-loop, brad-bonanno, claude-skills, context-farming, team-scaling, cross-vendor, plugin-marketplace, alex-mcfarland, claude-for-small-business, anthropic-verticalization, smb-onboard, meta-skill]
+sources: 3
+updated: 2026-05-22
 ---
 
 # Execution Layer

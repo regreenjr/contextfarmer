@@ -1,10 +1,10 @@
 ---
 title: Karpathy LLM Wiki
 category: concept
-summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within ~four weeks (the [[knowledge-layer]] convergence); a sibling Karpathy project (autoresearch) surfaces in mainstream curation
-tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent]
-sources: 4
-updated: 2026-05-10
+summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within ~four weeks (the [[knowledge-layer]] convergence); **2026-05-19 [[andrej-karpathy]] joins [[anthropic]]** — converts the pattern from external-creator-gist to **about-to-be-first-party-Anthropic-architecture**, with [[nate-herk]] (105K views) explicitly framing **"the wiki is your data moat"**; **2026-05-20 [[eric-tech]] ships a `/wiki` skill** that automates the entire pattern via farmer subagents + cron scheduling — convergent-evolution evidence that the primitive triple (skill + farmer subagents + cron) is the canonical implementation
+tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent, karpathy-anthropic, eric-tech, wiki-skill, farmer-subagents, cron, data-moat, anthropic-internal-future, context-marketplace]
+sources: 5
+updated: 2026-05-22
 ---
 
 # Karpathy LLM Wiki
@@ -21,6 +21,8 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **2026-05**: `karpathy/autoresearch` surfaces in [[dubibubii]]'s 33-tool curation ([[youtube-digest-apify-2026-05-05]] #5) — a separately-published Karpathy skill, **distinct from the LLM Wiki gist**. Open question whether autoresearch is the production form of this pattern or a sibling research-agent skill with different mechanics.
 - **2026-05-10**: pattern is **commercially shipped** — [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog all ship the same architecture in ~4 weeks (per [[the-ai-automators]] #4 in [[youtube-digest-apify-2026-05-10]]). Pinecone's framing post: *"~85% of an agent's effort goes to retrieval rather than reasoning"* — admission that agentic RAG has fundamental architectural problems. Pinecone Nexus's three components (Context Compiler, Composable Retriever, KnowQL) explicitly map onto Karpathy wiki primitives. → [[knowledge-layer]] is the category page for the convergence.
 - **2026-05-10**: tier-4 awareness saturation — [[ai-academy]]'s 687-view explainer in [[youtube-digest-apify-2026-05-10]] #6 marks the bottom of the creator funnel; the pattern is now mainstream-explainer-saturated.
+- **2026-05-19**: **[[andrej-karpathy]] joins [[anthropic]]** (per [[nate-herk]] 105K-view coverage in [[youtube-digest-apify-2026-05-22]]). Major implications: (1) the LLM Wiki gist and `karpathy/autoresearch` are no longer external-creator artifacts — they're **about-to-be-first-party Anthropic architecture**; (2) [[nate-herk]]'s "**LLM Wiki and Your Data Moat**" framing (chapter 6:25) makes the wiki **the explicit competitive moat** in a commoditized-model era; (3) the predictions (chapter 12:01) align with [[brad-bonanno]]'s [[execution-layer]] and [[alex-mcfarland]]'s [[plugin-marketplace]] — three creators converging on **context-marketplace + education-layer + unified-context-substrate** as the 2026-Q3 Anthropic roadmap.
+- **2026-05-20**: **[[eric-tech]] ships a `/wiki` skill** that automates the entire workflow on a cron — pulling from YouTube/Gmail/Slack/any-MCP-source into an Obsidian vault. **Same primitive triple as this vault** (skill + farmer subagents + cron scheduling). Convergent evolution = strong correctness signal; the pattern is now creator-shipped-skill territory.
 
 ## Key claims (from [[youtube-digest-apify-2026-05-03]])
 
@@ -43,6 +45,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 | [[tommy-chryst]] #1 (r3) | "PhD-level research" generic vault | Tier-3 small-channel walkthrough; positioned as ChatGPT deep-research alternative; signals pattern past tip-of-funnel |
 | [[corey-ganim]] #3 | Hermes-on-Hostinger second brain | VPS + Telegram + OpenAI Codex backend; explicit fork from Claude Code + Obsidian — pattern runs on [[hermes-agent]] substrate too |
 | [[ai-academy]] #6 | Tier-4 generic explainer | Bottom of the creator funnel; pattern at full mainstream-awareness saturation |
+| **[[eric-tech]] #8 (2026-05-22)** | **Skool-distributed `/wiki` skill** | **Same primitive triple as this vault** (skill + farmer subagents + cron); convergent-evolution from independent creator |
 | **[[pinecone]] Nexus** | **Commercial enterprise software** | **Three-component architecture (Context Compiler / Composable Retriever / KnowQL) mapping onto wiki primitives** |
 | **Microsoft Fabric IQ** | **Compiled Ontology layer** | **Inside Fabric data platform** |
 | **Google Knowledge Catalog** | **Google Cloud platform layer** | **Cloud Next launch** |
@@ -92,6 +95,7 @@ The 2026-05 commercial-shipping shift changes the strategic frame: the user's va
 - [[youtube-digest-2026-05-03-r3]] — Tommy Chryst's tier-3 walkthrough
 - [[youtube-digest-apify-2026-05-05]] — `karpathy/autoresearch` surfacing via [[dubibubii]] #5
 - [[youtube-digest-apify-2026-05-10]] — commercial-shipping convergence ([[the-ai-automators]] #4) + tier-4 saturation ([[ai-academy]] #6) + [[hermes-agent]] fork ([[corey-ganim]] #3)
+- [[youtube-digest-apify-2026-05-22]] — **Karpathy joins Anthropic** ([[nate-herk]] #3, 105K views) + **[[eric-tech]] ships /wiki skill** ([[eric-tech]] #8)
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
 - [[knowledge-layer]] — commercial-category page for the convergence
 - [[pinecone]] — commercial-vendor-of-record

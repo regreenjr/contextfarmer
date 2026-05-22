@@ -1,10 +1,10 @@
 ---
 title: Codex (OpenAI Codex CLI)
 category: concept
-summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); Nate Herk's 1hr full course is the first major educational entry tracked here — confirms Skills, Plan Mode, and weekly automations are cross-vendor patterns, not Anthropic-only; in 2026-05-13 OpenAI ships **Codex free for 2 months** (Codex Enterprise application form) as a retention play within hours of [[anthropic]] passing them in business adoption per Ramp/EconLab — the first OpenAI retention promo tracked here, the dethroned-leader move in [[nate-herk]]'s [[free-sample-phase]] framing; cost differential for cross-vendor experimentation drops to near-zero for the 2-month window
-tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise]
-sources: 2
-updated: 2026-05-14
+summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); 2026-05-13 ships Codex free for 2 months as retention play after Anthropic adoption flip; **2026-05-18 [[nate-herk]] publishes the 3-layer cross-substrate mental model** — Claude Code's `CLAUDE.md` ↔ Codex's `AGENTS.md` (instructions), skills directory (same format), agents directory (mostly compatible) — confirming cross-substrate symmetry at the *project filesystem* level, not just per-primitive; the conversion-prompt for migrating an entire project from Claude Code → Codex (or vice-versa) is now published — extends the substrate-portability playbook + makes the [[free-sample-phase]] retention war exploitable as a defensive strategy
+tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability]
+sources: 3
+updated: 2026-05-22
 ---
 
 # Codex (OpenAI Codex CLI)
@@ -77,6 +77,34 @@ Major behavioral break for OpenAI's Codex monetization stance:
 This is a **2-month consulting opportunity** — 3Ps clients who want to evaluate Codex vs Claude Code can do so during the free window with no incremental cost. A "cross-vendor substrate evaluation" engagement is more attractive now than at any prior point. The same architectural patterns (Skills, Plan Mode, [[skill-systems]], [[execution-layer]], [[retrieval-contract]]) port across both substrates per the vendor-agnostic positioning thesis.
 
 → See [[free-sample-phase]] for the broader substrate-economics framing.
+
+## 3-Layer cross-substrate mental model ([[nate-herk]] in [[youtube-digest-apify-2026-05-22]])
+
+[[nate-herk]]'s 2026-05-18 *How to Use Your Claude Code Projects in Codex in 5 Mins* (24.6K views, 8:39) ships the canonical **3-layer mental model** for cross-substrate work:
+
+| Layer | Claude Code artifact | Codex artifact | Compatible? |
+|---|---|---|---|
+| **Instructions** | `CLAUDE.md` | `AGENTS.md` | Yes — same content, different filename |
+| **Skills** | `skills/` directory | `skills/` directory | Yes — same format |
+| **Agents** | `agents/` directory | `agents/` directory | Mostly compatible — minor schema deltas |
+
+**Cross-substrate symmetry now confirmed at the *project filesystem* level**, not just per-primitive. Entire projects copy-paste between substrates with the conversion prompt Nate publishes in the video.
+
+**Chapter map**:
+- 0:00 Intro
+- 0:29 Claude vs Codex File Structure
+- 3:05 Skills & Agents Compared
+- 4:17 **The 3-Layer Mental Model**
+- 5:13 Convert Any Project Fast
+- 6:23 Using Both Together
+- 8:11 Final Thoughts
+
+**Strategic significance**:
+
+1. **Confirms [[free-sample-phase]] thesis in concrete portability terms** — "use both at once" is the canonical defensive strategy
+2. **The 3-layer model is a portable architectural primitive** — applies symmetrically to [[hermes-agent]] / [[claude-code]] / [[codex]]
+3. **First conversion prompt published** for Claude Code ↔ Codex auto-migration — extends substrate-portability playbook
+4. **This vault's `CLAUDE.md` + `AGENTS.md`** parallel files are the architectural artifact this video formalizes — the vault was already running the pattern; Nate names it
 
 ## Contrasts with
 

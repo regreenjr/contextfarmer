@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; defined "Claude Code Operating System" framing; barometer for what's mainstream in the Claude/N8N space; first-published voice-agent build, Higgsfield+Claude creative-agency build, the first major Codex full-course (2026-05-06), and the first 1hr [[hermes-agent]] full course (2026-05-10) — fastest-cycling cross-substrate creator in this vault; in 2026-05-12 ships the first-day walkthrough of Claude Code's new Agent View + /goal command (multi-agent orchestration primitive); in 2026-05-14 ships TWO frameworks in one batch — the [[free-sample-phase]] substrate-economics framing AND the [[claude-code-levels]] five-level mastery framework (73K views); in 2026-05-15 ships his **third operational framework** in eight days — the [[deployment-framework]] three-method classifier (/loop → Routines → Modal/Trigger.dev) plus first-vault-surfacing of the **Claude Agent SDK** and **Managed Agents & Hooks** primitives; framework production now a Nate Herk content pillar
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev]
-sources: 8
-updated: 2026-05-16
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-22 batch alone ships **4 more videos** (total: 15 across 9 digests) — including the **105K-view canonical coverage of [[andrej-karpathy]] joining [[anthropic]]** (highest-views news video in vault), the **CAIO career-path framing** ([[chief-ai-officer]]), a **prompt caching deep-dive** ([[prompt-caching]]), and **Claude Code ↔ [[codex]] cross-substrate 3-layer mental model**; defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **6 operational/career frameworks in 10 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits); combined with [[nate-b-jones]], the two ship **22+ named frameworks in 19 days** — the largest creator-side framework production cycle in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat]
+sources: 9
+updated: 2026-05-22
 ---
 
 # Nate Herk
@@ -105,6 +105,37 @@ Strategic significance:
 |---|---|---|---|
 | 1 | I Tested 3 Ways to Deploy Claude Agents (Here's When to Use Each) | 16.6K | 2026-05-15 |
 
+**Plus 4 new videos in [[youtube-digest-apify-2026-05-22]]** (highest single-batch volume since 2026-05-10):
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | How to Use Your Claude Code Projects in Codex in 5 Mins | 24.6K | 2026-05-18 |
+| 3 | **What Karpathy Joining Anthropic Actually Means For Claude** | **105.5K** | 2026-05-19 |
+| 4 | The AI Career Opportunity Nobody is Talking About in 2026 | 53.6K | 2026-05-17 |
+| 9 | Give Me 10 Mins and I'll Save You Millions of Claude Tokens | 17.1K | 2026-05-21 |
+
+**Strategic significance of the 2026-05-22 burst**:
+
+1. **#3 is the highest-views news video in this vault** — 105K views on the Karpathy-joins-Anthropic coverage. Confirms his role as the **mainstream-news interpreter** for the Claude ecosystem at the highest scale yet tracked. Names **three predictions** (chapter 12:01): app store for context, education layer, unified context substrate. → Major updates: [[andrej-karpathy]] (joins Anthropic), [[anthropic]] (Karpathy hire), [[karpathy-llm-wiki]] (now about-to-be-Anthropic-internal).
+2. **#2 ships the 3-layer cross-substrate mental model** — Claude vs Codex: instructions (`CLAUDE.md` ↔ `AGENTS.md`) + skills + agents. Confirms cross-substrate symmetry at the *project filesystem* level, not just per-feature. → Updates [[codex]] (3-layer mental model), [[free-sample-phase]] (portability defense playbook).
+3. **#4 names the CAIO career path** — counter-narrative to "start an AI agency"; IBM survey of 2,000 CEOs; **61-point adoption gap**; two paths (inside-the-firm operator vs fractional CAIO); regulated-industries edge. → New concept: [[chief-ai-officer]]. Pairs with [[capital-allocation-framework]] (Nate B Jones #5 same batch) as the **role-design counterpart** to the career-side framing.
+4. **#9 ships the prompt-caching deep dive** — "300M+ tokens saved per week without doing anything"; **three habits** (stable instructions / append-don't-insert / TTL-aware long-context); **what breaks the cache** (system-prompt changes / file rearrangement / mid-session tool changes); references **Thariq's article** (`x.com/trq212/...`) as canonical authority. → New concept: [[prompt-caching]].
+
+**The Karpathy-joins-Anthropic coverage** (#3, 105K views, 2026-05-19, 16:24) — chapter map:
+- 0:00 Karpathy Joins Anthropic
+- 1:04 Who Is Karpathy
+- 2:01 Anthropic's Momentum
+- 3:57 The Wrapper Is the Product
+- 6:25 **LLM Wiki and Your Data Moat**
+- 8:52 AutoResearch and /Goal Loops
+- 10:47 The Education Clue
+- 12:01 **3 Predictions for Claude Code**
+- 16:12 Final Thoughts
+
+His **three predictions** align with [[brad-bonanno]]'s Phase-3 [[execution-layer]] + [[alex-mcfarland]]'s [[plugin-marketplace]] — three creators converging on the same near-term Anthropic roadmap forecast for 2026-Q3 (context-marketplace + education-layer + unified context-substrate).
+
+**Cumulative framework production in 2026-05-22 batch**: 3 new frameworks ([[chief-ai-officer]] + [[prompt-caching]] + 3-layer cross-substrate mental model). Combined with prior batches: **6 operational/career frameworks in 10 days**. Combined with [[nate-b-jones]]' 5 frameworks in same batch (12-16): **the two creators ship 22+ named frameworks across 19 days** — single biggest creator-side framework production cycle in this vault.
+
 **The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
 
 - **Method 1** `/loop` (in-session)
@@ -139,6 +170,9 @@ Strategic significance: framework production is now a **Nate Herk content pillar
 - **[[free-sample-phase]]** — substrate-economics framing (2026-05-13)
 - **[[claude-code-levels]]** — five-level mastery progression (2026-05-12)
 - **[[deployment-framework]]** — three-method runtime classifier + Agent SDK + Managed Agents & Hooks (2026-05-15)
+- **3-layer cross-substrate mental model** (Claude/Codex compatibility) — instructions + skills + agents (2026-05-18)
+- **[[chief-ai-officer]]** — CAIO career path, two paths into seat, 61-point adoption gap (2026-05-17)
+- **[[prompt-caching]] habits** — three behavioral rules + cache-break surface + Thariq reference (2026-05-21)
 
 ## Distribution channels
 
@@ -172,7 +206,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]]
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his
@@ -184,4 +218,8 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 - [[free-sample-phase]] — substrate-economics framework (2026-05-13)
 - [[claude-code-levels]] — five-level mastery framework (2026-05-12)
 - [[deployment-framework]] — three-method deployment classifier + Agent SDK + Managed Agents (2026-05-15)
-- [[anthropic]], [[openai]] — both substantively affected by the 2026-05-14 batch news cycle
+- [[chief-ai-officer]] — CAIO career framing (2026-05-17)
+- [[prompt-caching]] — substrate-economics deep dive (2026-05-21)
+- [[andrej-karpathy]] — 105K-view coverage of Anthropic hire (2026-05-19)
+- [[anthropic]], [[openai]] — both substantively affected by the 2026-05-14 + 2026-05-19 news cycles
+- [[karpathy-llm-wiki]] — "the wiki is your data moat" thesis (2026-05-19 chapter 6:25)

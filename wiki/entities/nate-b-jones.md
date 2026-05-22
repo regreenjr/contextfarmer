@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings on agent infrastructure, commerce, and enterprise AI; highest-density framework producer in this vault — **eleven named frameworks** across worker (T/C/L/D), user (anticipation-gap/permission-ladder), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime reframe), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (six-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] four-axis squeeze), **and pricing/commercial-unit ([[agent-metering]] — second meter on your SaaS bill + fair-license vs rent-seeking diagnostic + four pre-renewal questions)**; 2026-05-15 ships the **pricing-side complement** to the 10th framework — together they form a value-capture + pricing-mechanism pair around the same five-vendor cast (Anthropic / OpenAI / Salesforce / ServiceNow / SAP / Microsoft)
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit]
-sources: 9
-updated: 2026-05-16
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **sixteen named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), **decision ([[capital-allocation-framework]] — 5 levers automate/build/buy/hire/wait)**, **protocols ([[agent-protocol-stack]] — 6 protocols / 3 that matter: MCP+A2A+AG-UI)**, **marketing ([[prove-it-economy]] — truth layer + two-internet split)**, **questioning skill ([[ai-question-method]] — flashlight intent + ask what good looks like + wrestle)**, and **infrastructure ([[infrastructure-control-layer]] — 5 control points: runtime/identity/data/payments/observability + multi-layer kill switch)**; **the full 5-layer enterprise-AI agent stack now mapped** (infra + protocols + value + pricing + decision) — all shipped within 8 days (2026-05-14 → 2026-05-22)
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch]
+sources: 13
+updated: 2026-05-22
 ---
 
 # Nate B Jones
@@ -318,6 +318,93 @@ Where [[agentic-implementation-layer]] explains *where the trillion dollars live
 4. **The four-question diagnostic is consulting-ready** — same shape as the prior [[plugins]] taxonomy audit + T/C/L/D worker audit + action-class action-risk audit; one-day delivery, written report, clear renegotiation playbook
 5. **"Negotiate before usage embeds"** is the **canonical 3Ps deliverable** — pre-renewal contract reviews of agent-pricing terms
 
+## New in [[youtube-digest-apify-2026-05-22]]
+
+**Five new frameworks in one batch** — his highest single-batch framework production. Combined with prior batches, the framework cadence is now **16 named frameworks in 19 days** (T/C/L/D 2026-05-04 → infrastructure control layer 2026-05-20).
+
+### #5 [[capital-allocation-framework]] — automate / build / buy / hire / wait (decision-side framework)
+
+His **12th framework** — *When to Automate, Build, Buy, Hire, or Wait on AI* (23.3K views, 2026-05-17, 27:46). The **decision-side companion** to [[agentic-implementation-layer]] (where-value-lives) and [[agent-metering]] (how-pricing-works).
+
+**Core thesis**: AI investment is a **capital allocation problem, one workflow at a time** — not a company-wide AI strategy. The Gartner 40% failure prediction is named alongside the IBM AskHR case study + accounts-receivable example (same workflow, different lever per company).
+
+**The five levers**: Automate (well-described workflows) / Build (company context differentiator) / Buy (whole workflows, not primitives) / Hire (workflow owner + automation engineer, no purple unicorns) / Wait (deliberate non-action).
+
+**The canonical failure mode**: *"Do not automate what you cannot describe"* (chapter 31:52). Premature automation of fuzzy workflows compounds errors.
+
+→ New concept: [[capital-allocation-framework]]. Pairs with [[chief-ai-officer]] (Nate Herk #4 same batch) as **role-design** counterpart to **career-side** CAIO framing.
+
+### #6 [[agent-protocol-stack]] — 6 protocols / 3 that matter (protocols-side framework)
+
+His **13th framework** — *Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.* (37.7K views, 2026-05-19, 20:42). The **6-protocol taxonomy** with "3 that matter" partition.
+
+**The three settled protocols** (operational backbone):
+- **[[mcp]]** — tool + data access (Anthropic-sponsored, now also a **security boundary** per chapter 4:50)
+- **A2A** — agent-to-agent delegation (Google-sponsored; the **agent card** = operating contract)
+- **AG-UI** — human supervision surface (Google-sponsored; the protocol-level answer to [[anticipation-gap]]'s missing supervision surface)
+
+**The three contested layers**: A2UI / AP2 / x402 — camps fighting over UI + payments.
+
+**The three questions agents must answer** (chapter 1:18): what can I access / who can I delegate to / how do humans supervise me.
+
+→ New concept: [[agent-protocol-stack]]. First A2A + AG-UI coverage in vault. Major update to [[mcp]] (placed in 6-protocol context).
+
+### #10 [[prove-it-economy]] — truth layer + two-internet (marketing-side framework)
+
+His **14th framework** — *The Prove-It Economy is Here | Most Marketers Aren't Ready* (56.1K views, 2026-05-18, 22:23). Second GTM/marketing-side framework after [[gtm-2026]].
+
+**The two-internet split** (chapter 12:00):
+- **Old internet** — buyer reads ads → forms opinion → purchases; marketing optimizes attention
+- **New internet** — AI agent interprets brand → recommends → buyer purchases through agent; marketing optimizes **interpretation**
+
+**The truth layer** (chapter 6:00) — marketers must own the website + pricing pages + docs that LLMs read when recommending brands. AI-washing creates trust debt (chapter 16:30); human memory is more precious now (chapter 14:00); opinions matter more (chapter 20:30).
+
+→ New concept: [[prove-it-economy]]. Pairs with [[retrieval-contract]] (publisher-side / consumer-side pair on the same content-publishing-for-agents surface).
+
+### #11 [[ai-question-method]] — flashlight intent / ask what good looks like / wrestle (questioning-skill framework)
+
+His **15th framework** — *Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.* (52.7K views, 2026-05-21, 25:03). The questioning-discipline replacement for prompt engineering in the Opus 4.7 / GPT 5.5 era.
+
+**Three principles**:
+1. **Flashlight intent** (chapter 10:05) — convey perspective + edges, not just the question
+2. **Ask what good looks like** (chapter 14:45) — specify success criteria before generation (Prime Video PRFAQ example)
+3. **Wrestle with data and opinions** (chapter 19:10) — force position-taking (MRR / PLG example)
+
+**Canonical reframe**: **AI as senior partner, not junior teammate** (chapter 4:05). Junior-teammate prompting wastes 2026-era frontier capability. Senior-partner questioning unlocks leverage.
+
+**Memory and quick-start guides matter** (chapter 23:45) — the vault-side complement. Sharp questions need a place to compound; memory layers ([[karpathy-llm-wiki]], Claude Auto Memory) are how the senior-partner relationship accumulates context.
+
+→ New concept: [[ai-question-method]]. Pairs with [[prompt-caching]] ([[nate-herk]] #9 same batch — questioning + caching + memory = complete senior-partner stack).
+
+### #12 [[infrastructure-control-layer]] — 5 control points / 7 questions (substrate-side framework)
+
+His **16th framework** — *These 5 Infrastructure Giants Secretly Rule AI* (20.2K views, 2026-05-20, 20:19). The **agent layer underneath the protocols** — closes the 5-layer enterprise-AI agent stack.
+
+**The five control points**:
+- **Runtime** (Cloudflare / AWS / Vercel) — where the agent runs
+- **Identity** (Auth0 / Okta / WorkOS / Entra) — who the agent acts as; fuzzy authority is the Lindy/McKinsey-Lilly vulnerability class
+- **Data** (Snowflake / Databricks / BigQuery) — what governed data the agent sees
+- **Payments** (Stripe + card networks) — who the agent pays
+- **Observability** (Datadog / Honeycomb-tier) — what the agent actually did
+
+**Kill switch as multi-layer product feature** (chapter 18:00) — kill switches must operate across runtime + identity + data + payments + observability simultaneously. Same shape as [[agent-security]]' four-class action-risk taxonomy.
+
+**Seven questions to map any agent workflow** (chapter 19:20) — third workflow-diagnostic question-set in this batch (after [[capital-allocation-framework]] 5 levers + [[agent-protocol-stack]] 6 questions).
+
+→ New concept: [[infrastructure-control-layer]]. Closes the full 5-layer enterprise-AI agent stack (infra + protocols + value + pricing + decision).
+
+### The full 5-layer enterprise-AI agent stack (8 days)
+
+| Layer | Framework | Question | Date |
+|---|---|---|---|
+| **Infrastructure** | [[infrastructure-control-layer]] | Which 5 control points + 7 questions? | 2026-05-20 |
+| **Protocols** | [[agent-protocol-stack]] | Which 6 protocols + 3 questions? | 2026-05-19 |
+| **Value capture** | [[agentic-implementation-layer]] | Where do the trillion dollars live? | 2026-05-14 |
+| **Pricing** | [[agent-metering]] | How does the meter tick? | 2026-05-15 |
+| **Decision** | [[capital-allocation-framework]] | Which lever per workflow? | 2026-05-17 |
+
+**Single most comprehensive enterprise-AI stack map in this vault** — all five layers from one creator in 8 days. Plus 2 additional frameworks ([[prove-it-economy]] marketing-side + [[ai-question-method]] questioning-skill) extending the cadence to 16 named frameworks in 19 days.
+
 ## The complete framework stack
 
 [[nate-b-jones]] is now the source of **eleven complementary diagnostics** — nine analytical-side + one value-capture-synthesis-side + one pricing-mechanism-side:
@@ -335,6 +422,11 @@ Where [[agentic-implementation-layer]] explains *where the trillion dollars live
 | Six-layer agentic commerce | Commerce | Which protocol layer carries responsibility when an agent spends money? |
 | Agentic implementation layer (four-axis squeeze) | Enterprise / TAM (value-capture-synthesis) | Where do the trillion dollars actually live, and which axes squeeze generic AI wrappers out? |
 | **Agent metering (second meter / fair-vs-rent-seeking)** | **Pricing / commercial unit** | **How does the meter actually tick, and how do you negotiate before usage embeds?** |
+| **[[capital-allocation-framework]] (5 levers automate/build/buy/hire/wait)** | **Decision** | **Which lever per workflow?** |
+| **[[agent-protocol-stack]] (6 protocols / 3 that matter)** | **Protocols** | **Which protocol + 6 questions?** |
+| **[[prove-it-economy]] (truth layer + two-internet)** | **Marketing / GTM** | **Are you optimizing for attention or interpretation?** |
+| **[[ai-question-method]] (flashlight / good / wrestle)** | **Questioning skill** | **Are you prompting or questioning?** |
+| **[[infrastructure-control-layer]] (5 control points + 7 questions)** | **Substrate vendors** | **Which 5 control points + multi-layer kill switch?** |
 
 Together: a **complete agent-era audit** for any organization — covering every angle from procurement → substrate → user → builder → codebase → worker → stack → knowledge → commerce → **enterprise deployment → pricing/commercial unit**. The 10th + 11th frameworks form a **value-capture + pricing-mechanism pair** around the same five-vendor cast (Anthropic / OpenAI / Salesforce / ServiceNow / SAP / Microsoft) — the strongest framework-pair coupling in his cadence.
 
@@ -361,6 +453,11 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-14]] #3 *ChatGPT Has 900M Weekly Users. Almost None Can Buy In It.* (27.0K, 2026-05-12) — six-layer [[agentic-commerce]] protocol taxonomy (ACP / UCP / AP2 / x402 / Bedrock Agent Core)
 - [[youtube-digest-apify-2026-05-15]] #2 *The Trillion Dollar Agentic Workflow Opportunity Is Here* (32.2K, 2026-05-14) — [[agentic-implementation-layer]] four-axis squeeze (frontier labs down + consultancies up + SoRs sideways + PE distribution) + 5 durable primitives + "generic AI wrappers will not survive" thesis
 - [[youtube-digest-apify-2026-05-16]] #2 *Your SaaS Bill Just Got a Second Meter. You're About to Pay It.* (13.9K, 2026-05-15) — [[agent-metering]] 11th framework (Salesforce Flex Credits / Microsoft Copilot credits / ServiceNow Action Fabric / SAP 2026 API policy / fair-license-vs-rent-seeking diagnostic + four pre-renewal questions + "commercial unit of software is changing" closing thesis)
+- [[youtube-digest-apify-2026-05-22]] #5 *When to Automate, Build, Buy, Hire, or Wait on AI* (23.3K, 2026-05-17) — [[capital-allocation-framework]] 12th framework (5 levers + Gartner 40% failure prediction + IBM AskHR + accounts-receivable example + "do not automate what you cannot describe")
+- [[youtube-digest-apify-2026-05-22]] #6 *Google Spent a Year Stitching MCP, A2A, AG-UI Together. I/O Today.* (37.7K, 2026-05-19) — [[agent-protocol-stack]] 13th framework (6 protocols / 3 that matter: MCP + A2A + AG-UI + contested A2UI/AP2/x402 + 6 questions before you build)
+- [[youtube-digest-apify-2026-05-22]] #10 *The Prove-It Economy is Here* (56.1K, 2026-05-18) — [[prove-it-economy]] 14th framework (truth layer + two-internet split + AI-washing creates trust debt + opinions matter)
+- [[youtube-digest-apify-2026-05-22]] #11 *Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.* (52.7K, 2026-05-21) — [[ai-question-method]] 15th framework (flashlight intent + ask what good looks like + wrestle with data and opinions + senior partner reframe)
+- [[youtube-digest-apify-2026-05-22]] #12 *These 5 Infrastructure Giants Secretly Rule AI* (20.2K, 2026-05-20) — [[infrastructure-control-layer]] 16th framework (5 control points: runtime/identity/data/payments/observability + multi-layer kill switch + 7 questions)
 
 ## Why track him for 3Ps
 
@@ -371,7 +468,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 
 ## Related
 - [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder; deployment-company axis-1 in [[agentic-implementation-layer]]
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]] — concepts he originated/popularized
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]], [[capital-allocation-framework]], [[agent-protocol-stack]], [[prove-it-economy]], [[ai-question-method]], [[infrastructure-control-layer]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
 - [[knowledge-layer]] — extended via retrieval contract (2026-05-13)
 - [[pinecone]] — Nexus / NoQL is the canonical retrieval-contract implementation
@@ -390,6 +487,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-14]] — 2 videos: retrieval contract / NoQL (#2) + six-layer agentic-commerce taxonomy (#3)
 - [[youtube-digest-apify-2026-05-15]] — agentic implementation layer / four-axis squeeze (#2, the synthesis-side framework)
 - [[youtube-digest-apify-2026-05-16]] — agent metering / second-meter framework (#2, the pricing-side complement to the 10th framework)
+- [[youtube-digest-apify-2026-05-22]] — **5 frameworks in one batch**: capital allocation (#5), agent protocol stack (#6), prove-it economy (#10), AI question method (#11), infrastructure control layer (#12) — completes the 5-layer enterprise-AI agent stack in 8 days
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

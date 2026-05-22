@@ -1,10 +1,10 @@
 ---
 title: MCP (Model Context Protocol)
 category: concept
-summary: Open standard from Anthropic for connecting LLMs to external data and tools; in 2026, increasingly the right choice for agentic microservices, while local Claude Code work tilts toward Skills (or [[printing-press]] CLI alternatives); positioned in [[nate-b-jones]]' 6-layer agentic-scaffolding taxonomy ([[plugins]]) at layer 4; cross-curator favorites surfacing (Context7, Task Master, Playwright, Tavily, Codebase Memory)
-tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration, printing-press, plugins]
-sources: 3
-updated: 2026-05-10
+summary: Open standard from Anthropic for connecting LLMs to external data and tools; positioned in [[nate-b-jones]]' 6-layer agentic-scaffolding taxonomy ([[plugins]]) at layer 4; **in 2026-05-19 placed as Layer 1 of [[nate-b-jones]]' new [[agent-protocol-stack]]** (six protocols / three that matter: MCP + A2A + AG-UI) — answering the **"what can my agent access?"** question; also **reframed as a security boundary** (chapter 4:50 of #6) — MCP servers are the natural action-boundary instrumentation point, extending [[agent-security]]' judge-architecture pattern at the protocol layer; **also serves as the connector-distribution surface for [[claude-for-small-business]]** (QuickBooks/Xero/Stripe/HubSpot/Gmail connectors pre-bundled) — first explicit Anthropic-shipped MCP-connector kit
+tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration, printing-press, plugins, agent-protocol-stack, security-boundary, action-boundary, claude-for-small-business, connectors, a2a, ag-ui, six-protocols]
+sources: 4
+updated: 2026-05-22
 ---
 
 # MCP (Model Context Protocol)
@@ -88,10 +88,32 @@ Resolution per current best-practice: use MCP for **read-side, capability-discov
 
 [[nate-b-jones]] places MCP at **layer 4** of his 6-layer agentic-scaffolding map — between plugins (whole-workflow bundles) and hooks (deterministic events). Per his framing: MCPs and app connectors give "live access to where work lives." The "wrong-layer" failure mode here is **MCP for what should be a CLI / script** — a token-cost mistake that Printing Press is built to fix. → See [[plugins]].
 
+## MCP as Layer 1 of [[agent-protocol-stack]] ([[nate-b-jones]] in [[youtube-digest-apify-2026-05-22]])
+
+[[nate-b-jones]]'s 13th framework places MCP as **Layer 1 of the 6-protocol agent stack**:
+
+| Protocol | Layer | Status | Sponsor |
+|---|---|---|---|
+| **MCP** | **Tool + data access** | **Settled** | [[anthropic]] |
+| A2A | Agent-to-agent delegation | Settled | Google |
+| AG-UI | Agent-to-human supervision | Settled | Google |
+| A2UI / AP2 / x402 | UI / payment layers | Contested | Multiple |
+
+MCP answers the first of the **three questions agents must answer**: *"what can I access?"*
+
+**MCP as security boundary** (chapter 4:50 of [[nate-b-jones]] #6): MCP servers are the **natural action-boundary instrumentation point** — same reframe as Lindy's outbound-mail judge from [[nate-b-jones]] 2026-05-12. The judge sits at the MCP-server perimeter; MCP servers gate the action; the protocol carries the auditability surface. This is **the missing protocol-layer-level extension of [[agent-security]]'s judge architecture** — judges are deployed at MCP perimeters.
+
+## MCP as connector-distribution surface ([[claude-for-small-business]] in [[youtube-digest-apify-2026-05-22]])
+
+[[anthropic]]'s [[claude-for-small-business]] vertical plugin pre-bundles **MCP connectors** for QuickBooks / Xero / Stripe / PayPal / Square / HubSpot / Gmail. This is the **first explicit Anthropic-shipped MCP-connector kit** in this vault — confirms MCP-as-distribution-surface for vertical products.
+
+The connector layer is **pluggable** — bundled connectors are defaults, not requirements (Xero swapped for QuickBooks etc post-install). Same pattern likely repeats for future Anthropic vertical plugins (Claude for Retail / Healthcare / Legal).
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — Tim Berglund #9, [[anthropic]] #4, [[brad-bonanno]] #19
 - [[youtube-digest-apify-2026-05-05]] — [[dubibubii]] #5 (5 MCP servers in curated list); [[nate-herk]] #3 (Higgsfield MCP-or-CLI)
 - [[youtube-digest-apify-2026-05-10]] — [[nate-herk]] #1 (Printing Press as packaged CLI alternative); [[nate-b-jones]] #11 (MCP in 6-layer taxonomy)
+- [[youtube-digest-apify-2026-05-22]] — [[nate-b-jones]] #6 (MCP as Layer 1 of [[agent-protocol-stack]] + security boundary) + [[brad-bonanno]] #7 ([[claude-for-small-business]] MCP connector kit)
 - [[claude-code]], [[claude-skills]] — concept relationships
 - [[printing-press]] — CLI-alternative packaged product
 - [[plugins]] — taxonomy layer where MCP sits
