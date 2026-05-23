@@ -1,10 +1,10 @@
 ---
 title: Compounded Drug Disclaimer
 category: concept
-summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints"); 2026-05-16 ships the Sex Rx + Climax Control disclaimer verbatim across 2 batches; 2026-05-20 batch ships the Wegovy/FDA-approved disclaimer block verbatim for the 5th time (14-day stability window — longest in the vault) and the Hair Hybrids disclaimer block verbatim re-launches for the first time post-cold-start; **2026-05-22 batch 9 ships Hair Hybrids disclaimer verbatim 3 more times (5 cumulative post-cold-start re-launches across batches 8+9 / 16-day stability window) while the Wegovy disclaimer goes silent** — disclaimer language stability tracks parent-template surge-composition rotation between wedges, not all-three-every-time
-tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1, hair-hybrids, surge-composition-rotation]
-sources: 5
-updated: 2026-05-22
+summary: The canonical 2026 boilerplate language used by DTC telehealth advertisers (Hims, Ro, Henry Meds, Medvi) on FB/IG ads for compounded GLP-1, ED, hair-loss, and other compounded prescriptions; pioneered/standardized by Hims; 2026-05-10 adds a fifth Hims variant for chewable compounded products ("Hard Mints"); 2026-05-22 batch 9 ships Hair Hybrids disclaimer verbatim 3 more times (5 cumulative post-cold-start re-launches / 3-batch / 16-day stability window) while Wegovy disclaimer goes silent; **2026-05-23 batch 10 ships Hair Hybrids disclaimer verbatim a 6th time (4-batch / 17-day stability window) — Hair Hybrids disclaimer language stability now exceeds Wegovy disclaimer language stability on consecutive-batch count** (Hair Hybrids 3-consecutive 8+9+10 vs Wegovy 4+5+7+8 skips batch 6); Wegovy disclaimer 2-batch silent (9+10) — disclaimer language stability tracks parent-template surge-composition rotation between wedges, not all-three-every-time
+tags: [compounded-drugs, fda, compliance, ad-disclaimer, dtc, telehealth, hims, glp-1, hair-hybrids, surge-composition-rotation, hair-hybrids-disclaimer-standing]
+sources: 6
+updated: 2026-05-23
 ---
 
 # Compounded Drug Disclaimer
