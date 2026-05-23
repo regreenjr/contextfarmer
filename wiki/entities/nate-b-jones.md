@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **sixteen named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), **decision ([[capital-allocation-framework]] — 5 levers automate/build/buy/hire/wait)**, **protocols ([[agent-protocol-stack]] — 6 protocols / 3 that matter: MCP+A2A+AG-UI)**, **marketing ([[prove-it-economy]] — truth layer + two-internet split)**, **questioning skill ([[ai-question-method]] — flashlight intent + ask what good looks like + wrestle)**, and **infrastructure ([[infrastructure-control-layer]] — 5 control points: runtime/identity/data/payments/observability + multi-layer kill switch)**; **the full 5-layer enterprise-AI agent stack now mapped** (infra + protocols + value + pricing + decision) — all shipped within 8 days (2026-05-14 → 2026-05-22)
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch]
-sources: 13
-updated: 2026-05-22
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **eighteen named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), decision ([[capital-allocation-framework]]), protocols ([[agent-protocol-stack]]), marketing ([[prove-it-economy]]), questioning skill ([[ai-question-method]]), infrastructure ([[infrastructure-control-layer]]), and **workflow artifact ([[project-room-workflow]] — source inventory + conflict log + missing context list as canvas-shaping discipline before "do the thing")**; the full 5-layer enterprise-AI agent stack is now mapped (infra + protocols + value + pricing + decision); **18 frameworks in 20 days** (T/C/L/D 2026-05-04 → project-room-workflow 2026-05-22); Sullivan & Cromwell hallucination joins McKinsey-Lilly + Mozilla-271 as **third named-firm 2026 AI-failure unlock event** in this vault
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch, project-room-workflow, source-inventory, conflict-log, missing-context-list, sullivan-cromwell, hallucination, canvas-shaping, opus-4-7, gpt-5-5, files-as-canvas]
+sources: 14
+updated: 2026-05-23
 ---
 
 # Nate B Jones
@@ -405,6 +405,42 @@ His **16th framework** — *These 5 Infrastructure Giants Secretly Rule AI* (20.
 
 **Single most comprehensive enterprise-AI stack map in this vault** — all five layers from one creator in 8 days. Plus 2 additional frameworks ([[prove-it-economy]] marketing-side + [[ai-question-method]] questioning-skill) extending the cadence to 16 named frameworks in 19 days.
 
+## New in [[youtube-digest-apify-2026-05-23]]
+
+### #4 [[project-room-workflow]] — canvas before prompt (workflow-artifact framework)
+
+His **18th framework** — *The One AI Writing Hack Nobody Talks About.* (22.3K views, 2026-05-22, 21:50). The **canvas-shaping discipline** that makes AI hallucinations *structurally unlikely* in high-stakes knowledge work.
+
+**The unlock event**: **Sullivan & Cromwell** (top-tier US law firm) filed federal-court motions full of AI hallucinations despite frontier-model access. Joins McKinsey-Lilly (procurement failure → [[agent-security]]) and Mozilla-271 (security failure → [[code-comprehensibility]]) as the **third named-firm 2026 AI-failure unlock event** in this vault. Pattern: prestigious organization fails publicly → Nate extracts the structural lesson → builds a framework around it.
+
+**The framing claim**: *"Better prompts cannot fix this"* (chapter 1:30) — prompt engineering operates *inside* the agent's available context. If the available context is messy, no prompt can rescue the output. Hallucinations are a **canvas-shape failure upstream of the prompt**.
+
+**What changed with Opus 4.7 and GPT-5.5** (chapter 3:00) — agents now walk folder trees and compare files cleanly. The capability shift is the **precondition** for the workflow.
+
+**Three first-prompt artifacts** (the canvas):
+
+| Artifact | Built when | What it does |
+|---|---|---|
+| **Source inventory table** (chapter 12:00) | First prompt | Name / path / type / date / authoritativeness — scope visible |
+| **Conflict log** (chapter 14:00) | After source inventory | Explicit contradictions across sources with citations to both |
+| **Missing context list** (chapter 15:30) | After conflict log | Named gaps — what should be in scope but isn't |
+
+The three artifacts are **the canvas**. Only after they exist does the writing prompt go in — and the writing prompt itself becomes short (chapter 20:00) because the canvas does the heavy lifting.
+
+**Why duplicates are a reasoning problem** (chapter 17:00) — duplicate sources don't just waste tokens; they **break the agent's reasoning** (treats one source citing itself as two independent confirmations). Dedup discipline is **information-quality infrastructure**, not hygiene.
+
+**Files as the canvas for agentic work** (chapter 18:30) — the filesystem is the canvas, not the prompt window. Structurally identical to [[karpathy-llm-wiki]] architecture (`raw/` → `wiki/`, source pages, `> ⚠️ Contradiction:` callouts).
+
+**Strategic significance**:
+
+1. **Artifact-side complement to [[ai-question-method]]** (15th framework, 2026-05-21) — Question Method = questioning discipline (flashlight / good / wrestle); Project Room = artifact discipline (inventory / conflicts / gaps). Together they form the **complete pre-prompt workflow**.
+2. **Sister framework to [[self-improving-skills]]** ([[simon-scrapes]] in same batch) — both are "before-the-work artifact" patterns. Simon's binary criteria + Nate's missing-context list both encode success criteria explicitly before the agent runs.
+3. **Confirms [[karpathy-llm-wiki]] architecture as canonical at per-task scale** — the vault implements project-room-workflow at the wiki scale; Nate's framework names the per-task instantiation.
+4. **Substack monetization pattern continues** — *"Full Post w/ Prompt Pack: natesnewsletter.substack.com/..."* gates the operational checklist behind newsletter signup.
+5. **Process content underperforms framework content** even from him (22.3K vs 56K [[prove-it-economy]]) — same pattern as [[nate-herk]]'s [[deployment-framework]] underperforming [[claude-code-levels]].
+
+→ New concept: [[project-room-workflow]]. Updates: [[ai-question-method]] (artifact-side complement), [[claude-code]] (Opus 4.7 folder-tree-walking + files-as-canvas), [[karpathy-llm-wiki]] (per-task instantiation).
+
 ## The complete framework stack
 
 [[nate-b-jones]] is now the source of **eleven complementary diagnostics** — nine analytical-side + one value-capture-synthesis-side + one pricing-mechanism-side:
@@ -458,6 +494,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-22]] #10 *The Prove-It Economy is Here* (56.1K, 2026-05-18) — [[prove-it-economy]] 14th framework (truth layer + two-internet split + AI-washing creates trust debt + opinions matter)
 - [[youtube-digest-apify-2026-05-22]] #11 *Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.* (52.7K, 2026-05-21) — [[ai-question-method]] 15th framework (flashlight intent + ask what good looks like + wrestle with data and opinions + senior partner reframe)
 - [[youtube-digest-apify-2026-05-22]] #12 *These 5 Infrastructure Giants Secretly Rule AI* (20.2K, 2026-05-20) — [[infrastructure-control-layer]] 16th framework (5 control points: runtime/identity/data/payments/observability + multi-layer kill switch + 7 questions)
+- [[youtube-digest-apify-2026-05-23]] #4 *The One AI Writing Hack Nobody Talks About.* (22.3K, 2026-05-22) — [[project-room-workflow]] 18th framework (source inventory + conflict log + missing context list + Sullivan & Cromwell unlock + Opus 4.7 folder-tree-walking + files-as-canvas)
 
 ## Why track him for 3Ps
 
@@ -488,6 +525,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-15]] — agentic implementation layer / four-axis squeeze (#2, the synthesis-side framework)
 - [[youtube-digest-apify-2026-05-16]] — agent metering / second-meter framework (#2, the pricing-side complement to the 10th framework)
 - [[youtube-digest-apify-2026-05-22]] — **5 frameworks in one batch**: capital allocation (#5), agent protocol stack (#6), prove-it economy (#10), AI question method (#11), infrastructure control layer (#12) — completes the 5-layer enterprise-AI agent stack in 8 days
+- [[youtube-digest-apify-2026-05-23]] — **18th framework**: [[project-room-workflow]] (canvas-shaping discipline; Sullivan & Cromwell unlock)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

@@ -1,10 +1,10 @@
 ---
 title: AI Consulting
 category: concept
-summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension — positioning-language framework for AI consulting offers; in 2026-05-14 [[nicole-mccain]] (new entity) brings the wedge to the **lowest-floor audience tier** — pre-revenue beginners with no business and no tech skills; in 2026-05-15 [[ramin-imani]] (new entity) brings the wedge to the **highest-floor audience tier** — MBB-aspirants and current top-tier-firm consultants, the **survival-side voice** ("AI is killing generic consulting, not consulting") and confirms [[nate-b-jones]]' axis-2 ([[agentic-implementation-layer]]) "consultancies moving up the stack" from inside the firm; **nine voices now visible end-to-end across the wedge from MBB top-tier to make-money-online beginner**
-tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze]
-sources: 8
-updated: 2026-05-15
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); **in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]]** — the AI Business Ladder (5 rungs: sell-hours → mini-project → productized → retainer → project work) + sell-hours-as-first-offer playbook + AI OS deliverable shape (instructions + 3-5 skills + 1 MCP + 1 routine + context layer) + 7-step client acquisition + hours-to-projects upsell; **direct competitive response to [[claude-for-small-business]]** (personalization is the moat above the commodity vertical plugin); **ten voices now visible end-to-end across the wedge from MBB top-tier to zero-to-first-customer beginner**
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter]
+sources: 9
+updated: 2026-05-23
 ---
 
 # AI Consulting
@@ -214,6 +214,40 @@ The **T/C/L/D framework** (Theater / Commodity / Leverage / Durable) gives 3Ps a
 
 Pairs cleanly with the [[ai-consulting]] macro thesis — legacy moats collapsed because the work that justified them was Commodity in T/C/L/D terms. The framework gives clients a way to *see* this in their own week, not just hear it as a thesis.
 
+## The AI Business Ladder (2026-05-22) — zero-to-first-customer wedge
+
+[[nate-herk]]'s 2026-05-22 *The AI Offer You Can Sell Tomorrow Morning* (19.1K views) fills the **zero-to-first-customer wedge** with the **[[ai-operating-system-offer]]** — sell **one-on-one hours** helping business owners set up their AI Operating System, instead of jumping to retainers / projects.
+
+**The five-rung ladder**:
+
+| Rung | Offer shape | Friction | Cash velocity | First-customer-friendly? |
+|---|---|---|---|---|
+| 1. **Sell hours** | $X/hr setup session | Lowest — single yes | Fastest | **Yes — this rung** |
+| 2. Hours → mini-project | "Want me to build X?" | Low — warm | Medium | Yes (upsell) |
+| 3. Productized service | Fixed scope, fixed price | Medium — needs case studies | Medium | No |
+| 4. Retainer | Ongoing monthly | High — needs references | Slow | No |
+| 5. Project work | Custom multi-week | Highest — needs discovery | Slowest | No |
+
+**The AI OS deliverable shape** (what the hour produces):
+- Instructions (CLAUDE.md / AGENTS.md tuned to owner's voice + jobs)
+- 3-5 skills (highest-frequency jobs)
+- 1 MCP / connector (accounting / CRM / email)
+- 1 routine (scheduled task)
+- Context layer ([[karpathy-llm-wiki]] / Auto Memory)
+
+**Same primitive triple as [[claude-for-small-business]]'s `/smb-onboard` meta-skill** — but executed *manually* for personalization. CFSB commoditizes the long-tail; sell-hours stays open as the **personalization-is-the-moat wedge**.
+
+### Pairs with [[chief-ai-officer]]
+
+Both are 2026 wedges for the same skill set:
+
+| Path | Seat | Buyer | Time-to-first-revenue |
+|---|---|---|---|
+| [[chief-ai-officer]] | Employee (internal or fractional) | One employer | Months |
+| [[ai-operating-system-offer]] | External operator (consultant) | Many small clients | Days |
+
+Both shipped by [[nate-herk]] across two consecutive batches (CAIO 2026-05-17 + AI OS Offer 2026-05-22) — implicit message: **pick whichever seat fits you**.
+
 ## The four-phase 3Ps engagement arc (post-2026-05-14)
 
 With the [[retrieval-contract]] and [[execution-layer]] concepts both arriving 2026-05-14, the 3Ps consulting deliverable now has a clean four-phase structure:
@@ -242,6 +276,7 @@ This is the **first clean multi-phase consulting offer** the [[ai-consulting]] w
 - [[youtube-digest-apify-2026-05-12]] — offer-language framework ([[mert-yerlikaya]] #3, Monk AI consultancy)
 - [[youtube-digest-apify-2026-05-14]] — beginner / Tier-C audience expansion ([[nicole-mccain]] #4); four-phase engagement arc forms via [[retrieval-contract]] + [[execution-layer]]
 - [[youtube-digest-apify-2026-05-15]] — MBB top-tier survival voice ([[ramin-imani]] #1); enterprise-side synthesis via [[agentic-implementation-layer]] ([[nate-b-jones]] #2)
+- [[youtube-digest-apify-2026-05-23]] — zero-to-first-customer wedge via [[ai-operating-system-offer]] ([[nate-herk]] #2, AI Business Ladder + sell-hours playbook)
 - [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]], [[ramin-imani]] — operator entity pages
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)

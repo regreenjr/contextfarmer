@@ -1,10 +1,10 @@
 ---
 title: Agent Metering (Second Meter on Your SaaS Bill)
 category: concept
-summary: [[nate-b-jones]]'s 2026-05-15 framework — every major SaaS vendor is bolting on a **second meter** that ticks on agent activity rather than user logins; the per-seat license (25-year canonical commercial unit) is breaking and getting replaced by per-work-unit / per-token / per-action pricing; named vendor primitives are Salesforce Flex Credits + Microsoft Copilot credits + ServiceNow Action Fabric + SAP 2026 API policy (agent lock-out) + the substrate token-pricing floor under all of them; "pricing follows platform control" — read the price backwards to find the authority moat; **fair license vs rent-seeking** is the normative distinction (meter ties to value vs meter ties to opportunity cost of denial); 4 pre-renewal questions for buyers (unit / cap / overage / access path); the pricing-side complement to [[agentic-implementation-layer]] (value-capture-side)
-tags: [agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, agentforce, salesforce, microsoft, servicenow, sap, anthropic, openai, fair-license, rent-seeking, work-unit, per-action-pricing, nate-b-jones, commercial-unit, agent-economics]
-sources: 1
-updated: 2026-05-16
+summary: [[nate-b-jones]]'s 2026-05-15 framework — every major SaaS vendor is bolting on a **second meter** that ticks on agent activity rather than user logins; the per-seat license (25-year canonical commercial unit) is breaking and getting replaced by per-work-unit / per-token / per-action pricing; named vendor primitives are Salesforce Flex Credits + Microsoft Copilot credits + ServiceNow Action Fabric + SAP 2026 API policy + substrate token-pricing floor; "pricing follows platform control"; **fair license vs rent-seeking** is the normative distinction; 4 pre-renewal questions for buyers; **in 2026-05-23 [[manus]] surfaces as a vendor-side confirmation** — per-credit / per-task metering disclosed explicitly in [[marketing-against-the-grain]] Episode 395 ("this uses real money" chapter 4:00) — Manus + SimilarWeb is the **competitive-intel-vertical instantiation** of the per-work-unit pricing thesis (sister to Salesforce Flex Credits at the SaaS-vertical level)
+tags: [agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, agentforce, salesforce, microsoft, servicenow, sap, anthropic, openai, fair-license, rent-seeking, work-unit, per-action-pricing, nate-b-jones, commercial-unit, agent-economics, manus, per-credit, per-task-metering, competitive-intel-vendor]
+sources: 2
+updated: 2026-05-23
 ---
 
 # Agent Metering (Second Meter on Your SaaS Bill)

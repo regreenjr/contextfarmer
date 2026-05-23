@@ -1,10 +1,10 @@
 ---
 title: AI Question Method
 category: concept
-summary: [[nate-b-jones]]' 15th named framework — the **questioning-discipline replacement for prompt engineering** in the Opus 4.7 / GPT 5.5 era; three principles (**flashlight intent** = convey perspective + edges of investigation; **ask what good looks like** = specify artifact success criteria before generation; **wrestle with data and opinions** = force AI to take positions and defend them); canonical reframe is **AI as senior partner, not junior teammate** — junior-teammate prompting wastes 2026-era agent capability; concrete examples are the **Prime Video PRFAQ** and **MRR / product-led growth** wrestle cases; pairs with [[prompt-caching]] (mechanics-side complement) and [[karpathy-llm-wiki]] / memory layers (where senior-partner relationships accumulate context); confirms [[free-sample-phase]] economics — when models commoditize, **questioning skill is the differentiator**, not model access
-tags: [nate-b-jones, framework, ai-question-method, prompt-engineering, questioning, senior-partner, flashlight-intent, good-looks-like, wrestle, opinions, prfaq, prime-video, mrr, plg, opus-4.7, gpt-5.5, free-sample-phase, claude-code, karpathy-llm-wiki]
-sources: 1
-updated: 2026-05-22
+summary: [[nate-b-jones]]' 15th named framework — the **questioning-discipline replacement for prompt engineering** in the Opus 4.7 / GPT 5.5 era; three principles (**flashlight intent** + **ask what good looks like** + **wrestle with data and opinions**); canonical reframe is **AI as senior partner, not junior teammate**; **in 2026-05-23 [[nate-b-jones]] ships the artifact-side complement** — [[project-room-workflow]] (his 18th framework, 22.3K views) — names the **canvas artifacts** that pair with the questioning discipline (source inventory + conflict log + missing context list); together Question Method + Project Room form the **complete pre-prompt workflow** above any frontier model; Principle 2 (*ask what good looks like*) is also operationalized at the skill-eval tier by [[simon-scrapes]]' [[self-improving-skills]] (binary criteria = success criteria as code)
+tags: [nate-b-jones, framework, ai-question-method, prompt-engineering, questioning, senior-partner, flashlight-intent, good-looks-like, wrestle, opinions, prfaq, prime-video, mrr, plg, opus-4.7, gpt-5.5, free-sample-phase, claude-code, karpathy-llm-wiki, project-room-workflow, self-improving-skills, pre-prompt-workflow, canvas-shaping, artifact-discipline]
+sources: 2
+updated: 2026-05-23
 ---
 
 # AI Question Method
@@ -116,19 +116,45 @@ The AI Question Method + [[karpathy-llm-wiki]] + [[prompt-caching]] form a **com
 5. **Confirms [[free-sample-phase]] economics** — Opus 4.7 / GPT 5.5 capability jump means **questioning skill is the differentiator**, not model access. Free-sample-phase doesn't matter if questions stay weak.
 6. **"Opinions matter more"** ([[prove-it-economy]] #10 chapter 20:30 same batch) — same shape as Principle 3. Two [[nate-b-jones]] frameworks in one batch reinforce each other at different layers (brand-positioning + questioning-skill).
 
+## The artifact-side complement (2026-05-23): [[project-room-workflow]]
+
+[[nate-b-jones]] shipped his **18th framework** ([[project-room-workflow]]) one day after AI Question Method. The two are designed as **complementary pre-prompt disciplines**:
+
+| Framework | Discipline | Pre-prompt requirement | Output |
+|---|---|---|---|
+| **AI Question Method (this)** | **Questioning** | Flashlight intent + ask what good looks like + wrestle | Sharp question |
+| **[[project-room-workflow]]** | **Artifacts** | Source inventory + conflict log + missing context list | Curated canvas |
+
+Both target the same gap: **junior-teammate prompting wastes Opus-4.7-era frontier capability**. Question Method shapes *what you ask*; Project Room shapes *the canvas the agent works in*. Together they form the **complete pre-prompt workflow** above any frontier model.
+
+The **Sullivan & Cromwell hallucination unlock event** in Project Room Workflow (federal-court motions with AI hallucinations despite frontier-model access) is the canonical "good questions cannot save bad canvas" case. Even perfect application of AI Question Method principles cannot rescue an output if the canvas is duplicate-poisoned and gap-blind.
+
+## Principle 2 operationalized at the skill-eval tier: [[self-improving-skills]]
+
+[[simon-scrapes]]'s 2026-05-23 [[self-improving-skills]] (109.7K views) operationalizes **Principle 2 (*ask what good looks like*) at the machine practice tier**. Where AI Question Method asks a human to specify success criteria before generation, self-improving skills encodes those success criteria as **binary criteria** that an autonomous loop optimizes against. Same principle, two levels:
+
+- Human practice (this) → ask what good looks like before prompting
+- Machine practice (self-improving skills) → encode binary criteria; autonomous loop converges
+
+The convergence-via-binary-criteria pattern confirms Principle 2 has portable validity across human-tier and machine-tier applications.
+
 ## Related
 
-- [[nate-b-jones]] — author; 15th framework
-- [[prompt-caching]] — mechanics-side complement (Nate Herk #9 same batch)
+- [[nate-b-jones]] — author; 15th + 18th frameworks
+- [[project-room-workflow]] — artifact-side complement (his 18th framework, 2026-05-22)
+- [[self-improving-skills]] — Principle 2 operationalized at skill-eval tier ([[simon-scrapes]] 2026-05-23)
+- [[prompt-caching]] — mechanics-side complement (Nate Herk #9)
 - [[karpathy-llm-wiki]] — memory-layer complement
 - [[prove-it-economy]] — "opinions matter" parallel (Principle 3 ↔ chapter 20:30)
 - [[free-sample-phase]] — questioning-skill is the differentiator in commoditized-model era
 - [[claude-code]] — primary substrate
-- [[anticipation-gap]] — permission-ladder framework names the agent autonomy levels that AI Question Method calibrates the questioning to
+- [[anticipation-gap]] — permission-ladder calibrates question depth to autonomy level
+- [[skill-creator]] — sister evals voice
 
 ## Used in
 
 - [[youtube-digest-apify-2026-05-22]] — primary citation ([[nate-b-jones]] #11)
+- [[youtube-digest-apify-2026-05-23]] — artifact-side complement via [[project-room-workflow]] ([[nate-b-jones]] #4); machine-tier operationalization via [[self-improving-skills]] ([[simon-scrapes]] #3)
 
 ## Open questions
 

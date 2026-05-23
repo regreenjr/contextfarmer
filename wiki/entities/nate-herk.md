@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-22 batch alone ships **4 more videos** (total: 15 across 9 digests) — including the **105K-view canonical coverage of [[andrej-karpathy]] joining [[anthropic]]** (highest-views news video in vault), the **CAIO career-path framing** ([[chief-ai-officer]]), a **prompt caching deep-dive** ([[prompt-caching]]), and **Claude Code ↔ [[codex]] cross-substrate 3-layer mental model**; defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **6 operational/career frameworks in 10 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits); combined with [[nate-b-jones]], the two ship **22+ named frameworks in 19 days** — the largest creator-side framework production cycle in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat]
-sources: 9
-updated: 2026-05-22
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-23 batch ships the **[[ai-operating-system-offer]]** — the zero-to-first-customer "sell hours" wedge for AI consultants (the AI Business Ladder + 7-step client acquisition + hours-to-projects upsell); now **16 videos tracked across 10 digests**; in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **25+ named frameworks in 20 days** — the largest creator-side framework production cycle in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects]
+sources: 10
+updated: 2026-05-23
 ---
 
 # Nate Herk
@@ -136,6 +136,24 @@ His **three predictions** align with [[brad-bonanno]]'s Phase-3 [[execution-laye
 
 **Cumulative framework production in 2026-05-22 batch**: 3 new frameworks ([[chief-ai-officer]] + [[prompt-caching]] + 3-layer cross-substrate mental model). Combined with prior batches: **6 operational/career frameworks in 10 days**. Combined with [[nate-b-jones]]' 5 frameworks in same batch (12-16): **the two creators ship 22+ named frameworks across 19 days** — single biggest creator-side framework production cycle in this vault.
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-23]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | The AI Offer You Can Sell Tomorrow Morning | 19.1K | 2026-05-22 |
+
+**The [[ai-operating-system-offer]] — his 7th operational framework in 11 days.** The zero-to-first-customer offer wedge for new AI consultants: **sell one-on-one hours** helping business owners set up their AI Operating System, instead of jumping to retainers / projects (high-friction, slow-cash, freeze-prone). Ships alongside the **AI Business Ladder** (5 rungs: sell-hours → hours→mini-project → productized → retainer → project work) + the **AI OS deliverable shape** (instructions + 3-5 skills + 1 MCP + 1 routine + context layer = same primitive triple as [[claude-for-small-business]]' `/smb-onboard`, executed manually for personalization) + a **7-step client acquisition plan** + the **hours-to-projects upsell mechanic**.
+
+Strategic significance:
+
+1. **Direct response to [[claude-for-small-business]]** (Anthropic shipped CFSB in 2026-05-21 batch). Nate's counter: **personalization is the moat above the commodity vertical plugin**. Hours-as-onboarding stays open even after `/smb-onboard` ships.
+2. **Pairs with [[chief-ai-officer]]** (his own framework #4 from 2026-05-22). The two are sister offers — CAIO = employee seat; AI OS Offer = external-operator seat. Both 2026 wedges for the same skill set, shipped one batch apart.
+3. **First explicit "sell hours" offer framework** in this vault — fills the **zero-to-first-customer wedge** in [[ai-consulting]] coverage. Prior coverage assumed you already had customers.
+4. **Genspark sponsorship** — Nate's first Genspark-sponsored video (free credits via `genspark.ai/?utm_source=yt&utm_campaign=nateherk`). Genspark joins Hostinger (NATEHERK code) as a paid distribution partner. Open question whether Genspark is a [[manus]]-style competitive-intel agent or different category.
+5. **Skool slug confirms productization**: `skool.com/ai-automation-society-plus/about?el=selling-setup-hours` — the URL slug is exactly this video's lead magnet path.
+
+→ New concept: [[ai-operating-system-offer]]. Updates: [[ai-consulting]] (AI Business Ladder added to offer-language coverage).
+
 **The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
 
 - **Method 1** `/loop` (in-session)
@@ -173,6 +191,7 @@ Strategic significance: framework production is now a **Nate Herk content pillar
 - **3-layer cross-substrate mental model** (Claude/Codex compatibility) — instructions + skills + agents (2026-05-18)
 - **[[chief-ai-officer]]** — CAIO career path, two paths into seat, 61-point adoption gap (2026-05-17)
 - **[[prompt-caching]] habits** — three behavioral rules + cache-break surface + Thariq reference (2026-05-21)
+- **[[ai-operating-system-offer]]** — AI Business Ladder + sell-hours wedge + 7-step client acquisition + hours-to-projects upsell (2026-05-22)
 
 ## Distribution channels
 
@@ -206,7 +225,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]]
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his
@@ -223,3 +242,6 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 - [[andrej-karpathy]] — 105K-view coverage of Anthropic hire (2026-05-19)
 - [[anthropic]], [[openai]] — both substantively affected by the 2026-05-14 + 2026-05-19 news cycles
 - [[karpathy-llm-wiki]] — "the wiki is your data moat" thesis (2026-05-19 chapter 6:25)
+- [[ai-operating-system-offer]] — AI Business Ladder + sell-hours wedge (2026-05-22)
+- [[ai-consulting]] — extended with AI Business Ladder offer-design framework
+- [[claude-for-small-business]] — AI OS Offer is the personalization wedge above CFSB's commodity onboarding

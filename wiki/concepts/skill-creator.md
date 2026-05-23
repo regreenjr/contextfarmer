@@ -1,10 +1,10 @@
 ---
 title: Skill Creator
 category: concept
-summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target
-tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization]
-sources: 1
-updated: 2026-05-11
+summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
+tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes]
+sources: 2
+updated: 2026-05-23
 ---
 
 # Skill Creator
@@ -75,11 +75,33 @@ Updated stack with Skill Creator's place:
 | Taxonomy | What types of scaffolding exist? | [[nate-b-jones]] ([[plugins]]) |
 | Authoring | How do I write *one* skill well? | [[code-with-beto]], [[anthropic]] authoring guide |
 | Authoring framework | What categories of skills exist? | [[ben-ai]] (3 Types), [[chase-ai]] (capability vs preference) |
-| **Evaluation** | **Does my skill actually work?** | **[[skill-creator]] (this)** |
+| **Evaluation (single-shot)** | **Does my skill actually work?** | **[[skill-creator]] (this)** |
+| **Optimization (closed-loop)** | **Can my skill be converged to as-good-as-possible?** | **[[self-improving-skills]] ([[simon-scrapes]] 2026-05-23)** |
 | Composition | How do skills chain into automations? | [[simon-scrapes]] ([[skill-systems]]) |
 | Curation | Which skills to install? | [[nate-herk]], [[brock-mesarich]], [[dubibubii]] |
 
 Skill Creator sits between authoring and composition — it's the **acceptance test** before a skill is fit to compose with other skills.
+
+## Extension: [[self-improving-skills]] closed-loop (2026-05-23)
+
+[[simon-scrapes]]'s 2026-05-23 109.7K-view video ships [[self-improving-skills]] — the **closed-loop optimization layer** above Skill Creator's single-shot acceptance test.
+
+The relationship:
+
+| | [[skill-creator]] (this) | [[self-improving-skills]] |
+|---|---|---|
+| **Loop shape** | Single run | Convergent autonomous loop |
+| **Eval format** | Plain-language criteria + blind A/B | Binary criteria (pass/fail per criterion) |
+| **Output** | Pass/fail signal | Improved skill |
+| **Time horizon** | One run | Overnight — N iterations |
+| **Use case** | "Does my skill work?" | "Can my skill be made to work better?" |
+
+Skill Creator + Self-Improving Skills form the **complete pre-ship pipeline**:
+1. Skill Creator runs the acceptance test (does the skill change behavior in the right direction?)
+2. Self-Improving Skills converges the skill against binary criteria (until plateau or budget exhausted)
+3. Shippable skill emerges with both acceptance + optimization evidence
+
+Self-improving skills is **the closed-loop extension** of Skill Creator's three core capabilities — particularly extending blind A/B testing into a **convergent revision loop**. Likely path: Anthropic ships an integrated `/skill-improve` command that wraps both into one workflow.
 
 ## Strategic implications
 
@@ -122,7 +144,10 @@ Skill Creator sits between authoring and composition — it's the **acceptance t
 - [[anthropic]] — vendor / publisher
 - [[chase-ai]] — first-hand walkthrough source
 - [[skill-systems]] — composition layer that consumes Skill-Creator-passed skills
+- [[self-improving-skills]] — closed-loop optimization extension (Simon Scrapes 2026-05-23)
 - [[plugins]] — taxonomy parent
 - [[ai-consulting]] — practice that ships eval-backed skills as deliverables
 - [[youtube-digest-apify-2026-05-11]] — primary citation
+- [[youtube-digest-apify-2026-05-23]] — self-improving-skills extension
 - [[code-with-beto]], [[ben-ai]] — fellow authoring-discipline voices
+- [[karpathy-llm-wiki]] — autoresearch lineage inherited via self-improving-skills
