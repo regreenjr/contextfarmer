@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **eighteen named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), decision ([[capital-allocation-framework]]), protocols ([[agent-protocol-stack]]), marketing ([[prove-it-economy]]), questioning skill ([[ai-question-method]]), infrastructure ([[infrastructure-control-layer]]), and **workflow artifact ([[project-room-workflow]] — source inventory + conflict log + missing context list as canvas-shaping discipline before "do the thing")**; the full 5-layer enterprise-AI agent stack is now mapped (infra + protocols + value + pricing + decision); **18 frameworks in 20 days** (T/C/L/D 2026-05-04 → project-room-workflow 2026-05-22); Sullivan & Cromwell hallucination joins McKinsey-Lilly + Mozilla-271 as **third named-firm 2026 AI-failure unlock event** in this vault
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch, project-room-workflow, source-inventory, conflict-log, missing-context-list, sullivan-cromwell, hallucination, canvas-shaping, opus-4-7, gpt-5-5, files-as-canvas]
-sources: 14
-updated: 2026-05-23
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **twenty named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), decision ([[capital-allocation-framework]]), protocols ([[agent-protocol-stack]]), marketing ([[prove-it-economy]]), questioning skill ([[ai-question-method]]), infrastructure ([[infrastructure-control-layer]]), workflow artifact ([[project-room-workflow]]), and **eval ([[long-running-benchmarks]] — harness is the real story, Emergence AI virtual town experiment) + physical-substrate procurement ([[ai-supply-contract]] — software contracts became supply contracts, HBM + packaging > GPUs)**; the **6-layer enterprise-AI agent stack is now complete** (physical substrate + infra + protocols + value + pricing + decision); **20 frameworks in 21 days** (T/C/L/D 2026-05-04 → ai-supply-contract 2026-05-24); Sullivan & Cromwell hallucination joins McKinsey-Lilly + Mozilla-271 + Microsoft-$190B-capacity-constrained + Emergence-AI-15-day-virtual-town as **5 named-firm 2026 AI-failure / disclosure unlock events** in this vault
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch, project-room-workflow, source-inventory, conflict-log, missing-context-list, sullivan-cromwell, hallucination, canvas-shaping, opus-4-7, gpt-5-5, files-as-canvas, long-running-benchmarks, harness-thesis, emergence-ai, ai-town, mira-flora, polite-agreement, mixed-model-towns, ai-supply-contract, capacity-constrained, hbm, packaging, gb200, hyperscaler-capex, allocation-risk, supply-assurance, developers-in-procurement]
+sources: 15
+updated: 2026-05-25
 ---
 
 # Nate B Jones
@@ -441,6 +441,62 @@ The three artifacts are **the canvas**. Only after they exist does the writing p
 
 → New concept: [[project-room-workflow]]. Updates: [[ai-question-method]] (artifact-side complement), [[claude-code]] (Opus 4.7 folder-tree-walking + files-as-canvas), [[karpathy-llm-wiki]] (per-task instantiation).
 
+## New in [[youtube-digest-apify-2026-05-25]]
+
+**Two new frameworks in one batch** — extends his cadence to **20 named frameworks in 21 days**.
+
+### #2 [[long-running-benchmarks]] — the harness is the real story (eval-side framework)
+
+His **19th framework** — *Claude's AI Town Voted Yes On Everything. That's Not A Good Sign.* (33.3K views, 2026-05-23, 11:15). The **eval-side framework** that argues long-running agent behavior is the real test, not single-task benchmarks — and that **the harness, not the model, does the heavy lifting**.
+
+**Unlock event**: **Emergence AI's 15-day virtual town experiment** — five identical towns, five different LLMs, completely divergent outcomes (Mira/Flora arson, Claude's polite-agreement "order without signal", Grok and OpenAI's distinct failure modes, mixed-model towns).
+
+**The Claude failure mode is structurally important**: voting yes on everything reads as "safe" on task benchmarks but is a failure mode at trajectory level. The "Claude is safest" narrative becomes a **measurement artifact**.
+
+**The harness-as-real-story claim** (chapter 10:30): *"Agents stay on track because the system around them is engineered to keep them there, not because the model is well-behaved."* The harness is the **integration layer** across his prior diagnostics — [[agent-security]] (judge architecture), [[infrastructure-control-layer]] (5 control points), [[work-primitive]] (access/meaning/authority), [[agent-protocol-stack]] (MCP/A2A/AG-UI) are all harness components.
+
+**The eval hierarchy**: single-shot ([[skill-creator]]) → binary-criteria closed-loop ([[self-improving-skills]]) → **trajectory/scenario-level ([[long-running-benchmarks]])**.
+
+→ New concept: [[long-running-benchmarks]]. Updates: [[agent-security]] (harness-thesis extension), [[claude-code]] (Claude town diagnostic), [[anthropic]] (Claude town datapoint).
+
+### #3 [[ai-supply-contract]] — software contracts became supply contracts (procurement-side framework)
+
+His **20th framework** — *Why the AI boom is about to hit a wall* (31.6K views, 2026-05-24, 23:37). The **procurement-side framework** that reframes AI vendor contracts as **supply contracts in everything but name** and argues the real bottleneck is **HBM + packaging + power + cooling**, not GPUs.
+
+**Unlock event**: **Microsoft's $190B CapEx + "capacity constrained" disclosure** — industry-scale signal that supply (not demand, not model quality) is the binding constraint.
+
+**Four substrate bottlenecks** (chapters 10:30 – 15:25):
+
+| Bottleneck | Why it constrains AI |
+|---|---|
+| **NVIDIA GB200 NVL72** | Supply-allocated rack-scale module, not retail-purchaseable |
+| **High Bandwidth Memory** (HBM) | The real constraint — not GPU die supply but HBM stacking + supply |
+| **Packaging, substrates, optics** | TSMC CoWoS is the canonical chokepoint |
+| **Power, cooling, construction** | 36-month substation upgrades regardless of CapEx willingness |
+
+**"Software contracts became supply contracts"** (chapter 3:10) — the procurement reality shifted from SaaS terms (uptime SLA, monthly billing) to supply terms (allocation, utilization commitments, pre-paid capacity, multi-year horizons).
+
+**"Developers belong in procurement"** (chapter 5:20) — direct echo of [[agent-security]] (procurement-side framework) extended to the **physical-substrate layer**: classic SaaS → developer + procurement → **developer + procurement + supply-chain ops in one conversation**.
+
+**Closes the 6-layer enterprise-AI agent stack**: physical substrate ([[ai-supply-contract]]) sits beneath [[infrastructure-control-layer]] (substrate vendors are *themselves* supply-constrained).
+
+→ New concept: [[ai-supply-contract]]. Updates: [[infrastructure-control-layer]] (one layer down), [[agent-metering]] (procurement-side complement to pricing-side meter shift).
+
+### The 6-layer enterprise-AI agent stack (complete, 10 days)
+
+| Layer | Framework | Question | Date |
+|---|---|---|---|
+| **Physical substrate** | **[[ai-supply-contract]]** | What supply chain are we contracting with? | **2026-05-24** |
+| **Infrastructure (vendors)** | [[infrastructure-control-layer]] | Which 5 control points + 7 questions? | 2026-05-20 |
+| **Protocols** | [[agent-protocol-stack]] | Which 6 protocols + 3 questions? | 2026-05-19 |
+| **Value capture** | [[agentic-implementation-layer]] | Where do the trillion dollars live? | 2026-05-14 |
+| **Pricing** | [[agent-metering]] | How does the meter tick? | 2026-05-15 |
+| **Decision** | [[capital-allocation-framework]] | Which lever per workflow? | 2026-05-17 |
+
+Plus **eval-side framework** [[long-running-benchmarks]] (2026-05-23) — cross-cutting; applies at every layer.
+
+**Single most comprehensive enterprise-AI stack map in this vault** — six layers from one creator in 10 days, with two additional cross-cutting frameworks ([[prove-it-economy]] marketing-side + [[ai-question-method]] questioning-skill + [[long-running-benchmarks]] eval-side + [[project-room-workflow]] workflow-artifact) extending the cadence to **20 named frameworks in 21 days**.
+
 ## The complete framework stack
 
 [[nate-b-jones]] is now the source of **eleven complementary diagnostics** — nine analytical-side + one value-capture-synthesis-side + one pricing-mechanism-side:
@@ -495,6 +551,8 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-22]] #11 *Opus 4.7 and OpenAI 5.5 Made Your Prompting Style Obsolete.* (52.7K, 2026-05-21) — [[ai-question-method]] 15th framework (flashlight intent + ask what good looks like + wrestle with data and opinions + senior partner reframe)
 - [[youtube-digest-apify-2026-05-22]] #12 *These 5 Infrastructure Giants Secretly Rule AI* (20.2K, 2026-05-20) — [[infrastructure-control-layer]] 16th framework (5 control points: runtime/identity/data/payments/observability + multi-layer kill switch + 7 questions)
 - [[youtube-digest-apify-2026-05-23]] #4 *The One AI Writing Hack Nobody Talks About.* (22.3K, 2026-05-22) — [[project-room-workflow]] 18th framework (source inventory + conflict log + missing context list + Sullivan & Cromwell unlock + Opus 4.7 folder-tree-walking + files-as-canvas)
+- [[youtube-digest-apify-2026-05-25]] #2 *Claude's AI Town Voted Yes On Everything. That's Not A Good Sign.* (33.3K, 2026-05-23) — [[long-running-benchmarks]] 19th framework (Emergence AI 15-day virtual town + Mira/Flora arson + Claude polite-agreement failure mode + mixed-model towns + harness-is-the-real-story)
+- [[youtube-digest-apify-2026-05-25]] #3 *Why the AI boom is about to hit a wall* (31.6K, 2026-05-24) — [[ai-supply-contract]] 20th framework (Microsoft $190B capacity-constrained + software contracts became supply contracts + HBM/packaging/optics/power as real bottlenecks + GB200 NVL72 + developers belong in procurement)
 
 ## Why track him for 3Ps
 
@@ -504,8 +562,8 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - **His Substack** (`natesnewsletter.substack.com`) likely deserves its own farmer config
 
 ## Related
-- [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder; deployment-company axis-1 in [[agentic-implementation-layer]]
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]], [[capital-allocation-framework]], [[agent-protocol-stack]], [[prove-it-economy]], [[ai-question-method]], [[infrastructure-control-layer]] — concepts he originated/popularized
+- [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder; deployment-company axis-1 in [[agentic-implementation-layer]]; Claude town datapoint in [[long-running-benchmarks]]
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]], [[capital-allocation-framework]], [[agent-protocol-stack]], [[prove-it-economy]], [[ai-question-method]], [[infrastructure-control-layer]], [[project-room-workflow]], [[long-running-benchmarks]], [[ai-supply-contract]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
 - [[knowledge-layer]] — extended via retrieval contract (2026-05-13)
 - [[pinecone]] — Nexus / NoQL is the canonical retrieval-contract implementation
@@ -526,6 +584,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-16]] — agent metering / second-meter framework (#2, the pricing-side complement to the 10th framework)
 - [[youtube-digest-apify-2026-05-22]] — **5 frameworks in one batch**: capital allocation (#5), agent protocol stack (#6), prove-it economy (#10), AI question method (#11), infrastructure control layer (#12) — completes the 5-layer enterprise-AI agent stack in 8 days
 - [[youtube-digest-apify-2026-05-23]] — **18th framework**: [[project-room-workflow]] (canvas-shaping discipline; Sullivan & Cromwell unlock)
+- [[youtube-digest-apify-2026-05-25]] — **2 frameworks in one batch (19th + 20th)**: [[long-running-benchmarks]] (Emergence AI virtual town + harness-as-real-story) + [[ai-supply-contract]] (Microsoft $190B + HBM bottleneck + software→supply contracts)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions

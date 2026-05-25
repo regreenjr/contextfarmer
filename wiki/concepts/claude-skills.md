@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → **closed-loop optimization ([[self-improving-skills]])**
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement]
-sources: 12
-updated: 2026-05-23
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → **beginner-tier explainer ([[tristen-obrien]] pizza-shop demo)**
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format]
+sources: 13
+updated: 2026-05-25
 ---
 
 # Claude Skills
@@ -225,6 +225,23 @@ The **Security Scan** skill is the build-time complement to [[agent-security]] r
 
 **Pattern**: AI LABS surfaced "Skillify" before Anthropic released Skill Creator publicly (2026-04-03 vs 2026-05-11) — **community surfaces internal Anthropic skills ~6 weeks before official release**. Useful early-warning signal for upcoming primitives.
 
+## Beginner-tier sub-7-min explainer ([[tristen-obrien]] in [[youtube-digest-apify-2026-05-25]])
+
+[[tristen-obrien]]'s 5.3K-view *Claude Skills Explained Simply (Master in 7 Minutes)* (2026-05-24, 6:59) fills the **sub-7-min beginner-tier explainer rung** below [[anthropic]]'s 201K official explainer, [[chase-ai]]'s 107K Skill Creator walkthrough, and [[ben-ai]]'s 229K authoring video. The four-tier explainer funnel is now mapped:
+
+| Tier | Creator | Audience | Length |
+|---|---|---|---|
+| Official | [[anthropic]] (201K) | Ecosystem broadly | Long-form |
+| Developer walkthrough | [[chase-ai]] (107K Skill Creator) | Developers + skill authors | Tutorial |
+| Authoring framework | [[ben-ai]] (229K) | Skill builders | Educational |
+| **Sub-7-min beginner** | **[[tristen-obrien]] (5.3K)** | **Non-developer SMB operators** | **Express** |
+
+The **Pizza Shop Catering Quote demo** (chapter 2:52) is the canonical live-built skill for the beginner tier — takes a messy customer email and produces a branded PDF quote (likely using Anthropic's `pdf` skill on the back end) + a ready-to-send reply email. Directly portable to plumbing, HVAC, landscaping, catering, photography — the trade-service vertical set this vault tracks via adjacent skills.
+
+**"Not Every Skill Is Safe"** (chapter 5:09) is the new wrinkle — Tristen flags the **third-party-skill security risk** for non-technical users (*"one security mistake that could put your data at risk"*). This is the **consumer-facing surface** of [[agent-security]] — which to date has been enterprise procurement + LLM-as-judge architecture. Beginner-tier users now have to think about skill provenance, code execution permissions, and data exposure.
+
+→ See [[tristen-obrien]] for full coverage. Updates: [[agent-security]] (consumer-facing skill-provenance dimension).
+
 ## Vertical-plugin product instantiation ([[claude-for-small-business]] in [[youtube-digest-apify-2026-05-22]])
 
 [[anthropic]] ships **the first vertical plugin** on 2026-05-21 — [[claude-for-small-business]] bundles ~30 pre-built skills + connectors + the `/smb-onboard` meta-skill. This is the **canonical "skills as packaged product" instantiation** — confirms the [[execution-layer]] / [[plugin-marketplace]] roadmap is shipping as **Anthropic-owned vertical plugins**, not just community marketplaces.
@@ -280,7 +297,8 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]]
+- [[tristen-obrien]] — beginner-tier sub-7-min explainer + pizza-shop catering-quote demo + consumer-facing skill-provenance security
 - [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
 - [[hermes-agent]] — sibling substrate that ships its own Skills primitive
 - [[skill-creator]] — evaluation tool / meta-skill

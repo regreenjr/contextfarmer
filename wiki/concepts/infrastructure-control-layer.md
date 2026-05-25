@@ -1,10 +1,10 @@
 ---
 title: Infrastructure Control Layer (5 Giants / 7 Questions)
 category: concept
-summary: [[nate-b-jones]]' 16th named framework — the **5 substrate-vendor control points** that actually determine whether AI agents reach production (runtime / identity / data / payments / observability) plus **kill switch as multi-layer product feature**; positions the control layer *below* [[agent-protocol-stack]] (MCP/A2A/AG-UI) and *below* [[agentic-implementation-layer]] (where-value-lives); names canonical vendors per layer (**runtime**: Cloudflare/AWS/Vercel; **identity**: Auth0/Okta/WorkOS/Entra; **data**: Snowflake/Databricks/BigQuery; **payments**: Stripe + card networks; **observability**: Datadog/Honeycomb-tier); ships the **seven questions to map any agent workflow** — third workflow-diagnostic question-set [[nate-b-jones]] shipped in this batch; closes the **full 4-layer enterprise-AI agent stack** alongside [[agent-protocol-stack]] / [[agentic-implementation-layer]] / [[agent-metering]] / [[capital-allocation-framework]]
-tags: [nate-b-jones, framework, infrastructure, control-layer, runtime, identity, data, payments, observability, kill-switch, cloudflare, aws, vercel, auth0, okta, workos, entra, snowflake, databricks, bigquery, stripe, datadog, agent-security, deployment-framework, agent-protocol-stack, agentic-implementation-layer]
-sources: 1
-updated: 2026-05-22
+summary: [[nate-b-jones]]' 16th named framework — the **5 substrate-vendor control points** that actually determine whether AI agents reach production (runtime / identity / data / payments / observability) plus **kill switch as multi-layer product feature**; positions the control layer *below* [[agent-protocol-stack]] (MCP/A2A/AG-UI) and *below* [[agentic-implementation-layer]] (where-value-lives); names canonical vendors per layer (**runtime**: Cloudflare/AWS/Vercel; **identity**: Auth0/Okta/WorkOS/Entra; **data**: Snowflake/Databricks/BigQuery; **payments**: Stripe + card networks; **observability**: Datadog/Honeycomb-tier); ships the **seven questions to map any agent workflow** — third workflow-diagnostic question-set [[nate-b-jones]] shipped in this batch; **in 2026-05-25 [[ai-supply-contract]] ([[nate-b-jones]]' 20th framework) extends this one layer down to *physical-substrate procurement*** — the substrate vendors are *themselves* supply-constrained (Microsoft $190B CapEx + HBM + advanced packaging + power/cooling); closes the **6-layer enterprise-AI agent stack** alongside [[ai-supply-contract]] / [[agent-protocol-stack]] / [[agentic-implementation-layer]] / [[agent-metering]] / [[capital-allocation-framework]]
+tags: [nate-b-jones, framework, infrastructure, control-layer, runtime, identity, data, payments, observability, kill-switch, cloudflare, aws, vercel, auth0, okta, workos, entra, snowflake, databricks, bigquery, stripe, datadog, agent-security, deployment-framework, agent-protocol-stack, agentic-implementation-layer, ai-supply-contract, physical-substrate, hbm, packaging, capacity-constrained]
+sources: 2
+updated: 2026-05-25
 ---
 
 # Infrastructure Control Layer (5 Giants / 7 Questions)
@@ -129,6 +129,25 @@ The control layer is **where the actual decision-making happens** about whether 
 
 **Full 5-layer enterprise-AI agent stack in 6 days** (2026-05-14 → 2026-05-20). This is the most comprehensive single-creator-shipped enterprise-AI taxonomy in this vault.
 
+## Extended to 6 layers via [[ai-supply-contract]] ([[youtube-digest-apify-2026-05-25]])
+
+[[nate-b-jones]]' **20th framework** ([[ai-supply-contract]], 31.6K views, 2026-05-24) adds **physical substrate** as the layer beneath this one — the substrate vendors named here are *themselves* supply-constrained:
+
+| Layer | Framework | Question |
+|---|---|---|
+| **Physical substrate** | **[[ai-supply-contract]]** | **What supply chain are we contracting with?** |
+| Infrastructure (vendors) | [[infrastructure-control-layer]] | Which 5 control points? |
+| Protocols | [[agent-protocol-stack]] | Which 6 protocols? |
+| Value capture | [[agentic-implementation-layer]] | Where do the trillion dollars live? |
+| Pricing | [[agent-metering]] | How does the meter tick? |
+| Decision | [[capital-allocation-framework]] | Which lever per workflow? |
+
+The reframe: **Cloudflare and AWS don't escape HBM allocation any more than their customers do**. The 5 control points are the *layer at which the buyer interacts*; the physical-substrate layer ([[ai-supply-contract]]) is the *layer beneath that* — NVIDIA GB200 NVL72 modules + HBM + TSMC CoWoS packaging + power/cooling/construction.
+
+**Microsoft's $190B CapEx + "capacity constrained" disclosure** is the canonical evidence that the runtime, identity, data, payments, and observability vendors all flow through a common physical-substrate bottleneck. The kill switch operates across 5 control points; the **allocation queue operates across all 5 too**.
+
+→ See [[ai-supply-contract]] for the procurement-side framework that extends infrastructure-control-layer one layer down.
+
 ## Strategic significance
 
 1. **16th [[nate-b-jones]] framework** — extends framework cadence to 16-in-19-days
@@ -154,6 +173,8 @@ The control layer is **where the actual decision-making happens** about whether 
 ## Used in
 
 - [[youtube-digest-apify-2026-05-22]] — primary citation ([[nate-b-jones]] #12)
+- [[youtube-digest-apify-2026-05-25]] — [[ai-supply-contract]] extension (physical-substrate layer beneath the 5 control points)
+- [[ai-supply-contract]] — the layer beneath this one (substrate vendors are themselves supply-constrained)
 
 ## Open questions
 

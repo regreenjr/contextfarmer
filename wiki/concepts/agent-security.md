@@ -1,10 +1,10 @@
 ---
 title: Agent Security (Procurement-Side + Architectural Pattern)
 category: concept
-summary: [[nate-b-jones]]'s two-part frame for agent security — (procurement) AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem (McKinsey Lilly $20 SQL injection); "does your platform know humans from agents" + (architecture) separate LLM-as-judge at the action boundary, four action-risk classes (read / write / high-stakes / external-irreversible), Lindy public case study; in 2026-05-22 batch extends to a **third dimension** — the **kill switch as multi-layer product feature** per [[infrastructure-control-layer]] (Nate B Jones #12) operating across runtime + identity + data + payments + observability simultaneously; **MCP as security boundary** ([[agent-protocol-stack]] chapter 4:50) extends the judge-architecture pattern at the protocol layer — judges are deployed at MCP-server perimeters; the build-time complement to runtime judge is **Security Scan** (Anthropic internal skill surfaced by [[ai-labs]]) which catches the same vulnerability classes at CI/PR time
-tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow, llm-as-judge, judge-architecture, action-boundary, lindy, four-class-action-taxonomy, kill-switch, multi-layer, infrastructure-control-layer, mcp-security-boundary, security-scan, ai-labs, identity, workos, okta, auth0, entra]
-sources: 3
-updated: 2026-05-22
+summary: [[nate-b-jones]]'s two-part frame for agent security — (procurement) AI agent exploits are a procurement-and-organizational-design problem, not a tech-hygiene problem (McKinsey Lilly $20 SQL injection); "does your platform know humans from agents" + (architecture) separate LLM-as-judge at the action boundary, four action-risk classes (read / write / high-stakes / external-irreversible), Lindy public case study; in 2026-05-22 batch extends to a **third dimension** — the **kill switch as multi-layer product feature** per [[infrastructure-control-layer]] (Nate B Jones #12) operating across runtime + identity + data + payments + observability simultaneously; **MCP as security boundary** ([[agent-protocol-stack]] chapter 4:50) extends the judge-architecture pattern at the protocol layer — judges are deployed at MCP-server perimeters; the build-time complement to runtime judge is **Security Scan** (Anthropic internal skill surfaced by [[ai-labs]]) which catches the same vulnerability classes at CI/PR time; **in 2026-05-25 the framework extends in two new directions** — (1) the **harness-thesis extension** via [[long-running-benchmarks]] ([[nate-b-jones]]' 19th framework, Emergence AI virtual town) — the judge architecture is **one component of the harness**, alongside [[infrastructure-control-layer]] / [[work-primitive]] / [[agent-protocol-stack]]; (2) the **consumer-facing skill-provenance dimension** via [[tristen-obrien]]'s sub-7-min beginner-tier explainer — third-party skill safety as a non-technical-user problem ("one security mistake that could put your data at risk")
+tags: [agent-security, procurement, work-primitive, authority, nate-b-jones, framework, mckinsey, anthropic, openai, sap, pinecone, salesforce, servicenow, llm-as-judge, judge-architecture, action-boundary, lindy, four-class-action-taxonomy, kill-switch, multi-layer, infrastructure-control-layer, mcp-security-boundary, security-scan, ai-labs, identity, workos, okta, auth0, entra, harness-thesis, long-running-benchmarks, emergence-ai, consumer-facing-security, skill-provenance, third-party-skills, tristen-obrien, beginner-tier-security]
+sources: 5
+updated: 2026-05-25
 ---
 
 # Agent Security (Procurement-Side)
@@ -202,6 +202,44 @@ The agent-security analog of [[work-primitive]]'s coding-agent-first argument:
 
 Consumer / enterprise SaaS has none of this — agent identity is bolted onto a human-user-only data model.
 
+## Harness-thesis extension ([[long-running-benchmarks]] in [[youtube-digest-apify-2026-05-25]])
+
+[[nate-b-jones]]' 19th framework reframes the judge architecture as **one component of a broader harness** — and argues *the harness, not the model, does the heavy lifting* in production-safe agent systems. The Emergence AI 15-day virtual town experiment showed five identical towns running on five different models diverging completely; what kept production-safe towns on track was the system-level architecture around the model, not the model's own behavior.
+
+The judge layer is now one of four named harness components:
+
+| Harness component | Framework | Question |
+|---|---|---|
+| **Judge architecture** | This page (agent-security) | Should this action proceed? |
+| **5 control points + kill switch** | [[infrastructure-control-layer]] | Where can the agent run / act? |
+| **Access / meaning / authority** | [[work-primitive]] | What does the platform allow? |
+| **MCP / A2A / AG-UI** | [[agent-protocol-stack]] | Which protocol boundary is the action crossing? |
+
+The **Claude town polite-agreement failure mode** is an instructive datapoint — Claude's town "voted yes on everything" not because of inadequate prompt engineering but because of **RLHF target / model temperament** that no judge architecture alone fixes. The takeaway: judge-architecture + sycophancy-checks + adversarial-eval scenarios are all parts of the harness, and **measurement of long-running trajectory behavior** is how you detect failure modes that don't show up in single-action evals.
+
+→ See [[long-running-benchmarks]] for full coverage of the harness thesis.
+
+## Consumer-facing skill-provenance dimension ([[tristen-obrien]] in [[youtube-digest-apify-2026-05-25]])
+
+[[tristen-obrien]]'s 2026-05-24 sub-7-min beginner-tier explainer for [[claude-skills]] adds **consumer-facing skill provenance** as a new dimension of agent security:
+
+- *"Not Every Skill Is Safe"* (chapter 5:09) — third-party-skill security risk for non-technical users
+- *"One security mistake that could put your data at risk"* — the consumer-tier framing
+- **Skill provenance** — where did this skill come from, who wrote it
+- **Code Execution permissions** — what can the skill actually do on my machine / Anthropic infra
+- **Data exposure** — what data does the skill see
+
+This is the **non-technical-user surface** of agent security. Prior framings (procurement diagnostic, judge architecture, action-risk classes) have been **enterprise-tier**. As [[plugin-marketplace]] proliferates and [[claude-for-small-business]]-style vertical plugins ship to non-developer audiences, **skill provenance becomes a UX-tier security problem**:
+
+- **Marketplace ratings** — does the marketplace surface trust signals (publisher reputation, install count, recency of audits)?
+- **Permission previews** — does the skill UI show what code execution / data access / network egress the skill requires before install?
+- **Sandboxing** — can risky skills run in isolated contexts that limit blast radius?
+- **Provenance metadata** — is the skill author's public identity / signing key surfaced?
+
+**Pairs with [[ai-labs]]' enterprise-side Security Scan internal-skill** — Security Scan catches build-time vulnerabilities in skills authored *by* the enterprise; consumer-facing provenance addresses runtime risk from skills authored *by third parties* that the consumer installs.
+
+→ See [[tristen-obrien]] and [[claude-skills]] for full coverage.
+
 ## Why this matters for 3Ps
 
 1. **Cleanest procurement-conversation entry point yet.** "Does your platform know humans from agents?" is a single-sentence diagnostic that turns any AI vendor-evaluation conversation into a scoping exercise. Direct replacement for vague "AI readiness."
@@ -241,3 +279,7 @@ Consumer / enterprise SaaS has none of this — agent identity is bolted onto a 
 - [[knowledge-layer]] — sibling sub-month convergence pattern
 - [[youtube-digest-apify-2026-05-11]] — primary citation (procurement diagnostic)
 - [[youtube-digest-apify-2026-05-12]] — second citation (architectural pattern + judge layer + four-class action taxonomy)
+- [[youtube-digest-apify-2026-05-22]] — third citation (kill switch as multi-layer feature in [[infrastructure-control-layer]])
+- [[youtube-digest-apify-2026-05-25]] — fourth + fifth citations (harness-thesis extension via [[long-running-benchmarks]] + consumer-facing skill-provenance via [[tristen-obrien]])
+- [[long-running-benchmarks]] — judge architecture is one component of the broader harness
+- [[tristen-obrien]] — consumer-facing skill-provenance dimension

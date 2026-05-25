@@ -1,10 +1,10 @@
 ---
 title: Agent Metering (Second Meter on Your SaaS Bill)
 category: concept
-summary: [[nate-b-jones]]'s 2026-05-15 framework — every major SaaS vendor is bolting on a **second meter** that ticks on agent activity rather than user logins; the per-seat license (25-year canonical commercial unit) is breaking and getting replaced by per-work-unit / per-token / per-action pricing; named vendor primitives are Salesforce Flex Credits + Microsoft Copilot credits + ServiceNow Action Fabric + SAP 2026 API policy + substrate token-pricing floor; "pricing follows platform control"; **fair license vs rent-seeking** is the normative distinction; 4 pre-renewal questions for buyers; **in 2026-05-23 [[manus]] surfaces as a vendor-side confirmation** — per-credit / per-task metering disclosed explicitly in [[marketing-against-the-grain]] Episode 395 ("this uses real money" chapter 4:00) — Manus + SimilarWeb is the **competitive-intel-vertical instantiation** of the per-work-unit pricing thesis (sister to Salesforce Flex Credits at the SaaS-vertical level)
-tags: [agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, agentforce, salesforce, microsoft, servicenow, sap, anthropic, openai, fair-license, rent-seeking, work-unit, per-action-pricing, nate-b-jones, commercial-unit, agent-economics, manus, per-credit, per-task-metering, competitive-intel-vendor]
-sources: 2
-updated: 2026-05-23
+summary: [[nate-b-jones]]'s 2026-05-15 framework — every major SaaS vendor is bolting on a **second meter** that ticks on agent activity rather than user logins; the per-seat license (25-year canonical commercial unit) is breaking and getting replaced by per-work-unit / per-token / per-action pricing; named vendor primitives are Salesforce Flex Credits + Microsoft Copilot credits + ServiceNow Action Fabric + SAP 2026 API policy + substrate token-pricing floor; "pricing follows platform control"; **fair license vs rent-seeking** is the normative distinction; 4 pre-renewal questions for buyers; **in 2026-05-23 [[manus]] surfaces as a vendor-side confirmation** — per-credit / per-task metering disclosed explicitly in [[marketing-against-the-grain]] Episode 395 ("this uses real money" chapter 4:00) — Manus + SimilarWeb is the **competitive-intel-vertical instantiation** of the per-work-unit pricing thesis; **in 2026-05-25 [[ai-supply-contract]] ([[nate-b-jones]]' 20th framework) ships the *procurement-side complement*** — pricing-side shift (per-seat → per-task, this framework) pairs with supply-side shift (SaaS → allocation contracts) to describe the **complete commercial-shift surface** for AI buyers in 2026
+tags: [agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, agentforce, salesforce, microsoft, servicenow, sap, anthropic, openai, fair-license, rent-seeking, work-unit, per-action-pricing, nate-b-jones, commercial-unit, agent-economics, manus, per-credit, per-task-metering, competitive-intel-vendor, ai-supply-contract, procurement-side-complement, allocation-contracts, capacity-constrained]
+sources: 3
+updated: 2026-05-25
 ---
 
 # Agent Metering (Second Meter on Your SaaS Bill)
@@ -161,9 +161,36 @@ The vault has tracked Salesforce and Microsoft agent products before. ServiceNow
 - **Hyperscaler positioning** — Microsoft's hybrid model gives them the most flexibility; do AWS/GCP follow with their own hybrid pricing?
 - **The 8B-token developer's actual workload** — what was the developer doing? (Likely RAG-on-large-corpus or agent-loop bot; transcript pull would resolve)
 
+## Procurement-side complement: [[ai-supply-contract]] ([[youtube-digest-apify-2026-05-25]])
+
+[[nate-b-jones]]' **20th framework** ([[ai-supply-contract]], 31.6K views, 2026-05-24) ships the **procurement-side complement** to this framework. Together they describe the complete commercial-shift surface for AI buyers in 2026:
+
+| Side | Framework | Shift |
+|---|---|---|
+| **Pricing** (how the meter ticks) | This page (agent-metering) | Per-seat license → per-token / per-action / per-task |
+| **Supply** (what you're buying) | [[ai-supply-contract]] | SaaS terms → allocation / utilization / supply assurance contracts |
+
+The reframe: **classic SaaS** had pricing on top of "always-available" infrastructure (the buyer didn't worry about the supply side). **Agent-era AI** breaks both halves of that — pricing becomes per-work-unit *and* supply becomes constrained (Microsoft $190B "capacity constrained"). Buyers must negotiate *both* sides.
+
+**The 4+4 question stack** — together the two frameworks produce 8 pre-contract questions for an AI vendor evaluation:
+
+| Side | Question |
+|---|---|
+| Pricing (agent-metering) | 1. What's the agent unit of work? |
+| Pricing | 2. What's the cap? |
+| Pricing | 3. What's the overage rate? |
+| Pricing | 4. What's the access path? |
+| Supply ([[ai-supply-contract]]) | 5. What's our allocation risk? |
+| Supply | 6. What's our utilization discipline? |
+| Supply | 7. What's our supply assurance? |
+| Supply | 8. What's our contract horizon? |
+
+→ See [[ai-supply-contract]] for the supply-side framework.
+
 ## Used in
 
 - [[youtube-digest-apify-2026-05-16]] — primary citation ([[nate-b-jones]] #2)
+- [[youtube-digest-apify-2026-05-25]] — procurement-side complement ([[ai-supply-contract]])
 - [[nate-b-jones]] — 11th framework
 - [[agentic-implementation-layer]] — pricing-side complement to the 10th framework
 - [[agent-substrate]] — agent-metering names how SoRs monetize the substrate thesis
@@ -171,9 +198,10 @@ The vault has tracked Salesforce and Microsoft agent products before. ServiceNow
 - [[work-primitive]] — SAP authority-layer gate is monetized via the 2026 API policy
 - [[agent-security]] — per-action metering pairs with action-risk-class taxonomy
 - [[ai-consulting]] — the four-question diagnostic is a productizable engagement
+- [[ai-supply-contract]] — procurement-side complement (supply-shift pair with pricing-shift)
 
 ## Related pages
 
 - [[nate-b-jones]], [[anthropic]], [[openai]]
-- [[agentic-implementation-layer]], [[agent-substrate]], [[work-primitive]], [[agent-security]], [[free-sample-phase]] — sibling [[nate-b-jones]] frameworks
+- [[agentic-implementation-layer]], [[agent-substrate]], [[work-primitive]], [[agent-security]], [[free-sample-phase]], [[ai-supply-contract]] — sibling [[nate-b-jones]] frameworks
 - [[ai-consulting]] — productization target (pre-renewal contract review)
