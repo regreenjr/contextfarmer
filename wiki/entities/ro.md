@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 9 batches; 7 cumulative ads, all `{{product.brand}}` body text; batch 8 (2026-05-20) shipped 2 ads after 4-day fetch gap raising compression-vs-intensification question; **batch 9 (2026-05-22, 2-day gap) drops back to 1 ad — CONFIRMS the fetch-gap compression hypothesis** (per-day rates match: 0.5 Ro ads/day in both batches 8 and 9); the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 9 batches
-tags: [organization, dtc, telehealth, glp-1, competitor, ro, fetch-gap-compression-confirmed]
-sources: 9
-updated: 2026-05-22
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 11 batches; 7 cumulative ads, all `{{product.brand}}` body text; batch 8 (2026-05-20) shipped 2 ads after 4-day fetch gap; batch 9 (2026-05-22, 2-day gap) dropped back to 1 ad confirming fetch-gap compression; batch 10 (2026-05-23, 1-day gap) was 1st silence batch since return-from-silence in batch 7; **batch 11 (2026-05-25, 2-day gap) is 2nd consecutive silence batch (10+11)** — approaching but not at the ≥3-silent-batch methodology threshold for a "Ro creative pause" claim; parallels Wegovy 3-batch silence (9+10+11) at structurally similar wave-closing pattern; the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 11 batches
+tags: [organization, dtc, telehealth, glp-1, competitor, ro, fetch-gap-compression-confirmed, ro-2-batch-silent]
+sources: 10
+updated: 2026-05-25
 ---
 
 # Ro
@@ -120,6 +120,8 @@ New batch 8 noise additions to the bare-"Ro" corpus: **Hero FinCorp** (Indian fi
 - [[ads-digest-2026-05-16]] — **1 new placeholder ad — breaks 5-batch Ro silence** (ID `1542915227491027`, started 2026-05-04, body `{{product.brand}}`); 4 cumulative Ro ads across 7 batches, ALL placeholder-only; Sean Gracet Roset (AI photo app, "Roset" = "Ro" substring) adds new sub-pattern to noise corpus (first AI/tech consumer-app via "Ro")
 - [[ads-digest-2026-05-20]] — **2 new placeholder ads — first non-cold-start multi-ad Ro batch** (IDs `2277114206027622` started 2026-05-14 + `2238568280301485` started 2026-05-08, both body `{{product.brand}}`); 6 cumulative Ro ads across 8 batches, ALL placeholder-only; open whether batch 8's 2-ad signal is a 4-day fetch-gap compression artifact or a genuine pickup in Ro's catalog cadence; new "Ro" substring noise additions: Hero FinCorp + Carolina Freightways + Rough Country + Cholesterol Support Group + SecretRomance multi-cloud-variant (first per-page-ID-allow-listing bypass pattern via sub-page proliferation)
 - [[ads-digest-2026-05-22]] — **1 new placeholder ad — returns to baseline ≤1-ad pattern after 2-day gap from batch 8** (ID `946235747996438`, started 2026-04-28, body `{{product.brand}}`); **decisively confirms fetch-gap compression hypothesis** — per-day rates identical across batches 8 and 9 (0.50 Ro ads/day in both); 7 cumulative Ro ads across 9 batches, ALL placeholder-only; new noise additions: Hampton Water Rosé (wine brand, 15th distinct Hampton-substring noise — NOT Hampton Founders) + Gardens of Eden (garden/landscaping, 11th distinct "Eden" noise brand)
+- [[ads-digest-2026-05-23]] — **0 new ads — 1st silence batch since return-from-silence in batch 7** (after 4 consecutive active batches with at least 1 ad each — batches 7+8+9, batch 10 silent); cumulative 7 Ro ads across 10 batches, ALL placeholder-only
+- [[ads-digest-2026-05-25]] — **0 new ads — 2nd consecutive silence batch (10+11)**; approaching but not at the ≥3-silent-batch methodology threshold; parallels [[hims]] Wegovy 3-batch silence (9+10+11) — both surge-trough patterns silent simultaneously in batch 11; cumulative 7 Ro ads across 11 batches, ALL placeholder-only; new "Ro" substring noise additions in batch 11: **Eyebrow pencil** ("Eyeb*ro*w" substring — first Vietnamese-language noise ad in farm), **Cholesterol Relief Community** ("Choleste*ro*l" — distinct page from batch-8 Cholesterol Support Group, different narrative — barbershop Alzheimer's vs ICU-nurse statins), **Robinhood** ("*Ro*binhood" — first financial-app noise page in farm via "Ro"; joins Hero FinCorp as second financial-services noise page)
 
 ## Open questions
 
