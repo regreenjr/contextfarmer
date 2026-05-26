@@ -1,10 +1,10 @@
 ---
 title: Ro (Roman Health)
 category: entity
-summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 11 batches; 7 cumulative ads, all `{{product.brand}}` body text; batch 8 (2026-05-20) shipped 2 ads after 4-day fetch gap; batch 9 (2026-05-22, 2-day gap) dropped back to 1 ad confirming fetch-gap compression; batch 10 (2026-05-23, 1-day gap) was 1st silence batch since return-from-silence in batch 7; **batch 11 (2026-05-25, 2-day gap) is 2nd consecutive silence batch (10+11)** — approaching but not at the ≥3-silent-batch methodology threshold for a "Ro creative pause" claim; parallels Wegovy 3-batch silence (9+10+11) at structurally similar wave-closing pattern; the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 11 batches
-tags: [organization, dtc, telehealth, glp-1, competitor, ro, fetch-gap-compression-confirmed, ro-2-batch-silent]
-sources: 10
-updated: 2026-05-25
+summary: DTC telehealth (Ro / Roman / Rory) — direct competitor to Hims and Medvi; placeholder-only FB ad pattern across all 12 batches; **9 cumulative ads** (all `{{product.brand}}` body text); **2026-05-26 batch 12 ships 2 new placeholder ads** (IDs `4371300236471571` started 2026-04-14 same as cold-start launch window + `1354726933169121` started 2026-05-19 new mid-May cluster) — 2nd non-cold-start multi-ad Ro batch, structurally identical to batch 8's 2-ad surge; **the 2-batch silence (10+11) was NOT wave closure** — it was a trough between catalog re-surface events; Ro's catalog feed surfaces ads in 4 distinct irregular bursts (batches 1-2 / 7-9 / 12) separated by 2-4-batch troughs (3-6 / 10-11); 2026-04-14 launch window confirmed as canonical Ro template (6+ weeks of catalog activity); the bare-"Ro" filter continues to capture only Ro's catalog-driven dynamic-creative half and almost certainly misses the primary FB Page name (Roman Health / Ro Body / Ro Health) — zero static narrative across 12 batches
+tags: [organization, dtc, telehealth, glp-1, competitor, ro, fetch-gap-compression-confirmed, ro-returns-from-silence, ro-catalog-cluster-cadence, 2026-04-14-launch-canonical]
+sources: 11
+updated: 2026-05-26
 ---
 
 # Ro
@@ -94,6 +94,8 @@ Identical per-day rates. **Fetch-gap compression hypothesis confirmed** — batc
 | 7 | 2026-05-16 | 1 | 4 (started 2026-05-04) |
 | 8 | 2026-05-20 | 2 | 6 (started 2026-05-14, 2026-05-08) |
 | **9** | **2026-05-22** | **1** | **7 (started 2026-04-28)** |
+| 10-11 | 2026-05-23 to 2026-05-25 | 0 | 7 (2-batch trough) |
+| **12** | **2026-05-26** | **2** | **9 (started 2026-04-14 re-surface, 2026-05-19 new)** |
 
 **Pattern persists across the longest window in the farm**: Ro's bare-"Ro" page (whichever it is) runs **catalog-driven dynamic creative only**. All 6 placeholder ads ship `{{product.brand}}` body text; **zero static narrative across 8 batches**. Batch 8's 2-ad volume is the first signal that Ro may be picking up catalog cadence — but it's confounded by the 4-day fetch gap (1-day cadence might have spread these across 2 batches).
 
@@ -122,6 +124,7 @@ New batch 8 noise additions to the bare-"Ro" corpus: **Hero FinCorp** (Indian fi
 - [[ads-digest-2026-05-22]] — **1 new placeholder ad — returns to baseline ≤1-ad pattern after 2-day gap from batch 8** (ID `946235747996438`, started 2026-04-28, body `{{product.brand}}`); **decisively confirms fetch-gap compression hypothesis** — per-day rates identical across batches 8 and 9 (0.50 Ro ads/day in both); 7 cumulative Ro ads across 9 batches, ALL placeholder-only; new noise additions: Hampton Water Rosé (wine brand, 15th distinct Hampton-substring noise — NOT Hampton Founders) + Gardens of Eden (garden/landscaping, 11th distinct "Eden" noise brand)
 - [[ads-digest-2026-05-23]] — **0 new ads — 1st silence batch since return-from-silence in batch 7** (after 4 consecutive active batches with at least 1 ad each — batches 7+8+9, batch 10 silent); cumulative 7 Ro ads across 10 batches, ALL placeholder-only
 - [[ads-digest-2026-05-25]] — **0 new ads — 2nd consecutive silence batch (10+11)**; approaching but not at the ≥3-silent-batch methodology threshold; parallels [[hims]] Wegovy 3-batch silence (9+10+11) — both surge-trough patterns silent simultaneously in batch 11; cumulative 7 Ro ads across 11 batches, ALL placeholder-only; new "Ro" substring noise additions in batch 11: **Eyebrow pencil** ("Eyeb*ro*w" substring — first Vietnamese-language noise ad in farm), **Cholesterol Relief Community** ("Choleste*ro*l" — distinct page from batch-8 Cholesterol Support Group, different narrative — barbershop Alzheimer's vs ICU-nurse statins), **Robinhood** ("*Ro*binhood" — first financial-app noise page in farm via "Ro"; joins Hero FinCorp as second financial-services noise page)
+- [[ads-digest-2026-05-26]] — **2 new placeholder ads — RETURNS from 2-batch silence (10+11)** (IDs `4371300236471571` started **2026-04-14** + `1354726933169121` started **2026-05-19**, both `{{product.brand}}` body); **2nd non-cold-start multi-ad Ro batch**, structurally identical to batch 8's 2-ad surge; the 2-batch silence was NOT wave closure but a **trough between catalog re-surface events**. The 2026-04-14 launch window is the same as the cold-start Ro ad in batch 1 — **confirms 2026-04-14 as the canonical Ro template** that catalog re-surfaces 6+ weeks later. Ro's catalog feed pattern: irregular bursts of 1-2 ads (Run 1 batches 1-2 / Run 2 batches 7-9 / Run 3 batch 12) separated by 2-4-batch troughs. Per-day rate (1.0 Ro/day) doubles the 0.5/day rate from batches 8+9 — first time Ro per-day rate matches Hims (1.0/day). Cumulative **9 Ro ads across 12 batches, ALL placeholder-only**; first batch since batch 10 with no new "Ro" substring noise page additions (existing "Ro" noise corpus stable at current size)
 
 ## Open questions
 
