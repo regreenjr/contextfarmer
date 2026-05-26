@@ -1,10 +1,10 @@
 ---
 title: AI Consulting
 category: concept
-summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); **in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]]** — the AI Business Ladder (5 rungs: sell-hours → mini-project → productized → retainer → project work) + sell-hours-as-first-offer playbook + AI OS deliverable shape (instructions + 3-5 skills + 1 MCP + 1 routine + context layer) + 7-step client acquisition + hours-to-projects upsell; **direct competitive response to [[claude-for-small-business]]** (personalization is the moat above the commodity vertical plugin); **ten voices now visible end-to-end across the wedge from MBB top-tier to zero-to-first-customer beginner**
-tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter]
-sources: 9
-updated: 2026-05-23
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]] (the AI Business Ladder 5 rungs + sell-hours-as-first-offer + AI OS deliverable + 7-step client acquisition + hours-to-projects upsell); direct competitive response to [[claude-for-small-business]] (personalization is the moat above the commodity vertical plugin); **in 2026-05-25 [[devin-kearns]] (Custom AI Studio CEO) ships the [[mid-market-ai-agency]] thesis via 1:44:03 long-form interview with [[nate-herk]]** — *"mid-market is the prime opportunity, not SMBs or enterprises"* + *"most AI work sold today won't survive 2027"* + 11 ways AI experts make money + "frameworks not vendor" positioning + three-tier market thesis (SMB <$5M / mid-market $5M-$250M / enterprise >$1B); **eleven voices now visible end-to-end across the wedge from MBB top-tier → mid-market agency-scale → mid-tier offer-language → zero-to-first-customer → pre-revenue beginner**
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter, mid-market-ai-agency, devin-kearns, custom-ai-studio, three-tier-market, 100m-agency, 2027-commoditization, 11-ways-money, frameworks-not-vendor, agency-scale]
+sources: 10
+updated: 2026-05-26
 ---
 
 # AI Consulting
@@ -277,7 +277,8 @@ This is the **first clean multi-phase consulting offer** the [[ai-consulting]] w
 - [[youtube-digest-apify-2026-05-14]] — beginner / Tier-C audience expansion ([[nicole-mccain]] #4); four-phase engagement arc forms via [[retrieval-contract]] + [[execution-layer]]
 - [[youtube-digest-apify-2026-05-15]] — MBB top-tier survival voice ([[ramin-imani]] #1); enterprise-side synthesis via [[agentic-implementation-layer]] ([[nate-b-jones]] #2)
 - [[youtube-digest-apify-2026-05-23]] — zero-to-first-customer wedge via [[ai-operating-system-offer]] ([[nate-herk]] #2, AI Business Ladder + sell-hours playbook)
-- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]], [[ramin-imani]] — operator entity pages
+- [[youtube-digest-apify-2026-05-26]] — **agency-scale top of the ladder via [[mid-market-ai-agency]]** ([[nate-herk]] long-form interview with [[devin-kearns]] / Custom AI Studio CEO; three-tier market thesis + 11 ways AI experts make money + "frameworks not vendor" positioning + won't-survive-2027 timeline)
+- [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]], [[ramin-imani]], [[devin-kearns]] — operator entity pages
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - [[voice-agents]] — net-new service line
@@ -288,4 +289,6 @@ This is the **first clean multi-phase consulting offer** the [[ai-consulting]] w
 - [[codex]] — vendor-agnostic positioning enables OpenAI-shop clients
 - [[free-sample-phase]] — substrate-economics rationale for vendor-neutral deliverables
 - [[agentic-implementation-layer]] — synthesis-side framework; the 5 durable primitives ARE the implementation-layer-specialist 3Ps wedge
+- [[mid-market-ai-agency]] — agency-scale top of the ladder; the $5M-$250M mid-market thesis (2026-05-25)
+- [[ai-operating-system-offer]] — zero-to-first-customer rung beneath the agency-scale top
 - (Future) [[3ps-consulting]] — eventual entity page for the user's offering

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "4355351451453242",
+    "brand": "Eden Munoz",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-03-06",
+    "end_date": "2026-05-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=4355351451453242",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "26134395989579934",
+    "brand": "Eden Munoz",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-03-06",
+    "end_date": "2026-05-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=26134395989579934",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "4371300236471571",
+    "brand": "Ro",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-04-14",
+    "end_date": "2026-05-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=4371300236471571",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1296851655896170",
+    "brand": "hims",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-05-22",
+    "end_date": "2026-05-25",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1296851655896170",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "852088814627491",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-05-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=852088814627491",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1354726933169121",
+    "brand": "Ro",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-05-19",
+    "end_date": "2026-05-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1354726933169121",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-23 batch ships the **[[ai-operating-system-offer]]** — the zero-to-first-customer "sell hours" wedge for AI consultants (the AI Business Ladder + 7-step client acquisition + hours-to-projects upsell); now **16 videos tracked across 10 digests**; in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **25+ named frameworks in 20 days** — the largest creator-side framework production cycle in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects]
-sources: 10
-updated: 2026-05-23
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-26 batch ships **first long-form interview format** (1:44:03) with [[devin-kearns]] (Custom AI Studio CEO) surfacing [[mid-market-ai-agency]] thesis ($100M AI agency playbook, three-tier market, 11 ways AI experts make money, "frameworks not vendor" positioning, won't-survive-2027 timeline); now **17 videos tracked across 11 digests**; previously in 2026-05-23 shipped [[ai-operating-system-offer]] (zero-to-first-customer sell-hours wedge); in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **26+ named frameworks in 22 days** — the largest creator-side framework production cycle in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects, mid-market-ai-agency, devin-kearns, custom-ai-studio, long-form-interview, 100m-agency, three-tier-market, frameworks-not-vendor, 2027-commoditization, 11-ways-money]
+sources: 11
+updated: 2026-05-26
 ---
 
 # Nate Herk
@@ -154,6 +154,25 @@ Strategic significance:
 
 → New concept: [[ai-operating-system-offer]]. Updates: [[ai-consulting]] (AI Business Ladder added to offer-language coverage).
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-26]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | The Playbook for a $100M AI Agency | 13.6K | 2026-05-25 |
+
+**First long-form interview format in his catalog (1:44:03)** — interview with [[devin-kearns]], co-founder & CEO of **Custom AI Studio** — on building an AI agency with *enterprise-grade value*, not a lifestyle business. Surfaces new concept [[mid-market-ai-agency]] (Devin's three-tier market thesis + 11 ways AI experts make money + "frameworks not vendor" positioning + won't-survive-2027 timeline + five things he wishes he knew sooner).
+
+Strategic significance:
+
+1. **First long-form interview format** — prior content was monologue tutorials + framework videos. 1:44:03 format is closer to [[lenny-rachitsky]] / [[marketing-against-the-grain]] long-form pattern.
+2. **Closes the [[ai-consulting]] tier ladder end-to-end** — Devin/Custom AI Studio at agency-scale ($100M target) sits at the top above [[ai-operating-system-offer]] (zero-to-first-customer), [[nicole-mccain]] (pre-revenue beginner), [[ramin-imani]] (MBB-aspirant), [[mark-kashef]] (macro thesis), [[mert-yerlikaya]] (mid-tier offer-language). **Eleven voices** now visible across the wedge.
+3. **The mid-market thesis is structurally important** — Devin argues mid-market ($5M-$250M) is the prime opportunity, structurally protected from both [[claude-for-small-business]] commoditization (SMB) and McKinsey-tier consulting (enterprise). Tightens the [[ai-consulting]] target-market positioning.
+4. **The "frameworks not vendor" positioning is the explicit rationale** for the framework-per-video content production strategy — every [[nate-b-jones]] framework video is an instance of this strategy; this video gives the **explicit positioning rationale** for why it works.
+5. **Genspark + Glaido + Hostinger** sponsorship stack continues — Genspark joins as sustained sponsor (not one-off from 2026-05-23 batch).
+6. **Pairs with his own [[ai-operating-system-offer]]** — Nate's two consecutive videos now bracket the [[ai-consulting]] wedge: rung 1 (sell hours, zero-to-first-customer) → agency scale ($100M target).
+
+→ New entity: [[devin-kearns]]. New concept: [[mid-market-ai-agency]]. Updates: [[ai-consulting]] (mid-market wedge added; tier ladder closes end-to-end at 11 voices), [[ai-operating-system-offer]] (mid-market is the agency-scale top of the ladder).
+
 **The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
 
 - **Method 1** `/loop` (in-session)
@@ -225,7 +244,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-26]]
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his
@@ -243,5 +262,7 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 - [[anthropic]], [[openai]] — both substantively affected by the 2026-05-14 + 2026-05-19 news cycles
 - [[karpathy-llm-wiki]] — "the wiki is your data moat" thesis (2026-05-19 chapter 6:25)
 - [[ai-operating-system-offer]] — AI Business Ladder + sell-hours wedge (2026-05-22)
-- [[ai-consulting]] — extended with AI Business Ladder offer-design framework
+- [[ai-consulting]] — extended with AI Business Ladder offer-design framework + Devin Kearns mid-market thesis
 - [[claude-for-small-business]] — AI OS Offer is the personalization wedge above CFSB's commodity onboarding
+- [[devin-kearns]] — Custom AI Studio CEO; interviewed in [[mid-market-ai-agency]] 2026-05-25 video
+- [[mid-market-ai-agency]] — agency-scale top of the AI-consulting tier ladder (2026-05-25)

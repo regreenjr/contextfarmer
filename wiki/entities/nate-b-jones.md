@@ -1,10 +1,10 @@
 ---
 title: Nate B Jones
 category: entity
-summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **twenty named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), decision ([[capital-allocation-framework]]), protocols ([[agent-protocol-stack]]), marketing ([[prove-it-economy]]), questioning skill ([[ai-question-method]]), infrastructure ([[infrastructure-control-layer]]), workflow artifact ([[project-room-workflow]]), and **eval ([[long-running-benchmarks]] — harness is the real story, Emergence AI virtual town experiment) + physical-substrate procurement ([[ai-supply-contract]] — software contracts became supply contracts, HBM + packaging > GPUs)**; the **6-layer enterprise-AI agent stack is now complete** (physical substrate + infra + protocols + value + pricing + decision); **20 frameworks in 21 days** (T/C/L/D 2026-05-04 → ai-supply-contract 2026-05-24); Sullivan & Cromwell hallucination joins McKinsey-Lilly + Mozilla-271 + Microsoft-$190B-capacity-constrained + Emergence-AI-15-day-virtual-town as **5 named-firm 2026 AI-failure / disclosure unlock events** in this vault
-tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch, project-room-workflow, source-inventory, conflict-log, missing-context-list, sullivan-cromwell, hallucination, canvas-shaping, opus-4-7, gpt-5-5, files-as-canvas, long-running-benchmarks, harness-thesis, emergence-ai, ai-town, mira-flora, polite-agreement, mixed-model-towns, ai-supply-contract, capacity-constrained, hbm, packaging, gb200, hyperscaler-capex, allocation-risk, supply-assurance, developers-in-procurement]
-sources: 15
-updated: 2026-05-25
+summary: AI News & Strategy Daily YouTuber + Substack author; analytical "what's really happening underneath" framings; highest-density framework producer in this vault — **twenty-one named frameworks** spanning worker (T/C/L/D), user (anticipation-gap), substrate (work-primitive), builder (plugins-as-mech-suit), codebase (code-comprehensibility), stack (OpenClaw runtime), procurement+architecture (agent-security), knowledge (retrieval contract / NoQL), commerce (6-layer agentic-commerce taxonomy), enterprise/TAM ([[agentic-implementation-layer]] 4-axis squeeze), pricing ([[agent-metering]]), decision ([[capital-allocation-framework]]), protocols ([[agent-protocol-stack]]), marketing ([[prove-it-economy]]), questioning skill ([[ai-question-method]]), infrastructure ([[infrastructure-control-layer]]), workflow artifact ([[project-room-workflow]]), eval ([[long-running-benchmarks]] — harness is the real story, Emergence AI virtual town experiment), physical-substrate procurement ([[ai-supply-contract]] — software contracts became supply contracts, HBM + packaging > GPUs), and **inter-team scaling ([[platform-agent-asymmetry]] — Emma at OpenAI interview, app teams and platform teams accelerate at different rates, goal-directed agents turn unintentionally adversarial, platform agents need different primitives, private eval suite as survival primitive)**; the **6-layer enterprise-AI agent stack is now complete + inter-team layer added**; **21 frameworks in 22 days** (T/C/L/D 2026-05-04 → platform-agent-asymmetry 2026-05-25); **first long-form interview format** in 2026-05-25 batch (46:36 with Emma, OpenAI data infrastructure engineering lead); Sullivan & Cromwell hallucination joins McKinsey-Lilly + Mozilla-271 + Microsoft-$190B-capacity-constrained + Emergence-AI-15-day-virtual-town + OpenAI-data-platform-team-Emma as **6 named-firm 2026 AI-failure / disclosure unlock events** in this vault
+tags: [creator, youtube, substack, ai-strategy, analyst, enterprise-ai, knowledge-work, talent-board, anticipation-gap, permission-ladder, consumer-ai, work-primitive, plugins, code-comprehensibility, openclaw, agent-security, procurement, llm-as-judge, judge-architecture, action-boundary, lindy, retrieval-contract, noql, pageindex, graphrag, agentic-commerce, acp, ucp, ap2, x402, bedrock-agent-core, agentic-implementation-layer, four-axis-squeeze, deployment-companies, private-equity, systems-of-record, mbb, trillion-dollar, agent-metering, saas-pricing, flex-credits, copilot-credits, action-fabric, sap-api-policy, fair-license, rent-seeking, commercial-unit, capital-allocation, automate-build-buy-hire-wait, ibm-askhr, gartner, agent-protocol-stack, mcp, a2a, ag-ui, a2ui, prove-it-economy, truth-layer, ai-question-method, senior-partner, infrastructure-control-layer, runtime, identity, observability, kill-switch, project-room-workflow, source-inventory, conflict-log, missing-context-list, sullivan-cromwell, hallucination, canvas-shaping, opus-4-7, gpt-5-5, files-as-canvas, long-running-benchmarks, harness-thesis, emergence-ai, ai-town, mira-flora, polite-agreement, mixed-model-towns, ai-supply-contract, capacity-constrained, hbm, packaging, gb200, hyperscaler-capex, allocation-risk, supply-assurance, developers-in-procurement, platform-agent-asymmetry, emma-openai, platform-engineering, uneven-acceleration, adversarial-agents, private-eval-suite, interview-format, two-track-agent-infrastructure]
+sources: 16
+updated: 2026-05-26
 ---
 
 # Nate B Jones
@@ -482,6 +482,46 @@ His **20th framework** — *Why the AI boom is about to hit a wall* (31.6K views
 
 → New concept: [[ai-supply-contract]]. Updates: [[infrastructure-control-layer]] (one layer down), [[agent-metering]] (procurement-side complement to pricing-side meter shift).
 
+## New in [[youtube-digest-apify-2026-05-26]]
+
+### #1 [[platform-agent-asymmetry]] — app teams and platform teams accelerate at different rates (inter-team scaling framework)
+
+His **21st framework** — *The Infrastructure Nightmare Nobody Is Talking About* (20.8K views, 2026-05-25, 46:36) — **first long-form interview format** in his catalog, with **Emma, OpenAI's data infrastructure engineering lead**. The framework crystallizes from a 46-minute conversation with a practitioner inside a frontier lab rather than a solo monologue.
+
+**Unlock event**: **OpenAI's own data platform team** — the lab that ships the models is also the company that has to absorb the platform-team load from its own agents running internally. Joins McKinsey-Lilly + Mozilla-271 + Microsoft-$190B + Emergence-AI-15-day-town + Sullivan-Cromwell-hallucination as the **6th named-firm 2026 AI-failure / disclosure unlock event** in this vault.
+
+**The uneven-acceleration thesis** (chapter 07:52): app teams gain agent-leverage immediately; platform / infrastructure teams absorb the load — every app-team acceleration becomes a platform-team incident. **Goal-directed agents turn unintentionally adversarial** (chapter 12:18) because the platform team is in the *objective-function denominator* (invisible to the agent).
+
+**Canonical example — "the export job that fixed itself overnight"** (chapter 05:15): an agent diagnosed and patched a broken export pipeline before the on-call engineer woke up. Reads as a win at the app-team level. From the platform team's view: a job they didn't write was modified by a system they don't own, against data they're responsible for.
+
+**"Platform agents need different primitives"** (chapter 22:56) — the strategic claim that becomes the framework title. App-team agents and platform-team agents need **different harness shapes** across 5 dimensions (authority scope / eval target / time horizon / action class / counterparty). Implies a **two-track agent infrastructure** is the future state for any organization scaling agents.
+
+**The private eval suite** (back half, gated to Substack) — the survival primitive Emma's team built for constant model upgrades. Each release breaks something different; owning your own eval suite that catches your specific failure modes is the only stable answer. Substack monetization: *"Full Post w/ Prompt Pack — Build Your Own Eval Suite"*.
+
+**Strategic significance**:
+
+1. **Extends his framework cadence to 21 in 22 days** (T/C/L/D 2026-05-04 → platform-agent-asymmetry 2026-05-25). Framework production rate is now ≥1/day across a 22-day window.
+2. **First interview-format framework video** — prior 20 frameworks were monologue. Interview format substitutes the guest's domain knowledge for solo research time.
+3. **First inside-OpenAI platform-engineering voice in vault** — Emma sits inside the data infrastructure team at the lab. Different vantage than the strategy/analyst voices.
+4. **Inter-team-scale extension of the agent-security frontier** — prior [[agent-security]] framings were intra-agent (judge architecture) or intra-stack ([[infrastructure-control-layer]] 5 control points). Platform Agent Asymmetry names the **cross-team consequence** of agent deployment.
+5. **Invalidates one-size-fits-all agent rollout strategies** — most enterprise rollouts treat all agents as having the same authority/eval/horizon shape. The framework implies two-track agent infrastructure.
+
+→ New concept: [[platform-agent-asymmetry]]. Updates: [[openai]] (Emma + data platform team), [[agent-security]] (inter-team scale extension), [[long-running-benchmarks]] (private eval suite as survival primitive), [[infrastructure-control-layer]] (platform-vs-app primitive asymmetry).
+
+### The 6-layer enterprise-AI agent stack + inter-team layer
+
+| Layer | Framework | Question | Date |
+|---|---|---|---|
+| **Inter-team scaling** | **[[platform-agent-asymmetry]]** | **How do app + platform teams stay aligned as agents scale?** | **2026-05-25** |
+| Physical substrate | [[ai-supply-contract]] | What supply chain are we contracting with? | 2026-05-24 |
+| Infrastructure (vendors) | [[infrastructure-control-layer]] | Which 5 control points + 7 questions? | 2026-05-20 |
+| Protocols | [[agent-protocol-stack]] | Which 6 protocols + 3 questions? | 2026-05-19 |
+| Value capture | [[agentic-implementation-layer]] | Where do the trillion dollars live? | 2026-05-14 |
+| Pricing | [[agent-metering]] | How does the meter tick? | 2026-05-15 |
+| Decision | [[capital-allocation-framework]] | Which lever per workflow? | 2026-05-17 |
+
+Plus cross-cutting frameworks: [[long-running-benchmarks]] (eval-side), [[project-room-workflow]] (per-task workflow-artifact), [[ai-question-method]] (questioning-skill), [[prove-it-economy]] (marketing-side).
+
 ### The 6-layer enterprise-AI agent stack (complete, 10 days)
 
 | Layer | Framework | Question | Date |
@@ -553,6 +593,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-23]] #4 *The One AI Writing Hack Nobody Talks About.* (22.3K, 2026-05-22) — [[project-room-workflow]] 18th framework (source inventory + conflict log + missing context list + Sullivan & Cromwell unlock + Opus 4.7 folder-tree-walking + files-as-canvas)
 - [[youtube-digest-apify-2026-05-25]] #2 *Claude's AI Town Voted Yes On Everything. That's Not A Good Sign.* (33.3K, 2026-05-23) — [[long-running-benchmarks]] 19th framework (Emergence AI 15-day virtual town + Mira/Flora arson + Claude polite-agreement failure mode + mixed-model towns + harness-is-the-real-story)
 - [[youtube-digest-apify-2026-05-25]] #3 *Why the AI boom is about to hit a wall* (31.6K, 2026-05-24) — [[ai-supply-contract]] 20th framework (Microsoft $190B capacity-constrained + software contracts became supply contracts + HBM/packaging/optics/power as real bottlenecks + GB200 NVL72 + developers belong in procurement)
+- [[youtube-digest-apify-2026-05-26]] #1 *The Infrastructure Nightmare Nobody Is Talking About* (20.8K, 2026-05-25) — [[platform-agent-asymmetry]] 21st framework (Emma at OpenAI data infrastructure interview + uneven acceleration between app teams and platform teams + goal-directed agents unintentionally adversarial + platform agents need different primitives + private eval suite as survival primitive); **first long-form interview format in his catalog (46:36)**
 
 ## Why track him for 3Ps
 
@@ -563,7 +604,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 
 ## Related
 - [[anthropic]] — frequent subject; Mythos product surfaced via #12; agent-security responder; deployment-company axis-1 in [[agentic-implementation-layer]]; Claude town datapoint in [[long-running-benchmarks]]
-- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]], [[capital-allocation-framework]], [[agent-protocol-stack]], [[prove-it-economy]], [[ai-question-method]], [[infrastructure-control-layer]], [[project-room-workflow]], [[long-running-benchmarks]], [[ai-supply-contract]] — concepts he originated/popularized
+- [[agent-substrate]], [[agentic-commerce]], [[anticipation-gap]], [[work-primitive]], [[plugins]], [[code-comprehensibility]], [[agent-security]], [[retrieval-contract]], [[agentic-implementation-layer]], [[agent-metering]], [[capital-allocation-framework]], [[agent-protocol-stack]], [[prove-it-economy]], [[ai-question-method]], [[infrastructure-control-layer]], [[project-room-workflow]], [[long-running-benchmarks]], [[ai-supply-contract]], [[platform-agent-asymmetry]] — concepts he originated/popularized
 - [[karpathy-llm-wiki]] — covered analytically in #24; OpenBrain reframe in [[youtube-digest-apify-2026-05-10]] #8
 - [[knowledge-layer]] — extended via retrieval contract (2026-05-13)
 - [[pinecone]] — Nexus / NoQL is the canonical retrieval-contract implementation
@@ -585,6 +626,7 @@ This makes [[nate-b-jones]] the **single most-cited framework producer** in this
 - [[youtube-digest-apify-2026-05-22]] — **5 frameworks in one batch**: capital allocation (#5), agent protocol stack (#6), prove-it economy (#10), AI question method (#11), infrastructure control layer (#12) — completes the 5-layer enterprise-AI agent stack in 8 days
 - [[youtube-digest-apify-2026-05-23]] — **18th framework**: [[project-room-workflow]] (canvas-shaping discipline; Sullivan & Cromwell unlock)
 - [[youtube-digest-apify-2026-05-25]] — **2 frameworks in one batch (19th + 20th)**: [[long-running-benchmarks]] (Emergence AI virtual town + harness-as-real-story) + [[ai-supply-contract]] (Microsoft $190B + HBM bottleneck + software→supply contracts)
+- [[youtube-digest-apify-2026-05-26]] — **21st framework + first interview format**: [[platform-agent-asymmetry]] (Emma at OpenAI data infrastructure / uneven acceleration / private eval suite)
 - [[karpathy-wiki-vs-openbrain]] — direct contributor to this comparison
 
 ## Open questions
