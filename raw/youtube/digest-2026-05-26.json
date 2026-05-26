@@ -1,0 +1,312 @@
+[
+  {
+    "title": "The Infrastructure Nightmare Nobody Is Talking About",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "z3pbrFKVyQE",
+    "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/z3pbrFKVyQE/maxresdefault.jpg",
+    "viewCount": 20784,
+    "date": "2026-05-25T15:01:08.000Z",
+    "likes": 686,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": null,
+    "channelTotalVideos": 988,
+    "channelTotalViews": 21009724,
+    "numberOfSubscribers": 294000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": null,
+      "channelTotalVideos": 988,
+      "channelTotalViews": 21009724,
+      "numberOfSubscribers": 294000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:46:36",
+    "commentsCount": 112,
+    "text": "Full Post w/ Prompt Pack Build Your Own Eval Suite: https://natesnewsletter.substack.com/...\n__________________________________\nWhat's really happening inside an AI infrastructure team when agents start doing the work? The common story is that AI makes every team faster. The reality is more complicated, because the speed arrives unevenly and someone underneath has to absorb it. I sat down with Emma, who leads data infrastructure engineering at OpenAI, to find out what her team is actually building to stay ahead of the agents.\n\nIn this interview, I share the inside scoop on why platform teams become the bottleneck when AI agents scale across a company:\n\nWhy app teams and platform teams accelerate at completely different rates\nHow goal-directed agents start to feel adversarial without meaning to\nWhat OpenAI's data platform team built to buy back time\nWhere a private eval suite fits into surviving constant model upgrades\n\nFor platform and infra engineers, this is the telegraph from the future: the pinch point is coming, and the teams that instrument the load now are the ones who stay standing.\n\nChapters:\n00:00 Meet Emma and the OpenAI data platform team\n01:46 What changed in the last six months\n03:10 Agents now run the release process\n05:15 The export job that fixed itself overnight\n07:52 When acceleration is uneven across teams\n09:29 The user who didn't know what Flink was\n12:18 Why agents turn unintentionally adversarial\n22:56 Platform agents need different primitives\n34:35 Triaging inbound to buy your team time back\n40:55 Building a janky eval suite that works\n44:56 The one thing leaders need to hear\nSubscribe for daily AI strategy and news.\n\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/\n\nListen to this video as a podcast.\nSpotify: https://open.spotify.com/show/0gkFdjd...\n= Apple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/ai-big-tech-industrial-business?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=106s",
+        "text": "01:46"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=190s",
+        "text": "03:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=315s",
+        "text": "05:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=472s",
+        "text": "07:52"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=569s",
+        "text": "09:29"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=738s",
+        "text": "12:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=1376s",
+        "text": "22:56"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=2075s",
+        "text": "34:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=2455s",
+        "text": "40:55"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=z3pbrFKVyQE&t=2696s",
+        "text": "44:56"
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "The Playbook for a $100M AI Agency",
+    "translatedTitle": "How to Position Your AI Agency for a $100M Exit",
+    "type": "video",
+    "id": "8ktcSaSTvxk",
+    "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/8ktcSaSTvxk/maxresdefault.jpg",
+    "viewCount": 13573,
+    "date": "2026-05-25T16:23:09.000Z",
+    "likes": 491,
+    "location": "The AI Automation Society Podcast",
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelUsername": "nateherk",
+    "collaborators": null,
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "My Speech to Text",
+        "url": "https://get.glaido.com/nate"
+      },
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 420,
+    "channelTotalViews": 37532966,
+    "numberOfSubscribers": 767000,
+    "isChannelVerified": true,
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+      "channelJoinedDate": "Nov 17, 2013",
+      "channelDescriptionLinks": [
+        {
+          "text": "Free Skool Community",
+          "url": "https://www.skool.com/ai-automation-society/about"
+        },
+        {
+          "text": "My Speech to Text",
+          "url": "https://get.glaido.com/nate"
+        },
+        {
+          "text": "AI Automation Society Plus",
+          "url": "https://www.skool.com/ai-automation-society-plus/about"
+        },
+        {
+          "text": "Apply for the Podcast",
+          "url": "https://podcast.nateherk.com/apply"
+        },
+        {
+          "text": "About Me",
+          "url": "https://nateherk.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "nateherk",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 420,
+      "channelTotalViews": 37532966,
+      "numberOfSubscribers": 767000,
+      "isChannelVerified": true,
+      "channelName": "Nate Herk | AI Automation",
+      "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "01:44:03",
+    "commentsCount": 59,
+    "text": "Full courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=devin-kearns-podcast\nAll my FREE resources: https://www.skool.com/ai-automation-society/about?el=devin-kearns-podcast\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting\n\nDevin's YouTube:@customaistudio \n\nI sat down with Devin Kearns, co-founder & CEO of Custom AI Studio, to break down what it actually takes to build an AI agency with real enterprise value, not just another lifestyle business.\n\nWe get into why most AI work being sold today won't survive 2027, why the mid-market is the prime opportunity (not SMBs or enterprises), the 11 ways AI experts are actually making money right now, how to position with frameworks instead of being just another vendor, and the five things Devin wishes he knew sooner.\n\nIf you're building, running, or thinking about starting an AI agency, this is the strategic conversation I wish I'd had two years ago.\n\nSponsorship Inquiries:\n\ud83d\udce7 nate@smoothmedia.co\n\nConnect with me:\nhttps://www.linkedin.com/in/nateherkelman/\nhttps://x.com/nateherk\nhttps://www.instagram.com/nateherk/\n\nTIMESTAMPS \n00:00 Intro\n05:43 Chapter 1: The Inflection Point\n17:34 Chapter 2: The Economics\n32:14 Chapter 3: The Big Bet\n49:46 Chapter 4: Starting From Zero\n1:07:09 Chapter 5: The Playbook\n1:16:37 Chapter 6: Resilience & The Latter\n1:29:35 Five Things I Wish I Knew Sooner",
+    "translatedText": "Full courses + unlimited support: https://www.skool.com/ai-automation-s...\nAll my FREE resources: https://www.skool.com/ai-automation-s...\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nDevin's YouTube:\u202a@customaistudio\u202c \n\nI sat down with Devin Kearns, co-founder & CEO of Custom AI Studio, to break down what it actually takes to build an AI agency with real enterprise value, not just another lifestyle business.\n\nWe get into why most AI work being sold today won't survive 2027, why the mid-market is the prime opportunity (not SMBs or enterprises), the 11 ways AI experts are actually making money right now, how to position with frameworks instead of being just another vendor, and the five things Devin wishes he knew sooner.\n\nIf you're building, running, or thinking about starting an AI agency, this is the strategic conversation I wish I'd had two years ago.\n\nSponsorship Inquiries:\n\ud83d\udce7 nate@smoothmedia.co\n\nConnect with me:\n\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0\nhttps://x.com/nateherk\n\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0\n\nTIMESTAMPS \n00:00 Intro\n05:43 Chapter 1: The Inflection Point\n17:34 Chapter 2: The Economics\n32:14 Chapter 3: The Big Bet\n49:46 Chapter 4: Starting From Zero\n1:07:09 Chapter 5: The Playbook\n1:16:37 Chapter 6: Resilience & The Latter\n1:29:35 Five Things I Wish I Knew Sooner",
+    "descriptionLinks": [
+      {
+        "url": "https://www.skool.com/ai-automation-society-plus/about?el=devin-kearns-podcast",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://www.skool.com/ai-automation-society/about?el=devin-kearns-podcast",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://podcast.nateherk.com/apply",
+        "text": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "url": "https://uppitai.com/",
+        "text": "https://uppitai.com/"
+      },
+      {
+        "url": "https://get.glaido.com/nate",
+        "text": "https://get.glaido.com/nate"
+      },
+      {
+        "url": "https://www.hostinger.com/vps/claude-code-hosting",
+        "text": "https://www.hostinger.com/vps/claude-..."
+      },
+      {
+        "url": "https://www.youtube.com/@customaistudio",
+        "text": "\u202a@customaistudio\u202c"
+      },
+      {
+        "url": "https://www.linkedin.com/in/nateherkelman/",
+        "text": "\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0"
+      },
+      {
+        "url": "https://x.com/nateherk",
+        "text": "https://x.com/nateherk"
+      },
+      {
+        "url": "https://www.instagram.com/nateherk/",
+        "text": "\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=343s",
+        "text": "05:43"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=1054s",
+        "text": "17:34"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=1934s",
+        "text": "32:14"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=2986s",
+        "text": "49:46"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=4029s",
+        "text": "1:07:09"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=4597s",
+        "text": "1:16:37"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=8ktcSaSTvxk&t=5375s",
+        "text": "1:29:35"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@nateherk/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  }
+]
