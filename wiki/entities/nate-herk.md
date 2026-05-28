@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-26 batch ships **first long-form interview format** (1:44:03) with [[devin-kearns]] (Custom AI Studio CEO) surfacing [[mid-market-ai-agency]] thesis ($100M AI agency playbook, three-tier market, 11 ways AI experts make money, "frameworks not vendor" positioning, won't-survive-2027 timeline); now **17 videos tracked across 11 digests**; previously in 2026-05-23 shipped [[ai-operating-system-offer]] (zero-to-first-customer sell-hours wedge); in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **26+ named frameworks in 22 days** — the largest creator-side framework production cycle in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects, mid-market-ai-agency, devin-kearns, custom-ai-studio, long-form-interview, 100m-agency, three-tier-market, frameworks-not-vendor, 2027-commoditization, 11-ways-money]
-sources: 11
-updated: 2026-05-26
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-28 batch ships the **first substrate performance shootout** — *100 Hours Testing Claude Code vs ChatGPT Codex* (46.2K views) → new comparison [[claude-code-vs-codex]] (report/landing-page/dashboard head-to-head, "Codex fights back" arc, empirically tests the [[free-sample-phase]] thesis); in 2026-05-26 batch shipped **first long-form interview format** (1:44:03) with [[devin-kearns]] (Custom AI Studio CEO) surfacing [[mid-market-ai-agency]] thesis ($100M AI agency playbook, three-tier market, 11 ways AI experts make money, "frameworks not vendor" positioning, won't-survive-2027 timeline); now **18 videos tracked across 12 digests**; previously in 2026-05-23 shipped [[ai-operating-system-offer]] (zero-to-first-customer sell-hours wedge); in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **26+ named frameworks in 22 days** — the largest creator-side framework production cycle in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects, mid-market-ai-agency, devin-kearns, custom-ai-studio, long-form-interview, 100m-agency, three-tier-market, frameworks-not-vendor, 2027-commoditization, 11-ways-money, claude-code-vs-codex, head-to-head, 100-hours, report-showdown, dashboard-battle, performance-shootout, substrate-comparison]
+sources: 12
+updated: 2026-05-28
 ---
 
 # Nate Herk
@@ -173,6 +173,23 @@ Strategic significance:
 
 → New entity: [[devin-kearns]]. New concept: [[mid-market-ai-agency]]. Updates: [[ai-consulting]] (mid-market wedge added; tier ladder closes end-to-end at 11 voices), [[ai-operating-system-offer]] (mid-market is the agency-scale top of the ladder).
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-28]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 5 | 100 Hours Testing Claude Code vs ChatGPT Codex (honest results) | 46.2K | 2026-05-26 |
+
+**First substrate performance shootout in the vault (his highest-view video in this batch).** 100 hours, same prompts, same builds, [[claude-code]] vs [[codex]] side by side. Where his prior Codex coverage was *architectural symmetry* (the 3-layer cross-substrate model — same `CLAUDE.md`/`AGENTS.md`, same skills format), this video is a *performance* comparison: which one wins on real builds. Three concrete deliverables scored head-to-head — **report showdown** (12:48), **landing page** (15:10), **dashboard battle** (16:32) — plus a "pricing pain" segment (10:22, the flat-fee-vs-metered axis with real usage data) and a "sketchy loophole" (09:13).
+
+Strategic significance:
+
+1. **First empirical test of the [[free-sample-phase]] thesis** — the "use both like crazy during the free window" play, executed at 100-hour scale. The near-zero cost of the Codex free window makes a comparison this large feasible.
+2. **The chapter arc** ("Biggest comeback?" → "Claude's edge" → "Codex fights back" → "Honest verdict") implies **Codex overperformed his Claude-default audience's priors** — but the verdict (21:02) is gated to transcript.
+3. **Strengthens vendor-agnostic positioning** — same deliverables ship on both substrates, so the choice is performance/pricing, not architecture. Confirms his role as the **cross-substrate teacher** (now cross-substrate *judge*).
+4. **Highest-view video in the batch (46.2K)** — performance-comparison content outperforms the prior week's long-form interviews, consistent with the pattern that framework/decision content beats process content for him.
+
+→ New comparison: [[claude-code-vs-codex]]. Updates: [[claude-code]], [[codex]] (performance dimension added to the architectural-symmetry coverage).
+
 **The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
 
 - **Method 1** `/loop` (in-session)
@@ -244,7 +261,8 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-26]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-26]], [[youtube-digest-apify-2026-05-28]]
+- [[claude-code-vs-codex]] — 100-hour substrate performance shootout (2026-05-26)
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
 - [[hermes-agent]] — first major Hermes 1hr full-course in vault is his

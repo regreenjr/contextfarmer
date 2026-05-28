@@ -1,10 +1,10 @@
 ---
 title: Claude Skills
 category: concept
-summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → **beginner-tier explainer ([[tristen-obrien]] pizza-shop demo)**
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format]
-sources: 13
-updated: 2026-05-25
+summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → beginner-tier explainer ([[tristen-obrien]] pizza-shop demo) → **cross-surface confirmation ([[kevin-stratvert]] / David DeWinter — same skill on Chat + Cowork + Claude Code; resolves the long-open "are skills Code-only?" question)**
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format, kevin-stratvert, chat-cowork-claude-code, cross-surface-skills, thread-reply-skill, david-dewinter, quickbooks, shared-folder-sharing, surface-portable]
+sources: 14
+updated: 2026-05-28
 ---
 
 # Claude Skills
@@ -242,6 +242,25 @@ The **Pizza Shop Catering Quote demo** (chapter 2:52) is the canonical live-buil
 
 → See [[tristen-obrien]] for full coverage. Updates: [[agent-security]] (consumer-facing skill-provenance dimension).
 
+## Cross-surface confirmation — Chat + Cowork + Claude Code ([[kevin-stratvert]] in [[youtube-digest-apify-2026-05-28]])
+
+[[kevin-stratvert]]'s 9.5K-view *Claude Skills Tutorial (2026): Chat, Cowork, and Claude Code* (2026-05-27, hosted by David DeWinter, sponsored by Intuit/QuickBooks) is the **first vault coverage of the same skill running across all three Claude surfaces** — and it **resolves the standing open question** below: *"Skills are Code-only today; will they work in the Claude.ai chat surface?"* → **yes**. Skills are now confirmed portable on **both axes**: surface (Chat ↔ Cowork ↔ Code, this video) and vendor ([[codex]]).
+
+| Surface | How skills appear | Audience |
+|---|---|---|
+| **Chat** (`claude.ai`) | Invoked situationally in conversation | Broadest / non-technical |
+| **Cowork** (`claude.com/download`) | Run on a local folder with business context | Operators with local files |
+| **Claude Code** | Folders on disk in `.claude/skills` | Developers |
+
+Notable details:
+- **Built a "Thread Reply" skill from scratch *with test cases that grade the skill before you save it*** — the [[skill-creator]] eval discipline, surfaced for a non-developer audience (same democratization move as [[tristen-obrien]]'s pizza-shop demo, but cross-surface).
+- **Four ways to share a skill**, including a **synced shared folder** so a sub-team runs the same skill *without a Team/Enterprise plan* — the lowest-friction team-distribution method tracked (below [[plugin-marketplace]] GitHub-hosting and [[execution-layer]] private marketplaces).
+- **Office-productivity-tutorial tier** — first skills coverage from a mainstream business-software channel, reached through a QuickBooks sponsor (same SMB-operator audience as [[claude-for-small-business]]).
+
+This adds a **fifth tier** to the explainer funnel — the office-productivity-tutorial lane — and the **cross-surface** dimension the prior single-surface explainers lacked.
+
+→ See [[kevin-stratvert]] for full coverage.
+
 ## Vertical-plugin product instantiation ([[claude-for-small-business]] in [[youtube-digest-apify-2026-05-22]])
 
 [[anthropic]] ships **the first vertical plugin** on 2026-05-21 — [[claude-for-small-business]] bundles ~30 pre-built skills + connectors + the `/smb-onboard` meta-skill. This is the **canonical "skills as packaged product" instantiation** — confirms the [[execution-layer]] / [[plugin-marketplace]] roadmap is shipping as **Anthropic-owned vertical plugins**, not just community marketplaces.
@@ -285,7 +304,7 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - **Anthropic's marketplace plans** — official paid marketplace coming, or stays GitHub-distributed indefinitely?
 - **Usage / ranking metrics** — no public "most installed skills" data yet; whoever publishes this becomes the de facto curator
 - **Skill rot** — as Claude Code APIs evolve, how often do skills break? Lint-style health checks for skill compatibility?
-- **Cross-platform skills** — Skills are Code-only today; will they work in Claude.ai chat surface?
+- ~~**Cross-platform skills** — Skills are Code-only today; will they work in Claude.ai chat surface?~~ **Resolved 2026-05-28** ([[kevin-stratvert]]) — the same skill runs across Chat + Cowork + Claude Code. Skills are surface-portable. Open follow-up: does the *same file* run unchanged, or are there per-surface adaptations?
 
 ## Related pages
 
@@ -297,10 +316,11 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]], [[youtube-digest-apify-2026-05-28]]
 - [[tristen-obrien]] — beginner-tier sub-7-min explainer + pizza-shop catering-quote demo + consumer-facing skill-provenance security
+- [[kevin-stratvert]] — cross-surface (Chat/Cowork/Code) tutorial + Thread Reply skill with test cases + synced-shared-folder team distribution
 - [[plugins]] — categorical taxonomy layer above Skills (where Skills sit in the broader scaffolding map)
 - [[hermes-agent]] — sibling substrate that ships its own Skills primitive
 - [[skill-creator]] — evaluation tool / meta-skill
 - [[execution-layer]] — deployment / team-scaling layer above Skills ([[brad-bonanno]] 2026-05-14)
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]], [[tristen-obrien]], [[kevin-stratvert]]

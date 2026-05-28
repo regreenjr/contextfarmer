@@ -1,10 +1,10 @@
 ---
 title: Codex (OpenAI Codex CLI)
 category: concept
-summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); 2026-05-13 ships Codex free for 2 months as retention play after Anthropic adoption flip; **2026-05-18 [[nate-herk]] publishes the 3-layer cross-substrate mental model** — Claude Code's `CLAUDE.md` ↔ Codex's `AGENTS.md` (instructions), skills directory (same format), agents directory (mostly compatible) — confirming cross-substrate symmetry at the *project filesystem* level, not just per-primitive; the conversion-prompt for migrating an entire project from Claude Code → Codex (or vice-versa) is now published — extends the substrate-portability playbook + makes the [[free-sample-phase]] retention war exploitable as a defensive strategy
-tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability]
-sources: 3
-updated: 2026-05-22
+summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); 2026-05-13 ships Codex free for 2 months as retention play after Anthropic adoption flip; **2026-05-18 [[nate-herk]] publishes the 3-layer cross-substrate mental model** — Claude Code's `CLAUDE.md` ↔ Codex's `AGENTS.md` (instructions), skills directory (same format), agents directory (mostly compatible) — confirming cross-substrate symmetry at the *project filesystem* level, not just per-primitive; the conversion-prompt for migrating an entire project from Claude Code → Codex (or vice-versa) is now published — extends the substrate-portability playbook + makes the [[free-sample-phase]] retention war exploitable as a defensive strategy; **in 2026-05-28 [[nate-herk]]'s 100-hour [[claude-code-vs-codex]] shootout** ships the first *performance* comparison (vs prior architectural-symmetry coverage) — report/landing-page/dashboard scored head-to-head, "Codex fights back" arc implies Codex overperformed Claude-default priors (verdict gated to transcript)
+tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability, claude-code-vs-codex, head-to-head, performance-shootout, 100-hours, report-showdown, dashboard-battle, pricing-pain]
+sources: 4
+updated: 2026-05-28
 ---
 
 # Codex (OpenAI Codex CLI)
@@ -106,9 +106,17 @@ This is a **2-month consulting opportunity** — 3Ps clients who want to evaluat
 3. **First conversion prompt published** for Claude Code ↔ Codex auto-migration — extends substrate-portability playbook
 4. **This vault's `CLAUDE.md` + `AGENTS.md`** parallel files are the architectural artifact this video formalizes — the vault was already running the pattern; Nate names it
 
+## 100-hour performance shootout ([[nate-herk]] in [[youtube-digest-apify-2026-05-28]])
+
+[[nate-herk]]'s 2026-05-26 *100 Hours Testing Claude Code vs ChatGPT Codex (honest results)* (46.2K views, 26:34) is the **first performance comparison** of the two substrates in this vault. Prior coverage on this page was **architectural symmetry** (do the primitives match? — yes, via the 3-layer cross-substrate model). This video answers the *different* question: **which one wins on real builds?**
+
+Three deliverable types scored head-to-head: **report showdown** (12:48), **landing page** (15:10), **dashboard battle** (16:32) — plus **pricing pain** (10:22, the flat-fee-vs-metered axis with real usage data, resolving a standing open question on this page) and a "sketchy loophole" (09:13). The chapter arc ("Biggest comeback?" → "Claude's edge" → "Codex fights back" → "Honest verdict") implies **Codex overperformed the Claude-default audience's priors**, but the verdict (21:02) is gated to transcript.
+
+Strategic significance: confirms the [[free-sample-phase]] thesis is now *empirically testable* (a 100-hour comparison is only feasible because of the near-zero-cost Codex free window) and strengthens vendor-agnostic positioning — same deliverables ship on both, so the choice is performance/pricing, not architecture. → See [[claude-code-vs-codex]] for the full comparison.
+
 ## Contrasts with
 
-- **[[claude-code]]** — the closer-cousin substrate; this vault's primary focus. Codex is currently the alternative for OpenAI-leaning operators.
+- **[[claude-code]]** — the closer-cousin substrate; this vault's primary focus. Codex is currently the alternative for OpenAI-leaning operators. Head-to-head performance now tracked in [[claude-code-vs-codex]].
 - **Cursor / Antigravity / etc.** — IDE-hosted coding tools; Codex (like Claude Code) is a CLI that *can* run inside an IDE but isn't IDE-bound. [[nick-saraev]]'s recommendation of Antigravity (Gemini IDE) as Claude Code host is an analog of "use the best IDE shell for the agent CLI you prefer" — Codex would have a similar IDE pairing question.
 - **Function calling / Assistants API** — Codex CLI sits *above* these as an integrated agentic stack, not just a model+API.
 
@@ -137,6 +145,8 @@ This is a **2-month consulting opportunity** — 3Ps clients who want to evaluat
 
 - [[youtube-digest-apify-2026-05-06]] — primary source ([[nate-herk]] #2 *Master 97% of Codex in 1 Hour*)
 - [[youtube-digest-apify-2026-05-14]] — secondary source: 2-months-free retention promo following the Anthropic adoption flip ([[nate-herk]] #5)
+- [[youtube-digest-apify-2026-05-28]] — 100-hour Claude Code vs Codex performance shootout ([[nate-herk]] #5)
+- [[claude-code-vs-codex]] — the head-to-head comparison page (performance dimension)
 - [[nate-herk]] — primary educator in this vault for Codex
 - [[openai]] — Codex vendor; retention-promo signal
 - [[claude-code]] — sibling substrate; the cross-vendor primitive symmetry is the main connection

@@ -1,10 +1,10 @@
 ---
 title: AI Consulting
 category: concept
-summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]] (the AI Business Ladder 5 rungs + sell-hours-as-first-offer + AI OS deliverable + 7-step client acquisition + hours-to-projects upsell); direct competitive response to [[claude-for-small-business]] (personalization is the moat above the commodity vertical plugin); **in 2026-05-25 [[devin-kearns]] (Custom AI Studio CEO) ships the [[mid-market-ai-agency]] thesis via 1:44:03 long-form interview with [[nate-herk]]** — *"mid-market is the prime opportunity, not SMBs or enterprises"* + *"most AI work sold today won't survive 2027"* + 11 ways AI experts make money + "frameworks not vendor" positioning + three-tier market thesis (SMB <$5M / mid-market $5M-$250M / enterprise >$1B); **eleven voices now visible end-to-end across the wedge from MBB top-tier → mid-market agency-scale → mid-tier offer-language → zero-to-first-customer → pre-revenue beginner**
-tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter, mid-market-ai-agency, devin-kearns, custom-ai-studio, three-tier-market, 100m-agency, 2027-commoditization, 11-ways-money, frameworks-not-vendor, agency-scale]
-sources: 10
-updated: 2026-05-26
+summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]] (the AI Business Ladder 5 rungs + sell-hours-as-first-offer + AI OS deliverable + 7-step client acquisition + hours-to-projects upsell); direct competitive response to [[claude-for-small-business]] (personalization is the moat above the commodity vertical plugin); **in 2026-05-25 [[devin-kearns]] (Custom AI Studio CEO) ships the [[mid-market-ai-agency]] thesis via 1:44:03 long-form interview with [[nate-herk]]** — *"mid-market is the prime opportunity, not SMBs or enterprises"* + *"most AI work sold today won't survive 2027"* + 11 ways AI experts make money + "frameworks not vendor" positioning + three-tier market thesis (SMB <$5M / mid-market $5M-$250M / enterprise >$1B); **eleven voices now visible end-to-end across the wedge from MBB top-tier → mid-market agency-scale → mid-tier offer-language → zero-to-first-customer → pre-revenue beginner**; in 2026-05-28 a resurfaced 2024-06 [[mark-kashef]] video adds the **"five personas in AI adoption"** buyer-segmentation layer (Skeptic / Enthusiast / +3 gated) + a 650-discovery-calls credibility anchor
+tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter, mid-market-ai-agency, devin-kearns, custom-ai-studio, three-tier-market, 100m-agency, 2027-commoditization, 11-ways-money, frameworks-not-vendor, agency-scale, five-personas, ai-adoption-personas, buyer-segmentation, prompt-advisers, 650-discovery-calls]
+sources: 11
+updated: 2026-05-28
 ---
 
 # AI Consulting
@@ -156,6 +156,27 @@ Specifics are gated to the video — **transcript ingest needed** for actual fra
 
 Strategic implication: 3Ps content can fill the same gap with deeper, more operator-grounded material — the existing strategy/tactics content over-indexes on *what* to sell and under-indexes on *how to phrase the offer*.
 
+## Buyer-segmentation layer — "five personas in AI adoption" ([[mark-kashef]] in [[youtube-digest-apify-2026-05-28]])
+
+A resurfaced 2024-06 [[mark-kashef]] video (*300 hours of AI consulting in 23 minutes*, 23.5K views — his most-viewed in this farm, ~2 years old) adds a previously-uncovered layer to the wedge: **buyer psychology / persona segmentation**, distilled from **650 discovery calls** at his **Prompt Advisers** agency.
+
+**The five personas in AI adoption** (chapter 01:29) — a model for *who you're selling to and how they think*:
+1. **The Skeptic** (01:35)
+2. **The Enthusiast** (01:58, truncated in source)
+3-5. (gated to transcript)
+
+This fills a gap distinct from the existing layers — the prior coverage answers *why now* (macro thesis), *how to phrase the offer* ([[mert-yerlikaya]]), *which business model* ([[nate-herk]]), and *which market tier* ([[devin-kearns]] mid-market). The five-personas model answers **how the buyer's disposition shapes the pitch** — a sales-psychology layer beneath all of them.
+
+| Layer | Question | Voice |
+|---|---|---|
+| Macro thesis / "why now" | Why is this the moment? | [[mark-kashef]] |
+| Market tier | Which revenue tier to target? | [[devin-kearns]] ([[mid-market-ai-agency]]) |
+| Offer language | How to phrase the offer? | [[mert-yerlikaya]] |
+| Business model | Strategy vs done-for-you? | [[nate-herk]] |
+| **Buyer segmentation** | **How does the buyer's disposition shape the pitch?** | **[[mark-kashef]] (five personas)** |
+
+For 3Ps: the persona model is a **discovery-call qualification artifact** — segment the prospect (Skeptic vs Enthusiast vs …) before tailoring the pitch. Transcript ingest would resolve personas 3-5.
+
 ## Institutional counter-weight ([[y-combinator]])
 
 [[youtube-digest-apify-2026-05-04]] #1 (YC Office Hours) adds a non-creator, non-operator institutional voice to the AI-consulting topic. Two chapters bear directly:
@@ -278,6 +299,7 @@ This is the **first clean multi-phase consulting offer** the [[ai-consulting]] w
 - [[youtube-digest-apify-2026-05-15]] — MBB top-tier survival voice ([[ramin-imani]] #1); enterprise-side synthesis via [[agentic-implementation-layer]] ([[nate-b-jones]] #2)
 - [[youtube-digest-apify-2026-05-23]] — zero-to-first-customer wedge via [[ai-operating-system-offer]] ([[nate-herk]] #2, AI Business Ladder + sell-hours playbook)
 - [[youtube-digest-apify-2026-05-26]] — **agency-scale top of the ladder via [[mid-market-ai-agency]]** ([[nate-herk]] long-form interview with [[devin-kearns]] / Custom AI Studio CEO; three-tier market thesis + 11 ways AI experts make money + "frameworks not vendor" positioning + won't-survive-2027 timeline)
+- [[youtube-digest-apify-2026-05-28]] — **buyer-segmentation layer via the five-personas framework** ([[mark-kashef]] back-catalog video; Prompt Advisers + 650 discovery calls + Skeptic/Enthusiast/+3 personas)
 - [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]], [[ramin-imani]], [[devin-kearns]] — operator entity pages
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
