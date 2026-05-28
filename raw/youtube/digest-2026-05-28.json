@@ -1,0 +1,939 @@
+[
+  {
+    "title": "I Built a Deck With AI, Then Made a Second AI Attack It.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "MFzxIT88zfg",
+    "url": "https://www.youtube.com/watch?v=MFzxIT88zfg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/MFzxIT88zfg/maxresdefault.jpg",
+    "viewCount": 16780,
+    "date": "2026-05-27T14:00:36.000Z",
+    "likes": 510,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": null,
+    "channelTotalVideos": 994,
+    "channelTotalViews": 21153663,
+    "numberOfSubscribers": 295000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": null,
+      "channelTotalVideos": 994,
+      "channelTotalViews": 21153663,
+      "numberOfSubscribers": 295000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:19:29",
+    "commentsCount": 45,
+    "text": "Full Post w/ Truth Layer Guide + Prompts: https://natesnewsletter.substack.com/...\n__________________________________\n\nWhat's really happening inside AI-built Office documents?\n\nThe common story is that ChatGPT, Claude, and Copilot can now build a polished PowerPoint or Excel model in minutes, so the work is basically solved. The reality is more complicated. The output looks finished long before it's actually trustworthy, and a clean-looking deck with an undefendable number is worse than no deck at all.\n\nIn this video, I share the inside scoop on building Office files with AI agents at the center of the workflow:\n\n \u2022 Why a prompt asks for output but a workflow defines trust\n \u2022 How to run the four stages: sources, structure, creation, verification\n \u2022 What a hostile reviewer prompt catches that proofreading never will\n \u2022 Where AI is highest risk on your task risk gradient\n\nFor operators and teams, the upside is real and measured in weeks a year, but only if you build a truth layer around the file instead of dragging in messy sources and hoping the output holds.\n\nChapters:\n00:00 The Excel and Office files conversation\n01:30 Past individual asset territory: eight documents at once\n03:00 Agents at the heart of the new workflow\n05:25 How to build documents reliably in a pipeline\n07:00 The board deck that blended actuals and plan data\n08:40 Models are goal-oriented and will guess without sources\n10:07 The task risk gradient: where AI is highest and lowest risk\n11:20 File creation in passes and layers\n12:37 Verification with a hostile reviewer prompt\n14:30 The RALPH loop between Codex and Opus 4.7\n16:00 The productivity upside and the truth layer\n17:18 Why knowledge work is contingent on domain knowledge\n18:50 Keep your brain turned on\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/\n\nListen to this video as a podcast.\nSpotify: https://open.spotify.com/show/0gkFdjd...\nApple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/ai-office-files-verify-workflow?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=90s",
+        "text": "01:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=180s",
+        "text": "03:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=325s",
+        "text": "05:25"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=420s",
+        "text": "07:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=520s",
+        "text": "08:40"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=607s",
+        "text": "10:07"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=680s",
+        "text": "11:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=757s",
+        "text": "12:37"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=870s",
+        "text": "14:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=960s",
+        "text": "16:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=1038s",
+        "text": "17:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MFzxIT88zfg&t=1130s",
+        "text": "18:50"
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "Shopify CEO Reveals Their Secret AI Developer",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "NRBQmwlILjk",
+    "url": "https://www.youtube.com/watch?v=NRBQmwlILjk",
+    "thumbnailUrl": "https://i.ytimg.com/vi/NRBQmwlILjk/maxresdefault.jpg",
+    "viewCount": 18802,
+    "date": "2026-05-26T14:00:15.000Z",
+    "likes": 528,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": null,
+    "channelTotalVideos": 994,
+    "channelTotalViews": 21153663,
+    "numberOfSubscribers": 295000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": null,
+      "channelTotalVideos": 994,
+      "channelTotalViews": 21153663,
+      "numberOfSubscribers": 295000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:16:24",
+    "commentsCount": 77,
+    "text": "Full Post w/ Prompts to Bring This To Your Org: https://natesnewsletter.substack.com/...\n__________________________________\nWhat's really happening inside companies that are actually getting smarter with AI, not just faster? The common story is that AI adoption is a tooling problem you solve by buying licenses, but the reality is more complicated.\n\nIn this video, I share the inside scoop on why your most valuable AI work is invisible:\n\n \u2022 Why Shopify's River agent only runs in public Slack channels\n \u2022 How private AI chats are widening an apprenticeship gap\n \u2022 What four parts of AI work you should make visible\n \u2022 Where regulated teams can still expose work safely\n\nFor teams, the opportunity is real organizational learning, but only if senior people are willing to run actual work where everyone can watch.\n\nChapters:\n00:00 The substrate for AI collaboration\n01:30 Slack versus Teams and Copilot\n03:29 Why AI is coming to your company\n04:45 Tooling choices are frontier choices\n05:46 The apprenticeship gap\n07:30 Polanyi's paradox and tacit knowledge\n09:03 What public AI work looks like\n11:00 Why a prompt library isn't enough\n13:28 Building a public AI workflow\n15:00 Privacy, declared spaces, and senior people\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/\n\nListen to this video as a podcast.\nSpotify: https://open.spotify.com/show/0gkFdjd...\nApple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/public-ai-work-team-learning?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=90s",
+        "text": "01:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=209s",
+        "text": "03:29"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=285s",
+        "text": "04:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=346s",
+        "text": "05:46"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=450s",
+        "text": "07:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=543s",
+        "text": "09:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=660s",
+        "text": "11:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=808s",
+        "text": "13:28"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NRBQmwlILjk&t=900s",
+        "text": "15:00"
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 1,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "300 hours of AI consulting in 23 minutes",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "86WZsA0_614",
+    "url": "https://www.youtube.com/watch?v=86WZsA0_614",
+    "thumbnailUrl": "https://i.ytimg.com/vi/86WZsA0_614/maxresdefault.jpg",
+    "viewCount": 23464,
+    "date": "2024-06-05T19:00:06.000Z",
+    "likes": 730,
+    "location": null,
+    "channelName": "Mark Kashef",
+    "channelUrl": "https://www.youtube.com/@Mark_Kashef",
+    "channelUsername": "Mark_Kashef",
+    "collaborators": null,
+    "channelId": "UCHkzp52CldSPZqU5T49mOnA",
+    "numberOfSubscribers": 77500,
+    "duration": "00:22:58",
+    "commentsCount": 63,
+    "text": "\ud83d\udc49\ud83c\udffcJoin the Early AI-dopters Community: https://bit.ly/3ZMWJIb\n\ud83d\udcc5  Book a Meeting with Our Team: https://bit.ly/3Ml5AKW\n\ud83c\udf10 Visit My Agency Website: https://bit.ly/4cD9jhG\n\n\ud83c\udfac Core Video Description\nIn this video, I delve into the intricate world of implementing AI in business, drawing from my extensive experience in the AI sector and my role at Prompt Advisers. Whether you're new to AI or looking to optimize your existing AI solutions, this video is tailored for you.\n\nBy the end of this video, you'll have a solid foundation to start integrating AI into your business, making informed decisions that align with your business goals and setting the stage for future advancements.\n\n\ud83d\udc4b About Me:\nHello! I'm Mark, a seasoned Data Science Manager by day and an AI automation agency owner by night, hailing from Canada with a decade in the AI space. At Prompt Advisers, we specialize in cutting-edge AI solutions, helping individuals, businesses, and agencies fully harness applied AI. Having been featured in interviews and recognized for our innovative contributions, we're dedicated to guiding you through the AI landscape.\n\nTIMESTAMPS \u23f3\n\n0:00 - Introduction: Implementing AI in Business\n0:10 - Mark's Background: Founder of Prompt Advisors\n0:24 - AI Experience: 650 Discovery Calls\n0:54 - AI Consultancy Expertise\n1:07 - Specialization in Natural Language Processing\n1:20 - Goal: Creating an AI Strategy\n1:29 - The Five Personas in AI Adoption\n1:35 - Persona 1: The Skeptic\n1:58 - Persona 2: The Enthusiast\n2:18 - Persona 3: Business-Focused Individual\n2:57 - Persona 4: The Advanced User\n3:20 - Persona 5: The Orchestrator\n3:49 - Common AI Persona Traits\n4:03 - Defining AI and Its Branches\n4:15 - Machine Learning: Statistical AI\n4:37 - The Role of Algorithms in AI\n4:53 - Deep Learning, NLP, Robotics, Reinforcement Learning\n5:45 - NLP and Generative AI\n6:30 - Generative AI\u2019s Business Growth\n7:00 - Reinforcement Learning and Self-Driving Cars\n7:20 - Limited Robotics Relevance for Businesses\n7:47 - Generative AI Benefits: Productivity Boost\n8:39 - Enhancing Decision Making with AI\n9:32 - Connecting Dots Faster with AI\n10:00 - Personalized Customer Experiences with AI\n10:25 - AI Receptionist: Automating Tasks\n11:05 - AI as Productivity Tool: Task Automation\n12:00 - AI's Competitive Edge in \"Dinosaur Industries\"\n12:54 - Arbitrage Window for AI Adoption\n13:15 - AI's Cost and Efficiency Benefits\n14:00 - Key Elements of an AI Strategy\n14:15 - Aligning AI with Business Goals\n15:00 - Prioritizing AI Integration Tasks\n15:45 - AI Audit: Identifying Time-Consuming Tasks\n16:30 - Challenges: Inconsistent Data Inputs\n17:10 - AI for Blogs and Customer Support Emails\n18:00 - Knowledge Bases and Legislation Tracking\n18:55 - Avoiding AI \"Microplastics\" in Content\n19:35 - Developing a Data Strategy for AI\n20:00 - Cleaning and Structuring Data for AI\n20:45 - Governance, Ethics, and Security in AI\n21:00 - Sensitive Data and Security Compliance\n22:01 - Fostering AI Culture in Organizations\n22:20 - Human Roles in AI Work\n22:40 - Encouraging AI Adoption: Avoid Resistance\n23:10 - Start Small: Taking the First Step\n23:50 - Conclusion: Beginning AI Adoption\n24:20 - Closing Remarks: Feedback and Future Content\n\n#AIImplementation #BusinessAI #GenerativeAI #AIStrategy #PromptAdvisors #MachineLearning #DeepLearning #NLP #AIOptimization #AIConsulting #AIBenefits #TechInBusiness #AIApplications #DataStrategy #AIPlatforms #HumanAICollaboration #FutureOfAI #AIInnovation #AIProductivity #aiforbusiness",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://bit.ly/3ZMWJIb",
+        "text": "https://bit.ly/3ZMWJIb"
+      },
+      {
+        "url": "https://bit.ly/3Ml5AKW",
+        "text": "https://bit.ly/3Ml5AKW"
+      },
+      {
+        "url": "https://bit.ly/4cD9jhG",
+        "text": "https://bit.ly/4cD9jhG"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=10s",
+        "text": "0:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=24s",
+        "text": "0:24"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=54s",
+        "text": "0:54"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=67s",
+        "text": "1:07"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=80s",
+        "text": "1:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=89s",
+        "text": "1:29"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=95s",
+        "text": "1:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=118s",
+        "text": "1:58"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=138s",
+        "text": "2:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=177s",
+        "text": "2:57"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=200s",
+        "text": "3:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=229s",
+        "text": "3:49"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=243s",
+        "text": "4:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=255s",
+        "text": "4:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=277s",
+        "text": "4:37"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=293s",
+        "text": "4:53"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=345s",
+        "text": "5:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=390s",
+        "text": "6:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=420s",
+        "text": "7:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=440s",
+        "text": "7:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=467s",
+        "text": "7:47"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=519s",
+        "text": "8:39"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=572s",
+        "text": "9:32"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=600s",
+        "text": "10:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=625s",
+        "text": "10:25"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=665s",
+        "text": "11:05"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=720s",
+        "text": "12:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=774s",
+        "text": "12:54"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=795s",
+        "text": "13:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=840s",
+        "text": "14:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=855s",
+        "text": "14:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=900s",
+        "text": "15:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=945s",
+        "text": "15:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=990s",
+        "text": "16:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1030s",
+        "text": "17:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1080s",
+        "text": "18:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1135s",
+        "text": "18:55"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1175s",
+        "text": "19:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1200s",
+        "text": "20:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1245s",
+        "text": "20:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1260s",
+        "text": "21:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1321s",
+        "text": "22:01"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1340s",
+        "text": "22:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=86WZsA0_614&t=1360s",
+        "text": "22:40"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiimplementation",
+        "text": "#AIImplementation"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/businessai",
+        "text": "#BusinessAI"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/generativeai",
+        "text": "#GenerativeAI"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aistrategy",
+        "text": "#AIStrategy"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/promptadvisors",
+        "text": "#PromptAdvisors"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/machinelearning",
+        "text": "#MachineLearning"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/deeplearning",
+        "text": "#DeepLearning"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/nlp",
+        "text": "#NLP"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aioptimization",
+        "text": "#AIOptimization"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiconsulting",
+        "text": "#AIConsulting"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aibenefits",
+        "text": "#AIBenefits"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/techinbusiness",
+        "text": "#TechInBusiness"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiapplications",
+        "text": "#AIApplications"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/datastrategy",
+        "text": "#DataStrategy"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiplatforms",
+        "text": "#AIPlatforms"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/humanaicollaboration",
+        "text": "#HumanAICollaboration"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/futureofai",
+        "text": "#FutureOfAI"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiinnovation",
+        "text": "#AIInnovation"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiproductivity",
+        "text": "#AIProductivity"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiforbusiness",
+        "text": "#aiforbusiness"
+      }
+    ],
+    "subtitles": null,
+    "order": 29,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=AI+consulting+GTM",
+    "isMonetized": null,
+    "hashtags": [
+      "#AIInnovation",
+      "#aiforbusiness",
+      "#DeepLearning"
+    ],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=AI%20consulting%20GTM",
+    "isPaidContent": false
+  },
+  {
+    "title": "Claude Skills Tutorial (2026): Chat, Cowork, and Claude Code",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "O_z9vDLgvoY",
+    "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/O_z9vDLgvoY/maxresdefault.jpg",
+    "viewCount": 9514,
+    "date": "2026-05-27T07:00:35.000Z",
+    "likes": 303,
+    "location": null,
+    "channelName": "Kevin Stratvert",
+    "channelUrl": "https://www.youtube.com/@KevinStratvert",
+    "channelUsername": "KevinStratvert",
+    "collaborators": null,
+    "channelId": "UCfJT_eYDTmDE-ovKaxVE1ig",
+    "numberOfSubscribers": 4270000,
+    "duration": "00:14:32",
+    "commentsCount": 10,
+    "text": "This Claude Skills tutorial for 2026 shows you how to save any prompt as a reusable skill that runs across Chat, Cowork, and Claude Code, and how to share it with your whole team.\n\ud83d\udcb5 [Sponsor] QuickBooks Workforce \u279c https://qbworkforce.kevinstratvert.com/ \n\nFirst, you'll see what a Claude Skill actually is and how Claude can store dozens of skills without slowing down. \n\nThen, you'll build your own \"Thread Reply\" skill from scratch to reply to long emails you've missed, complete with test cases that grade the skill before you save it. \n\nNext, you'll see how skills can be used against internal app data to validate your business rules. \n\nAfterward, you'll run that same Thread Reply skill inside Claude Cowork on a local folder which includes more context on the business. \n\nAlong the way, you'll see how Claude Code handles skills differently, with skills living as folders on disk in .claude/skills. \n\nThen, you'll learn four ways to share a skill with your team. \n\nThat includes setting up a shared folder so a whole sub-team can run the same Claude Skill from a synced drive, even without a Team or Enterprise plan. \n\nHost: David DeWinter \nSponsor: Intuit \n#stratvert #claude #anthropic \n\n\ud83d\udcda RESOURCES \nResource Guide (prompts and commands) \u279c https://docs.google.com/document/d/1-76tGxSSrRUO2dH399uvCqY3fSEi7dUT_z1-6HeG1cY/edit?usp=sharing \nClaude \u279c https://claude.ai \nClaude Desktop (Cowork) \u279c https://claude.com/download \n\n\u231a TIMESTAMPS \n0:00 - Skills in 2026 \n1:14 - Create a Skill \n3:05 - Testing with Examples \n4:28 - Running Skills \n6:59 - Cowork \n8:32 - Claude Code \n10:42 - Share Skills | Zip Files \n11:24 - Share Skills | Org Skills \n12:13 - Share Skills | Shared Drive \n14:09 - Next Steps \n\n\ud83d\udce9 NEWSLETTER \n- Get the latest high-quality tutorial and tips and tricks videos emailed to your inbox each week: https://kevinstratvert.com/newsletter\n \n\ud83d\udd3d CONNECT WITH ME \n- Official website: http://www.kevinstratvert.com \n- LinkedIn: https://www.linkedin.com/in/kevinstratvert/ \n- Discord: https://bit.ly/KevinStratvertDiscord \n- Twitter: https://twitter.com/kevstrat \n- Facebook: https://www.facebook.com/Kevin-Stratvert-101912218227818 \n- TikTok: https://www.tiktok.com/@kevinstratvert \n- Instagram: https://www.instagram.com/kevinstratvert/ \n \n\ud83c\udf81 PARTNERS & DISCOUNTED OFFERS \n\ud83d\udcbb Hostinger | https://hostinger.kevinstratvert.com \n\ud83d\udccb Notion | https://notion.kevinstratvert.com \n\ud83d\udcb5 Quickbooks Online | https://qbo.kevinstratvert.com \n\ud83c\udf99\ufe0f Voicemod AI Voice Changer | https://voicemod.kevinstratvert.com \n\ud83d\udd75\ufe0f VidIQ | https://vidiq.kevinstratvert.com \n \n\ud83c\udf92 MY COURSES \n- Go from Excel novice to data analysis ninja in just 2 hours: https://kevinstratvert.thinkific.com\n\n\ud83c\udf93TRAINING\n- Take your skills, or your team\u2019s, to the next level by partnering with us for expert training: https://kevinstratvert.com/training\n \n\ud83d\ude4f REQUEST VIDEOS \nhttps://forms.gle/BDrTNUoxheEoMLGt5 \n \n\ud83d\udd14 SUBSCRIBE ON YOUTUBE \nhttps://www.youtube.com/user/kevlers?sub_confirmation=1 \n \n\ud83d\ude4c SUPPORT THE CHANNEL \n- Hit the THANKS button in any video! \n- Amazon affiliate link: https://amzn.to/3kCP2yz \n \n\u2696 DISCLOSURE \nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel. The price to you is the same.",
+    "translatedText": "This Claude Skills tutorial for 2026 shows you how to save any prompt as a reusable skill that runs across Chat, Cowork, and Claude Code, and how to share it with your whole team.\n\ud83d\udcb5 [Sponsor] QuickBooks Workforce \u279c https://qbworkforce.kevinstratvert.com/ \n\nFirst, you'll see what a Claude Skill actually is and how Claude can store dozens of skills without slowing down. \n\nThen, you'll build your own \"Thread Reply\" skill from scratch to reply to long emails you've missed, complete with test cases that grade the skill before you save it. \n\nNext, you'll see how skills can be used against internal app data to validate your business rules. \n\nAfterward, you'll run that same Thread Reply skill inside Claude Cowork on a local folder which includes more context on the business. \n\nAlong the way, you'll see how Claude Code handles skills differently, with skills living as folders on disk in .claude/skills. \n\nThen, you'll learn four ways to share a skill with your team. \n\nThat includes setting up a shared folder so a whole sub-team can run the same Claude Skill from a synced drive, even without a Team or Enterprise plan. \n\nHost: David DeWinter \nSponsor: Intuit \n#stratvert #claude #anthropic \n\n\ud83d\udcda RESOURCES \nResource Guide (prompts and commands) \u279c https://docs.google.com/document/d/1-... \nClaude \u279c https://claude.ai \nClaude Desktop (Cowork) \u279c https://claude.com/download \n\n\u231a TIMESTAMPS \n0:00 - Skills in 2026 \n1:14 - Create a Skill \n3:05 - Testing with Examples \n4:28 - Running Skills \n6:59 - Cowork \n8:32 - Claude Code \n10:42 - Share Skills | Zip Files \n11:24 - Share Skills | Org Skills \n12:13 - Share Skills | Shared Drive \n14:09 - Next Steps \n\n\ud83d\udce9 NEWSLETTER \nGet the latest high-quality tutorial and tips and tricks videos emailed to your inbox each week: https://kevinstratvert.com/newsletter\n \n\ud83d\udd3d CONNECT WITH ME \nOfficial website: http://www.kevinstratvert.com \nLinkedIn: \u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0 \nDiscord: https://bit.ly/KevinStratvertDiscord \nTwitter: \u00a0\u00a0/\u00a0kevstrat\u00a0\u00a0 \nFacebook: \u00a0\u00a0/\u00a0kevin-stratvert-101912218227818\u00a0\u00a0 \nTikTok: \u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0 \nInstagram: \u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0 \n \n\ud83c\udf81 PARTNERS & DISCOUNTED OFFERS \n\ud83d\udcbb Hostinger | https://hostinger.kevinstratvert.com \n\ud83d\udccb Notion | https://notion.kevinstratvert.com \n\ud83d\udcb5 Quickbooks Online | https://qbo.kevinstratvert.com \n\ud83c\udf99\ufe0f Voicemod AI Voice Changer | https://voicemod.kevinstratvert.com \n\ud83d\udd75\ufe0f VidIQ | https://vidiq.kevinstratvert.com \n \n\ud83c\udf92 MY COURSES \nGo from Excel novice to data analysis ninja in just 2 hours: https://kevinstratvert.thinkific.com\n\n\ud83c\udf93TRAINING\nTake your skills, or your team\u2019s, to the next level by partnering with us for expert training: https://kevinstratvert.com/training\n \n\ud83d\ude4f REQUEST VIDEOS \nhttps://forms.gle/BDrTNUoxheEoMLGt5 \n \n\ud83d\udd14 SUBSCRIBE ON YOUTUBE \nhttps://www.youtube.com/user/kevlers?... \n \n\ud83d\ude4c SUPPORT THE CHANNEL \nHit the THANKS button in any video! \nAmazon affiliate link: https://amzn.to/3kCP2yz \n \n\u2696 DISCLOSURE \nSome links are affiliate links. Purchasing through these links gives me a small commission to support videos on this channel. The price to you is the same.",
+    "descriptionLinks": [
+      {
+        "url": "https://qbworkforce.kevinstratvert.com/",
+        "text": "https://qbworkforce.kevinstratvert.com/"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/stratvert",
+        "text": "#stratvert"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claude",
+        "text": "#claude"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/anthropic",
+        "text": "#anthropic"
+      },
+      {
+        "url": "https://docs.google.com/document/d/1-76tGxSSrRUO2dH399uvCqY3fSEi7dUT_z1-6HeG1cY/edit?usp=sharing",
+        "text": "https://docs.google.com/document/d/1-..."
+      },
+      {
+        "url": "https://claude.ai/",
+        "text": "https://claude.ai"
+      },
+      {
+        "url": "https://claude.com/download",
+        "text": "https://claude.com/download"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=74s",
+        "text": "1:14"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=185s",
+        "text": "3:05"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=268s",
+        "text": "4:28"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=419s",
+        "text": "6:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=512s",
+        "text": "8:32"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=642s",
+        "text": "10:42"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=684s",
+        "text": "11:24"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=733s",
+        "text": "12:13"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_z9vDLgvoY&t=849s",
+        "text": "14:09"
+      },
+      {
+        "url": "https://kevinstratvert.com/newsletter",
+        "text": "https://kevinstratvert.com/newsletter"
+      },
+      {
+        "url": "http://www.kevinstratvert.com/",
+        "text": "http://www.kevinstratvert.com"
+      },
+      {
+        "url": "https://www.linkedin.com/in/kevinstratvert/",
+        "text": "\u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0"
+      },
+      {
+        "url": "https://bit.ly/KevinStratvertDiscord",
+        "text": "https://bit.ly/KevinStratvertDiscord"
+      },
+      {
+        "url": "https://twitter.com/kevstrat",
+        "text": "\u00a0\u00a0/\u00a0kevstrat\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.facebook.com/Kevin-Stratvert-101912218227818",
+        "text": "\u00a0\u00a0/\u00a0kevin-stratvert-101912218227818\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.tiktok.com/@kevinstratvert",
+        "text": "\u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.instagram.com/kevinstratvert/",
+        "text": "\u00a0\u00a0/\u00a0kevinstratvert\u00a0\u00a0"
+      },
+      {
+        "url": "https://hostinger.kevinstratvert.com/",
+        "text": "https://hostinger.kevinstratvert.com"
+      },
+      {
+        "url": "https://notion.kevinstratvert.com/",
+        "text": "https://notion.kevinstratvert.com"
+      },
+      {
+        "url": "https://qbo.kevinstratvert.com/",
+        "text": "https://qbo.kevinstratvert.com"
+      },
+      {
+        "url": "https://voicemod.kevinstratvert.com/",
+        "text": "https://voicemod.kevinstratvert.com"
+      },
+      {
+        "url": "https://vidiq.kevinstratvert.com/",
+        "text": "https://vidiq.kevinstratvert.com"
+      },
+      {
+        "url": "https://kevinstratvert.thinkific.com/",
+        "text": "https://kevinstratvert.thinkific.com"
+      },
+      {
+        "url": "https://kevinstratvert.com/training",
+        "text": "https://kevinstratvert.com/training"
+      },
+      {
+        "url": "https://forms.gle/BDrTNUoxheEoMLGt5",
+        "text": "https://forms.gle/BDrTNUoxheEoMLGt5"
+      },
+      {
+        "url": "https://www.youtube.com/user/kevlers?sub_confirmation=1",
+        "text": "https://www.youtube.com/user/kevlers?..."
+      },
+      {
+        "url": "https://amzn.to/3kCP2yz",
+        "text": "https://amzn.to/3kCP2yz"
+      }
+    ],
+    "subtitles": null,
+    "order": 25,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Claude+Code+skill+marketplace",
+    "isMonetized": null,
+    "hashtags": [
+      "#anthropic",
+      "#claude",
+      "#stratvert"
+    ],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Claude%20Code%20skill%20marketplace",
+    "isPaidContent": true
+  },
+  {
+    "title": "100 Hours Testing Claude Code vs ChatGPT Codex (honest results)",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "RLjaUES9P8A",
+    "url": "https://www.youtube.com/watch?v=RLjaUES9P8A",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RLjaUES9P8A/maxresdefault.jpg",
+    "viewCount": 46178,
+    "date": "2026-05-26T20:02:02.000Z",
+    "likes": 1300,
+    "location": null,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelUsername": "nateherk",
+    "collaborators": null,
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "My Speech to Text",
+        "url": "https://get.glaido.com/nate"
+      },
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 421,
+    "channelTotalViews": 37782383,
+    "numberOfSubscribers": 771000,
+    "isChannelVerified": true,
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+      "channelJoinedDate": "Nov 17, 2013",
+      "channelDescriptionLinks": [
+        {
+          "text": "Free Skool Community",
+          "url": "https://www.skool.com/ai-automation-society/about"
+        },
+        {
+          "text": "My Speech to Text",
+          "url": "https://get.glaido.com/nate"
+        },
+        {
+          "text": "AI Automation Society Plus",
+          "url": "https://www.skool.com/ai-automation-society-plus/about"
+        },
+        {
+          "text": "Apply for the Podcast",
+          "url": "https://podcast.nateherk.com/apply"
+        },
+        {
+          "text": "About Me",
+          "url": "https://nateherk.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "nateherk",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 421,
+      "channelTotalViews": 37782383,
+      "numberOfSubscribers": 771000,
+      "isChannelVerified": true,
+      "channelName": "Nate Herk | AI Automation",
+      "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:26:34",
+    "commentsCount": 193,
+    "text": "My FREE AI OS Course: https://www.skool.com/ai-automation-s...\nFull courses + unlimited support: https://www.skool.com/ai-automation-s...\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI spent 100 hours testing Claude Code vs ChatGPT Codex and what I found genuinely surprised me. \n\nSame prompts, same builds, both tools side by side, and one of them hit way harder than I expected. If you're picking between coding agents right now, then this video is the breakdown you actually need before you commit.\n\nTimestamps:\n00:00 Biggest comeback?\n00:30 Claude Code explained\n01:28 Meet Codex\n04:04 Claude's edge\n06:19 Codex fights back\n09:13 Sketchy loophole\n10:22 Pricing pain\n12:48 Report showdown\n15:10 Landing page\n16:32 Dashboard battle\n17:25 The numbers\n21:02 Honest verdict\n24:46 Final mindset",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://www.skool.com/ai-automation-society/about?el=ClaudeCodeVsCodex",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://www.skool.com/ai-automation-society-plus/about?el=ClaudeCodeVsCodex",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://podcast.nateherk.com/apply",
+        "text": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "url": "https://uppitai.com/",
+        "text": "https://uppitai.com/"
+      },
+      {
+        "url": "https://get.glaido.com/nate",
+        "text": "https://get.glaido.com/nate"
+      },
+      {
+        "url": "https://www.hostinger.com/vps/claude-code-hosting",
+        "text": "https://www.hostinger.com/vps/claude-..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=30s",
+        "text": "00:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=88s",
+        "text": "01:28"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=244s",
+        "text": "04:04"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=379s",
+        "text": "06:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=553s",
+        "text": "09:13"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=622s",
+        "text": "10:22"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=768s",
+        "text": "12:48"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=910s",
+        "text": "15:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=992s",
+        "text": "16:32"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=1045s",
+        "text": "17:25"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=1262s",
+        "text": "21:02"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=RLjaUES9P8A&t=1486s",
+        "text": "24:46"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@nateherk/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  }
+]
