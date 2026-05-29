@@ -1,10 +1,10 @@
 ---
 title: Nate Herk
 category: entity
-summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-28 batch ships the **first substrate performance shootout** — *100 Hours Testing Claude Code vs ChatGPT Codex* (46.2K views) → new comparison [[claude-code-vs-codex]] (report/landing-page/dashboard head-to-head, "Codex fights back" arc, empirically tests the [[free-sample-phase]] thesis); in 2026-05-26 batch shipped **first long-form interview format** (1:44:03) with [[devin-kearns]] (Custom AI Studio CEO) surfacing [[mid-market-ai-agency]] thesis ($100M AI agency playbook, three-tier market, 11 ways AI experts make money, "frameworks not vendor" positioning, won't-survive-2027 timeline); now **18 videos tracked across 12 digests**; previously in 2026-05-23 shipped [[ai-operating-system-offer]] (zero-to-first-customer sell-hours wedge); in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **26+ named frameworks in 22 days** — the largest creator-side framework production cycle in this vault
-tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects, mid-market-ai-agency, devin-kearns, custom-ai-studio, long-form-interview, 100m-agency, three-tier-market, frameworks-not-vendor, 2027-commoditization, 11-ways-money, claude-code-vs-codex, head-to-head, 100-hours, report-showdown, dashboard-battle, performance-shootout, substrate-comparison]
-sources: 12
-updated: 2026-05-28
+summary: AI Automation YouTuber (708K subs); highest-output creator in this vault's farm; in 2026-05-29 batch ships the **first dedicated Claude-model coverage** in the vault — *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views, his highest-view video in recent batches) → new concept [[opus-4-8]] ("don't run 4.8 the way you ran 4.7" — effort levels and workflows + a honesty upgrade + benchmarks reality check + 4.7 pain points; confirms his **mainstream-news-interpreter** role for Claude releases); in 2026-05-28 batch ships the **first substrate performance shootout** — *100 Hours Testing Claude Code vs ChatGPT Codex* (46.2K views) → new comparison [[claude-code-vs-codex]] (report/landing-page/dashboard head-to-head, "Codex fights back" arc, empirically tests the [[free-sample-phase]] thesis); in 2026-05-26 batch shipped **first long-form interview format** (1:44:03) with [[devin-kearns]] (Custom AI Studio CEO) surfacing [[mid-market-ai-agency]] thesis ($100M AI agency playbook, three-tier market, 11 ways AI experts make money, "frameworks not vendor" positioning, won't-survive-2027 timeline); now **18 videos tracked across 12 digests**; previously in 2026-05-23 shipped [[ai-operating-system-offer]] (zero-to-first-customer sell-hours wedge); in 2026-05-22 alone shipped **4 videos** (Karpathy-joins-Anthropic 105K-view, CAIO career-path framing, prompt-caching deep-dive, Codex cross-substrate model); defined "Claude Code Operating System" framing; first-published voice-agent build, Higgsfield+Claude creative-agency build, first major [[codex]] full-course, and first 1hr [[hermes-agent]] full course; framework production now a Nate Herk content pillar — **7 operational/career frameworks in 11 days** ([[free-sample-phase]] / [[claude-code-levels]] / [[deployment-framework]] / cross-substrate 3-layer model / [[chief-ai-officer]] / [[prompt-caching]] habits / [[ai-operating-system-offer]]); combined with [[nate-b-jones]], the two ship **26+ named frameworks in 22 days** — the largest creator-side framework production cycle in this vault
+tags: [creator, youtube, ai-automation, n8n, claude-code, claude-skills, claude-design, ai-consulting, voice-agents, higgsfield, codex, hermes-agent, printing-press, cross-vendor, agent-view, multi-agent, goal-command, free-sample-phase, claude-code-levels, mastery-framework, substrate-economics, deployment-framework, claude-agent-sdk, managed-agents, modal, trigger-dev, karpathy-anthropic, chief-ai-officer, caio, prompt-caching, thariq, cross-substrate-3-layer, data-moat, ai-operating-system-offer, sell-hours, ai-business-ladder, genspark, glaido, zero-to-first-customer, hours-to-projects, mid-market-ai-agency, devin-kearns, custom-ai-studio, long-form-interview, 100m-agency, three-tier-market, frameworks-not-vendor, 2027-commoditization, 11-ways-money, claude-code-vs-codex, head-to-head, 100-hours, report-showdown, dashboard-battle, performance-shootout, substrate-comparison, opus-4-8, effort-levels, honesty-upgrade, benchmarks, opus-4-7, model-release, mainstream-news-interpreter]
+sources: 13
+updated: 2026-05-29
 ---
 
 # Nate Herk
@@ -190,6 +190,24 @@ Strategic significance:
 
 → New comparison: [[claude-code-vs-codex]]. Updates: [[claude-code]], [[codex]] (performance dimension added to the architectural-symmetry coverage).
 
+**Plus 1 new video in [[youtube-digest-apify-2026-05-29]]:**
+
+| # | Title | Views | Date |
+|---|---|---|---|
+| 2 | Opus 4.8 Just Dropped. Here's How To Actually Use It. | 101.1K | 2026-05-28 |
+
+**First dedicated Claude-model coverage in the vault — and his highest-view video in recent batches (101K).** A practical-adoption read-through of Anthropic's release blog + prompting docs for the new [[opus-4-8]] model. Core advice: *"don't run 4.8 the way you ran 4.7"* — a frontier model is a workflow change, not just a quality bump. Chapter map: Intro (0:00) → What's New in 4.8 (0:35) → **Effort Levels and Workflows** (1:07) → Benchmarks Reality Check (2:05) → **The Honesty Upgrade** (2:54) → 4.7 Pain Points (4:38) → Key Takeaways (6:52) → Community Reactions (10:33) → Final Thoughts (12:12).
+
+Strategic significance:
+
+1. **Confirms his mainstream-news-interpreter role for Claude releases** — 101K views, same shape as his Karpathy-hire (105K) and session-limits (87.7K) coverage. When Anthropic ships, Nate's same-day "how to actually use it" video is the vault's barometer for operator reception.
+2. **Benchmarks deliberately discounted** — *"the numbers only tell part of the story"*; real-workflow behavior is the test. Same instinct as [[nate-b-jones]]'s [[long-running-benchmarks]] ("the harness is the real story").
+3. **The honesty upgrade is a trust signal** — lands the same day as [[nate-b-jones]]'s [[agent-analytics]] (run-side trust), making 2026-05-29 a **trust/reliability batch** (model-side honesty + run-side analytics).
+4. **Effort levels = a cost/latency lever** — pairs with his own [[prompt-caching]] habits framework as operator-side substrate-economics discipline.
+5. **Sponsor stack continues** — Skool free AI OS course + Glaido (voice-to-text) + Hostinger VPS (`NATEHERK`).
+
+→ New concept: [[opus-4-8]] (first dedicated Claude-model page in the vault). Updates: [[anthropic]] (Opus 4.8 ships).
+
 **The [[deployment-framework]] — his third operational framework in eight days.** A three-method classifier for where Claude Code automations should run, plus two higher-tier primitives:
 
 - **Method 1** `/loop` (in-session)
@@ -261,7 +279,8 @@ Two channels in [[ai-creators-youtube]] farm config. He's both:
 
 ## Related pages
 
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-26]], [[youtube-digest-apify-2026-05-28]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-26]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-05-29]]
+- [[opus-4-8]] — first dedicated Claude-model coverage; "don't run 4.8 like 4.7" (2026-05-28)
 - [[claude-code-vs-codex]] — 100-hour substrate performance shootout (2026-05-26)
 - [[claude-code]], [[claude-skills]], [[claude-design]] (Level 3 "Figma killer")
 - [[codex]] — first major Codex educational entry in vault is his
