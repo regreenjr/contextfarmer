@@ -2,9 +2,9 @@
 title: Eden (TryEden)
 category: entity
 summary: DTC telehealth — compounded GLP-1 / weight-loss competitor (tryeden.com), the Set-2 Medvi competitor the [[competitor-ads-farm]] was configured to track as "Eden"; **first real telehealth signal in 13 batches surfaced 2026-05-28 (batch 13)** — ID `2212489176152295` started 2026-05-18, `{{product.brand}}` placeholder, page name "TryEden" — after 12 consecutive batches in which the bare-"Eden" filter surfaced ONLY noise (11 distinct unrelated "Eden"-substring brands, 0 telehealth signal); Eden runs catalog-driven dynamic creative like [[ro]] (first ad is a pure placeholder, no static narrative); no teardown-able copy / disclaimer language / pricing observed yet; the right filter fix is page-ID allow-listing TryEden rather than dropping the net-ambiguous bare-"Eden" search
-tags: [organization, dtc, telehealth, glp-1, compounded-drugs, weight-loss, competitor, eden, tryeden, eden-first-signal, catalog-dynamic-creative, placeholder-only]
+tags: [organization, dtc, telehealth, glp-1, compounded-drugs, weight-loss, competitor, eden, tryeden, eden-first-signal, catalog-dynamic-creative, placeholder-only, eden-2nd-silence]
 sources: 1
-updated: 2026-05-29
+updated: 2026-05-30
 ---
 
 # Eden (TryEden)
@@ -58,6 +58,7 @@ From [[ads-digest-2026-05-28]]:
 
 - [[sources/ads-digest-2026-05-28]] — **first real telehealth signal in 13 batches** (1 placeholder ad, ID `2212489176152295` started 2026-05-18, page name TryEden); Eden runs catalog-driven dynamic creative like Ro; no teardown-able copy yet
 - [[sources/ads-digest-2026-05-29]] — **0 new TryEden ads — single silent batch after the batch-13 first signal.** One silent batch tells us nothing about Eden's cadence yet (whether TryEden surfaces irregularly like Ro, or shipped a single ad and went dormant). The "Eden" filter this batch instead surfaced **Evereden** (kid skincare, *"Designed with kids in mind 🌈 ... get 10% off your first order!"*, video, started 2026-05-06) — a **returning noise brand** (already counted in the 11-brand "Eden" noise corpus since batch 5), reinforcing that the right filter fix is page-ID allow-listing TryEden + blocklisting the noise brands. Cumulative 1 Eden (TryEden) ad, placeholder-only.
+- [[sources/ads-digest-2026-05-30]] — **0 new TryEden ads — 2nd consecutive silent batch (14+15)** after the batch-13 first signal. Two silent batches still don't establish Eden's cadence (irregular like [[ro]], or a single ad then dormant). The "Eden" filter this batch surfaced **Aelfric Eden EU** (fashion, *"What are you wearing next? ⚡ Aelfric Eden best sellers — 15% OFF"*, video, started 2026-04-02) — a **regional-page variant** of the already-counted Aelfric Eden (fashion, batches 1+5+8). The EU page is a distinct FB Page for the same brand, so the "Eden" noise-brand count stays at 11 distinct brands but the regional-page split (cf. SecretRomance `cloudn57`/`cloudn65`) means page-ID allow/block-listing must enumerate regional variants. Cumulative 1 Eden (TryEden) ad, placeholder-only.
 
 ## Open questions
 
