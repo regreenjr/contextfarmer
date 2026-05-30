@@ -3,8 +3,8 @@ title: AI Operating System Offer (Sell Hours Wedge)
 category: concept
 summary: [[nate-herk]]'s 2026-05-22 zero-to-first-customer offer framework for AI consultants — instead of pitching retainers / projects (high friction, slow cash, freezes new operators), **sell one-on-one hours** helping business owners set up their AI Operating System; the **AI Business Ladder** names five rungs (sell hours → hours→mini-project → productized service → retainer → project work) with friction increasing and cash velocity slowing up the ladder; the hour produces an *artifact* (configured AI OS = instructions + 3-5 skills + 1 MCP + 1 routine + context layer) — same primitive triple as [[claude-for-small-business]]' `/smb-onboard` but executed *manually* in personalized one-on-one (the personalization-is-the-moat wedge above any Anthropic-shipped vertical plugin); pairs with [[chief-ai-officer]] as the **external-operator seat** complementing the *employee CAIO seat*; sister voice to [[nicole-mccain]] (Claude-stack-native vs ChatGPT+no-code beginner); the **2026 personalization wedge** that survives [[claude-for-small-business]]'s long-tail commoditization
 tags: [ai-consulting, offer, sell-hours, ai-business-ladder, ai-operating-system, aios, zero-to-first-customer, nate-herk, personalization-moat, claude-for-small-business-counter, single-yes, cash-velocity, beginner-consultant, hours-to-projects, upsell-mechanic]
-sources: 1
-updated: 2026-05-23
+sources: 2
+updated: 2026-05-30
 ---
 
 # AI Operating System Offer
@@ -145,9 +145,14 @@ Also references **Glaido** (voice-to-text, free month affiliate). Nate Herk's di
 - **Owner pain-point pattern** — what's the most common "highest-frequency job" owners want set up? (Video probably surfaces patterns)
 - **Does Nate's Skool community productize this?** — `skool.com/ai-automation-society-plus/about?el=selling-setup-hours` suggests the URL slug is exactly this video's lead magnet
 
+## Build-side companion ([[ai-operating-system]], 2026-05-29)
+
+One week after this *sell*-side offer, [[nate-herk]] shipped the *build*-side companion — *I Turned Claude Opus 4.8 Into My Entire AI Operating System* (54.2K views) → [[ai-operating-system]]. Where this page is how to **sell** an AIOS setup (the AI Business Ladder), the build page is how to **construct** one: the **Four C's** (context / connections / capabilities / cadence), the **bike method** for graduated agent autonomy, and **one source of truth** for context. The two now form a **sell ⇄ build** pair around the same primitive — the offer and its reference implementation.
+
 ## Related pages
 
 - [[nate-herk]] — creator
+- [[ai-operating-system]] — the build-side companion (Four C's + bike method); this is the sell side
 - [[ai-consulting]] — parent concept; this is the first-customer wedge
 - [[chief-ai-officer]] — sister offer (employee seat for the same skill set)
 - [[claude-for-small-business]] — automated vertical plugin Nate's offer sits above
