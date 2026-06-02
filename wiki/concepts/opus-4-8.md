@@ -2,9 +2,9 @@
 title: Claude Opus 4.8
 category: concept
 summary: [[anthropic]]'s frontier model released ~2026-05-28, covered in this vault via [[nate-herk]]'s *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views — his highest-view video in the 2026-05-29 batch). The video's thesis: **the benchmarks are "nuts" but the numbers only tell part of the story — don't run 4.8 the way you ran [[opus-4-7]]**. Named upgrades: **effort levels and workflows** (slotting the model into different work shapes), a **"honesty upgrade"** (the model is more candid about uncertainty / what it can't do), and fixes for specific **4.7 pain points**. The first dedicated Claude-model page in the vault; the practical-adoption counterpart to [[nate-b-jones]]'s [[ai-question-method]] (which named the Opus-4.7/GPT-5.5 prompting-style shift)
-tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase]
-sources: 1
-updated: 2026-05-29
+tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research]
+sources: 2
+updated: 2026-06-02
 ---
 
 # Claude Opus 4.8
@@ -48,6 +48,14 @@ The core operator advice: **a new frontier model is a workflow change, not just 
 - **101K views = highest-view video in the [[youtube-digest-apify-2026-05-29]] batch** — consistent with the vault pattern that [[nate-herk]]'s framework/decision/news content (here, "how to actually use it") outperforms his process content, and that he is the vault's **mainstream-news interpreter** for Claude releases (same role as his Karpathy-hire and session-limits coverage).
 - **The honesty upgrade is a trust signal** — landing the same day as [[nate-b-jones]]'s [[agent-analytics]] (run-level trust) means the 2026-05-29 batch is thematically a **trust/reliability batch**: model-side honesty + run-side analytics.
 
+## 4.8 added dynamic workflows to Claude Code (2026-05-30)
+
+[[nate-herk]]'s follow-up video *Claude Code Dynamic Workflows Clearly Explained* ([[youtube-digest-apify-2026-06-02]] #3, 57.6K views, 2026-05-30) attributes a **new [[claude-code]] orchestration primitive directly to 4.8**: *"Opus 4.8 added dynamic workflows to Claude Code."* This is the **model-enabled-capability** counterpart to the *Opus 4.8 Just Dropped* adoption video — first he taught how to use 4.8, then the new primitive 4.8 unlocked.
+
+**Dynamic workflows** are a deterministic multi-agent orchestration layer (fan-out / pipeline / verify) sitting at the top of the complexity ladder (skills → subagents → agent teams → dynamic workflows). They're the most token-expensive primitive (*"one prompt burned through half my $200 monthly plan"*), and the video also surfaces **ultracode mode** + **/deep-research** as related high-cost 4.8-era modes. → See [[dynamic-workflows]].
+
+This makes 4.8 not just a quality bump but a **capability-surface expansion** — consistent with the page's core thesis that *"a new frontier model is a workflow change, not just a quality bump."* The effort-levels control (chapter 1:07 of the adoption video) and dynamic workflows are two sides of the same shift: 4.8 gives operators new orchestration *and* effort knobs to match work shape.
+
 ## Why it matters for 3Ps
 
 1. **"Don't run it like 4.7" is a client talking point** — model upgrades are billable re-tuning moments: revisit effort levels, prompt/question style ([[ai-question-method]]), and which workflows now warrant the frontier tier.
@@ -72,4 +80,6 @@ The core operator advice: **a new frontier model is a workflow change, not just 
 - [[agent-analytics]] — same-batch [[nate-b-jones]] framework; the run-side trust complement to 4.8's model-side honesty upgrade
 - [[prompt-caching]], [[agent-metering]] — effort levels as a cost/latency lever
 - [[claude-code]], [[claude-code-levels]] — the surface where operators slot 4.8 into workflows
-- [[youtube-digest-apify-2026-05-29]] — primary citation
+- [[dynamic-workflows]] — the orchestration primitive 4.8 added to Claude Code (2026-05-30)
+- [[youtube-digest-apify-2026-05-29]] — primary citation (adoption video)
+- [[youtube-digest-apify-2026-06-02]] — secondary citation (dynamic-workflows video)

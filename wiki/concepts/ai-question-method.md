@@ -151,10 +151,15 @@ The convergence-via-binary-criteria pattern confirms Principle 2 has portable va
 - [[anticipation-gap]] — permission-ladder calibrates question depth to autonomy level
 - [[skill-creator]] — sister evals voice
 
+## Practice confirmation (2026-05-30): "shape the task before execution"
+
+[[nate-b-jones]]' practice-update video *My AI Workflow Has Changed* ([[youtube-digest-apify-2026-06-02]] #2, 49.2K views) restates **Principle 2 (*ask what good looks like*)** as a daily habit: *"shape the task before execution"* (chapter 3:13). The same video names *"prompting has shifted"* (2:23) — the move from giving instructions to shaping work alongside the model is this framework's senior-partner reframe applied to his own workflow, plus local-folders-as-context-windows ([[project-room-workflow]] files-as-canvas) and "why not to pick a side" ([[free-sample-phase]]).
+
 ## Used in
 
 - [[youtube-digest-apify-2026-05-22]] — primary citation ([[nate-b-jones]] #11)
 - [[youtube-digest-apify-2026-05-23]] — artifact-side complement via [[project-room-workflow]] ([[nate-b-jones]] #4); machine-tier operationalization via [[self-improving-skills]] ([[simon-scrapes]] #3)
+- [[youtube-digest-apify-2026-06-02]] — practice confirmation ("shape the task before execution", [[nate-b-jones]] #2)
 
 ## Open questions
 

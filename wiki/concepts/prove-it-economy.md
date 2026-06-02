@@ -122,9 +122,14 @@ Together: a **complete content-publishing-for-agents framework** — agents decl
 5. **Audience: 2026 marketing roles** — extends [[chief-ai-officer]]'s CAIO framing to **CMO/marketing-leader hiring**. The two-internet frame is what a 2026 marketing-leader interview should be testing for.
 6. **"Opinions matter more"** (chapter 20:30) — same shape as [[ai-question-method]]'s third principle. The two frameworks reinforce each other at different layers (questioning skill + brand positioning).
 
+## The career-evidence extension (2026-05-31): [[portable-judgment]]
+
+[[nate-b-jones]]' **26th framework** [[portable-judgment]] extends this framework's *"prove-it economy for individuals"* chapter (9:30) into a standalone **career/hiring-layer** framework. Where prove-it-economy named verifiable artifacts + public reasoning at the **brand layer** (AI *agents* interpret you), portable-judgment names visible-reasoning evidence at the **career layer** (hiring *humans* interpret you) — triggered by the Microsoft stat that 86% treat AI output as a starting point, so polished output stopped proving comprehension. Same "prove it, don't claim it" core; two different interpreters.
+
 ## Related
 
 - [[nate-b-jones]] — author; 14th framework
+- [[portable-judgment]] — career-evidence extension of the "prove-it economy for individuals" chapter (his 26th framework)
 - [[retrieval-contract]] — publisher-side / consumer-side pair
 - [[anticipation-gap]] — buyer-side framework; two-internet manifests as marketer-side interpretation-economy
 - [[ai-question-method]] — "opinions matter" extends to questioning skill
@@ -137,6 +142,7 @@ Together: a **complete content-publishing-for-agents framework** — agents decl
 ## Used in
 
 - [[youtube-digest-apify-2026-05-22]] — primary citation ([[nate-b-jones]] #10)
+- [[youtube-digest-apify-2026-06-02]] — career-evidence extension via [[portable-judgment]] ([[nate-b-jones]] #1)
 
 ## Open questions
 
