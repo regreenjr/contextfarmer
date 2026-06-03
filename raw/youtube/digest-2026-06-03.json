@@ -1,0 +1,292 @@
+[
+  {
+    "title": "I Hit 10k Subs in 3 Months with Claude Code (steal this)",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "Wlbepe_EFus",
+    "url": "https://www.youtube.com/watch?v=Wlbepe_EFus",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Wlbepe_EFus/maxresdefault.jpg",
+    "viewCount": 174,
+    "date": "2026-06-03T09:42:33.000Z",
+    "likes": 11,
+    "location": null,
+    "channelName": "Brad | AI & Automation",
+    "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+    "channelUsername": "bradbonanno",
+    "collaborators": null,
+    "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+    "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+    "channelJoinedDate": "Oct 6, 2025",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Strategy\u00a0Call",
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 19,
+    "channelTotalViews": 371720,
+    "numberOfSubscribers": 11400,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+      "channelJoinedDate": "Oct 6, 2025",
+      "channelDescriptionLinks": [
+        {
+          "text": "AI Strategy\u00a0Call",
+          "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "bradbonanno",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 19,
+      "channelTotalViews": 371720,
+      "numberOfSubscribers": 11400,
+      "isChannelVerified": false,
+      "channelName": "Brad | AI & Automation",
+      "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+      "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+      "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:08:20",
+    "commentsCount": 3,
+    "text": "Skill Download (FREE): https://github.com/bradautomates/cont...\n\nAI Strategy Call: https://cal.com/bradley-bonanno/ai-st...\nConnect with Me: \u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0\n\nI built a Claude Code skill that surfaced the idea behind every video that grew my channel from zero to 10,000 subscribers, including three videos that each hit over 90k views. The skill is called /content-ideas. It runs in Claude Code (and Claude Chat, Cursor, and Codex), and today I'm giving it away free. In this video I show you the receipts, walk you through exactly how it works, and hand you the link to install it in under a minute.\n\nThe skill builds you a custom For You page across YouTube, Instagram, X, and TikTok, pulling only the highest performing posts from the creators you track scored by an outlier rating that shows how far each post beat that creator's own average. But the real edge is what it does underneath: it reads the comments on every post it analyzes, because that's where the angles the video itself didn't cover live. It also scrapes your own channel before every run, so it knows what you've already made and what your own audience is actively asking for. And because it uses Claude's auto-memory, every thumbs up and thumbs down you leave trains it to your taste \u2014 so the ideas it surfaces start to sound like you, not like an AI trend report.\n\nScrape Creators: https://scrapecreators.com/\n\nChapters\n0:00 \u2014 Results\n1:00 \u2014 Demo: running /content-ideas live\n2:19 \u2014 How it finds angles\n3:13 \u2014 Anti-cannibalization\n3:55 \u2014 Setup\n5:52 \u2014 Self-improvement\n7:44 \u2014 Download",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://github.com/bradautomates/content-ideas",
+        "text": "https://github.com/bradautomates/cont..."
+      },
+      {
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call",
+        "text": "https://cal.com/bradley-bonanno/ai-st..."
+      },
+      {
+        "url": "https://www.linkedin.com/in/bradbonanno/",
+        "text": "\u00a0\u00a0/\u00a0bradbonanno\u00a0\u00a0"
+      },
+      {
+        "url": "https://scrapecreators.com/",
+        "text": "https://scrapecreators.com/"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=60s",
+        "text": "1:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=139s",
+        "text": "2:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=193s",
+        "text": "3:13"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=235s",
+        "text": "3:55"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=352s",
+        "text": "5:52"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=Wlbepe_EFus&t=464s",
+        "text": "7:44"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@bradbonanno/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "100 Years of Artificial Intelligence Explained",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "NHFbAg2b54U",
+    "url": "https://www.youtube.com/watch?v=NHFbAg2b54U",
+    "thumbnailUrl": "https://i.ytimg.com/vi/NHFbAg2b54U/maxresdefault.jpg",
+    "viewCount": 6825,
+    "date": "2026-06-02T12:57:25.000Z",
+    "likes": 303,
+    "location": "The AI Automation Society Podcast",
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelUsername": "nateherk",
+    "collaborators": null,
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "My Speech to Text",
+        "url": "https://get.glaido.com/nate"
+      },
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 425,
+    "channelTotalViews": 38638569,
+    "numberOfSubscribers": 783000,
+    "isChannelVerified": true,
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+      "channelJoinedDate": "Nov 17, 2013",
+      "channelDescriptionLinks": [
+        {
+          "text": "Free Skool Community",
+          "url": "https://www.skool.com/ai-automation-society/about"
+        },
+        {
+          "text": "My Speech to Text",
+          "url": "https://get.glaido.com/nate"
+        },
+        {
+          "text": "AI Automation Society Plus",
+          "url": "https://www.skool.com/ai-automation-society-plus/about"
+        },
+        {
+          "text": "Apply for the Podcast",
+          "url": "https://podcast.nateherk.com/apply"
+        },
+        {
+          "text": "About Me",
+          "url": "https://nateherk.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "nateherk",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 425,
+      "channelTotalViews": 38638569,
+      "numberOfSubscribers": 783000,
+      "isChannelVerified": true,
+      "channelName": "Nate Herk | AI Automation",
+      "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:17:22",
+    "commentsCount": 52,
+    "text": "My FREE AI OS Course: https://www.skool.com/ai-automation-s...\nFull courses + unlimited support: https://www.skool.com/ai-automation-s...\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\n100 Years of Artificial Intelligence Explained, and it starts with a 26-year-old building something in his parents' bedroom and a code that took an entire war to crack. \n\nI walk through the whole timeline: the two winters that nearly killed the field, the approach everyone wrote off as a dead end, and the single move that made a world champion walk away. This is 100 Years of Artificial Intelligence Explained, and honestly we're just getting started. Hope you enjoy!\n\nSponsorship Inquiries:\n\ud83d\udce7 nate@smoothmedia.co\n\nConnect with me:\n\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0\nhttps://x.com/nateherk\n\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0\n\nTIMESTAMPS\n00:00 Bedroom side project\n00:24 Unbreakable code?\n03:01 Naming the field\n03:44 Logic or brain?\n06:48 Boom then bust\n09:48 Two missing pieces\n12:55 What just happened?\n13:51 Who wins now?",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://www.skool.com/ai-automation-society/about?el=100-years-of-AI",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://www.skool.com/ai-automation-society-plus/about?el=100-years-of-AI",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://podcast.nateherk.com/apply",
+        "text": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "url": "https://uppitai.com/",
+        "text": "https://uppitai.com/"
+      },
+      {
+        "url": "https://get.glaido.com/nate",
+        "text": "https://get.glaido.com/nate"
+      },
+      {
+        "url": "https://www.hostinger.com/vps/claude-code-hosting",
+        "text": "https://www.hostinger.com/vps/claude-..."
+      },
+      {
+        "url": "https://www.linkedin.com/in/nateherkelman/",
+        "text": "\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0"
+      },
+      {
+        "url": "https://x.com/nateherk",
+        "text": "https://x.com/nateherk"
+      },
+      {
+        "url": "https://www.instagram.com/nateherk/",
+        "text": "\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=24s",
+        "text": "00:24"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=181s",
+        "text": "03:01"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=224s",
+        "text": "03:44"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=408s",
+        "text": "06:48"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=588s",
+        "text": "09:48"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=775s",
+        "text": "12:55"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NHFbAg2b54U&t=831s",
+        "text": "13:51"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@nateherk/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  }
+]
