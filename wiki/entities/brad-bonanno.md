@@ -2,9 +2,9 @@
 title: Brad Bonanno
 category: entity
 summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour; in 2026-05-14 ships [[execution-layer]] (Phase 3); **in 2026-05-21 ships Phase 4** — first-creator-walkthrough coverage of [[anthropic]]'s newly-launched [[claude-for-small-business]] vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); his four-video trajectory sequence: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3) → **Anthropic-shipped vertical plugin coverage (Phase 4)**; CFSB likely preempts his own skills-marketplace roadmap but he covers it favorably — Brad continues to be the canonical creator-side commentator on Anthropic product launches
-tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors]
-sources: 5
-updated: 2026-05-22
+tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors, content-ideas-skill, creator-growth, outlier-rating, comment-mining, anti-cannibalization, scrape-creators, for-you-page]
+sources: 6
+updated: 2026-06-03
 ---
 
 # Brad Bonanno
@@ -92,6 +92,27 @@ Person + YouTube channel **Brad | AI & Automation**. Builder of the "AI Second B
 3. **`/smb-onboard` as meta-skill** validates the [[execution-layer]] PR-back-loop thesis at Anthropic scale — Anthropic builds the customization-by-onboarding meta-skill; community-side ([[brad-bonanno]] / [[alex-mcfarland]]) ships the corrections-back-as-permanent-upgrades pattern around it
 4. **Cumulative four-phase trajectory** confirms Brad as the **highest-priority creator-watch** for vault architecture evolution
 
+## Key video in [[youtube-digest-apify-2026-06-03]]
+
+- #1 *I Hit 10k Subs in 3 Months with Claude Code (steal this)* — 174 views (just-published), 2026-06-03, 8:20. **The creator-growth axis** of his product trajectory: a free Claude skill (`/content-ideas`) he credits with growing his channel **0 → 10K subs in 3 months including three 90K+ view videos**. → New concept: [[content-ideas-skill]].
+
+**The skill** (free, `github.com/bradautomates/cont...`; runs in [[claude-code]], Claude Chat, Cursor, Codex):
+
+1. **Custom "For You page"** across YouTube/IG/X/TikTok — only highest-performing posts from tracked creators
+2. **Outlier rating** — scores posts by how far they beat *that creator's own average*, not absolute views (size-normalized)
+3. **Comment mining** (2:19) — reads comments on every post to find angles the post didn't cover ("the real edge")
+4. **Anti-cannibalization** (3:13) — scrapes your own channel each run so it never repeats your back-catalog
+5. **Auto-memory taste layer** — 👍/👎 trains it to sound like you, not "an AI trend report"
+
+Data via **Scrape Creators** (`scrapecreators.com`); funnel to AI Strategy Call (`cal.com/bradley-bonanno/ai-st...`).
+
+**Strategic significance**:
+
+1. **A new axis, not a Phase-5 of the business-execution arc** — Phases 1-4 were business architecture (context farming → product tour → execution layer → CFSB). `/content-ideas` is **creator-growth tooling** — the same skill-author and free-lead-magnet playbook applied to his *own* channel growth. The skill *is* the lead magnet.
+2. **A content-ideation farmer** — same supply-chain shape as [[context-farming]] (scheduled external-context pulls), but the destination is a ranked idea list, not a wiki. Confirms Brad keeps shipping farming-shaped skills.
+3. **Self-improvement via encoded preference** — auto-memory thumbs-tuning is the *subjective-taste* cousin of [[self-improving-skills]]' *objective* binary-criteria loop.
+4. **Outlier rating is a portable primitive** — "beat the creator's own average" is a cleaner content-selection signal than absolute views; worth porting into the vault's YouTube farmer.
+
 ## The four-phase product trajectory
 
 | Phase | Video | Concept | Vault implementation |
@@ -128,6 +149,8 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 
 ## Related
 - [[context-farming]] — the canonical concept page (Phase 1)
+- [[content-ideas-skill]] — his free content-ideation skill (creator-growth axis, 2026-06-03)
+- [[self-improving-skills]] — `/content-ideas`' auto-memory tuning is the preference-side cousin
 - [[execution-layer]] — his Phase 3 concept (productization above the brain)
 - [[karpathy-llm-wiki]] — the architecture his pattern implements
 - [[claude-code]] — substrate
@@ -142,6 +165,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[youtube-digest-apify-2026-05-10]] — video #2 (Learn Claude From Scratch 13-product tour)
 - [[youtube-digest-apify-2026-05-14]] — video #1 (Execution Layer — Phase 3)
 - [[youtube-digest-apify-2026-05-22]] — video #7 (*Why You Need Claude for Small Business* — Phase 4)
+- [[youtube-digest-apify-2026-06-03]] — video #1 (*I Hit 10k Subs in 3 Months* — `/content-ideas` skill, creator-growth axis)
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
 - [[anthropic]] — most comprehensive product-surface tour

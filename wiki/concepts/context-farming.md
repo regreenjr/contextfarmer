@@ -2,9 +2,9 @@
 title: Context Farming
 category: concept
 summary: Pattern of running scheduled agents that pull fresh context from external systems (Slack, meetings, YouTube, X) into a local knowledge base on autopilot; in 2026-05-22 batch **[[eric-tech]] ships a `/wiki` skill that automates the exact pattern** — same primitive triple as this vault (skill + farmer subagents + cron scheduling) — first creator-shipped parallel of this vault's architecture; convergent-evolution proof + competitive datapoint that the pattern is no longer differentiating in itself
-tags: [context-farming, second-brain, claude-code, mcp, automation, brad-bonanno, eric-tech, wiki-skill, farmer-subagents, cron, convergent-evolution]
-sources: 2
-updated: 2026-05-22
+tags: [context-farming, second-brain, claude-code, mcp, automation, brad-bonanno, eric-tech, wiki-skill, farmer-subagents, cron, convergent-evolution, content-ideas-skill, content-ideation-farmer, outlier-rating]
+sources: 3
+updated: 2026-06-03
 ---
 
 # Context Farming
@@ -42,6 +42,10 @@ Term popularized by [[brad-bonanno]] in his April 2026 video *I Turned My Second
 - **Claude Code Routines** — the *scheduler* most farmers run on
 - **AIOS / Operating Systems** ([[nate-herk]] #3) — the *opinionated stack* that bundles farming + wiki + dashboards
 
+## Variant: the content-ideation farmer
+
+In 2026-06-03, [[brad-bonanno]] ships [[content-ideas-skill]] (`/content-ideas`, free) — a farming-shaped skill with the **same supply chain** (scheduled-or-on-demand pulls of fresh external context, deduped against prior state) but a **different destination**: a ranked content-idea list rather than a wiki vault. It pulls highest-performing posts from tracked creators across YouTube/IG/X/TikTok, **mines their comments** for angles, and **scrapes the user's own channel** for dedup (anti-cannibalization — the back-catalog *is* the dedup state). Data source is **Scrape Creators** (`scrapecreators.com`). This confirms context farming generalizes beyond the wiki destination: the pattern is *external-context pull + dedup + compile-to-artifact*, and the artifact can be an idea list, a wiki, or a dashboard.
+
 ## Contrasts with
 
 - **Manual ingest** — user reads articles, drops into raw/, runs `/wiki-ingest` one at a time
@@ -63,6 +67,8 @@ Term popularized by [[brad-bonanno]] in his April 2026 video *I Turned My Second
 
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — primary citation (Brad Bonanno videos)
+- [[youtube-digest-apify-2026-06-03]] — content-ideation-farmer variant ([[content-ideas-skill]])
+- [[content-ideas-skill]] — a content-ideation farmer (idea-list destination)
 - [[brad-bonanno]] — primary author
 - [[karpathy-llm-wiki]] — feeds into this
 - [[mcp]] — supplies connectors

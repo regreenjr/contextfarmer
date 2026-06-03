@@ -2,9 +2,9 @@
 title: Self-Improving Claude Code Skills (Autonomous Loop)
 category: concept
 summary: [[simon-scrapes]]'s 109.7K-view 2026-03-13 framework (vault entry-point #2 for Simon) — Karpathy-autoresearch-inspired **autonomous overnight loop** that tests, scores, and refines Claude Code skills based on **binary criteria**, ensuring skills get more reliable with every iteration; the **closed-loop optimization extension** of [[skill-creator]] (which runs a single-shot acceptance test) — together they form the complete authoring → evals → optimization pipeline; positioned as the **skill-tier instantiation of [[andrej-karpathy]]'s `autoresearch`** primitive (now [[anthropic]]-internal after his 2026-05-19 hire); binary criteria as the unlock (pass/fail bypasses subjective quality judgments — same shape as [[ai-question-method]]' "ask what good looks like" Principle 2); highest-views Claude-Skills-eval video in the vault (exceeds [[chase-ai]]'s 107K Skill Creator walkthrough); confirms the closed-loop framing has stronger mainstream pull than single-shot evaluation
-tags: [self-improving-skills, skill-creator, skill-evals, karpathy-autoresearch, claude-skills, claude-code, autonomous-loop, binary-criteria, overnight-improvement, closed-loop-optimization, eval-loop, ab-test, convergence, simon-scrapes, skill-systems, capability-uplift, encoded-preference, anthropic-internal, autoresearch-lineage]
-sources: 1
-updated: 2026-05-23
+tags: [self-improving-skills, skill-creator, skill-evals, karpathy-autoresearch, claude-skills, claude-code, autonomous-loop, binary-criteria, overnight-improvement, closed-loop-optimization, eval-loop, ab-test, convergence, simon-scrapes, skill-systems, capability-uplift, encoded-preference, anthropic-internal, autoresearch-lineage, content-ideas-skill, auto-memory, preference-tuning, brad-bonanno]
+sources: 2
+updated: 2026-06-03
 ---
 
 # Self-Improving Claude Code Skills
@@ -134,6 +134,20 @@ The trade-off: **token cost for time cost**. For high-frequency skills, the math
 - The capital-allocation lever choice (automate vs build vs buy vs hire vs wait) applies recursively — the *skill optimization process* itself can be automated, but only if you can describe the binary criteria
 - Confirms the [[capital-allocation-framework]] thesis: *do not automate what you cannot describe*; binary criteria *is* the description
 
+## The second self-improvement mechanism: preference-tuning via auto-memory
+
+In 2026-06-03, [[brad-bonanno]]'s [[content-ideas-skill]] (`/content-ideas`) surfaces a **second, distinct** way a skill can self-improve — not a binary-criteria overnight loop, but **encoded preference via Claude auto-memory**: every 👍/👎 the user leaves trains the skill so its output "starts to sound like you, not like an AI trend report." The two mechanisms are complementary halves of skill self-improvement:
+
+| | [[self-improving-skills]] (Simon Scrapes) | [[content-ideas-skill]] auto-memory (Brad Bonanno) |
+|---|---|---|
+| Signal | Binary criteria (pass/fail, **objective**) | 👍/👎 in auto-memory (**subjective taste**) |
+| Loop | Autonomous overnight convergence | Per-run, human-in-the-loop ratings |
+| Optimizes for | Contract satisfaction | The user's personal taste |
+| "What good looks like" | Specified up front as code | Learned incrementally from feedback |
+| Best for | Skills with describable success criteria | Skills where quality *is* subjective (ideation, voice, style) |
+
+The binary-criteria loop is the right tool when you *can* describe success; preference-tuning is the fallback when quality is irreducibly subjective — exactly the case [[capital-allocation-framework]] warns about (*"do not automate what you cannot describe"*). Auto-memory preference is how you self-improve a skill whose output you can't fully specify in advance.
+
 ## Open questions
 
 - **Token budget per iteration** — the video probably names a working range; transcript would resolve
@@ -169,4 +183,7 @@ The trade-off: **token cost for time cost**. For high-frequency skills, the math
 - [[skill-systems]] — Simon's other framework; composition layer that consumes converged skills
 - [[ai-operating-system-offer]] — consulting deliverable that can include self-improving skills as a premium tier
 - [[chase-ai]] — fellow evals-tier voice ([[skill-creator]] walkthrough)
+- [[content-ideas-skill]] — the preference-tuning (auto-memory) self-improvement mechanism
+- [[brad-bonanno]] — author of the auto-memory-tuned `/content-ideas` skill
 - [[youtube-digest-apify-2026-05-23]] — citation
+- [[youtube-digest-apify-2026-06-03]] — citation (auto-memory preference mechanism)
