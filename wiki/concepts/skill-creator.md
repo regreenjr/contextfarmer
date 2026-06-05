@@ -2,9 +2,9 @@
 title: Skill Creator
 category: concept
 summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
-tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes]
-sources: 2
-updated: 2026-05-23
+tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk]
+sources: 3
+updated: 2026-06-05
 ---
 
 # Skill Creator
@@ -103,6 +103,23 @@ Skill Creator + Self-Improving Skills form the **complete pre-ship pipeline**:
 
 Self-improving skills is **the closed-loop extension** of Skill Creator's three core capabilities — particularly extending blind A/B testing into a **convergent revision loop**. Likely path: Anthropic ships an integrated `/skill-improve` command that wraps both into one workflow.
 
+## Front-end: [[grill-me-skill]] — front-load context to cut the iteration count (2026-06-04)
+
+[[nate-herk]]'s *The Skill That 10x'd My Claude Code Projects* ([[youtube-digest-apify-2026-06-05]] #2, 36.8K views) ships the **front-loading-context complement** to Skill Creator's evaluation loop. → New concept: [[grill-me-skill]].
+
+Where Skill Creator iterates a skill against evals **after** you author it, the [[grill-me-skill]] reduces the iteration count by getting the context right **before** you author it — a skill that *"relentlessly interviews you about a process and writes it back to a knowledge doc."* Nate's claim: front-loading context this way gets a skill to **~90% on the first try instead of grinding through 30 iterations.**
+
+The two are the bookends of the authoring pipeline:
+
+| Stage | Tool | Question |
+|---|---|---|
+| **Before authoring** | **[[grill-me-skill]]** | Have I extracted the context this skill needs? |
+| Authoring | [[claude-skills]] practices | Is the skill well-written? |
+| **Acceptance (single-shot)** | **[[skill-creator]] (this)** | Does the skill change behavior in the right direction? |
+| Optimization (closed-loop) | [[self-improving-skills]] | Can it be converged to as-good-as-possible? |
+
+Extraction up front (grill-me) and iteration after (Skill Creator / self-improving) are two ways to reach the same quality bar — the former trades a focused interview for fewer build-test-fix cycles.
+
 ## Strategic implications
 
 ### For [[anthropic]]
@@ -145,9 +162,11 @@ Self-improving skills is **the closed-loop extension** of Skill Creator's three 
 - [[chase-ai]] — first-hand walkthrough source
 - [[skill-systems]] — composition layer that consumes Skill-Creator-passed skills
 - [[self-improving-skills]] — closed-loop optimization extension (Simon Scrapes 2026-05-23)
+- [[grill-me-skill]] — front-loading-context front-end (Nate Herk 2026-06-04); extract context before authoring
 - [[plugins]] — taxonomy parent
 - [[ai-consulting]] — practice that ships eval-backed skills as deliverables
 - [[youtube-digest-apify-2026-05-11]] — primary citation
 - [[youtube-digest-apify-2026-05-23]] — self-improving-skills extension
+- [[youtube-digest-apify-2026-06-05]] — grill-me-skill front-loading-context front-end
 - [[code-with-beto]], [[ben-ai]] — fellow authoring-discipline voices
 - [[karpathy-llm-wiki]] — autoresearch lineage inherited via self-improving-skills

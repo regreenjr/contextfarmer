@@ -2,9 +2,9 @@
 title: Long-Running Benchmarks (The Harness Is the Real Story)
 category: concept
 summary: [[nate-b-jones]]' 19th named framework (2026-05-23, 33.3K views) — the **eval-side framework** that argues **long-running agent behavior is the real test**, not single-task benchmarks, and that **the harness, not the model, does the heavy lifting** in production-safe agent systems; unlock event is **Emergence AI's 15-day virtual town experiment** (five identical towns, five different LLMs, completely divergent outcomes including Mira/Flora arson and **Claude voting yes on everything as a failure mode masquerading as order**); positions trajectory-level eval *above* single-shot eval ([[skill-creator]]) and binary-criteria eval ([[self-improving-skills]]); harness-thesis extends [[agent-security]] (judge architecture) / [[infrastructure-control-layer]] (5 control points) / [[work-primitive]] (access/meaning/authority) as the **integration layer** across prior diagnostics; reframes the "Claude is safest" narrative as a **measurement artifact** (task-level evals reward non-disagreement)
-tags: [nate-b-jones, framework, eval, benchmarks, long-running, trajectory-eval, harness, agent-harness, emergence-ai, ai-town, mira-flora, polite-agreement, claude-town, mixed-model-towns, scenario-level-eval, measurement-artifact, sycophancy, agent-security, infrastructure-control-layer, work-primitive, openclaw, claude-code]
-sources: 1
-updated: 2026-05-25
+tags: [nate-b-jones, framework, eval, benchmarks, long-running, trajectory-eval, harness, agent-harness, emergence-ai, ai-town, mira-flora, polite-agreement, claude-town, mixed-model-towns, scenario-level-eval, measurement-artifact, sycophancy, agent-security, infrastructure-control-layer, work-primitive, openclaw, claude-code, harness-over-model, vending-bench, effort-level-trap, opus-4-8, model-selection]
+sources: 2
+updated: 2026-06-05
 ---
 
 # Long-Running Benchmarks (The Harness Is the Real Story)
@@ -92,6 +92,18 @@ The three frameworks together form a **complete eval discipline** — single-tas
 4. **Mixed-model town as the canonical 2026 architecture** (chapter 8:30) — single-model agent systems are testbeds; production agent systems are mixed-model (cheaper models for routine actions + frontier models for judge / hard decisions, per [[agent-security]]).
 5. **Pairs with [[ai-supply-contract]]** ([[nate-b-jones]]' 20th framework, same batch) — Long-Running Benchmarks names the **eval honesty** problem; AI Supply Contract names the **procurement honesty** problem. Both reframe a conventional belief as a measurement artifact.
 
+## Extended into model-selection — [[harness-over-model]] (2026-06-03)
+
+[[nate-b-jones]]'s *Opus 4.8 Scored 81. Your Workflow Doesn't Care.* ([[youtube-digest-apify-2026-06-05]] #1, 34.3K views, his **27th framework**) carries this framework's central claim — *the harness, not the model, does the heavy lifting* — from **evaluation** into the **model-selection decision**. → New concept: [[harness-over-model]].
+
+The new evidence, anchored on [[opus-4-8]]:
+
+- **A higher benchmark score doesn't make a model your daily driver** — harnesses, compute, and workflow reliability matter as much as raw model intelligence. The model scored 81; *your workflow doesn't care.*
+- **The Codex harness outperformed raw model intelligence** — same shape as the AI-town result (the system around the model determines outcomes), now in a head-to-head model comparison rather than a virtual-town experiment.
+- **The effort-level trap (Vending-Bench)** — a **second long-running benchmark** enters the vault: Vending-Bench data shows **`max` effort can make long-running work *worse***. This is the trajectory-level eval thesis turned into a concrete operator warning — more effort is not monotonically better over long runs.
+
+This makes Long-Running Benchmarks the **eval-side** half and [[harness-over-model]] the **selection-side** half of one thesis: *the harness is the thing to measure (here) and the thing to optimize/select on (there).*
+
 ## Open questions / disagreements
 
 - Emergence AI's experiment is a public dataset — but does the framework apply at smaller scales (1-day, 1-hour)? Or is 15-day the minimum useful trajectory length?
@@ -116,3 +128,6 @@ The three frameworks together form a **complete eval discipline** — single-tas
 - [[project-room-workflow]] — sister framework at the single-task scale
 - [[work-primitive]] — authority layer as part of the harness
 - [[openclaw]] — harness-as-strategic-primitive legitimizes creator-side harnesses
+- [[harness-over-model]] — the model-selection extension (Vending-Bench effort-level trap; Codex harness > score)
+- [[opus-4-8]] — the model the harness thesis is applied to in [[harness-over-model]]
+- [[youtube-digest-apify-2026-06-05]] — secondary citation (harness-over-model)

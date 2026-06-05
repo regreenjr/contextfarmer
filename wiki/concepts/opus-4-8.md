@@ -2,9 +2,9 @@
 title: Claude Opus 4.8
 category: concept
 summary: [[anthropic]]'s frontier model released ~2026-05-28, covered in this vault via [[nate-herk]]'s *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views — his highest-view video in the 2026-05-29 batch). The video's thesis: **the benchmarks are "nuts" but the numbers only tell part of the story — don't run 4.8 the way you ran [[opus-4-7]]**. Named upgrades: **effort levels and workflows** (slotting the model into different work shapes), a **"honesty upgrade"** (the model is more candid about uncertainty / what it can't do), and fixes for specific **4.7 pain points**. The first dedicated Claude-model page in the vault; the practical-adoption counterpart to [[nate-b-jones]]'s [[ai-question-method]] (which named the Opus-4.7/GPT-5.5 prompting-style shift)
-tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research]
-sources: 2
-updated: 2026-06-02
+tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, codex-harness, routing-guide, nate-b-jones, reasoning-effort]
+sources: 3
+updated: 2026-06-05
 ---
 
 # Claude Opus 4.8
@@ -56,6 +56,22 @@ The core operator advice: **a new frontier model is a workflow change, not just 
 
 This makes 4.8 not just a quality bump but a **capability-surface expansion** — consistent with the page's core thesis that *"a new frontier model is a workflow change, not just a quality bump."* The effort-levels control (chapter 1:07 of the adoption video) and dynamic workflows are two sides of the same shift: 4.8 gives operators new orchestration *and* effort knobs to match work shape.
 
+## The skeptic's read — "the score doesn't matter, the harness does" (2026-06-03)
+
+[[nate-b-jones]]'s *Opus 4.8 Scored 81. Your Workflow Doesn't Care.* ([[youtube-digest-apify-2026-06-05]] #1, 34.3K views, 2026-06-03, 26:36) is the **counterweight to the adoption-enthusiasm read above** — and the vault's first tracked **creator disagreement on a Claude model.** → New concept: [[harness-over-model]].
+
+Where [[nate-herk]]'s coverage treats 4.8's effort levels as a clean adoption lever and its [[dynamic-workflows]] as a new capability to learn, Jones argues:
+
+- **4.8 is a checkpoint release** — *"the product harness around the model now matters more than the model itself."* The score is real (81) but nearly irrelevant to whether your workflow improves.
+- **Reasoning effort became unpredictable on 4.8** — directly contradicts the "match effort to work shape" framing above. The effort control is, in his testing, **inconsistent** (same setting, different behavior).
+- **The effort-level trap** — **Vending-Bench data shows `max` effort can make long-running work *worse*.** The effort knob is both unreliable *and* non-monotonic; more is not better for long-running tasks.
+- **The Codex harness outperformed raw model intelligence** — he still reaches for [[codex]]/5.5 daily *despite the lower score*. Ships a **routing guide** (Opus 4.8 vs Codex/5.5 vs GPT-5.5).
+- **Architect for harness flexibility** — design for swappable harnesses, not a permanent model choice ([[free-sample-phase]] portability instinct).
+
+> ⚠️ Contradiction: This page's *effort-levels* section (above) frames 4.8's effort control as a clean cost/latency lever to "match to the work shape" ([[nate-herk]]). [[nate-b-jones]]'s testing says that same control is **unpredictable** and that **max effort can degrade long-running work** (Vending-Bench). Both are in the vault; the effort-level UX is either a clean lever (Herk) or an unreliable, non-monotonic knob (Jones). Pull the transcripts / Anthropic docs to resolve. → See [[harness-over-model]].
+
+This makes 2026-06-05 the batch where the vault's two top creators **split on 4.8**: Herk = "here's how to use the new knobs," Jones = "the knobs are unreliable and the harness is what moves outcomes." → See [[harness-over-model]] for the full framework.
+
 ## Why it matters for 3Ps
 
 1. **"Don't run it like 4.7" is a client talking point** — model upgrades are billable re-tuning moments: revisit effort levels, prompt/question style ([[ai-question-method]]), and which workflows now warrant the frontier tier.
@@ -81,5 +97,9 @@ This makes 4.8 not just a quality bump but a **capability-surface expansion** �
 - [[prompt-caching]], [[agent-metering]] — effort levels as a cost/latency lever
 - [[claude-code]], [[claude-code-levels]] — the surface where operators slot 4.8 into workflows
 - [[dynamic-workflows]] — the orchestration primitive 4.8 added to Claude Code (2026-05-30)
+- [[harness-over-model]] — [[nate-b-jones]]'s skeptic read (checkpoint release; effort-level trap; harness > score)
+- [[codex]] — "the Codex harness outperformed raw model intelligence" (the daily-driver-despite-the-score case)
+- [[long-running-benchmarks]] — the harness thesis [[harness-over-model]] extends into model-selection
 - [[youtube-digest-apify-2026-05-29]] — primary citation (adoption video)
 - [[youtube-digest-apify-2026-06-02]] — secondary citation (dynamic-workflows video)
+- [[youtube-digest-apify-2026-06-05]] — tertiary citation (harness-over-model skeptic read)

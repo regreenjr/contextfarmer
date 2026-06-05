@@ -2,9 +2,9 @@
 title: Codex (OpenAI Codex CLI)
 category: concept
 summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); 2026-05-13 ships Codex free for 2 months as retention play after Anthropic adoption flip; **2026-05-18 [[nate-herk]] publishes the 3-layer cross-substrate mental model** — Claude Code's `CLAUDE.md` ↔ Codex's `AGENTS.md` (instructions), skills directory (same format), agents directory (mostly compatible) — confirming cross-substrate symmetry at the *project filesystem* level, not just per-primitive; the conversion-prompt for migrating an entire project from Claude Code → Codex (or vice-versa) is now published — extends the substrate-portability playbook + makes the [[free-sample-phase]] retention war exploitable as a defensive strategy; **in 2026-05-28 [[nate-herk]]'s 100-hour [[claude-code-vs-codex]] shootout** ships the first *performance* comparison (vs prior architectural-symmetry coverage) — report/landing-page/dashboard scored head-to-head, "Codex fights back" arc implies Codex overperformed Claude-default priors (verdict gated to transcript)
-tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability, claude-code-vs-codex, head-to-head, performance-shootout, 100-hours, report-showdown, dashboard-battle, pricing-pain]
-sources: 4
-updated: 2026-05-28
+tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability, claude-code-vs-codex, head-to-head, performance-shootout, 100-hours, report-showdown, dashboard-battle, pricing-pain, harness-over-model, codex-harness, routing-guide, nate-b-jones, gpt-5-5]
+sources: 5
+updated: 2026-06-05
 ---
 
 # Codex (OpenAI Codex CLI)
@@ -114,6 +114,16 @@ Three deliverable types scored head-to-head: **report showdown** (12:48), **land
 
 Strategic significance: confirms the [[free-sample-phase]] thesis is now *empirically testable* (a 100-hour comparison is only feasible because of the near-zero-cost Codex free window) and strengthens vendor-agnostic positioning — same deliverables ship on both, so the choice is performance/pricing, not architecture. → See [[claude-code-vs-codex]] for the full comparison.
 
+## "The Codex harness outperformed raw model intelligence" ([[nate-b-jones]] in [[youtube-digest-apify-2026-06-05]])
+
+[[nate-b-jones]]'s *Opus 4.8 Scored 81. Your Workflow Doesn't Care.* (34.3K views, 2026-06-03) gives Codex its **strongest competitive endorsement** in the vault — not on architecture (the 3-layer symmetry above) or a scored deliverable shootout (the 100-hour comparison above), but on the **harness**:
+
+- **The Codex harness outperformed raw model intelligence** — in his real-work tests, Codex's harness produced better outcomes than a higher-scoring model run in a weaker harness. → See [[harness-over-model]].
+- **He still reaches for [[codex]]/5.5 daily *despite the lower benchmark score***. The clearest single instance of the harness-over-model thesis: model choice is a harness/workflow-fit decision, not a leaderboard lookup.
+- **A published routing guide** (Substack-gated): when to use [[opus-4-8]] vs **Codex/5.5** vs GPT-5.5 for real work.
+
+This reframes the prior [[claude-code-vs-codex]] performance shootout: it's not just that Codex ships comparable deliverables — its **harness can beat a higher-scoring Claude model on real work.** Strengthens the vendor-agnostic positioning *and* gives Codex a concrete "why you might prefer it" beyond price. → See [[harness-over-model]].
+
 ## Contrasts with
 
 - **[[claude-code]]** — the closer-cousin substrate; this vault's primary focus. Codex is currently the alternative for OpenAI-leaning operators. Head-to-head performance now tracked in [[claude-code-vs-codex]].
@@ -146,6 +156,8 @@ Strategic significance: confirms the [[free-sample-phase]] thesis is now *empiri
 - [[youtube-digest-apify-2026-05-06]] — primary source ([[nate-herk]] #2 *Master 97% of Codex in 1 Hour*)
 - [[youtube-digest-apify-2026-05-14]] — secondary source: 2-months-free retention promo following the Anthropic adoption flip ([[nate-herk]] #5)
 - [[youtube-digest-apify-2026-05-28]] — 100-hour Claude Code vs Codex performance shootout ([[nate-herk]] #5)
+- [[youtube-digest-apify-2026-06-05]] — "the Codex harness outperformed raw model intelligence" ([[nate-b-jones]] #1)
+- [[harness-over-model]] — the Codex-harness-beat-the-score thesis + routing guide
 - [[claude-code-vs-codex]] — the head-to-head comparison page (performance dimension)
 - [[nate-herk]] — primary educator in this vault for Codex
 - [[openai]] — Codex vendor; retention-promo signal

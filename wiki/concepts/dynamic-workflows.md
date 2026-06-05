@@ -2,9 +2,9 @@
 title: Dynamic Workflows (Claude Code Orchestration Capstone)
 category: concept
 summary: The [[opus-4-8]]-era [[claude-code]] primitive that scripts how multiple subagents run (deterministic fan-out / pipeline / verify) — the **top rung of the orchestration complexity ladder** above skills → subagents → agent teams. First covered in this vault via [[nate-herk]]'s *Claude Code Dynamic Workflows Clearly Explained* (57.6K views, 2026-05-30, 16:31). Core disambiguations: the **complexity ladder** (skills → subagents → teams → workflows), **/goal vs workflow = depth vs width** (one deep long-running agent vs many fanned-out agents synthesized), and the **token-cost warning** (*"one prompt burned through half my $200 monthly plan"*) — workflows are the most expensive primitive, so a single gate question decides whether a job is even worth one. First vault surfacing of **ultracode mode** and **/deep-research**
-tags: [dynamic-workflows, claude-code, opus-4-8, orchestration, complexity-ladder, skills, subagents, agent-teams, goal-command, depth-vs-width, token-cost, ultracode, deep-research, nate-herk, fan-out, pipeline, multi-agent]
-sources: 1
-updated: 2026-06-02
+tags: [dynamic-workflows, claude-code, opus-4-8, orchestration, complexity-ladder, skills, subagents, agent-teams, goal-command, depth-vs-width, token-cost, ultracode, deep-research, nate-herk, fan-out, pipeline, multi-agent, harness-over-model, nate-b-jones, workflows-command, agent-design]
+sources: 2
+updated: 2026-06-05
 ---
 
 # Dynamic Workflows
@@ -77,16 +77,25 @@ Nate's gate: a **simple question asked before deciding if a job is even worth a 
 - **`/deep-research`** — is this the Claude Code build of the deep-research harness? What does it cost relative to a workflow?
 - **The token-cost math** — what configuration actually burned half a $200 plan in one prompt? Is that typical or a worst case?
 
+## "/workflows reveals agent design" ([[nate-b-jones]] in [[youtube-digest-apify-2026-06-05]])
+
+[[nate-b-jones]]'s *Opus 4.8 Scored 81. Your Workflow Doesn't Care.* (34.3K views, 2026-06-03) names the `/workflows` command as a **window into agent architecture**, not just a feature — *"what the /workflows command reveals about agent design."* In his [[harness-over-model]] framing, the orchestration layer dynamic workflows expose is precisely the **harness** that he argues matters more than the model score. Dynamic workflows are therefore evidence for his thesis: the place where agent design actually lives is the deterministic orchestration scaffold, not the underlying model. → See [[harness-over-model]].
+
+This complements [[nate-herk]]'s how-to coverage (the primary citation below) with the **why-it-matters-strategically** read: workflows aren't just a new tool to learn, they're where the harness-as-strategic-primitive becomes visible.
+
 ## Related pages
 
 - [[claude-code]] — the substrate that hosts dynamic workflows
 - [[opus-4-8]] — the model generation that added them
+- [[harness-over-model]] — "/workflows reveals agent design"; the harness is the strategic primitive
 - [[claude-skills]] — rung 1 of the complexity ladder
 - [[claude-code-levels]] — dynamic workflows sit above Level 5 (a plausible Level 6)
 - [[prompt-caching]], [[agent-metering]], [[free-sample-phase]] — the substrate-economics context for the token-cost warning
 - [[nate-herk]] — primary author; mainstream-news interpreter for Claude releases
 - [[deployment-framework]] — *where* automations run (companion to *how complex* the orchestration is)
+- [[nate-b-jones]] — "/workflows reveals agent design" ([[harness-over-model]])
 - [[youtube-digest-apify-2026-06-02]] — primary citation
+- [[youtube-digest-apify-2026-06-05]] — secondary citation ([[nate-b-jones]]: /workflows reveals agent design)
 
 ## Used in
 
