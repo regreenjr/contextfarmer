@@ -1,0 +1,106 @@
+[
+  {
+    "id": "2070801100505377",
+    "brand": "hims",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-05-21",
+    "end_date": "2026-06-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=2070801100505377",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "2174336200082557",
+    "brand": "hims",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-04-23",
+    "end_date": "2026-06-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=2174336200082557",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "2377943343003628",
+    "brand": "hims",
+    "title": "",
+    "body_text": "Don't wait \u2014 join the hundreds of thousands of guys who\u2019ve found true results. Get a treatment recommendation today, 100% online.\n\nWhy Hims?\n\ud83d\uddd3\ufe0fRegrow in as few as 3-6 months\n\ud83e\uddd1\ud83c\udffb\u200d\u2695\ufe0fDoctor-trusted ingredients\n\ud83d\udce6Free shipping to your front door (if prescribed)\n\nHair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs.\n\n*Individual results may vary. Based on separate individual studies of oral and topical minoxidil and finasteride.\nPrescription products require an online consultation with a healthcare provider who will determine if a prescription is appropriate. Restrictions apply. See website for full details and important safety information.",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-06-02",
+    "end_date": "2026-06-06",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=2377943343003628",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1190141593083927",
+    "brand": "TRELEGY (fluticasone furoate, umeclidinium, and vilanterol inhalation powder)",
+    "title": "",
+    "body_text": "Prescribing Info: https://gskp.ro/4etzOri. Get help with Chronic Obstructive Pulmonary Disease (COPD) flare-ups, plus a range of programs and support.",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-01-05",
+    "end_date": "2026-06-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1190141593083927",
+    "platforms": [
+      "FACEBOOK"
+    ]
+  },
+  {
+    "id": "780857894872419",
+    "brand": "Aelfric Eden",
+    "title": "Aelfric Eden",
+    "body_text": "\ud83c\udf08Special offer 20% off code: AES20\ud83d\udc9d\n\ud83d\udc99Get the latest streetwear from Aelfric Eden#Aelfriceden #Streetwears #NewArrivals #fyp\u30b7",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2025-09-30",
+    "end_date": "2026-06-06",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=780857894872419",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "AUDIENCE_NETWORK",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "957683720329140",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-06-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=957683720329140",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  }
+]
