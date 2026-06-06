@@ -1,0 +1,369 @@
+[
+  {
+    "title": "Anthropic Just Dropped Their Claude Skills Secrets (steal these)",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "VhhVoUXEGeo",
+    "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo",
+    "thumbnailUrl": "https://i.ytimg.com/vi/VhhVoUXEGeo/maxresdefault.jpg",
+    "viewCount": 11345,
+    "date": "2026-06-05T17:00:26.000Z",
+    "likes": 313,
+    "location": null,
+    "channelName": "Brock Mesarich | AI for Non Techies",
+    "channelUrl": "https://www.youtube.com/@BrockMesarich",
+    "channelUsername": "BrockMesarich",
+    "collaborators": null,
+    "channelId": "UCjc1vfduI7BhVMXBLJLDjmA",
+    "numberOfSubscribers": 116000,
+    "duration": "00:10:27",
+    "commentsCount": 7,
+    "text": "\ud83d\udcda Join my Skool Community: https://bit.ly/4nRinXB\n\ud83d\udd17 Free 15 Skills I Can't Live Without: https://bit.ly/4vYG9Vh\n\nFull Anthropic Article: https://claude.com/blog/lessons-from-...\n\nAnthropic just dropped a new article breaking down everything they've learned from building Claude Skills internally, and there are some huge takeaways every Claude user should know. In this video, I walk through the 9 categories of skills, why your \"description\" field is actually more important than you think, and the gotchas section that Anthropic calls the highest-signal part of any skill. I also cover progressive disclosure with the file system, why you should stop railroading Claude, and the best way to share skills with your team. By the end, you'll walk away a better Claude user. \n\n0:00 -  Anthropic's Claude Skills Secrets\n1:00 -  Skill misconceptions \n2:01 - The 9 categories of skills\n3:30 - Build a gotchas section\n4:20 - Email drafter example (good vs avoid files)\n5:26 - Progressive disclosure & the file system\n6:36 - Stop railroading Claude\n7:41 - Write descriptions for the model, not humans\n8:39 - Distributing skills (.claude/skills + plugins)\n9:43 - Main takeaway: start small, iterate",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://bit.ly/4nRinXB",
+        "text": "https://bit.ly/4nRinXB"
+      },
+      {
+        "url": "https://bit.ly/4vYG9Vh",
+        "text": "https://bit.ly/4vYG9Vh"
+      },
+      {
+        "url": "https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills",
+        "text": "https://claude.com/blog/lessons-from-..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=60s",
+        "text": "1:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=121s",
+        "text": "2:01"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=210s",
+        "text": "3:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=260s",
+        "text": "4:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=326s",
+        "text": "5:26"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=396s",
+        "text": "6:36"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=461s",
+        "text": "7:41"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=519s",
+        "text": "8:39"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=VhhVoUXEGeo&t=583s",
+        "text": "9:43"
+      }
+    ],
+    "subtitles": null,
+    "order": 27,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Claude+Code+skill+marketplace",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Claude%20Code%20skill%20marketplace",
+    "isPaidContent": false
+  },
+  {
+    "title": "AGI is Here. Anthropic Just Proved It.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "NDeyhGnNECc",
+    "url": "https://www.youtube.com/watch?v=NDeyhGnNECc",
+    "thumbnailUrl": "https://i.ytimg.com/vi/NDeyhGnNECc/maxresdefault.jpg",
+    "viewCount": 32413,
+    "date": "2026-06-05T20:42:32.000Z",
+    "likes": 1200,
+    "location": "The AI Automation Society Podcast",
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelUsername": "nateherk",
+    "collaborators": null,
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "My Speech to Text",
+        "url": "https://get.glaido.com/nate"
+      },
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 428,
+    "channelTotalViews": 39014001,
+    "numberOfSubscribers": 788000,
+    "isChannelVerified": true,
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+      "channelJoinedDate": "Nov 17, 2013",
+      "channelDescriptionLinks": [
+        {
+          "text": "Free Skool Community",
+          "url": "https://www.skool.com/ai-automation-society/about"
+        },
+        {
+          "text": "My Speech to Text",
+          "url": "https://get.glaido.com/nate"
+        },
+        {
+          "text": "AI Automation Society Plus",
+          "url": "https://www.skool.com/ai-automation-society-plus/about"
+        },
+        {
+          "text": "Apply for the Podcast",
+          "url": "https://podcast.nateherk.com/apply"
+        },
+        {
+          "text": "About Me",
+          "url": "https://nateherk.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "nateherk",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 428,
+      "channelTotalViews": 39014001,
+      "numberOfSubscribers": 788000,
+      "isChannelVerified": true,
+      "channelName": "Nate Herk | AI Automation",
+      "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:12:37",
+    "commentsCount": 164,
+    "text": "My FREE AI OS Course: https://www.skool.com/ai-automation-s...\nFull courses + unlimited support: https://www.skool.com/ai-automation-s...\nApply for my YT podcast: https://podcast.nateherk.com/apply\nWork with me: https://uppitai.com/\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nAnthropic's report: https://www.anthropic.com/institute/r...\n\nAnthropic just released a report called \"When AI Builds Itself,\" where they reveal that more than 80% of the code they ship is now written by their own AI. \n\nI read through the whole thing and walked away convinced that AGI, at least by the definition that actually matters, is already here. \n\nThis video breaks down the numbers from their internal data, the three ways things could go from here, and why the company building the most powerful version of this is the one telling us to slow down.\n\nSponsorship Inquiries:\n\ud83d\udce7 nate@smoothmedia.co\n\nConnect with me:\n\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0\nhttps://x.com/nateherk\n\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0\n\nTIMESTAMPS \n0:00 Intro\n0:33 What AGI Actually Means\n2:03 The Proof In Anthropic's Data\n5:50 Three Scenarios For What's Next\n6:53 The Risk Nobody Can See\n7:59 The Gap Between People\n9:24 Why Anthropic Is Warning Us\n11:27 What Actually Matters Now",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://www.skool.com/ai-automation-society/about?el=anthropic-calls-for-pause&hcategory=youtube-videos&utm_campaign=free-group",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://www.skool.com/ai-automation-society-plus/about?el=anthropic-calls-for-pause&hcategory=youtube-videos&utm_campaign=ais-plus",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://podcast.nateherk.com/apply",
+        "text": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "url": "https://uppitai.com/",
+        "text": "https://uppitai.com/"
+      },
+      {
+        "url": "https://get.glaido.com/nate",
+        "text": "https://get.glaido.com/nate"
+      },
+      {
+        "url": "https://www.hostinger.com/vps/claude-code-hosting",
+        "text": "https://www.hostinger.com/vps/claude-..."
+      },
+      {
+        "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+        "text": "https://www.anthropic.com/institute/r..."
+      },
+      {
+        "url": "https://www.linkedin.com/in/nateherkelman/",
+        "text": "\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0"
+      },
+      {
+        "url": "https://x.com/nateherk",
+        "text": "https://x.com/nateherk"
+      },
+      {
+        "url": "https://www.instagram.com/nateherk/",
+        "text": "\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=33s",
+        "text": "0:33"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=123s",
+        "text": "2:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=350s",
+        "text": "5:50"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=413s",
+        "text": "6:53"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=479s",
+        "text": "7:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=564s",
+        "text": "9:24"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=NDeyhGnNECc&t=687s",
+        "text": "11:27"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@nateherk/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "l8BloTSLK6M",
+    "url": "https://www.youtube.com/watch?v=l8BloTSLK6M",
+    "thumbnailUrl": "https://i.ytimg.com/vi/l8BloTSLK6M/maxresdefault.jpg",
+    "viewCount": 14498,
+    "date": "2026-06-05T14:00:07.000Z",
+    "likes": 448,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": null,
+    "channelTotalVideos": 1016,
+    "channelTotalViews": 21584159,
+    "numberOfSubscribers": 297000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/iw3-bJlxOVngLK1Y3DDsAcr8yKwg1Kvx7Erm7R19-NcIJ1V1IzLbCBBTPIVVARJ-JK_A1Z5BAZo=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": null,
+      "channelTotalVideos": 1016,
+      "channelTotalViews": 21584159,
+      "numberOfSubscribers": 297000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:21:05",
+    "commentsCount": 80,
+    "text": "Token Burn Dashboard Guide: https://natesnewsletter.substack.com/...\n\nMy Substack covers:\n\u2705 A step-by-step guide to build your own token dashboard from scratch, with the prompt I used, and an instructional video.\n\u2705 A ready-made kit for your stack instead of a blank page, whether you live in Codex, Claude, ChatGPT, or all of them at once.\n\u2705 The line between assistant work and computer work, and why being stuck on the wrong side has nothing to do with the model.\n\u2705 A fifteen-minute weekly review that turns your best one-off runs into workflows you stop rebuilding.\n\u2705 Why ranking a team by token volume backfires, and the record that actually shows who can lead an AI rollout.\n___________________________________________\nWhat's really happening inside your own AI usage?\n\nThe common story is that burning more tokens is just waste \u2014 but the reality is more complicated.\n\nIn this video, I share the inside scoop on building a token burn dashboard:\n \u2022 Why token burn tracks with smarter AI results\n \u2022 How I built the whole thing in Codex\n \u2022 What multi-agent runs reveal about your real habits\n \u2022 Where to go next once you can see the data\n\nI burned roughly 800 million tokens in a single day, and the point was never the number. The point is the feedback loop. When you can see how your behavior shifts your token usage, you start to understand whether you're actually stretching your imagination with AI or coasting on the same few habits. I used an open-source Tufte visualization skill, a logarithmic scale, and plain-English intent to get there, no fancy prompt engineering required. The same approach works in Opus 4.8 if you live in Claude.\n\nFor operators and builders, this is the metering layer that turns vague AI enthusiasm into a signal you can measure, learn from, and improve before the gap between heavy and light users widens further.\n\nChapters:\n00:00 Why I built a token burn dashboard\n08:05 Tracking AI usage with Codex\n14:19 The value of learning from AI\n20:46 Making prompting and building fun\n\nSubscribe for daily AI strategy and news.\nFor deeper playbooks and analysis: https://natesnewsletter.substack.com/\n\nListen to this video as a podcast.\nSpotify: https://open.spotify.com/show/0gkFdjd...\nApple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/token-burn-dashboard?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=l8BloTSLK6M",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=l8BloTSLK6M&t=485s",
+        "text": "08:05"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=l8BloTSLK6M&t=859s",
+        "text": "14:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=l8BloTSLK6M&t=1246s",
+        "text": "20:46"
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  }
+]
