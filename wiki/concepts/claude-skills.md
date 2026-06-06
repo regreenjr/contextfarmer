@@ -2,9 +2,9 @@
 title: Claude Skills
 category: concept
 summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → beginner-tier explainer ([[tristen-obrien]] pizza-shop demo) → **cross-surface confirmation ([[kevin-stratvert]] / David DeWinter — same skill on Chat + Cowork + Claude Code; resolves the long-open "are skills Code-only?" question)**
-tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format, kevin-stratvert, chat-cowork-claude-code, cross-surface-skills, thread-reply-skill, david-dewinter, quickbooks, shared-folder-sharing, surface-portable, grill-me-skill, context-extraction, front-loading-context, feature-tier-list, skills-are-the-unlock, nate-herk]
-sources: 15
-updated: 2026-06-05
+tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-authoring-lessons, gotchas-section, description-field, progressive-disclosure, stop-railroading, nine-categories, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format, kevin-stratvert, chat-cowork-claude-code, cross-surface-skills, thread-reply-skill, david-dewinter, quickbooks, shared-folder-sharing, surface-portable, grill-me-skill, context-extraction, front-loading-context, feature-tier-list, skills-are-the-unlock, nate-herk, brock-mesarich]
+sources: 16
+updated: 2026-06-06
 ---
 
 # Claude Skills
@@ -269,6 +269,21 @@ Two [[nate-herk]] videos in [[youtube-digest-apify-2026-06-05]] reinforce Skills
 
 **#3 *I Tested Every Claude Code Feature, These 12 Are the Best* (40.3K views)** ranks every [[claude-code]] feature D→S tier from 500+ hours — and **#1 is Skills** (chapter 17:52). This is the **third independent "Skills are the unlock" confirmation** in the vault, joining [[brad-bonanno]]'s "the one feature that makes everything else dramatically better" and [[ben-ai]]'s 229K authoring video. From a creator who tested *every* feature, Skills top the list. → See [[claude-code]] for the full tier-list coverage.
 
+## First-party authoring playbook — Anthropic's *Lessons from building Claude Skills* ([[brock-mesarich]] in [[youtube-digest-apify-2026-06-06]])
+
+[[brock-mesarich]]'s 11.3K-view walkthrough surfaces Anthropic's official article **"Lessons from building Claude Skills"** (`claude.com/blog/lessons-from-...`) → new concept [[skill-authoring-lessons]] — the **first-party authoring discipline** for Skills, the "how to write one well" companion to Anthropic's 201K "what skills are" explainer.
+
+The high-signal points:
+
+- **9 categories of skills** — Anthropic's internal taxonomy of skill *kinds* (more granular than [[ben-ai]]'s "3 Types").
+- **The gotchas section is "the highest-signal part of any skill"** — edge cases + failure modes earn the skill's keep more than the happy path. The new canonical authoring rule: **failure modes first**.
+- **Write descriptions for the model, not humans** — the `description` field is the invocation lever, written for the model's firing decision. First-party confirmation of what [[chase-ai]] / [[skill-creator]] surfaced via description-field optimization.
+- **Progressive disclosure via the file system** — keep the body lean, load supplemental files (good-vs-avoid examples) only when needed. The filesystem *is* the context-management mechanism (this vault's `references/` / `.templates/`).
+- **Stop railroading Claude** — don't over-constrain a capable model; give it goal + guardrails, not a step-by-step script (the senior-partner-not-junior-teammate instinct at the skill layer).
+- **Start small, iterate** — anti-mega-skill discipline, from Anthropic directly (matches [[skill-systems]]).
+
+This **first-party-validates three patterns** the vault inferred from creators: description-field-as-invocation-lever, progressive-disclosure-via-files, and start-small-not-mega-skill. The explainer funnel now has an **authoring-discipline article at its first-party top**. → See [[skill-authoring-lessons]]. Updates: [[skill-creator]] (description-field + don't-railroad), [[anthropic]].
+
 ## Vertical-plugin product instantiation ([[claude-for-small-business]] in [[youtube-digest-apify-2026-05-22]])
 
 [[anthropic]] ships **the first vertical plugin** on 2026-05-21 — [[claude-for-small-business]] bundles ~30 pre-built skills + connectors + the `/smb-onboard` meta-skill. This is the **canonical "skills as packaged product" instantiation** — confirms the [[execution-layer]] / [[plugin-marketplace]] roadmap is shipping as **Anthropic-owned vertical plugins**, not just community marketplaces.
@@ -324,7 +339,8 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-06-05]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-06-05]], [[youtube-digest-apify-2026-06-06]]
+- [[skill-authoring-lessons]] — Anthropic's first-party authoring playbook; gotchas-section + description-for-the-model + progressive disclosure ([[brock-mesarich]] 2026-06-05)
 - [[grill-me-skill]] — context-extraction front-end; "the hardest part is getting it out of your head" ([[nate-herk]] 2026-06-04)
 - [[tristen-obrien]] — beginner-tier sub-7-min explainer + pizza-shop catering-quote demo + consumer-facing skill-provenance security
 - [[kevin-stratvert]] — cross-surface (Chat/Cowork/Code) tutorial + Thread Reply skill with test cases + synced-shared-folder team distribution

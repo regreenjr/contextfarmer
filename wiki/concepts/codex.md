@@ -2,9 +2,9 @@
 title: Codex (OpenAI Codex CLI)
 category: concept
 summary: OpenAI's coding-agent CLI; parallel substrate to Claude Code with overlapping primitives (Plan Mode, Skills, scheduled automations, browser-use); 2026-05-13 ships Codex free for 2 months as retention play after Anthropic adoption flip; **2026-05-18 [[nate-herk]] publishes the 3-layer cross-substrate mental model** — Claude Code's `CLAUDE.md` ↔ Codex's `AGENTS.md` (instructions), skills directory (same format), agents directory (mostly compatible) — confirming cross-substrate symmetry at the *project filesystem* level, not just per-primitive; the conversion-prompt for migrating an entire project from Claude Code → Codex (or vice-versa) is now published — extends the substrate-portability playbook + makes the [[free-sample-phase]] retention war exploitable as a defensive strategy; **in 2026-05-28 [[nate-herk]]'s 100-hour [[claude-code-vs-codex]] shootout** ships the first *performance* comparison (vs prior architectural-symmetry coverage) — report/landing-page/dashboard scored head-to-head, "Codex fights back" arc implies Codex overperformed Claude-default priors (verdict gated to transcript)
-tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability, claude-code-vs-codex, head-to-head, performance-shootout, 100-hours, report-showdown, dashboard-battle, pricing-pain, harness-over-model, codex-harness, routing-guide, nate-b-jones, gpt-5-5]
-sources: 5
-updated: 2026-06-05
+tags: [codex, openai, coding-agent, cli, claude-code, claude-skills, plan-mode, browser-use, cross-vendor, retention-promo, free-sample-phase, business-adoption, codex-enterprise, agents-md, cross-substrate-3-layer, instructions-layer, project-portability, claude-code-vs-codex, head-to-head, performance-shootout, 100-hours, report-showdown, dashboard-battle, pricing-pain, harness-over-model, codex-harness, routing-guide, nate-b-jones, gpt-5-5, token-burn-dashboard, 800-million-tokens, self-instrumentation, feedback-loop, tufte, multi-agent]
+sources: 6
+updated: 2026-06-06
 ---
 
 # Codex (OpenAI Codex CLI)
@@ -151,13 +151,26 @@ This reframes the prior [[claude-code-vs-codex]] performance shootout: it's not 
 - **Educational content angle** — Codex is currently underserved by the creator-economy compared to Claude Code; "Codex for AI consultants" content has runway if 3Ps wants the cross-vendor positioning.
 - **Watch for primitive drift** — when one substrate ships a primitive the other doesn't (memory, channels, etc.), that's where the vendor-tied lock-in returns.
 
+## Heavy-usage substrate — 800M tokens/day + the token-burn dashboard ([[nate-b-jones]] in [[youtube-digest-apify-2026-06-06]])
+
+[[nate-b-jones]]'s *My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.* (14.5K views) uses **Codex as the substrate for a heavy-usage self-instrumentation experiment** → new concept [[token-burn-dashboard]]. He burned **~800 million tokens in a single day** on Codex and **built the token-burn dashboard itself in Codex** — computer-work building the tool that measures computer-work.
+
+Two things this confirms about Codex specifically:
+
+1. **Codex sustains extreme token throughput** — an 800M-token day (log-scale charting required) is a datapoint on Codex's heavy-multi-agent-usage ceiling, relevant to the metered-API cost model (vs Claude's flat-fee) the [[claude-code-vs-codex]] "pricing pain" segment flagged.
+2. **The "Codex harness" thesis extends from quality to behavior** — where [[harness-over-model]] said *"the Codex harness outperformed raw model intelligence"* on output quality, the token-burn experiment says the harness also shapes *operator behavior* (multi-agent runs reveal real habits; assistant-work vs computer-work is a habit, not a model question). *"Being stuck on the wrong side has nothing to do with the model."*
+
+→ See [[token-burn-dashboard]].
+
 ## Used in
 
 - [[youtube-digest-apify-2026-05-06]] — primary source ([[nate-herk]] #2 *Master 97% of Codex in 1 Hour*)
 - [[youtube-digest-apify-2026-05-14]] — secondary source: 2-months-free retention promo following the Anthropic adoption flip ([[nate-herk]] #5)
 - [[youtube-digest-apify-2026-05-28]] — 100-hour Claude Code vs Codex performance shootout ([[nate-herk]] #5)
 - [[youtube-digest-apify-2026-06-05]] — "the Codex harness outperformed raw model intelligence" ([[nate-b-jones]] #1)
+- [[youtube-digest-apify-2026-06-06]] — 800M-token day + token-burn dashboard built in Codex ([[nate-b-jones]] #3)
 - [[harness-over-model]] — the Codex-harness-beat-the-score thesis + routing guide
+- [[token-burn-dashboard]] — 800M tokens/day on Codex; the dashboard was built in Codex
 - [[claude-code-vs-codex]] — the head-to-head comparison page (performance dimension)
 - [[nate-herk]] — primary educator in this vault for Codex
 - [[openai]] — Codex vendor; retention-promo signal

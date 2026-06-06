@@ -1,10 +1,10 @@
 ---
 title: Brock Mesarich
 category: entity
-summary: AI for Non Techies YouTuber; runs an $80K/month no-employee business on Claude Code skills; ships a free 15-skill plugin and a 50+ skill Skool community; mainstream-curator counterpart to Nate Herk's developer-leaning skill content
-tags: [creator, youtube, claude-code, claude-skills, ai-consulting, non-technical-audience, skool, plugin-distribution]
-sources: 1
-updated: 2026-05-04
+summary: AI for Non Techies YouTuber; runs an $80K/month no-employee business on Claude Code skills; ships a free 15-skill plugin and a 50+ skill Skool community; mainstream-curator counterpart to Nate Herk's developer-leaning skill content; in 2026-06-06 batch returns by **walking Anthropic's first-party *Lessons from building Claude Skills* article** for a general audience → new concept [[skill-authoring-lessons]] (9 categories of skills; the **gotchas section is "the highest-signal part of any skill"**; **write descriptions for the model not humans**; progressive disclosure via the file system; **stop railroading Claude**; distribute via `.claude/skills` + plugins; *start small, iterate*) — extends his curation role into **official-source interpretation** for non-technical viewers
+tags: [creator, youtube, claude-code, claude-skills, ai-consulting, non-technical-audience, skool, plugin-distribution, skill-authoring-lessons, gotchas-section, description-field, progressive-disclosure, stop-railroading, nine-categories, anthropic-article, official-source-explainer]
+sources: 2
+updated: 2026-06-06
 ---
 
 # Brock Mesarich
@@ -42,6 +42,14 @@ The **single-plugin-bundle distribution** is the structurally interesting move �
 
 The 15 specific skills aren't itemized in the digest description (they're chaptered but not titled). Worth pulling the full transcript into `raw/youtube/brock-mesarich/15-claude-cowork-skills.md` to extract the skill list and compare against [[nate-herk]]'s top-6 list and the [[brad-bonanno]] / [[grace-leung]] vertical libraries.
 
+## New in [[youtube-digest-apify-2026-06-06]] — Anthropic Skills-authoring article walkthrough
+
+- #1 *Anthropic Just Dropped Their Claude Skills Secrets (steal these)* — 11.3K views, 2026-06-05, 10:27
+  - Walks Anthropic's first-party article **"Lessons from building Claude Skills"** (`claude.com/blog/lessons-from-...`) → new concept [[skill-authoring-lessons]]
+  - High-signal points: **9 categories of skills**; **the gotchas section is "the highest-signal part of any skill"**; **write descriptions for the model, not humans** (the `description` field is the invocation lever); **progressive disclosure via the file system** (good-vs-avoid example files, e.g. the email-drafter example); **stop railroading Claude** (don't over-constrain a capable model); distribute via `.claude/skills` + plugins; main takeaway *start small, iterate*
+
+**Strategic significance**: this is a **format evolution** for Brock — from curating *which skills to install* to interpreting Anthropic's *how to author skills* article for a non-technical audience. Fitting that the vault's "non-techies" curator is the one to translate Anthropic's first-party authoring guidance for a general audience (his 11.3K-view reach vs the analysts' is the mainstream-floor barometer). The article **first-party-validates three vault-tracked patterns**: description-field-as-invocation-lever ([[chase-ai]]/[[skill-creator]]), progressive-disclosure-via-files (this vault's `references/`/`.templates/` architecture), and start-small-not-mega-skill ([[simon-scrapes]]' [[skill-systems]]). → New concept: [[skill-authoring-lessons]]. Updates: [[claude-skills]], [[skill-creator]], [[anthropic]].
+
 ## Distribution channels
 
 - YouTube (primary) — `Brock Mesarich | AI for Non Techies`
@@ -68,6 +76,8 @@ The 15 specific skills aren't itemized in the digest description (they're chapte
 ## Related pages
 
 - [[youtube-digest-apify-2026-05-04]] — primary citation
+- [[youtube-digest-apify-2026-06-06]] — Anthropic Skills-authoring article walkthrough (2026-06-05)
+- [[skill-authoring-lessons]] — new concept; Anthropic's first-party Skills authoring playbook (gotchas-section + description-for-the-model)
 - [[claude-skills]] — primary topic
 - [[claude-code]] — substrate
 - [[ai-consulting]] — solo-operator data point

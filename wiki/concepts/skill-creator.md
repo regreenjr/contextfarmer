@@ -2,9 +2,9 @@
 title: Skill Creator
 category: concept
 summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
-tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk]
-sources: 3
-updated: 2026-06-05
+tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk, skill-authoring-lessons, gotchas-section, stop-railroading, brock-mesarich]
+sources: 4
+updated: 2026-06-06
 ---
 
 # Skill Creator
@@ -136,6 +136,10 @@ Extraction up front (grill-me) and iteration after (Skill Creator / self-improvi
 - **The description field is a billable artifact** — description optimization is non-obvious; clients can't replicate it without the tool, which makes it a deliverable in its own right
 - **The two-types split is a scoping framework** — when scoping a client engagement, label proposed skills as capability-uplift or encoded-preference up front (this sets the eval target, acceptance criteria, and demo plan)
 
+## First-party confirmation — "write descriptions for the model" + "stop railroading" ([[skill-authoring-lessons]] 2026-06-06)
+
+Anthropic's *Lessons from building Claude Skills* article (surfaced via [[brock-mesarich]], → [[skill-authoring-lessons]]) **first-party-validates Skill Creator's core mechanic**: it names the **`description` field as the highest-leverage field, written for the model not humans** — exactly the field Skill Creator's automated **description-field optimization** tunes. The article's **"stop railroading Claude"** lesson is the authoring-time complement to Skill Creator's eval-time discipline: don't over-constrain a capable model with rigid scripts; let the eval loop confirm the looser skill still passes. The pairing is clean — [[skill-authoring-lessons]] is the **human-readable how-to-author** companion to Skill Creator's **mechanical how-to-evaluate**.
+
 ## Open questions
 
 - **External-tool dependencies** — Skill Creator's eval architecture is presumably designed for self-contained skills. How does it handle skills that depend on MCP tools, sub-agents, or [[printing-press]] CLIs? Test fixtures or stubs?
@@ -163,6 +167,7 @@ Extraction up front (grill-me) and iteration after (Skill Creator / self-improvi
 - [[skill-systems]] — composition layer that consumes Skill-Creator-passed skills
 - [[self-improving-skills]] — closed-loop optimization extension (Simon Scrapes 2026-05-23)
 - [[grill-me-skill]] — front-loading-context front-end (Nate Herk 2026-06-04); extract context before authoring
+- [[skill-authoring-lessons]] — Anthropic's first-party authoring playbook (2026-06-05); confirms description-for-the-model + don't-railroad
 - [[plugins]] — taxonomy parent
 - [[ai-consulting]] — practice that ships eval-backed skills as deliverables
 - [[youtube-digest-apify-2026-05-11]] — primary citation
