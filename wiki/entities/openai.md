@@ -237,6 +237,7 @@ In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 2
 - [[ads-digest-2026-05-06]] — first ad-creative observation
 - [[ads-digest-2026-05-11]] — third-batch catalog confirmation + new May 8 campaign cluster
 - [[youtube-digest-apify-2026-05-06]] — Codex educational entry
+- [[claude-mythos]] — "the OpenAI Factor": [[nate-herk]] argues OpenAI's next move matters more than the Anthropic Mythos hype (2026-06-06)
 
 ## Appears in
 

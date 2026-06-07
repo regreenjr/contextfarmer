@@ -62,6 +62,8 @@ Per [[nate-b-jones]] #12: **Mythos** is Anthropic's tool for AI code review at s
 
 Open: is Mythos a public-facing product, an internal Anthropic tool, or a third-party security firm name? The framing in #12 implies an Anthropic product, but worth verification.
 
+> **Update (2026-06-07):** [[nate-herk]]'s *Is Claude Mythos Coming?* ([[claude-mythos]], [[youtube-digest-apify-2026-06-07]]) is the vault's first dedicated Mythos coverage. A **Mythos identifier surfaced on Anthropic's API** on 2026-06-06, sparking launch-imminent hype. Nate's read leans toward **capability-folds-into-the-next-Opus**, *not* a standalone public product — which would make Mythos a **model feature** (Anthropic both writes and reviews its own code in one model) rather than a separate code-review product/surface. Partly resolves the product-status question below toward "model-feature," but unconfirmed. See [[claude-mythos]].
+
 **Strategic reading**: if Mythos becomes the canonical AI code reviewer, Anthropic captures another *infrastructure* layer (above the model, below the application) — same shape as their [[mcp]] play. Add to [[anthropic]] page open-questions.
 
 ## The golden refactor window
@@ -90,7 +92,7 @@ Per [[nate-b-jones]] #12: when AI writes implementation, **confidence becomes th
 
 ## Open questions
 
-- **Mythos product status** — Anthropic-internal? Public-facing? Pricing? Rollout scope?
+- **Mythos product status** — Anthropic-internal? Public-facing? Pricing? Rollout scope? *(Partly addressed 2026-06-07 — [[claude-mythos]] leans model-feature-folds-into-Opus, not standalone product; still unconfirmed.)*
 - **Mozilla disclosure detail** — are the 271 vulnerabilities published with severity breakdowns? Worth grepping advisories
 - **Comprehensibility metrics** — is there a measurable comprehensibility score, or is it still an art?
 - **Compliance integration** — will SOC2 / ISO 27001 / FedRAMP add AI-review requirements?
@@ -106,4 +108,5 @@ Per [[nate-b-jones]] #12: when AI writes implementation, **confidence becomes th
 - [[mozilla]] — reference customer / data point
 - [[anthropic]] — vendor of Mythos
 - [[ai-consulting]] — direct sales-conversation framework
+- [[claude-mythos]] — first dedicated Mythos coverage; partly resolves the product-status question (2026-06-07)
 - [[youtube-digest-apify-2026-05-10]] — primary citation
