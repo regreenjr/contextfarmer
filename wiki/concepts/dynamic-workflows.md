@@ -22,7 +22,7 @@ First covered in this vault via [[nate-herk]]'s *Claude Code Dynamic Workflows C
 | Rung | Primitive | What it adds | Token cost |
 |---|---|---|---|
 | 1 | **[[claude-skills]]** | Reusable procedural knowledge, one agent | Lowest |
-| 2 | **Subagents** | Delegated specialized agents | Low–moderate |
+| 2 | **[[claude-subagents|Subagents]]** | Delegated specialized agents (own context window) | Low–moderate |
 | 3 | **Agent teams** | Multiple coordinating agents | Moderate–high |
 | 4 | **Dynamic workflows** | Scripted, deterministic multi-agent orchestration (fan-out / pipeline / verify) | **Highest** |
 
@@ -89,6 +89,7 @@ This complements [[nate-herk]]'s how-to coverage (the primary citation below) wi
 - [[opus-4-8]] — the model generation that added them
 - [[harness-over-model]] — "/workflows reveals agent design"; the harness is the strategic primitive
 - [[claude-skills]] — rung 1 of the complexity ladder
+- [[claude-subagents]] — rung 2; the delegation unit workflows orchestrate ([[nate-herk]] gave it its own explainer 2026-06-09)
 - [[claude-code-levels]] — dynamic workflows sit above Level 5 (a plausible Level 6)
 - [[prompt-caching]], [[agent-metering]], [[free-sample-phase]] — the substrate-economics context for the token-cost warning
 - [[nate-herk]] — primary author; mainstream-news interpreter for Claude releases

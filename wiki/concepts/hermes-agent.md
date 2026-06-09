@@ -1,10 +1,10 @@
 ---
 title: Hermes Agent
 category: concept
-summary: VPS-deployed personal AI assistant with five pillars (skills, cron, Telegram, GitHub backup, multi-agent scaling); positioned as a parallel substrate to [[claude-code]] and [[openclaw]] for always-on second-brain / personal-assistant use cases; in 2026-05 reaches mainstream-creator awareness via [[nate-herk]] (1hr full course, 21K views) and [[corey-ganim]] (LLM-Wiki-on-Hermes walkthrough)
-tags: [hermes-agent, personal-ai, vps, hostinger, telegram, claude-code, openclaw, codex, second-brain, parallel-substrate]
-sources: 1
-updated: 2026-05-10
+summary: VPS-deployed personal AI assistant with five pillars (skills, cron, Telegram, GitHub backup, multi-agent scaling); positioned as a parallel substrate to [[claude-code]] and [[openclaw]] for always-on second-brain / personal-assistant use cases; in 2026-05 reaches mainstream-creator awareness via [[nate-herk]] (1hr full course, 21K views) and [[corey-ganim]] (LLM-Wiki-on-Hermes walkthrough); in 2026-06-08 [[jack-roberts]] uses Hermes as the **agentic-OS host** for a [[graphify]] knowledge-graph "brain" — one shared context substrate across Claude Code, laptop, and mobile
+tags: [hermes-agent, personal-ai, vps, hostinger, telegram, claude-code, openclaw, codex, second-brain, parallel-substrate, graphify, agentic-os, knowledge-graph, cross-device, shared-brain, jack-roberts]
+sources: 2
+updated: 2026-06-09
 ---
 
 # Hermes Agent
@@ -77,6 +77,14 @@ Two creators shipping Hermes content in the same week (one tier-1 at 708K subs, 
 
 Both videos route through **Hostinger affiliate codes** (NATEHERK, COREY10). Hostinger is positioning itself as the canonical VPS for AI-agent deployments — a clear creator-affiliate program targeting the [[hermes-agent]] / always-on-AI category. Worth tracking as the **infrastructure-side play** parallel to Anthropic's substrate-side play.
 
+## As an agentic-OS host for [[graphify]] ([[jack-roberts]] in [[youtube-digest-apify-2026-06-09]])
+
+[[jack-roberts]]' *Claude Code + Graphify = Insane Agentic OS* (23.4K views, 2026-06-08) uses Hermes as the **always-on host for a cross-device "agentic operating system."** The new ingredient is a [[graphify]] knowledge graph of a repo (so [[claude-code]] reads a *map* instead of re-skimming the whole repo every session — cheaper, fewer tokens); Hermes + a custom dashboard then serve that graph as **one shared brain across Claude Code, laptop, and mobile**, with the ability to **import any GitHub repo** into the graph.
+
+This sharpens Hermes's role in the vault: not just an always-on assistant, but the **multi-surface serving layer for a shared context substrate**. Where the Five Pillars described Hermes's *capabilities*, this shows Hermes as the *distribution topology* for a context brain — the cross-device realization of [[ai-operating-system]]'s "one source of truth," here a repo graph rather than a wiki. Also the first vault mention of **AntiGravity** (`antigravity.google/`), connected into the same dashboard.
+
+→ See [[graphify]] for the knowledge-graph layer. Open: whether the "agentic OS" is a Graphify product, a Hermes integration, or Jack's own assembled stack (origin unclear — same ambiguity Hermes itself carries).
+
 ## Why it matters for 3Ps
 
 1. **Track-but-don't-adopt by default** — for any 3Ps client doing local development with Claude Code, Hermes is interesting but not a forced migration. For clients wanting *team-shared always-on agents*, Hermes may be the right substrate.
@@ -104,4 +112,8 @@ Both videos route through **Hostinger affiliate codes** (NATEHERK, COREY10). Hos
 - [[claude-skills]] — pattern Hermes Skills likely adapt
 - [[nate-herk]] — primary creator (1hr course)
 - [[corey-ganim]] — secondary creator (LLM-Wiki implementation)
+- [[jack-roberts]] — Graphify-on-Hermes agentic-OS build (2026-06-08)
+- [[graphify]] — knowledge-graph context brain served via Hermes
+- [[claude-code]] — the agent querying the Graphify graph
 - [[youtube-digest-apify-2026-05-10]] — primary citation
+- [[youtube-digest-apify-2026-06-09]] — Graphify agentic-OS citation
