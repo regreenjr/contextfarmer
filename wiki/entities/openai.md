@@ -241,9 +241,15 @@ In Nate's [[agentic-implementation-layer]] framework (32.2K views, 2026-05-14, 2
 - [[ads-digest-2026-05-11]] — third-batch catalog confirmation + new May 8 campaign cluster
 - [[youtube-digest-apify-2026-05-06]] — Codex educational entry
 - [[claude-mythos]] — "the OpenAI Factor": [[nate-herk]] argues OpenAI's next move matters more than the Anthropic Mythos hype (2026-06-06)
+- [[claude-fable-5]] — the "5.6" rumors + Fable headlines frame the 2026-06-24 talent-war read
+
+## 2026-06-24 — the talent-war read (YouTube)
+
+[[nate-b-jones]]'s *Google Lost $2.7 Billion In Talent This Week* (49.0K views) reads the week as **OpenAI *looking* like the winner** — a **Shazeer/Noam-tier hire** and "5.6" rumors — while arguing the surface read is incomplete: **[[anthropic]] may quietly lead on pre-training cadence**, Nobel-tier talent movement signals recursive self-improvement, and the biggest story (Midjourney's medical-imaging breakthrough) is outside either lab. The operator lesson: *betting on one lab's headline week is fragile.* → [[anthropic]].
 
 ## Appears in
 
+- [[youtube-digest-apify-2026-06-24]] — the $2.7B talent-war read ([[nate-b-jones]]; Shazeer hire, 5.6 rumors, Anthropic pre-training)
 - [[sources/ads-digest-2026-05-06]] — 21 catalog ads, all dynamic-creative-only
 - [[sources/ads-digest-2026-05-10]] — 3 more catalog ads, same pattern (24 total tracked)
 - [[sources/ads-digest-2026-05-11]] — 3 more carousel ads from a new Apr 30 + May 8 campaign cluster — pattern triple-confirmed (27 total)

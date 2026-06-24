@@ -3,8 +3,8 @@ title: AI Consulting
 category: concept
 summary: Solo / boutique consulting practice using AI tooling to deliver in days what legacy firms deliver in months; positioned as 2026's "gold rush" wedge; Saraev's 4hr Claude Code course is the dominant educational on-ramp (1.56M views); architectural artifact for client deliverables is the Skill System (modular composition, not mega-skill); in 2026-05-12 [[mert-yerlikaya]] (Monk AI) surfaces the under-covered offer-language dimension; in 2026-05-14 [[nicole-mccain]] brings the wedge to the **lowest-floor audience tier** (pre-revenue beginners); in 2026-05-15 [[ramin-imani]] brings the wedge to the **highest-floor audience tier** (MBB-aspirants); in 2026-05-22 [[nate-herk]] fills the zero-to-first-customer wedge with [[ai-operating-system-offer]] (the AI Business Ladder 5 rungs + sell-hours-as-first-offer + AI OS deliverable + 7-step client acquisition + hours-to-projects upsell); direct competitive response to [[claude-for-small-business]] (personalization is the moat above the commodity vertical plugin); **in 2026-05-25 [[devin-kearns]] (Custom AI Studio CEO) ships the [[mid-market-ai-agency]] thesis via 1:44:03 long-form interview with [[nate-herk]]** — *"mid-market is the prime opportunity, not SMBs or enterprises"* + *"most AI work sold today won't survive 2027"* + 11 ways AI experts make money + "frameworks not vendor" positioning + three-tier market thesis (SMB <$5M / mid-market $5M-$250M / enterprise >$1B); **eleven voices now visible end-to-end across the wedge from MBB top-tier → mid-market agency-scale → mid-tier offer-language → zero-to-first-customer → pre-revenue beginner**; in 2026-05-28 a resurfaced 2024-06 [[mark-kashef]] video adds the **"five personas in AI adoption"** buyer-segmentation layer (Skeptic / Enthusiast / +3 gated) + a 650-discovery-calls credibility anchor; **in 2026-06-08 [[michael-saruggia]] brings the first GTM-engineering / Clay-ecosystem voice** (sell-side "TRUTH about selling AI consulting"; author of *The GTM Engineer*; 900+ students; advisor to Beamery/Vidyard/Procore/HeyReach) — widening the wedge past the Claude-Code-creator corner into the parallel outbound/RevOps services economy
 tags: [ai-consulting, consulting, gtm, solo-operator, 3ps, skill-systems, anticipation-gap, offer-framework, monk-ai, beginner, audience-tier, no-code, chatgpt, execution-layer, retrieval-contract, mbb, mckinsey, bcg, bain, deloitte, top-tier, survival-side, agentic-implementation-layer, four-axis-squeeze, ai-operating-system-offer, ai-business-ladder, sell-hours, zero-to-first-customer, hours-to-projects, personalization-moat, claude-for-small-business-counter, mid-market-ai-agency, devin-kearns, custom-ai-studio, three-tier-market, 100m-agency, 2027-commoditization, 11-ways-money, frameworks-not-vendor, agency-scale, five-personas, ai-adoption-personas, buyer-segmentation, prompt-advisers, 650-discovery-calls, michael-saruggia, gtm-engineering, clay, the-gtm-engineer, sell-side, outbound]
-sources: 13
-updated: 2026-06-09
+sources: 14
+updated: 2026-06-24
 ---
 
 # AI Consulting
@@ -301,6 +301,15 @@ Each phase has:
 
 This is the **first clean multi-phase consulting offer** the [[ai-consulting]] wedge has produced in this vault. Worth converting into a 3Ps marketing asset / service-menu doc.
 
+## The "tools mean nothing" roadmap (2026-06-24)
+
+[[nate-herk]]'s *So You Learned Claude, Now What?* (32.4K views) adds the **which-road-are-you-even-on** layer above the specific offers — → [[ai-consultant-roadmap]]. Thesis: **the path you pick (agency / own business / level-up-at-job) matters less than the judgment underneath, and tool-specific skills have an expiration date.** Its signature is the **"doctor or pharmacist?"** split — two roads into AI consulting:
+
+- **Doctor** — the diagnostician who decides *what's worth building* (judgment, problem-framing); the judgment-heavy **top of the value ladder** (six-figure seats)
+- **Pharmacist** — the dispenser who implements a *known* fix; the execution layer commoditizing downward toward [[claude-for-small-business]]
+
+This is the **skills-over-tools companion to [[portable-judgment]]** ([[nate-b-jones]]) — both anchor creators now argue *own the judgment, not the tool.* It sits as the on-ramp hub beneath the concrete offers: [[ai-operating-system-offer]] (sell-hours, zero-to-first-customer), [[chief-ai-officer]] (employee seat), [[mid-market-ai-agency]] (agency scale). 3Ps positioning: sell as the **doctor**, explicitly above the dispense layer.
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — 4 videos, all four frame
 - [[youtube-digest-2026-05-03-r3]] — Saraev's 5-pillar blueprint (#3)
@@ -316,6 +325,8 @@ This is the **first clean multi-phase consulting offer** the [[ai-consulting]] w
 - [[youtube-digest-apify-2026-06-09]] — **first GTM-engineering / Clay-ecosystem voice** [[michael-saruggia]] (*The TRUTH About Selling AI Consulting*; author of *The GTM Engineer*; sell-side; outbound/RevOps services economy adjacent to the Claude-Code-creator corner)
 - [[youtube-digest-apify-2026-05-30]] — **new revenue-claim voice** [[cobe-heydinger]] (resurfaced 2026-02-08 back-catalog; "$78,300/month, just copy me"; consulting model **transcript-gated**) + [[nate-b-jones]]'s [[software-abundance-pm]] adds a **governance-side audit** deliverable (production-class-ladder)
 - [[mark-kashef]], [[nick-saraev]], [[nate-herk]], [[brock-mesarich]], [[ben-ai]], [[dan-martell]], [[simon-scrapes]], [[mert-yerlikaya]], [[nicole-mccain]], [[ramin-imani]], [[devin-kearns]], [[cobe-heydinger]], [[michael-saruggia]] — operator entity pages
+- [[youtube-digest-apify-2026-06-24]] — **the which-road-are-you-on hub** via [[ai-consultant-roadmap]] ([[nate-herk]]; "tools mean nothing" / doctor-vs-pharmacist two roads / expiration date on tool skills)
+- [[ai-consultant-roadmap]] — the 2026-06-24 on-ramp framework
 - [[y-combinator]] — institutional counter-weight
 - [[gtm-2026]] — adjacent / overlapping (the GTM-engineer role IS the AI-consulting client persona)
 - [[voice-agents]] — net-new service line

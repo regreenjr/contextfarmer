@@ -3,8 +3,8 @@ title: Claude Code
 category: concept
 summary: Anthropic's CLI/agent tool; primary substrate for Skills, MCP, sub-agents, Routines, hooks, Channels, Scheduled Tasks, Auto Memory; in 2026-05 [[codex]] and [[hermes-agent]] confirmed as parallel substrates; SpaceX deal + retention boost = ~3x baseline rate limits; new primitives in 2026-05: Agent View + /goal command (multi-agent), Claude Agent SDK, Managed Agents & Hooks; **2026-05-19 [[andrej-karpathy]] joins [[anthropic]]** — LLM Wiki + autoresearch + /goal-loop primitives become first-party Anthropic architecture; **2026-05-21 Opus 4.7 + GPT 5.5 capability jump** makes prompt engineering "table stakes" per [[ai-question-method]]; **in 2026-05-23 batch the Opus-4.7 capability set extends further** via [[project-room-workflow]] (folder-tree-walking) + [[self-improving-skills]] (closed-loop optimization); **in 2026-05-25 batch the Emergence AI 15-day virtual town experiment surfaces a Claude-specific failure mode** — [[long-running-benchmarks]] ([[nate-b-jones]]' 19th framework) names *Claude voted yes on everything* as a "polite agreement" failure mode in trajectory-level eval (potentially RLHF-target artifact); **also 2026-05-25 [[tristen-obrien]]'s 5.3K sub-7-min explainer extends the beginner-tier creator funnel** below [[chase-ai]]/[[ben-ai]]/[[anthropic]]'s 100K+ tier — pizza-shop catering quote demo as canonical SMB-operator skill build; **in 2026-05-28 batch (1) [[document-truth-layer]] ([[nate-b-jones]]' 23rd framework) adds the Office-file-reliability discipline** (four-stage pipeline + hostile-reviewer pass for AI-built decks/models/Word docs) and **(2) [[nate-herk]]'s 100-hour [[claude-code-vs-codex]] shootout** ships the first substrate *performance* comparison (vs prior architectural-symmetry coverage), plus [[kevin-stratvert]] confirms skills run cross-surface (Chat + Cowork + Code); **in 2026-06-09 batch [[nate-herk]] unpacks [[claude-subagents]]** (rung 2 of the complexity ladder — cheap specialist delegates with their own context window, auto-invoked off descriptions, run read-only / on a cheaper model to save money) + resurfaces his **712.5K-view 10-hour Build & Sell course** (highest-view Claude Code video in the vault), and **[[jack-roberts]] surfaces [[graphify]]** (a repo knowledge graph so Claude reads the map not the whole repo each session — cheaper/faster/fewer tokens)
 tags: [claude-code, anthropic, agentic, cli, claude-skills, mcp, routines, telegram, scheduled-tasks, auto-memory, voice-agents, antigravity, codex, hermes-agent, printing-press, plugins, cross-vendor, skill-creator, agent-security, agent-view, goal-command, multi-agent, claude-code-levels, execution-layer, free-sample-phase, business-adoption, rate-limits, deployment-framework, claude-agent-sdk, managed-agents, hooks, modal, trigger-dev, karpathy-anthropic, opus-4.7, ai-question-method, claude-for-small-business, prompt-caching, data-moat, context-marketplace, three-time-scales, project-room-workflow, self-improving-skills, files-as-canvas, folder-tree-walking, binary-criteria, sullivan-cromwell, autoresearch-lineage, long-running-benchmarks, claude-town, polite-agreement, emergence-ai, harness-thesis, tristen-obrien, beginner-tier-explainer, pizza-shop-demo, document-truth-layer, hostile-reviewer, office-files, claude-code-vs-codex, head-to-head, performance-shootout, cross-surface-skills, kevin-stratvert, dynamic-workflows, complexity-ladder, goal-vs-workflow, depth-vs-width, ultracode, deep-research, orchestration, grill-me-skill, context-extraction, feature-tier-list, skills-are-the-unlock, harness-over-model, workflows-command, claude-subagents, subagents, progressive-disclosure, read-only, cheaper-model, graphify, knowledge-graph, token-savings, build-and-sell-course]
-sources: 18
-updated: 2026-06-09
+sources: 19
+updated: 2026-06-24
 ---
 
 # Claude Code
@@ -175,6 +175,19 @@ updated: 2026-06-09
 
 Both the subagents cost-levers and Graphify's token savings thicken the vault's **token-economics** cluster ([[prompt-caching]] + [[dynamic-workflows]] token warning + [[agent-metering]]) — the 2026 operator consensus that the binding constraint is context/tokens, not raw model intelligence ([[harness-over-model]]).
 
+## Patterns added in [[youtube-digest-apify-2026-06-24]]
+
+The 14-video batch reframes the substrate around **the harness, not the model** — and around running cheaper/open models behind it:
+
+- **Bring-your-own-model: GLM 5.2 in the harness** ([[nate-herk]] #9, **132.7K — top-view in the batch**) — a **756B open model (Z.ai) routed into Claude Code ~5× cheaper than [[opus-4-8|Opus]]** via a per-project `.claude/settings.local.json` env swap. The harness is the durable asset; the model behind it is a hot-swappable commodity. The cleanest concrete proof of [[harness-over-model]]. → New concept: [[glm]].
+- **Agent loops as the base control structure** ([[nate-herk]] #2, 83.8K) — reason→act→observe→repeat, where **the verification step + a checkable "done" matter more than the architecture.** Rung-zero beneath subagents/teams/workflows. → New concept: [[agent-loops]].
+- **Directing agents (harness engineering)** ([[nate-herk]] #1, 39.7K, w/ Cole) — plan-and-verify, "make the agent prove its work," the **"dumb zone,"** session chaining, "every bug a permanent upgrade." The agentic-engineering discipline over [[vibe-coding]]. → New concept: [[directing-agents]].
+- **Auto-routing vs operator-controlled delegation** ([[nate-herk]] #13, 74.8K) — Sakana's [[sakana-fugu|Fugu Ultra]] auto-routes across frontier models, but a single strong model in a good harness still won his 38-task test. The orchestration spectrum vs [[claude-subagents]]. → New concept: [[sakana-fugu]].
+- **VS Code as the AIOS shell** ([[brad-bonanno]] #10, 13.0K) — quits the Claude desktop app to run Claude + [[codex]] in the VS Code side panel with live file co-editing "without burning tokens on tiny changes." → See [[ai-operating-system]].
+- **Cross-vendor skill portability gap** ([[nate-b-jones]] #7, 24.8K) — skills don't travel between Claude Code, Codex, and Cursor → [[open-skills]] (procedural debt; own portable procedures).
+
+The batch's throughline — **the harness/workflow is the leverage, the model is swappable** — is now shared by both anchor creators (Herk's GLM/Fugu/directing-agents converging on Jones's [[harness-over-model]]). It also deepens the **token-economics** cluster ([[glm]] cheaper model + VS-Code-no-token-burn + [[prompt-caching]] + [[claude-subagents]]).
+
 ## Why it matters for 3Ps
 
 Claude Code is the substrate for the entire 3Ps consulting offering. The wiki itself runs on Claude Code (Skills, sub-agents, slash commands, Routines). Tracking ecosystem shifts here = direct input to:
@@ -201,7 +214,10 @@ Claude Code is the substrate for the entire 3Ps consulting offering. The wiki it
 - [[context-farming]] — automation pattern
 - [[claude-design]] — sibling Anthropic product
 - [[anthropic]] — vendor
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-28]] — primary source digests
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-06-09]], [[youtube-digest-apify-2026-06-24]] — primary source digests
+- [[glm]] — bring-your-own open model routed into the harness ~5× cheaper than Opus (2026-06-24)
+- [[harness-over-model]] — the batch's throughline: harness > model intelligence
+- [[agent-loops]], [[directing-agents]], [[sakana-fugu]] — 2026-06-24 substrate-practice concepts
 - [[hermes-agent]] — sibling parallel substrate (VPS-deployed, always-on)
 - [[printing-press]] — CLI alternative tooling for token-cost optimization
 - [[plugins]] — taxonomy layer above Skills

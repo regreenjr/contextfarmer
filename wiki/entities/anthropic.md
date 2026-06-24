@@ -296,8 +296,15 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - 2025-11-26: *Claude Agent Skills Explained* (201K views) — canonical 3-minute explainer for Skills vs CLAUDE.md vs MCP vs sub-agents
 - (Anthropic's official YouTube cadence appears low; high impact when they post)
 
+## 2026-06-24 — Fable 5 + the talent-war read (YouTube)
+
+- **Ships [[claude-fable-5|Fable 5]]** — *"the biggest model in the world"* (the rung above [[opus-4-8]]), read by [[nate-b-jones]] (*The Doing Got Cheap*, 30.4K) not as a benchmark story but as a **task-imagination shift** (the bottleneck moves to *what you can imagine handing the model*). Sakana's [[sakana-fugu|Fugu Ultra]] marketed itself as a "Fable killer" the same week ([[nate-herk]]'s 38-task test found it's an auto-router, not a Fable-class model). → [[claude-fable-5]], [[sakana-fugu]].
+- **The $2.7B talent-war read** ([[nate-b-jones]] #4, 49.0K) — OpenAI *looks* like it won the week (a **Shazeer/Noam-tier hire**, "5.6" rumors), but Jones argues **Anthropic may quietly lead on pre-training cadence**, and the biggest story (Midjourney's medical-imaging breakthrough) sits outside both labs. → [[openai]].
+
 ## Related
 - [[claude-code]], [[claude-skills]], [[mcp]], [[claude-design]] — products
+- [[claude-fable-5]] — newest frontier model ("the doing got cheap"); 2026-06-23
+- [[opus-4-8]] — the prior rung; [[claude-mythos]] — sibling post-4.8 frontier name
 - [[andrej-karpathy]] — **joined Anthropic in 2026-05-19** (per [[nate-herk]] 105K-view coverage); his frameworks (LLM Wiki, agentic engineering, autoresearch, `/goal` loops) now becoming first-party Anthropic primitives
 - [[claude-for-small-business]] — first vertical plugin (launched 2026-05-21)
 - [[agent-substrate]] — the strategic frame that explains the Atlassian rumor
@@ -307,6 +314,7 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - [[openai]] — direct competitor; lost business-adoption lead on 2026-05-13; same axis-1 deployment-company move
 
 ## Appears in
+- [[youtube-digest-apify-2026-06-24]] — Fable 5 (*The Doing Got Cheap*) + the $2.7B talent-war read ([[nate-b-jones]])
 - [[youtube-digest-apify-2026-05-03]] — official Skills explainer + 4 derivative analyst videos
 - [[ads-digest-2026-05-06]] — 5 catalog-driven carousel ads (no static narrative)
 - [[youtube-digest-apify-2026-05-10]] — SpaceX deal coverage, Mythos surface entry, 13-product tour

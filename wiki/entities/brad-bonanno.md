@@ -3,8 +3,8 @@ title: Brad Bonanno
 category: entity
 summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour; in 2026-05-14 ships [[execution-layer]] (Phase 3); **in 2026-05-21 ships Phase 4** — first-creator-walkthrough coverage of [[anthropic]]'s newly-launched [[claude-for-small-business]] vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); his four-video trajectory sequence: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3) → **Anthropic-shipped vertical plugin coverage (Phase 4)**; CFSB likely preempts his own skills-marketplace roadmap but he covers it favorably — Brad continues to be the canonical creator-side commentator on Anthropic product launches
 tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors, content-ideas-skill, creator-growth, outlier-rating, comment-mining, anti-cannibalization, scrape-creators, for-you-page]
-sources: 6
-updated: 2026-06-03
+sources: 7
+updated: 2026-06-24
 ---
 
 # Brad Bonanno
@@ -113,6 +113,16 @@ Data via **Scrape Creators** (`scrapecreators.com`); funnel to AI Strategy Call 
 3. **Self-improvement via encoded preference** — auto-memory thumbs-tuning is the *subjective-taste* cousin of [[self-improving-skills]]' *objective* binary-criteria loop.
 4. **Outlier rating is a portable primitive** — "beat the creator's own average" is a cleaner content-selection signal than absolute views; worth porting into the vault's YouTube farmer.
 
+## Key videos in [[youtube-digest-apify-2026-06-24]]
+
+**Two videos — both [[ai-operating-system]] coverage from his operator-not-coder angle:**
+
+- #8 *Claude Code RUNS My Business (13 WORKFLOWS)* — 1,551 views, 2026-06-22, 13:53. He runs his **entire business out of [[claude-code]]** across **13 workflows** spanning the full funnel — *"finding customers, marketing to them, closing them, delivering the work that gets them to stay, and the leverage layer that underpins all of it."* The pitch: *"a whole team's worth of work without hiring anyone."* Free guide with the exact build steps (`brad-b.kit.com`). The **breadth-tour of his own AIOS** — the operator's-eye companion to [[nate-herk]]'s framework-driven [[ai-operating-system]] (Four C's) and the execution-layer payoff of his own Phases 1-4. The 13 named workflows are gated to the guide.
+
+- #10 *The AI Setup I Use to Run EVERYTHING (in one app)* — 13,018 views, 2026-06-12, 7:28. *"I love Claude, but the desktop app is slow, throws errors, locks you in a sandbox, and won't even let you edit the files you're working on. I haven't opened it in months."* He runs his whole workday out of **VS Code** with three pieces: **Claude + Codex in the side panel** (the extension, not terminal or chat — clean UI, multiple sessions, model switching, long-running tasks), the **working file open in the middle for live co-editing** *"without burning tokens on tiny changes,"* and his **whole OS folder on the left** (content, research, sales, custom skills, the rules that tell it who you are). PDFs/Word/Excel/PPTX/images/markdown render natively. **The VS-Code-as-AIOS-shell pattern** — a concrete editor-choice for the [[ai-operating-system]] he and [[nate-herk]] both teach, and a notable break from the Claude desktop app.
+
+**Strategic significance**: both videos are **execution-layer-in-practice** — not new architecture, but Brad showing his own working AIOS (13 funnel workflows + the VS Code shell that hosts them). #10's "I quit the Claude desktop app" stance is a pointed product critique and the clearest editor-substrate recommendation in the vault's AIOS coverage; #8's funnel-complete workflow set is the breadth-tour to [[nate-herk]]'s framework depth-tour. → Updates: [[ai-operating-system]] (13-workflow breadth + VS Code shell), [[claude-code]], [[codex]].
+
 ## The four-phase product trajectory
 
 | Phase | Video | Concept | Vault implementation |
@@ -166,6 +176,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[youtube-digest-apify-2026-05-14]] — video #1 (Execution Layer — Phase 3)
 - [[youtube-digest-apify-2026-05-22]] — video #7 (*Why You Need Claude for Small Business* — Phase 4)
 - [[youtube-digest-apify-2026-06-03]] — video #1 (*I Hit 10k Subs in 3 Months* — `/content-ideas` skill, creator-growth axis)
+- [[youtube-digest-apify-2026-06-24]] — videos #8 (*Claude Code RUNS My Business — 13 WORKFLOWS*) + #10 (*The AI Setup I Use to Run EVERYTHING* — VS Code as AIOS shell)
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
 - [[anthropic]] — most comprehensive product-surface tour

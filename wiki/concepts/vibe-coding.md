@@ -2,9 +2,9 @@
 title: Vibe Coding
 category: concept
 summary: Karpathy's term for casual, prompt-driven code generation; in 2026 he reframes it as the on-ramp to the more serious "agentic engineering" discipline
-tags: [vibe-coding, andrej-karpathy, agentic-engineering, software-3-0, claude-code]
-sources: 1
-updated: 2026-05-03
+tags: [vibe-coding, andrej-karpathy, agentic-engineering, software-3-0, claude-code, directing-agents, nate-herk]
+sources: 2
+updated: 2026-06-24
 ---
 
 # Vibe Coding
@@ -46,8 +46,14 @@ In 2026, Karpathy himself reframed the term: vibe coding was the **on-ramp**; **
 - **Skill positioning** — 3Ps skill library should be marketed as "agentic engineering primitives," not "vibe coding shortcuts"
 - **Karpathy reference is high-status** — citing his 2026 Sequoia talk in any client deck adds credibility cheaply
 
+## Operator instantiation (2026-06-24)
+
+[[nate-herk]]'s *How to Build Effective Claude Code Agents in 2026* (39.7K views, w/ Cole) gives the vibe→agentic transition a concrete operator playbook — **[[directing-agents]]**. Its load-bearing chapter is literally *"Stop Vibe Coding, Start Directing"*: plan more than you build, **make the agent prove its work**, route around the **"dumb zone,"** chain sessions, and treat the system as **harness engineering**. It's the clearest creator-side demonstration of Karpathy's "vibe coding was the on-ramp; agentic engineering is the discipline" reframe — and it lands on the same conclusion as [[harness-over-model]] (the system around the model is the leverage). → See [[directing-agents]].
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — primary citation (Sequoia #13)
+- [[youtube-digest-apify-2026-06-24]] — [[directing-agents]] (Nate Herk + Cole; the operator-grade vibe→agentic playbook)
 - [[andrej-karpathy]] — author
 - [[agentic-engineering]] — successor concept (page TBD)
+- [[directing-agents]] — the 2026-06-24 operator instantiation of the maturation arc
 - [[claude-code]] — primary substrate where both vibe and agentic engineering happen

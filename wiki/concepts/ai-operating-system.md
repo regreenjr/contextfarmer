@@ -2,9 +2,9 @@
 title: AI Operating System (AIOS — Build Side)
 category: concept
 summary: [[nate-herk]]'s personal-AIOS **build framework** — the operator-side companion to his [[ai-operating-system-offer]] (the *sell-hours* offer). An AIOS is an [[opus-4-8]]/[[claude-code]]-centered system that "runs your businesses, holds all your context, and replaces tab-switching between apps"; you **work out of Claude Code by default**. Designed via the **Four C's** (*context, connections, capabilities, cadence*) with *"context is king"* as the thesis; built on **one source of truth** ([[karpathy-llm-wiki]]-style canonical context, not scattered apps); agents get autonomy gradually via the **bike method** (training wheels → more autonomy, so you don't crash when you hand it "real keys"); the system acts as a **mentor**, not just a doer; a custom **dashboard is usually unnecessary** (files + skills + Claude Code is enough). Surfaced 2026-05-29 (*I Turned Claude Opus 4.8 Into My Entire AI Operating System*, 54.2K views) — the **build** half of the AIOS pair whose **sell** half is [[ai-operating-system-offer]]
-tags: [ai-operating-system, aios, four-cs, context-connections-capabilities-cadence, bike-method, one-source-of-truth, context-is-king, aios-as-mentor, dashboard, nate-herk, claude-code, opus-4-8, agent-autonomy, operator-side, context-king]
-sources: 1
-updated: 2026-05-30
+tags: [ai-operating-system, aios, four-cs, context-connections-capabilities-cadence, bike-method, one-source-of-truth, context-is-king, aios-as-mentor, dashboard, nate-herk, claude-code, opus-4-8, agent-autonomy, operator-side, context-king, brad-bonanno, 13-workflows, vs-code-shell, funnel-workflows]
+sources: 2
+updated: 2026-06-24
 ---
 
 # AI Operating System (AIOS — Build Side)
@@ -74,6 +74,15 @@ Shipped one week apart by the same creator — the **reference implementation** 
 2. **The bike method is a client-onboarding artifact** — a plain-language way to scope agent autonomy per workflow without the procurement vocabulary of [[agent-security]]. Pairs with [[anticipation-gap]]'s permission ladder as the "how much rope do we give it" intake question.
 3. **"Work out of Claude Code by default"** is the strongest statement yet of the [[claude-code]]-as-primary-surface thesis this vault tracks across [[nate-herk]]'s content.
 
+## Brad Bonanno's operator instantiation (2026-06-24)
+
+Where [[nate-herk]] frames the AIOS via the **Four C's** (architecture), [[brad-bonanno]] shows a **running one** from the operator-not-coder angle in the [[youtube-digest-apify-2026-06-24]] batch:
+
+- **The 13-workflow breadth-tour** (*Claude Code RUNS My Business — 13 WORKFLOWS*, 1.6K views) — his whole business out of [[claude-code]] across **13 funnel workflows**: find customers → market → close → deliver → the **leverage layer underneath**. *"A whole team's worth of work without hiring anyone."* This is the **funnel-complete capabilities map** of an AIOS — the breadth-tour to Nate's framework depth-tour. (The 13 named workflows are gated to his free guide.)
+- **The VS-Code-as-AIOS-shell** (*The AI Setup I Use to Run EVERYTHING*, 13.0K views) — Brad **quit the Claude desktop app** ("slow, throws errors, sandboxed, won't let you edit your files") and runs everything from **VS Code**: Claude + [[codex]] in the side panel (extension, not terminal/chat), the working file open for **live co-editing without burning tokens on tiny changes**, and the whole OS folder (content/research/sales/skills/rules) on the left. The clearest **editor-substrate recommendation** in the vault's AIOS coverage — a concrete answer to "what shell hosts the AIOS," where Nate's "dashboard usually unnecessary" left the host implicit.
+
+Together they confirm the AIOS as a **cross-creator pattern**: same primitive (Claude-centered, one-source-of-truth, work-out-of-Claude-Code-by-default), two emphases — Nate's design framework, Brad's running funnel + editor shell.
+
 ## Open questions
 
 - **What's the full Three Ms framework?** (Still course-gated; the Four C's are now public but the Three Ms aren't.)
@@ -83,7 +92,8 @@ Shipped one week apart by the same creator — the **reference implementation** 
 
 ## Related pages
 
-- [[nate-herk]] — creator
+- [[nate-herk]] — creator (Four C's build framework)
+- [[brad-bonanno]] — operator instantiation: 13 funnel workflows + VS-Code-as-AIOS-shell (2026-06-24)
 - [[ai-operating-system-offer]] — the sell-side sibling (this is the build side)
 - [[claude-code]] — the substrate ("work out of Claude Code by default")
 - [[opus-4-8]] — the model the AIOS runs on
@@ -93,3 +103,4 @@ Shipped one week apart by the same creator — the **reference implementation** 
 - [[claude-code-levels]] — Nate Herk's mastery-progression framework; AIOS is the Level-5 "system that runs itself" endpoint
 - [[context-farming]] — the cadence/connections engine in vault terms
 - [[youtube-digest-apify-2026-05-30]] — citation
+- [[youtube-digest-apify-2026-06-24]] — Brad Bonanno's 13-workflow + VS-Code-shell instantiation

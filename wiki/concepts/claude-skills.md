@@ -3,8 +3,8 @@ title: Claude Skills
 category: concept
 summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard`) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → beginner-tier explainer ([[tristen-obrien]] pizza-shop demo) → **cross-surface confirmation ([[kevin-stratvert]] / David DeWinter — same skill on Chat + Cowork + Claude Code; resolves the long-open "are skills Code-only?" question)**
 tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-authoring-lessons, gotchas-section, description-field, progressive-disclosure, stop-railroading, nine-categories, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format, kevin-stratvert, chat-cowork-claude-code, cross-surface-skills, thread-reply-skill, david-dewinter, quickbooks, shared-folder-sharing, surface-portable, grill-me-skill, context-extraction, front-loading-context, feature-tier-list, skills-are-the-unlock, nate-herk, brock-mesarich]
-sources: 16
-updated: 2026-06-06
+sources: 17
+updated: 2026-06-24
 ---
 
 # Claude Skills
@@ -312,6 +312,13 @@ npx get-shit-done-cc --claude --global
 - **Design** ([[claude-design]] integration via skills)
 - **Development** ([[code-with-beto]]'s AI Tattoo App, $100 MRR demo)
 
+## The cross-vendor portability gap + the consumer surface (2026-06-24)
+
+Two [[youtube-digest-apify-2026-06-24]] videos push the Skills story in opposite directions — toward a portability *problem* and toward a wider *surface*:
+
+- **[[open-skills]] ([[nate-b-jones]], his 30th framework, 24.8K views)** names the gap prior coverage hadn't: **Anthropic shipped *surface* portability (Chat/Cowork/Code, per [[kevin-stratvert]]) but skills still don't travel across *vendors*** — Claude Code, [[codex]], and Cursor each trap their own. Jones reframes scattered per-tool prompts as **procedural debt** and argues a **real skill ≠ a clever prompt** (it *verifies* and *composes* — "skills as primitives, runbooks as compositions"). His **Open Skills** project proposes a neutral, portable format. The cross-vendor sharpening of [[nate-herk]]'s `CLAUDE.md`↔`AGENTS.md` 3-layer model: instructions are symmetric; the *skill* layer is where portability breaks. → [[open-skills]].
+- **[[justyn-the-ai-guy]] (*How To Install Skills On Claude Desktop*, 99.1K back-catalog views)** confirms Skills have fully crossed onto the **consumer Claude Desktop surface** — *"Skills are a super power, but they're not just for Claude Code users"* — and surfaces the **skills.sh** community directory. A mainstream-tier datapoint that Skills are now non-developer territory.
+
 ## Why it matters for 3Ps
 
 Skills are the canonical artifact for packaging consulting expertise:
@@ -334,6 +341,8 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[claude-code]] — substrate
 - [[codex]] — sibling substrate; Skills now cross-vendor
 - [[skill-systems]] — composition layer; the missing rung between authoring and curation
+- [[open-skills]] — cross-vendor portability framework; skills don't travel between Claude Code/Codex/Cursor; procedural debt; own portable procedures ([[nate-b-jones]] 2026-06-19)
+- [[justyn-the-ai-guy]] — consumer Claude Desktop Skills install tutorial + skills.sh directory (99K back-catalog, 2026-06-24)
 - [[mcp]] — sibling primitive; see [[agent-skills-vs-mcp]] (planned comparison)
 - [[voice-agents]] — newest application surface; voice-agent skill bundles likely next
 - [[anthropic]] — vendor
