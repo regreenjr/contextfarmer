@@ -40,6 +40,7 @@ The three demos are deliberately non-coding-flavored (thumbnail scoring is a tas
 
 - **The mainstream restatement of [[self-improving-skills]]** — [[simon-scrapes]]' autonomous overnight loop (binary criteria + convergence) is the same primitive at skill-authoring scale; Nate strips it to its core cycle for a general audience. Both descend from Karpathy's `autoresearch` lineage (see [[karpathy-llm-wiki]]).
 - **The runtime cousin of [[harness-over-model]]** — [[nate-b-jones]] argues the harness, not the model, does the heavy lifting; the verification-as-the-real-work claim is the same instinct at the loop level.
+- **The other half of [[loop-of-loops]]** — [[nate-b-jones]]' same-week framing names *which* recurring jobs to hand to a loop and *where each stops for you*; Nate Herk names *how* a single loop runs (reason→act→observe→repeat). Herk = the control structure; Jones = the portfolio of loops + their stop conditions.
 - **Rung-zero of [[dynamic-workflows]]** — below subagents, teams, and scripted workflows sits the single loop. His own complexity ladder ([[claude-subagents]] → [[dynamic-workflows]]) builds up from exactly this.
 - **The "done" criteria echoes [[ai-question-method]]'s "ask what good looks like"** — success criteria specified before generation, here specified so the *agent* (not the human) can check them.
 - **Same-batch sibling to [[directing-agents]]** — Nate's other 06-24 video ("make the agent prove its work") is the human-direction side of the same verification discipline.
@@ -62,6 +63,7 @@ The three demos are deliberately non-coding-flavored (thumbnail scoring is a tas
 
 ## Related
 
+- [[loop-of-loops]] — [[nate-b-jones]]' demand-side framing: which recurring jobs to loop + where each stops for you
 - [[self-improving-skills]] — the skill-authoring-scale version of the same loop
 - [[harness-over-model]] — verification/harness > model intelligence
 - [[dynamic-workflows]] — the complexity ladder this sits beneath

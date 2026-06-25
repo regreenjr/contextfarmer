@@ -71,5 +71,6 @@ The closing claim (chapter 12:55): **maintenance is the 2026 skill.** *"The team
 - [[anticipation-gap]] — permission ladder; boundaries = autonomy rungs
 - [[creator-trust-stack]] — same-week "keep a real person accountable" sibling
 - [[open-skills]] — same-batch ownership framing (own the procedure)
+- [[loop-of-loops]] — next-week sibling; "agents are loop managers" (what the owned agent does)
 - [[infrastructure-control-layer]] — kill switch; technical accountability surface
 - [[software-abundance-pm]], [[ai-layoffs]] — the labor-market context for "maintenance is the 2026 skill"

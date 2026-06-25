@@ -87,3 +87,4 @@ This explains why [[claude-code]] and [[codex]] are mature products while consum
 - [[agent-substrate]] — adjacent thesis (enterprise substrates partially solve the gap consumer agents face)
 - [[ai-consulting]] — the gap is the consultant's wedge
 - [[claude-code]], [[codex]] — coding agents are the existing-proof case
+- [[loop-of-loops]] — his 2026-06-24 framework; "where a loop should stop and ask for you" applies the permission ladder to recurring jobs
