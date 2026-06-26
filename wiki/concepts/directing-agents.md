@@ -3,8 +3,8 @@ title: Directing Agents (Stop Vibe Coding, Start Directing)
 category: concept
 summary: [[nate-herk]] + Cole's hour-long deep dive (*How to Build Effective Claude Code Agents in 2026*, 39.7K views, 2026-06-18) on **directing coding agents instead of prompting-and-praying** — the **planning + verification system** that separates real results from [[vibe-coding]]; *"make the agent prove its work"*; **you plan more than you build**; **the "dumb zone"** every model has where it starts missing obvious things; **chaining multiple agent sessions** so one big task doesn't fall apart halfway; treating **every bug as a permanent upgrade**; **harness engineering** as the frame — *"whether or not you write code, the mindset applies directly to using AI for real work"*; the agentic-engineering successor to [[vibe-coding]] and the human-direction side of [[agent-loops]]' verification thesis
 tags: [directing-agents, nate-herk, cole, vibe-coding, agentic-engineering, planning, verification, prove-its-work, dumb-zone, session-chaining, harness-engineering, claude-code, agent-loops, claude-subagents, harness-over-model, execution-layer, bug-as-upgrade]
-sources: 1
-updated: 2026-06-24
+sources: 2
+updated: 2026-06-26
 ---
 
 # Directing Agents
@@ -26,6 +26,8 @@ The pivot from [[vibe-coding]] (accept/reject suggestions, hope it works) to **d
 ### Make the agent prove its work (13:17)
 
 The verification half: don't trust output, **require evidence.** The human-direction counterpart to [[agent-loops]]' claim that the verification step (a checkable "done") is what makes a loop converge.
+
+> **New datapoint (2026-06-25):** Nate's *I asked Claude Code to make me as much money as possible* re-instances this discipline almost verbatim — **When Claude Lies → Build, Then Verify → Try Breaking It**. The framing: the model claims a thing is *"finished"* when it merely *runs*, so the operator must **build → verify → adversarially try to break it**. Same "prove its work" posture, now paired with a *pre-build* validation gate (the [[agent-council]]) so judgment is applied at both ends of the loop. → See [[agent-council]].
 
 ### You plan more than you build (19:46)
 
@@ -71,6 +73,7 @@ Cole's security mindset, and the principle that **every bug fixed becomes a perm
 
 - [[vibe-coding]] — the predecessor mode this matures past
 - [[agent-loops]] — same-batch sibling; the loop mechanism behind "prove its work"
+- [[agent-council]] — the validation-side, pre-build complement (Will Anyone Buy? / Reshape Or Kill?)
 - [[harness-over-model]] — "harness engineering" + the dumb zone land here
 - [[claude-subagents]], [[dynamic-workflows]] — session chaining / context management
 - [[execution-layer]] — "every bug a permanent upgrade" = the PR-back loop at team scale

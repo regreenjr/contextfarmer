@@ -3,8 +3,8 @@ title: Claude Opus 4.8
 category: concept
 summary: [[anthropic]]'s frontier model released ~2026-05-28, covered in this vault via [[nate-herk]]'s *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views — his highest-view video in the 2026-05-29 batch). The video's thesis: **the benchmarks are "nuts" but the numbers only tell part of the story — don't run 4.8 the way you ran [[opus-4-7]]**. Named upgrades: **effort levels and workflows** (slotting the model into different work shapes), a **"honesty upgrade"** (the model is more candid about uncertainty / what it can't do), and fixes for specific **4.7 pain points**. The first dedicated Claude-model page in the vault; the practical-adoption counterpart to [[nate-b-jones]]'s [[ai-question-method]] (which named the Opus-4.7/GPT-5.5 prompting-style shift)
 tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, codex-harness, routing-guide, nate-b-jones, reasoning-effort]
-sources: 3
-updated: 2026-06-05
+sources: 4
+updated: 2026-06-26
 ---
 
 # Claude Opus 4.8
@@ -36,7 +36,7 @@ The core operator advice: **a new frontier model is a workflow change, not just 
 ## Named upgrades (per the video)
 
 - **Effort levels and workflows** (chapter 1:07) — 4.8 exposes an effort/reasoning-depth control that operators are meant to *match to the work shape* rather than run flat-out every time. Nate's framing is about slotting effort levels into real workflows, not the feature in isolation. (Specifics gated to transcript.)
-- **The honesty upgrade** (chapter 2:54) — a behavioral change Nate calls out as the most consequential: the model is more candid about uncertainty and limits. This is the **trust/reliability theme** that runs through the same-day [[nate-b-jones]] frameworks ([[document-truth-layer]], [[agent-analytics]]) — the model-side complement to the workflow-side trust discipline.
+- **The honesty upgrade** (chapter 2:54) — a behavioral change Nate calls out as the most consequential: the model is more candid about uncertainty and limits. This is the **trust/reliability theme** that runs through the same-day [[nate-b-jones]] frameworks ([[document-truth-layer]], [[agent-analytics]]) — the model-side complement to the workflow-side trust discipline. **Operator-side follow-up (2026-06-25):** Nate's *I asked Claude Code to make me as much money as possible* turns this upgrade into a **prompting posture** — its *"Claude's Yes Man" / "Is It Honest?"* segments instruct the model to be **adversarial about your ideas** rather than agreeable, and his [[agent-council]] convenes multiple such adversarial agents to validate an idea before you build it. The honesty upgrade made the model *capable* of candor; the council *weaponizes* it. → See [[agent-council]].
 - **Benchmarks reality check** (chapter 2:05) — the benchmarks are strong but Nate deliberately discounts them ("the numbers only tell part of the story"); how the model behaves in real workflows is the real test. Echoes [[long-running-benchmarks]]' "the harness is the real story" thesis.
 - **4.7 pain points fixed** (chapter 4:38) — 4.8 is positioned against specific [[opus-4-7]] friction points (specifics gated to transcript). The upgrade is framed as *what 4.7 got wrong*, not just *what 4.8 scores higher on*.
 
