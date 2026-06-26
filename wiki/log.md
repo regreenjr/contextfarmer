@@ -214,3 +214,7 @@ Only 2 new ads (clean 1-day gap from batch 18; 99.0% dedup), BOTH noise — the 
 ## [2026-06-26] ingest | YouTube Digest (Apify) 2026-06-26 — Nate Herk: I asked Claude Code to make me as much money as possible
 
 1-video batch. New source youtube-digest-apify-2026-06-26; new concept agent-council (Meet The Council — anti-yes-man idea-validation panel: Will Anyone Buy? / Reshape Or Kill?). Updated nate-herk (27 videos), opus-4-8 (operator-side honesty upgrade), directing-agents (build-then-verify datapoint), claude-code (income framing + context reset). Index 179→181.
+
+## [2026-06-26] ingest | FB Ads Digest 2026-06-26 (batch 23)
+
+1 new ad (198 fetched, 197 dedup, 99.5% — thinnest batch + highest dedup rate in the farm), clean 1-day gap; 0% signal — 3rd universal-tracked-brand-silence batch after batch 6 + batch 19. ALL 8 tracked brands silent. Hims silent (first since batch 19; 22->23 surge->silence). OpenAI silent (o3 Deep Research one-off question gets no new data, carries to batch 24). Ro silent (Run 8 ends after 2 consecutive active batches). Anthropic 12th silence (12-23), strict lock holds. Eden 10th silence (14-23). Microsoft Cloud also absent (whole AI-lab field quiet this thin day). Lone ad = Aelfric Eden UK noise. Cumulative 122 Hims / 67 OpenAI / 8 Anthropic / 23 Ro / 1 Eden. Touched: sources/ads-digest-2026-06-26, competitor-ads-farm, hims, openai, ro, anthropic, eden, index
