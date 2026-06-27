@@ -2,9 +2,9 @@
 title: Anticipation Gap
 category: concept
 summary: The structural problem in consumer AI named by Nate B Jones — the burden of deciding *when* to invoke an agent falls on the user, making "proactive assistant" a UX problem, not a model-capability problem; the read→suggest→draft→act-with-confirmation→autonomous permission ladder is the frame for closing it
-tags: [anticipation-gap, permission-ladder, consumer-ai, agent-design, nate-b-jones, ux, agent-autonomy]
-sources: 1
-updated: 2026-05-06
+tags: [anticipation-gap, permission-ladder, consumer-ai, agent-design, nate-b-jones, ux, agent-autonomy, event-driven-routines, open-engine, event-triggers, brad-bonanno]
+sources: 2
+updated: 2026-06-27
 ---
 
 # Anticipation Gap
@@ -73,6 +73,13 @@ This explains why [[claude-code]] and [[codex]] are mature products while consum
 - **Is "autonomous within a scope" stable, or does scope creep destroy the rung?** — empirical question; consumer agents that climbed to autonomous tend to either lose user trust or get rolled back. Need longitudinal data.
 - **How does the anticipation gap interact with [[ai-consulting]]?** — possibly: consultants close the gap by *engineering predictable workflows* on the client side, then dropping agents into the now-anticipatable surface. Frame for further development.
 
+## Concrete closes of the gap
+
+The thesis says users must *engineer predictable workflows* so agents can anticipate. Two 2026-06 builds show what that looks like in practice:
+
+- **[[event-driven-routines]]** ([[brad-bonanno]], 2026-06-27) — the cleanest operator-side close: the agent no longer waits to be invoked or guesses *when* to act; an **external event** (a `cal.com` booking webhook) tells it. *"I have to remember to type slash research every single time, and on a busy morning I forget"* is the anticipation gap stated in operator terms; the fix is a `webhook → make.com → Claude cloud routine` trigger that fires the moment the event happens. Event triggers convert "the agent must anticipate" into "the world tells the agent" — the gap closes wherever a clean event surface exists (the consumer-life analog of the coding agent's clean verification surface).
+- **[[open-engine]]** ([[nate-b-jones]], 2026-06-26) — removes a *different* human-in-the-middle tax: not *when to invoke* but *moving work between* agents. A shared task queue lets agents hand off work without the human as the "hallway." Same family of "take yourself out of the loop" moves.
+
 ## Why it matters for 3Ps
 
 - **Permission ladder is a client-onboarding artifact.** "Where on the ladder do you want this agent?" is a clean intake question for any 3Ps automation engagement.
@@ -88,3 +95,6 @@ This explains why [[claude-code]] and [[codex]] are mature products while consum
 - [[ai-consulting]] — the gap is the consultant's wedge
 - [[claude-code]], [[codex]] — coding agents are the existing-proof case
 - [[loop-of-loops]] — his 2026-06-24 framework; "where a loop should stop and ask for you" applies the permission ladder to recurring jobs
+- [[event-driven-routines]] — Brad Bonanno's 2026-06-27 build; the concrete operator-side close (event triggers replace "the agent must anticipate")
+- [[open-engine]] — Nate B Jones's 2026-06-26 framework; removes the move-work-between-agents tax (the other human-in-the-loop burden)
+- [[youtube-digest-apify-2026-06-27]] — citation (event-driven-routines + open-engine)

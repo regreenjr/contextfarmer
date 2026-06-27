@@ -2,9 +2,9 @@
 title: AI Operating System (AIOS — Build Side)
 category: concept
 summary: [[nate-herk]]'s personal-AIOS **build framework** — the operator-side companion to his [[ai-operating-system-offer]] (the *sell-hours* offer). An AIOS is an [[opus-4-8]]/[[claude-code]]-centered system that "runs your businesses, holds all your context, and replaces tab-switching between apps"; you **work out of Claude Code by default**. Designed via the **Four C's** (*context, connections, capabilities, cadence*) with *"context is king"* as the thesis; built on **one source of truth** ([[karpathy-llm-wiki]]-style canonical context, not scattered apps); agents get autonomy gradually via the **bike method** (training wheels → more autonomy, so you don't crash when you hand it "real keys"); the system acts as a **mentor**, not just a doer; a custom **dashboard is usually unnecessary** (files + skills + Claude Code is enough). Surfaced 2026-05-29 (*I Turned Claude Opus 4.8 Into My Entire AI Operating System*, 54.2K views) — the **build** half of the AIOS pair whose **sell** half is [[ai-operating-system-offer]]
-tags: [ai-operating-system, aios, four-cs, context-connections-capabilities-cadence, bike-method, one-source-of-truth, context-is-king, aios-as-mentor, dashboard, nate-herk, claude-code, opus-4-8, agent-autonomy, operator-side, context-king, brad-bonanno, 13-workflows, vs-code-shell, funnel-workflows]
-sources: 2
-updated: 2026-06-24
+tags: [ai-operating-system, aios, four-cs, context-connections-capabilities-cadence, bike-method, one-source-of-truth, context-is-king, aios-as-mentor, dashboard, nate-herk, claude-code, opus-4-8, agent-autonomy, operator-side, context-king, brad-bonanno, 13-workflows, vs-code-shell, funnel-workflows, event-driven-routines, cloud-routine, cadence, webhook]
+sources: 3
+updated: 2026-06-27
 ---
 
 # AI Operating System (AIOS — Build Side)
@@ -83,6 +83,10 @@ Where [[nate-herk]] frames the AIOS via the **Four C's** (architecture), [[brad-
 
 Together they confirm the AIOS as a **cross-creator pattern**: same primitive (Claude-centered, one-source-of-truth, work-out-of-Claude-Code-by-default), two emphases — Nate's design framework, Brad's running funnel + editor shell.
 
+## Brad's event-driven extension (2026-06-27)
+
+In [[youtube-digest-apify-2026-06-27]], [[brad-bonanno]] wires the AIOS's **cadence** C to fire on an **external event** rather than a schedule or a slash command → [[event-driven-routines]]. His pre-call research agent ("Sally") triggers on a `cal.com webhook → make.com → Claude cloud routine` chain — scraping the prospect (Apify + Firecrawl) and writing/attaching a research doc via the Google Drive + Calendar MCPs **the instant a call books**, with the cloud routine configured from his **Git-tracked AIOS repo** under **least-access permissions**. The load-bearing lesson — *a local routine isn't event-based enough; reach for a cloud routine vs a managed agent for event triggers* — upgrades the AIOS's "Cadence" from **scheduled** (cron / routines) to **event-driven**, and is the concrete operator-side close of [[anticipation-gap]] (the system knows *when* to act). → See [[event-driven-routines]].
+
 ## Open questions
 
 - **What's the full Three Ms framework?** (Still course-gated; the Four C's are now public but the Three Ms aren't.)
@@ -102,5 +106,7 @@ Together they confirm the AIOS as a **cross-creator pattern**: same primitive (C
 - [[agent-security]] — four action-risk classes; the procurement-side cousin of the bike method
 - [[claude-code-levels]] — Nate Herk's mastery-progression framework; AIOS is the Level-5 "system that runs itself" endpoint
 - [[context-farming]] — the cadence/connections engine in vault terms
+- [[event-driven-routines]] — Brad Bonanno's event-trigger extension of the Cadence layer (2026-06-27)
 - [[youtube-digest-apify-2026-05-30]] — citation
 - [[youtube-digest-apify-2026-06-24]] — Brad Bonanno's 13-workflow + VS-Code-shell instantiation
+- [[youtube-digest-apify-2026-06-27]] — Brad Bonanno's event-driven pre-call research build

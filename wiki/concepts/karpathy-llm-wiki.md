@@ -2,9 +2,9 @@
 title: Karpathy LLM Wiki
 category: concept
 summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within ~four weeks (the [[knowledge-layer]] convergence); **2026-05-19 [[andrej-karpathy]] joins [[anthropic]]** — pattern becomes about-to-be-first-party-Anthropic-architecture, with [[nate-herk]] (105K views) framing **"the wiki is your data moat"**; **2026-05-20 [[eric-tech]] ships a `/wiki` skill** that automates the pattern; **in 2026-05-23 batch the autoresearch lineage continues** — [[simon-scrapes]]' [[self-improving-skills]] (109.7K views) is the **skill-tier instantiation of Karpathy `autoresearch`** (autonomous loop + binary criteria + overnight convergence), and [[nate-b-jones]]' [[project-room-workflow]] (22.3K views) is the **per-task instantiation** of the wiki architecture (source inventory + conflict log + missing context list = same shape as `raw/` → `wiki/` + contradiction-callouts at the per-deliverable scale)
-tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent, karpathy-anthropic, eric-tech, wiki-skill, farmer-subagents, cron, data-moat, anthropic-internal-future, context-marketplace, self-improving-skills, project-room-workflow, simon-scrapes, autoresearch-lineage, per-task-canvas, opus-4-7]
-sources: 8
-updated: 2026-06-24
+tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, apple-notes, zettelkasten, google-antigravity, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent, karpathy-anthropic, eric-tech, wiki-skill, farmer-subagents, cron, data-moat, anthropic-internal-future, context-marketplace, self-improving-skills, project-room-workflow, simon-scrapes, autoresearch-lineage, per-task-canvas, opus-4-7, learning-to-learn]
+sources: 9
+updated: 2026-06-27
 ---
 
 # Karpathy LLM Wiki
@@ -24,6 +24,8 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **2026-05-19**: **[[andrej-karpathy]] joins [[anthropic]]** (per [[nate-herk]] 105K-view coverage in [[youtube-digest-apify-2026-05-22]]). Major implications: (1) the LLM Wiki gist and `karpathy/autoresearch` are no longer external-creator artifacts — they're **about-to-be-first-party Anthropic architecture**; (2) [[nate-herk]]'s "**LLM Wiki and Your Data Moat**" framing (chapter 6:25) makes the wiki **the explicit competitive moat** in a commoditized-model era; (3) the predictions (chapter 12:01) align with [[brad-bonanno]]'s [[execution-layer]] and [[alex-mcfarland]]'s [[plugin-marketplace]] — three creators converging on **context-marketplace + education-layer + unified-context-substrate** as the 2026-Q3 Anthropic roadmap.
 - **2026-05-20**: **[[eric-tech]] ships a `/wiki` skill** that automates the entire workflow on a cron — pulling from YouTube/Gmail/Slack/any-MCP-source into an Obsidian vault. **Same primitive triple as this vault** (skill + farmer subagents + cron scheduling). Convergent evolution = strong correctness signal; the pattern is now creator-shipped-skill territory.
 - **2026-05-22 (per [[youtube-digest-apify-2026-05-23]])**: **[[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views) — explicit Karpathy-`autoresearch`-inspired autonomous overnight loop for Claude Code skills with binary criteria + convergence. Skill-tier instantiation of the autoresearch primitive; predates Karpathy-Anthropic hire but confirms the pattern survives the transition. Also: **[[nate-b-jones]] ships [[project-room-workflow]]** (22.3K views, 2026-05-22) — the per-task instantiation of the wiki architecture (`raw/` → `wiki/` + contradiction-callouts) named explicitly as **source inventory + conflict log + missing context list**. The vault implements project-room-workflow at the wiki scale; Nate's framework names the per-deliverable instantiation.
+
+- **2026-06-08 (surfaced 2026-06-27, per [[youtube-digest-apify-2026-06-27]])**: **[[learning-to-learn]] ships the first Google-Antigravity-built and first Apple-Notes-targeted implementation** (*How to Create a Karpathy LLM Wiki for your Notes*, 332 views). Two new cells in the matrix: (1) the wiki is built with **Google Antigravity** (he names Claude Code as the alternative) — the first non-Claude-Code/Codex/Hermes agent substrate tracked for the pattern; and (2) it targets **Apple Notes** alongside Obsidian, plus a **zettelkasten** variant — the first consumer-notes-app destination. A clean *"LLM Wikis for AI vs note-taking"* callout distinguishes building for an AI reader vs a human note system; he also demos **skills in Antigravity** (cross-substrate skill confirmation, a datapoint for [[open-skills]]). Tier-4 (sub-1K-view) explainer — confirms the pattern is now substrate- and destination-agnostic.
 
 - **2026-04-06 (surfaced 2026-06-24, per [[youtube-digest-apify-2026-06-24]])**: **[[the-prediction-engineer]] uses the LLM Wiki as an autonomous agent's *self-edited working memory*** (*I Rebuilt My Ai's Brain Using the Karpathy Method*, 2.1K views). His crypto-trading agent was *"demented"* — no state between days — so he rebuilt its memory with the wiki pattern **instead of vector-DB RAG** (*"too slow and imprecise for coding tasks"*), gave the **agent autonomy to edit its own wiki files**, and ran a **start-of-day `daily_plan.md` / end-of-day lessons-learned** loop. A **new cell in the implementation matrix: wiki-as-agent-state** (the agent both reads *and writes* its own wiki), distinct from the human-facing knowledge-management uses; the closest external artifact to what this vault does, in a markets vertical. Raises the "errors get baked in" risk in its sharpest form (the *agent* is the editor).
 
@@ -48,6 +50,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 | [[tommy-chryst]] #1 (r3) | "PhD-level research" generic vault | Tier-3 small-channel walkthrough; positioned as ChatGPT deep-research alternative; signals pattern past tip-of-funnel |
 | [[corey-ganim]] #3 | Hermes-on-Hostinger second brain | VPS + Telegram + OpenAI Codex backend; explicit fork from Claude Code + Obsidian — pattern runs on [[hermes-agent]] substrate too |
 | **[[the-prediction-engineer]] (2026-06-24)** | **Autonomous crypto-trading agent state store** | **Agent self-edits its own wiki as working memory; daily_plan.md + end-of-day lessons-learned loop; explicit anti-vector-DB for coding/state** |
+| **[[learning-to-learn]] (2026-06-08)** | **Personal notes (Obsidian + Apple Notes)** | **First Google-Antigravity build substrate; first Apple-Notes destination; zettelkasten variant; "AI vs note-taking" callout; skills-in-Antigravity demo** |
 | [[ai-academy]] #6 | Tier-4 generic explainer | Bottom of the creator funnel; pattern at full mainstream-awareness saturation |
 | **[[eric-tech]] #8 (2026-05-22)** | **Skool-distributed `/wiki` skill** | **Same primitive triple as this vault** (skill + farmer subagents + cron); convergent-evolution from independent creator |
 | **[[pinecone]] Nexus** | **Commercial enterprise software** | **Three-component architecture (Context Compiler / Composable Retriever / KnowQL) mapping onto wiki primitives** |
@@ -100,6 +103,7 @@ The 2026-05 commercial-shipping shift changes the strategic frame: the user's va
 - [[youtube-digest-apify-2026-05-05]] — `karpathy/autoresearch` surfacing via [[dubibubii]] #5
 - [[youtube-digest-apify-2026-05-10]] — commercial-shipping convergence ([[the-ai-automators]] #4) + tier-4 saturation ([[ai-academy]] #6) + [[hermes-agent]] fork ([[corey-ganim]] #3)
 - [[youtube-digest-apify-2026-05-22]] — **Karpathy joins Anthropic** ([[nate-herk]] #3, 105K views) + **[[eric-tech]] ships /wiki skill** ([[eric-tech]] #8)
+- [[youtube-digest-apify-2026-06-27]] — **[[learning-to-learn]]** Antigravity build + Apple Notes destination + zettelkasten variant (tier-4 explainer)
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
 - [[knowledge-layer]] — commercial-category page for the convergence
 - [[pinecone]] — commercial-vendor-of-record
@@ -107,6 +111,7 @@ The 2026-05 commercial-shipping shift changes the strategic frame: the user's va
 - [[context-farming]] — the upstream feeder pattern
 - [[tommy-chryst]], [[corey-ganim]], [[ai-academy]], [[the-ai-automators]] — implementer/explainer creators
 - [[the-prediction-engineer]] — wiki-as-agent-state variant (crypto-trading agent self-edits its own wiki); [[youtube-digest-apify-2026-06-24]]
+- [[learning-to-learn]] — Antigravity-built + Apple-Notes-targeted implementer; [[youtube-digest-apify-2026-06-27]]
 - [[claude-skills]] — `autoresearch` is published as a Claude Skill
 - [[hermes-agent]] — alternative substrate for running the pattern (per [[corey-ganim]])
 - This vault's `CLAUDE.md` — the schema definition

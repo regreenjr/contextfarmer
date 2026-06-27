@@ -2,9 +2,9 @@
 title: Brad Bonanno
 category: entity
 summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour; in 2026-05-14 ships [[execution-layer]] (Phase 3); **in 2026-05-21 ships Phase 4** — first-creator-walkthrough coverage of [[anthropic]]'s newly-launched [[claude-for-small-business]] vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); his four-video trajectory sequence: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3) → **Anthropic-shipped vertical plugin coverage (Phase 4)**; CFSB likely preempts his own skills-marketplace roadmap but he covers it favorably — Brad continues to be the canonical creator-side commentator on Anthropic product launches
-tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors, content-ideas-skill, creator-growth, outlier-rating, comment-mining, anti-cannibalization, scrape-creators, for-you-page]
-sources: 7
-updated: 2026-06-24
+tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors, content-ideas-skill, creator-growth, outlier-rating, comment-mining, anti-cannibalization, scrape-creators, for-you-page, event-driven-routines, cloud-routine, cal-com, make-com, sally, pre-call-research, apify, firecrawl, webhook, anticipation-gap]
+sources: 8
+updated: 2026-06-27
 ---
 
 # Brad Bonanno
@@ -123,6 +123,22 @@ Data via **Scrape Creators** (`scrapecreators.com`); funnel to AI Strategy Call 
 
 **Strategic significance**: both videos are **execution-layer-in-practice** — not new architecture, but Brad showing his own working AIOS (13 funnel workflows + the VS Code shell that hosts them). #10's "I quit the Claude desktop app" stance is a pointed product critique and the clearest editor-substrate recommendation in the vault's AIOS coverage; #8's funnel-complete workflow set is the breadth-tour to [[nate-herk]]'s framework depth-tour. → Updates: [[ai-operating-system]] (13-workflow breadth + VS Code shell), [[claude-code]], [[codex]].
 
+## Key video in [[youtube-digest-apify-2026-06-27]]
+
+- #2 *I Automated Pre-Call Research with Claude Code (FULL BUILD)* — 249 views (just-published), 2026-06-26, 49:08. An **unedited live build** ("bugs and all") that takes the operator **completely out of the loop** → New concept: [[event-driven-routines]].
+
+**The problem**: for months Brad ran a sales-research skill **by hand** on every booked call — *"I have to remember to type slash research every single time, and on a busy morning I forget."* The build fires the research **the instant a booking is made** so notes land on the calendar invite before he opens his laptop. The concrete operator-side close of [[nate-b-jones]]' [[anticipation-gap]] (the agent knows *when* to act because an event tells it).
+
+**The agent ("Sally")** pulls the prospect's LinkedIn, work history, company size, recent news, open roles, and buying signals via:
+- **Apify** — LinkedIn scraping + Google search
+- **Firecrawl** — website + web search
+- **Google Drive MCP** ([[mcp]]) — writes a private research doc
+- **Google Calendar MCP** ([[mcp]]) — attaches the doc to the invite
+
+**The load-bearing architecture decision**: *why a local routine isn't event-based enough, and when to reach for a Claude cloud routine vs a managed agent.* The trigger chain is `cal.com webhook → make.com (enriches the booking) → Claude cloud routine`. He lets Claude configure the cloud routine straight from the **Git-tracked AIOS repo** and sets **least-access permissions** on it.
+
+**Strategic significance**: the **event-driven** complement to his prior AIOS coverage. Phases 1-4 + the 06-24 13-workflow/VS-Code instantiation showed a *manually-invoked* operator system; this is the first time he wires a workflow to **fire on an external event** rather than a slash command or a cron. The vault's farmers are **cron-scheduled** ([[context-farming]]); Brad's `webhook → middleware → cloud routine` chain is the **missing event-trigger primitive**. Skill download: `brad-b.kit.com/0b31eb2b33`. → New concept: [[event-driven-routines]]. Updates: [[ai-operating-system]] (cadence/connections made event-driven), [[claude-code]] (cloud routines + event triggers), [[mcp]], [[anticipation-gap]].
+
 ## The four-phase product trajectory
 
 | Phase | Video | Concept | Vault implementation |
@@ -159,6 +175,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 
 ## Related
 - [[context-farming]] — the canonical concept page (Phase 1)
+- [[event-driven-routines]] — his event-triggered pre-call research build (2026-06-27); the event-trigger complement to cron-scheduled context-farming
 - [[content-ideas-skill]] — his free content-ideation skill (creator-growth axis, 2026-06-03)
 - [[self-improving-skills]] — `/content-ideas`' auto-memory tuning is the preference-side cousin
 - [[execution-layer]] — his Phase 3 concept (productization above the brain)
@@ -177,6 +194,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[youtube-digest-apify-2026-05-22]] — video #7 (*Why You Need Claude for Small Business* — Phase 4)
 - [[youtube-digest-apify-2026-06-03]] — video #1 (*I Hit 10k Subs in 3 Months* — `/content-ideas` skill, creator-growth axis)
 - [[youtube-digest-apify-2026-06-24]] — videos #8 (*Claude Code RUNS My Business — 13 WORKFLOWS*) + #10 (*The AI Setup I Use to Run EVERYTHING* — VS Code as AIOS shell)
+- [[youtube-digest-apify-2026-06-27]] — video #2 (*I Automated Pre-Call Research with Claude Code* — event-driven cloud routine, "Sally" pre-call research → [[event-driven-routines]])
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
 - [[anthropic]] — most comprehensive product-surface tour
