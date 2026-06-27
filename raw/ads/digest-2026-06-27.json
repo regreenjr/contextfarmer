@@ -1,0 +1,150 @@
+[
+  {
+    "id": "1567783388251938",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-03",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1567783388251938",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "971607631938902",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-06-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=971607631938902",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "988153090491329",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-03",
+    "end_date": "2026-06-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=988153090491329",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "880324488449485",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-26",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=880324488449485",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1359241532800408",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-26",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1359241532800408",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1707708697347780",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-03",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1707708697347780",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1636168694042405",
+    "brand": "Visit Hampton, Virginia!",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-03-10",
+    "end_date": "2026-06-26",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1636168694042405",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "935923002777521",
+    "brand": "Wesley Financial Group LLC",
+    "title": "Cancel Timeshare - Free Exit Kit!",
+    "body_text": "\ud83d\udea8Freedom from timeshare is within reach.\ud83d\udea8\nClick the link below to claim your free timeshare exit package now!",
+    "creative_format": "video",
+    "creative_url": "",
+    "start_date": "2026-04-07",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=935923002777521",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  },
+  {
+    "id": "1560672449029905",
+    "brand": "hims",
+    "title": "",
+    "body_text": "Don't wait \u2014 join the hundreds of thousands of guys who\u2019ve found true results. Get a treatment recommendation today, 100% online.\n\nWhy Hims?\n\ud83d\uddd3\ufe0fRegrow in as few as 3-6 months\n\ud83e\uddd1\ud83c\udffb\u200d\u2695\ufe0fDoctor-trusted ingredients\n\ud83d\udce6Free shipping to your front door (if prescribed)\n\nHair Hybrids are compounded products. FDA does not approve nor verify the safety, effectiveness, or quality of compounded drugs.\n\n*Individual results may vary. Based on separate individual studies of oral and topical minoxidil and finasteride.\nPrescription products require an online consultation with a healthcare provider who will determine if a prescription is appropriate. Restrictions apply. See website for full details and important safety information.",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-06-10",
+    "end_date": "2026-06-27",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1560672449029905",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  }
+]
