@@ -305,8 +305,18 @@ Open: which surface is the 2026-05-11 ad pointing to? Same destination as the or
 - **Ships [[claude-fable-5|Fable 5]]** — *"the biggest model in the world"* (the rung above [[opus-4-8]]), read by [[nate-b-jones]] (*The Doing Got Cheap*, 30.4K) not as a benchmark story but as a **task-imagination shift** (the bottleneck moves to *what you can imagine handing the model*). Sakana's [[sakana-fugu|Fugu Ultra]] marketed itself as a "Fable killer" the same week ([[nate-herk]]'s 38-task test found it's an auto-router, not a Fable-class model). → [[claude-fable-5]], [[sakana-fugu]].
 - **The $2.7B talent-war read** ([[nate-b-jones]] #4, 49.0K) — OpenAI *looks* like it won the week (a **Shazeer/Noam-tier hire**, "5.6" rumors), but Jones argues **Anthropic may quietly lead on pre-training cadence**, and the biggest story (Midjourney's medical-imaging breakthrough) sits outside both labs. → [[openai]].
 
+## 2026-06-28/29 — Claude Tag launches inside Slack (the context-war front)
+
+[[nate-b-jones]] surfaces **[[claude-tag]]** across two videos in [[youtube-digest-apify-2026-06-30]]: Anthropic's **Slack-resident** Claude product that lets Claude live inside a team's Slack and **turn that Slack context into a sticky harness**. Strategic read:
+
+- **The stickiness answer to cheap open models** — *"Claude Tag turns your team's Slack context into a sticky harness"* (#4, *GLM 5.2 Is Free… So Why Can't Companies Switch?*, 83.5K). As [[glm]]-class open models commoditize raw intelligence, Anthropic defends with the **last mile**: own the context where work happens. It's [[harness-over-model]] made into a product moat.
+- **Anthropic's front in the [[context-wars]]** (#5, *The Real Story Behind the Government GPT 5.6 Freeze*, 32.1K, chapter 5:44) — alongside **Apple wiring Siri into phone context** and **[[codex]] earning trust at OpenAI**, Claude Tag is Anthropic's move to live where the user's context already is (Slack).
+
+> ⚠️ Detail status: from video descriptions + chapter markers, not an Anthropic announcement page. Feature scope, pricing, GA status unconfirmed. → [[claude-tag]], [[context-wars]].
+
 ## Related
 - [[claude-code]], [[claude-skills]], [[mcp]], [[claude-design]] — products
+- [[claude-tag]] — Slack-resident context harness (2026-06; the context-war stickiness move)
 - [[claude-fable-5]] — newest frontier model ("the doing got cheap"); 2026-06-23
 - [[opus-4-8]] — the prior rung; [[claude-mythos]] — sibling post-4.8 frontier name
 - [[andrej-karpathy]] — **joined Anthropic in 2026-05-19** (per [[nate-herk]] 105K-view coverage); his frameworks (LLM Wiki, agentic engineering, autoresearch, `/goal` loops) now becoming first-party Anthropic primitives

@@ -2,9 +2,9 @@
 title: Harness Over Model (Your Workflow Doesn't Care About the Score)
 category: concept
 summary: [[nate-b-jones]]' 27th named framework (2026-06-03, 34.3K views) — the **model-selection counterpart** to his [[long-running-benchmarks]] harness thesis: a stronger benchmark score does NOT automatically make a model your daily driver, because **harnesses, compute, and workflow reliability now matter as much as raw model intelligence**; [[opus-4-8]] is reframed as a **checkpoint release** where *"the product harness around the model now matters more than the model itself"*; named evidence: **reasoning effort became unpredictable on 4.8**, the **Codex harness outperformed raw model intelligence** on real work, the **effort-level trap** (Vending-Bench data showing `max` effort can make long-running work *worse*), and a **routing guide** (Opus 4.8 vs Codex/5.5 vs GPT-5.5); the operator prescription is **architect for harness flexibility** (swappable harnesses, not a permanent model choice); lands as the explicit skeptic's counterweight to [[nate-herk]]'s enthusiastic 4.8 adoption coverage — the vault's first tracked creator disagreement on a Claude model
-tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility]
-sources: 2
-updated: 2026-06-24
+tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility, last-mile, switching-cost, context-wars, claude-tag, glm, lock-in]
+sources: 3
+updated: 2026-06-30
 ---
 
 # Harness Over Model
@@ -79,6 +79,10 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 | **[[directing-agents]]** (Nate Herk, 39.7K) | Names **"harness engineering"** explicitly, plus the **"dumb zone"** (every model degrades somewhere — route around it via the harness, don't trust the model). |
 
 **The convergence is the story.** [[nate-b-jones]] articulated harness-over-model as a skeptic's counter to Herk's model-knob framing; two batches later Herk is its **highest-reach popularizer** (132K-view GLM video). The vault's two anchor creators now agree: *the leverage moved off raw model intelligence and onto the harness/workflow.* [[glm]] also extends the prescription — *architect for harness flexibility* — into **bring-your-own-(cheaper, open)-model** territory.
+
+## The last mile — harness-over-model as a *switching cost* (2026-06-28)
+
+[[nate-b-jones]]' *GLM 5.2 Is Free And Beats Claude On Most Work. So Why Can't Companies Switch?* (83.5K, [[youtube-digest-apify-2026-06-30]] #4) gives the thesis its **enterprise-adoption edge**: if the harness is the durable layer, then **the harness is also the lock-in**. *"The real bottleneck is no longer the model call. It is the last mile around it: context, routing, and harnesses."* A cheaper-and-better model ([[glm]]) doesn't get adopted because **you can't move your context** — *"switching a model means replacing a whole work system, not a call."* [[claude-tag]] (Anthropic's Slack-resident harness) is the named mechanism that traps the context. So harness-over-model cuts both ways: it's the **operator's leverage** (architect for flexibility) *and* the **vendor's moat** (own the harness, keep the customer). The macro framing is [[context-wars]]. → Updates from same creator, same batch as the original framework.
 
 ## Open questions
 
