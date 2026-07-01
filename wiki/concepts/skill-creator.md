@@ -2,9 +2,9 @@
 title: Skill Creator
 category: concept
 summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
-tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk, skill-authoring-lessons, gotchas-section, stop-railroading, brock-mesarich]
+tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk, skill-authoring-lessons, gotchas-section, stop-railroading, brock-mesarich, skill-forge, generation-first, alek]
 sources: 4
-updated: 2026-06-06
+updated: 2026-07-01
 ---
 
 # Skill Creator
@@ -120,6 +120,18 @@ The two are the bookends of the authoring pipeline:
 
 Extraction up front (grill-me) and iteration after (Skill Creator / self-improving) are two ways to reach the same quality bar — the former trades a focused interview for fewer build-test-fix cycles.
 
+## Sibling: generation-first meta-skill — [[skill-forge]] (2026-06-30)
+
+[[alek]]'s *The BEST Claude Skill You've Never Seen Before* ([[youtube-digest-apify-2026-07-01]] #1, 4.3K views) surfaces **[[skill-forge]]** — a meta-skill pitched as *"the only skill you really need"* because it **builds any other skill from a described workflow**. It's Skill Creator's closest sibling (both operate *on* skills) but sits at the **opposite end of the pipeline**:
+
+| | [[skill-forge]] ([[alek]]) | [[skill-creator]] (this) |
+|---|---|---|
+| Primary job | **Generate / scaffold** a skill from a workflow | **Evaluate / optimize** an existing skill |
+| Pipeline stage | Author | Acceptance test |
+| Positioning | "The one skill you need" | "The tool that proves your skill works" |
+
+They're complementary, not competing: **generate with Skill Forge → prove with Skill Creator → converge with [[self-improving-skills]]**. Skill Forge also carries a **"one skill, not a curated shelf"** counter-thesis to the [[claude-skills]] curation debate — worth watching against Skill Creator's acceptance-test discipline, since on-demand-forged skills still need to pass an eval. → See [[skill-forge]].
+
 ## Strategic implications
 
 ### For [[anthropic]]
@@ -166,6 +178,7 @@ Anthropic's *Lessons from building Claude Skills* article (surfaced via [[brock-
 - [[chase-ai]] — first-hand walkthrough source
 - [[skill-systems]] — composition layer that consumes Skill-Creator-passed skills
 - [[self-improving-skills]] — closed-loop optimization extension (Simon Scrapes 2026-05-23)
+- [[skill-forge]] — generation-first sibling meta-skill (Alek 2026-06-30); scaffolds any skill from a workflow, the "author" half to this page's "acceptance-test" half
 - [[grill-me-skill]] — front-loading-context front-end (Nate Herk 2026-06-04); extract context before authoring
 - [[skill-authoring-lessons]] — Anthropic's first-party authoring playbook (2026-06-05); confirms description-for-the-model + don't-railroad
 - [[plugins]] — taxonomy parent
