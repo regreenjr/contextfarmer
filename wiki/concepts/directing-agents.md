@@ -2,9 +2,9 @@
 title: Directing Agents (Stop Vibe Coding, Start Directing)
 category: concept
 summary: [[nate-herk]] + Cole's hour-long deep dive (*How to Build Effective Claude Code Agents in 2026*, 39.7K views, 2026-06-18) on **directing coding agents instead of prompting-and-praying** — the **planning + verification system** that separates real results from [[vibe-coding]]; *"make the agent prove its work"*; **you plan more than you build**; **the "dumb zone"** every model has where it starts missing obvious things; **chaining multiple agent sessions** so one big task doesn't fall apart halfway; treating **every bug as a permanent upgrade**; **harness engineering** as the frame — *"whether or not you write code, the mindset applies directly to using AI for real work"*; the agentic-engineering successor to [[vibe-coding]] and the human-direction side of [[agent-loops]]' verification thesis
-tags: [directing-agents, nate-herk, cole, vibe-coding, agentic-engineering, planning, verification, prove-its-work, dumb-zone, session-chaining, harness-engineering, claude-code, agent-loops, claude-subagents, harness-over-model, execution-layer, bug-as-upgrade]
+tags: [directing-agents, nate-herk, cole, cole-medin, vibe-coding, agentic-engineering, planning, verification, prove-its-work, dumb-zone, session-chaining, harness-engineering, claude-code, agent-loops, claude-subagents, harness-over-model, execution-layer, bug-as-upgrade]
 sources: 2
-updated: 2026-06-26
+updated: 2026-07-02
 ---
 
 # Directing Agents
@@ -60,7 +60,7 @@ Cole's security mindset, and the principle that **every bug fixed becomes a perm
 
 ## Open questions
 
-- **Who is Cole?** The digest gives only a first name and "thousands of hours in Claude Code" — likely a known AI-coding creator; identity unconfirmed, so no dedicated entity page yet.
+- **Who is Cole?** ~~identity unconfirmed~~ **Probably [[cole-medin]]** — the [[youtube-digest-apify-2026-07-02]] batch surfaced Cole Medin (agentic-coding creator, founder of the Dynamous *Agentic Coding Course*, deep Claude Code focus), whose profile matches this video's "Cole" ("thousands of hours in Claude Code," agentic-coding discipline). Now has a [[cole-medin]] entity page. Confirmation still pending a transcript/channel cross-check, so treated as **probable, not certain**.
 - **The specific planning/verification artifacts** — what files/prompts encode "prove its work" and the plan? Gated to the hour-long video.
 - **How is the "dumb zone" detected** in practice — a heuristic, a benchmark, a feel? Unresolved.
 
@@ -68,6 +68,7 @@ Cole's security mindset, and the principle that **every bug fixed becomes a perm
 
 - [[youtube-digest-apify-2026-06-24]] — vault entry point (Nate Herk #1)
 - [[nate-herk]] — co-host / author
+- [[cole-medin]] — probable identity of the "Cole" co-presenter (surfaced [[youtube-digest-apify-2026-07-02]])
 
 ## Related
 

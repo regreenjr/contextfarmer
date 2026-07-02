@@ -2,9 +2,9 @@
 title: Knowledge Layer (Compiled Knowledge Engine)
 category: concept
 summary: Architectural pattern of a compiled, structured knowledge layer sitting above raw data + vector DB; in 2026-05 named/shipped commercially by [[pinecone]] (Nexus), Microsoft (Fabric IQ), and Google (Knowledge Catalog) within four weeks — the enterprise-shipped instantiation of [[karpathy-llm-wiki]]; "85% of an agent's effort goes to retrieval rather than reasoning" is the canonical motivating stat; in 2026-05-13 [[nate-b-jones]] adds the **builder-side framework** above the vendor convergence — the [[retrieval-contract]] (what an agent declares it needs *before* picking a database) — and positions Nexus inside a **four-shape attack** on agent retrieval alongside PageIndex (don't-chunk), SAP/Dremio/Prior Labs (tabular), and Microsoft GraphRAG (relational)
-tags: [knowledge-layer, pinecone-nexus, microsoft-fabric-iq, google-knowledge-catalog, karpathy-llm-wiki, compiled-knowledge, agentic-rag, ontology, knowql, noql, retrieval-contract, pageindex, graphrag, tabular-memory, rediscovery-problem]
-sources: 2
-updated: 2026-05-14
+tags: [knowledge-layer, pinecone-nexus, microsoft-fabric-iq, google-knowledge-catalog, karpathy-llm-wiki, compiled-knowledge, agentic-rag, ontology, knowql, noql, retrieval-contract, pageindex, graphrag, tabular-memory, rediscovery-problem, open-knowledge-format, okf, open-standard, cole-medin, own-your-memory]
+sources: 3
+updated: 2026-07-02
 ---
 
 # Knowledge Layer
@@ -141,9 +141,18 @@ The retrieval contract is necessary even at million-token contexts.
 - **Pinecone's "85% retrieval" stat** is a portable, vendor-cited data point for any [[knowledge-layer]] sales conversation
 - **Migration playbooks** — turning existing RAG stacks into compiled-knowledge stacks is high-value engineering work; differentiated 3Ps offering
 
+## 2026-07 — the open-standard answer: OKF (per [[cole-medin]] in [[youtube-digest-apify-2026-07-02]])
+
+The standing "will an open spec emerge?" question (below) got a **partial answer**: **Google shipped the [[open-knowledge-format]] (OKF)** — an open markdown standard formalizing the [[karpathy-llm-wiki]] pattern (*"any AI can read with zero integration; no plugin, RAG pipeline, or vector DB"*), published under GoogleCloudPlatform with a `SPEC.md`. Two things stand out:
+
+- **It's the *storage/interchange* side, not the query side.** OKF standardizes the **compiled-markdown format** ("point your agent at a folder"), not a query contract like KnowQL / [[retrieval-contract]]. So the open-spec answer arrives at the *format* layer first; the *query* layer is still open.
+- **Google shipped the *open* version, not another proprietary product.** The same player behind the proprietary **Knowledge Catalog** (in the convergence table above) also shipped the **portable, open** standard. Interop over lock-in — at least at the format layer. This lowers the odds of full proprietary lock-in across the three vendors.
+
+Same-batch companion: [[nate-b-jones]]' *own the memory, rent the intelligence* (#1 in the same digest) is the **personal-scale ownership** statement of the knowledge-layer thesis — memory is the durable, owned layer; the model is rented. OKF is what makes that owned memory **portable** across any rented intelligence. → See [[open-knowledge-format]].
+
 ## Open questions
 
-- **Standards** — will KnowQL or an open spec emerge as the cross-vendor query layer? Or proprietary lock-in across the three vendors?
+- **Standards** — ~~will KnowQL or an open spec emerge as the cross-vendor query layer?~~ **Partially answered 2026-07:** Google's [[open-knowledge-format]] is an open spec for the *storage/format* layer. The *query* layer (KnowQL vs an open equivalent) is still open, as is whether Anthropic/OpenAI agents honor OKF or the proprietary engines converge on a shared query contract.
 - **Compile cost benchmarks** — no public numbers yet on Nexus / Fabric IQ compile times for representative source bases
 - **Update cadence** — when sources change, do these systems re-compile incrementally or full-pass?
 - **Editorial control** — can humans edit Pinecone Nexus pages directly, or are they LLM-write-only?
@@ -153,6 +162,8 @@ The retrieval contract is necessary even at million-token contexts.
 ## Related pages
 
 - [[karpathy-llm-wiki]] — conceptual antecedent
+- [[open-knowledge-format]] — Google's 2026-07 open standard for the format layer (the open-spec answer)
+- [[cole-medin]] — surfaced OKF; [[youtube-digest-apify-2026-07-02]]
 - [[retrieval-contract]] — builder-side spec layer above the vendor convergence ([[nate-b-jones]] 2026-05-13)
 - [[andrej-karpathy]] — gist author
 - [[pinecone]] — primary commercial reference (Nexus); now positioned as the *general-purpose* shape in the four-shape attack

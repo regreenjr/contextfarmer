@@ -3,8 +3,8 @@ title: Karpathy LLM Wiki
 category: concept
 summary: Pattern of having an LLM ingest sources once into structured, interlinked markdown — knowledge compiled at write time vs RAG's re-derive at query time; in 2026-05 commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within ~four weeks (the [[knowledge-layer]] convergence); **2026-05-19 [[andrej-karpathy]] joins [[anthropic]]** — pattern becomes about-to-be-first-party-Anthropic-architecture, with [[nate-herk]] (105K views) framing **"the wiki is your data moat"**; **2026-05-20 [[eric-tech]] ships a `/wiki` skill** that automates the pattern; **in 2026-05-23 batch the autoresearch lineage continues** — [[simon-scrapes]]' [[self-improving-skills]] (109.7K views) is the **skill-tier instantiation of Karpathy `autoresearch`** (autonomous loop + binary criteria + overnight convergence), and [[nate-b-jones]]' [[project-room-workflow]] (22.3K views) is the **per-task instantiation** of the wiki architecture (source inventory + conflict log + missing context list = same shape as `raw/` → `wiki/` + contradiction-callouts at the per-deliverable scale)
 tags: [karpathy-llm-wiki, knowledge-management, second-brain, obsidian, apple-notes, zettelkasten, google-antigravity, claude-code, write-time-knowledge, autoresearch, knowledge-layer, pinecone, hermes-agent, karpathy-anthropic, eric-tech, wiki-skill, farmer-subagents, cron, data-moat, anthropic-internal-future, context-marketplace, self-improving-skills, project-room-workflow, simon-scrapes, autoresearch-lineage, per-task-canvas, opus-4-7, learning-to-learn]
-sources: 9
-updated: 2026-06-27
+sources: 10
+updated: 2026-07-02
 ---
 
 # Karpathy LLM Wiki
@@ -28,6 +28,8 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 - **2026-06-08 (surfaced 2026-06-27, per [[youtube-digest-apify-2026-06-27]])**: **[[learning-to-learn]] ships the first Google-Antigravity-built and first Apple-Notes-targeted implementation** (*How to Create a Karpathy LLM Wiki for your Notes*, 332 views). Two new cells in the matrix: (1) the wiki is built with **Google Antigravity** (he names Claude Code as the alternative) — the first non-Claude-Code/Codex/Hermes agent substrate tracked for the pattern; and (2) it targets **Apple Notes** alongside Obsidian, plus a **zettelkasten** variant — the first consumer-notes-app destination. A clean *"LLM Wikis for AI vs note-taking"* callout distinguishes building for an AI reader vs a human note system; he also demos **skills in Antigravity** (cross-substrate skill confirmation, a datapoint for [[open-skills]]). Tier-4 (sub-1K-view) explainer — confirms the pattern is now substrate- and destination-agnostic.
 
 - **2026-04-06 (surfaced 2026-06-24, per [[youtube-digest-apify-2026-06-24]])**: **[[the-prediction-engineer]] uses the LLM Wiki as an autonomous agent's *self-edited working memory*** (*I Rebuilt My Ai's Brain Using the Karpathy Method*, 2.1K views). His crypto-trading agent was *"demented"* — no state between days — so he rebuilt its memory with the wiki pattern **instead of vector-DB RAG** (*"too slow and imprecise for coding tasks"*), gave the **agent autonomy to edit its own wiki files**, and ran a **start-of-day `daily_plan.md` / end-of-day lessons-learned** loop. A **new cell in the implementation matrix: wiki-as-agent-state** (the agent both reads *and writes* its own wiki), distinct from the human-facing knowledge-management uses; the closest external artifact to what this vault does, in a markets vertical. Raises the "errors get baked in" risk in its sharpest form (the *agent* is the editor).
+
+- **~2026-07 (surfaced 2026-07-02, per [[youtube-digest-apify-2026-07-02]])**: **Google ships the [[open-knowledge-format]] (OKF) — the pattern's first named open standard.** Per [[cole-medin]] (*Finally, an Open Standard for the Karpathy LLM Wiki is HERE*, 15.6K views): *"an open standard that formalizes Andrej Karpathy's LLM wiki pattern into plain markdown any AI can read with zero integration. No plugin, RAG pipeline, or vector DB."* Published under **GoogleCloudPlatform** on GitHub (a `SPEC.md` + `cloud.google.com/blog` launch post); Cole ships an **open-source OKF bundle** (`github.com/coleam00`) so any agent can search his content. This is the **convention → spec** step: the pattern goes from a viral gist to a cross-vendor standard, and it's **Google** shipping the *open/portable* version rather than another proprietary product (contrast their own Knowledge Catalog in [[knowledge-layer]]). Directly answers the [[knowledge-layer]] open question *"will an open spec emerge, or proprietary lock-in?"* → New concept: [[open-knowledge-format]]. Same-batch pairing: [[nate-b-jones]]' *own the memory, rent the intelligence* (#1) is the ownership thesis OKF makes **portable**.
 
 ## Key claims (from [[youtube-digest-apify-2026-05-03]])
 
@@ -74,7 +76,7 @@ A pattern (originated by [[andrej-karpathy]] in an April 2026 [GitHub gist](http
 
 The user's entire knowledge architecture *is* this pattern. Implications:
 1. **Validation**: 41K bookmarks + 5 implementer videos = the user is on a mainstream wave
-2. **Differentiation risk**: as more people adopt the pattern, "I have a wiki" stops being a differentiator — the *quality of the wiki* (and the farmers feeding it) becomes the moat
+2. **Differentiation risk**: as more people adopt the pattern, "I have a wiki" stops being a differentiator — the *quality of the wiki* (and the farmers feeding it) becomes the moat. The 2026-07 [[open-knowledge-format]] (OKF) standard sharpens this: once "OKF-compliant" is a checkbox, differentiation moves entirely to content quality + farmer coverage — with a possible early-mover edge in being **OKF-native** (a "3Ps OKF-compliant vault starter" is a crisper lead-magnet than a generic wiki)
 3. **Productization opportunity**: a "3Ps Wiki Starter Kit" (this repo, generalized) could be a lead magnet or paid product
 4. **Content angle**: the user can credibly publish wiki implementation content (vault structure, farmer configs, lint scripts) to creators currently watching [[nate-herk]] / [[teachers-tech]]
 
@@ -104,6 +106,8 @@ The 2026-05 commercial-shipping shift changes the strategic frame: the user's va
 - [[youtube-digest-apify-2026-05-10]] — commercial-shipping convergence ([[the-ai-automators]] #4) + tier-4 saturation ([[ai-academy]] #6) + [[hermes-agent]] fork ([[corey-ganim]] #3)
 - [[youtube-digest-apify-2026-05-22]] — **Karpathy joins Anthropic** ([[nate-herk]] #3, 105K views) + **[[eric-tech]] ships /wiki skill** ([[eric-tech]] #8)
 - [[youtube-digest-apify-2026-06-27]] — **[[learning-to-learn]]** Antigravity build + Apple Notes destination + zettelkasten variant (tier-4 explainer)
+- [[youtube-digest-apify-2026-07-02]] — **[[cole-medin]]**: Google ships the [[open-knowledge-format]], the pattern's first named open standard
+- [[open-knowledge-format]] — Google's open standard formalizing this pattern (2026-07)
 - [[karpathy-wiki-vs-openbrain]] — direct comparison page
 - [[knowledge-layer]] — commercial-category page for the convergence
 - [[pinecone]] — commercial-vendor-of-record

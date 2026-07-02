@@ -3,8 +3,8 @@ title: Claude Opus 4.8
 category: concept
 summary: [[anthropic]]'s frontier model released ~2026-05-28, covered in this vault via [[nate-herk]]'s *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views — his highest-view video in the 2026-05-29 batch). The video's thesis: **the benchmarks are "nuts" but the numbers only tell part of the story — don't run 4.8 the way you ran [[opus-4-7]]**. Named upgrades: **effort levels and workflows** (slotting the model into different work shapes), a **"honesty upgrade"** (the model is more candid about uncertainty / what it can't do), and fixes for specific **4.7 pain points**. The first dedicated Claude-model page in the vault; the practical-adoption counterpart to [[nate-b-jones]]'s [[ai-question-method]] (which named the Opus-4.7/GPT-5.5 prompting-style shift)
 tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, codex-harness, routing-guide, nate-b-jones, reasoning-effort]
-sources: 4
-updated: 2026-06-26
+sources: 5
+updated: 2026-07-02
 ---
 
 # Claude Opus 4.8
@@ -72,6 +72,13 @@ Where [[nate-herk]]'s coverage treats 4.8's effort levels as a clean adoption le
 
 This makes 2026-06-05 the batch where the vault's two top creators **split on 4.8**: Herk = "here's how to use the new knobs," Jones = "the knobs are unreliable and the harness is what moves outcomes." → See [[harness-over-model]] for the full framework.
 
+## 2026-07-01 — Opus is where Fable 5 hands work down (per [[nate-herk]] in [[youtube-digest-apify-2026-07-02]])
+
+[[nate-herk]]'s *How Anthropic Engineers Actually Prompt [[claude-fable-5|Fable 5]]* (30.1K views) reveals that **Fable 5 quietly hands sub-tasks *down* to Opus** (chapter 9:22, *When Fable Hands Off To Opus*). Two implications for this page:
+
+- **Opus is now a *tier in a routing hierarchy*, not just the top model** — the frontier [[claude-fable-5|Fable 5]] does its own internal routing to Opus for parts of a task. Opus's role shifts from "the model you pick" to "the model the bigger model delegates to." A model-internal auto-router, distinct from operator-run [[claude-subagents]] and from [[sakana-fugu]]'s external router.
+- **The effort-matching contradiction (below) extends to Fable 5.** Nate re-applies *"match effort levels"* to Fable 5, the same posture [[nate-b-jones]]' testing found unpredictable on 4.8. The Herk-vs-Jones split on the effort knob now spans both models. → See [[harness-over-model]] and the callout on [[claude-fable-5]].
+
 ## Why it matters for 3Ps
 
 1. **"Don't run it like 4.7" is a client talking point** — model upgrades are billable re-tuning moments: revisit effort levels, prompt/question style ([[ai-question-method]]), and which workflows now warrant the frontier tier.
@@ -103,3 +110,4 @@ This makes 2026-06-05 the batch where the vault's two top creators **split on 4.
 - [[youtube-digest-apify-2026-05-29]] — primary citation (adoption video)
 - [[youtube-digest-apify-2026-06-02]] — secondary citation (dynamic-workflows video)
 - [[youtube-digest-apify-2026-06-05]] — tertiary citation (harness-over-model skeptic read)
+- [[youtube-digest-apify-2026-07-02]] — Fable 5 hands tasks down to Opus ([[nate-herk]] #3)

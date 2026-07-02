@@ -2,9 +2,9 @@
 title: Claude Fable 5 (The Doing Got Cheap)
 category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
-tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model]
-sources: 1
-updated: 2026-06-24
+tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, free-sample-phase, token-economics]
+sources: 2
+updated: 2026-07-02
 ---
 
 # Claude Fable 5
@@ -37,6 +37,28 @@ The headline reset (chapter 06:29, *Task imagination, the new core skill*): the 
 
 The **"model managers"** framing (12:10) is the labor-market read: the durable role becomes managing the whole-job handovers, not doing the constituent tasks — the human moves up to deciding-and-reviewing.
 
+## The operator read — six habits for prompting Fable 5 ([[nate-herk]], 2026-07-01)
+
+Where Jones gives the strategic read, [[nate-herk]]'s *How Anthropic Engineers Actually Prompt Fable 5* ([[youtube-digest-apify-2026-07-02]] #3, 30.1K views, 10:44) is the **operator read** — the recurring Herk (knobs/operations) vs Jones (thesis/strategy) lens split, now on Fable 5.
+
+> *"Fable 5 is back, and it's the strongest model I've used. It's also **expensive and won't stay free** on your Claude plan for long, so this video breaks down the **six habits** I'm using to get the most out of it **without burning tokens**."*
+
+The six rules are gated to the video (chapters Rule 1→6 at 2:25 / 3:33 / 5:01 / 6:44 / 7:42 / 8:29), but the description names the throughline: *"giving it the right context, to matching effort levels, to knowing when it quietly hands your task off to Opus."*
+
+### Fable 5 hands off to Opus (chapter 9:22)
+
+The load-bearing new fact: **Fable 5 quietly routes sub-tasks down to [[opus-4-8|Opus]]** ("When Fable Hands Off To Opus"). This is a **model-internal auto-router** — an orchestration layer *inside* a single Anthropic model — and confirms the **Fable-above-Opus lineage** from the vendor side. It's distinct from:
+- **operator-controlled [[claude-subagents]]** (the human wires the delegates), and
+- **[[sakana-fugu]]'s external cross-model router** (a separate product routing across Opus/GPT/Gemini).
+
+Fable 5 does its own routing; the operator's job becomes *knowing when* the handoff happens (and what it costs), not wiring it.
+
+> ⚠️ Contradiction: Nate Herk's habit **"match effort levels"** (applied here to Fable 5) restates the same effort-control posture that [[nate-b-jones]]'s testing found **unpredictable** on [[opus-4-8]] — the Vending-Bench **effort-level trap**, where `max` effort can make long-running work *worse*. Herk treats effort-matching as a clean lever; Jones treats the effort knob as unreliable and non-monotonic. Both reads are in the vault, now spanning Opus 4.8 *and* Fable 5. → See [[harness-over-model]] and the callout on [[opus-4-8]].
+
+### Token-economics / free-window signal
+
+*"Expensive and won't stay free on your Claude plan for long"* is a [[free-sample-phase]] datapoint: Fable 5 is currently accessible on the Claude plan, but Herk expects the free access to close — consistent with the substrate-economics retention pattern around [[opus-4-8]] and the Claude Code rate-limit moves.
+
 ## Where it sits in the vault
 
 - **Successor to [[opus-4-8]]'s "don't run it like 4.7"** — where [[nate-herk]] framed 4.8 as a workflow re-tuning and Jones countered with [[harness-over-model]] (it's a checkpoint), Fable 5 is framed by Jones as a *genuine step-change* — but on the **dimension of job-size you can hand over**, not raw score. Consistent with his standing skepticism of benchmark-first reads.
@@ -59,7 +81,9 @@ The **"model managers"** framing (12:10) is the labor-market read: the durable r
 ## Used in
 
 - [[youtube-digest-apify-2026-06-24]] — vault entry point (Nate B Jones #11)
-- [[nate-b-jones]] — interpreter
+- [[youtube-digest-apify-2026-07-02]] — operator read + Opus handoff ([[nate-herk]] #3, 30.1K)
+- [[nate-b-jones]] — strategic interpreter (task-imagination read)
+- [[nate-herk]] — operator interpreter (six prompting habits)
 
 ## Related
 

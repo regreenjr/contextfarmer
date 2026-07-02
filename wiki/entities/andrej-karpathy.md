@@ -3,8 +3,8 @@ title: Andrej Karpathy
 category: entity
 summary: **Joins [[anthropic]] in 2026-05** (per [[nate-herk]] 105K-view 2026-05-19 coverage) — the LLM Wiki author crosses to the lab whose product line he's been parallel-tracking; previously co-founder of [[openai]], ex-Tesla AI head, founder of Eureka Labs; author of the **LLM Wiki gist** (now commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within four weeks), **`autoresearch`** skill, and **"vibe coding" / "Software 3.0" / "agentic engineering"** framings; his 3.5hr "Deep Dive into LLMs" (6.27M views) is the canonical mainstream LLM explainer; the Anthropic hire converts his external-creator gist artifacts into **about-to-be-first-party Anthropic architecture** — closes several previously-open vault threads
 tags: [person, ai-researcher, openai, anthropic, anthropic-employee, karpathy-joins-anthropic, eureka-labs, karpathy, llm-wiki, autoresearch, vibe-coding, knowledge-layer, pinecone, claude-code, data-moat, context-marketplace, education-layer, goal-loops]
-sources: 4
-updated: 2026-05-22
+sources: 5
+updated: 2026-07-02
 ---
 
 # Andrej Karpathy
@@ -44,6 +44,12 @@ Karpathy's recent work — **context engineering, the LLM Wiki, `/goal`-style au
 - **`/goal` and AutoResearch as the same primitive** (chapter 8:52) — Karpathy's `autoresearch` skill is reframed as a `/goal`-loop ancestor; Anthropic ships the production form
 - Predictions 1 + 2 align with [[brad-bonanno]] Phase-3 [[execution-layer]] + [[alex-mcfarland]] [[plugin-marketplace]] — **three creators converging on the same near-term Anthropic roadmap** (consensus 2026-Q3 forecast)
 
+## 2026-07-02 — Google formalizes his LLM Wiki pattern as the Open Knowledge Format (OKF)
+
+Per [[cole-medin]] (new entity) in [[youtube-digest-apify-2026-07-02]] #2 (*Finally, an Open Standard for the Karpathy LLM Wiki is HERE*, 15.6K views): **Google shipped the [[open-knowledge-format]] (OKF)** — *"an open standard that formalizes Andrej Karpathy's LLM wiki pattern into plain markdown any AI can read with zero integration"* (no plugin / RAG / vector DB; point an agent at a folder). Published under **GoogleCloudPlatform** on GitHub with a `SPEC.md` and a `cloud.google.com/blog` launch post.
+
+**Significance for Karpathy's legacy:** his April-2026 LLM Wiki gist has now traversed the full adoption arc — viral gist (41K bookmarks) → 5+ creator implementations → tier-4 explainer saturation → commercial products ([[knowledge-layer]]: Pinecone Nexus / Microsoft Fabric IQ / Google Knowledge Catalog) → **a named Google-backed open standard**. His informal pattern is now a *spec*. That it's **Google** shipping the *open, portable* version (not another proprietary product) is the notable twist. Whether the OKF spec cites him by name, and whether Anthropic tooling (his new employer) honors it, are open threads. → See [[open-knowledge-format]].
+
 ## Why it matters for this wiki
 This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/karpathy/442a37bf3a7be1f29bda3def33b2a3eb). His framings shape how the AI-creator ecosystem talks about agents, knowledge, and engineering practice. Tracking what he posts = tracking the next mainstream wave 6-12 weeks out.
 
@@ -77,6 +83,7 @@ This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/ka
 - [[youtube-digest-apify-2026-05-05]] — *Deep Dive into LLMs* (#8, evergreen) + `karpathy/autoresearch` surfacing (#5)
 - [[youtube-digest-apify-2026-05-10]] — LLM Wiki commercially shipped via [[the-ai-automators]] #4 + [[ai-academy]] #6 tier-4 explainer
 - [[youtube-digest-apify-2026-05-22]] — **joins [[anthropic]]** (Nate Herk #3, 105K views, the highest-views news video in vault)
+- [[youtube-digest-apify-2026-07-02]] — **Google formalizes his LLM Wiki pattern as the [[open-knowledge-format]]** ([[cole-medin]] #2, 15.6K views)
 - (Future) [[youtube-digest-2026-05-03]] — covered by [[nate-herk]] in earlier yt-search digest
 
 ## Related (additions from this digest)

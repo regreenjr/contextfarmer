@@ -2,9 +2,9 @@
 title: Open Engine (Shared Task Queue for Agent Handoff)
 category: concept
 summary: [[nate-b-jones]]'s **34th named framework** (*I Was The Only Thing Connecting Claude, ChatGPT, and Codex. So I Built My Replacement.*, 17.9K views, 2026-06-26, 22:04) — names the real bottleneck of multi-tool agent work as the **handoff between agents, not the model**: because agents don't talk to each other, *"you have become the human glue moving work between Claude, Codex, and ChatGPT."* **Open Engine** is a **shared task queue both people and agents read** that lets agents **hand off work, carry the sources, and leave a receipt** without a human stuck in the middle. The thesis: *"agents are loop managers and you are the hallway"* — agents are finally capable enough to do the work, so the 2026 win is **building the queue that moves work between them before you become the bottleneck** (move from *prompt mode* to *work mode*). The build-side / coordination-layer instantiation of [[agent-protocol-stack]]'s A2A (agent-to-agent delegation), the work-side cousin of [[open-skills]] (procedures don't travel ⇄ here *work* doesn't travel), and the multi-agent extension of [[loop-of-loops]]
-tags: [open-engine, agent-handoff, shared-task-queue, human-glue, agent-coordination, loop-managers, hallway, work-mode, prompt-mode, receipt, source-carrying, a2a, cross-vendor, claude-code, codex, chatgpt, nate-b-jones, 34th-framework]
-sources: 1
-updated: 2026-06-27
+tags: [open-engine, agent-handoff, shared-task-queue, human-glue, agent-coordination, loop-managers, hallway, work-mode, prompt-mode, receipt, source-carrying, a2a, cross-vendor, claude-code, codex, chatgpt, nate-b-jones, 34th-framework, own-your-memory, rent-the-intelligence, intent-loop, ai-memory, open-knowledge-format]
+sources: 2
+updated: 2026-07-02
 ---
 
 # Open Engine (Shared Task Queue for Agent Handoff)
@@ -48,6 +48,16 @@ The behavioral shift the framework asks for (chapter 00:00, *How to make your AI
 
 This is his **third consecutive cross-vendor-coordination framework** (open-skills → loop-of-loops → open-engine), all circling the same insight: in a multi-tool 2026 workflow, the scarce missing piece is the **layer between agents**, not the agents.
 
+## 2026-07-01 — the memory beneath the queue ([[youtube-digest-apify-2026-07-02]] #1)
+
+[[nate-b-jones]]' follow-up *I Built My Own AI Memory by Talking to Claude. It Did 80% Itself.* (26.5K views, 2026-07-01, 16:16) builds the **memory layer that sits underneath Open Engine** — its chapters explicitly name *"Open Engine and orch"* (06:15). Where Open Engine moves *work* between agents (hand off / carry sources / leave a receipt), this video builds the **memory each agent starts from**:
+
+- **"Own the memory yourself and rent the intelligence"** — the durable layer is your memory; the model is the rented commodity. Open Engine's *"carry the sources"* property presumes a memory the sources live in; this video is how you build it (80% by just talking to the agent).
+- **The intent loop that "waits for your yes before it acts"** — the same human-in-the-loop discipline Open Engine's *receipt* + review pattern encodes, stated at the single-agent scale (*"why intent became the central problem,"* 02:07).
+- **Start with one repeated part of your life** — make one workflow predictable enough to hand over ([[anticipation-gap]]).
+
+Same-batch resonance: [[cole-medin]]'s [[open-knowledge-format]] (OKF, #2 in the same digest) is the **portability standard** for that owned memory — so the three primitives now line up: **own the memory** (this video) → **make it portable** (OKF / [[open-skills]]) → **move work across agents on top of it** (Open Engine). → See [[knowledge-layer]], [[agent-ownership]], [[open-knowledge-format]].
+
 ## Why it matters for 3Ps / this vault
 
 1. **Names the coordination tax directly.** Operators running Claude + Codex + ChatGPT feel the "human glue" problem acutely; a queue that carries sources + leaves receipts is a concrete, sellable deliverable.
@@ -70,4 +80,7 @@ This is his **third consecutive cross-vendor-coordination framework** (open-skil
 - [[anticipation-gap]] — the other human-in-the-middle tax
 - [[ai-operating-system]] — single-operator AIOS that Open Engine coordinates across
 - [[claude-code]], [[codex]] — two of the three agents being coordinated
-- [[youtube-digest-apify-2026-06-27]] — citation
+- [[open-knowledge-format]] — the portability standard for the memory beneath the queue (same-batch, 2026-07-02)
+- [[knowledge-layer]], [[agent-ownership]] — "own the memory, rent the intelligence" (the 2026-07-01 memory-stack video)
+- [[youtube-digest-apify-2026-06-27]] — citation (34th-framework video)
+- [[youtube-digest-apify-2026-07-02]] — citation (the memory-stack-beneath-Open-Engine video)
