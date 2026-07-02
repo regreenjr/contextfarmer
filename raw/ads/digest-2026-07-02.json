@@ -1,0 +1,81 @@
+[
+  {
+    "id": "2349629392229472",
+    "brand": "edenplants.id",
+    "title": "",
+    "body_text": "Coexist with nature. \ud83c\udf42\n\nFor spaces that value calm design, natural texture, and timeless greenery, an olive tree becomes more than decoration. It becomes part of the atmosphere.\n\nCarefully selected for homes, caf\u00e9s, gardens, and curated spaces.\n\nAvailable for purchase and rental, with limited stock ready in July 2026.\n\nStay close, Eden Plants is growing soon. \ud83c\udf33\n\n#EdenPlants #edenplantsid #olivetree #curatedtrees #timelessnature",
+    "creative_format": "video",
+    "creative_url": "",
+    "start_date": "2026-06-25",
+    "end_date": "2026-07-02",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=2349629392229472",
+    "platforms": [
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "862067669673154",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-06-03",
+    "end_date": "2026-07-02",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=862067669673154",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "944007635081287",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-07",
+    "end_date": "2026-07-02",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=944007635081287",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "2052787032285696",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-07",
+    "end_date": "2026-07-02",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=2052787032285696",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "26598882629795341",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-07",
+    "end_date": "2026-07-02",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=26598882629795341",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  }
+]
