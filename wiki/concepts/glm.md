@@ -3,8 +3,8 @@ title: GLM 5.2 (Open Model in the Claude Code Harness)
 category: concept
 summary: A **756-billion-parameter open-source model** (Z.ai / Zhipu) that routes straight into the [[claude-code]] harness for **~5× cheaper than [[opus-4-8|Opus]]**, surfaced by [[nate-herk]]'s *GLM 5.2 in Claude Code is Blowing My Mind* (**132.7K views — the highest-view video in the [[youtube-digest-apify-2026-06-24]] batch**, 2026-06-19); the pitch: *"for most of my knowledge work it held up fine"* — swap the brain, keep the harness, switch models per-project via `.claude/settings.local.json`; the clearest, most concrete instance yet of [[nate-b-jones]]' [[harness-over-model]] thesis (the harness is the durable layer; the model is swappable) and a new substrate-economics lever alongside [[prompt-caching]] and [[claude-subagents]]' cheaper-model delegates
 tags: [glm, glm-5-2, z-ai, zhipu, open-model, open-source-model, claude-code, harness-over-model, opus-4-8, substrate-economics, model-routing, per-project-model, token-economics, byo-model, nate-herk, nate-b-jones, cost-lever, last-mile, context-wars, claude-tag, switching-cost, center-vs-edge]
-sources: 2
-updated: 2026-06-30
+sources: 3
+updated: 2026-07-03
 ---
 
 # GLM 5.2
@@ -59,6 +59,10 @@ The setup supports **switching models per project** — keep Opus for the work t
 
 This sharpens the 3Ps deliverable: the **de-risk-vendor-lock** move (below) is exactly the work of making a client's context *portable* so the cheaper model *can* be dropped in. The vault now has both sides — the supply-side lever (Nate Herk, swap the brain) and the demand-side lock (Nate B Jones, you can't move your context). → See [[context-wars]] and [[claude-tag]].
 
+## GLM's canonical role — the cheap workhorse (Nate B Jones, 2026-07-02)
+
+[[nate-b-jones]]' [[model-routing]] picker (*Stop Wasting Money on the Wrong AI*, 11.1K views, [[sources/youtube-digest-apify-2026-07-03]]) gives GLM 5.2 its **canonical job in the routing matrix**: the **cheap workhorse for familiar, repeatable work** — *"why daily-driver models differ from cheap workhorse models like GLM 5.2 … route familiar work to cheaper models and review it fast."* Where Nate Herk's 06-19 video proved GLM routes into the [[claude-code]] harness ~5× cheaper, and Jones' 06-28 video explained why the price win alone doesn't trigger switching (the last mile), the 07-02 picker supplies the **prescription**: down-route the familiar 80% to GLM, reserve the frontier tier ([[opus-4-8]] / [[claude-fable-5|Fable]]) for the unclear-shape 20%. GLM is no longer just a cost demo — it's a named node in an operator's routing table. → See [[model-routing]].
+
 ## Open questions
 
 - **Where exactly does GLM 5.2 fall short of Opus?** The win/lose boundary (chapter ~2:40, *When You Actually Need [Opus]*) is gated to the video.
@@ -68,10 +72,12 @@ This sharpens the 3Ps deliverable: the **de-risk-vendor-lock** move (below) is e
 ## Used in
 
 - [[youtube-digest-apify-2026-06-24]] — vault entry point (Nate Herk #9, highest-view in batch)
+- [[youtube-digest-apify-2026-07-03]] — [[nate-b-jones]] names GLM the *cheap workhorse* in his [[model-routing]] picker
 - [[nate-herk]] — author
 
 ## Related
 
+- [[model-routing]] — Nate B Jones' picker that gives GLM its canonical cheap-workhorse role
 - [[harness-over-model]] — GLM-in-Claude-Code is its clearest concrete instance
 - [[claude-code]] — the harness GLM routes into
 - [[opus-4-8]] — the model it undercuts ~5× on price

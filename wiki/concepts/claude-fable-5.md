@@ -4,7 +4,7 @@ category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
 tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, free-sample-phase, token-economics]
 sources: 2
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 # Claude Fable 5
@@ -84,6 +84,7 @@ Fable 5 does its own routing; the operator's job becomes *knowing when* the hand
 - [[youtube-digest-apify-2026-07-02]] — operator read + Opus handoff ([[nate-herk]] #3, 30.1K)
 - [[nate-b-jones]] — strategic interpreter (task-imagination read)
 - [[nate-herk]] — operator interpreter (six prompting habits)
+- [[sources/youtube-digest-apify-2026-07-03]] — [[nate-b-jones]]' [[model-routing]] picker reserves Fable for *"Fable-style problems that need the strongest model"* (the hardest 20%)
 
 ## Related
 

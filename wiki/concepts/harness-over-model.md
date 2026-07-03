@@ -3,8 +3,8 @@ title: Harness Over Model (Your Workflow Doesn't Care About the Score)
 category: concept
 summary: [[nate-b-jones]]' 27th named framework (2026-06-03, 34.3K views) — the **model-selection counterpart** to his [[long-running-benchmarks]] harness thesis: a stronger benchmark score does NOT automatically make a model your daily driver, because **harnesses, compute, and workflow reliability now matter as much as raw model intelligence**; [[opus-4-8]] is reframed as a **checkpoint release** where *"the product harness around the model now matters more than the model itself"*; named evidence: **reasoning effort became unpredictable on 4.8**, the **Codex harness outperformed raw model intelligence** on real work, the **effort-level trap** (Vending-Bench data showing `max` effort can make long-running work *worse*), and a **routing guide** (Opus 4.8 vs Codex/5.5 vs GPT-5.5); the operator prescription is **architect for harness flexibility** (swappable harnesses, not a permanent model choice); lands as the explicit skeptic's counterweight to [[nate-herk]]'s enthusiastic 4.8 adoption coverage — the vault's first tracked creator disagreement on a Claude model
 tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility, last-mile, switching-cost, context-wars, claude-tag, glm, lock-in]
-sources: 3
-updated: 2026-06-30
+sources: 4
+updated: 2026-07-03
 ---
 
 # Harness Over Model
@@ -84,6 +84,10 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 
 [[nate-b-jones]]' *GLM 5.2 Is Free And Beats Claude On Most Work. So Why Can't Companies Switch?* (83.5K, [[youtube-digest-apify-2026-06-30]] #4) gives the thesis its **enterprise-adoption edge**: if the harness is the durable layer, then **the harness is also the lock-in**. *"The real bottleneck is no longer the model call. It is the last mile around it: context, routing, and harnesses."* A cheaper-and-better model ([[glm]]) doesn't get adopted because **you can't move your context** — *"switching a model means replacing a whole work system, not a call."* [[claude-tag]] (Anthropic's Slack-resident harness) is the named mechanism that traps the context. So harness-over-model cuts both ways: it's the **operator's leverage** (architect for flexibility) *and* the **vendor's moat** (own the harness, keep the customer). The macro framing is [[context-wars]]. → Updates from same creator, same batch as the original framework.
 
+## The picker — model-routing operationalizes the thesis (2026-07-02)
+
+[[nate-b-jones]]' *Stop Wasting Money on the Wrong AI* (11.1K views, [[sources/youtube-digest-apify-2026-07-03]]) turns harness-over-model from an *argument* into a *decision matrix* → [[model-routing]]. Where this framework said the score doesn't make a daily driver, the 07-02 picker says **here is how to choose**: *start with the job, not the model* — cheap workhorse ([[glm]]) for familiar/repeatable work, frontier for unclear-shape jobs, [[claude-fable-5|Fable]] for the strongest problems, specialists for images/video/live-web/coding-harnesses. The daily-driver-and-why-the-harness-matters chapter (03:53) is a direct callback to this framework, and the *"keep your context portable"* close restates the last-mile switching-cost thesis as an operator habit ([[context-wars]]). Same creator, same posture — the prescriptive per-job companion to the argument here. → See [[model-routing]].
+
 ## Open questions
 
 - **What were the actual scored test results?** The "81" and the per-test breakdown (where 4.8 won, where GPT-5.5 beat it) are gated to the Substack post.
@@ -95,6 +99,7 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 ## Used in
 
 - [[sources/youtube-digest-apify-2026-06-05]] — vault entry point
+- [[sources/youtube-digest-apify-2026-07-03]] — [[model-routing]], the prescriptive per-job picker that operationalizes this thesis
 - [[nate-b-jones]] — 27th framework in his cadence
 - [[opus-4-8]] — checkpoint-release reframe + effort-level instability
 - [[long-running-benchmarks]] — the eval-side thesis this extends into model-selection
@@ -112,3 +117,4 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 - [[glm]] — the cleanest concrete proof (swap a cheaper open model, keep the harness)
 - [[sakana-fugu]] — a strong-model-in-good-harness beats an auto-router (38-task test)
 - [[directing-agents]] — names "harness engineering" + the "dumb zone"
+- [[model-routing]] — the prescriptive per-job model-picker that turns this thesis into a decision matrix

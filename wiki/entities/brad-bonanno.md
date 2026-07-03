@@ -3,8 +3,8 @@ title: Brad Bonanno
 category: entity
 summary: AI & Automation YouTuber; coined/popularized "context farming" pattern that this vault uses; Skills marketplace builder; canonical "OpenClaw is dead, first-party Claude Code wins" voice; in 2026-05 ships the canonical 13-product "Learn Claude From Scratch" tour; in 2026-05-14 ships [[execution-layer]] (Phase 3); **in 2026-05-21 ships Phase 4** — first-creator-walkthrough coverage of [[anthropic]]'s newly-launched [[claude-for-small-business]] vertical plugin (~30 pre-built skills + connectors for QuickBooks/Xero/Stripe/HubSpot/Gmail + `/smb-onboard` meta-skill); his four-video trajectory sequence: context-farming (Phase 1) → 13-product tour (Phase 2) → execution layer (Phase 3) → **Anthropic-shipped vertical plugin coverage (Phase 4)**; CFSB likely preempts his own skills-marketplace roadmap but he covers it favorably — Brad continues to be the canonical creator-side commentator on Anthropic product launches
 tags: [creator, youtube, claude-code, context-farming, second-brain, skills-marketplace, telegram, scheduled-tasks, auto-memory, claude-product-tour, execution-layer, sub-plugins, pr-back-loop, team-scaling, cross-vendor, claude-for-small-business, smb-onboard, anthropic-vertical-plugins, phase-4, mcp-connectors, content-ideas-skill, creator-growth, outlier-rating, comment-mining, anti-cannibalization, scrape-creators, for-you-page, event-driven-routines, cloud-routine, cal-com, make-com, sally, pre-call-research, apify, firecrawl, webhook, anticipation-gap]
-sources: 8
-updated: 2026-06-27
+sources: 9
+updated: 2026-07-03
 ---
 
 # Brad Bonanno
@@ -139,6 +139,21 @@ Data via **Scrape Creators** (`scrapecreators.com`); funnel to AI Strategy Call 
 
 **Strategic significance**: the **event-driven** complement to his prior AIOS coverage. Phases 1-4 + the 06-24 13-workflow/VS-Code instantiation showed a *manually-invoked* operator system; this is the first time he wires a workflow to **fire on an external event** rather than a slash command or a cron. The vault's farmers are **cron-scheduled** ([[context-farming]]); Brad's `webhook → middleware → cloud routine` chain is the **missing event-trigger primitive**. Skill download: `brad-b.kit.com/0b31eb2b33`. → New concept: [[event-driven-routines]]. Updates: [[ai-operating-system]] (cadence/connections made event-driven), [[claude-code]] (cloud routines + event triggers), [[mcp]], [[anticipation-gap]].
 
+## Key video in [[youtube-digest-apify-2026-07-03]]
+
+- #2 *This Skill Can INSTANTLY Watch any Video For Free - Here's How* — 1,199 views, 2026-07-02, 8:31. A free, open-source [[claude-skills|Claude skill]] (`/watch`) that gives [[claude-code]] the ability to **watch video** — a capability it otherwise lacks. → New concept: [[watch-skill]].
+
+**The mechanism**: *"Paste a link and Claude pulls the frames and the transcript together, so it understands what happens on screen and when."* Works across **1,600+ sites** (YouTube, Zoom recordings, Looms, TikToks) plus local files; *"demolished a 2-hour interview in seconds."* Skill download: `brad-b.kit.com/5ca85f4a2a`; funnel: `cal.com/bradley-bonanno/ai-st...`.
+
+**v2 — the token-economics rewrite** (almost every feature is about spending fewer tokens for the same understanding):
+- **Smart scene selection** — picks frames that matter instead of sampling blindly.
+- **Deictic targeting** — when a speaker says *"look at this,"* Claude finds the exact frame.
+- **Token burner mode** — cap off for maximum detail when you need it.
+- **Efficient keyframe mode** — pulls keyframes from the video file instead of rebuilding every frame — *"that's where the 40× comes from."*
+- **Frame deduplication** — strips near-identical frames so *"you stop paying tokens for the same picture twice"* (the #1 v1 complaint). Install: *"two commands, two minutes,"* plus a first-run mode picker across four modes.
+
+**Strategic significance**: another **free-skill-as-lead-magnet** in Brad's playbook (sibling of [[content-ideas-skill]]) — but unlike content-ideas (a workflow tool), `/watch` closes a genuine **[[claude-code]] capability gap** (video comprehension). The v2 emphasis is almost entirely **token economics**, placing it in the 2026 substrate-economics cluster alongside [[glm]] and [[model-routing]]. Direct vault relevance: the YouTube [[context-farming|farmer]] currently ingests **titles + descriptions + chapters only** (transcripts explicitly not pulled); `/watch` is the primitive that could upgrade it to **frame-level video understanding**. → New concept: [[watch-skill]]. Updates: [[claude-skills]], [[claude-code]].
+
 ## The four-phase product trajectory
 
 | Phase | Video | Concept | Vault implementation |
@@ -177,6 +192,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[context-farming]] — the canonical concept page (Phase 1)
 - [[event-driven-routines]] — his event-triggered pre-call research build (2026-06-27); the event-trigger complement to cron-scheduled context-farming
 - [[content-ideas-skill]] — his free content-ideation skill (creator-growth axis, 2026-06-03)
+- [[watch-skill]] — his free `/watch` video-comprehension skill (2026-07-03); closes a Claude Code capability gap, sibling free-skill-lead-magnet
 - [[self-improving-skills]] — `/content-ideas`' auto-memory tuning is the preference-side cousin
 - [[execution-layer]] — his Phase 3 concept (productization above the brain)
 - [[karpathy-llm-wiki]] — the architecture his pattern implements
@@ -195,6 +211,7 @@ This makes him the **highest-priority creator-watch** for vault architecture evo
 - [[youtube-digest-apify-2026-06-03]] — video #1 (*I Hit 10k Subs in 3 Months* — `/content-ideas` skill, creator-growth axis)
 - [[youtube-digest-apify-2026-06-24]] — videos #8 (*Claude Code RUNS My Business — 13 WORKFLOWS*) + #10 (*The AI Setup I Use to Run EVERYTHING* — VS Code as AIOS shell)
 - [[youtube-digest-apify-2026-06-27]] — video #2 (*I Automated Pre-Call Research with Claude Code* — event-driven cloud routine, "Sally" pre-call research → [[event-driven-routines]])
+- [[youtube-digest-apify-2026-07-03]] — video #2 (*This Skill Can INSTANTLY Watch any Video For Free* — the free `/watch` video-comprehension skill → [[watch-skill]])
 - [[context-farming]] — primary citation
 - [[claude-code]] — primary citation for Channels / Scheduled Tasks / Auto Memory features
 - [[anthropic]] — most comprehensive product-surface tour

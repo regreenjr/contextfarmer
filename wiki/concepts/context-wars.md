@@ -4,7 +4,7 @@ category: concept
 summary: [[nate-b-jones]]' macro-thesis (*The Real Story Behind the Government GPT 5.6 Freeze*, 32.1K views, 2026-06-29) that as frontier intelligence **slows**, the competitive front shifts **from "which lab has the smartest model" to "who controls the context that makes any model useful — your files, your Slack, your phone"**; the named instances are **Apple wiring Siri into your phone context**, **Anthropic's [[claude-tag]] living inside Slack**, and **[[codex]] earning trust on sensitive work at OpenAI**, set against the **US government slowing frontier releases (the GPT-5.6 "freeze")**; the umbrella thesis over the vault's context cluster ([[harness-over-model]], [[glm]] last-mile, [[open-engine]], [[karpathy-llm-wiki]] data moat, [[ai-operating-system]] "context is king"), with a privacy hinge — *"the same access quietly turns every convenience into a decision about what you are willing to hand over"*
 tags: [context-wars, nate-b-jones, intelligence-wars, context-moat, last-mile, harness-over-model, glm, claude-tag, codex, apple-siri, government-freeze, gpt-5-6, frontier-slowdown, privacy, slack, files, phone, macro-thesis]
 sources: 1
-updated: 2026-06-30
+updated: 2026-07-03
 ---
 
 # Context Wars
@@ -46,3 +46,4 @@ Backdrop: **the US government slowing frontier releases** (12:51) — the GPT-5.
 - [[anthropic]], [[openai]] — the labs racing for context
 - [[free-sample-phase]] — *"the real product isn't the subscription, it's you"* (substrate-economics sibling)
 - [[nate-b-jones]] — the creator
+- [[model-routing]] — [[nate-b-jones]]' model-picker restates *"keep your context portable"* as an operator habit ([[sources/youtube-digest-apify-2026-07-03]])
