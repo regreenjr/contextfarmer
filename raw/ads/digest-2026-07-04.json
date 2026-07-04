@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1339969168063697",
+    "brand": "Ro",
+    "title": "",
+    "body_text": "{{product.brand}}",
+    "creative_format": "unknown",
+    "creative_url": "",
+    "start_date": "2026-06-14",
+    "end_date": "2026-07-04",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1339969168063697",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  }
+]
