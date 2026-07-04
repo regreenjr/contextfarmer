@@ -4,7 +4,7 @@ category: concept
 summary: [[nate-b-jones]]' 23rd named framework (2026-05-27, 16.8K views) — the **document-reliability discipline** for building Office files (PowerPoint, Excel, Word) with AI agents at the center; core thesis *"a prompt asks for output, but a workflow defines trust"* (a clean-looking deck with an undefendable number is worse than no deck); four-stage pipeline **sources → structure → creation → verification**; the **hostile reviewer prompt** (a second adversarial AI pass whose only job is to find the undefendable claim) + the **task risk gradient** (where AI is highest vs lowest risk on a document task); models are goal-oriented and will *guess without sources*; the document-creation-side complement to [[project-room-workflow]] (canvas-before-prompt for writing) and the deliverable-boundary sibling of [[agent-security]]'s LLM-as-judge (action-boundary). Distinct from [[prove-it-economy]]'s marketing-side "truth layer"
 tags: [document-truth-layer, truth-layer, hostile-reviewer, judge-architecture, task-risk-gradient, four-stage-workflow, sources-structure-creation-verification, office-files, powerpoint, excel, word, board-deck, goal-oriented-models, source-pinning, verification-stage, nate-b-jones, workflow-defines-trust, deliverable-trust]
 sources: 1
-updated: 2026-05-28
+updated: 2026-07-04
 ---
 
 # Document Truth Layer (Reliable AI-Built Office Files)
@@ -103,3 +103,4 @@ Same brand term, different surface. Not a contradiction — flagged on both page
 - [[prove-it-economy]] — the *other* "truth layer" (marketing-side); naming-collision flagged
 - [[claude-code]] — substrate; Anthropic `pptx`/`xlsx`/`docx` skills generate the artifacts this framework audits
 - [[claude-skills]] — the hostile-reviewer pass is a packageable audit skill
+- [[reusable-agent-skeleton]]

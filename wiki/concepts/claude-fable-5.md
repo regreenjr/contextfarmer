@@ -2,9 +2,9 @@
 title: Claude Fable 5 (The Doing Got Cheap)
 category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
-tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, free-sample-phase, token-economics]
-sources: 2
-updated: 2026-07-03
+tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, free-sample-phase, token-economics, karpathy-llm-wiki, wiki-as-substrate, connected-second-brain]
+sources: 3
+updated: 2026-07-04
 ---
 
 # Claude Fable 5
@@ -59,6 +59,12 @@ Fable 5 does its own routing; the operator's job becomes *knowing when* the hand
 
 *"Expensive and won't stay free on your Claude plan for long"* is a [[free-sample-phase]] datapoint: Fable 5 is currently accessible on the Claude plan, but Herk expects the free access to close — consistent with the substrate-economics retention pattern around [[opus-4-8]] and the Claude Code rate-limit moves.
 
+## Fable 5 as the reasoning layer over an LLM wiki ([[nate-herk]], 2026-07-03)
+
+In *Fable 5 + Karpathy's LLM Wiki is Basically Cheating* (23.1K views, [[sources/youtube-digest-apify-2026-07-04]] #1), [[nate-herk]] pairs Fable 5 with a [[karpathy-llm-wiki|Karpathy LLM wiki]] built in ~5 minutes on [[claude-code|Claude Code]] + Obsidian. The *"basically cheating"* claim: pointing Anthropic's largest model at a **compiled, cross-linked knowledge base** lets it *"reason over"* the whole corpus at once — *"a connected second brain that my AI OS can actually reason over."* Chapter 1:13 (*What Fable Does With the Data*) is the load-bearing beat.
+
+This is the **"doing got cheap" thesis applied to your own knowledge**: the scarce input becomes the *quality of the compiled substrate* you hand the model, not the prompt. It's the first time the vault has a creator explicitly pairing the **frontier model + LLM-wiki substrate** as one combined move (vs treating Fable 5 as a standalone chat model). See [[karpathy-llm-wiki]] for the build details (multiple topic-scoped wikis, flat-vs-structured schema fork, routing rules).
+
 ## Where it sits in the vault
 
 - **Successor to [[opus-4-8]]'s "don't run it like 4.7"** — where [[nate-herk]] framed 4.8 as a workflow re-tuning and Jones countered with [[harness-over-model]] (it's a checkpoint), Fable 5 is framed by Jones as a *genuine step-change* — but on the **dimension of job-size you can hand over**, not raw score. Consistent with his standing skepticism of benchmark-first reads.
@@ -85,6 +91,7 @@ Fable 5 does its own routing; the operator's job becomes *knowing when* the hand
 - [[nate-b-jones]] — strategic interpreter (task-imagination read)
 - [[nate-herk]] — operator interpreter (six prompting habits)
 - [[sources/youtube-digest-apify-2026-07-03]] — [[nate-b-jones]]' [[model-routing]] picker reserves Fable for *"Fable-style problems that need the strongest model"* (the hardest 20%)
+- [[sources/youtube-digest-apify-2026-07-04]] — [[nate-herk]] pairs Fable 5 with a Karpathy LLM wiki as the reasoning layer over a connected second brain (#1, 23.1K)
 
 ## Related
 

@@ -4,7 +4,7 @@ category: entity
 summary: **Joins [[anthropic]] in 2026-05** (per [[nate-herk]] 105K-view 2026-05-19 coverage) — the LLM Wiki author crosses to the lab whose product line he's been parallel-tracking; previously co-founder of [[openai]], ex-Tesla AI head, founder of Eureka Labs; author of the **LLM Wiki gist** (now commercially shipped by [[pinecone]] Nexus + Microsoft Fabric IQ + Google Knowledge Catalog within four weeks), **`autoresearch`** skill, and **"vibe coding" / "Software 3.0" / "agentic engineering"** framings; his 3.5hr "Deep Dive into LLMs" (6.27M views) is the canonical mainstream LLM explainer; the Anthropic hire converts his external-creator gist artifacts into **about-to-be-first-party Anthropic architecture** — closes several previously-open vault threads
 tags: [person, ai-researcher, openai, anthropic, anthropic-employee, karpathy-joins-anthropic, eureka-labs, karpathy, llm-wiki, autoresearch, vibe-coding, knowledge-layer, pinecone, claude-code, data-moat, context-marketplace, education-layer, goal-loops]
 sources: 5
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 # Andrej Karpathy
@@ -85,6 +85,7 @@ This vault *literally implements* his [LLM Wiki gist](https://gist.github.com/ka
 - [[youtube-digest-apify-2026-05-22]] — **joins [[anthropic]]** (Nate Herk #3, 105K views, the highest-views news video in vault)
 - [[youtube-digest-apify-2026-07-02]] — **Google formalizes his LLM Wiki pattern as the [[open-knowledge-format]]** ([[cole-medin]] #2, 15.6K views)
 - (Future) [[youtube-digest-2026-05-03]] — covered by [[nate-herk]] in earlier yt-search digest
+- [[sources/youtube-digest-apify-2026-07-04]]
 
 ## Related (additions from this digest)
 - [[knowledge-layer]] — the commercial category his gist seeded

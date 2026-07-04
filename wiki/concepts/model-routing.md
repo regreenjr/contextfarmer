@@ -4,7 +4,7 @@ category: concept
 summary: [[nate-b-jones]]' practical **model-picker** framework (*Stop Wasting Money on the Wrong AI*, 11.1K views, 2026-07-02) — the prescriptive, per-job companion to his [[harness-over-model]] thesis; *"the common story is that the smartest model wins; the real question is which intelligence a specific job actually needs"* — so you **start with the job, not the model**, route familiar/repeatable work to a **cheap workhorse** ([[glm|GLM 5.2]]) and review it fast, keep a **frontier model** for when the *shape of the job is unclear* (*"[[claude-fable-5|Fable]]-style problems that need the strongest model"*), and hand specific jobs to **specialists** (images, video, live web, coding harnesses); the durable move is *"keep your context portable"* so *"no single model going away can stall your work"* — the [[context-wars]] posture stated as an operator habit.
 tags: [nate-b-jones, framework, model-routing, model-picker, route-by-the-job, workhorse-model, daily-driver, frontier-model, specialists, portable-context, harness-over-model, glm, glm-5-2, claude-fable-5, opus-4-8, context-wars, substrate-economics, cost-control, model-selection]
 sources: 1
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Model Routing
@@ -77,3 +77,4 @@ The chapters open on *"why picking an AI model suddenly got hard"* (00:00), lead
 - [[context-wars]] — *"keep your context portable"* is this thesis as an operator habit
 - [[prompt-caching]], [[claude-subagents]] — fellow substrate-economics / cost levers
 - [[long-running-benchmarks]] — the shared don't-trust-the-benchmark, test-on-your-own-work posture
+- [[reusable-agent-skeleton]]

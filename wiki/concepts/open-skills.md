@@ -4,7 +4,7 @@ category: concept
 summary: [[nate-b-jones]]' **30th named framework** + product launch (*The Skill vs Prompt Problem Everyone Gets Wrong*, 24.8K views, 2026-06-19) — agent skills **do not travel** between [[claude-code]], [[codex]], and Cursor, and *"that is becoming one of the most expensive problems in AI work"*; thesis: **memory alone doesn't make agents work** — the unsolved problem is *who owns the procedure when you switch tools*; prompt bloat becomes **procedural debt** across tools; a **real skill ≠ a clever prompt** (a skill adds verification + is a reusable primitive); **own portable procedures, not rented ones**, and stop re-explaining your work; the portability framework above [[claude-skills]] and the procedural-asset cousin of [[portable-judgment]] (career evidence) and [[retrieval-contract]] (own-it-vs-rediscover-it)
 tags: [open-skills, nate-b-jones, framework, portable-skills, procedural-debt, prompt-vs-skill, claude-skills, skill-systems, portable-judgment, retrieval-contract, codex, cursor, claude-code, verification, primitives-vs-runbooks, own-not-rent, agent-ownership]
 sources: 1
-updated: 2026-06-24
+updated: 2026-07-04
 ---
 
 # Open Skills
@@ -78,3 +78,4 @@ Worked examples (06:00, *Prompt vs skill: search, voice, and browser QA*) show t
 - [[agent-ownership]] — same-batch sibling; who owns the running agent
 - [[codex]] — one of the three tools skills fail to travel between
 - [[skill-creator]], [[skill-authoring-lessons]] — authoring-side neighbors
+- [[reusable-agent-skeleton]]
