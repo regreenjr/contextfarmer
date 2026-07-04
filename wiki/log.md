@@ -266,3 +266,7 @@ Alek — Skill Forge (generation-first meta-skill). New: sources/youtube-digest-
 ## [2026-07-04] ingest | YouTube digest 2026-07-04 — Nate Herk (Fable 5 + LLM Wiki; Claude wealth wave) + Nate B Jones (reusable agent skeleton)
 
 New: sources/youtube-digest-apify-2026-07-04, concepts/claude-wealth-wave, concepts/reusable-agent-skeleton. Updated: karpathy-llm-wiki, claude-fable-5, nate-herk, nate-b-jones, agent-security, document-truth-layer, open-skills, model-routing, ai-consulting, andrej-karpathy.
+
+## [2026-07-04] ingest | FB Ads Digest — 2026-07-04 (batch 30)
+
+1 new ad (186 fetched, 185 dedup = 99.46%), 100% signal — thinnest signal-bearing batch; lone ad = Ro placeholder (Run 10, returns from 28+29 trough). All 7 other tracked brands silent (Hims, OpenAI, Anthropic 19th silence/strict-lock, Eden 17th silence). Touched: sources/ads-digest-2026-07-04 (new), entities/ro, entities/hims, entities/openai, entities/anthropic, entities/eden, concepts/competitor-ads-farm, index.
