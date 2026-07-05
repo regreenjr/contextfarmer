@@ -274,3 +274,7 @@ New: sources/youtube-digest-apify-2026-07-04, concepts/claude-wealth-wave, conce
 ## [2026-07-05] ingest | YouTube digest 2026-07-05 (Nate B Jones Fable-5 goal-harness + Griffin Wooldridge design-skills + Skill Leap AI)
 
 Created sources/youtube-digest-apify-2026-07-05, entities/griffin-wooldridge, entities/skill-leap-ai, concepts/design-skills. Updated nate-b-jones, claude-fable-5 (goal-harness), harness-over-model, claude-skills (design vertical + beginner/skill-safety), skill-creator, free-sample-phase. 4 created, 6 updated.
+
+## [2026-07-05] ingest | FB Ads Digest — Competitor brands — 2026-07-05 (batch 31)
+
+2 new ads, 50% signal (190 fetched, 188 dedup). OpenAI returns from batch-30 silence with 1 catalog placeholder (Cluster-2 re-surface), reverts catalog-only; batch-29 o3 re-fire gets no continuation (30+31), leans single re-fire. Ro Run 10 ends at a single batch (breaks the 2-batch-run hypothesis). Hims 2nd silence, Anthropic 20th silence (strict lock), Eden 18th silence. 1 noise ad: Ophthalmology at BMJ Group (first academic-publisher noise page). Touched: sources/ads-digest-2026-07-05 (new), entities/openai, entities/ro, entities/anthropic, entities/hims, entities/eden, concepts/competitor-ads-farm.
