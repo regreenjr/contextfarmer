@@ -1,0 +1,36 @@
+[
+  {
+    "id": "964016993098345",
+    "brand": "OpenAI",
+    "title": "{{product.name}}",
+    "body_text": "{{product.brand}}",
+    "creative_format": "carousel",
+    "creative_url": "",
+    "start_date": "2026-05-08",
+    "end_date": "2026-07-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=964016993098345",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM"
+    ]
+  },
+  {
+    "id": "1486005956228016",
+    "brand": "Ophthalmology at BMJ Group",
+    "title": "Explore the published Topic Collection",
+    "body_text": "'Innovations in Ophthalmology: Integrating AI, Imaging, and Omics'\nRead the published articles in BMJ Open Ophthalmology",
+    "creative_format": "image",
+    "creative_url": "",
+    "start_date": "2026-04-30",
+    "end_date": "2026-07-05",
+    "is_active": true,
+    "library_url": "https://www.facebook.com/ads/library/?id=1486005956228016",
+    "platforms": [
+      "FACEBOOK",
+      "INSTAGRAM",
+      "MESSENGER",
+      "THREADS"
+    ]
+  }
+]
