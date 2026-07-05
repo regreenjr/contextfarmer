@@ -4,7 +4,7 @@ category: concept
 summary: [[nate-herk]]'s 2026-05-13 framing for the substrate-economics moment in AI tooling — "the real product isn't the subscription, it's you"; when Anthropic passed OpenAI in business adoption (per Ramp/EconLab), within hours both labs dropped lock-in offers (Codex 2 months free, Claude Code +50% limits); the strategic play is to use it like crazy while building projects flexible enough to swap tools the day pricing resets; same industry pattern as cloud / mobile-OS / streaming wars; the substrate-economics counterpart to [[skill-systems]] / vendor-agnostic positioning at the architecture layer
 tags: [free-sample-phase, anthropic, openai, codex, claude-code, lock-in, business-adoption, substrate-economics, vendor-agnostic, training-data, nate-herk, ramp, econlab]
 sources: 1
-updated: 2026-05-14
+updated: 2026-07-05
 ---
 
 # Free Sample Phase
@@ -170,3 +170,4 @@ The framing transcends either vendor. It's a substrate-economics pattern. The sa
 - [[youtube-digest-apify-2026-05-14]] — primary citation ([[nate-herk]] #5)
 - [[anthropic]], [[openai]], [[claude-code]], [[codex]] — substantively affected pages
 - [[ai-consulting]] — vendor-agnostic positioning rationale
+- [[sources/youtube-digest-apify-2026-07-05]]

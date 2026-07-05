@@ -3,8 +3,8 @@ title: Skill Creator
 category: concept
 summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
 tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk, skill-authoring-lessons, gotchas-section, stop-railroading, brock-mesarich, skill-forge, generation-first, alek]
-sources: 4
-updated: 2026-07-01
+sources: 5
+updated: 2026-07-05
 ---
 
 # Skill Creator
@@ -152,6 +152,10 @@ They're complementary, not competing: **generate with Skill Forge → prove with
 
 Anthropic's *Lessons from building Claude Skills* article (surfaced via [[brock-mesarich]], → [[skill-authoring-lessons]]) **first-party-validates Skill Creator's core mechanic**: it names the **`description` field as the highest-leverage field, written for the model not humans** — exactly the field Skill Creator's automated **description-field optimization** tunes. The article's **"stop railroading Claude"** lesson is the authoring-time complement to Skill Creator's eval-time discipline: don't over-constrain a capable model with rigid scripts; let the eval loop confirm the looser skill still passes. The pairing is clean — [[skill-authoring-lessons]] is the **human-readable how-to-author** companion to Skill Creator's **mechanical how-to-evaluate**.
 
+## Beginner on-ramp — build-from-scratch ([[skill-leap-ai]] 2026-06-29)
+
+[[skill-leap-ai]]'s *Ultimate Guide To Claude Skills* (29.5K views, [[youtube-digest-apify-2026-07-05]] #3) positions Skill Creator as the **non-technical on-ramp** — *"how to build a skill from scratch with the Claude skill creator"* — rather than an eval tool bolted on after hand-authoring. This is a distinct framing from [[chase-ai]]'s eval-mechanics walkthrough: for a beginner, Skill Creator is the *first* tool you touch (scaffold → build), not the last (test → optimize). Named example builds: a writing-style skill, a deep-research auditor, a CSV dashboard, a content engine, an on-brand presentation maker. The video also carries a **skill-safety / provenance** caveat (build your own + read the instructions before running internet skills) — the consumer-facing complement to Skill Creator's acceptance-test discipline. → See [[skill-leap-ai]].
+
 ## Open questions
 
 - **External-tool dependencies** — Skill Creator's eval architecture is presumably designed for self-contained skills. How does it handle skills that depend on MCP tools, sub-agents, or [[printing-press]] CLIs? Test fixtures or stubs?
@@ -186,5 +190,6 @@ Anthropic's *Lessons from building Claude Skills* article (surfaced via [[brock-
 - [[youtube-digest-apify-2026-05-11]] — primary citation
 - [[youtube-digest-apify-2026-05-23]] — self-improving-skills extension
 - [[youtube-digest-apify-2026-06-05]] — grill-me-skill front-loading-context front-end
+- [[skill-leap-ai]] — beginner build-from-scratch on-ramp + skill-safety/provenance ([[youtube-digest-apify-2026-07-05]])
 - [[code-with-beto]], [[ben-ai]] — fellow authoring-discipline voices
 - [[karpathy-llm-wiki]] — autoresearch lineage inherited via self-improving-skills

@@ -2,9 +2,9 @@
 title: Claude Fable 5 (The Doing Got Cheap)
 category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
-tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, free-sample-phase, token-economics, karpathy-llm-wiki, wiki-as-substrate, connected-second-brain]
-sources: 3
-updated: 2026-07-04
+tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, goal-harness, harness-author, short-prompts, blender, free-sample-phase, token-economics, karpathy-llm-wiki, wiki-as-substrate, connected-second-brain]
+sources: 4
+updated: 2026-07-05
 ---
 
 # Claude Fable 5
@@ -65,6 +65,19 @@ In *Fable 5 + Karpathy's LLM Wiki is Basically Cheating* (23.1K views, [[sources
 
 This is the **"doing got cheap" thesis applied to your own knowledge**: the scarce input becomes the *quality of the compiled substrate* you hand the model, not the prompt. It's the first time the vault has a creator explicitly pairing the **frontier model + LLM-wiki substrate** as one combined move (vs treating Fable 5 as a standalone chat model). See [[karpathy-llm-wiki]] for the build details (multiple topic-scoped wikis, flat-vs-structured schema fork, routing rules).
 
+## The goal-harness move — use Fable to *build the harness*, not do the work ([[nate-b-jones]], 2026-07-05)
+
+In the short (3:50) operator tip *Free Fable 5 tokens this weekend? Here's how to max them* (16.8K views, [[sources/youtube-digest-apify-2026-07-05]] #1), [[nate-b-jones]] corrects the standard planner/coder advice:
+
+> *"The common advice is to plan with Fable 5 and code with something else, but the real move is using it to **design the goal harness that steers whatever coding model** you hand the work to."*
+
+**"Goal harness"** names Fable 5's highest-leverage role: not the planner, not the coder, but the **harness author** — the artifact (goals, verification criteria, guardrails) that *steers a cheaper coding model*. This is [[harness-over-model]] pushed one step further: that framework said *the harness beats the raw score*; here the **frontier model's best use is to build the harness itself**. Three supporting tips:
+- **Short prompts beat long ones on hard problems** — the counter-intuitive posture for the strongest model (his [[ai-question-method]] senior-partner line applied to Fable).
+- **Wire Fable into tools like Blender** for real output — the model driving an external tool.
+- **Aim it only at problems that need the horsepower** — his [[model-routing]] picker restated; *"worth paying for even after the free tokens are gone, but only if you aim it at problems that genuinely need that horsepower."*
+
+The *"free tokens this weekend… won't stay free"* framing is another [[free-sample-phase]] datapoint (the free-token window as retention hook, consistent with the [[opus-4-8]] rate-limit moves). → Updates [[harness-over-model]], [[free-sample-phase]], [[nate-b-jones]].
+
 ## Where it sits in the vault
 
 - **Successor to [[opus-4-8]]'s "don't run it like 4.7"** — where [[nate-herk]] framed 4.8 as a workflow re-tuning and Jones countered with [[harness-over-model]] (it's a checkpoint), Fable 5 is framed by Jones as a *genuine step-change* — but on the **dimension of job-size you can hand over**, not raw score. Consistent with his standing skepticism of benchmark-first reads.
@@ -92,6 +105,7 @@ This is the **"doing got cheap" thesis applied to your own knowledge**: the scar
 - [[nate-herk]] — operator interpreter (six prompting habits)
 - [[sources/youtube-digest-apify-2026-07-03]] — [[nate-b-jones]]' [[model-routing]] picker reserves Fable for *"Fable-style problems that need the strongest model"* (the hardest 20%)
 - [[sources/youtube-digest-apify-2026-07-04]] — [[nate-herk]] pairs Fable 5 with a Karpathy LLM wiki as the reasoning layer over a connected second brain (#1, 23.1K)
+- [[sources/youtube-digest-apify-2026-07-05]] — [[nate-b-jones]]' goal-harness move: use Fable to *build the harness that steers your coding model* (#1, 16.8K)
 
 ## Related
 

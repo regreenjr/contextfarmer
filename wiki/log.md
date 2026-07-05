@@ -270,3 +270,7 @@ New: sources/youtube-digest-apify-2026-07-04, concepts/claude-wealth-wave, conce
 ## [2026-07-04] ingest | FB Ads Digest — 2026-07-04 (batch 30)
 
 1 new ad (186 fetched, 185 dedup = 99.46%), 100% signal — thinnest signal-bearing batch; lone ad = Ro placeholder (Run 10, returns from 28+29 trough). All 7 other tracked brands silent (Hims, OpenAI, Anthropic 19th silence/strict-lock, Eden 17th silence). Touched: sources/ads-digest-2026-07-04 (new), entities/ro, entities/hims, entities/openai, entities/anthropic, entities/eden, concepts/competitor-ads-farm, index.
+
+## [2026-07-05] ingest | YouTube digest 2026-07-05 (Nate B Jones Fable-5 goal-harness + Griffin Wooldridge design-skills + Skill Leap AI)
+
+Created sources/youtube-digest-apify-2026-07-05, entities/griffin-wooldridge, entities/skill-leap-ai, concepts/design-skills. Updated nate-b-jones, claude-fable-5 (goal-harness), harness-over-model, claude-skills (design vertical + beginner/skill-safety), skill-creator, free-sample-phase. 4 created, 6 updated.

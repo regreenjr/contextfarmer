@@ -3,8 +3,8 @@ title: Claude Skills
 category: concept
 summary: Reusable procedural-knowledge units in Claude Code; the canonical packaging unit of 2026's AI-creator economy; in 2026-05-22 batch ships TWO Anthropic-shipped artifacts that change the category ([[ai-labs]] internal-skill reverse-engineering + [[anthropic]] [[claude-for-small-business]]); **in 2026-05-23 [[simon-scrapes]] ships [[self-improving-skills]]** (109.7K views — highest-views Claude-Skills-eval video in vault, exceeds [[chase-ai]] 107K) — the Karpathy-autoresearch-inspired **closed-loop optimization layer** above [[skill-creator]]'s single-shot eval; **in 2026-05-25 [[tristen-obrien]] fills the sub-7-min beginner-tier explainer rung** (5.3K views) — pizza-shop catering-quote skill build for non-technical SMB operators + consumer-facing skill-provenance security framing; cumulative skills-product evolution: authoring → curation → composition ([[skill-systems]]) → deployment ([[execution-layer]]) → distribution ([[plugin-marketplace]]) → meta-skills ([[skill-creator]] / Skillify / `/smb-onboard` / generation-first [[skill-forge]]) → vertical-plugin ([[claude-for-small-business]]) → closed-loop optimization ([[self-improving-skills]]) → beginner-tier explainer ([[tristen-obrien]] pizza-shop demo) → **cross-surface confirmation ([[kevin-stratvert]] / David DeWinter — same skill on Chat + Cowork + Claude Code; resolves the long-open "are skills Code-only?" question)** → **one-skill counter-thesis ([[alek]]'s [[skill-forge]] — "stop curating, generate on demand")**
 tags: [claude-skills, claude-code, agentic, anthropic, skills-marketplace, skill-authoring, skill-authoring-lessons, gotchas-section, description-field, progressive-disclosure, stop-railroading, nine-categories, skill-systems, composition, cross-vendor, codex, plugins, hermes-agent, skill-creator, evals, capability-uplift, encoded-preference, daily-driver-curation, execution-layer, sub-plugins, pr-back-loop, team-deployment, anthropic-internal-skills, verify, skillify, tech-debt, batch, security-scan, frontend-designer, code-simplifier, commit-commands, claude-for-small-business, smb-onboard, vertical-plugin, meta-skills, ai-labs, self-improving-skills, closed-loop-optimization, binary-criteria, autoresearch-lineage, overnight-improvement, beginner-explainer, pizza-shop-demo, catering-quote, non-technical-smb, skill-provenance-security, sub-7-min-format, kevin-stratvert, chat-cowork-claude-code, cross-surface-skills, thread-reply-skill, david-dewinter, quickbooks, shared-folder-sharing, surface-portable, grill-me-skill, context-extraction, front-loading-context, feature-tier-list, skills-are-the-unlock, nate-herk, brock-mesarich, skill-forge, meta-skill, generation-first, one-skill, curation-counter-thesis, alek]
-sources: 18
-updated: 2026-07-03
+sources: 19
+updated: 2026-07-05
 ---
 
 # Claude Skills
@@ -309,7 +309,7 @@ npx get-shit-done-cc --claude --global
 - **Marketing** ([[grace-leung]] #1) — 5-agent marketing team + 12 skills covering research/write/design/analyze, Notion task board integration, remote control via phone
 - **Marketing skill-stack architecture** ([[grace-leung]] #2 in [[youtube-digest-2026-05-03-r3]]) — Brand Voice → Brand Design System → Campaign Planning → Carousel Design → Animated Motion → Campaign Manager Agent. Publishable as a reusable architectural template, not just a tutorial.
 - **Knowledge management** ([[brad-bonanno]] #23, this vault) — context farmers + wiki ingest skills
-- **Design** ([[claude-design]] integration via skills)
+- **Design** ([[design-skills]] — [[griffin-wooldridge]]'s five-skill pipeline: Frontend Design → Implement Design → Theme Factory → Brand Guidelines → Canvas Design, 241K views; plus [[claude-design]] integration)
 - **Development** ([[code-with-beto]]'s AI Tattoo App, $100 MRR demo)
 
 ## The cross-vendor portability gap + the consumer surface (2026-06-24)
@@ -327,6 +327,18 @@ Two [[youtube-digest-apify-2026-06-24]] videos push the Skills story in opposite
 - **It inverts the curation debate.** Every prior curation voice argued *which N to install* ([[brock-mesarich]] 15 / [[dubibubii]] 33 / [[nate-herk]] 6-of-100+ / [[zinho-automates]] 9). Skill Forge argues **stop curating, generate on demand** — the meta-skill *replaces the shelf*. First explicit "one skill, not a library" position tracked here, and a direct answer to [[dubibubii]]'s "500K skills, 95% useless" (don't shop the 500K, forge the one). Open whether it holds — forged skills still need an acceptance test.
 
 Also a **crossover-creator signal**: it reaches the vault via an e-commerce-adjacent channel (boilerplate Etsy/TikTok-shop disclaimer), extending the downmarket drift of [[tristen-obrien]] and [[justyn-the-ai-guy]]. → See [[skill-forge]], [[alek]].
+
+## The design vertical — a five-skill pipeline for designers ([[griffin-wooldridge]] in [[youtube-digest-apify-2026-07-05]])
+
+[[griffin-wooldridge]]'s *How to Use Claude Skills as a Designer* (**241K views**, 2026-03-09) is the **highest-view single-vertical Skills video** tracked in the vault and names a coherent **five-skill design pipeline** → new concept: [[design-skills]]. The five: **Frontend Design** (generate front-end, Anthropic first-party) → **Implement Design** (design → working UI) → **Theme Factory** (systematic theming) → **Brand Guidelines** (enforce brand) → **Canvas Design** (compose on canvas), then *create your own* ([[skill-creator]]).
+
+Why it lands here: it's the **design cell of the Skills audience matrix** — the counterpart to [[grace-leung]]'s marketing vertical — and it's a **pipeline instance, not a curation list** (five focused skills chained, [[skill-systems]]-style, in one domain). Four of the five map onto real installable skills (`frontend-design`, `brand-guidelines`, `canvas-design`, `theme-factory`), grounding it beyond a wishlist. Distinct from [[claude-design]] (the tool vs the skills). → See [[design-skills]].
+
+## Beginner build-from-scratch + skill-safety/provenance ([[skill-leap-ai]] in [[youtube-digest-apify-2026-07-05]])
+
+[[skill-leap-ai]]'s *Ultimate Guide To Claude Skills* (29.5K views, 2026-06-29, 18:03) fills the **beginner build-from-scratch** rung — *"what Claude skills are, where to find them, how to turn them on, and how to build one from scratch with the Claude skill creator"* ([[skill-creator]] as the non-technical on-ramp). Named example skills: writing-style, deep-research auditor, CSV dashboard, content engine, on-brand presentation maker → jobs like scripts, PDF reports, dashboards, blog/LinkedIn posts, slides.
+
+Its distinctive contribution is the **skill-safety / provenance** framing — *"some Claude skills from the internet can be risky, so I build my own and check the instructions before using them."* This is the **second explicit consumer-facing skill-provenance-security voice** in the vault (after [[tristen-obrien]]) — an emerging standing sub-thread as the marketplace fills with unvetted skills, complementary to the builder-side [[agent-security]] framing. → See [[skill-leap-ai]].
 
 ## Why it matters for 3Ps
 
@@ -357,7 +369,10 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[anthropic]] — vendor
 - [[karpathy-llm-wiki]] — this vault's skills implement this pattern; `karpathy/autoresearch` is a related Karpathy skill surfaced via [[dubibubii]]
 - [[context-farming]] — depends on farmer skills
-- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-06-05]], [[youtube-digest-apify-2026-06-06]]
+- [[youtube-digest-apify-2026-05-03]], [[youtube-digest-2026-05-03]], [[youtube-digest-2026-05-03-r3]], [[youtube-digest-apify-2026-05-04]], [[youtube-digest-apify-2026-05-05]], [[youtube-digest-apify-2026-05-06]], [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-11]], [[youtube-digest-apify-2026-05-12]], [[youtube-digest-apify-2026-05-14]], [[youtube-digest-apify-2026-05-22]], [[youtube-digest-apify-2026-05-23]], [[youtube-digest-apify-2026-05-25]], [[youtube-digest-apify-2026-05-28]], [[youtube-digest-apify-2026-06-05]], [[youtube-digest-apify-2026-06-06]], [[sources/youtube-digest-apify-2026-07-05]]
+- [[design-skills]] — the design vertical; [[griffin-wooldridge]]'s five-skill pipeline (241K views, 2026-07-05)
+- [[griffin-wooldridge]] — designer who named the [[design-skills]] pipeline
+- [[skill-leap-ai]] — beginner build-from-scratch guide + skill-safety/provenance framing (2026-07-05)
 - [[skill-authoring-lessons]] — Anthropic's first-party authoring playbook; gotchas-section + description-for-the-model + progressive disclosure ([[brock-mesarich]] 2026-06-05)
 - [[grill-me-skill]] — context-extraction front-end; "the hardest part is getting it out of your head" ([[nate-herk]] 2026-06-04)
 - [[tristen-obrien]] — beginner-tier sub-7-min explainer + pizza-shop catering-quote demo + consumer-facing skill-provenance security
@@ -368,5 +383,5 @@ The 3Ps consulting offering should ship skills, not just teach them. **Productiz
 - [[skill-forge]] — generation-first meta-skill + "one skill, not a curated shelf" counter-thesis ([[alek]] 2026-06-30)
 - [[alek]] — crossover creator who introduced [[skill-forge]]
 - [[execution-layer]] — deployment / team-scaling layer above Skills ([[brad-bonanno]] 2026-05-14)
-- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]], [[tristen-obrien]], [[kevin-stratvert]]
+- Creators: [[code-with-beto]], [[nate-herk]], [[grace-leung]], [[brad-bonanno]], [[anthropic]], [[brock-mesarich]], [[ben-ai]], [[dubibubii]], [[simon-scrapes]], [[nate-b-jones]], [[chase-ai]], [[zinho-automates]], [[tristen-obrien]], [[kevin-stratvert]], [[griffin-wooldridge]], [[skill-leap-ai]]
 - [[watch-skill]] — [[brad-bonanno]]'s free `/watch` skill gives [[claude-code]] video comprehension ([[sources/youtube-digest-apify-2026-07-03]])

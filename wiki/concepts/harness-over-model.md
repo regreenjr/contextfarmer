@@ -2,9 +2,9 @@
 title: Harness Over Model (Your Workflow Doesn't Care About the Score)
 category: concept
 summary: [[nate-b-jones]]' 27th named framework (2026-06-03, 34.3K views) — the **model-selection counterpart** to his [[long-running-benchmarks]] harness thesis: a stronger benchmark score does NOT automatically make a model your daily driver, because **harnesses, compute, and workflow reliability now matter as much as raw model intelligence**; [[opus-4-8]] is reframed as a **checkpoint release** where *"the product harness around the model now matters more than the model itself"*; named evidence: **reasoning effort became unpredictable on 4.8**, the **Codex harness outperformed raw model intelligence** on real work, the **effort-level trap** (Vending-Bench data showing `max` effort can make long-running work *worse*), and a **routing guide** (Opus 4.8 vs Codex/5.5 vs GPT-5.5); the operator prescription is **architect for harness flexibility** (swappable harnesses, not a permanent model choice); lands as the explicit skeptic's counterweight to [[nate-herk]]'s enthusiastic 4.8 adoption coverage — the vault's first tracked creator disagreement on a Claude model
-tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility, last-mile, switching-cost, context-wars, claude-tag, glm, lock-in]
-sources: 4
-updated: 2026-07-03
+tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility, last-mile, switching-cost, context-wars, claude-tag, glm, lock-in, goal-harness, harness-author, claude-fable-5]
+sources: 5
+updated: 2026-07-05
 ---
 
 # Harness Over Model
@@ -88,6 +88,14 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 
 [[nate-b-jones]]' *Stop Wasting Money on the Wrong AI* (11.1K views, [[sources/youtube-digest-apify-2026-07-03]]) turns harness-over-model from an *argument* into a *decision matrix* → [[model-routing]]. Where this framework said the score doesn't make a daily driver, the 07-02 picker says **here is how to choose**: *start with the job, not the model* — cheap workhorse ([[glm]]) for familiar/repeatable work, frontier for unclear-shape jobs, [[claude-fable-5|Fable]] for the strongest problems, specialists for images/video/live-web/coding-harnesses. The daily-driver-and-why-the-harness-matters chapter (03:53) is a direct callback to this framework, and the *"keep your context portable"* close restates the last-mile switching-cost thesis as an operator habit ([[context-wars]]). Same creator, same posture — the prescriptive per-job companion to the argument here. → See [[model-routing]].
 
+## The goal-harness move — use the frontier model to *build the harness* (2026-07-05)
+
+[[nate-b-jones]]' short tip *Free Fable 5 tokens this weekend? Here's how to max them* (16.8K views, [[sources/youtube-digest-apify-2026-07-05]] #1) pushes this framework **one rung further**. The standard advice — *plan with [[claude-fable-5|Fable 5]], code with something cheaper* — is a planner/coder split. Jones's correction: the frontier model's real job is to **design the goal harness that steers whatever coding model you hand the work to.**
+
+> *"The common advice is to plan with Fable 5 and code with something else, but the real move is using it to design the goal harness that steers whatever coding model you hand the work to."*
+
+Where this framework said *the harness beats the raw score*, the goal-harness move says **the strongest model's highest-leverage output is the harness itself** — the goals, verification criteria, and guardrails a cheaper model then executes against. It reframes the frontier model as a **harness author**, above both planner and coder. Consistent with the *architect-for-harness-flexibility* prescription: you invest the expensive model's tokens in the durable, portable layer (the harness), not the disposable one (the per-task coding). The *"aim it only at problems that need the horsepower"* close is [[model-routing]]; *"won't stay free"* is a [[free-sample-phase]] signal. → See [[claude-fable-5]] for the goal-harness section.
+
 ## Open questions
 
 - **What were the actual scored test results?** The "81" and the per-test breakdown (where 4.8 won, where GPT-5.5 beat it) are gated to the Substack post.
@@ -100,6 +108,7 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 
 - [[sources/youtube-digest-apify-2026-06-05]] — vault entry point
 - [[sources/youtube-digest-apify-2026-07-03]] — [[model-routing]], the prescriptive per-job picker that operationalizes this thesis
+- [[sources/youtube-digest-apify-2026-07-05]] — the goal-harness move: use [[claude-fable-5|Fable 5]] to *build the harness* that steers a cheaper coding model
 - [[nate-b-jones]] — 27th framework in his cadence
 - [[opus-4-8]] — checkpoint-release reframe + effort-level instability
 - [[long-running-benchmarks]] — the eval-side thesis this extends into model-selection
