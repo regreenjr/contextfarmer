@@ -282,3 +282,7 @@ Created sources/youtube-digest-apify-2026-07-05, entities/griffin-wooldridge, en
 ## [2026-07-06] ingest | YouTube Digest 2026-07-06 — Nate B Jones: You Can't Compete on Cheap Models Anymore (imagination-and-permission)
 
 New: sources/youtube-digest-apify-2026-07-06, concepts/imagination-and-permission. Updated: entities/nate-b-jones (37th framework), concepts/model-routing, concepts/harness-over-model, concepts/claude-fable-5.
+
+## [2026-07-06] ingest | FB Ads Digest 2026-07-06 (batch 32) — 8 ads, 87.5% signal: Hims Wegovy wave reopens (9-batch dormancy) + OpenAI 3 catalog + Ro Run 11; three-brand rebound
+
+Created sources/ads-digest-2026-07-06; updated hims, ro, openai, anthropic (21st silence), eden (19th silence), competitor-ads-farm, dtc-telehealth-ad-template, compounded-drug-disclaimer, index. Cumulative 133 Hims / 87 OpenAI / 8 Anthropic / 29 Ro / 1 Eden.
