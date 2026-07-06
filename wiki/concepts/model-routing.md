@@ -3,8 +3,8 @@ title: Model Routing (Start With the Job, Not the Model)
 category: concept
 summary: [[nate-b-jones]]' practical **model-picker** framework (*Stop Wasting Money on the Wrong AI*, 11.1K views, 2026-07-02) — the prescriptive, per-job companion to his [[harness-over-model]] thesis; *"the common story is that the smartest model wins; the real question is which intelligence a specific job actually needs"* — so you **start with the job, not the model**, route familiar/repeatable work to a **cheap workhorse** ([[glm|GLM 5.2]]) and review it fast, keep a **frontier model** for when the *shape of the job is unclear* (*"[[claude-fable-5|Fable]]-style problems that need the strongest model"*), and hand specific jobs to **specialists** (images, video, live web, coding harnesses); the durable move is *"keep your context portable"* so *"no single model going away can stall your work"* — the [[context-wars]] posture stated as an operator habit.
 tags: [nate-b-jones, framework, model-routing, model-picker, route-by-the-job, workhorse-model, daily-driver, frontier-model, specialists, portable-context, harness-over-model, glm, glm-5-2, claude-fable-5, opus-4-8, context-wars, substrate-economics, cost-control, model-selection]
-sources: 1
-updated: 2026-07-04
+sources: 2
+updated: 2026-07-06
 ---
 
 # Model Routing
@@ -39,6 +39,10 @@ The load-bearing habit is **keep your context portable** — the operator-side s
 
 The chapters open on *"why picking an AI model suddenly got hard"* (00:00), lead with *"start with the job, not the model"* (01:42), and close on *"test any model on your own w[ork]"* (05:40). The prescription is to **test models on your own work** rather than trust benchmarks — the same don't-trust-the-leaderboard instinct behind [[harness-over-model]] and [[long-running-benchmarks]].
 
+## The demand-side companion (2026-07-05)
+
+Three days later, [[nate-b-jones]] shipped the **other half** of this argument in *You Can't Compete on Cheap Models Anymore* (43.9K views, [[sources/youtube-digest-apify-2026-07-06]]) → [[imagination-and-permission]]. Where model-routing is the **supply-side picker** ("which model for which job"), that framework is the **demand-side constraint**: precisely *because* everyone will route the familiar 80% to a cheap workhorse, **routing becomes table stakes** — *"the right call and about to be table stakes"* — and stops being where returns come from. The advantage snaps back to *"who can imagine the work that isn't on anyone's list yet."* Its empirical hinge is this framework's core claim sharpened: *"a $1 model now ties a $9 model on routine work."* Read the two together: **route the cheap 80% (supply), then compete on imagined work the routing can't touch (demand).** → See [[imagination-and-permission]].
+
 ## Contrasts with
 
 - [[harness-over-model]] — the *argument* this framework operationalizes. Harness-over-model says the score doesn't make a daily driver; model-routing says *here is the picker*.
@@ -66,6 +70,7 @@ The chapters open on *"why picking an AI model suddenly got hard"* (00:00), lead
 ## Used in
 
 - [[sources/youtube-digest-apify-2026-07-03]] — vault entry point (Nate B Jones #1)
+- [[sources/youtube-digest-apify-2026-07-06]] — the demand-side companion [[imagination-and-permission]]: once cheap routing is table stakes, the constraint is imagination, not price
 - [[nate-b-jones]] — author; the prescriptive picker for his [[harness-over-model]] thesis
 
 ## Related
@@ -77,4 +82,5 @@ The chapters open on *"why picking an AI model suddenly got hard"* (00:00), lead
 - [[context-wars]] — *"keep your context portable"* is this thesis as an operator habit
 - [[prompt-caching]], [[claude-subagents]] — fellow substrate-economics / cost levers
 - [[long-running-benchmarks]] — the shared don't-trust-the-benchmark, test-on-your-own-work posture
+- [[imagination-and-permission]] — the demand-side companion; once cheap routing is table stakes, the constraint is imagination + permission, not price
 - [[reusable-agent-skeleton]]

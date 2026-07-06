@@ -3,8 +3,8 @@ title: Harness Over Model (Your Workflow Doesn't Care About the Score)
 category: concept
 summary: [[nate-b-jones]]' 27th named framework (2026-06-03, 34.3K views) — the **model-selection counterpart** to his [[long-running-benchmarks]] harness thesis: a stronger benchmark score does NOT automatically make a model your daily driver, because **harnesses, compute, and workflow reliability now matter as much as raw model intelligence**; [[opus-4-8]] is reframed as a **checkpoint release** where *"the product harness around the model now matters more than the model itself"*; named evidence: **reasoning effort became unpredictable on 4.8**, the **Codex harness outperformed raw model intelligence** on real work, the **effort-level trap** (Vending-Bench data showing `max` effort can make long-running work *worse*), and a **routing guide** (Opus 4.8 vs Codex/5.5 vs GPT-5.5); the operator prescription is **architect for harness flexibility** (swappable harnesses, not a permanent model choice); lands as the explicit skeptic's counterweight to [[nate-herk]]'s enthusiastic 4.8 adoption coverage — the vault's first tracked creator disagreement on a Claude model
 tags: [nate-b-jones, framework, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, reasoning-effort, codex-harness, workflows-command, routing-guide, opus-4-8, long-running-benchmarks, harness-thesis, model-selection, substrate-economics, free-sample-phase, dynamic-workflows, codex, gpt-5-5, harness-flexibility, last-mile, switching-cost, context-wars, claude-tag, glm, lock-in, goal-harness, harness-author, claude-fable-5]
-sources: 5
-updated: 2026-07-05
+sources: 6
+updated: 2026-07-06
 ---
 
 # Harness Over Model
@@ -96,6 +96,10 @@ The [[youtube-digest-apify-2026-06-24]] batch is the strongest corroboration of 
 
 Where this framework said *the harness beats the raw score*, the goal-harness move says **the strongest model's highest-leverage output is the harness itself** — the goals, verification criteria, and guardrails a cheaper model then executes against. It reframes the frontier model as a **harness author**, above both planner and coder. Consistent with the *architect-for-harness-flexibility* prescription: you invest the expensive model's tokens in the durable, portable layer (the harness), not the disposable one (the per-task coding). The *"aim it only at problems that need the horsepower"* close is [[model-routing]]; *"won't stay free"* is a [[free-sample-phase]] signal. → See [[claude-fable-5]] for the goal-harness section.
 
+## Cheap engine, frontier steering — the competitive restatement (2026-07-06)
+
+[[nate-b-jones]]' *You Can't Compete on Cheap Models Anymore* (43.9K views, [[sources/youtube-digest-apify-2026-07-06]]) → [[imagination-and-permission]] restates this framework's core in **competitive** rather than quality terms. Its chapter *"Cheap engine, frontier steering"* (04:06) is harness-over-model exactly: run execution on a cheap engine, **steer with a frontier model.** The twist is the *why* — where this framework argued *"a stronger score doesn't make a model your daily driver"* (a quality/reliability point), the 07-06 video argues *"a $1 model ties a $9 model on routine work, so price stops being a moat"* (a commoditization point). Same operating shape, escalated stakes: because everyone converges on cheap-engine/frontier-steering, the *steering* — what you imagine pointing the engine at — becomes the only remaining differentiator. → See [[imagination-and-permission]].
+
 ## Open questions
 
 - **What were the actual scored test results?** The "81" and the per-test breakdown (where 4.8 won, where GPT-5.5 beat it) are gated to the Substack post.
@@ -109,6 +113,7 @@ Where this framework said *the harness beats the raw score*, the goal-harness mo
 - [[sources/youtube-digest-apify-2026-06-05]] — vault entry point
 - [[sources/youtube-digest-apify-2026-07-03]] — [[model-routing]], the prescriptive per-job picker that operationalizes this thesis
 - [[sources/youtube-digest-apify-2026-07-05]] — the goal-harness move: use [[claude-fable-5|Fable 5]] to *build the harness* that steers a cheaper coding model
+- [[sources/youtube-digest-apify-2026-07-06]] — *cheap engine, frontier steering*: the harness restated as a competitive argument ([[imagination-and-permission]])
 - [[nate-b-jones]] — 27th framework in his cadence
 - [[opus-4-8]] — checkpoint-release reframe + effort-level instability
 - [[long-running-benchmarks]] — the eval-side thesis this extends into model-selection
@@ -124,6 +129,8 @@ Where this framework said *the harness beats the raw score*, the goal-harness mo
 - [[prompt-caching]], [[agent-metering]] — operator-side substrate-economics siblings
 - [[nate-herk]] — the enthusiastic 4.8 adoption read this argues against — who became the thesis's highest-reach popularizer via [[glm]] (2026-06-24)
 - [[glm]] — the cleanest concrete proof (swap a cheaper open model, keep the harness)
+- [[imagination-and-permission]] — *cheap engine, frontier steering* restates this framework as a competitive argument
+- [[model-routing]] — the supply-side picker; [[imagination-and-permission]] is its demand-side companion
 - [[sakana-fugu]] — a strong-model-in-good-harness beats an auto-router (38-task test)
 - [[directing-agents]] — names "harness engineering" + the "dumb zone"
 - [[model-routing]] — the prescriptive per-job model-picker that turns this thesis into a decision matrix

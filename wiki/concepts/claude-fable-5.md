@@ -3,8 +3,8 @@ title: Claude Fable 5 (The Doing Got Cheap)
 category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
 tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, goal-harness, harness-author, short-prompts, blender, free-sample-phase, token-economics, karpathy-llm-wiki, wiki-as-substrate, connected-second-brain]
-sources: 4
-updated: 2026-07-05
+sources: 5
+updated: 2026-07-06
 ---
 
 # Claude Fable 5
@@ -106,6 +106,7 @@ The *"free tokens this weekend… won't stay free"* framing is another [[free-sa
 - [[sources/youtube-digest-apify-2026-07-03]] — [[nate-b-jones]]' [[model-routing]] picker reserves Fable for *"Fable-style problems that need the strongest model"* (the hardest 20%)
 - [[sources/youtube-digest-apify-2026-07-04]] — [[nate-herk]] pairs Fable 5 with a Karpathy LLM wiki as the reasoning layer over a connected second brain (#1, 23.1K)
 - [[sources/youtube-digest-apify-2026-07-05]] — [[nate-b-jones]]' goal-harness move: use Fable to *build the harness that steers your coding model* (#1, 16.8K)
+- [[sources/youtube-digest-apify-2026-07-06]] — [[nate-b-jones]] promotes *task imagination* into the standalone framework [[imagination-and-permission]]; the *"Fable 5 porch marketing"* chapter is his example of imagining work that wasn't on the list (#1, 43.9K)
 
 ## Related
 
@@ -115,4 +116,5 @@ The *"free tokens this weekend… won't stay free"* framing is another [[free-sa
 - [[ai-question-method]] — the prompting-obsolete predecessor; task imagination is its successor
 - [[software-abundance-pm]] — the artifact-before-request framework Fable 5 deepens
 - [[work-primitive]] — access/meaning/authority; the job-decomposition substrate
+- [[imagination-and-permission]] — task imagination promoted into a standalone competitive framework
 - [[anthropic]] — vendor
