@@ -2,9 +2,9 @@
 title: MCP (Model Context Protocol)
 category: concept
 summary: Open standard from Anthropic for connecting LLMs to external data and tools; positioned in [[nate-b-jones]]' 6-layer agentic-scaffolding taxonomy ([[plugins]]) at layer 4; **in 2026-05-19 placed as Layer 1 of [[nate-b-jones]]' new [[agent-protocol-stack]]** (six protocols / three that matter: MCP + A2A + AG-UI) — answering the **"what can my agent access?"** question; also **reframed as a security boundary** (chapter 4:50 of #6) — MCP servers are the natural action-boundary instrumentation point, extending [[agent-security]]' judge-architecture pattern at the protocol layer; **also serves as the connector-distribution surface for [[claude-for-small-business]]** (QuickBooks/Xero/Stripe/HubSpot/Gmail connectors pre-bundled) — first explicit Anthropic-shipped MCP-connector kit
-tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration, printing-press, plugins, agent-protocol-stack, security-boundary, action-boundary, claude-for-small-business, connectors, a2a, ag-ui, six-protocols]
-sources: 4
-updated: 2026-05-22
+tags: [mcp, model-context-protocol, anthropic, claude-code, claude-skills, agentic, integration, printing-press, plugins, agent-protocol-stack, security-boundary, action-boundary, claude-for-small-business, connectors, a2a, ag-ui, six-protocols, tool-overload, tech-with-tim, fifty-tool-ceiling, curation-ceiling]
+sources: 5
+updated: 2026-07-07
 ---
 
 # MCP (Model Context Protocol)
@@ -109,6 +109,10 @@ MCP answers the first of the **three questions agents must answer**: *"what can 
 
 The connector layer is **pluggable** — bundled connectors are defaults, not requirements (Xero swapped for QuickBooks etc post-install). Same pattern likely repeats for future Anthropic vertical plugins (Claude for Retail / Healthcare / Legal).
 
+## The count-ceiling cost — too many MCP servers degrade selection ([[tech-with-tim]] 2026-07-06)
+
+The MCP-vs-CLI debate on this page is about **token cost** ([[brad-bonanno]], [[printing-press]]). [[tech-with-tim]]'s *The Only Claude Code Plugins You Actually Need* ([[youtube-digest-apify-2026-07-07]] #3) adds a distinct cost → new concept [[tool-overload]]: past **~50 tools loaded at once**, the model *"starts picking the wrong ones — and your agent gets worse, not better."* Because MCP servers each expose multiple tools, an over-installed MCP slate is the fastest way to blow past the ceiling. The failure mode is **selection quality**, not just tokens — a second, sharper reason to keep the MCP install list short. His curated slate is read/build-side heavy (TigerData, GitHub MCP, Context7, Figma, Frontend Design). → See [[tool-overload]], [[plugins]].
+
 ## Used in
 - [[youtube-digest-apify-2026-05-03]] — Tim Berglund #9, [[anthropic]] #4, [[brad-bonanno]] #19
 - [[youtube-digest-apify-2026-05-05]] — [[dubibubii]] #5 (5 MCP servers in curated list); [[nate-herk]] #3 (Higgsfield MCP-or-CLI)
@@ -120,5 +124,8 @@ The connector layer is **pluggable** — bundled connectors are defaults, not re
 - [[knowledge-layer]] — likely connector layer between Pinecone Nexus / Microsoft Fabric IQ and Claude Code
 - [[voice-agents]] — cal.com integration likely via MCP
 - [[context-farming]] — MCP is the connector layer
+- [[tool-overload]] — the ~50-tool selection ceiling; MCP sprawl is the fastest way to hit it
+- [[tech-with-tim]] — author of the curation-ceiling argument
+- [[youtube-digest-apify-2026-07-07]] — [[tech-with-tim]]'s curated MCP/plugin slate
 - [[anthropic]] — author
 - (Planned) [[agent-skills-vs-mcp]] — direct comparison page

@@ -2,9 +2,9 @@
 title: Claude Opus 4.8
 category: concept
 summary: [[anthropic]]'s frontier model released ~2026-05-28, covered in this vault via [[nate-herk]]'s *Opus 4.8 Just Dropped. Here's How To Actually Use It.* (101K views — his highest-view video in the 2026-05-29 batch). The video's thesis: **the benchmarks are "nuts" but the numbers only tell part of the story — don't run 4.8 the way you ran [[opus-4-7]]**. Named upgrades: **effort levels and workflows** (slotting the model into different work shapes), a **"honesty upgrade"** (the model is more candid about uncertainty / what it can't do), and fixes for specific **4.7 pain points**. The first dedicated Claude-model page in the vault; the practical-adoption counterpart to [[nate-b-jones]]'s [[ai-question-method]] (which named the Opus-4.7/GPT-5.5 prompting-style shift)
-tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, codex-harness, routing-guide, nate-b-jones, reasoning-effort]
-sources: 5
-updated: 2026-07-02
+tags: [opus-4-8, claude, anthropic, frontier-model, effort-levels, honesty-upgrade, benchmarks, workflows, model-release, opus-4-7, nate-herk, ai-question-method, free-sample-phase, dynamic-workflows, claude-code, orchestration, ultracode, deep-research, harness-over-model, checkpoint-release, effort-level-trap, vending-bench, codex-harness, routing-guide, nate-b-jones, reasoning-effort, fable-mode-skill, claude-fable-5, leaked-system-prompt, process-transplant]
+sources: 6
+updated: 2026-07-07
 ---
 
 # Claude Opus 4.8
@@ -79,6 +79,14 @@ This makes 2026-06-05 the batch where the vault's two top creators **split on 4.
 - **Opus is now a *tier in a routing hierarchy*, not just the top model** — the frontier [[claude-fable-5|Fable 5]] does its own internal routing to Opus for parts of a task. Opus's role shifts from "the model you pick" to "the model the bigger model delegates to." A model-internal auto-router, distinct from operator-run [[claude-subagents]] and from [[sakana-fugu]]'s external router.
 - **The effort-matching contradiction (below) extends to Fable 5.** Nate re-applies *"match effort levels"* to Fable 5, the same posture [[nate-b-jones]]' testing found unpredictable on 4.8. The Herk-vs-Jones split on the effort knob now spans both models. → See [[harness-over-model]] and the callout on [[claude-fable-5]].
 
+## 2026-07-07 — Opus as the *host* for Fable's transplanted process ([[nate-herk]] in [[youtube-digest-apify-2026-07-07]])
+
+If the 2026-07-01 section made Opus the model **Fable hands work *down* to**, [[nate-herk]]'s *How I Make Opus Think Like Fable* (20.2K views) runs the arrow the **other way**: it makes Opus 4.8 the **host that receives Fable's process** → new concept [[fable-mode-skill]]. Because [[claude-fable-5|Fable 5]] is *"going back behind subscriptions,"* Nate reverse-engineers a **leaked Fable system prompt** into a [[claude-skills|skill]] that makes Opus *"feel elevated,"* paired with deliberate **effort levels** and a **[[model-routing|model routing table]]**.
+
+For this page, two notes:
+- **Opus becomes the durable daily-driver** the vanishing frontier model's behavior is transplanted *onto* — the practical "which model do I actually keep" answer once Fable's free window closes ([[free-sample-phase]]).
+- **The effort-lever contradiction recurs** — Nate again drives *effort levels* as a clean knob (chapter 3:18), the posture [[nate-b-jones]]'s testing found unpredictable on 4.8. → See [[harness-over-model]] and the callout on [[claude-fable-5]].
+
 ## Why it matters for 3Ps
 
 1. **"Don't run it like 4.7" is a client talking point** — model upgrades are billable re-tuning moments: revisit effort levels, prompt/question style ([[ai-question-method]]), and which workflows now warrant the frontier tier.
@@ -102,6 +110,9 @@ This makes 2026-06-05 the batch where the vault's two top creators **split on 4.
 - [[free-sample-phase]] — model release as a retention lever in the substrate-economics war
 - [[agent-analytics]] — same-batch [[nate-b-jones]] framework; the run-side trust complement to 4.8's model-side honesty upgrade
 - [[prompt-caching]], [[agent-metering]] — effort levels as a cost/latency lever
+- [[fable-mode-skill]] — [[nate-herk]]'s skill that transplants Fable 5's process onto Opus 4.8 as the free window closes
+- [[claude-fable-5]] — the model whose process Opus hosts (and the one that hands work *down* to Opus)
+- [[model-routing]] — the routing table that pairs with the Fable Mode skill
 - [[claude-code]], [[claude-code-levels]] — the surface where operators slot 4.8 into workflows
 - [[dynamic-workflows]] — the orchestration primitive 4.8 added to Claude Code (2026-05-30)
 - [[harness-over-model]] — [[nate-b-jones]]'s skeptic read (checkpoint release; effort-level trap; harness > score)

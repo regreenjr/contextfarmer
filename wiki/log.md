@@ -286,3 +286,7 @@ New: sources/youtube-digest-apify-2026-07-06, concepts/imagination-and-permissio
 ## [2026-07-06] ingest | FB Ads Digest 2026-07-06 (batch 32) — 8 ads, 87.5% signal: Hims Wegovy wave reopens (9-batch dormancy) + OpenAI 3 catalog + Ro Run 11; three-brand rebound
 
 Created sources/ads-digest-2026-07-06; updated hims, ro, openai, anthropic (21st silence), eden (19th silence), competitor-ads-farm, dtc-telehealth-ad-template, compounded-drug-disclaimer, index. Cumulative 133 Hims / 87 OpenAI / 8 Anthropic / 29 Ro / 1 Eden.
+
+## [2026-07-07] ingest | YouTube digest 2026-07-07 (4 videos: Nate B Jones $42B scoreboard, Eric Tech 8 dev skills, Tech With Tim plugin curation, Nate Herk Fable Mode)
+
+Created 4 pages: sources/youtube-digest-apify-2026-07-07, entities/tech-with-tim, concepts/tool-overload, concepts/fable-mode-skill. Updated 10: entities/nate-b-jones, entities/nate-herk, entities/eric-tech, concepts/plugins, concepts/mcp, concepts/model-routing, concepts/claude-fable-5, concepts/context-wars, concepts/opus-4-8, concepts/skill-creator, concepts/claude-skills.

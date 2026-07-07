@@ -4,7 +4,7 @@ category: concept
 summary: Anthropic-published meta-skill for Claude Code that tests, benchmarks, and optimizes other skills using plain-language evals, blind A/B testing, and description-field optimization; resolves the authoring-evaluation gap in [[claude-skills]] and makes skills "testable software" rather than prose snippets; the two-types skill split (capability uplift vs encoded preference) named by [[chase-ai]] gives each skill type a clean eval target; **in 2026-05-23 [[simon-scrapes]]' [[self-improving-skills]]** (109.7K views, Karpathy-autoresearch-inspired autonomous loop + binary criteria) extends Skill Creator's single-shot eval into a **closed-loop overnight optimization** — together they form the complete authoring → evals → optimization pipeline
 tags: [skill-creator, claude-skills, claude-code, anthropic, eval, meta-skill, ab-test, capability-uplift, encoded-preference, description-optimization, self-improving-skills, closed-loop, autonomous-loop, binary-criteria, karpathy-autoresearch, simon-scrapes, grill-me-skill, front-loading-context, context-extraction, nate-herk, skill-authoring-lessons, gotchas-section, stop-railroading, brock-mesarich, skill-forge, generation-first, alek]
 sources: 5
-updated: 2026-07-05
+updated: 2026-07-07
 ---
 
 # Skill Creator
@@ -193,3 +193,4 @@ Anthropic's *Lessons from building Claude Skills* article (surfaced via [[brock-
 - [[skill-leap-ai]] — beginner build-from-scratch on-ramp + skill-safety/provenance ([[youtube-digest-apify-2026-07-05]])
 - [[code-with-beto]], [[ben-ai]] — fellow authoring-discipline voices
 - [[karpathy-llm-wiki]] — autoresearch lineage inherited via self-improving-skills
+- [[sources/youtube-digest-apify-2026-07-07]]

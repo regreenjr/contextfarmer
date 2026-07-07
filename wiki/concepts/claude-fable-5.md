@@ -3,8 +3,8 @@ title: Claude Fable 5 (The Doing Got Cheap)
 category: concept
 summary: Anthropic's **Fable 5** — *"the biggest model in the world"* — read through [[nate-b-jones]]' *The Doing Got Cheap. Now What?* (30.4K views, 2026-06-23): the real story isn't the benchmarks, it's that **the bottleneck moved from what the model can do to what you can imagine handing it**; his core reframe is **task imagination replaces prompt engineering as the new core skill** — *"the doing is getting cheap and the deciding is not"* — when one model can carry a whole job, the scarce skill becomes seeing the work that's big enough to hand over; five resets Fable 5 forces, the "model managers" framing of job risk; the latest rung above [[opus-4-8]] and the model the same-batch [[sakana-fugu|Fugu Ultra]] claimed to match
 tags: [claude-fable-5, fable-5, anthropic, nate-b-jones, nate-herk, task-imagination, prompt-engineering-obsolete, the-doing-got-cheap, model-managers, opus-4-8, claude-mythos, ai-question-method, software-abundance-pm, work-primitive, whole-job, frontier-model, six-habits, effort-levels, model-handoff, fable-hands-off-to-opus, harness-over-model, goal-harness, harness-author, short-prompts, blender, free-sample-phase, token-economics, karpathy-llm-wiki, wiki-as-substrate, connected-second-brain]
-sources: 5
-updated: 2026-07-06
+sources: 6
+updated: 2026-07-07
 ---
 
 # Claude Fable 5
@@ -78,6 +78,16 @@ In the short (3:50) operator tip *Free Fable 5 tokens this weekend? Here's how t
 
 The *"free tokens this weekend… won't stay free"* framing is another [[free-sample-phase]] datapoint (the free-token window as retention hook, consistent with the [[opus-4-8]] rate-limit moves). → Updates [[harness-over-model]], [[free-sample-phase]], [[nate-b-jones]].
 
+## Keep the process, not the intelligence — the Fable Mode skill ([[nate-herk]], 2026-07-07)
+
+In *How I Make Opus Think Like Fable (5 easy steps)* (20.2K views, [[sources/youtube-digest-apify-2026-07-07]] #4) → [[fable-mode-skill]], [[nate-herk]] responds to Fable's closing free window with a new move: **capture Fable's process, not its access.**
+
+> *"Fable 5 is going back behind subscriptions at some point, so I've been focused on keeping its **process** instead of its **intelligence**."*
+
+He reverse-engineers a **leaked Fable system prompt** into a [[claude-skills|skill]] that makes [[opus-4-8|Opus 4.8]] *"feel elevated,"* pairs it with deliberate **effort levels** and a **[[model-routing|model routing table]]**. The chapter-0 thesis — **"the model isn't the moat"** — is the operator-scale statement of the same own-the-durable-layer logic behind [[harness-over-model]] and [[context-wars]].
+
+This is the third distinct creator response to Fable's economics now in the vault: (1) *route around it* ([[model-routing]]), (2) *pair it with a compiled wiki* (Herk's 2026-07-03 build), and now (3) **transplant its behavior into a cheaper model via a skill built from its leaked prompt** ([[fable-mode-skill]]). The *"going back behind subscriptions"* line is another [[free-sample-phase]] datapoint — the free window closing exactly as Herk predicted in his six-habits video. → See [[fable-mode-skill]].
+
 ## Where it sits in the vault
 
 - **Successor to [[opus-4-8]]'s "don't run it like 4.7"** — where [[nate-herk]] framed 4.8 as a workflow re-tuning and Jones countered with [[harness-over-model]] (it's a checkpoint), Fable 5 is framed by Jones as a *genuine step-change* — but on the **dimension of job-size you can hand over**, not raw score. Consistent with his standing skepticism of benchmark-first reads.
@@ -107,6 +117,7 @@ The *"free tokens this weekend… won't stay free"* framing is another [[free-sa
 - [[sources/youtube-digest-apify-2026-07-04]] — [[nate-herk]] pairs Fable 5 with a Karpathy LLM wiki as the reasoning layer over a connected second brain (#1, 23.1K)
 - [[sources/youtube-digest-apify-2026-07-05]] — [[nate-b-jones]]' goal-harness move: use Fable to *build the harness that steers your coding model* (#1, 16.8K)
 - [[sources/youtube-digest-apify-2026-07-06]] — [[nate-b-jones]] promotes *task imagination* into the standalone framework [[imagination-and-permission]]; the *"Fable 5 porch marketing"* chapter is his example of imagining work that wasn't on the list (#1, 43.9K)
+- [[sources/youtube-digest-apify-2026-07-07]] — [[nate-herk]] captures Fable's *process, not its intelligence* into the [[fable-mode-skill]] as the free window closes (#4, 20.2K)
 
 ## Related
 
@@ -117,4 +128,5 @@ The *"free tokens this weekend… won't stay free"* framing is another [[free-sa
 - [[software-abundance-pm]] — the artifact-before-request framework Fable 5 deepens
 - [[work-primitive]] — access/meaning/authority; the job-decomposition substrate
 - [[imagination-and-permission]] — task imagination promoted into a standalone competitive framework
+- [[fable-mode-skill]] — [[nate-herk]]'s skill that transplants Fable's process into Opus 4.8 as the free window closes
 - [[anthropic]] — vendor

@@ -2,9 +2,9 @@
 title: Eric Tech
 category: entity
 summary: Small-tier AI YouTuber (3.4K views on the /wiki skill video) + Skool community operator (`skool.com/erictech`); first creator in this vault to ship a `/wiki` skill that **automates the entire LLM Wiki ingest workflow on a cron** — pulling from YouTube/Gmail/Slack/any-MCP-source into an Obsidian vault; **convergent-evolution proof** of this vault's exact architecture (skill + farmer subagents + scheduled cron); also operates **bookzero.ai** (AI-powered bookkeeping product built entirely with Claude Code) — first Claude-Code-built SaaS tracked in this vault, sibling positioning to [[claude-for-small-business]]
-tags: [creator, youtube, small-channel, llm-wiki, wiki-skill, farmer-agents, cron-scheduling, claude-code, obsidian, skool, bookzero, claude-built-saas, vault-architecture-parallel, second-brain]
-sources: 1
-updated: 2026-05-22
+tags: [creator, youtube, small-channel, llm-wiki, wiki-skill, farmer-agents, cron-scheduling, claude-code, obsidian, skool, bookzero, claude-built-saas, vault-architecture-parallel, second-brain, claude-skills, superpowers, tdd, playwright-cli, obsidian-rag, sentry, bug-fix-loop, skill-creator, gsd, g-stack, senior-engineer, developer-tier]
+sources: 2
+updated: 2026-07-07
 ---
 
 # Eric Tech
@@ -47,6 +47,21 @@ Person + YouTube channel **Eric Tech** + Skool community at `skool.com/erictech`
 
 **The "Interview Phase"** (chapter 5:24) — Eric's `/wiki` skill asks the user about their use case before generating the vault structure. **Same shape as [[skill-creator]]'s description-optimization step** — meta-skill behavior that customizes the artifact to the user.
 
+## New in [[youtube-digest-apify-2026-07-07]] — 8 daily-driver developer skills
+
+- **#2** *8 Claude Code Skills Every Developer Needs in 2026* — 10.5K views, 2026-04-24 (resurfaced back-catalog), 32:52
+
+His **second vault appearance** and his first pure [[claude-skills|skills]]-curation content. Framing: *"these are the [[claude-code|Claude Code]] skills I actually use every day as a senior software engineer who worked at Amazon and Microsoft… I'll show you how each one helps me ship and grow [BookZero.ai] — with live demos."* This positions Eric in the **developer-tier** of the curation cohort (vs the mainstream-operator tier of [[nate-herk]] / [[brock-mesarich]] / [[zinho-automates]]) — the tools that survive a working engineer's daily use.
+
+Five named takeaways (from the description):
+- **Superpowers enforces TDD** with a **brainstorm → plan → test → execute** pipeline — the skill wrapper for test-driven development.
+- **Build your own best-of-breed skill** by *merging Superpowers, GSD, and G-Stack* — the [[skill-creator]]-style compose-your-own-workflow move (same customize-the-artifact instinct as his `/wiki` "Interview Phase").
+- **Playwright CLI for automated QA** with full screenshot reports — the CLI-over-MCP posture (cf. [[printing-press]], [[nate-herk]]'s Playwright coverage).
+- **[[karpathy-llm-wiki|Obsidian]] as a zero-overhead RAG system** for project knowledge — the same Obsidian-as-second-brain substrate as his `/wiki` skill and this vault.
+- **Automated bug-fix workflow**: from a **Sentry log to a deployed fix** — the log→triage→patch→ship loop packaged as a skill.
+
+Strategic read: this re-confirms Eric's **convergent-architecture** profile — Obsidian-as-RAG + skills-as-daily-workflow is the same primitive stack this vault runs, now from a senior-engineer / production-SaaS angle. The Superpowers/GSD/G-Stack merge is a concrete instance of the [[skill-systems]] compose-don't-bloat discipline. → Updates: [[claude-skills]], [[skill-creator]].
+
 ## bookzero.ai callout
 
 - `bookzero.ai — AI-powered bookkeeping built entirely with Claude Code`
@@ -87,7 +102,8 @@ Person + YouTube channel **Eric Tech** + Skool community at `skool.com/erictech`
 
 ## Appears in
 
-- [[youtube-digest-apify-2026-05-22]] — primary source
+- [[youtube-digest-apify-2026-05-22]] — primary source (the `/wiki` skill)
+- [[youtube-digest-apify-2026-07-07]] — 8 daily-driver developer skills (#2)
 
 ## Why track him for 3Ps
 

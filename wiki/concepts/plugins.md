@@ -2,9 +2,9 @@
 title: Plugins (as Mech-Suit)
 category: concept
 summary: [[nate-b-jones]]'s 6-layer agentic-scaffolding taxonomy — prompts, skills, plugins, MCPs, hooks, scripts — explicitly positioning plugins as bigger than MCPs and undersold by the app-store analogy; the missing taxonomy layer above [[skill-systems]] composition and [[claude-skills]] units; "the leverage in 2026 lives in knowing which part of your workflow belongs in a prompt, a skill, a plugin, or an MCP"; in 2026-05-16 [[alex-mcfarland]]'s [[plugin-marketplace]] surfaces as the **distribution-layer artifact** for the plugin layer — a GitHub-hosted manifest + folder structure that lets a team install plugins via one command across machines (the build-walkthrough counterpart to [[brad-bonanno]]'s [[execution-layer]] deployment-pattern)
-tags: [plugins, agentic-scaffolding, prompts, claude-skills, mcp, hooks, scripts, skill-systems, nate-b-jones, taxonomy, mech-suit, plugin-marketplace, distribution-layer]
-sources: 2
-updated: 2026-05-16
+tags: [plugins, agentic-scaffolding, prompts, claude-skills, mcp, hooks, scripts, skill-systems, nate-b-jones, taxonomy, mech-suit, plugin-marketplace, distribution-layer, tool-overload, tech-with-tim, fifty-tool-ceiling, plugin-curation]
+sources: 3
+updated: 2026-07-07
 ---
 
 # Plugins (as Mech-Suit)
@@ -62,6 +62,14 @@ The plugin layer needs **a distribution-layer primitive** to ship plugins betwee
 - A "Plugin Marketplace Builder Skill" (a [[skill-creator]]-shape meta-skill) that builds the marketplace from your existing skill folder
 
 This is the **build-walkthrough counterpart** to [[brad-bonanno]]'s [[execution-layer]] deployment-pattern (2026-05-14) — Brad's framework gives the *architecture*, Alex's gives the *build steps*. The same artifact powers both the open-source authorship use case (public repo) and the consulting-deliverable use case (private repo).
+
+## The count ceiling — curate down, don't max out ([[tech-with-tim]] 2026-07-06)
+
+The 6-layer taxonomy answers *which layer* work belongs in; [[tech-with-tim]]'s *The Only Claude Code Plugins You Actually Need* ([[youtube-digest-apify-2026-07-07]] #3) adds the missing *how many* constraint → new concept [[tool-overload]]:
+
+> *"Once Claude can see more than about **50 tools** at once, it starts picking the wrong ones — and your agent actually gets **worse, not better**."*
+
+The failure mode is **tool-selection quality**, not just token cost — a sharper, empirically-numbered version of this page's *"40% wasted on the wrong layer."* Where [[nate-b-jones]] says *right layer*, Tim says *bounded count*: too many similar tools crowd the model's tool-pick decision and degrade every unrelated task. His pruned slate (TigerData MCP, GitHub MCP, Context7, Figma, Frontend Design) is the inverse of maximalist curation ([[dubibubii]]'s 33 tools). → See [[tool-overload]].
 
 ## When to use each layer
 
@@ -126,4 +134,6 @@ The "40% wasted" stat in the title comes from: **operators putting the work in t
 - [[execution-layer]] — team-operational deployment pattern
 - [[deployment-framework]] — runtime-selection framework for where plugins execute
 - [[ai-consulting]] — direct deliverable framework
-- [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-16]] — primary citations
+- [[tool-overload]] — the ~50-tool selection ceiling; the *how many* count constraint on this *which layer* taxonomy
+- [[tech-with-tim]] — author of the curation-ceiling argument
+- [[youtube-digest-apify-2026-05-10]], [[youtube-digest-apify-2026-05-16]], [[youtube-digest-apify-2026-07-07]] — primary citations
