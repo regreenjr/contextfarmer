@@ -1,6 +1,6 @@
 # Index — Wiki
 
-_Auto-generated 2026-07-07 • 225 pages • sharded index_
+_Auto-generated 2026-07-07 • 226 pages • sharded index_
 
 > Thin root index: vault stats + links to the per-category catalogs below.
 > To answer a query, open the relevant category index, pick pages, then read
@@ -11,16 +11,16 @@ _Auto-generated 2026-07-07 • 225 pages • sharded index_
 
 - [[index/concepts|Concepts]] — 96 pages
 - [[index/entities|Entities]] — 58 pages
-- [[index/sources|Sources]] — 69 pages
+- [[index/sources|Sources]] — 70 pages
 - [[index/comparisons|Comparisons]] — 2 pages
 
 ## Large pages (read via Grep / offset, not whole-file)
 
-- [[concepts/competitor-ads-farm]] — 162 KB
+- [[concepts/competitor-ads-farm]] — 164 KB
 - [[entities/nate-b-jones]] — 120 KB
 
 ## Stats
 
-- Total pages: 225
-- By category: concepts 96 · entities 58 · sources 69 · comparisons 2
+- Total pages: 226
+- By category: concepts 96 · entities 58 · sources 70 · comparisons 2
 - Index regenerated: 2026-07-07 by `scripts/update_index.py`

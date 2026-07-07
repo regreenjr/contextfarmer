@@ -4,7 +4,7 @@ category: entity
 summary: Sam Parr's vetted founder peer-group community ($3M+ revenue ICP); 1,000+ members in monthly small-group meetings, city-based; the "Hampton" brand the competitor-ads farm tracks (vs hotels / regional businesses also matching the keyword)
 tags: [organization, community, founders, peer-group, hampton, sam-parr, mfm]
 sources: 1
-updated: 2026-05-06
+updated: 2026-07-07
 ---
 
 # Hampton (Hampton Founders)
@@ -54,6 +54,10 @@ The active static ad is a textbook **emotional B2B founder hook**:
 
 This is the canonical premium-founder-community copy template. Direct steal candidate for [[ai-consulting]] community-pitch landing pages.
 
+## 2026-07-07 batch — Hampton collisions (noise)
+
+From [[sources/ads-digest-2026-07-07]] (batch 33): the "Hampton" term again surfaced only false positives — **Hampton City Schools** (a new first-fire noise page; a Virginia school district's school-nurse recruitment ad) and **Hampton Roads Honda Dealers** (a repeat noise page, first fired batch 8 / 2026-05-20). No real Hampton Founders ad since 2026-05-06. This is the standing "Hampton is decisively net-negative" pattern (many distinct Hampton regional-business noise pages, zero Hampton Founders signal) — the fix is page-ID allow-listing the actual Hampton Founders page. → [[competitor-ads-farm]].
+
 ## Related
 
 - [[mark-kashef]] — Early AIdopters (overlap: AI-flavored founder community)
@@ -67,6 +71,7 @@ This is the canonical premium-founder-community copy template. Direct steal cand
 ## Appears in
 
 - [[sources/ads-digest-2026-05-06]] — 2 ads (1 narrative, 1 placeholder)
+- [[sources/ads-digest-2026-07-07]]
 
 ## Open questions
 

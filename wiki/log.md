@@ -290,3 +290,7 @@ Created sources/ads-digest-2026-07-06; updated hims, ro, openai, anthropic (21st
 ## [2026-07-07] ingest | YouTube digest 2026-07-07 (4 videos: Nate B Jones $42B scoreboard, Eric Tech 8 dev skills, Tech With Tim plugin curation, Nate Herk Fable Mode)
 
 Created 4 pages: sources/youtube-digest-apify-2026-07-07, entities/tech-with-tim, concepts/tool-overload, concepts/fable-mode-skill. Updated 10: entities/nate-b-jones, entities/nate-herk, entities/eric-tech, concepts/plugins, concepts/mcp, concepts/model-routing, concepts/claude-fable-5, concepts/context-wars, concepts/opus-4-8, concepts/skill-creator, concepts/claude-skills.
+
+## [2026-07-07] ingest | FB Ads Digest 2026-07-07 (batch 33) — 6 new ads, 33.3% signal; first 'Henry' brand-collision (Dr. Henry Brown urologist ≠ Henry Meds); Hims/OpenAI placeholder-only; Wegovy does not sustain; o3 re-fire no continuation (4th batch); Ro/Anthropic/Eden silent
+
+Created sources/ads-digest-2026-07-07. Updated hims, openai, anthropic, eden, henry-meds, hampton-founders, competitor-ads-farm, openai-narrative-ad-experiments. Cumulative 134 Hims / 88 OpenAI / 8 Anthropic / 29 Ro / 1 Eden.
