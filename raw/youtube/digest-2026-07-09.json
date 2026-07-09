@@ -1,0 +1,816 @@
+[
+  {
+    "title": "I Cloned My Customers in Claude Code",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "sgVTLGiOUJg",
+    "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg",
+    "thumbnailUrl": "https://i.ytimg.com/vi/sgVTLGiOUJg/maxresdefault.jpg",
+    "viewCount": 84,
+    "date": "2026-07-09T11:43:53.000Z",
+    "likes": 15,
+    "location": null,
+    "channelName": "Brad | AI & Automation",
+    "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+    "channelUsername": "bradbonanno",
+    "collaborators": null,
+    "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+    "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+    "channelJoinedDate": "Oct 6, 2025",
+    "channelDescriptionLinks": [
+      {
+        "text": "AI Strategy\u00a0Call",
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 24,
+    "channelTotalViews": 492552,
+    "numberOfSubscribers": 14600,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hey I'm Brad. I build Claude skills, Claude Cowork coworkers, and Claude Code projects that turn Claude AI into a genuine powerhouse and I teach you to do the same.\n\nI'm a SaaS integration engineer with 5+ years of experience inside enterprise companies. I've worked across engineering, RevOps, and GTM so I know how to build things that actually work in the real world, not just in a demo.\n\nOn this channel, you'll find Claude Code tutorials, Claude Skills guides, Claude Cowork walkthroughs, MCP server setups, context engineering deep-dives, and AI automation workflows using Make.com and n8n. I build everything I teach, and I open-source most of it on GitHub.\n\nMy goal is simple: help you get more out of Claude than you thought was possible. If you have questions, drop them in the comments \u2014 I read and respond to everything.\n\nThanks for watching!",
+      "channelJoinedDate": "Oct 6, 2025",
+      "channelDescriptionLinks": [
+        {
+          "text": "AI Strategy\u00a0Call",
+          "url": "https://cal.com/bradley-bonanno/ai-strategy-call"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "bradbonanno",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/IFYNCeu8DRFEwQLCXb3LQ7hy68DM3x-4eAcb01Go34dDYRIK-7iQ3-8qWa0-1qGu294UCX2g=s160-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/bMUOGzJXQCiSz-oS1djaHqZj7EH7JI9CQ1mjSb3ROpvbDttn9t7tnCKRYdrj6xDQ6WY5UiiORQ=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 24,
+      "channelTotalViews": 492552,
+      "numberOfSubscribers": 14600,
+      "isChannelVerified": false,
+      "channelName": "Brad | AI & Automation",
+      "channelUrl": "https://www.youtube.com/channel/UCLHfIq7P2CkA62ReystiOrw",
+      "channelId": "UCLHfIq7P2CkA62ReystiOrw",
+      "inputChannelUrl": "https://www.youtube.com/@bradbonanno/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:07:03",
+    "commentsCount": 3,
+    "text": "GET THE SKILL: https://brad-b.kit.com/c74f2fb66f\nWORK WITH ME: https://cal.com/bradley-bonanno/ai-st...\n\nAI is the world's biggest yes-man, no matter how good or bad your idea is, it finds a way to tell you you're right. So I built a skill that makes Claude honest. /focus-group reads your real sales calls and builds a standing panel of customer clones \u2014 mine is five agents built from 97 calls \u2014 and every one of them reacts to your ideas the way your actual customers would. Paste in a landing page, an offer, an email, a price, and Marcus buys, Dana wants a discount, and Theo tells you he'd rather build it himself. You get to test any idea before it ever goes to market. \n\nChapters\n0:00 \u2014 I cloned my customers \n0:57 \u2014 Run your first focus group\n1:25 \u2014 Round 1\n1:49 \u2014 Round 2\n2:09 \u2014 The panel\n2:33 \u2014 How it works\n4:01 \u2014 Persistent memory\n4:35 \u2014 The 3 ways I actually use it\n5:38 \u2014 Set up",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://brad-b.kit.com/c74f2fb66f",
+        "text": "https://brad-b.kit.com/c74f2fb66f"
+      },
+      {
+        "url": "https://cal.com/bradley-bonanno/ai-strategy-call",
+        "text": "https://cal.com/bradley-bonanno/ai-st..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=57s",
+        "text": "0:57"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=85s",
+        "text": "1:25"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=109s",
+        "text": "1:49"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=129s",
+        "text": "2:09"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=153s",
+        "text": "2:33"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=241s",
+        "text": "4:01"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=275s",
+        "text": "4:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sgVTLGiOUJg&t=338s",
+        "text": "5:38"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@bradbonanno/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@bradbonanno/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "Fable 5 Just Built Me a Business With One Prompt",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "R0qF17BVl9w",
+    "url": "https://www.youtube.com/watch?v=R0qF17BVl9w",
+    "thumbnailUrl": "https://i.ytimg.com/vi/R0qF17BVl9w/maxresdefault.jpg",
+    "viewCount": 25212,
+    "date": "2026-07-08T22:05:01.000Z",
+    "likes": 977,
+    "location": null,
+    "channelName": "Nate Herk | AI Automation",
+    "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelUsername": "nateherk",
+    "collaborators": null,
+    "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+    "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+    "channelJoinedDate": "Nov 17, 2013",
+    "channelDescriptionLinks": [
+      {
+        "text": "Free Skool Community",
+        "url": "https://www.skool.com/ai-automation-society/about"
+      },
+      {
+        "text": "My Speech to Text",
+        "url": "https://get.glaido.com/nate"
+      },
+      {
+        "text": "AI Automation Society Plus",
+        "url": "https://www.skool.com/ai-automation-society-plus/about"
+      },
+      {
+        "text": "Apply for the Podcast",
+        "url": "https://podcast.nateherk.com/apply"
+      },
+      {
+        "text": "About Me",
+        "url": "https://nateherk.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 450,
+    "channelTotalViews": 43288812,
+    "numberOfSubscribers": 847000,
+    "isChannelVerified": true,
+    "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Hi \ud83d\udc4b I'm Nate Herk. I\u2019m passionate about helping businesses unlock the power of AI Automations to save time, cut costs, and stay competitive. \n\nI believe that businesses that don\u2019t adopt AI will struggle to keep up, and I\u2019m here to make sure you\u2019re ahead of the curve. Whether you\u2019re new to AI or looking to refine your workflows, I\u2019m here to guide you through it all.\n\nLet\u2019s build a more efficient future together! Book a call on my website!",
+      "channelJoinedDate": "Nov 17, 2013",
+      "channelDescriptionLinks": [
+        {
+          "text": "Free Skool Community",
+          "url": "https://www.skool.com/ai-automation-society/about"
+        },
+        {
+          "text": "My Speech to Text",
+          "url": "https://get.glaido.com/nate"
+        },
+        {
+          "text": "AI Automation Society Plus",
+          "url": "https://www.skool.com/ai-automation-society-plus/about"
+        },
+        {
+          "text": "Apply for the Podcast",
+          "url": "https://podcast.nateherk.com/apply"
+        },
+        {
+          "text": "About Me",
+          "url": "https://nateherk.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "nateherk",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/rjiskq1h4EjTgsqvP_BOsnpwCdHUHKvSo00RmUraoWqDuHQN6RAUMdo1ircHs0ZcKQrrWNvukEs=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/2vXm-0sz7zJML8xTZIG8tNU5BwOlVEztvwbU-rcnyZHZmoDZEiiITyyLB8TSYhPWEClBm7m5nNI=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 450,
+      "channelTotalViews": 43288812,
+      "numberOfSubscribers": 847000,
+      "isChannelVerified": true,
+      "channelName": "Nate Herk | AI Automation",
+      "channelUrl": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "inputChannelUrl": "https://www.youtube.com/@nateherk/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:12:28",
+    "commentsCount": 79,
+    "text": "My playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/op...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools\ud83d\udcbb\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI gave Claude Fable a single goal prompt: build me a complete company from scratch, starting with nothing but the open internet. \n\nA few hours later I had a real product, a landing page, two launch videos, a founder video, a business plan, and market research, all built by hundreds of subagents that Fable planned, delegated, and reviewed. In this video I walk through everything it produced and break down the exact prompt that made it happen.\n\nSponsorship Inquiries:\n\ud83d\udce7 nate@smoothmedia.co\n\nConnect with me:\n\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0\nhttps://x.com/nateherk\n\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0\n\nTIMESTAMPS \n0:00 One Prompt, A Whole Company\n1:52 The Founder Video\n3:16 The Goal Prompt\n4:42 How Fable Orchestrated It\n6:39 The Arc & Definition Of Done\n7:35 The Nine-Phase Recap\n8:59 The Deliverables\n10:28 Final Thoughts",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://app.aiautomationsociety.ai/opaa-ads-optin",
+        "text": "https://app.aiautomationsociety.ai/op..."
+      },
+      {
+        "url": "https://www.skool.com/ai-automation-society/about?el=fable--business&hcategory=youtube-videos&utm_campaign=free-group",
+        "text": "https://www.skool.com/ai-automation-s..."
+      },
+      {
+        "url": "https://get.glaido.com/nate",
+        "text": "https://get.glaido.com/nate"
+      },
+      {
+        "url": "https://www.hostinger.com/vps/claude-code-hosting",
+        "text": "https://www.hostinger.com/vps/claude-..."
+      },
+      {
+        "url": "https://www.linkedin.com/in/nateherkelman/",
+        "text": "\u00a0\u00a0/\u00a0nateherkelman\u00a0\u00a0"
+      },
+      {
+        "url": "https://x.com/nateherk",
+        "text": "https://x.com/nateherk"
+      },
+      {
+        "url": "https://www.instagram.com/nateherk/",
+        "text": "\u00a0\u00a0/\u00a0nateherk\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=112s",
+        "text": "1:52"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=196s",
+        "text": "3:16"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=282s",
+        "text": "4:42"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=399s",
+        "text": "6:39"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=455s",
+        "text": "7:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=539s",
+        "text": "8:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R0qF17BVl9w&t=628s",
+        "text": "10:28"
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@nateherk/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@nateherk/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "I Love the Karpathy LLM Wiki but it Doesn't Scale. Here's What Does.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "R-5_2nsF_ZM",
+    "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/R-5_2nsF_ZM/maxresdefault.jpg",
+    "viewCount": 9167,
+    "date": "2026-07-09T00:00:36.000Z",
+    "likes": 421,
+    "location": null,
+    "channelName": "Cole Medin",
+    "channelUrl": "https://www.youtube.com/@ColeMedin",
+    "channelUsername": "ColeMedin",
+    "collaborators": null,
+    "channelId": "UCMwVTLZIRRUyyVrkjDpn4pA",
+    "numberOfSubscribers": 215000,
+    "duration": "00:18:57",
+    "commentsCount": 33,
+    "text": "Markdown makes great memory for an AI agent - a Karpathy-style LLM wiki, an Obsidian second brain it reads and writes. If the agent is just yours, a folder of markdown is hard to beat: simple, yours, all in git. My second brain is exactly that!\n\nIt falls apart the second you ship that agent to other people. Now the memory has many users at once, the data behind it changes in real time, and you need retrieval and access control a pile of files can't give you. That's not a memory problem anymore - you need a context layer.\n\nSo I take an agent and build it that layer with Redis, going deep on two new pieces of Redis Iris: Context Retriever, which turns your data into tools the agent can safely call, and Agent Memory, which scales recall across thousands of conversations.\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nThanks to Redis for working with me on this video! I've been looking for a while for the best database platform to make exactly this video.\n\nI focus on the two newest pieces, Context Retriever and Agent Memory. Iris is actually five tools, those two plus Redis Data Integration, LangCache, and Redis Search. All seriously worth a look:\nhttps://fandf.co/439eNyo\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoin my free live workshop on July 29th, where I show you how to become an AI native engineering organization - building a reliable standard for how teams use AI coding agents:\nhttps://dynamous.ai/ai-native-enginee...\n\nMy Pydantic AI + Redis Iris agent I demoed in the video:\nhttps://github.com/coleam00/redis-iri...\n\nRedis Iris docs (Context Engine):\nhttps://redis.io/docs/latest/develop/...\n\nContext Retriever quickstart:\nhttps://redis.io/tutorials/getting-st...\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n0:00 Two Types of AI Agents\n1:14 Why Personal Agents Don't Scale\n3:02 Production Agent System Architecture\n4:47 Demo: E-commerce Agent Support\n9:59 Implementing the Context Retriever\n14:40 Short and Long-Term Memory\n18:07 When to Use Each Architecture\n\n~~~~~~~~~~~~~~~~~~~~~~~~~~\n\nJoin me as I push the limits of what is possible with AI. I'll be uploading videos weekly - at least every Wednesday at 7:00 PM CDT!",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://fandf.co/439eNyo",
+        "text": "https://fandf.co/439eNyo"
+      },
+      {
+        "url": "https://dynamous.ai/ai-native-engineering-org",
+        "text": "https://dynamous.ai/ai-native-enginee..."
+      },
+      {
+        "url": "https://github.com/coleam00/redis-iris-agent",
+        "text": "https://github.com/coleam00/redis-iri..."
+      },
+      {
+        "url": "https://redis.io/docs/latest/develop/ai/context-engine/",
+        "text": "https://redis.io/docs/latest/develop/..."
+      },
+      {
+        "url": "https://redis.io/tutorials/getting-started-with-redis-iris/",
+        "text": "https://redis.io/tutorials/getting-st..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=74s",
+        "text": "1:14"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=182s",
+        "text": "3:02"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=287s",
+        "text": "4:47"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=599s",
+        "text": "9:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=880s",
+        "text": "14:40"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=R-5_2nsF_ZM&t=1087s",
+        "text": "18:07"
+      }
+    ],
+    "subtitles": null,
+    "order": 27,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Karpathy+LLM+wiki",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Karpathy%20LLM%20wiki",
+    "isPaidContent": true
+  },
+  {
+    "title": "He's right, LLM Knowledge Bases are incredible.",
+    "translatedTitle": "The Obsidian heads were right.",
+    "type": "video",
+    "id": "cxdjY_42lHA",
+    "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=514s",
+    "thumbnailUrl": "https://i.ytimg.com/vi/cxdjY_42lHA/maxresdefault.jpg",
+    "viewCount": 5107,
+    "date": "2026-07-07T14:23:48.000Z",
+    "likes": 151,
+    "location": null,
+    "channelName": "Ben Holmes",
+    "channelUrl": "https://www.youtube.com/@bholmesdev",
+    "channelUsername": "bholmesdev",
+    "collaborators": null,
+    "channelId": "UCfFNverFD_Md_WDQGBBC7Zw",
+    "numberOfSubscribers": 25700,
+    "duration": "00:19:12",
+    "commentsCount": 16,
+    "text": "Step-by-step setup guide: https://bholmes.dev/blog/llm-knowledg...\nSkills used in this video: https://github.com/bholmesdev/llm-kno...\n\nReferences:\nhubble.md for notetaking\noz.dev for agent automations\ntryvoiceink.com or handy.computer for voice transcription\nAndrej Karpathy's \"LLM wikis\" generator. Send this link to your coding agent: https://gist.github.com/karpathy/442a...\n\nChapters:\n00:00 Intro\n01:40 Voice transcription tools\n05:20 Enrich notes skill\n08:34 Build LLM wikis\n11:30 Automate everything\n16:02 Visualizations\n18:37 Conclusion",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://bholmes.dev/blog/llm-knowledge-bases/",
+        "text": "https://bholmes.dev/blog/llm-knowledg..."
+      },
+      {
+        "url": "https://github.com/bholmesdev/llm-knowledge-base-skills",
+        "text": "https://github.com/bholmesdev/llm-kno..."
+      },
+      {
+        "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+        "text": "https://gist.github.com/karpathy/442a..."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=100s",
+        "text": "01:40"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=320s",
+        "text": "05:20"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=514s",
+        "text": "08:34"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=690s",
+        "text": "11:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=962s",
+        "text": "16:02"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=cxdjY_42lHA&t=1117s",
+        "text": "18:37"
+      }
+    ],
+    "subtitles": null,
+    "order": 26,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Karpathy+LLM+wiki",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Karpathy%20LLM%20wiki",
+    "isPaidContent": false
+  },
+  {
+    "title": "Claude Fable 5 Bossed 20 Cheap AI Agents. The Whole Site Cost $8.",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "suY66oTDn0s",
+    "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
+    "thumbnailUrl": "https://i.ytimg.com/vi/suY66oTDn0s/maxresdefault.jpg",
+    "viewCount": 31491,
+    "date": "2026-07-08T14:00:16.000Z",
+    "likes": 1300,
+    "location": "SEATTLE",
+    "channelName": "AI News & Strategy Daily | Nate B Jones",
+    "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+    "channelUsername": "NateBJones",
+    "collaborators": null,
+    "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+    "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+    "channelJoinedDate": "May 20, 2024",
+    "channelDescriptionLinks": [
+      {
+        "text": "Nate's Newsletter",
+        "url": "https://natesnewsletter.substack.com/"
+      }
+    ],
+    "channelLocation": null,
+    "channelAvatarUrl": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s68-c-k-c0x00ffffff-no-rj",
+    "channelBannerUrl": "https://yt3.googleusercontent.com/4TV28xGPCDgv8bW8VpArg9_poHY8aQPPBFf76vy0ut3D4sSh1d3ltuuhK96wK2F2AVJh-xuYb1g=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+    "channelTotalVideos": 1074,
+    "channelTotalViews": 23313721,
+    "numberOfSubscribers": 304000,
+    "isChannelVerified": false,
+    "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+    "isAgeRestricted": false,
+    "aboutChannelInfo": {
+      "channelDescription": "Feeling overwhelmed by AI hype? I'm here to help.\n\nI'm Nate B. Jones. 20-year product leader, AI strategist, and your guide through the noise.\n\nMost AI content is hype or generic advice. I cut through both with frameworks and workflows you can use immediately.  Whether you're an executive making AI decisions, a builder implementing solutions, or just figuring out what AI means for you, you'll get practical playbooks tested in real organizations.\n\nWhat you'll find here:\n\u2022 Weekly AI strategy breakdowns (no buzzwords)\n\u2022 Coding & prompting workflows and automation guides  \n\u2022 Future-of-work insights for decision-makers\n\u2022 Frameworks from real AI implementations\n\nNew videos every day\nDeeper analysis + exclusive playbooks and ready-to-use tools \u2192 https://natesnewsletter.substack.com/\n\nReady to move past AI hype? Subscribe and let's build something real.",
+      "channelJoinedDate": "May 20, 2024",
+      "channelDescriptionLinks": [
+        {
+          "text": "Nate's Newsletter",
+          "url": "https://natesnewsletter.substack.com/"
+        }
+      ],
+      "channelLocation": null,
+      "channelUsername": "NateBJones",
+      "channelAvatarUrl": "https://yt3.googleusercontent.com/ZSLf5xrM_VEcshgKYQ-UA8sWOpK1YB1R99_Rdqoln7fVcFW_HfyFCRI1R175YS0M1WGUbmmYvs8=s68-c-k-c0x00ffffff-no-rj",
+      "channelBannerUrl": "https://yt3.googleusercontent.com/4TV28xGPCDgv8bW8VpArg9_poHY8aQPPBFf76vy0ut3D4sSh1d3ltuuhK96wK2F2AVJh-xuYb1g=w2560-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "channelTotalVideos": 1074,
+      "channelTotalViews": 23313721,
+      "numberOfSubscribers": 304000,
+      "isChannelVerified": false,
+      "channelName": "AI News & Strategy Daily | Nate B Jones",
+      "channelUrl": "https://www.youtube.com/channel/UC0C-17n9iuUQPylguM1d-lQ",
+      "channelId": "UC0C-17n9iuUQPylguM1d-lQ",
+      "inputChannelUrl": "https://www.youtube.com/@natebjones/videos",
+      "isAgeRestricted": false
+    },
+    "duration": "00:19:17",
+    "commentsCount": 202,
+    "text": "Multi-agent AI systems just went from research project to recipe. I ran 20+ AI agents across 4 model families to rebuild a website in one afternoon for about $8 \u2014 and the system caught every hallucination, every shortcut, and even the boss model's own bug without me lifting a finger.\n\nLow Cost Multi-Agent Swarm:\nhttps://natesnewsletter.substack.com/...\n\nMy Links \ud83d\udd17\n\ud83d\udc49\ud83c\udffb Newsletter: https://natesnewsletter.substack.com/\n\ud83d\udc49\ud83c\udffb X: https://x.com/natebjones\n\ud83d\udc49\ud83c\udffb TikTok: \u00a0\u00a0/\u00a0nate.b.jones\u00a0\u00a0\n\ud83d\udc49\ud83c\udffb Instagram: \u00a0\u00a0/\u00a0nate.b.jones\u00a0\u00a0\n\nWhat's really happening inside multi-agent AI systems?\nThe common story is that hallucinations make AI agents too untrustworthy for real work \u2014 but the real question is whether trusting the agent was ever the right design in the first place.\n\nIn this video, I share the inside scoop on running a verified agent swarm:\nWhy one frontier boss plus cheap workers beats frontier-only pricing\nHow executed checks caught a hallucination, a cheat, and the boss's bug\nHow to audition new models before trusting them with real work\nWhat a written constitution does that task-by-task prompting can't\n\nHallucinations aren't solved \u2014 but with verification built into the structure, delegating big work to AI agents becomes a design question instead of a trust question.\n\nChapters:\n00:00 The hallucination that didn't matter\n01:56 Elsa's website and the 6-day baseline\n03:30 The build: a boss, 4 model families, 34 checked tasks\n04:18 The audition: hiring agents with a tryout\n05:18 The org chart and the honest cost breakdown\n07:11 Every task ships with an executed check\n07:49 Catch 1: the hallucinated quotes\n08:59 Catch 2: the worker that cheated\n09:59 Catch 3: the boss's own bug\n10:37 Catch 4: who checks the checkers\n12:45 The constitution: how to prompt for big work\n14:55 Elsa's verdict and where this leaves you\n\nListen to this video as a podcast.\n\nSpotify: https://open.spotify.com/show/0gkFdjd...\nApple Podcasts: https://podcasts.apple.com/us/podcast...",
+    "translatedText": null,
+    "descriptionLinks": [
+      {
+        "url": "https://natesnewsletter.substack.com/p/trust-ai-agents?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true",
+        "text": "https://natesnewsletter.substack.com/..."
+      },
+      {
+        "url": "https://natesnewsletter.substack.com/",
+        "text": "https://natesnewsletter.substack.com/"
+      },
+      {
+        "url": "https://x.com/natebjones",
+        "text": "https://x.com/natebjones"
+      },
+      {
+        "url": "https://www.tiktok.com/@nate.b.jones",
+        "text": "\u00a0\u00a0/\u00a0nate.b.jones\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.instagram.com/nate.b.jones",
+        "text": "\u00a0\u00a0/\u00a0nate.b.jones\u00a0\u00a0"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s",
+        "text": "00:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=116s",
+        "text": "01:56"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=210s",
+        "text": "03:30"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=258s",
+        "text": "04:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=318s",
+        "text": "05:18"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=431s",
+        "text": "07:11"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=469s",
+        "text": "07:49"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=539s",
+        "text": "08:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=599s",
+        "text": "09:59"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=637s",
+        "text": "10:37"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=765s",
+        "text": "12:45"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=suY66oTDn0s&t=895s",
+        "text": "14:55"
+      },
+      {
+        "url": "https://open.spotify.com/show/0gkFdjd1wptEKJKLu9LbZ4",
+        "text": "https://open.spotify.com/show/0gkFdjd..."
+      },
+      {
+        "url": "https://podcasts.apple.com/us/podcast/ai-news-strategy-daily-with-nate-b-jones/id1877109372",
+        "text": "https://podcasts.apple.com/us/podcast..."
+      }
+    ],
+    "subtitles": null,
+    "order": 0,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/@natebjones/videos",
+    "isMonetized": null,
+    "hashtags": [],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/@natebjones/videos",
+    "fromChannelListPage": "videos",
+    "isPaidContent": false
+  },
+  {
+    "title": "I Built a Claude Code Skill That Makes Websites Earning \u20ac13k/Month",
+    "translatedTitle": null,
+    "type": "video",
+    "id": "gSFZIn4OTOQ",
+    "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/gSFZIn4OTOQ/maxresdefault.jpg",
+    "viewCount": 1423,
+    "date": "2026-07-08T22:29:58.000Z",
+    "likes": 71,
+    "location": null,
+    "channelName": "Income stream surfers",
+    "channelUrl": "https://www.youtube.com/@Incomestreamsurfers",
+    "channelUsername": "Incomestreamsurfers",
+    "collaborators": null,
+    "channelId": "UCctL30i8tVgSS9A37Q532eg",
+    "numberOfSubscribers": 150000,
+    "duration": "00:12:57",
+    "commentsCount": 21,
+    "text": "This is the CRM video you've all been begging me for \u2014 and I've stripped the whole thing down into a Claude Code skill that generates an entire website + CRM for any business from one short brief.\n\n\ud83c\udfaf Get a 14-day semush trial \u2192 https://semrush.sjv.io/JkmbYa\n\n   (huge thanks to semrush for sponsoring this video)\n\nThanks to semrush for sponsoring this video and giving me access to the their tool !\n\nOne prompt gives you a real marketing site (home, about, services, contact, per-page SEO, Open Graph, sitemap, favicon, responsive), **lead-capture forms**, a **login-protected CRM dashboard** (leads inbox, stages, lead value, pipeline, CSV export) and **Stripe payments** \u2014 all wired together. I build it **live in under 5 minutes** for a plumbing business in Galway, and I do it on **Sonnet 5 on Low** (the worst-case model) on purpose \u2014 so imagine how good it looks on Opus 4.8 or with a proper design.\n\n\ud83c\udf81 **It's free.** The **GitHub repo, the skill, and the exact prompt** are all in the description \u2014 clone it and build your own.\n\nPrompt + Github Repo\n\nInstall and run the site-crm-builder skill to build me a website + \n\n1. Clone it and drop it into skills:\n   git clone https://github.com/IncomeStreamSurfer/site-crm-builder.git /tmp/site-crm-builder\n   mkdir -p ~/.claude/skills && cp -R /tmp/site-crm-builder ~/.claude/skills/site-crm-builder\n2. Read ~/.claude/skills/site-crm-builder/SKILL.md and follow it exactly.\n3. Build a site + CRM for my business:\n   - Business: pom\u2019s plumbing \u2014 plumbing service in galway Services: infer from niche/semrush. Contact: placeholder. Brand colour: your pick.\n   - (optional) I sell: product/service + price\n   - Admin login email: incomestreamsurfer@gmail.com\n\nI've created a Convex project and a Clerk app. Here are my env vars \u2014 do all the CLI/build/deploy work yourself, don't make me run commands:\nNEXT_PUBLIC_CONVEX_URL=https://hardy-lyrebird-762.convex.cloud\nCONVEX_DEPLOY_KEY=dev:hardy-lyrebird\nNEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YW1\nCLERK_SECRET_KEY=sk_test_aZ9ZTDlf03IXncn\nCLERK_JWT_ISSUER_DOMAIN=https://ample-\n# optional:\nSTRIPE_SECRET_KEY=sk_test_51TUpsE1jlhGkZBxzsQGWGn00V7J14P6H\nNEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51PC7ryS43ZWL3RM8tqL0qP4HBU1MBlGSxZQr4Oex00HOrydqmv\nVERCEL_TOKEN juse use the CLI i\u2019m logged in\n\n\n\ud83e\udde0 What you'll learn:\n\u2022 The one-brief flow: business name + niche \u2192 full site + CRM\n\u2022 Getting your keys: Stripe (publishable + secret), Clerk (JWT `convex` template + issuer), Convex (deploy key + cloud URL), Vercel CLI\n\u2022 Baking REAL SEO into the build with the Semrush MCP (keyword + seed terms for the niche)\n\u2022 Testing it: submit a lead \u2192 it lands in the CRM \u2192 set lead value \u2192 generate a Stripe payment link \u2192 export CSV\n\u2022 Why you should pair it with a Stitch/ChatGPT design for a much better look\n\n\u23f1\ufe0f Chapters\n0:00 The CRM skill everyone's been begging for\n0:06 One brief \u2192 a full website + CRM for any business\n0:17 What it builds: site, SEO, lead capture, CRM, Stripe\n0:47 The stack: Next.js, Convex, Clerk, Stripe, Vercel\n1:15 The API keys you need\n1:31 The starter prompt (runs the setup for you)\n2:25 Grabbing the keys \u2014 Stripe, Convex, Clerk\n3:19 Clerk: the JWT template for Convex (lowercase `convex`)\n3:53 Convex: deploy key + cloud URL\n4:35 Into Claude Code \u2014 fresh chat, Semrush MCP only\n4:50 Running on Sonnet 5, Low mode (worst case on purpose)\n5:06 Telling it to use Semrush to bake in real SEO\n5:38 Sponsor: Semrush (14-day free trial)\n7:03 Semrush keyword research on the niche\n7:50 Real Semrush results I've had (Ballinderry Park)\n8:41 The build begins\n9:04 Free GitHub repo + skill + prompt (all in the description)\n9:11 Remember: this is Sonnet 5 Low \u2014 Opus 4.8 looks far better\n9:42 Under 5 minutes \u2014 testing the lead form\n9:58 The lead lands in the CRM (working lead-gen)\n10:10 Dashboard + a small Convex fix\n10:27 Lead stages + creating a Stripe payment link\n10:48 Setting lead value (\u20ac10,000) + payment link\n11:03 CSV export + pipeline updates by lead value\n11:19 The SEO it generated (emergency plumber Galway, boiler service)\n11:48 \"Worst website ever?\" \u2014 pair it with a Stitch design\n12:12 Get the Semrush trial + the prompt + repo\n\n\n#ClaudeCode #CustomCRM #AIwebsite\n\nclaude code, claude code skill, claude code crm, custom crm, build a website with ai, ai website builder, website and crm, lead capture, lead generation, crm from scratch, next.js, astro, convex, clerk, stripe, stripe payment links, vercel, semrush, semrush mcp, claude code mcp, ai seo, llm seo, keyword research, build a crm with claude code, sonnet 5, sonnet 5 low, opus 4.8, ai for local business, agency website, client website, make money with ai, ai automation, vibe coding, anthropic claude, free github repo, claude code prompt, site builder skill, plumbing website, local seo, ai business\n\n#ClaudeCode #CustomCRM #AIwebsite #Convex #Clerk #Stripe #NextJS #Astro #Semrush #VibeCoding #AIautomation #Anthropic #LeadGeneration #ClaudeCodeSkill #MakeMoneyWithAI",
+    "translatedText": "This is the CRM video you've all been begging me for \u2014 and I've stripped the whole thing down into a Claude Code skill that generates an entire website + CRM for any business from one short brief.\n\n\ud83c\udfaf Get a 14-day semush trial \u2192 https://semrush.sjv.io/JkmbYa\n\n   (huge thanks to semrush for sponsoring this video)\n\nThanks to semrush for sponsoring this video and giving me access to the their tool !\n\nOne prompt gives you a real marketing site (home, about, services, contact, per-page SEO, Open Graph, sitemap, favicon, responsive), *lead-capture forms**, a **login-protected CRM dashboard* (leads inbox, stages, lead value, pipeline, CSV export) and *Stripe payments* \u2014 all wired together. I build it *live in under 5 minutes* for a plumbing business in Galway, and I do it on *Sonnet 5 on Low* (the worst-case model) on purpose \u2014 so imagine how good it looks on Opus 4.8 or with a proper design.\n\n\ud83c\udf81 *It's free.* The *GitHub repo, the skill, and the exact prompt* are all in the description \u2014 clone it and build your own.\n\nPrompt + Github Repo\n\nInstall and run the site-crm-builder skill to build me a website + \n\n1. Clone it and drop it into skills:\n   git clone https://github.com/IncomeStreamSurfer... /tmp/site-crm-builder\n   mkdir -p ~/.claude/skills && cp -R /tmp/site-crm-builder ~/.claude/skills/site-crm-builder\n2. Read ~/.claude/skills/site-crm-builder/SKILL.md and follow it exactly.\n3. Build a site + CRM for my business:\nBusiness: pom\u2019s plumbing \u2014 plumbing service in galway Services: infer from niche/semrush. Contact: placeholder. Brand colour: your pick.\n(optional) I sell: product/service + price\nAdmin login email: incomestreamsurfer@gmail.com\n\nI've created a Convex project and a Clerk app. Here are my env vars \u2014 do all the CLI/build/deploy work yourself, don't make me run commands:\nNEXT_PUBLIC_CONVEX_URL=https://hardy-lyrebird-762.convex.cloud\nCONVEX_DEPLOY_KEY=dev:hardy-lyrebird\nNEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_YW1\nCLERK_SECRET_KEY=sk_test_aZ9ZTDlf03IXncn\nCLERK_JWT_ISSUER_DOMAIN=https://ample-\noptional:\nSTRIPE_SECRET_KEY=sk_test_51TUpsE1jlhGkZBxzsQGWGn00V7J14P6H\nNEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51PC7ryS43ZWL3RM8tqL0qP4HBU1MBlGSxZQr4Oex00HOrydqmv\nVERCEL_TOKEN juse use the CLI i\u2019m logged in\n\n\n\ud83e\udde0 What you'll learn:\n\u2022 The one-brief flow: business name + niche \u2192 full site + CRM\n\u2022 Getting your keys: Stripe (publishable + secret), Clerk (JWT `convex` template + issuer), Convex (deploy key + cloud URL), Vercel CLI\n\u2022 Baking REAL SEO into the build with the Semrush MCP (keyword + seed terms for the niche)\n\u2022 Testing it: submit a lead \u2192 it lands in the CRM \u2192 set lead value \u2192 generate a Stripe payment link \u2192 export CSV\n\u2022 Why you should pair it with a Stitch/ChatGPT design for a much better look\n\n\u23f1\ufe0f Chapters\n0:00 The CRM skill everyone's been begging for\n0:06 One brief \u2192 a full website + CRM for any business\n0:17 What it builds: site, SEO, lead capture, CRM, Stripe\n0:47 The stack: Next.js, Convex, Clerk, Stripe, Vercel\n1:15 The API keys you need\n1:31 The starter prompt (runs the setup for you)\n2:25 Grabbing the keys \u2014 Stripe, Convex, Clerk\n3:19 Clerk: the JWT template for Convex (lowercase `convex`)\n3:53 Convex: deploy key + cloud URL\n4:35 Into Claude Code \u2014 fresh chat, Semrush MCP only\n4:50 Running on Sonnet 5, Low mode (worst case on purpose)\n5:06 Telling it to use Semrush to bake in real SEO\n5:38 Sponsor: Semrush (14-day free trial)\n7:03 Semrush keyword research on the niche\n7:50 Real Semrush results I've had (Ballinderry Park)\n8:41 The build begins\n9:04 Free GitHub repo + skill + prompt (all in the description)\n9:11 Remember: this is Sonnet 5 Low \u2014 Opus 4.8 looks far better\n9:42 Under 5 minutes \u2014 testing the lead form\n9:58 The lead lands in the CRM (working lead-gen)\n10:10 Dashboard + a small Convex fix\n10:27 Lead stages + creating a Stripe payment link\n10:48 Setting lead value (\u20ac10,000) + payment link\n11:03 CSV export + pipeline updates by lead value\n11:19 The SEO it generated (emergency plumber Galway, boiler service)\n11:48 \"Worst website ever?\" \u2014 pair it with a Stitch design\n12:12 Get the Semrush trial + the prompt + repo\n\n\n#ClaudeCode #CustomCRM #AIwebsite\n\nclaude code, claude code skill, claude code crm, custom crm, build a website with ai, ai website builder, website and crm, lead capture, lead generation, crm from scratch, next.js, astro, convex, clerk, stripe, stripe payment links, vercel, semrush, semrush mcp, claude code mcp, ai seo, llm seo, keyword research, build a crm with claude code, sonnet 5, sonnet 5 low, opus 4.8, ai for local business, agency website, client website, make money with ai, ai automation, vibe coding, anthropic claude, free github repo, claude code prompt, site builder skill, plumbing website, local seo, ai business\n\n#ClaudeCode #CustomCRM #AIwebsite #Convex #Clerk #Stripe #NextJS #Astro #Semrush #VibeCoding #AIautomation #Anthropic #LeadGeneration #ClaudeCodeSkill #MakeMoneyWithAI",
+    "descriptionLinks": [
+      {
+        "url": "https://semrush.sjv.io/JkmbYa",
+        "text": "https://semrush.sjv.io/JkmbYa"
+      },
+      {
+        "url": "https://github.com/IncomeStreamSurfer/site-crm-builder.git",
+        "text": "https://github.com/IncomeStreamSurfer..."
+      },
+      {
+        "url": "https://hardy-lyrebird-762.convex.cloud/",
+        "text": "https://hardy-lyrebird-762.convex.cloud"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ",
+        "text": "0:00"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=6s",
+        "text": "0:06"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=17s",
+        "text": "0:17"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=47s",
+        "text": "0:47"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=75s",
+        "text": "1:15"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=91s",
+        "text": "1:31"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=145s",
+        "text": "2:25"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=199s",
+        "text": "3:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=233s",
+        "text": "3:53"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=275s",
+        "text": "4:35"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=290s",
+        "text": "4:50"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=306s",
+        "text": "5:06"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=338s",
+        "text": "5:38"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=423s",
+        "text": "7:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=470s",
+        "text": "7:50"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=521s",
+        "text": "8:41"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=544s",
+        "text": "9:04"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=551s",
+        "text": "9:11"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=582s",
+        "text": "9:42"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=598s",
+        "text": "9:58"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=610s",
+        "text": "10:10"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=627s",
+        "text": "10:27"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=648s",
+        "text": "10:48"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=663s",
+        "text": "11:03"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=679s",
+        "text": "11:19"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=708s",
+        "text": "11:48"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=gSFZIn4OTOQ&t=732s",
+        "text": "12:12"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claudecode",
+        "text": "#ClaudeCode"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/customcrm",
+        "text": "#CustomCRM"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiwebsite",
+        "text": "#AIwebsite"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claudecode",
+        "text": "#ClaudeCode"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/customcrm",
+        "text": "#CustomCRM"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiwebsite",
+        "text": "#AIwebsite"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/convex",
+        "text": "#Convex"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/clerk",
+        "text": "#Clerk"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/stripe",
+        "text": "#Stripe"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/nextjs",
+        "text": "#NextJS"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/astro",
+        "text": "#Astro"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/semrush",
+        "text": "#Semrush"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/vibecoding",
+        "text": "#VibeCoding"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/aiautomation",
+        "text": "#AIautomation"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/anthropic",
+        "text": "#Anthropic"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/leadgeneration",
+        "text": "#LeadGeneration"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/claudecodeskill",
+        "text": "#ClaudeCodeSkill"
+      },
+      {
+        "url": "https://www.youtube.com/hashtag/makemoneywithai",
+        "text": "#MakeMoneyWithAI"
+      }
+    ],
+    "subtitles": null,
+    "order": 26,
+    "commentsTurnedOff": false,
+    "fromYTUrl": "https://www.youtube.com/results?search_query=Claude+Code+skill+marketplace",
+    "isMonetized": null,
+    "hashtags": [
+      "#ClaudeCode",
+      "#CustomCRM",
+      "#AIwebsite"
+    ],
+    "isMembersOnly": false,
+    "input": "https://www.youtube.com/results?search_query=Claude%20Code%20skill%20marketplace",
+    "isPaidContent": true
+  }
+]
